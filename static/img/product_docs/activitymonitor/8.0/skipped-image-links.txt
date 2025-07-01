@@ -1,0 +1,363 @@
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\activedirectory.md
+Context:
+**Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
+
+![Install New Agent](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+
+**Step 2 –** Click on the Install agents on Active Directory domain controllers link to deploy
+Original image link: ![Install New Agent](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\activedirectory.md
+Context:
+**Server Name** text box.
+
+![Specify Agent Port](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+
+**Step 3 –** Specify the port that should be used by the new agent(s).
+Original image link: ![Specify Agent Port](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\linux.md
+Context:
+**Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
+
+![Install New Agent page of the Add New Agent(s) Wizard](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+
+**Step 2 –** On the Install New Agent page, enter the server name for the Linux host. Click
+Original image link: ![Install New Agent page of the Add New Agent(s) Wizard](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\linux.md
+Context:
+**Next**.
+
+![Specify Agent Port](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+
+**Step 3 –** On the Agent Port page, specify the port to be used by the new agent. The default port
+Original image link: ![Specify Agent Port](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\multiple.md
+Context:
+**Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
+
+![Install New Agent](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+
+**Step 2 –** On the Install new agent page, click the install agents on multiple hosts link to
+Original image link: ![Install New Agent](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\multiple.md
+Context:
+deploy activity agents to multiple hosts.
+
+![Specify Agent Port page - specify port that should be used by new agent](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+
+**Step 3 –** On the Specify Agent Port page, specify the port that should be used by the new agent.
+Original image link: ![Specify Agent Port page - specify port that should be used by new agent](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\multiple.md
+Context:
+Multiple Hosts** table. Click **Next**.
+
+![Credentials to Connect to the Server(s) window](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+
+**Step 5 –** On the Credentials To Connect To The Server(s) page, connect to the server using either
+Original image link: ![Credentials to Connect to the Server(s) window](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\single.md
+Context:
+**Step 1 –** On the Agents tab, click Add agent to open the Add New Agent(s) window.
+
+![Install New Agent window](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+
+**Step 2 –** On the Install new agent page, enter the Server name (name or IP Address) to deploy to
+Original image link: ![Install New Agent window](/img/product_docs/activitymonitor/8.0/install/agent/installnew.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\single.md
+Context:
+a single server. Leave the field blank to deploy the agent on the local server. Click Next.
+
+![Specify Agent Port page](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+
+**Step 3 –** On the Specify Port page, specify the port that should be used by the new agent. The
+Original image link: ![Specify Agent Port page](/img/product_docs/activitymonitor/8.0/install/agent/portdefault.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\single.md
+Context:
+default port is 4498. Click **Next**.
+
+![Credentials to Connect to the Server(s) page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+
+**Step 4 –** On the Credentials To Connect To The Server(s) page, select ether Windows or Linux file
+Original image link: ![Credentials to Connect to the Server(s) page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\agents\add\single.md
+Context:
+errors, the Activity Monitor stops the installation and lists the errors in the Agent messages box.
+
+![consolewithagent](/img/product_docs/activitymonitor/8.0/install/agent/consolewithagent.webp)
+
+When the activity agent installation is complete, the status changes to **Installed** and the
+Original image link: ![consolewithagent](/img/product_docs/activitymonitor/8.0/install/agent/consolewithagent.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\monitoredhosts\properties\nasuni.md
+Context:
+- Connect – Click to connect using the selected protocol and validate the connection with Nasuni
+
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
+HTTPS Options – Opens the Trusted server certificate window to customize the certificate
+verification during a TLS session
+Original image link: ![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\monitoredhosts\properties\netapp.md
+Context:
+- Connect – Click to connect using the selected protocol and validate the connection with NetApp
+
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
+HTTPS Options – Opens the Trusted server certificate window to customize the certificate
+verification during a TLS session
+Original image link: ![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\monitoredhosts\properties\nutanix.md
+Context:
+- Connect – Click to connect using the selected protocol and validate the connection with Nutanix
+
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
+HTTPS Options – Opens the Trusted server certificate window to customize the certificate
+verification during a TLS session
+Original image link: ![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\monitoredhosts\properties\panzura.md
+Context:
+- Connect – Click to connect using the selected protocol and validate the connection with Panzura
+
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
+HTTPS Options – Opens the Trusted server certificate window to customize the certificate
+verification during a TLS session
+Original image link: ![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\monitoredhosts\properties\qumulo.md
+Context:
+- Connect – Click to connect using the selected protocol and validate the connection with Qumulo
+
+![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)-
+HTTPS Options – Opens the Trusted server certificate window to customize the certificate
+verification during a TLS session
+Original image link: ![Trusted Server Certificate popup window](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/add/trustedservercertificate.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\admin\outputs\window\specifywindowsaccount.md
+Context:
+The Specify account or group window is opened from a field where a Windows account is needed.
+
+![Specify Account or Group popup window](/img/product_docs/activitymonitor/8.0/admin/agents/properties/windowsspecifyaccountorgroup.webp)
+
+Follow the steps to use this window.
+Original image link: ![Specify Account or Group popup window](/img/product_docs/activitymonitor/8.0/admin/agents/properties/windowsspecifyaccountorgroup.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellcelerravnx\InstallCEE.md
+Context:
+**Step 1 –** Open the Registry Editor (run regedit).
+
+![registryeditor](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/registryeditor.webp)
+
+**Step 2 –** Navigate to following location:
+Original image link: ![registryeditor](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/registryeditor.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellcelerravnx\InstallCEE.md
+Context:
+**Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
+
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+
+**Step 8 –** Open Services (run `services.msc`). Start or Restart the EMC CEE Monitor service.
+Original image link: ![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellcelerravnx\Validate.md
+Context:
+HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
+
+![registryeditorendpoint](/img/product_docs/activitymonitor/8.0/config/dellunity/registryeditorendpoint.webp)
+
+**Step 2 –** Ensure that the Enabled parameter is set to 1.
+Original image link: ![registryeditorendpoint](/img/product_docs/activitymonitor/8.0/config/dellunity/registryeditorendpoint.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellcelerravnx\Validate.md
+Context:
+`services.msc`).
+
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+
+The following services laid down by the Dell CEE installer should have Running as their status:
+Original image link: ![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellpowerscale\InstallCEE.md
+Context:
+**Step 1 –** Open the Registry Editor (run regedit).
+
+![registryeditor](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/registryeditor.webp)
+
+**Step 2 –** Navigate to following location:
+Original image link: ![registryeditor](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/registryeditor.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellpowerscale\InstallCEE.md
+Context:
+**Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
+
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+
+**Step 8 –** Open Services (run `services.msc`). Start or Restart the EMC CEE Monitor service.
+Original image link: ![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellpowerscale\validate.md
+Context:
+HKEY_LOCAL_MACHINE\SOFTWARE\EMC\CEE\CEPP\Audit\Configuration
+
+![registryeditorendpoint](/img/product_docs/activitymonitor/8.0/config/dellunity/registryeditorendpoint.webp)
+
+**Step 2 –** Ensure that the Enabled parameter is set to 1.
+Original image link: ![registryeditorendpoint](/img/product_docs/activitymonitor/8.0/config/dellunity/registryeditorendpoint.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellpowerscale\validate.md
+Context:
+`services.msc`).
+
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+
+The following services laid down by the Dell CEE installer should have Running as their status:
+Original image link: ![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellunity\InstallCEE.md
+Context:
+**Step 1 –** Open the Registry Editor (run regedit).
+
+![registryeditor](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/registryeditor.webp)
+
+**Step 2 –** Navigate to following location:
+Original image link: ![registryeditor](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/registryeditor.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellunity\InstallCEE.md
+Context:
+**Step 7 –** Click OK. The Edit String window closes. Registry Editor can be closed.
+
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+
+**Step 8 –** Open Services (run `services.msc`). Start or Restart the EMC CEE Monitor service.
+Original image link: ![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\activitymonitor\8.0\config\dellunity\Validate.md
+Context:
+`services.msc`).
+
+![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+
+The following services laid down by the Dell CEE installer should have Running as their status:
+Original image link: ![services](/img/product_docs/activitymonitor/8.0/config/dellpowerstore/services.webp)
+Case: Path alignment mismatch
+No suggested images found.

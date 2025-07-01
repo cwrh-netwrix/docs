@@ -4,7 +4,7 @@ You can search for documents based on the class clues. For that, click on the na
 clue in the clue list in the management console (or even any suggested clue), go to the **Search**
 tab and configure search settings.
 
-![searchtab](/img/product_docs/activitymonitor/7.1/admin/search/searchtab.webp)
+![searchtab](/img/product_docs/dataclassification/5.6.2/taxonomies/searchtab.webp)
 
 1. Set up the following properties that will be considered a basis for the search:
 

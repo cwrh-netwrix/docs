@@ -1,0 +1,25 @@
+
+---
+File: docs\directorymanager\11.0\admincenter\entitlement\entraid\manage.md
+Context:
+  following icons:
+
+    ![replicate_permissions](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/replicate_permissions.webp)
+
+    Either click the **Replicate** icon or the **Replicate** button.
+Original image link: ![replicate_permissions](/img/product_docs/directorymanager/11.0/admincenter/entitlement/ad/replicate_permissions.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\directorymanager\11.0\admincenter\service\overview.md
+Context:
+[Opening IIS Manager](https://docs.microsoft.com/en-us/previous-versions/iis/6.0-sdk/ms525920(v=vs.90)).
+
+![in_iis](/img/product_docs/directorymanager/11.0/admincenter/portal/in_iis.webp)
+
+To open Docker Desktop on Windows, search for Docker and select Docker Desktop in the search results
+Original image link: ![in_iis](/img/product_docs/directorymanager/11.0/admincenter/portal/in_iis.webp)
+Case: Path alignment mismatch
+No suggested images found.

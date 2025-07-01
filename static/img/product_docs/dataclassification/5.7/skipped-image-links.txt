@@ -1,0 +1,77 @@
+
+---
+File: docs\dataclassification\5.7\admin\sources\box\managebox.md
+Context:
+2. Click **Add**.
+
+![boxexclusions](/img/product_docs/dataclassification/5.7/admin/sources/database/boxexclusions.webp)
+
+3. Click **Filter** and in the **Filter** field specify the objects (files or folders) to exclude:
+Original image link: ![boxexclusions](/img/product_docs/dataclassification/5.7/admin/sources/database/boxexclusions.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\dataclassification\5.7\admin\sources\googledrive\managegoogledrive.md
+Context:
+    | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                              |
+
+    ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
+
+    When finished, click **Add**.
+Original image link: ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\dataclassification\5.7\admin\sources\settingadvancedconfiguration.md
+Context:
+- Configuration Viewer—Use this simple XML view to examine the raw configuration.
+
+![sharepointadvancedsourceconfiguration_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedsourceconfiguration_thumb_0_0.webp)
+
+### Understanding custom metadata mappings
+Original image link: ![sharepointadvancedsourceconfiguration_thumb_0_0](/img/product_docs/dataclassification/5.7/configuration/configinfrastructure/sharepointadvancedsourceconfiguration_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\dataclassification\5.7\admin\sources\sharepoint\managinglistofexclusions.md
+Context:
+    | Has no values | Exclude the document if metadata field value is not specified. With this criteria selected, specify **Field Name**.                                                                                                                                                                                                                                                                                                                                                              |
+
+    ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
+
+    When finished, click **Add**.
+Original image link: ![gdrive_exclusion_condition_2_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/sources/box/gdrive_exclusion_condition_2_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\dataclassification\5.7\admin\taxonomies\browse.md
+Context:
+  will find any documents that scored between 50 and 60.
+
+![browsetab_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/browsetab_thumb_0_0.webp)
+
+To restrict the browsing scope, you can either add a URL filter, or add a custom filter, as well as
+Original image link: ![browsetab_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/browsetab_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\dataclassification\5.7\admin\taxonomies\workingset.md
+Context:
+Set links:
+
+![browsetab_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/browsetab_thumb_0_0.webp)
+
+The following facilities are available:
+Original image link: ![browsetab_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/browsetab_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.

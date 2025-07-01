@@ -12,4 +12,4 @@ The default licensing display provides a summary of the current license state. S
 load / update a license. You can also view and manage the available license by selecting Licenses
 from the side menu.
 
-![licensing](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/licensing.webp)
+![licensing](/img/product_docs/dataclassification/5.6.2/configuration/licensing.webp)

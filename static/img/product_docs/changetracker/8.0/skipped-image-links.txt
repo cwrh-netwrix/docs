@@ -1,0 +1,12 @@
+
+---
+File: docs\changetracker\8.0\admin\wizards\compliance.md
+Context:
+group.
+
+![complianceoverviewtab](/img/product_docs/changetracker/8.0/admin/tabs/complianceoverviewtab.webp)
+
+The screen shows the previous 7 compliance report results to track any drift against your selected
+Original image link: ![complianceoverviewtab](/img/product_docs/changetracker/8.0/admin/tabs/complianceoverviewtab.webp)
+Case: Path alignment mismatch
+No suggested images found.

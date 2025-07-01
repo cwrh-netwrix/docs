@@ -1,0 +1,25 @@
+
+---
+File: docs\dataclassification\5.6.2\sources\box\manage_box.md
+Context:
+2. Click **Add**.
+
+![boxexclusions](/img/product_docs/dataclassification/5.6.2/sources/database/boxexclusions.webp)
+
+3. Click **Filter** and in the **Filter** field specify the objects (files or folders) to exclude:
+Original image link: ![boxexclusions](/img/product_docs/dataclassification/5.6.2/sources/database/boxexclusions.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\dataclassification\5.6.2\sources\dropbox\dropbox_source.md
+Context:
+| Access Shared Team Folder as: | If you have team folders in your Dropbox namespace and you want to crawl one or more of these folders with Netwrix Data Classification, provide the email address of an account that has access to the desired team folders. For personal folders, this option is not required. For more information, refer to Dropbox [Namespace guide](https://www.dropbox.com/developers/reference/namespace-guide).                                                                                                                                                                                               |
+| OCR Processing mode           | Select documents' images processing mode: - Disabled – documents' images will not be processed. - Default – defaults to the source settings if configuring a path or the global setting if configured on a source. - Normal – images are processed with normal quality settings. - Enhanced – upscale images further to allow more.                                                                                                                                                                                                                                                                   |
+| Advanced Settings             | Click the "wrench" icon in the Settings area (![gdrive_advanced_settings](/img/product_docs/dataclassification/5.6.2/sources/google_drive/gdrive_advanced_settings.webp)) at the bottom of the screen to expand the following advanced settings: - Re-Index Period — specifies how often the source should be checked for changes. The number specifies the period in days. - Priority — specifies the priority of content source processing in the service queues. - Document Type — can be used to specify a value which can be used to restrict queries when utilizing the core search index. |
+| Source Group                  | Netwrix recommends creating a dedicated source group for Dropbox.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Pause source on creation      | Select if you want to make other configuration changes before collection of the source occurs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+Original image link: ![gdrive_advanced_settings](/img/product_docs/dataclassification/5.6.2/sources/google_drive/gdrive_advanced_settings.webp)
+Case: Path alignment mismatch
+No suggested images found.
