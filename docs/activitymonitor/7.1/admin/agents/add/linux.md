@@ -88,7 +88,7 @@ cat ~/.ssh/id_ecdsa
 **Next**. If the connection is unsuccessful, see the status message that appears for information on
 the failed connection.
 
-![Linux Agent Options](/img/product_docs/activitymonitor/7.1/install/agent/linuxagentoptions.webp)
+![Linux Agent Options](/img/product_docs/activitymonitor/7.1/admin/agents/add/linuxagentoptions.webp)
 
 **Step 6 –** On the Linux Agent Options page, select which user name to use to run the daemon. To
 use root, leave the **Service user name** field blank. Click **Test** to test the connection.

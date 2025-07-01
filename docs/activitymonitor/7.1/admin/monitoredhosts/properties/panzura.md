@@ -3,7 +3,7 @@
 After a Panzura host is added to the monitored hosts table, the configuration settings are edited
 using the tabs in the Properties window of the host.
 
-![panzuratab](/img/product_docs/activitymonitor/7.1/admin/agents/properties/panzuratab.webp)
+![panzuratab](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/properties/panzuratab.webp)
 
 The **Panzura** tab allows users to modify settings which were populated with the information
 entered when the Panzura host was added.

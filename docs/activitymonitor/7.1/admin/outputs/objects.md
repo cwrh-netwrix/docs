@@ -6,7 +6,7 @@ be modified. These settings are initially configured when the output is added.
 Select an output for a SQL Server host on the Monitored Hosts tab and click **Edit** to open the
 output Properties window.
 
-![Objects Tab](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/objectstab.webp)
+![Objects Tab](/img/product_docs/activitymonitor/7.1/admin/outputs/objectstab.webp)
 
 The **Refresh** button populates the list of SQL Server objects for the selected host. By default,
 all objects are checked and will be monitored. Check and uncheck objects as desired.

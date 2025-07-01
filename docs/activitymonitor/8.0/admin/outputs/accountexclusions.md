@@ -132,7 +132,7 @@ Properties window closes.
 
 The tab contains the following settings:
 
-![Account Exlcusions tab for Windows Hosts](/img/product_docs/activitymonitor/8.0/admin/monitoredhosts/properties/windows.webp)
+![Account Exlcusions tab for Windows Hosts](/img/product_docs/activitymonitor/8.0/admin/outputs/windows.webp)
 
 - Add Windows Account – Opens the Specify account or group window to add an account for exclusion.
   See the [Specify Account or Group Window](/docs/activitymonitor/8.0/admin/outputs/window/specifywindowsaccount.md) topic for additional

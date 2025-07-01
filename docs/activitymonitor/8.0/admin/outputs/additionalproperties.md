@@ -6,7 +6,7 @@ name can be modified. These settings are initially configured when the output is
 Select an output from the Monitored Hosts tab and click **Edit** to open the output Properties
 window.
 
-![Additional Properties](/img/product_docs/activitymonitor/8.0/admin/agents/properties/additionalpropertiestab.webp)
+![Additional Properties](/img/product_docs/activitymonitor/8.0/admin/outputs/additionalpropertiestab.webp)
 
 The options are:
 

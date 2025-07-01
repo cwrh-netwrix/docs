@@ -4,7 +4,7 @@ The search feature consolidates and compartmentalizes search results based on ev
 users, hosts, etc. Search results populate based on which query filters are chosen. Results may then
 be sorted, filtered, and/or exported into a CSV file or JSON file, depending on the type data.
 
-![Search Tab](/img/product_docs/dataclassification/5.7/admin/taxonomies/searchtab.webp)
+![Search Tab](/img/product_docs/activitymonitor/8.0/admin/search/searchtab.webp)
 
 **NOTE:** Search results are pulled from the File output of the monitored host or domain.
 

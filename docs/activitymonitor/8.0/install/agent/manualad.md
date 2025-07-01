@@ -9,7 +9,7 @@ Follow the steps to manually deploy the AD Module.
 you want to install the Agent. Then run the executable. The Netwrix Threat Prevention Windows Agent
 Setup wizard opens.
 
-![StealthINTERCEPT Windows Agent Setup wizard on the Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![StealthINTERCEPT Windows Agent Setup wizard on the Welcome page](/img/product_docs/activitymonitor/8.0/install/agent/welcome_1.webp)
 
 **Step 2 –** On the Welcome page, click **Install**. The Setup Progress page is displayed, followed
 by another Welcome page.
@@ -23,7 +23,7 @@ by another Welcome page.
 **Step 4 –** On the End-User License Agreement page, check the **I accept the terms in the License
 Agreement** box and click **Next**.
 
-![Destination Folder Page](/img/product_docs/activitymonitor/8.0/install/destinationfolder.webp)
+![Destination Folder Page](/img/product_docs/activitymonitor/8.0/install/agent/destinationfolder_1.webp)
 
 **Step 5 –** _(Optional)_ On the Destination Folder page, change the installation directory
 location.

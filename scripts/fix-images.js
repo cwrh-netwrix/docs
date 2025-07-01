@@ -89,10 +89,13 @@ function openImage(filePath) {
   spawn(cmd, args, { stdio: 'ignore', detached: true }).unref();
 }
 
-function getProductFolderFromImgPath(imgPath) {
-  // Extract product folder from /img/product_docs/<product-folder>/...
+function getProductFolderFromImgPath(imgPath, productFolder) {
+  // Count how many segments in productFolder
+  const numSegments = productFolder.split('/').length;
+  // Build regex to match that many segments after img/product_docs/
+  const regex = new RegExp('(?:^|/)img/product_docs/((?:[^/]+/){' + (numSegments - 1) + '}[^/]+)/');
   const norm = imgPath.replace(/\\/g, '/');
-  const m = norm.match(/(?:^|\/)img\/product_docs\/([^/]+\/[^/]+)\//);
+  const m = norm.match(regex);
   return m ? m[1] : null;
 }
 
@@ -122,7 +125,7 @@ function getExpectedImagePath(productFolder, mdFile, origImgPath) {
 
 function isProductFolderMismatch(productFolder, imgPath) {
   // True if the product folder in the image path does not match the input
-  const found = getProductFolderFromImgPath(imgPath);
+  const found = getProductFolderFromImgPath(imgPath, productFolder);
   return found && found !== productFolder;
 }
 
@@ -178,6 +181,27 @@ function getCandidateImagePaths(productFolder, mdFile, origImgPath) {
       // Return all matches at this level only
       return [...new Set(found)];
     }
+    // If not found, check one level deeper: a subfolder named after the markdown file's base name
+    if (currDir !== '.' && currDir !== '' && currDir !== path.sep) {
+      const mdBaseName = path.basename(mdRelPath, path.extname(mdRelPath));
+      const subDir = parentDir + '/' + mdBaseName;
+      const subDirFs = path.join('static', subDir.replace(/^\/?img\//, 'img/').replace(/^\/?/, ''));
+      let foundSub = [];
+      if (fs.existsSync(subDirFs)) {
+        const files = fs.readdirSync(subDirFs);
+        files.forEach(f => {
+          if (
+            (f === imgFileName ||
+              (f.startsWith(prefixName + '_') && f.endsWith(ext) && /^_\d+/.test(f.slice(prefixName.length))))
+          ) {
+            foundSub.push((subDir + '/' + f).replace(/\\/g, '/').replace(/\/\//g, '/'));
+          }
+        });
+      }
+      if (foundSub.length > 0) {
+        return [...new Set(foundSub)];
+      }
+    }
     if (currDir === '' || currDir === '.' || currDir === path.sep) break;
     currDir = path.dirname(currDir);
   }
@@ -198,16 +222,21 @@ async function main() {
     process.exit(1);
   }
   const mdFiles = walkDir(docsRoot, '.md');
+  // Track skipped image links for this run
+  const skippedLinks = new Set();
   for (const mdFile of mdFiles) {
     const mdContent = fs.readFileSync(mdFile, 'utf8');
     const links = findImageLinks(mdContent);
     let newContent = mdContent;
-    
     // Collect all changes first, then apply them in reverse order to avoid index shifting
     const changes = [];
-    
     for (const linkObj of links) {
       const { link, path: imgPath, index } = linkObj;
+      // Create a unique key for this image link in this file
+      const skipKey = mdFile + '|' + link;
+      if (skippedLinks.has(skipKey)) {
+        continue;
+      }
       let caseType = null;
       if ((whichCase === 'both' || whichCase === 'product') && isProductFolderMismatch(inputFolder, imgPath)) {
         caseType = 'product';
@@ -228,9 +257,7 @@ async function main() {
       } else if (caseType === 'path') {
         console.log(`${colors.red}Case: Path alignment mismatch${colors.reset}`);
       }
-      if (candidates.length === 0) {
-        console.log(colors.red, 'No suggested images found.', colors.reset);
-      } else if (candidates.length === 1) {
+      if (candidates.length === 1) {
         // Auto-update with the single candidate
         const action = candidates[0];
         let imgFsPath = action.replace(/^\//, '');
@@ -250,15 +277,22 @@ async function main() {
           // Fallback to prompt if file doesn't exist
         }
       } else {
-        // Print suggested images if there are multiple candidates
-        if (candidates.length > 1) {
+        if (candidates.length === 0) {
+          console.log(colors.red, 'No suggested images found.', colors.reset);
+          // Automatically skip if this is a path alignment mismatch
+          if (caseType === 'path') {
+            skippedLinks.add(skipKey);
+            continue;
+          }
+        } else {
+          // Print suggested images if there are multiple candidates
           console.log('Suggested image(s):');
           candidates.forEach((c, i) => {
             console.log(`  ${colors.green}[${i + 1}] ${c}${colors.reset}`);
           });
         }
         let action;
-        while (true) {
+        while (candidates.length > 0 || (caseType !== 'path' && candidates.length === 0)) {
           let prompt = `\n${colors.bold}Choose an option:${colors.reset}\n`;
           if (candidates.length) prompt += '  [1-' + candidates.length + '] Select a suggested image\n';
           prompt += '  [c] Enter custom path\n  [s] Skip\n> ';
@@ -268,20 +302,21 @@ async function main() {
           } else if (action.toLowerCase() === 'c') {
             action = await promptUser('Enter custom image path: ');
           } else if (action.toLowerCase() === 's') {
-            action = null;
+            // Mark this image link as skipped for this run
+            skippedLinks.add(skipKey);
             break;
           } else {
             console.log('Invalid input.');
             continue;
           }
           // Check if file exists (relative to static/ or root)
-          let imgFsPath = action.replace(/^\//, '');
-          if (!imgFsPath.startsWith('static/')) imgFsPath = 'static/' + imgFsPath;
-          if (!fs.existsSync(imgFsPath)) {
+          let imgFsPath = action ? action.replace(/^\//, '') : '';
+          if (action && !imgFsPath.startsWith('static/')) imgFsPath = 'static/' + imgFsPath;
+          if (action && !fs.existsSync(imgFsPath)) {
             console.log('File does not exist:', imgFsPath);
             continue;
           }
-          openImage(imgFsPath);
+          if (action) openImage(imgFsPath);
           const confirm = await promptUser('Use this image? [y/N]: ');
           if (confirm.toLowerCase() === 'y') {
             // Use root-relative path for markdown
@@ -300,13 +335,11 @@ async function main() {
         }
       }
     }
-    
     // Apply all changes in reverse order to avoid index shifting
     changes.sort((a, b) => b.index - a.index);
     for (const change of changes) {
       newContent = newContent.replace(change.originalLink, change.newLink);
     }
-    
     if (newContent !== mdContent) {
       fs.writeFileSync(mdFile, newContent, 'utf8');
       console.log('File updated:', mdFile);

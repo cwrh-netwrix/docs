@@ -32,7 +32,7 @@ _(Optional)_ Enter a comment for the Exchange Online host.
 and Region(optional) then click **Connect** to verify the connection.. Click **Open Instruction...**
 for steps on registering the Activity Monitor with Microsoft Azure. Click **Next**.
 
-![operations](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![operations](/img/product_docs/activitymonitor/7.1/admin/monitoredhosts/add/operations.webp)
 
 **Step 5 –** On the Exchange Online Operations page, configure the options found in the following
 tabs:

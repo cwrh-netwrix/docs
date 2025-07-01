@@ -2,7 +2,7 @@
 
 View deletion information in the Deletions Dashboard for Splunk.
 
-![Deletions Dashboard for Stealthbits Activivty Monitor App for Splunk](/img/product_docs/activitymonitor/8.0/siem/qradar/dashboard/deletionsdashboard.webp)
+![Deletions Dashboard for Stealthbits Activivty Monitor App for Splunk](/img/product_docs/activitymonitor/8.0/siem/splunk/dashboard/deletionsdashboard.webp)
 
 The Deletions dashboard contains the following cards:
 

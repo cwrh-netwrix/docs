@@ -72,7 +72,7 @@ Properties window closes.
 
 The tab contains the following settings and features:
 
-![operations](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/operations.webp)
+![operations](/img/product_docs/activitymonitor/7.1/admin/outputs/operations.webp)
 
 - File Operations – Scope by file operation events: Add, Delete, Rename, Permission change, Read,
   Update
@@ -121,7 +121,7 @@ Properties window closes.
 The tab contains a subset of tabs. Each tab has a **Select All** check box to include all events for
 that tab.
 
-![Operations Tab for SharePoint Online Properties](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/operationstab.webp)
+![Operations Tab for SharePoint Online Properties](/img/product_docs/activitymonitor/7.1/admin/outputs/operationstab.webp)
 
 You can scope by the following events:
 

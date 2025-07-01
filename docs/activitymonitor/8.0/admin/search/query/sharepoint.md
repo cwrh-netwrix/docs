@@ -113,7 +113,7 @@ This section has the following filters:
 
 The Delete category scopes the query by type of delete activity.
 
-![SharePoint Search Query - Delete FIlters](/img/product_docs/platgovnetsuite/integrations/delete.webp)
+![SharePoint Search Query - Delete FIlters](/img/product_docs/activitymonitor/8.0/admin/search/query/delete.webp)
 
 This section has the following filters:
 
