@@ -12,7 +12,7 @@ example: `http://[server]/pwreset/apr.dll? cmd=enroll&username=maryjones&domain=
 
 Where [server] is the name or IP address of the server hosting the Web Interface.
 
-![using_apr](/img/product_docs/passwordreset/3.23/evaluation/using_apr_1.webp)
+![using_apr](/img/product_docs/passwordreset/3.23/administration/using_apr_1.webp)
 
 Users access the Enroll, Reset, Unlock, and Change features from the menu. These features are
 explained on the following pages.
@@ -68,7 +68,7 @@ Follow the steps below to reset an account password.
 
 **Step 2 –** Type a **Username** and **Domain**, and then click **Next**.
 
-![using_apr_1](/img/product_docs/passwordreset/3.23/evaluation/using_apr_1.webp)
+![using_apr_1](/img/product_docs/passwordreset/3.23/administration/using_apr_1.webp)
 
 **Step 3 –** Type the **Answer** to the first question, and then click **Next**. Repeat until all
 questions are answered correctly.

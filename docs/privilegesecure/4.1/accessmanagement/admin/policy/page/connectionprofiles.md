@@ -5,7 +5,7 @@ Profile. It shows the configuration options for managing the session of the sele
 An approval workflow can be configured so that the session must be approved before the requestor of
 the session can log in.
 
-![Connection Profiles Page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/page.webp)
+![Connection Profiles Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/page_2.webp)
 
 The pane on the left side of the page displays a list of the configured connection profiles. This
 pane has the following features:

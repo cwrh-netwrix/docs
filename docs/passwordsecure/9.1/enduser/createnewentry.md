@@ -23,11 +23,11 @@ Step 3 – Let`s fill out the website form in this example.
 
 - Set a description for your stored password.
 
-![description](/img/product_docs/accessanalyzer/11.6/admin/action/servicenow/description.webp)
+![description](/img/product_docs/passwordsecure/9.1/enduser/description.webp)
 
 - Enter the username or email address needed for login.
 
-![username](/img/product_docs/threatprevention/7.4/eperestsite/username.webp)
+![username](/img/product_docs/passwordsecure/9.1/enduser/username.webp)
 
 - Enter the password manually or use the password generator by clicking on the button in the middle
   (high number). The password generator will open.
@@ -43,10 +43,10 @@ password.
 
 - Enter the website URL that leads to the login.
 
-![websiteurl](/img/product_docs/accessanalyzer/11.6/admin/settings/websiteurl.webp)
+![websiteurl](/img/product_docs/passwordsecure/9.1/enduser/websiteurl.webp)
 
 - Add one or more tags to categorize your password and find it easier (i.e., "HR" or "Internet").
 
-![tags](/img/product_docs/threatprevention/7.4/admin/tags/tags.webp)
+![tags](/img/product_docs/passwordsecure/9.1/enduser/tags.webp)
 
 Step 4 – Click **Save**, and you are done!

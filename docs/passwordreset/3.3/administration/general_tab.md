@@ -8,7 +8,7 @@ Use the General tab to maintain the list of managed domains, set the database op
 the Password Policy Enforcer integration. See the Netwrix Password Policy Enforcer topic for
 additional information.
 
-![configuring_npr](/img/product_docs/passwordpolicyenforcer/11.0/passwordreset/administration/configuring_npr.webp)
+![configuring_npr](/img/product_docs/passwordreset/3.3/administration/configuring_npr_3.webp)
 
 ### Domain List
 

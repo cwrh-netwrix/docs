@@ -127,7 +127,7 @@ the policy.
 1. Open **Customizations**.
 2. Search for **Customizations** **CustomObject**.
 
-    ![Search for Customizations > CustomObject](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/integrations/search.webp)
+    ![Search for Customizations > CustomObject](/img/product_docs/platgovsalesforce/tech_debt/search.webp)
 
 3. Open the Customization to add to a policy.
 4. Click **Set Policy**.

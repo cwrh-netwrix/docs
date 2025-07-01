@@ -1,0 +1,38 @@
+
+---
+File: docs\passwordsecure\9.2\configuration\advanced_view\clientmodule\notifications\notifications.md
+Context:
+[Visibility](/docs/passwordsecure/9.2/configuration/advanced_view/permissionconcept/predefining_rights/protective_mechanisms/visibility/visibility.md)
+
+![Notifications modul](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/notifications_1-en.webp)
+
+NOTE: The reading pane is deactivated in this module by default. It can be activated in the
+Original image link: ![Notifications modul](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/clientmodule/applications/rdp_and_ssh_applications/recording_a_session/notifications_1-en.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordsecure\9.2\configuration\advanced_view\mainmenu\user_settings\overview_user_settings\overview_of_all_user_settings.md
+Context:
+selected version are correspondingly marked in the list.
+
+![installation_with_parameters_115](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.webp)
+
+This makes it easier for administrators to correctly configure new options before they release the
+Original image link: ![installation_with_parameters_115](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/overview_user_rights/installation_with_parameters_115.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordsecure\9.2\configuration\advanced_view\mainmenu\user_settings\user_settings.md
+Context:
+are not assigned via roles, but via organisational units!
+
+![installation_with_parameters_112](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
+
+### Inheritance of user settings
+Original image link: ![installation_with_parameters_112](/img/product_docs/passwordsecure/9.2/configuration/advanced_view/mainmenu/user_rights/installation_with_parameters_112.webp)
+Case: Path alignment mismatch
+No suggested images found.

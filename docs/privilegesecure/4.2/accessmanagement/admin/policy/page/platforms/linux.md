@@ -2,7 +2,7 @@
 
 The Linux menu displays the configuration options for Linux platforms.
 
-![Linux Platform Configuration](/img/product_docs/activitymonitor/8.0/admin/outputs/linux.webp)
+![Linux Platform Configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/linux.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for a Linux Platform.

@@ -21,7 +21,7 @@ the session completes, instead of waiting for the scheduled sync. See the
 [Activities Page](/docs/privilegesecure/4.1/accessmanagement/admin/policy/page/activities.md)
 topic for additional information.
 
-![Protection policies page](/img/product_docs/threatprevention/7.4/reportingmodule/configuration/systemsettings/page.webp)
+![Protection policies page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/policy/page/page_4.webp)
 
 The pane on the left side of the page displays a list of the configured protection policies. This
 pane has the following features:

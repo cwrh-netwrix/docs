@@ -1,0 +1,64 @@
+
+---
+File: docs\passwordpolicyenforcer\10.2\administration\administration_overview.md
+Context:
+rejected.
+
+![introduction_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+
+Unlike password cracking products that check passwords after they are accepted by the operating
+Original image link: ![introduction_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\10.2\administration\disable_windows_rules.md
+Context:
+**Step 10 –** Close the Group Policy Management Editor.
+
+![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/preparing_the_computer.webp)
+
+**NOTE:** You do not have to disable all the Windows password policy rules to use Password Policy
+Original image link: ![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/preparing_the_computer.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\10.2\administration\testing_policies.md
+Context:
+| Rule                                                                                                                                                    | Status of Password Compliance with Rule           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+Original image link: ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\10.2\administration\testing_policies.md
+Context:
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+
+Original image link: ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\10.2\administration\testing_policies.md
+Context:
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+
+![managing_policies_12](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_12.webp)
+Original image link: ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp)
+Case: Path alignment mismatch
+No suggested images found.

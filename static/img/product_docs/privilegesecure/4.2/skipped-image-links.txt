@@ -1,0 +1,1793 @@
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\access\createsession.md
+Context:
+**Step 1 –** Select an **Activity** to expand the session ribbon.
+
+![myactivityuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+
+**Step 2 –** Click **Create Session** to start a new activity session.
+Original image link: ![myactivityuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\access\createsession.md
+Context:
+  activity sessions.
+
+![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
+
+**Step 3 –** Enter the following information:
+Original image link: ![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\access\createsession.md
+Context:
+- Click **Start Session** to start the provisioning process.
+
+![startsessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
+
+**NOTE:** If an approval is required, the Waiting for approval message will display until it has
+Original image link: ![startsessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\access\createsession.md
+Context:
+been granted.
+
+![stopsession](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
+
+**Step 4 –** When provisioned, an activity session will display an Available status with a green
+Original image link: ![stopsession](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\createsession.md
+Context:
+**Step 2 –** In the Active Session table, click Create Session to open the Activity Request window.
+
+![Create Activity Session Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
+
+**Step 3 –** On the Request Type page, enter the following information:
+Original image link: ![Create Activity Session Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\createsession.md
+Context:
+**Step 4 –** Click Next to go to the Resource Selection page.
+
+![Create Session window Resource Selection](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+
+**Step 5 –** On the Resource Selection page, enter the following information:
+Original image link: ![Create Session window Resource Selection](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\createsession.md
+Context:
+**Step 6 –** Click **Next** to go to the Notes page.
+
+![Create Session Notes Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+
+**Step 7 –** On the Notes page, enter the following information:
+Original image link: ![Create Session Notes Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\createsession.md
+Context:
+**Step 8 –** Click Next to go to the Scheduling page.
+
+![Create Session Schedule Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+
+**Step 9 –** On the Scheduling page, enter the following information:
+Original image link: ![Create Session Schedule Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\createsession.md
+Context:
+**Step 10 –** Click Next to go to the Review page.
+
+![Create Session Review Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
+
+**Step 11 –** On the Review page, review the summary of the new session.
+Original image link: ![Create Session Review Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\startsession.md
+Context:
+**NOTE:** For NPS users with the Administrator role, session extension is always enabled.
+
+![Extend Activity Session](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsession.webp)
+
+For RDP, a pop-up message is displayed in the session window.
+Original image link: ![Extend Activity Session](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsession.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\startsession.md
+Context:
+For RDP, a pop-up message is displayed in the session window.
+
+![extendsessionssh](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsessionssh.webp)
+
+For SSH the user can extend by typing **Ctrl+X** when prompted.
+Original image link: ![extendsessionssh](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsessionssh.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\dashboard\window\sessionlogs.md
+Context:
+Active dashboard and click the View Logs button to open the Session Logs window.
+
+![Session Logs Window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/window/sessionlogs.webp)
+
+The window has the following features:
+Original image link: ![Session Logs Window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/window/sessionlogs.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\login.md
+Context:
+Wizard. If required, first time users must register with an MFA to use with their login credentials.
+
+![Default Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/defaultloginuser.webp)
+
+**Step 2 –** Either click the default authentication connector button, or click **Log In with a
+Original image link: ![Default Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/defaultloginuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\login.md
+Context:
+Privilege Secure.
+
+![Alternate Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/alternatelogin.webp)
+
+**Step 3 –** Login to the Privilege Secure Console with a configured authentication connector, or
+Original image link: ![Alternate Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/alternatelogin.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\login.md
+Context:
+**Step 5 –** Enter the code provided by the registered multi-factor authenticator (MFA).
+
+![Multi Factor Authentication Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/mfalogin.webp)
+
+**Step 6 –** Click MFA Login. The Privilege Secure Console opens on the Dashboard Interface.
+Original image link: ![Multi Factor Authentication Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/mfalogin.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\login.md
+Context:
+**Step 6 –** Click MFA Login. The Privilege Secure Console opens on the Dashboard Interface.
+
+![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+
+**NOTE:** After five incorrect login attempts, the user will be locked out of the account for five
+Original image link: ![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| Icon                                                                                                                                         | Interface           |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+Original image link: ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+Original image link: ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+Original image link: ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+Original image link: ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+Original image link: ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+Original image link: ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+Original image link: ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+| ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
+Original image link: ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+| ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
+
+Original image link: ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+| ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
+
+Dashboard Icons
+Original image link: ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| Icon                                                                                                                                               | Session Data        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)           | Active Sessions     |
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+Original image link: ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)           | Active Sessions     |
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+Original image link: ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)           | Active Sessions     |
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+Original image link: ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+Original image link: ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+| ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
+Original image link: ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+| ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
+
+Original image link: ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+| ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
+
+Active Directory Icons
+Original image link: ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| Icon                                                                                                                                                                               | Object              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)   | User                |
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+Original image link: ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)   | User                |
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+Original image link: ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)   | User                |
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+Original image link: ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+Original image link: ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+Original image link: ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+Original image link: ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+Original image link: ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+Original image link: ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+Original image link: ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+| ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
+Original image link: ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+| ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
+
+Original image link: ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+| ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
+
+Action Icons
+Original image link: ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| Icon                                                                                                                                                                             | Information            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp) | Complete / Information |
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+Original image link: ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp) | Complete / Information |
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+Original image link: ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp) | Complete / Information |
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+| ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp) | Scheduled Sessions     |
+Original image link: ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+| ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp) | Scheduled Sessions     |
+
+Original image link: ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+| ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp) | Scheduled Sessions     |
+
+Hover over an icon anywhere within the console for its description.
+Original image link: ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\add\accesspolicy.md
+Context:
+**Step 2 –** In the Access Policy list, click the Plus icon.
+
+![Add Access Policy](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
+
+**Step 3 –** Enter the following information:
+Original image link: ![Add Access Policy](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addaccesspolicy.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\add\activitygroup.md
+Context:
+**Step 2 –** In the Activity Groups list, click the Add Activity Group icon.
+
+![addactivitygroup](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/addactivitygroup.webp)
+
+**Step 3 –** Enter the following information:
+Original image link: ![addactivitygroup](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/addactivitygroup.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\add\schedulepolicy.md
+Context:
+**Step 2 –** In the Schedule Polices list, click the **Plus** icon.
+
+![Schedule Policy Editor Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
+
+**Step 3 –** Enter the following information:
+Original image link: ![Schedule Policy Editor Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/edit/schedulepolicyeditor.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\add\secretvault.md
+Context:
+**Step 2 –** Click the Plus icon and select New Secret Vault from the drop-down list.
+
+![Add secrete Vault Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addsecretvault.webp)
+
+**Step 3 –** Enter the following information:
+Original image link: ![Add secrete Vault Resource](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/add/addsecretvault.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\page\credentials.md
+Context:
+page displays the same information as the [Credentials Dashboard](/docs/privilegesecure/4.2/accessmanagement/admin/dashboard/credentials.md).
+
+![Credentials page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+
+The page has the following features:
+Original image link: ![Credentials page](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\tab\resources\databases.md
+Context:
+The Databases tab shows information about the server database on the selected resource.
+
+![Database Details page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/databasedetailspage.webp)
+
+The Databases tab has the following features:
+Original image link: ![Database Details page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/databasedetailspage.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\tab\resources\urlsentraid.md
+Context:
+login.
+
+![URLs Tab for Entra ID](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
+
+The URLs tab has the following features:
+Original image link: ![URLs Tab for Entra ID](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/details/azureaddetailspage.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\window\accesspolicy\addactivitiesandactivitygroups.md
+Context:
+Activities are created in the [Activities Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/activities.md).
+
+![Add Activities and Activity Groups Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
+
+The window has the following features:
+Original image link: ![Add Activities and Activity Groups Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\window\accesspolicy\addresourcesandresourcegroups.md
+Context:
+Resources are onboarded in the [Resources Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/resources.md).
+
+![Add resources and resource groups window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addresourcesandresourcegroups.webp)
+
+The window has the following features:
+Original image link: ![Add resources and resource groups window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addresourcesandresourcegroups.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\window\activities\addactivities.md
+Context:
+created in the [Activities Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/activities.md).
+
+![Add activities and activity groups window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
+
+The window has the following features:
+Original image link: ![Add activities and activity groups window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/usersgroups/addactivitiesandactivitygroups.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\window\credentials\addcredentials.md
+Context:
+[Credentials Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/credentials.md).
+
+![Add Credentials Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addcredentials.webp)
+
+The window has the following features:
+Original image link: ![Add Credentials Window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/addcredentials.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\policy\window\protectionpolicies\addresources.md
+Context:
+onboarded in the [Resources Page](/docs/privilegesecure/4.2/accessmanagement/admin/policy/page/resources.md).
+
+![Protection policy add resource window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/addresources.webp)
+
+The window has the following features:
+Original image link: ![Protection policy add resource window](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/window/resources/addresources.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\producttour.md
+Context:
+Secure administrator role are walked through features that are relevant to their role.
+
+![producttour](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/producttour.webp)
+
+At any time, the tour can be stopped by clicking the **X** icon at the top-right of the Console. By
+Original image link: ![producttour](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/producttour.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\producttour.md
+Context:
+The product tour may be re-started at any time via the user menu.
+
+![usermenu](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usermenu.webp)
+
+See the [Navigation](/docs/privilegesecure/4.2/accessmanagement/admin/navigation.md) topic for additional information.
+Original image link: ![usermenu](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usermenu.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\admin\sessiontimeout.md
+Context:
+For security reasons, the Privilege Secure Console automatically logs out the user after 10 minutes
+of inactivity. A Session Timeout warning message displays after 5
+minutes.![Session time out window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/sessiontimeout.webp)If
+the timeout message displays, click Stay Logged In to continue using the console.See the
+[Global Settings Page](/docs/privilegesecure/4.2/accessmanagement/admin/configuration/page/globalsettings.md) topic for additional information on
+Original image link: ![Session time out window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/sessiontimeout.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\access\createsession.md
+Context:
+**Step 1 –** Select an **Activity** to expand the session ribbon.
+
+![myactivityuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+
+**Step 2 –** Click **Create Session** to start a new activity session.
+Original image link: ![myactivityuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\access\createsession.md
+Context:
+  activity sessions.
+
+![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
+
+**Step 3 –** Enter the following information:
+Original image link: ![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\access\createsession.md
+Context:
+- Click **Start Session** to start the provisioning process.
+
+![startsessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
+
+**NOTE:** If an approval is required, the Waiting for approval message will display until it has
+Original image link: ![startsessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\access\createsession.md
+Context:
+been granted.
+
+![stopsession](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
+
+**Step 4 –** When provisioned, an activity session will display an Available status with a green
+Original image link: ![stopsession](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\access\myactivities.md
+Context:
+organized alphabetically or by Access Policy.
+
+![My Activiy Dashboard for End User](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+
+To access the My Activities page, open the Access interface. If there is only a single activity card
+Original image link: ![My Activiy Dashboard for End User](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\createsession.md
+Context:
+**Step 2 –** In the Active Session table, click Create Session to open the Activity Request window.
+
+![Create Activity Session Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
+
+**Step 3 –** On the Request Type page, enter the following information:
+Original image link: ![Create Activity Session Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\createsession.md
+Context:
+**Step 4 –** Click Next to go to the Resource Selection page.
+
+![Create Session window Resource Selection](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+
+**Step 5 –** On the Resource Selection page, enter the following information:
+Original image link: ![Create Session window Resource Selection](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\createsession.md
+Context:
+**Step 6 –** Click **Next** to go to the Notes page.
+
+![Create Session Notes Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+
+**Step 7 –** On the Notes page, enter the following information:
+Original image link: ![Create Session Notes Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\createsession.md
+Context:
+**Step 8 –** Click Next to go to the Scheduling page.
+
+![Create Session Schedule Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+
+**Step 9 –** On the Scheduling page, enter the following information:
+Original image link: ![Create Session Schedule Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\createsession.md
+Context:
+**Step 10 –** Click Next to go to the Review page.
+
+![Create Session Review Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
+
+**Step 11 –** On the Review page, review the summary of the new session.
+Original image link: ![Create Session Review Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\overview.md
+Context:
+information.
+
+![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+
+The overview section shows information for the following:
+Original image link: ![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\startsession.md
+Context:
+**NOTE:** For NPS users with the Administrator role, session extension is always enabled.
+
+![Extend Activity Session](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsession.webp)
+
+For RDP, a pop-up message is displayed in the session window.
+Original image link: ![Extend Activity Session](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsession.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\startsession.md
+Context:
+For RDP, a pop-up message is displayed in the session window.
+
+![extendsessionssh](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsessionssh.webp)
+
+For SSH the user can extend by typing **Ctrl+X** when prompted.
+Original image link: ![extendsessionssh](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/extendsessionssh.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\dashboard\window\sessionlogs.md
+Context:
+Active dashboard and click the View Logs button to open the Session Logs window.
+
+![Session Logs Window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/window/sessionlogs.webp)
+
+The window has the following features:
+Original image link: ![Session Logs Window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/window/sessionlogs.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| Icon                                                                                                                                         | Interface           |
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+Original image link: ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+Original image link: ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+Original image link: ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+Original image link: ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+Original image link: ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+Original image link: ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+Original image link: ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+| ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
+Original image link: ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+| ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
+
+Original image link: ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
+| ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
+| ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |
+
+Dashboard Icons
+Original image link: ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| Icon                                                                                                                                               | Session Data        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)           | Active Sessions     |
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+Original image link: ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)           | Active Sessions     |
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+Original image link: ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![activedashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboard.webp)           | Active Sessions     |
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+Original image link: ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![scheduleddashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/scheduleddashboard.webp)     | Scheduled Sessions  |
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+Original image link: ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![approvalsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/approvalsdashboard.webp)     | Approvals           |
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+| ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
+Original image link: ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![historicaldashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)   | Historical Sessions |
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+| ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
+
+Original image link: ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![usersdasshboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usersdasshboard.webp)           | User Activity       |
+| ![resourcesdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resourcesdashboard.webp)     | Resources           |
+| ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp) | Credentials         |
+
+Active Directory Icons
+Original image link: ![credentialsdashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentialsdashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| Icon                                                                                                                                                                               | Object              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)   | User                |
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+Original image link: ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
+| ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)   | User                |
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+Original image link: ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_12](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_12.webp)   | User                |
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+Original image link: ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_13](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_13.webp)   | Group               |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+Original image link: ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.5.webp) | Application         |
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+Original image link: ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![Collectionsicon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/collectionsicon.webp)                                           | Collection          |
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+Original image link: ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![Custom Role](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/customroleicon.webp)                                                | Custom Role         |
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+Original image link: ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![Domain icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.6.webp)                         | Computer / Resource |
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+Original image link: ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_15](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.webp)   | Domain              |
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+Original image link: ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![Website icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.7.webp)                        | Website             |
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+| ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
+Original image link: ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![AzureAD icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.8.webp)                        | Azure AD            |
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+| ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
+
+Original image link: ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![Secret Vault icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.9.webp)                   | Secret Vault        |
+| ![Cisco icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.4.webp)                          | Cisco               |
+| ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)                        | Windows             |
+
+Information Icons
+Original image link: ![Windows icon](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_15.3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| Icon                                                                                                                                                                             | Information            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp) | Complete / Information |
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+Original image link: ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------- |
+| ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp) | Complete / Information |
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+Original image link: ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_23](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_23.webp) | Complete / Information |
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+| ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp) | Scheduled Sessions     |
+Original image link: ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_24](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_24.webp) | Warning                |
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+| ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp) | Scheduled Sessions     |
+
+Original image link: ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\navigation.md
+Context:
+| ![chapter_1_stealthbits_privileged_25](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_25.webp) | Failed / Error         |
+| ![chapter_1_stealthbits_privileged_26](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_26.webp) | Active Sessions        |
+| ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp) | Scheduled Sessions     |
+
+Hover over an icon anywhere within the console for its description.
+Original image link: ![chapter_1_stealthbits_privileged_27](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/chapter_1_stealthbits_privileged_27.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\overview.md
+Context:
+If required, first time Reviewers must register with an MFA to use with their login credentials.
+
+![Default Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/defaultloginuser.webp)
+
+**Step 2 –** Either click the default authentication connector button, or click **Log In with a
+Original image link: ![Default Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/defaultloginuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\overview.md
+Context:
+Privilege Secure.
+
+![Alternate Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/alternatelogin.webp)
+
+**Step 3 –** Login to Privilege Secure with a configured authentication connector, or enter the user
+Original image link: ![Alternate Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/alternatelogin.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\overview.md
+Context:
+  enter. Instead there's just a single button to login.
+
+![Okta authentication connector](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/oktadefault.webp)
+
+- Clicking the authentication connector will redirect the user to the IdP login screen, which will
+Original image link: ![Okta authentication connector](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/oktadefault.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\overview.md
+Context:
+**Step 6 –** Enter the code provided by the registered multi-factor authenticator (MFA).
+
+![Multi Factor Authentication Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/mfalogin.webp)
+
+**Step 7 –** Click MFA Login. Privilege Secure opens on the Dashboard Interface.
+Original image link: ![Multi Factor Authentication Login](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/mfalogin.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\overview.md
+Context:
+**Step 7 –** Click MFA Login. Privilege Secure opens on the Dashboard Interface.
+
+![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+
+Privilege Secure is ready to use.
+Original image link: ![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\producttour.md
+Context:
+Secure administrator role are walked through features that are relevant to their role.
+
+![producttour](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/producttour.webp)
+
+At any time, the tour can be stopped by clicking the **X** icon at the top-right of the Console. By
+Original image link: ![producttour](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/producttour.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\producttour.md
+Context:
+The product tour may be re-started at any time via the user menu.
+
+![usermenu](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usermenu.webp)
+
+See the [Navigation](/docs/privilegesecure/4.2/accessmanagement/enduser/navigation.md) topic for additional information.
+Original image link: ![usermenu](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usermenu.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\accessmanagement\revieweruser\sessiontimeout.md
+Context:
+For security reasons, the Privilege Secure Console automatically logs out the user after 10 minutes
+of inactivity. A Session Timeout warning message displays after 5
+minutes.![Session time out window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/sessiontimeout.webp)If
+the timeout message displays, click Stay Logged In to continue using the console.
+
+Original image link: ![Session time out window](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/sessiontimeout.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\access\createsession.md
+Context:
+**Step 1 –** Select an **Activity** to expand the session ribbon.
+
+![myactivityuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+
+**Step 2 –** Click **Create Session** to start a new activity session.
+Original image link: ![myactivityuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/myactivityuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\access\createsession.md
+Context:
+  activity sessions.
+
+![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
+
+**Step 3 –** Enter the following information:
+Original image link: ![configuresessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/configuresessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\access\createsession.md
+Context:
+- Click **Start Session** to start the provisioning process.
+
+![startsessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
+
+**NOTE:** If an approval is required, the Waiting for approval message will display until it has
+Original image link: ![startsessionuser](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/startsessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\access\createsession.md
+Context:
+been granted.
+
+![stopsession](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
+
+**Step 4 –** When provisioned, an activity session will display an Available status with a green
+Original image link: ![stopsession](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/access/stopsession.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\active.md
+Context:
+your administrator.
+
+![End User Active Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+
+The Active Sessions table has the following features:
+Original image link: ![End User Active Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\approvals.md
+Context:
+approvals. Submitting an approval must be done through Netwrix Privilege Secure.
+
+![Approvals Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
+
+The Approvals Dashboard has the following features:
+Original image link: ![Approvals Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/approvalsdashboarduser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\createsession.md
+Context:
+**Step 2 –** In the Active Session table, click Create Session to open the Activity Request window.
+
+![Create Activity Session Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
+
+**Step 3 –** On the Request Type page, enter the following information:
+Original image link: ![Create Activity Session Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionuser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\createsession.md
+Context:
+**Step 4 –** Click Next to go to the Resource Selection page.
+
+![Create Session window Resource Selection](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+
+**Step 5 –** On the Resource Selection page, enter the following information:
+Original image link: ![Create Session window Resource Selection](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionresourceselection.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\createsession.md
+Context:
+**Step 6 –** Click **Next** to go to the Notes page.
+
+![Create Session Notes Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+
+**Step 7 –** On the Notes page, enter the following information:
+Original image link: ![Create Session Notes Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionnotes.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\createsession.md
+Context:
+**Step 8 –** Click Next to go to the Scheduling page.
+
+![Create Session Schedule Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+
+**Step 9 –** On the Scheduling page, enter the following information:
+Original image link: ![Create Session Schedule Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionscheduling.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\createsession.md
+Context:
+**Step 10 –** Click Next to go to the Review page.
+
+![Create Session Review Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
+
+**Step 11 –** On the Review page, review the summary of the new session.
+Original image link: ![Create Session Review Page](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/createsessionreview.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\overview.md
+Context:
+information.
+
+![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+
+The overview section shows information for the following:
+Original image link: ![Dashboard Interface](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activedashboarduser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\dashboard\scheduled.md
+Context:
+The Scheduled sessions dashboard shows all scheduled sessions.
+
+![Scheduled Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/scheduleddashboarduser.webp)
+
+The Scheduled Sessions table has the following features:
+Original image link: ![Scheduled Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/scheduleddashboarduser.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\navigation.md
+Context:
+Help link and the User Menu:
+
+![End User Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/enduserdashboard.webp)
+
+The buttons have these functions:
+Original image link: ![End User Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/enduserdashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\producttour.md
+Context:
+Secure administrator role are walked through features that are relevant to their role.
+
+![producttour](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/producttour.webp)
+
+At any time, the tour can be stopped by clicking the **X** icon at the top-right of the Console. By
+Original image link: ![producttour](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/producttour.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\producttour.md
+Context:
+The product tour may be re-started at any time via the user menu.
+
+![usermenu](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usermenu.webp)
+
+See the [Navigation](/docs/privilegesecure/4.2/remoteaccessgateway/enduser/navigation.md) topic for additional information.
+Original image link: ![usermenu](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/usermenu.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\privilegesecure\4.2\remoteaccessgateway\enduser\sessiontimeout.md
+Context:
+**NOTE:** The session timeout setting may differ if it has been customized by your administrator.
+
+![Session Timeout ](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/sessiontimeout.webp)
+
+If the timeout message appears, click **Stay Logged In** to continue using the console.
+Original image link: ![Session Timeout ](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/sessiontimeout.webp)
+Case: Path alignment mismatch
+No suggested images found.

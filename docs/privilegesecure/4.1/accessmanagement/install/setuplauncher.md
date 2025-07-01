@@ -30,11 +30,11 @@ wizard opens.
 **NOTE:** If PostgreSQL v12 is already installed, a green checkmark is displayed to the left of the
 Install PostgreSQL 12 button and you can install the Privilege Secure application.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](/img/product_docs/threatprevention/7.4/install/upgrade/install.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Install page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/install.webp)
 
 **Step 2 –** On the Install page, click **Install**.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the License Agreement page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/licenseagreement.webp)
 
 **Step 3 –** On the End User License Agreement page, check the **I accept the license agreement**
 box and click **Next**.
@@ -53,7 +53,7 @@ C:\Program Files\Stealthbits\Postgres12
 **NOTE:** The installation process begins and the Setup wizard displays the its Progress. This may
 take a few moments.
 
-![Stealthbits PostgreSQL v12 Setup Wizard on the Completed Successfully page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Stealthbits PostgreSQL v12 Setup Wizard on the Completed Successfully page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/completed.webp)
 
 **Step 5 –** When installation is complete, click **Exit**. The Stealthbits PostgeSQL v12 Setup
 wizard closes.
@@ -75,7 +75,7 @@ PostgreSQL Setup. Click Netwrix Privilege Secure Setup.
 
 **NOTE:** This window remains open in the background while the database is installed.
 
-![Netwrix Privilege Secure Setup wizard on the License Agreement page](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
+![Netwrix Privilege Secure Setup wizard on the License Agreement page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/licenseagreement_1.webp)
 
 **Step 2 –** On the End User License Agreement page, check the **I agree to the license terms and
 conditions** box and click **Options**.
@@ -96,7 +96,7 @@ C:\Program Files\Stealthbits\PAM
 **NOTE:** The installation process begins and the wizard displays the its Progress. This may take a
 few moments.
 
-![Netwrix Privilege Secure Setup wizard on the Completed Successfully page](/img/product_docs/accessanalyzer/11.6/install/sensitivedatadiscovery/completed.webp)
+![Netwrix Privilege Secure Setup wizard on the Completed Successfully page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/completed_1.webp)
 
 **Step 5 –** When installation is complete, click **Close**.
 

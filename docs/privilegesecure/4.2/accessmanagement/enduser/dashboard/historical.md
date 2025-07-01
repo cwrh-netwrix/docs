@@ -2,7 +2,7 @@
 
 The Historical sessions dashboard shows all created sessions and their status.
 
-![Historical Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/historicaldashboard.webp)
+![Historical Dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard/historicaldashboard.webp)
 
 The Historical Sessions table has the following features:
 

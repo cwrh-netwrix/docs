@@ -12,7 +12,7 @@ Double click the **PPE Configuration** desktop shortcut.
 
 **Step 3 –** Open the **Properties** tab.
 
-![Set the Policy Properties](/img/product_docs/activitymonitor/8.0/install/agent/properties.webp)
+![Set the Policy Properties](/img/product_docs/passwordpolicyenforcer/11.0/administration/properties.webp)
 
 Each policy must have a unique name. To change the name of a policy, type the new name in the text
 box.

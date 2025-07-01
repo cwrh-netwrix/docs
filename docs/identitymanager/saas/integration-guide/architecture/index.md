@@ -16,7 +16,7 @@ Agent and server are [ASP.Net](https://docs.microsoft.com/en-us/aspnet/core/) ap
 on Windows. Identity Manager's database is a
 [Microsoft SQLServer](https://www.microsoft.com/en-us/sql-server) relational database.
 
-![Architecture](/img/product_docs/changetracker/8.1/architecture.webp)
+![Architecture](/img/product_docs/identitymanager/saas/integration-guide/architecture/architecture.webp)
 
 See the [ SaaS Environment ](/docs/identitymanager/saas/integration-guide/architecture/saas/index.md) topic for additional information on Netwrix Identity
 Manager (formerly Usercube) recommended architecture when working in a SaaS environment.

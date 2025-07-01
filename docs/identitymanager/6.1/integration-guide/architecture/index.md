@@ -16,7 +16,7 @@ Agent and server are [ASP.Net](https://docs.microsoft.com/en-us/aspnet/core/) ap
 on Windows. Usercube's database is a
 [Microsoft SQLServer](https://www.microsoft.com/en-us/sql-server) relational database.
 
-![Architecture](/img/product_docs/changetracker/8.0/architecture.webp)
+![Architecture](/img/product_docs/identitymanager/6.1/integration-guide/architecture/architecture.webp)
 
 [See more details on NETWRIX' recommended architecture when working in a SaaS environment](/docs/identitymanager/6.1/integration-guide/architecture/saas/index.md).
 

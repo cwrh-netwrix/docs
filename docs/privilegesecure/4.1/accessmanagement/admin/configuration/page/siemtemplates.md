@@ -8,7 +8,7 @@ Two out of the box templates are provided for most common use cases, CEF and LEE
 be configured according to the requirements of the target SIEM solution, and the specific event data
 that needs to be sent.
 
-![SIEM Templates Page](/img/product_docs/threatprevention/7.4/admin/configuration/systemalerting/siemtemplates.webp)
+![SIEM Templates Page](/img/product_docs/privilegesecure/4.1/accessmanagement/admin/configuration/page/siemtemplates.webp)
 
 ## Custom SIEM Templates
 

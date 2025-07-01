@@ -1,0 +1,179 @@
+
+---
+File: docs\platgovsalesforce\change_management\resolving_noncompliant_changes.md
+Context:
+can filter the report or sort by the column heads.
+
+![Non-Compliant Change Management Report](/img/product_docs/platgovnetsuite/change_management/changelog-1.webp)
+
+A noncompliant change means something got changed without the required approvals. Open each change
+Original image link: ![Non-Compliant Change Management Report](/img/product_docs/platgovnetsuite/change_management/changelog-1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\change_management\setting_up_policies.md
+Context:
+2. Click **Add Customizations**.
+
+    ![Add customizations](/img/product_docs/platgovnetsuite/change_management/policy_add_customizations.webp)
+
+3. Select a **Metadata Type** to filter the list.
+Original image link: ![Add customizations](/img/product_docs/platgovnetsuite/change_management/policy_add_customizations.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\change_management\set_up_data_tracking.md
+Context:
+5. Enter **(Data Records** in the Search Customization box.
+
+    ![Select the customizations](/img/product_docs/platgovnetsuite/change_management/policy_add_customizations.webp)
+
+6. Select the customization to add. Use Shift-click (contiguous items) or Ctrl-click to select
+Original image link: ![Select the customizations](/img/product_docs/platgovnetsuite/change_management/policy_add_customizations.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\change_management\using_change_logs.md
+Context:
+Select a report, such as **What Changed** to see a list of Change Logs.
+
+![changelog-1](/img/product_docs/platgovnetsuite/change_management/changelog-1.webp)
+
+Here is an example change log for a **Profile** Metadata type.
+Original image link: ![changelog-1](/img/product_docs/platgovnetsuite/change_management/changelog-1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\installing_strongpoint\config_and_stats.md
+Context:
+2. Open the **Jira Configuration** tab. It opens on the **Credentials** tab.
+
+    ![Open the credentials](/img/product_docs/platgovsalesforce/integrations/jira_sp_credentials.webp)
+
+3. Enter your credentials:
+Original image link: ![Open the credentials](/img/product_docs/platgovsalesforce/integrations/jira_sp_credentials.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\installing_strongpoint\config_and_stats.md
+Context:
+3. Open the **Status Mapping** tab.
+
+    ![Set up the Jira status mappings for Change Request status](/img/product_docs/platgovsalesforce/integrations/jira_status_settings.webp)
+
+4. Enter the mappings between your Jira statuses and the Change Request statuses. You must define
+Original image link: ![Set up the Jira status mappings for Change Request status](/img/product_docs/platgovsalesforce/integrations/jira_status_settings.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\installing_strongpoint\installing_strongpoint.md
+Context:
+7. Set **Selected OAuth Scopes** to **Full access (full)**
+
+    ![Setting for Connected App](/img/product_docs/platgovsalesforce/integrations/connected_app.webp)
+
+    **The Require Proof Key for Code Exchange (PKCE) Extension for Supported Authorization Flows**
+Original image link: ![Setting for Connected App](/img/product_docs/platgovsalesforce/integrations/connected_app.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\installing_strongpoint\validating_data.md
+Context:
+3. Click on a field and validate the data.
+
+![entity_diagram](/img/product_docs/platgovsalesforce/tools/entity_diagram.webp)
+
+## Customization Quick Search
+Original image link: ![entity_diagram](/img/product_docs/platgovsalesforce/tools/entity_diagram.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\installing_strongpoint\validating_data.md
+Context:
+3. Click on the **Customization** and validate the data.
+
+![custquicksearch](/img/product_docs/platgovnetsuite/customizations/custquicksearch.webp)
+
+Original image link: ![custquicksearch](/img/product_docs/platgovnetsuite/customizations/custquicksearch.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\integrations\jira_upload_addon_not_showing.md
+Context:
+3. Click **Enable development mode**
+
+![Jira Enable Development Mode](/img/product_docs/platgovnetsuite/integrations/jira_enable_dev_mode.webp)
+
+Original image link: ![Jira Enable Development Mode](/img/product_docs/platgovnetsuite/integrations/jira_enable_dev_mode.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\integrations\jira_walkthrough_example.md
+Context:
+3. Click **Create** (**+**).
+
+    ![Create a Jira ticket](/img/product_docs/platgovnetsuite/integrations/jira_example_create_issue.webp)
+
+4. Enter your information on the **Create issue** form:
+Original image link: ![Create a Jira ticket](/img/product_docs/platgovnetsuite/integrations/jira_example_create_issue.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\integrations\jira_walkthrough_example.md
+Context:
+  Proposed Customizations** are added to the **Proposed Customizations** list. You can delete added
+  Customizations with the
+  ![delete](/img/product_docs/platgovnetsuite/integrations/delete.webp) icon.
+- **View DRD** and **Impact Analysis** are tools to Perform Risk Assessment.
+- **Push** creates the Change Request in Salesforce. **Push** is also used to manually update your
+Original image link: ![delete](/img/product_docs/platgovnetsuite/integrations/delete.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\integrations\jira_walkthrough_example.md
+Context:
+Safely Deleted or Modified** tab:
+
+![Impact analysis report](/img/product_docs/platgovnetsuite/integrations/jira_example_impact_analysis.webp)
+
+Before proceeding with your changes, review each warning to ensure your change does not break
+Original image link: ![Impact analysis report](/img/product_docs/platgovnetsuite/integrations/jira_example_impact_analysis.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforce\scanners\scheduler.md
+Context:
+   All categories are initially disabled by default.
+
+    ![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)
+
+2. Select the category to automate by clicking on **Disabled** to enable it. There is no save
+Original image link: ![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)
+Case: Path alignment mismatch
+No suggested images found.

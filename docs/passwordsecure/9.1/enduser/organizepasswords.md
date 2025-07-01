@@ -14,7 +14,7 @@ Step 1 – Click on the **Plus** sign and a form will open.
 Step 2 – You can now search for a specific organizational unit by clicking on the tree on the left
 or use the search field to find the unit you need.
 
-![search](/img/product_docs/accessanalyzer/11.6/admin/report/interactivegrids/search.webp)
+![search](/img/product_docs/passwordsecure/9.1/enduser/search.webp)
 
 Step 3 – Click **OK** to close the form and your new team tab will open automatically.
 
@@ -30,7 +30,7 @@ To find a password, just use the search field and enter a tag like the departmen
 are in (i.e., "Marketing"). Netwrix Password Secure now not only is searching for tags, but also for
 “Marketing” in all Netwrix Password Secure fields (i.e., Content Marketing).
 
-![searchresults](/img/product_docs/activitymonitor/7.1/admin/search/results/searchresults.webp)
+![searchresults](/img/product_docs/passwordsecure/9.1/enduser/searchresults.webp)
 
 NOTE: Optimize your search results by using the **minus sign (-)** to exclude terms: Only results in
 which this word does not appear will be displayed (i.e., all social media accounts that are used

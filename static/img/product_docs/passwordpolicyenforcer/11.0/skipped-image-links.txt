@@ -1,0 +1,63 @@
+
+---
+File: docs\passwordpolicyenforcer\11.0\administration\administration_overview.md
+Context:
+Enforcer immediately rejects the password and details why the password was rejected.
+
+![introduction_2](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/introduction_3.webp)
+
+Unlike password cracking products that check passwords after they are accepted by the operating
+Original image link: ![introduction_2](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/introduction_3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\11.0\administration\configconsole.md
+Context:
+Double click the **PPE Configuration** desktop shortcut.
+
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+
+## Dashboard Controls
+Original image link: ![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\11.0\administration\configconsoleoverview.md
+Context:
+The [Configuration Console](/docs/passwordpolicyenforcer/11.0/administration/configconsole.md) is displayed:
+
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+
+Original image link: ![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\11.0\administration\disable_windows_rules.md
+Context:
+**Step 10 –** Close the Group Policy Management Editor.
+
+![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/preparing_the_computer.webp)
+
+**NOTE:** You do not have to disable all the Windows password policy rules to use Password Policy
+Original image link: ![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/preparing_the_computer.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordpolicyenforcer\11.0\administration\manage_policies.md
+Context:
+Double click the **PPE Configuration** desktop shortcut.
+
+![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+
+The Configuration Console dashboard shows **No password policies have been set up** when you are
+Original image link: ![Configuration Console Dashboard](/img/product_docs/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+Case: Path alignment mismatch
+No suggested images found.

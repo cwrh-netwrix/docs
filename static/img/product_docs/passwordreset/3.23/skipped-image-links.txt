@@ -1,0 +1,818 @@
+
+---
+File: docs\passwordreset\3.23\administration\configuring_password_reset.md
+Context:
+information.
+
+![configuring_apr](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
+
+### Domain List
+Original image link: ![configuring_apr](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\configuring_password_reset.md
+Context:
+compliant password.
+
+![configuring_apr_1](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
+
+Password Reset displays the Password Policy Enforcer policy message when users are prompted for
+Original image link: ![configuring_apr_1](/img/product_docs/passwordreset/3.23/evaluation/configuring_apr_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\configuring_password_reset.md
+Context:
+understand their e-mail alerts.
+
+![configuring_apr_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_5.webp)
+
+**CAUTION:** An attacker may choose a specific language to avoid detection. E-mail alerts are sent
+Original image link: ![configuring_apr_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_5.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\configuring_password_reset.md
+Context:
+text box, and the path to the script file and other parameters in the **Parameters** text box.
+
+![configuring_apr_7](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_7.webp)
+
+## Security Tab
+Original image link: ![configuring_apr_7](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/configuring_npr_7.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\installation.md
+Context:
+the credentials are valid.
+
+![installing_apr](/img/product_docs/passwordreset/3.23/evaluation/installing_apr_1.webp)
+
+**NOTE:** Microsoft SQL Server Compact is installed with the Password Reset Server. SQL Server
+Original image link: ![installing_apr](/img/product_docs/passwordreset/3.23/evaluation/installing_apr_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\installation.md
+Context:
+installed the Password Reset Server onto.
+
+![installing_apr_1](/img/product_docs/passwordreset/3.23/evaluation/installing_apr_1.webp)
+
+The Password Reset Setup wizard only installs one Web Interface on each server, but you can copy the
+Original image link: ![installing_apr_1](/img/product_docs/passwordreset/3.23/evaluation/installing_apr_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\password_reset_client.md
+Context:
+**Step 10 –** Click inside the **License key** text box, then paste the license key.
+
+![the_password_reset_client_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_5.webp)
+
+**Step 11 –** Click **OK**.
+Original image link: ![the_password_reset_client_5](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/the_password_reset_client_5.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\persuading_users_to_enroll.md
+Context:
+**Step 3 –** Create a new **DWORD** value called **WebAPIState**, and set it to 1.
+
+![persuading_users_to_enroll](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/persuading_users_to_enroll.webp)
+
+## Querying the API
+Original image link: ![persuading_users_to_enroll](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/persuading_users_to_enroll.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\using_password_reset.md
+Context:
+**Step 1 –** Click the **Enroll** item in the menu.
+
+![using_apr](/img/product_docs/passwordreset/3.23/evaluation/using_apr_1_1.webp)
+
+**Step 2 –** Type a **Username**, **Domain**, and **Password**.
+Original image link: ![using_apr](/img/product_docs/passwordreset/3.23/evaluation/using_apr_1_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\using_password_reset.md
+Context:
+questions are answered correctly.
+
+![using_apr_2](/img/product_docs/passwordreset/3.23/evaluation/introduction_1_1.webp)
+
+**Step 4 –** You may be asked to enter a verification code. The verification code is sent to your
+Original image link: ![using_apr_2](/img/product_docs/passwordreset/3.23/evaluation/introduction_1_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\administration\using_the_data_console.md
+Context:
+Editor** button in the lower right corner of the Data Console.
+
+![using_the_data_console_9](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_9.webp)
+
+A filter may contain several conditions. Conditions start with a column name, followed by an
+Original image link: ![using_the_data_console_9](/img/product_docs/passwordpolicyenforcer/10.2/password_reset/administration/using_the_data_console_9.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\administration_overview.md
+Context:
+was rejected.
+
+![introduction_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+
+Unlike password cracking products that check passwords after they are accepted by the operating
+Original image link: ![introduction_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\configuration.md
+Context:
+you would like to create a new Password Policy Enforcer configuration.
+
+![configuring_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_1.webp)
+
+The management console images in this document are taken from a computer running Windows
+Original image link: ![configuring_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\configuration.md
+Context:
+#### Password Policy Enforcer View
+
+![configuring_ppe_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_2.webp)
+
+Click **Password Policy Enforcer** in the left pane to display this view. With this view, you can
+Original image link: ![configuring_ppe_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_2.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\configuration.md
+Context:
+#### PPS View
+
+![configuring_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_3.webp)
+
+Click **PPS** in the left pane to display this view. With this view, you can perform the following
+Original image link: ![configuring_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_3.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\configuration.md
+Context:
+#### Policies View
+
+![configuring_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_4.webp)
+
+Click **PPS** in the left pane to display this view. With this view, you can perform the following
+Original image link: ![configuring_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_4.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\configuration.md
+Context:
+for a policy.
+
+#### ![configuring_ppe_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_5.webp)
+
+## Connecting to a Configuration
+Original image link: ![configuring_ppe_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_5.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\configuration.md
+Context:
+**Step 2 –** Click **PPS Properties** in the right pane of the management console.
+
+![configuring_ppe_6](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_6.webp)
+
+**Step 3 –** Click **Disable PPE**.
+Original image link: ![configuring_ppe_6](/img/product_docs/passwordpolicyenforcer/10.2/administration/configuring_ppe_6.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\domain_and_local_policies.md
+Context:
+**Step 5 –** Right-click the **Registry** item, and then select **New** > **Registry Wizard**.
+
+![domain_and_local_policies](/img/product_docs/passwordpolicyenforcer/10.2/administration/domain_and_local_policies.webp)
+
+**Step 6 –** Select the computer that contains the Password Policy Enforcer local configuration that
+Original image link: ![domain_and_local_policies](/img/product_docs/passwordpolicyenforcer/10.2/administration/domain_and_local_policies.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\domain_and_local_policies.md
+Context:
+each item in the bottom pane of the window.
+
+![domain_and_local_policies_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/domain_and_local_policies_1.webp)
+
+**Step 9 –** Click **Finish**.
+Original image link: ![domain_and_local_policies_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/domain_and_local_policies_1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\installation.md
+Context:
+**Step 4 –** Enter **Password Policy Enforcer** in the provided field, and then press **Enter**.
+
+![installing_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_1.webp)
+
+#### Edit the Group Policy Object
+Original image link: ![installing_ppe_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\installation.md
+Context:
+**Step 6 –** Select the **Assigned deployment method**, and then click **OK**.
+
+![installing_ppe_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
+
+**Step 7 –** Close the Group Policy Management Editor.
+Original image link: ![installing_ppe_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_2.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\installation.md
+Context:
+**Step 10 –** Close the Group Policy Management Editor.
+
+![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/preparing_the_computer.webp)
+
+**NOTE:** You do not have to disable all the Windows password policy rules to use Password Policy
+Original image link: ![installing_ppe_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/preparing_the_computer.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\installation.md
+Context:
+automatically import the V8.x configuration settings into the new version.
+
+![installing_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_4.webp)
+
+The management console imports valid subscription license keys, but it will not import V8.x
+Original image link: ![installing_ppe_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_4.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\installation.md
+Context:
+automatically import the V6.x configuration settings into the new version.
+
+![installing_ppe_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_7.webp)
+
+The management console imports valid subscription license keys, but it will not import V6.x
+Original image link: ![installing_ppe_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/installing_ppe_7.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\mailer.md
+Context:
+**Step 3 –** Click the **email** tab.
+
+![the_ppe_mailer](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_ppe_mailer.webp)
+
+**Step 4 –** Select the **Disable email reminders** option to disable email delivery.
+Original image link: ![the_ppe_mailer](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_ppe_mailer.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\mailer.md
+Context:
+**Step 6 –** Click the Email tab.
+
+![the_ppe_mailer_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_ppe_mailer_1.webp)
+
+Choose values from the days drop-down lists to specify when emails will be sent. By default, emails
+Original image link: ![the_ppe_mailer_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_ppe_mailer_1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+## Policy Properties
+
+![managing_policies_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_1.webp)
+
+To open the Policy Properties page:
+Original image link: ![managing_policies_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+policy to a child OU.
+
+![managing_policies_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_3.webp)
+
+**NOTE:** When a domain policy is assigned to a user or group, Password Policy Enforcer stores the
+Original image link: ![managing_policies_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_3.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+the configuration. The assignment is invalidated if the user is renamed.
+
+![managing_policies_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_4.webp)
+
+To assign a password policy:
+Original image link: ![managing_policies_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_4.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+will enforce for a particular user.
+
+![managing_policies_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_5.webp)
+
+### Policy Priorities
+Original image link: ![managing_policies_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_5.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+passphrases. To configure a password policy with fewer requirements for passphrases:
+
+![managing_policies_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_7.webp)
+
+**Step 1 –** Click the Policies item to display the Policies view.
+Original image link: ![managing_policies_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_7.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+| Rule                                                                                                                                                    | Status of Password Compliance with Rule           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+Original image link: ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+
+Original image link: ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+| ![testing_the_password_policy_1](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_1.webp) | Rule disabled or not tested.                      |
+| ![testing_the_password_policy_2](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_2.webp) | Rule enabled, password complies with rule         |
+| ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp) | Rule enabled, password does not comply with rule. |
+
+Click the **Log** tab to view Password Policy Enforcer's internal event log. The event log can help
+Original image link: ![testing_the_password_policy_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/testing_the_password_policy_3.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\managing_policies.md
+Context:
+- Errors or warnings occurred during testing.
+
+![managing_policies_12](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_12.webp)
+
+### Policy Testing vs. Password Changes
+Original image link: ![managing_policies_12](/img/product_docs/passwordpolicyenforcer/10.2/administration/managing_policies_12.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\password_policy_client.md
+Context:
+![the_password_policy_client](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client.webp)
+
+![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_1.webp)
+
+The PPC displays the password policy during a password change so that users can see the policy while
+Original image link: ![the_password_policy_client_1](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_1.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\password_policy_client.md
+Context:
+**Step 6 –** Select the **Assigned deployment method**, then click **OK**.
+
+![the_password_policy_client_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_2.webp)
+
+**Step 7 –** Close the **Group Policy Management Editor**.
+Original image link: ![the_password_policy_client_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_2.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\password_policy_client.md
+Context:
+inbound port exceptions** in the right pane.
+
+![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_3.webp)
+
+**Step 5 –** Select the **Enabled** option, and then click **Show...**.
+Original image link: ![the_password_policy_client_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_3.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\password_policy_client.md
+Context:
+**Step 5 –** Select the **Enabled** option, and then click **Show...**.
+
+![the_password_policy_client_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_4.webp)
+
+**Step 6 –** Select the **Enabled** option, and then click **Show...**.
+Original image link: ![the_password_policy_client_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_4.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\password_policy_client.md
+Context:
+**Step 6 –** Select the **Enabled** option, and then click **Show...**.
+
+![the_password_policy_client_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_5.webp)
+
+**Step 7 –** Click **OK** until you return to the Group Policy Management Editor.
+Original image link: ![the_password_policy_client_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_5.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\password_policy_client.md
+Context:
+**Step 2 –** Configure rule inserts for each enabled rule (see Customizing Rule Inserts above).
+
+![the_password_policy_client_6](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_6.webp)
+
+![the_password_policy_client_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_7.webp)
+Original image link: ![the_password_policy_client_6](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_6.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\password_policy_client.md
+Context:
+![the_password_policy_client_6](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_6.webp)
+
+![the_password_policy_client_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_7.webp)
+
+The Password Policy Client uses the Windows client language settings to determine which language to
+Original image link: ![the_password_policy_client_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/the_password_policy_client_7.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+evade the History and Similarity rules. This rule can only be enforced by domain policies.
+
+![ppe_rules_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_2.webp)
+
+Select the **Enabled** check box to enable the Minimum Age rule.
+Original image link: ![ppe_rules_2](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_2.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+maintained with a system that cannot accept long passwords.
+
+![ppe_rules_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_3.webp)
+
+Select the **Enabled** check box to enable the Length rule.
+Original image link: ![ppe_rules_3](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_3.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+sets. Using several character types can make passwords more difficult to crack.
+
+![ppe_rules_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_4.webp)
+
+Select the **Enabled** check box to enable the Complexity rule.
+Original image link: ![ppe_rules_4](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_4.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+passwords are based on common words.
+
+![ppe_rules_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_5.webp)
+
+There are two Dictionary rules in each password policy. You can use the second rule with a different
+Original image link: ![ppe_rules_5](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_5.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+number of days.
+
+![ppe_rules_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_7.webp)
+
+Select the **Enabled** check box to enable the History rule.
+Original image link: ![ppe_rules_7](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_7.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+**Step 4 –** Press **ENTER** and check the output for errors.
+
+![ppe_rules_8](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_8.webp)
+
+### Using an Existing Attribute for the Password History
+Original image link: ![ppe_rules_8](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_8.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+attacker to guess the new password.
+
+![ppe_rules_9](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_9.webp)
+
+Select the **Enabled** check box to enable the Similarity rule.
+Original image link: ![ppe_rules_9](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_9.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+Passwords that are similar to a user's logon name are not desirable because they are easily guessed.
+
+![ppe_rules_10](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_10.webp)
+
+- Select the Enabled check box to enable the User Logon Name rule.
+Original image link: ![ppe_rules_10](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_10.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+desirable because they are easily guessed.
+
+![ppe_rules_11](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_11.webp)
+
+- Select the **Enabled** check box to enable the User Display Name rule.
+Original image link: ![ppe_rules_11](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_11.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+compatibility with other systems.
+
+![ppe_rules_12](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_12.webp)
+
+All the Character rules work identically, but each has their own default character set. A character
+Original image link: ![ppe_rules_12](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_12.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+|                                                                                                                           |                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ![ppe_rules_13](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_13.webp) | ![ppe_rules_14](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_14.webp) |
+
+Password Policy Enforcer has only one Numeric rule, so the second requirement must be enforced by
+Original image link: ![ppe_rules_13](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_13.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+|                                                                                                                           |                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ![ppe_rules_13](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_13.webp) | ![ppe_rules_14](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_14.webp) |
+
+Password Policy Enforcer has only one Numeric rule, so the second requirement must be enforced by
+Original image link: ![ppe_rules_14](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_14.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+|                                                                                                                           |                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ![ppe_rules_15](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_15.webp) | ![ppe_rules_16](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_16.webp) |
+
+Select the **Enabled** check box to enable the First or Last Character rule.
+Original image link: ![ppe_rules_15](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_15.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+|                                                                                                                           |                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| ![ppe_rules_15](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_15.webp) | ![ppe_rules_16](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_16.webp) |
+
+Select the **Enabled** check box to enable the First or Last Character rule.
+Original image link: ![ppe_rules_16](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_16.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+shoulder surfing (observing users as they enter their password).
+
+![ppe_rules_17](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_17.webp)
+
+The examples for this rule are taken from a US keyboard layout. These patterns may not exist on
+Original image link: ![ppe_rules_17](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_17.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+Passwords should not contain character patterns because they can weaken the password.
+
+![ppe_rules_19](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_19.webp)
+
+- Select the **Enabled** check box to enable the Character Pattern rule.
+Original image link: ![ppe_rules_19](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_19.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+consecutive repeating characters (SssS).
+
+![ppe_rules_21](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_21.webp)
+
+- Select the **Enabled** check box to enable the Repeating Characters rule.
+Original image link: ![ppe_rules_21](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_21.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\administration\rules.md
+Context:
+characters (LoOpHle).
+
+![ppe_rules_22](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_22.webp)
+
+- Select the **Enabled** check box to enable the Unique Characters rule.
+Original image link: ![ppe_rules_22](/img/product_docs/passwordpolicyenforcer/10.2/administration/ppe_rules_22.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\evaluation\evaluation_overview.md
+Context:
+immediately rejects the password and tells the user why their password was rejected.
+
+![introduction_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+
+Unlike password cracking products that check passwords after they are accepted by the operating
+Original image link: ![introduction_3](/img/product_docs/passwordpolicyenforcer/10.2/evaluation/introduction_3.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\passwordreset\3.23\password_policy_enforcer\web\web_overview.md
+Context:
+choose a compliant password.
+
+![introduction_4](/img/product_docs/passwordpolicyenforcer/10.2/web/introduction_4.webp)
+
+PPE/Web communicates directly with the domain controllers, so it works best when both the web server
+Original image link: ![introduction_4](/img/product_docs/passwordpolicyenforcer/10.2/web/introduction_4.webp)
+Case: Product folder mismatch
+No suggested images found.

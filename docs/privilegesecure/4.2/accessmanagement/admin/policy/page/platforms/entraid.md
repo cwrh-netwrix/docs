@@ -3,7 +3,7 @@
 The Microsoft Entra ID (formerly Azure AD) menu displays the configuration options for Microsoft
 Entra ID platforms.
 
-![Azure AD Platform Configuration](/img/product_docs/activitymonitor/8.0/admin/outputs/azuread.webp)
+![Azure AD Platform Configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/platforms/azuread.webp)
 
 Details for the selected platform are displayed on the right side of the page. Below are the
 configuration options for an Microsoft Entra ID Platform.

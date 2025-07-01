@@ -2,7 +2,7 @@
 
 On the Scheduler Service page, view information for scheduled services.
 
-![Scheduler service Page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Scheduler service Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/configuration/servicetype/page.webp)
 
 The Scheduler Service page shows details of the selected service and has the following features:
 

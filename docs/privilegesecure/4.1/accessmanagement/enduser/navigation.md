@@ -42,13 +42,13 @@ Interface Icons
 
 | Icon                                                                                                                         | Interface           |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| ![myactivities](/img/product_docs/privilegesecure/4.1/accessmanagement/install/myactivities.webp)           | My Activities       |
+| ![myactivities](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/myactivities.webp)           | My Activities       |
 | ![dashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard.webp)                 | Dashboard           |
-| ![policy](/img/product_docs/threatprevention/7.4/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
-| ![users](/img/product_docs/activitymonitor/7.1/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
+| ![policy](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/policy.webp)      | Policy              |
+| ![users](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/users.webp) | Users & Groups      |
 | ![resources](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/resources.webp)                 | Resources           |
-| ![credentials](/img/product_docs/activitymonitor/7.1/install/agent/credentials.webp)                        | Credentials         |
-| ![activities](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/activities.webp)               | Activities          |
+| ![credentials](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/activities.webp)               | Activities          |
 | ![configuration](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/configuration.webp)         | Configuration       |
 | ![servicenodes](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
 | ![auditreporting](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |

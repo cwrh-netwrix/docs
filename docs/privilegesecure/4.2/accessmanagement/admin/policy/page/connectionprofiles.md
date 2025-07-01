@@ -5,7 +5,7 @@ Policy** > **Connection Profiles**. It shows the configuration options for manag
 the selected access policy. An approval workflow can be configured so that the session must be
 approved before the requester of the session can log in.
 
-![Connection Profiles Page](/img/product_docs/threatprevention/7.5/reportingmodule/configuration/systemsettings/page.webp)
+![Connection Profiles Page](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/page/page_2.webp)
 
 The pane on the left side of the page displays a list of the configured connection profiles. This
 pane has the following features:

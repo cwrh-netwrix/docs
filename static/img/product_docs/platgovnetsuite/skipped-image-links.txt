@@ -1,0 +1,284 @@
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+### Status Bar States
+
+![change_request_bar_not_started](/img/product_docs/platgovnetsuite/change_management/change_request_bar_not_started.webp)
+
+New Change Request. Click **In Progress** to advance the status.
+Original image link: ![change_request_bar_not_started](/img/product_docs/platgovnetsuite/change_management/change_request_bar_not_started.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+New Change Request. Click **In Progress** to advance the status.
+
+![change_request_bar_inprogress](/img/product_docs/platgovnetsuite/change_management/change_request_bar_inprogress.webp)
+
+Change Request **In Progress**.
+Original image link: ![change_request_bar_inprogress](/img/product_docs/platgovnetsuite/change_management/change_request_bar_inprogress.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+When ready for approval, click **Pending Approval**.
+
+![change_request_bar_pending](/img/product_docs/platgovnetsuite/change_management/change_request_bar_pending.webp)
+
+Approvers are notified.
+Original image link: ![change_request_bar_pending](/img/product_docs/platgovnetsuite/change_management/change_request_bar_pending.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+Status promoted based on Approvers actions.
+
+![change_request_bar_approved](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved.webp)
+
+Status when all approvers have approved.
+Original image link: ![change_request_bar_approved](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+Can be returned to a previous status or rejected.
+
+![change_request_bar_approved_partial](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_partial.webp)
+
+Status when Change Request is partially approved. Wait for all approvers to finish.
+Original image link: ![change_request_bar_approved_partial](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_partial.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+Status when Change Request is partially approved. Wait for all approvers to finish.
+
+![change_request_bar_approved_override](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
+
+Status when an administrator has approved in place of a specified approver.
+Original image link: ![change_request_bar_approved_override](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_override.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+**Approval Override by** field displays the approver.
+
+![change_request_bar_approved_completed](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_completed.webp)
+
+Approved and Completed.
+Original image link: ![change_request_bar_approved_completed](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_completed.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+Can be returned to a previous status.
+
+![change_request_bar_approved_canceled](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_canceled.webp)
+
+Approved and Canceled.
+Original image link: ![change_request_bar_approved_canceled](/img/product_docs/platgovnetsuite/change_management/change_request_bar_approved_canceled.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\financial_controls\agent_creating_preapproved_change_request.md
+Context:
+Can be returned to a previous status.
+
+![change_request_bar_rejected](/img/product_docs/platgovnetsuite/change_management/change_request_bar_rejected.webp)
+
+Rejected and Completed.
+Original image link: ![change_request_bar_rejected](/img/product_docs/platgovnetsuite/change_management/change_request_bar_rejected.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\installing_strongpoint\go_live_faq.md
+Context:
+helps if you do not have the exact name.
+
+![custquicksearch](/img/product_docs/platgovnetsuite/customizations/custquicksearch.webp)
+
+## Prototype Customizations
+Original image link: ![custquicksearch](/img/product_docs/platgovnetsuite/customizations/custquicksearch.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\installing_strongpoint\redeploy_scripts_sandbox.md
+Context:
+3. Set the Filter **Type** to **Suitelet** and the **Bundle ID** to **294336**.
+
+    ![Find the Suitelet](/img/product_docs/platgovnetsuite/release_notes/scripts.webp)
+
+4. Click **View** by the **Strongpoint Reset Schedule Deployments** suitelet.
+Original image link: ![Find the Suitelet](/img/product_docs/platgovnetsuite/release_notes/scripts.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\installing_strongpoint\redeploy_scripts_sandbox.md
+Context:
+5. Open the **Deployments** tab.
+
+    ![Open the Deployment tab](/img/product_docs/platgovnetsuite/release_notes/script_deploy_tab.webp)
+
+6. Click the Suitelet name: **Strongpoint Reset Schedule Deployments**.
+Original image link: ![Open the Deployment tab](/img/product_docs/platgovnetsuite/release_notes/script_deploy_tab.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\installing_strongpoint\redeploy_scripts_sandbox.md
+Context:
+7. Click on the Script **URL**.
+
+    ![Click the Script URL](/img/product_docs/platgovnetsuite/release_notes/script_deploy_url.webp)
+
+Original image link: ![Click the Script URL](/img/product_docs/platgovnetsuite/release_notes/script_deploy_url.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\integrations\jira_integration.md
+Context:
+   Change Requests.
+
+    ![Jira Integration settings with mapped statues](/img/product_docs/platgovnetsuite/release_notes/jira_example_integration.webp)
+
+7. Check **Allow NS to Jira Push** to enable pushing NetSuite change requests into Jira.
+Original image link: ![Jira Integration settings with mapped statues](/img/product_docs/platgovnetsuite/release_notes/jira_example_integration.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\integrations\jira_integration.md
+Context:
+4. Open your **Projects** page:
+
+    ![Open your Jira Projects page to find Add-ons](/img/product_docs/platgovnetsuite/release_notes/jira_projects_menu.webp)
+
+5. Expand **Add-ons**.
+Original image link: ![Open your Jira Projects page to find Add-ons](/img/product_docs/platgovnetsuite/release_notes/jira_projects_menu.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\integrations\jira_integration.md
+Context:
+6. Select **Strongpoint Settings**.
+
+    ![Jira Strongpoint Settings](/img/product_docs/platgovnetsuite/release_notes/jira_strongpoint_settings.webp)
+
+7. Click **New Token Based Authentication** to add your credentials. This needs to be done once for
+Original image link: ![Jira Strongpoint Settings](/img/product_docs/platgovnetsuite/release_notes/jira_strongpoint_settings.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\integrations\jira_integration.md
+Context:
+   each of your accounts.
+
+    ![Add tokens for Jira](/img/product_docs/platgovnetsuite/release_notes/jira_add_token.webp)
+
+8. Enter your credentials and click **Add Token Based Authentication Credential**.
+Original image link: ![Add tokens for Jira](/img/product_docs/platgovnetsuite/release_notes/jira_add_token.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\integrations\jira_walkthrough_example.md
+Context:
+
+Once you have logged in, the form is displayed.  
+![Jira Strongpoint form](/img/product_docs/platgovnetsuite/release_notes/jira_strongpoint_form.webp)
+
+- **Synchronized with** displays the connected account. Click **Change Account** to switch to a
+Original image link: ![Jira Strongpoint form](/img/product_docs/platgovnetsuite/release_notes/jira_strongpoint_form.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\release_notes\netwrix_strongpoint_netsuite_7-1_release_notes.md
+Context:
+    Date** and **Change By** fields.
+
+    ![Refresh Changed By](/img/product_docs/platgovnetsuite/change_management/change_log_refresh.webp)
+
+- Removed extraneous Customization record link in Search Clean Up notification emails.
+Original image link: ![Refresh Changed By](/img/product_docs/platgovnetsuite/change_management/change_log_refresh.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\uar\uar_additional_reviewer\add_reviewer_membership_reviews.md
+Context:
+   If the Change Request is rejected (**CR Rejected status**) or canceled (**CR Cancelled**), the
+   user row is returned to a pending state and can then be reviewed again.
+   ![Remove a user from a role](/img/product_docs/platgovnetsuite/uar/uar_owner/remove_user_from_role.webp)  
+   If
+   the Change Request is rejected (**CR Rejected status**) or canceled (**CR Cancelled**), the user
+Original image link: ![Remove a user from a role](/img/product_docs/platgovnetsuite/uar/uar_owner/remove_user_from_role.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\uar\uar_additional_reviewer\add_reviewer_membership_reviews.md
+Context:
+**Export** the notes as a CSV or PDF file.
+
+![Open the Review Notes tab](/img/product_docs/platgovnetsuite/uar/uar_owner/review_notes_tab.webp)
+
+The notes have the following fields:
+Original image link: ![Open the Review Notes tab](/img/product_docs/platgovnetsuite/uar/uar_owner/review_notes_tab.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovnetsuite\uar\uar_additional_reviewer\add_reviewer_uar_list.md
+Context:
+showing all of the single reviews associated with the global review.
+
+![Review list of associated single reviews under a global review](/img/product_docs/platgovnetsuite/uar/uar_owner/review_list.webp)
+
+- **Export** exports the list of selected reviews as either a **CSV** or **PDF** file. The exported
+Original image link: ![Review list of associated single reviews under a global review](/img/product_docs/platgovnetsuite/uar/uar_owner/review_list.webp)
+Case: Path alignment mismatch
+No suggested images found.

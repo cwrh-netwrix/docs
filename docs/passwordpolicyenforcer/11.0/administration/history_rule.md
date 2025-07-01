@@ -5,7 +5,7 @@ should be avoided because it defeats the purpose of regular password changes. Pa
 Enforcer can stop users from reusing passwords for a specified number of password changes or a
 number of days.
 
-![History rule](/img/product_docs/threatprevention/7.5/admin/policies/history.webp)
+![History rule](/img/product_docs/passwordpolicyenforcer/11.0/administration/history.webp)
 
 Select the **History** check box to enable the History rule.
 

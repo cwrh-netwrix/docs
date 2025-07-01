@@ -10,7 +10,7 @@ intuitively and without previous knowledge or training by any user. The Basic vi
 up to 50 passwords. The Basic view introduces to professional password management. It is also the
 ideal tool for the daily handling of passwords.
 
-![image1](/img/product_docs/directorymanager/11.0/admincenter/portal/linkedcombo/image1.webp)
+![image1](/img/product_docs/passwordsecure/9.1/configuration/basic_view/image1.webp)
 
 ## Requirements & required rights
 

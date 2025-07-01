@@ -39,13 +39,13 @@ Interface Icons
 
 | Icon                                                                                                                                         | Interface           |
 | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- |
-| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/install/myactivities.webp)           | My Activities       |
-| ![dashboard](/img/product_docs/directorymanager/11.1/admincenter/general/dashboard.webp)                                      | Dashboard           |
-| ![policy](/img/product_docs/threatprevention/7.5/admin/configuration/databasemaintenance/policy.webp)      | Policy              |
-| ![users](/img/product_docs/activitymonitor/8.0/admin/monitoreddomains/admonitoringconfiguration/users.webp) | Users & Groups      |
-| ![resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)                            | Resources           |
-| ![credentials](/img/product_docs/activitymonitor/8.0/install/agent/credentials.webp)                        | Credentials         |
-| ![activities](/img/product_docs/accessanalyzer/12.0/admin/hostdiscovery/activities.webp)                   | Activities          |
+| ![myactivities](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/myactivities.webp)           | My Activities       |
+| ![dashboard](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/dashboard.webp)                                      | Dashboard           |
+| ![policy](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/policy.webp)      | Policy              |
+| ![users](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/users.webp) | Users & Groups      |
+| ![resources](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/resources.webp)                            | Resources           |
+| ![credentials](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/credentials.webp)                        | Credentials         |
+| ![activities](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/activities.webp)                   | Activities          |
 | ![configuration](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/configuration.webp)         | Configuration       |
 | ![servicenodes](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/servicenodes.webp)           | Service Nodes       |
 | ![auditreporting](/img/product_docs/privilegesecure/4.2/accessmanagement/enduser/auditreporting.webp)       | Audit and Reporting |

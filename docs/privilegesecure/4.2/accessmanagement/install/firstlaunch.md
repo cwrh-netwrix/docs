@@ -12,7 +12,7 @@ Symantec VIP, etc.) ready to setup for this account through the wizard.
 
 There are two methods for launching the Setup Wizard:
 
-![Netwrix Privilege Secure desktop icon](/img/product_docs/threatprevention/7.5/install/desktopicon.webp)
+![Netwrix Privilege Secure desktop icon](/img/product_docs/privilegesecure/4.2/accessmanagement/install/desktopicon.webp)
 
 - Double-click the desktop icon. Your default browser opens to the Setup Wizard.
 - Open a supported browser window and navigate to the following URL, which opens the Setup Wizard:
@@ -43,7 +43,7 @@ Follow the steps to walk through the Setup Wizard.
 
 **Step 1 –** Launch the  Setup Wizard.
 
-![Setup Wizard on the Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![Setup Wizard on the Welcome page](/img/product_docs/privilegesecure/4.2/accessmanagement/install/welcome.webp)
 
 **Step 2 –** Click **Let's get started**.
 

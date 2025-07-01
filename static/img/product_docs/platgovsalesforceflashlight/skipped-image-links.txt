@@ -1,0 +1,246 @@
+
+---
+File: docs\platgovsalesforceflashlight\clean_up\date_last_used.md
+Context:
+2. Expand **Custom Code**
+3. Select **Custom Metadata Types**  
+   ![Open Custom Metadata Types](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types.webp)
+4. Click **Manage Records** by **Strongpoint DLU Parameter**.  
+   ![Click Manage Records to open the record](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
+Original image link: ![Open Custom Metadata Types](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\clean_up\date_last_used.md
+Context:
+   ![Open Custom Metadata Types](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types.webp)
+4. Click **Manage Records** by **Strongpoint DLU Parameter**.  
+   ![Click Manage Records to open the record](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
+5. Click **Edit** by **DLU Expiration**.  
+   ![Edit the parameters](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
+Original image link: ![Click Manage Records to open the record](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\clean_up\date_last_used.md
+Context:
+   ![Click Manage Records to open the record](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_exp.webp)
+5. Click **Edit** by **DLU Expiration**.  
+   ![Edit the parameters](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
+6. Set the **DLU Expiration (Months)**. The default is three.
+7. Click **Save**.
+Original image link: ![Edit the parameters](/img/product_docs/platgovsalesforce/clean_up/custom_metadata_types_dlu_para.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\clean_up\date_last_used.md
+Context:
+to users.
+
+![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)
+
+Once the scheduler has been set up, you can view the DLU under the **Metadata** tab on the
+Original image link: ![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\getting_started\dashboard.md
+Context:
+Links to key resources to help you learn to use Flashlight.
+
+![Resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
+
+## Key Tools
+Original image link: ![Resources](/img/product_docs/platgovnetsuiteflashlight/getting_started/resources.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\getting_started\dashboard.md
+Context:
+Links to useful Flashlight tools to give you more value out of your documentation.
+
+![Key Tools](/img/product_docs/platgovnetsuiteflashlight/getting_started/key_tools.webp)
+
+- **DRD**: Explore your customizations with Flashlight’s visual DRD and understand how
+Original image link: ![Key Tools](/img/product_docs/platgovnetsuiteflashlight/getting_started/key_tools.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\getting_started\scheduler.md
+Context:
+
+1. Open **Flashlight** > **Support** > **Scheduler**
+   ![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)2.
+   Toggle **Enabled**/**Disabled**by the category. Your selections are automatically saved.
+2. Select the **Frequency** , **Day** and **Time**. Your selections are automatically saved.
+Original image link: ![scheduler](/img/product_docs/platgovsalesforce/clean_up/scheduler.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_objects.md
+Context:
+   the **Selected Objects** list, select it and click the left arrow.
+5. Select the **Settings to be exported**.  
+   ![export_object_settings](/img/product_docs/platgovsalesforce/tools/export_object_settings.webp)
+6. Optional: Select one or more profiles to be included for more security
+   information.![export_object_profiles_800x685](/img/product_docs/platgovsalesforceflashlight/tools/export_object_profiles_800x685.webp)
+Original image link: ![export_object_settings](/img/product_docs/platgovsalesforce/tools/export_object_settings.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_objects.md
+Context:
+file is in XML instead of the Excel format. Click **Yes** to load the file.
+
+![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
+
+The _ObjectExport.xls_ file contains a **Summary** tab and a separate tab for each selected object.
+Original image link: ![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_objects.md
+Context:
+The **Summary** tab shows who created the export, the creation date and time, list of selected
+objects, and lists of any selected optional Profiles and Permission Sets.  
+![export_object_summary](/img/product_docs/platgovsalesforce/tools/export_object_summary.webp)
+
+The **Object** tabs contain all of the requested information for each
+Original image link: ![export_object_summary](/img/product_docs/platgovsalesforce/tools/export_object_summary.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_object_attachment_records.md
+Context:
+2. Select **Export Object Attachments**.
+
+![Export Object Attachments list](/img/product_docs/platgovsalesforce/tools/export_object_attach_record_list.webp)
+
+### Add the **Export Object Attachments** Tab
+Original image link: ![Export Object Attachments list](/img/product_docs/platgovsalesforce/tools/export_object_attach_record_list.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_object_attachment_records.md
+Context:
+3. Select **Export Object Attachments** from the **Available Tabs** and add it to the **Selected
+   Tabs**.  
+   ![Add Export Object Attachments to your menu bar in Classic view](/img/product_docs/platgovsalesforce/tools/export_object_attach_record_tab_classic.webp)
+4. Click **Save**.
+
+Original image link: ![Add Export Object Attachments to your menu bar in Classic view](/img/product_docs/platgovsalesforce/tools/export_object_attach_record_tab_classic.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_object_attachment_records.md
+Context:
+3. Select **Export Object Attachments** from the **Available Tabs** and add it to the **Selected
+   Tabs**.  
+   ![Add Export Object Attachments tab to your menu bar in Lightning](/img/product_docs/platgovsalesforce/tools/export_object_attach_record_tab_lightning.webp)
+4. Click **Save**.
+
+Original image link: ![Add Export Object Attachments tab to your menu bar in Lightning](/img/product_docs/platgovsalesforce/tools/export_object_attach_record_tab_lightning.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_profiles.md
+Context:
+   the **Selected Profiles** list, select it and click the left arrow.
+6. Select the **Settings to be exported**.  
+   ![export_profile_ui_settings](/img/product_docs/platgovsalesforce/tools/export_profile_ui_settings.webp)
+7. Click **Test Connection**.
+8. Click **Download XLS**. The file _ProfileExport.xls_ is created.
+Original image link: ![export_profile_ui_settings](/img/product_docs/platgovsalesforce/tools/export_profile_ui_settings.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_profiles.md
+Context:
+file is in XML instead of the Excel format. Click **Yes** to load the file.
+
+![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
+
+The _ProfilesExport.xls_ file contains a **Summary** tab and a separate tab for each selected
+Original image link: ![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_profiles.md
+Context:
+The **Summary** tab shows who created the export, the creation date and time, and the list of
+selected profiles.  
+![export_profile_summary](/img/product_docs/platgovsalesforce/tools/export_profile_summary.webp)
+
+The **Profile** tabs contain all of the requested information for each profile.
+Original image link: ![export_profile_summary](/img/product_docs/platgovsalesforce/tools/export_profile_summary.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_users.md
+Context:
+   the **Selected Users** list, select it and click the left arrow.
+6. Select the **Settings to be exported**.  
+   ![export_users_settings](/img/product_docs/platgovsalesforce/tools/export_users_settings.webp)
+7. Click **Download XLS**. The file _UserExport.xls_ is created.
+
+Original image link: ![export_users_settings](/img/product_docs/platgovsalesforce/tools/export_users_settings.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\export_users.md
+Context:
+is in XML instead of the Excel format. Click **Yes** to load the file.
+
+![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
+
+The _UserExport.xls_ file contains a **Summary** tab and a separate tab for each selected user.
+Original image link: ![Excel error message - Click Yes to continue.](/img/product_docs/platgovsalesforce/tools/export_excel_error_msg.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\platgovsalesforceflashlight\tools\running_scanner.md
+Context:
+3. You can select several types to scan or you can scan the whole environment by clicking the **+**
+   by **Name** to select all the types.
+   ![scanner](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner.webp)4.
+   Click **Run Scanner**.
+4. The batch runs in the background. You receive an email notification when the scan is complete.
+Original image link: ![scanner](/img/product_docs/platgovsalesforce/installing_strongpoint/scanner.webp)
+Case: Product folder mismatch
+No suggested images found.
