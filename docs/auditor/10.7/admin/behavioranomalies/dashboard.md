@@ -15,7 +15,7 @@ On the main Auditor page, click
 ![ba_tile](/img/product_docs/auditor/10.7/admin/behavioranomalies/ba_tile.webp)
 on the left.
 
-![dashboard_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/dashboard_thumb_0_0.webp)
+![dashboard_thumb_0_0](/img/product_docs/auditor/10.7/admin/behavioranomalies/dashboard_thumb_0_0.webp)
 
 The dashboards includes the following sections:
 

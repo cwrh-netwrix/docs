@@ -3,7 +3,7 @@
 Console access is configured through the Configuration > Console Access page. Adding users to the
 Access Reviews Console requires the Active Directory service account to be configured.
 
-![Configuration interface showing the Console Access page](/img/product_docs/accessanalyzer/12.0/admin/settings/access/rolebased/consoleaccess.webp)
+![Configuration interface showing the Console Access page](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/consoleaccess.webp)
 
 There are two levels of access, or roles, which can be granted to domain users or groups:
 
@@ -29,7 +29,7 @@ directed after login based on their assigned role or lack of role.
 
 Follow the steps to grant domain users or groups console access.
 
-![Console Access Page](/img/product_docs/accessanalyzer/12.0/admin/settings/access/rolebased/consoleaccess.webp)
+![Console Access Page](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/consoleaccess.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, click Add. The Console
 Access wizard opens.
@@ -106,7 +106,7 @@ user is to disable their access. See the Modify Console Users topic for addition
 
 Follow the steps to remove a user’s configured console access.
 
-![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/accessinformationcenter/12.0/admin/configuration/consoleaccessremove.webp)
+![Console Access Page showing various user accounts, with one selected enabling the Modify and Remove buttons](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/consoleaccessremove.webp)
 
 **Step 1 –** In the Configuration interface on the Console Access page, select the user.
 

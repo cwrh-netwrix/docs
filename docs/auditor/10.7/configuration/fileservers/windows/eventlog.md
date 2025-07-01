@@ -13,7 +13,7 @@ Follow the steps to configure Event Log Size and Retention Settings.
 **Step 2 –** Navigate to Event Viewer tree > Windows Logs, right-click **Security** and select
 **Properties**.
 
-![Log Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_ws_eventviewerpr2016_thumb_0_0.webp)
+![Log Properties dialog box](/img/product_docs/auditor/10.7/configuration/fileservers/windows/manualconfig_ws_eventviewerpr2016_thumb_0_0.webp)
 
 **Step 3 –** Make sure Enable logging is selected.
 

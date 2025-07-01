@@ -25,7 +25,7 @@ Follow the steps to add a filter to your search.
 
 **Step 1 –** Click a filter type icon. Enter a value you want to search for.
 
-![Account specification](/img/product_docs/privilegesecure/4.2/accessmanagement/admin/policy/add/add.webp)
+![Account specification](/img/product_docs/auditor/10.7/admin/search/add.webp)
 
 Alternatively, you can type a value directly into the Search field.
 

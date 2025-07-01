@@ -2,7 +2,7 @@
 
 On the main Netwrix Auditor page, navigate to Subscriptions to review a list of your subscriptions.
 
-![subscription](/img/product_docs/threatprevention/7.5/reportingmodule/investigations/options/subscription.webp)
+![subscription](/img/product_docs/auditor/10.7/admin/subscriptions/subscription.webp)
 
 The table below provides instructions on how to manage your subscriptions.
 

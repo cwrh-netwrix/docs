@@ -29,7 +29,7 @@ The installer can be downloaded from the customer portal. The installer employes
 configuration of the installation. Running a later version of the installer on a server that already
 has a Change Tracker Hub installed will update the installation.
 
-![eula](/img/product_docs/activitymonitor/8.0/install/eula.webp)
+![eula](/img/product_docs/changetracker/8.1/install/eula.webp)
 
 **Step 1 –** Accept the End User License Agreement to start the installation.
 

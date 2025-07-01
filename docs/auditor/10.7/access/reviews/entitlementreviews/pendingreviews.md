@@ -51,7 +51,7 @@ recommendation and processes those changes.
 
 The Begin Review button opens the Resource Review page to start the review.
 
-![Resource Reviews page showing the 1 Make changes tab](/img/product_docs/accessinformationcenter/12.0/resourcereviews/reviewpageaccess.webp)
+![Resource Reviews page showing the 1 Make changes tab](/img/product_docs/auditor/10.7/access/reviews/entitlementreviews/reviewpageaccess.webp)
 
 The Resource Review page varies based on the type of review; however, there are several common
 features:

@@ -3,7 +3,7 @@
 The Access Reviews Console has four interfaces. Upon login, users granted console access are brought
 to the Resource Owners interface.
 
-![Access Information Center landing page, Resource Owners interface, with all 4 tabs available to an Administrator who is also an assigned owner](/img/product_docs/threatprevention/7.4/reportingmodule/interface.webp)
+![Access Information Center landing page, Resource Owners interface, with all 4 tabs available to an Administrator who is also an assigned owner](/img/product_docs/auditor/10.6/access/reviews/admin/interface.webp)
 
 The signed in user is displayed in the upper-right corner, along with the **Sign out** link. The
 available interfaces change according to the role assigned to the user.

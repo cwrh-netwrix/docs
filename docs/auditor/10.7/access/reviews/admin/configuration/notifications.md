@@ -4,7 +4,7 @@ The Access Reviews application uses the Simple Mail Transfer Protocol (SMTP) to 
 SMTP server information and several messaging options can be set through the Configuration >
 Notifications page.
 
-![Notifications Page](/img/product_docs/1secure/admin/notifications.webp)
+![Notifications Page](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/notifications.webp)
 
 At the top, the SMTP server and email security settings are configured. The Notification options is
 where you configure the sender information, and other optional settings. The Reminders section is

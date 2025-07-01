@@ -5,7 +5,7 @@ The **Hub API** page must be entered together with **Access Credentials**.
 By default the Agent username is ‘agent’ with password ‘passWord121’ but these can be changed. See
 the Users: User Administration topic for additional information.
 
-![InstallAgent](/img/product_docs/threatprevention/7.5/install/installagent.webp)
+![InstallAgent](/img/product_docs/changetracker/8.1/install/agent/installagent.webp)
 
 By default the Agent will register using the Name of the server but there is an opportunity to
 customize this during installation or post-installation via an edit of the Hub Details file. See the

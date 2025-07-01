@@ -69,7 +69,7 @@ is explicitly defined. If necessary, modify the parameters as required.
 **Step 5 –** Review the add-on operation results. For example, if you are using the add-on that
 imports data to Netwrix Auditor, you can search Activity Records in the Netwrix Auditor client.
 
-![api_thumb_0_0](/img/product_docs/auditor/10.7/configuration/fileservers/nutanix/api_thumb_0_0.webp)
+![api_thumb_0_0](/img/product_docs/auditor/10.7/addon/api_thumb_0_0.webp)
 
 **Step 6 –** (optional) For PowerShell based add-ons, you can schedule a daily task to ensure your
 audit data is always up-to-date.

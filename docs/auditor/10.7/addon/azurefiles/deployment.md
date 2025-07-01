@@ -71,7 +71,7 @@ erprise.local:9999).
   service runs under the account currently logged on.
 - Password – Provide the password for the selected account.
 
-![adcredentials](/img/product_docs/auditor/10.7/addon/copilot/adcredentials.webp)
+![adcredentials](/img/product_docs/auditor/10.7/addon/azurefiles/adcredentials.webp)
 
 **Step 5 –** Paste Azure Connection String in the corresponded field and click **Next**.
 

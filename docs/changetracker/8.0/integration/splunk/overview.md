@@ -109,7 +109,7 @@ and click **Add an Existing Template**.
 
 Any device in this group of the type Splunk will execute the Splunk tracking policy created above.
 
-![group](/img/product_docs/directorymanager/11.0/configureentraid/register/group.webp)
+![group](/img/product_docs/changetracker/8.0/integration/splunk/group.webp)
 
 **Step 4 –** Ensure the Splunk Tracker group is selected and click **Add** to add a sub group to the
 Splunk Tracker group named Splunk devices. This group will hold the proxied devices that Splunk

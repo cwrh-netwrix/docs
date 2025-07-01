@@ -21,7 +21,7 @@ displayed with the color indicators in accordance with the level:
 - Medium — yellow
 - Low — green
 
-![dashboard_thumb_0_0](/img/product_docs/dataclassification/5.7/admin/reporting/dashboard_thumb_0_0.webp)
+![dashboard_thumb_0_0](/img/product_docs/auditor/10.7/admin/riskassessment/dashboard_thumb_0_0.webp)
 
 After reviewing general risks assessment results in each category, you can drill-down to details
 covered in the underlying report. To do so, double-click the selected metric or use the View Report

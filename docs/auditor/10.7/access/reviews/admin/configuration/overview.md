@@ -3,7 +3,7 @@
 The Configuration interface is available only to users with the Administrator role. It is opened by
 the **Configuration** tab.
 
-![Configuration interface showing the Console Access page](/img/product_docs/accessanalyzer/12.0/admin/settings/access/rolebased/consoleaccess.webp)
+![Configuration interface showing the Console Access page](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/consoleaccess.webp)
 
 It has the following pages:
 

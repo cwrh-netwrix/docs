@@ -6,7 +6,7 @@ review.
 **Step 1 –** On the Pending Reviews page, select the resource with a pending Membership review and
 click **Begin Review**. The Resource Review page opens to the 1 Make changes tab.
 
-![Resource Reviews page showing a Membership Review on 1 Make changes tab](/img/product_docs/accessinformationcenter/12.0/resourcereviews/review/reviewpagemembership.webp)
+![Resource Reviews page showing a Membership Review on 1 Make changes tab](/img/product_docs/auditor/10.7/access/reviews/entitlementreviews/review/reviewpagemembership.webp)
 
 The table displays membership information for the group being reviewed:
 

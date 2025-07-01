@@ -1,0 +1,1278 @@
+
+---
+File: docs\auditor\10.7\access\general\datagrid.md
+Context:
+There is a Search box above a table's header row that can be used to filter the table data.
+
+![Search box above a table header row](/img/product_docs/accessinformationcenter/12.0/general/tablesearch.webp)
+
+Begin typing in the Search box. The filter acts as a wildcard, filtering the table data as you type.
+Original image link: ![Search box above a table header row](/img/product_docs/accessinformationcenter/12.0/general/tablesearch.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\datagrid.md
+Context:
+filter. You can apply filters to multiple columns simultaneously.
+
+![tablecolumnfilter](/img/product_docs/accessinformationcenter/12.0/general/tablecolumnfilter.webp)
+
+Click the filter icon for the column you want to filter. Select the values you want to filter for
+Original image link: ![tablecolumnfilter](/img/product_docs/accessinformationcenter/12.0/general/tablecolumnfilter.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\datagrid.md
+Context:
+values, or hold the **Ctrl** key and click each value to select multiple values individually.
+
+![tablecolumnfilterclear](/img/product_docs/accessinformationcenter/12.0/general/tablecolumnfilterclear.webp)
+
+The filter icon is highlighted orange for a column where a filter is applied. To clear an applied
+Original image link: ![tablecolumnfilterclear](/img/product_docs/accessinformationcenter/12.0/general/tablecolumnfilterclear.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\datagrid.md
+Context:
+Table column widths can be resized to change the width.
+
+![Table header showing column line to be used to resize the column](/img/product_docs/accessinformationcenter/12.0/general/tableresize.webp)
+
+Simply select the edges of the column headers and drag to the desired width.
+Original image link: ![Table header showing column line to be used to resize the column](/img/product_docs/accessinformationcenter/12.0/general/tableresize.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\datagrid.md
+Context:
+Data within a table can be sorted alphanumerically for a column.
+
+![Table column header showing arrow indicating ascending sort](/img/product_docs/accessinformationcenter/12.0/general/tablesort.webp)
+
+Click on any column header. An arrow will appear next to the column name indicating the sort to be
+Original image link: ![Table column header showing arrow indicating ascending sort](/img/product_docs/accessinformationcenter/12.0/general/tablesort.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\datagrid.md
+Context:
+menu that appears when you right-click on a column header.
+
+![Column selector menu showing a hidden column](/img/product_docs/accessinformationcenter/12.0/general/tablecolumns.webp)
+
+The column selector menu shows all available columns for the table. Check columns are visible.
+Original image link: ![Column selector menu showing a hidden column](/img/product_docs/accessinformationcenter/12.0/general/tablecolumns.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\datagrid.md
+Context:
+currently displayed within the table.
+
+![Export buttons at the top of a table](/img/product_docs/accessinformationcenter/12.0/general/tableexports.webp)
+
+- CSV Export – Downloads the data within the table in a CSV file format
+Original image link: ![Export buttons at the top of a table](/img/product_docs/accessinformationcenter/12.0/general/tableexports.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\editnotes.md
+Context:
+**Step 1 –** Select the item in the interface and click Edit Notes. The Edit Notes window opens.
+
+![Edit Notes window showing note entry field](/img/product_docs/accessinformationcenter/12.0/general/editnotes.webp)
+
+**Step 2 –** Type or edit the note in the textbox.
+Original image link: ![Edit Notes window showing note entry field](/img/product_docs/accessinformationcenter/12.0/general/editnotes.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\groupmembership.md
+Context:
+in addition to the group icon displayed in front of the name.
+
+![Resource Reviews page showing the Group Membership window](/img/product_docs/accessanalyzer/12.0/admin/action/activedirectory/operations/groupmembership.webp)
+
+Click the hyperlink to open the Group Membership window. The group’s direct membership is listed for
+Original image link: ![Resource Reviews page showing the Group Membership window](/img/product_docs/accessanalyzer/12.0/admin/action/activedirectory/operations/groupmembership.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\general\removechanges.md
+Context:
+changes window opens to confirm the action.
+
+![Remove changes window](/img/product_docs/accessinformationcenter/12.0/general/removechanges.webp)
+
+**CAUTION:** This will clear all owner-recommended changes and notes for the resource. The owner
+Original image link: ![Remove changes window](/img/product_docs/accessinformationcenter/12.0/general/removechanges.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\admin\configuration\consoleaccess.md
+Context:
+to modify this account.
+
+![modifybuiltinadministrator](/img/product_docs/accessinformationcenter/12.0/admin/configuration/modifybuiltinadministrator.webp)
+
+**Step 1 –** In the Configuration interface on the Console Access page, select the Builtin
+Original image link: ![modifybuiltinadministrator](/img/product_docs/accessinformationcenter/12.0/admin/configuration/modifybuiltinadministrator.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\admin\configuration\notifications.md
+Context:
+          and password to authenticate to the SMTP server.
+
+![Test Settings window](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationstestsettings.webp)
+
+**Step 5 –** Click **Test Settings** to ensure a connection to the SMTP server. The Test Settings
+Original image link: ![Test Settings window](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationstestsettings.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\admin\configuration\notifications.md
+Context:
+window opens. Enter a valid email address and click **OK**.
+
+![Testing your settings window](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationstestconfirm.webp)
+
+**Step 6 –** If the SMTP settings are configured correctly, you receive a successful message. Click
+Original image link: ![Testing your settings window](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationstestconfirm.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\admin\configuration\notifications.md
+Context:
+steps to configure weekly reminders to resource owners.
+
+![Notifications page showing the Reminders section](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationsreminders.webp)
+
+**Step 1 –** In the Configuration interface, select the Notifications page and scroll down to the
+Original image link: ![Notifications page showing the Reminders section](/img/product_docs/accessinformationcenter/12.0/admin/configuration/notificationsreminders.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\approvalprocess.md
+Context:
+opens.
+
+![viewresponses](/img/product_docs/accessinformationcenter/12.0/resourcereviews/viewresponses.webp)
+
+**Step 3 –** By default, the table displays only the recommended changes. Select an item and click
+Original image link: ![viewresponses](/img/product_docs/accessinformationcenter/12.0/resourcereviews/viewresponses.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\reviewhistory.md
+Context:
+a resource where changes were recommended.
+
+![Review Details Window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/reviewdetails.webp)
+
+The information displayed in the table includes:
+Original image link: ![Review Details Window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/reviewdetails.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\deletereview.md
+Context:
+opens to confirm the action.
+
+![Delete Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/deletereviewentire.webp)
+
+**CAUTION:** This will delete all instances of the selected review and all historical data
+Original image link: ![Delete Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/deletereviewentire.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\deletereview.md
+Context:
+**Delete**. The Delete Review window opens to confirm the action.
+
+![Delete Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/deletereviewinstance.webp)
+
+**CAUTION:** This will delete all historical data associated to the selected review instance.
+Original image link: ![Delete Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/deletereviewinstance.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\renamereview.md
+Context:
+**Step 1 –** Select the review and click **Rename**. The Rename Review window opens.
+
+![Rename Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/renamereview.webp)
+
+**Step 2 –** Edit the review name in the textbox.
+Original image link: ![Rename Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/renamereview.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\selectedresources.md
+Context:
+[Create Review Wizard](/docs/auditor/10.7/access/reviews/entitlementreviews/wizard/create.md).
+
+![Selected Resources windwo](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectedresources.webp)
+
+The table displays:
+Original image link: ![Selected Resources windwo](/img/product_docs/accessinformationcenter/12.0/accessrequests/wizard/selectedresources.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\sendreminders.md
+Context:
+action status.
+
+![Send Reminders window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/sendreminders.webp)
+
+The window displays the action status. When a successful status is indicated, assigned owners were
+Original image link: ![Send Reminders window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/sendreminders.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\stopreview.md
+Context:
+Review window opens to confirm the action.
+
+![Stop Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/stopreview.webp)
+
+**CAUTION:** This will prevent owners from completing the review, removing associated resources from
+Original image link: ![Stop Review window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/stopreview.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\viewresponses.md
+Context:
+displays all owner-recommended changes and notes for the selected resource.
+
+![View Responses window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/viewresponses.webp)
+
+The information displayed in the table includes:
+Original image link: ![View Responses window](/img/product_docs/accessinformationcenter/12.0/resourcereviews/viewresponses.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\entitlementreviews\window\viewresponses.md
+Context:
+Select an item in the table, and use the action buttons at the bottom to identify the decision:
+
+![viewresponsesbuttons](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/viewresponsesbuttons.webp)
+
+| Button     | Description                                          |
+Original image link: ![viewresponsesbuttons](/img/product_docs/accessinformationcenter/12.0/resourcereviews/window/viewresponsesbuttons.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\resourceowners\confirmation.md
+Context:
+| Icon                                                                                                                                                                 | Meaning   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Yellow circle with whit question mark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusnostatus.webp) | No Status | Indicates ownership confirmation has not been requested, and there is no ownership status at this time                                                                                                                                                                                                                                                                                                                                             |
+| ![Blue circle with white clock face](/img/product_docs/accessinformationcenter/12.0/resourceowners/statuswaiting.webp)      | Waiting   | Indicates a request for confirmation has been sent, and you are waiting for a response from the assigned owner. Hover over the icon to view the date timestamp of the request.                                                                                                                                                                                                                                                                     |
+| ![Green circle with white checkmark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusconfirmed.webp)    | Confirmed | Indicates the assigned owner confirmed ownership of the resource. Hover over the icon to view the date timestamp of the confirmation.                                                                                                                                                                                                                                                                                                              |
+Original image link: ![Yellow circle with whit question mark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusnostatus.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\resourceowners\confirmation.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![Yellow circle with whit question mark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusnostatus.webp) | No Status | Indicates ownership confirmation has not been requested, and there is no ownership status at this time                                                                                                                                                                                                                                                                                                                                             |
+| ![Blue circle with white clock face](/img/product_docs/accessinformationcenter/12.0/resourceowners/statuswaiting.webp)      | Waiting   | Indicates a request for confirmation has been sent, and you are waiting for a response from the assigned owner. Hover over the icon to view the date timestamp of the request.                                                                                                                                                                                                                                                                     |
+| ![Green circle with white checkmark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusconfirmed.webp)    | Confirmed | Indicates the assigned owner confirmed ownership of the resource. Hover over the icon to view the date timestamp of the confirmation.                                                                                                                                                                                                                                                                                                              |
+| ![Red circle with white X](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusdeclined.webp)               | Declined  | Indicates the assigned owner declined ownership of the resource. These individuals would have been asked to suggest an alternative owner. Check the Notes for the resource to view this information. Hover over the icon to view the date timestamp of the decline. _Remember,_ a resource with declined ownership needs to be updated to assign a new owner. See the [Update Resource Wizard](/docs/auditor/10.7/access/reviews/resourceowners/wizard/update.md) topic for additional information. |
+Original image link: ![Blue circle with white clock face](/img/product_docs/accessinformationcenter/12.0/resourceowners/statuswaiting.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\resourceowners\confirmation.md
+Context:
+| ![Yellow circle with whit question mark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusnostatus.webp) | No Status | Indicates ownership confirmation has not been requested, and there is no ownership status at this time                                                                                                                                                                                                                                                                                                                                             |
+| ![Blue circle with white clock face](/img/product_docs/accessinformationcenter/12.0/resourceowners/statuswaiting.webp)      | Waiting   | Indicates a request for confirmation has been sent, and you are waiting for a response from the assigned owner. Hover over the icon to view the date timestamp of the request.                                                                                                                                                                                                                                                                     |
+| ![Green circle with white checkmark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusconfirmed.webp)    | Confirmed | Indicates the assigned owner confirmed ownership of the resource. Hover over the icon to view the date timestamp of the confirmation.                                                                                                                                                                                                                                                                                                              |
+| ![Red circle with white X](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusdeclined.webp)               | Declined  | Indicates the assigned owner declined ownership of the resource. These individuals would have been asked to suggest an alternative owner. Check the Notes for the resource to view this information. Hover over the icon to view the date timestamp of the decline. _Remember,_ a resource with declined ownership needs to be updated to assign a new owner. See the [Update Resource Wizard](/docs/auditor/10.7/access/reviews/resourceowners/wizard/update.md) topic for additional information. |
+
+Original image link: ![Green circle with white checkmark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusconfirmed.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\resourceowners\confirmation.md
+Context:
+| ![Blue circle with white clock face](/img/product_docs/accessinformationcenter/12.0/resourceowners/statuswaiting.webp)      | Waiting   | Indicates a request for confirmation has been sent, and you are waiting for a response from the assigned owner. Hover over the icon to view the date timestamp of the request.                                                                                                                                                                                                                                                                     |
+| ![Green circle with white checkmark](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusconfirmed.webp)    | Confirmed | Indicates the assigned owner confirmed ownership of the resource. Hover over the icon to view the date timestamp of the confirmation.                                                                                                                                                                                                                                                                                                              |
+| ![Red circle with white X](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusdeclined.webp)               | Declined  | Indicates the assigned owner declined ownership of the resource. These individuals would have been asked to suggest an alternative owner. Check the Notes for the resource to view this information. Hover over the icon to view the date timestamp of the decline. _Remember,_ a resource with declined ownership needs to be updated to assign a new owner. See the [Update Resource Wizard](/docs/auditor/10.7/access/reviews/resourceowners/wizard/update.md) topic for additional information. |
+
+If multiple owners have been assigned, there is a choice for which assigned owner(s) should receive
+Original image link: ![Red circle with white X](/img/product_docs/accessinformationcenter/12.0/resourceowners/statusdeclined.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\resourceowners\interface.md
+Context:
+perform many operations around assigning and managing ownership.
+
+![Resource Owners Tab in Netwrix Access Information Center](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
+
+The information displayed in the table includes:
+Original image link: ![Resource Owners Tab in Netwrix Access Information Center](/img/product_docs/threatprevention/7.5/reportingmodule/interface.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\access\reviews\resourceowners\window\confirmremoval.md
+Context:
+Removal window opens.
+
+![Confirm Removal window asking are you sure you wish to remove](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/confirmremoval.webp)
+
+**Step 2 –** Click Yes to complete the removal process or **No** to cancel it.
+Original image link: ![Confirm Removal window asking are you sure you wish to remove](/img/product_docs/threatprevention/7.5/admin/configuration/collectionmanager/confirmremoval.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\alienvaultusm\collecteddata.md
+Context:
+**Step 3 –** Review events.
+
+![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+
+Now you can augment Windows event log with data collected by the Auditor.
+Original image link: ![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\alienvaultusm\integrationeventlog.md
+Context:
+Details are filled in only if this Activity Record field is not empty.
+
+![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+
+Original image link: ![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\ctera\collecteddata.md
+Context:
+You can apply a filter to narrow down your search results to the Netwrix **API** data source only.
+
+![AR from CyberArk in NA](/img/product_docs/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
+
+- Also, you can click **Tools** in the upper-right corner and select the command you need. For
+Original image link: ![AR from CyberArk in NA](/img/product_docs/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\ibmqradar\collecteddata.md
+Context:
+**Step 3 –** Review events.
+
+![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+
+Now you can augment Windows event log with data collected by the Auditor.
+Original image link: ![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\ibmqradar\integrationeventlog.md
+Context:
+Details are filled in only if this Activity Record field is not empty.
+
+![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+
+Original image link: ![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\intelsecurity\collecteddata.md
+Context:
+**Step 3 –** Review events.
+
+![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+
+Now you can augment Windows event log with data collected by the Auditor.
+Original image link: ![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\intelsecurity\integrationeventlog.md
+Context:
+Details are filled in only if this Activity Record field is not empty.
+
+![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+
+Original image link: ![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\logrhythm\collecteddata.md
+Context:
+**Step 3 –** Review events.
+
+![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+
+Now you can augment Windows event log with data collected by the Auditor.
+Original image link: ![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\logrhythm\integrationeventlog.md
+Context:
+Details are filled in only if this Activity Record field is not empty.
+
+![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+
+Original image link: ![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\nasuni\collecteddata.md
+Context:
+You can apply a filter to narrow down your search results to the Netwrix **API** data source only.
+
+![AR from CyberArk in NA](/img/product_docs/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
+
+- Also, you can click **Tools** in the upper-right corner and select the command you need. For
+Original image link: ![AR from CyberArk in NA](/img/product_docs/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\okta\collecteddata.md
+Context:
+You can apply a filter to narrow down your search results to the Netwrix **API** data source only.
+
+![AR from CyberArk in NA](/img/product_docs/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
+
+- Also, you can click **Tools** in the upper-right corner and select the command you need. For
+Original image link: ![AR from CyberArk in NA](/img/product_docs/auditor/10.7/addon/cyberark/cyberark_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\siem\collecteddata.md
+Context:
+**Step 3 –** Review events.
+
+![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+
+Now you can augment Windows event log with data collected by the Auditor.
+Original image link: ![EventLog_Export_Example](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexportexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\addon\siem\integrationeventlog.md
+Context:
+Details are filled in only if this Activity Record field is not empty.
+
+![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+
+Original image link: ![eventlogexample_thumb_0_0](/img/product_docs/auditor/10.7/addon/solarwinds/eventlogexample_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\alertsettings\manage.md
+Context:
+| Modify an existing alert           | Select an alert from the list and click Edit.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Create a new alert from existing   | Select an alert from the list and click Duplicate at the bottom of the window.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Remove an alert                    | Select an alert from the list and click ![delete](/img/product_docs/platgovnetsuite/integrations/delete.webp) in the right pane.                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Find an alert                      | Use the Filter by tags option to find an alert by tags associated with this alert. _OR_ Use a search bar in the upper part of All Alerts window to find an alert by its name or tag.                                                                                                                                                                                                                                                                                                                                                                                                                        |
+
+Original image link: ![delete](/img/product_docs/platgovnetsuite/integrations/delete.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\activedirectory\overview.md
+Context:
+collection.
+
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+
+**Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
+Original image link: ![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\activedirectory\overview.md
+Context:
+sources.
+
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+
+The second option is Resource-based. To use this option, you need to provide the Activity and
+Original image link: ![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\fileservers\windowsfileserver.md
+Context:
+collection.
+
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+
+**Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
+Original image link: ![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\fileservers\windowsfileserver.md
+Context:
+sources.
+
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+
+The second option is Resource-based. To use this option, you need to provide the Activity and
+Original image link: ![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\grouppolicy\overview.md
+Context:
+collection.
+
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+
+**Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
+Original image link: ![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\grouppolicy\overview.md
+Context:
+sources.
+
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+
+The second option is Resource-based. To use this option, you need to provide the Activity and
+Original image link: ![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\logonactivity\overview.md
+Context:
+collection.
+
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+
+**Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
+Original image link: ![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\logonactivity\overview.md
+Context:
+sources.
+
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+
+The second option is Resource-based. To use this option, you need to provide the Activity and
+Original image link: ![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\microsoftentraid\overview.md
+Context:
+collection.
+
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+
+**Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
+Original image link: ![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\microsoftentraid\overview.md
+Context:
+sources.
+
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+
+The second option is Resource-based. To use this option, you need to provide the Activity and
+Original image link: ![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\windows\overview.md
+Context:
+collection.
+
+![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+
+**Step 3 –** Select the type of the Access Policy you want to use in Netwrix Privilege Secure.
+Original image link: ![npsdatacollectingaccount](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccount.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\monitoringplans\windows\overview.md
+Context:
+sources.
+
+![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+
+The second option is Resource-based. To use this option, you need to provide the Activity and
+Original image link: ![npsdatacollectingaccountresourced](/img/product_docs/auditor/10.7/configuration/grouppolicy/npsdatacollectingaccountresourced.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\admin\subscriptions\manage.md
+Context:
+| Enable or disable subscriptions | Pick a subscription and select On or Off in the Mode column.                                                                                             |
+| Modify subscriptions            | Select the subscription that you want to modify and click Edit at the bottom of the Subscriptions window. Update the subscription and save your changes. |
+| Remove subscriptions            | Click ![delete](/img/product_docs/platgovnetsuite/integrations/delete.webp) icon next to the selected subscription.          |
+
+Original image link: ![delete](/img/product_docs/platgovnetsuite/integrations/delete.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\api\prerequisites.md
+Context:
+manually.
+
+![Integration API Settings](/img/product_docs/auditor/10.7/addon/connectwise/integrations_thumb_0_0.webp)
+
+## Configure Audit Database Settings
+Original image link: ![Integration API Settings](/img/product_docs/auditor/10.7/addon/connectwise/integrations_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\additional.md
+Context:
+Policies > User Rights Assignment** and locate the **Log on as a batch job** policy.
+
+![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+
+**Step 3 –** Double-click the **Log on as a batch job** policy, and click **Add User or Group**.
+Original image link: ![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\advancedpolicy.md
+Context:
+   settings and make sure that policy setting is set to _"Enabled"_.
+
+    ![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
+
+5. Run the following command to update group policy:
+Original image link: ![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\advancedpolicy.md
+Context:
+    | Logon/Logoff       | - Audit Logoff - Audit Logon These policies are only required to collect the information on the originating workstation, i.e., the computer from which a change was made. | _"Success"_  |
+
+    ![manualconfig_ad_advpol_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_advpol_winserver2016.webp)
+
+5. Run the following command to update group policy:
+Original image link: ![manualconfig_ad_advpol_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_advpol_winserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\basicpolicy.md
+Context:
+    | **Audit logon events**             | _"Success"_  |
+
+    ![manualconfig_ad_localpolicy_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_localpolicy_winserver2016.webp)
+
+    The Audit logon events policy is only required to collect the information on the originating
+Original image link: ![manualconfig_ad_localpolicy_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_localpolicy_winserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\objectlevel.md
+Context:
+and ensure that the **Advanced Features** are enabled.
+
+![manualconfig_aduc_advsecwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.webp)
+
+**Step 3 –** Right-click the **`<domain_name>`** node and select **Properties.** Select the
+Original image link: ![manualconfig_aduc_advsecwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advsecwinserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\objectlevel.md
+Context:
+dialog, select the **Auditing** tab.
+
+![manualconfig_aduc_advauditing_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.webp)
+
+**Step 4 –** Perform the following actions on the Windows Server 2012 and above:
+Original image link: ![manualconfig_aduc_advauditing_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_aduc_advauditing_winserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\objectlevel.md
+Context:
+   objects and/or containers within this container** checkbox is cleared.
+
+    ![manualconfig_objectlevel_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+
+## Enabling object-level auditing for the Configuration and Schema partitions
+Original image link: ![manualconfig_objectlevel_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_objectlevel_winserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\objectlevel.md
+Context:
+the drop-down list.
+
+![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
+
+**Step 3 –** Expand the **Configuration `<Your_Root_Domain_Name>`** node. Right-click the
+Original image link: ![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\permissions.md
+Context:
+Policies > User Rights Assignment** and locate the **Log on as a batch job** policy.
+
+![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+
+**Step 3 –** Double-click the **Log on as a batch job** policy, and click **Add User or Group**.
+Original image link: ![manualconfig_ws_logonasbatch](/img/product_docs/1secure/admin/datacollection/activedirectory/manualconfig_ws_logonasbatch.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\securitylog.md
+Context:
+   Log** and double-click the **Maximum security log size** policy.
+
+    ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.webp)
+
+4. In the Maximum security log size Properties dialog, select **Define this policy setting** and set
+Original image link: ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\activedirectory\tombstone.md
+Context:
+the drop-down list.
+
+![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
+
+**Step 3 –** Navigate to **Configuration `<Your_Root_Domain_Name>` →
+Original image link: ![manualconfig_adsi_connectionwinserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_adsi_connectionwinserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\delldatastorage\cifss.md
+Context:
+**Auditing** tab.
+
+![auditing_entries_netapp_2016](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
+
+**Step 10 –** Click Add to add a new principal. You can select Everyone (or another user-defined
+Original image link: ![auditing_entries_netapp_2016](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\delldatastorage\cifss.md
+Context:
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ------------------------ | -------------------- | ----------------------------- | --- | --- | --- | --- | --- | --- | ---------- | --- | --- | --- | --- | ---------- | --------------------------------- | --------------------------------- | --------------------------------- | --- | ---- | --- | --- | --- | --- | ------- | ------- | ---- | ---- | --- | -------------------- | --- | --- | --- | --- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- |
+| **Successful reads**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                  |
+| The Auditing Entry below shows Advanced Permissions for auditing successful reads only: ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp) - Type—Set to _"Success"_. - Applies to—Set to _"Files only"_. - Advanced permissions—Select List folder / read data. - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.                                                                                                                                                                                      |                  |
+| **Successful changes**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |                  |
+| The Auditing Entry below shows Advanced Permissions for auditing successful changes only: ![manualconfig_fileserver_emc_auditingentry](/img/product_docs/auditor/10.7/configuration/fileservers/delldatastorage/manualconfig_fileserver_emc_auditingentry.webp) - Type—Set to _"Success"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write attributes - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.       |                  |
+Original image link: ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\delldatastorage\cifss.md
+Context:
+| The Auditing Entry below shows Advanced Permissions for auditing successful changes only: ![manualconfig_fileserver_emc_auditingentry](/img/product_docs/auditor/10.7/configuration/fileservers/delldatastorage/manualconfig_fileserver_emc_auditingentry.webp) - Type—Set to _"Success"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write attributes - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.       |                  |
+| **Failed read attempts**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |                  |
+| The Auditing Entry below shows Advanced Permissions for auditing failed read attempts: ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) - Type—Set to _"Fail"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions—Select List folder / read data. - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.                                                                                                                                                                   |                  |
+| **Failed change attempts**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                  |
+| The Auditing Entry below shows Advanced Permissions for auditing failed change attempts: ![manualconfig_fileserver_emc_auditingentry_fail](/img/product_docs/auditor/10.7/configuration/fileservers/delldatastorage/manualconfig_fileserver_emc_auditingentry_fail.webp) - Type—Set to _"Fail"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write attributes - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared. | Successful reads | Successful modifications | Failed read attempts | Failed modifications attempts |     | --- | --- | --- | --- |     | Applies to |     |     |     |     | Files only | This folder, subfolders and files | This folder, subfolders and files | This folder, subfolders and files |     | Type |     |     |     |     | Success | Success | Fail | Fail |     | Advanced permissions |     |     |     |     | - List Folder / Read Data | - Create Files / Write Data - Create Folders / Append Data - Write Attributes - Write Extended Attributes - Delete Subfolders and Files - Delete - Change Permissions - Take Ownership | - List Folder / Read Data | - Create Files / Write Data - Create Folders / Append Data - Write Attributes - Write Extended Attributes - Delete Subfolders and Files - Delete - Change Permissions - Take Ownership |     |     |
+Original image link: ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\netappcmode\cifs.md
+Context:
+   tab, click Edit.
+
+    ![auditing_entries_netapp_2016](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
+
+4. Click Add to add a new principal. You can also select Everyone (or another user-defined group
+Original image link: ![auditing_entries_netapp_2016](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\advancedpolicy.md
+Context:
+Force audit policy subcategory settings policy.
+
+![Local Security Policy snap-in ](/img/product_docs/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.webp)
+
+**Step 3 –** Double-click the policy and enable it.
+Original image link: ![Local Security Policy snap-in ](/img/product_docs/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\localpolicy.md
+Context:
+Local audit policy is configured.
+
+![Local Security Policy snap-in](/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)
+
+Original image link: ![Local Security Policy snap-in](/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\objectlevel.md
+Context:
+Auditing tab.
+
+![Advanced Security Settings for Share_Name dialog box](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
+
+**Step 4 –** Click **Add** to add a new principal. You can select **Everyone** (or another
+Original image link: ![Advanced Security Settings for Share_Name dialog box](/img/product_docs/1secure/configuration/computer/auditing_entries_netapp_2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\objectlevel.md
+Context:
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| Successful reads                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |     |
+| The Auditing Entry below shows Advanced Permissions for auditing successful reads only: ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp) - Type—Set to _"Success"_. - Applies to—Set to _"Files only"_. - Advanced permissions—Select List folder / read data. - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.                                                                                                                                                               |     |
+| Successful changes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |     |
+| The Auditing Entry below shows Advanced Permissions for auditing successful changes only: ![manualconfig_fileserver_auditingentry_2_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp) - Type—Set to _"Success"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared. |     |
+Original image link: ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\objectlevel.md
+Context:
+| The Auditing Entry below shows Advanced Permissions for auditing successful reads only: ![manualconfig_fileserver_auditingentry_1_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_1_2016.webp) - Type—Set to _"Success"_. - Applies to—Set to _"Files only"_. - Advanced permissions—Select List folder / read data. - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.                                                                                                                                                               |     |
+| Successful changes                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |     |
+| The Auditing Entry below shows Advanced Permissions for auditing successful changes only: ![manualconfig_fileserver_auditingentry_2_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp) - Type—Set to _"Success"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared. |     |
+| Failed read attempts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |     |
+| The Auditing Entry below shows Advanced Permissions for auditing failed read attempts: ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) - Type—Set to _"Fail"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions—Select List folder / read data. - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.                                                                                                                                            |     |
+Original image link: ![manualconfig_fileserver_auditingentry_2_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\objectlevel.md
+Context:
+| The Auditing Entry below shows Advanced Permissions for auditing successful changes only: ![manualconfig_fileserver_auditingentry_2_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_2_2016.webp) - Type—Set to _"Success"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared. |     |
+| Failed read attempts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |     |
+| The Auditing Entry below shows Advanced Permissions for auditing failed read attempts: ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) - Type—Set to _"Fail"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions—Select List folder / read data. - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.                                                                                                                                            |     |
+| Failed change attempts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |     |
+| The Auditing Entry below shows Advanced Permissions for auditing failed change attempts: ![manualconfig_fileserver_auditingentry_4_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_4_2016.webp) - Type—Set to _"Fail"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.     |     |
+Original image link: ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\objectlevel.md
+Context:
+| The Auditing Entry below shows Advanced Permissions for auditing failed read attempts: ![manualconfig_fileserver_auditingentry_3_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_3_2016.webp) - Type—Set to _"Fail"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions—Select List folder / read data. - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.                                                                                                                                            |     |
+| Failed change attempts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |     |
+| The Auditing Entry below shows Advanced Permissions for auditing failed change attempts: ![manualconfig_fileserver_auditingentry_4_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_4_2016.webp) - Type—Set to _"Fail"_. - Applies to—Set to _"This folder, subfolders and files"_. - Advanced permissions: - Create files / write data - Create folders / append data - Write extended attributes - Delete subfolders and files - Delete - Change permissions - Take ownership - Make sure that the Only apply these auditing settings to objects and/or containers within this container checkbox is cleared.     |     |
+
+## Configure Object-level access auditing on pre-Windows Server 2012 versions
+Original image link: ![manualconfig_fileserver_auditingentry_4_2016](/img/product_docs/auditor/10.7/configuration/fileservers/netappcmode/manualconfig_fileserver_auditingentry_4_2016.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\ports.md
+Context:
+left.
+
+![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
+
+**Step 4 –** Enable the following inbound connection rules:
+Original image link: ![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\remoteregistryservice.md
+Context:
+**Step 1 –** Navigate to Start > Windows Administrative Tools > Services.
+
+![Services Console](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry2016.webp)
+
+**Step 2 –** In the Services window, locate the Remote Registry service, right-click it and select
+Original image link: ![Services Console](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\fileservers\windows\remoteregistryservice.md
+Context:
+set to _Automatic_ and click **Start**.
+
+![Remote Registry Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry_start2016.webp)
+
+**Step 4 –** In the Services window, ensure that the Remote Registry service has the _Running_
+Original image link: ![Remote Registry Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry_start2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\logonactivity\advancedpolicy.md
+Context:
+   settings and make sure that policy setting is set to _"Enabled"_.
+
+    ![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
+
+5. Run the following command to update group policy:
+Original image link: ![manualconfig_ad_nla_audit_force_winserver2016](/img/product_docs/1secure/configuration/ad/manualconfig_ad_nla_audit_force_winserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\logonactivity\advancedpolicy.md
+Context:
+    | System                             | - Audit Security State Change                                                                                    | _"Success"_                 |
+
+    ![manualconfig_nla_advpol2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_advpol2016.webp)
+
+5. Run the following command to update group policy:
+Original image link: ![manualconfig_nla_advpol2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_advpol2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\logonactivity\basicpolicy.md
+Context:
+    | Audit system events        | _"Success"_                 |
+
+    ![manualconfig_nla_auditpolicies2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
+
+5. Run the following command to update group policy:
+Original image link: ![manualconfig_nla_auditpolicies2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_auditpolicies2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\logonactivity\ports.md
+Context:
+left.
+
+![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
+
+**Step 4 –** Enable the following inbound connection rules:
+Original image link: ![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\logonactivity\securityeventlog.md
+Context:
+Settings > Event Log** and double-click the **Maximum security log size** policy.
+
+![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.webp)
+
+**Step 4 –** In the Maximum security log size Properties dialog, select **Define this policy
+Original image link: ![manualconfig_grouppolicymaxsecuritysizewinserver2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_grouppolicymaxsecuritysizewinserver2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\sqlserver\permissions.md
+Context:
+   Login** from the pop-up menu.
+
+    ![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+
+4. Click **Search** next to **Login Name** and specify the user that you want to assign the
+Original image link: ![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\windowsserver\advancedpolicy.md
+Context:
+Force audit policy subcategory settings policy.
+
+![Local Security Policy snap-in ](/img/product_docs/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.webp)
+
+**Step 3 –** Double-click the policy and enable it.
+Original image link: ![Local Security Policy snap-in ](/img/product_docs/1secure/configuration/computer/manualconfig_fileserver_graudit_secpol2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\windowsserver\eventlog.md
+Context:
+**Properties**.
+
+![Log Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_ws_eventviewerpr2016_thumb_0_0.webp)
+
+**Step 3 –** Make sure Enable logging is selected.
+Original image link: ![Log Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_ws_eventviewerpr2016_thumb_0_0.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\windowsserver\localpolicy.md
+Context:
+Local audit policy is configured.
+
+![Local Security Policy snap-in](/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)
+
+Original image link: ![Local Security Policy snap-in](/img/product_docs/1secure/configuration/computer/manualconfig_ws_local_audit_policies2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\windowsserver\ports.md
+Context:
+left.
+
+![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
+
+**Step 4 –** Enable the following inbound connection rules:
+Original image link: ![manualconfig_nla_inbound_connections2016](/img/product_docs/1secure/configuration/logonactivity/manualconfig_nla_inbound_connections2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\windowsserver\remoteregistry.md
+Context:
+**Step 1 –** Navigate to Start > Windows Administrative Tools > Services.
+
+![Services Console](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry2016.webp)
+
+**Step 2 –** In the Services window, locate the Remote Registry service, right-click it and select
+Original image link: ![Services Console](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\configuration\windowsserver\remoteregistry.md
+Context:
+set to _Automatic_ and click **Start**.
+
+![Remote Registry Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry_start2016.webp)
+
+**Step 4 –** In the Services window, ensure that the Remote Registry service has the _Running_
+Original image link: ![Remote Registry Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry_start2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\requirements\longtermarchive.md
+Context:
+Health Status dashboard.
+
+![healthstatusdashboard_thumb_0_0](/img/product_docs/auditor/10.7/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.webp)
+
+To estimate the amount of activity records collected and stored to the repository day by day, use
+Original image link: ![healthstatusdashboard_thumb_0_0](/img/product_docs/auditor/10.7/admin/healthstatus/dashboard/healthstatusdashboard_thumb_0_0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\requirements\sqlserver.md
+Context:
+select **New Login** from the pop-up menu.
+
+![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+
+**Step 6 –** Click **Search** next to **Login Name** and specify the user that you want to assign
+Original image link: ![manualconfig_ssms_newlogin2016](/img/product_docs/1secure/configuration/sqlserver/manualconfig_ssms_newlogin2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\tools\windowseventlogs.md
+Context:
+**Step 1 –** Navigate to Start > Windows Administrative Tools > Services.
+
+![Services Console](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry2016.webp)
+
+**Step 2 –** In the Services window, locate the Remote Registry service, right-click it and select
+Original image link: ![Services Console](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry2016.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\auditor\10.7\tools\windowseventlogs.md
+Context:
+set to _Automatic_ and click **Start**.
+
+![Remote Registry Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry_start2016.webp)
+
+**Step 4 –** In the Services window, ensure that the Remote Registry service has the _Running_
+Original image link: ![Remote Registry Properties dialog box](/img/product_docs/1secure/configuration/computer/manualconfig_genevents_remoteregistry_start2016.webp)
+Case: Product folder mismatch
+No suggested images found.

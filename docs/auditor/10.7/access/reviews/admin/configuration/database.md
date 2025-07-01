@@ -4,7 +4,7 @@ The Access Reviews application must have access to the SQL Server hosting the da
 configured during installation. If it is necessary to modify these setting after installation, that
 is done on the Database Page of the Configuration interface.
 
-![Configuration interface showing the Database page](/img/product_docs/threatprevention/7.5/install/database.webp)
+![Configuration interface showing the Database page](/img/product_docs/auditor/10.7/access/reviews/admin/configuration/database.webp)
 
 SQL Server database information:
 

@@ -45,7 +45,7 @@ On a high level, the workflow is as follows:
 
 Solution architecture and key components are shown in the figure below:
 
-![diagram](/img/product_docs/auditor/10.7/addon/splunk/diagram.webp)
+![diagram](/img/product_docs/auditor/10.7/addon/connectwise/diagram.webp)
 
 - **Alert Handler (Netwrix.ITSM.AlertResponseAction.exe)** — the executable that is specified in the
   Auditor alerts as the response action. Alert Handler:

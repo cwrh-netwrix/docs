@@ -3,7 +3,7 @@
 The Confirm Ownership wizard is opened with the **Request Confirmation** button in the Resource
 Owners interface. It can be opened for one or multiple resources.
 
-![Confirm Ownership wizard showing 1.Select Owners page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectowners.webp)
+![Confirm Ownership wizard showing 1.Select Owners page](/img/product_docs/auditor/10.7/access/reviews/resourceowners/wizard/selectowners_2.webp)
 
 It contains one page:
 
@@ -16,7 +16,7 @@ Follow the steps to request ownership confirmation.
 **Step 1 –** In the Resource Owners interface, select the desired resource or resources and click
 Request Confirmation. The Confirm Ownership wizard opens.
 
-![Confirm Ownership wizard showing 1.Select Owners page](/img/product_docs/accessinformationcenter/12.0/resourceowners/wizard/selectowners.webp)
+![Confirm Ownership wizard showing 1.Select Owners page](/img/product_docs/auditor/10.7/access/reviews/resourceowners/wizard/selectowners_2.webp)
 
 **Step 2 –** On the Select Owners page, you can optionally remove owners you do not want or need
 ownership confirmation from. Select those owners and click **Remove**. Those owners will not receive

@@ -65,7 +65,7 @@ field. When the port is set as desired, click **Next**.
 
 **Step 8 –** On the Ready to install page, click Install to begin the process.
 
-![Netwrix Auditor Access Reviews Setup wizard Completed page](/img/product_docs/privilegesecure/4.1/accessmanagement/install/installcompleted.webp)
+![Netwrix Auditor Access Reviews Setup wizard Completed page](/img/product_docs/auditor/10.6/access/reviews/installation/installcompleted.webp)
 
 **Step 9 –** Once the installation has successfully completed, click Finish to exit the wizard.
 

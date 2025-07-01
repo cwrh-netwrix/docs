@@ -2,7 +2,7 @@
 
 The installer places the following icon on the desktop which opens the Access Reviews Console:
 
-![desktopicon](/img/product_docs/threatprevention/7.4/install/desktopicon.webp)
+![desktopicon](/img/product_docs/auditor/10.6/access/reviews/admin/desktopicon.webp)
 
 Use this icon to launch the Access Reviews Console for the first time.
 

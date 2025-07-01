@@ -41,7 +41,7 @@ username needs to be entered in the `domain\username` format.
 
 **NOTE:** The URL may need to be added to the browser’s list of trusted sites.
 
-![Access Information Center Login page](/img/product_docs/threatprevention/7.4/eperestsite/login.webp)
+![Access Information Center Login page](/img/product_docs/auditor/10.6/access/reviews/admin/login.webp)
 
 The interface a user arrives at depends upon the assigned role or lack of assigned role.
 
