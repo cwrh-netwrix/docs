@@ -13,16 +13,16 @@ installation package. The default location is:
 
 **Step 3 –** Click the Activity Monitor agent installation package and the Wizard opens.
 
-![Activity Monitor Agent Setup Wizard - Welcome Page](/img/product_docs/activitymonitor/7.1/install/welcome.webp)
+![Activity Monitor Agent Setup Wizard - Welcome Page](/img/product_docs/activitymonitor/7.1/install/agent/welcome_1.webp)
 
 **Step 4 –** On the welcome page click **Next**.
 
-![End-User License Agreement Page](/img/product_docs/changetracker/8.0/install/eula.webp)
+![End-User License Agreement Page](/img/product_docs/activitymonitor/7.1/install/agent/eula.webp)
 
 **Step 5 –** On the End-User License Agreement page, select the **I accept the terms in the License
 Agreement** option and click **Next**.
 
-![Destination Folder Page](/img/product_docs/activitymonitor/7.1/install/destinationfolder.webp)
+![Destination Folder Page](/img/product_docs/activitymonitor/7.1/install/agent/destinationfolder_1.webp)
 
 **Step 6 –** (Optional) On the Destination Folder page, click **Change** to change the installation
 directory location.
@@ -37,7 +37,7 @@ page. Click **Next**.
 **Step 8 –** On the Ready to install page, click **Install**. The installation process begins. The
 Setup wizard displays the installation status.
 
-![Completion Page](/img/product_docs/activitymonitor/7.1/install/complete.webp)
+![Completion Page](/img/product_docs/activitymonitor/7.1/install/agent/complete.webp)
 
 **Step 9 –** When installation is complete, click Finish.
 

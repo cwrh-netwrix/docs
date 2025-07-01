@@ -13,7 +13,7 @@ Setup wizard.
 
 **Step 2 –** On the Activity Monitor Setup Wizard welcome page, click **Next** .
 
-![End-User License Agreement Page](/img/product_docs/changetracker/8.0/install/eula.webp)
+![End-User License Agreement Page](/img/product_docs/activitymonitor/7.1/install/eula.webp)
 
 **Step 3 –** On the End User License Agreement page, check the I accept the terms in the License
 Agreement box and click Next.
