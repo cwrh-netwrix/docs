@@ -21,7 +21,7 @@ Step 2 – Read the welcome message and click **Next**.
 Step 3 – On the End User License Agreement page, review and accept the licensing agreement and click
 **Next**.
 
-![installpath](/img/product_docs/threatprevention/7.5/admin/agents/deploy/installpath.webp)
+![installpath](/img/product_docs/directorymanager/11.1/install/installer/installpath.webp)
 
 Step 4 – In the Installation Folder box, specify the location where you want to install Directory
 Manageror accept the one suggested by the Installer. Click **Install**.

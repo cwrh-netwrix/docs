@@ -25,7 +25,7 @@ on the following pages in the portal:
   Directory Manager creates a new child group for each unique value of the attribute that users
   select in the _Group Items By_ field.
 
-    ![addattributes](/img/product_docs/accessanalyzer/12.0/admin/datacollector/addattributes.webp)
+    ![addattributes](/img/product_docs/directorymanager/11.1/admincenter/portal/design/addattributes.webp)
 
 - The Query Designer for importing members to a group using an external data source. The specified
   schema attributes would be available on the Filter Criteria tab of the Query Designer for building

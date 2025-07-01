@@ -17,7 +17,7 @@ Installation package.
 
 Step 2 – Run directorymanagerPrereqTool.exe file. It launches the Preparation Tool.
 
-![Preparation Tool Welcome page](/img/product_docs/activitymonitor/8.0/install/welcome.webp)
+![Preparation Tool Welcome page](/img/product_docs/directorymanager/11.1/install/installer/welcome.webp)
 
 Step 3 – Read the welcome message and click **Next**.
 
@@ -31,7 +31,7 @@ Preparation Tool has identified for Directory Manager. Click **Install** to begi
 Step 5 – On the We are preparing this machine for Directory Manager... page the progress bar shows
 the installation progress while prerequisites are installed.
 
-![Ready to install](/img/product_docs/activitymonitor/8.0/install/agent/readytoinstall.webp)
+![Ready to install](/img/product_docs/directorymanager/11.1/install/installer/readytoinstall.webp)
 
 The You are ready to install GroupID! page displays the status of each prerequisite software and
 Windows feature as Passed or Failed.

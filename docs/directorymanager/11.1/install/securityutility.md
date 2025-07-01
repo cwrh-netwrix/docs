@@ -56,7 +56,7 @@ addresses you specify here to include in the IP security rules.
 
 Step 3 – After successful configuration, the following message is displayed.
 
-![Success message](/img/product_docs/activitymonitor/8.0/install/agent/success.webp)
+![Success message](/img/product_docs/directorymanager/11.1/install/success.webp)
 
 In the event of a Directory Manager multi-instance deployment, execute the above steps on each
 Directory Manager server in your environment.
