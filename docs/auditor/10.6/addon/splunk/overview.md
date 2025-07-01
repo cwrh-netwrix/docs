@@ -55,7 +55,7 @@ Netwrix Auditor add-on for Splunk allows pulling activity records data from the 
 its Integration API. Data is retrieved in JSON format, transferred over HTTPS and stored to Splunk
 index.
 
-![diagram](/img/product_docs/auditor/10.6/addon/cyberark/diagram.webp)
+![diagram](/img/product_docs/auditor/10.6/addon/splunk/diagram.webp)
 
 To learn more about Netwrix Auditor activity records, see the
 [Activity Records](/docs/auditor/10.6/api/postdata/activityrecords.md) topic for

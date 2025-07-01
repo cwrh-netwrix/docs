@@ -2,7 +2,7 @@
 
 The configuration wizard opens in the default web browser:
 
-![configwizard](/img/product_docs/auditor/10.6/addon/privilegeduserlinux/configwizard.webp)
+![configwizard](/img/product_docs/auditor/10.6/addon/ctera/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

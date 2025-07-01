@@ -95,7 +95,7 @@ Do one of the following:
 | To...                    | Do...                                                                                                                      |
 | ------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
 | Assign a role            | 1. Select Add User. 2. In the dialog that opens, specify a user (or a group) and a role.                                   |
-| Revoke a role assignment | - Click ![delete](/img/product_docs/activitymonitor/7.1/admin/search/query/delete.webp) next to the user. |
+| Revoke a role assignment | - Click ![delete](/img/product_docs/auditor/10.6/admin/monitoringplans/delete.webp) next to the user. |
 
 **Step 4 –** Click **Save** or **Save&Close**.
 

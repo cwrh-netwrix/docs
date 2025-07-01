@@ -102,7 +102,7 @@ Follow the steps to install the Add-On:
 
 The configuration wizard opens in the default web browser:
 
-![ConfigurationWizard](/img/product_docs/auditor/10.6/addon/privilegeduserlinux/configwizard.webp)
+![ConfigurationWizard](/img/product_docs/auditor/10.6/addon/cyberark/configwizard.webp)
 
 Click **Proceed** and complete the following fields:
 

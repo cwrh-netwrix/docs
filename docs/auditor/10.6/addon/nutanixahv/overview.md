@@ -29,7 +29,7 @@ Major benefits:
 The add-on is implemented as a Syslog service that collects activity data from Nutanix
 infrastructure and sends it to Netwrix Auditor using the Integration API.
 
-![HIW_diagram_new](/img/product_docs/auditor/10.6/addon/cyberark/diagram.webp)
+![HIW_diagram_new](/img/product_docs/auditor/10.6/addon/nutanixahv/diagram.webp)
 
 On a high level, the solution works as follows:
 

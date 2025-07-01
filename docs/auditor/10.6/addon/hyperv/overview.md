@@ -29,7 +29,7 @@ Major benefits:
 The add-on is implemented as a stand-alone application that collects activity data from Virtual
 Machine Manager and sends it to Auditor using the Integration API.
 
-![HIW](/img/product_docs/auditor/10.6/addon/cyberark/diagram.webp)
+![HIW](/img/product_docs/auditor/10.6/addon/hyperv/diagram.webp)
 
 On a high level, the solution works as follows:
 

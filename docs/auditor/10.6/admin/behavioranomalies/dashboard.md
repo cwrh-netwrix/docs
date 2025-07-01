@@ -17,7 +17,7 @@ On the main Auditor page, click
 ![ba_tile](/img/product_docs/auditor/10.6/admin/behavioranomalies/ba_tile.webp) on the
 left.
 
-![dashboard](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard.webp)
+![dashboard](/img/product_docs/auditor/10.6/admin/behavioranomalies/dashboard.webp)
 
 The dashboards includes the following sections:
 
