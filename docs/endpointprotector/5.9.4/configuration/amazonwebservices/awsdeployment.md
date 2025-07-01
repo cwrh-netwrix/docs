@@ -47,7 +47,7 @@ recommend selecting **Proceed without a Key Pair** and then clicking **Launch In
     - Type HTTPS, Protocol TCP, Port range 443, Source type Custom, Source 0.0.0.0/0 (mandatory)
     - Type HTTP, Protocol TCP, Port range 80, Source type Custom, Source 0.0.0.0/0 (optional)
 
-![Editing the Network Section ](/img/product_docs/changetracker/8.0/admin/settings/policytemplates/editnetwork.webp)
+![Editing the Network Section ](/img/product_docs/endpointprotector/5.9.4/configuration/amazonwebservices/editnetwork.webp)
 
 **Step 9 –** The Storage section does not require any changes.
 
@@ -55,7 +55,7 @@ recommend selecting **Proceed without a Key Pair** and then clicking **Launch In
 
 **Step 10 –** On the Summary section click **Launch Instance**.
 
-![Summary section ](/img/product_docs/accessanalyzer/11.6/admin/datacollector/adinventory/summary.webp)
+![Summary section ](/img/product_docs/endpointprotector/5.9.4/configuration/amazonwebservices/summary.webp)
 
 **Step 11 –** Wait for the instance to start; this might take a few minutes while the Status Checks
 appear as Initializing.

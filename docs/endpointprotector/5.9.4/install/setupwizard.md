@@ -11,7 +11,7 @@ Follow the steps to conﬁgure the Endpoint Protector Appliance for the ﬁrst t
 
 **Step 1 –** Select **Continue** when ﬁnished reading the End User License Agreement.
 
-![End User License Agreement](/img/product_docs/threatprevention/7.4/install/licenseagreement.webp)
+![End User License Agreement](/img/product_docs/endpointprotector/5.9.4/install/licenseagreement.webp)
 
 **Step 2 –** Select **Accept**.
 

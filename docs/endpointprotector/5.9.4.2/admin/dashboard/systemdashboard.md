@@ -14,7 +14,7 @@ ticket through the
 For detailed information on settings change or creating additional administrators, refer to the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
 
-![Page for default login credentials for the root account](/img/product_docs/threatprevention/7.4/eperestsite/login.webp)
+![Page for default login credentials for the root account](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/login.webp)
 
 ## Conﬁguration Wizard
 
@@ -33,7 +33,7 @@ and logged out unless you select to continue the session.
 **NOTE:** You can customize the session timeout and timeout counter from the
 [System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
 
-![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/product_docs/auditor/10.6/addon/privilegeduserlinux/configwizard.webp)
+![The Conﬁguration Wizard provides you with several steps to deﬁne basic settings](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/configwizard.webp)
 
 ## General Dashboard
 
@@ -43,7 +43,7 @@ important activities logged by Endpoint Protector.
 You will view more speciﬁc dashboards on the Device Control, Content Aware Protection and eDiscovery
 sections.
 
-![View general information as graphics and charts related to the most important activities](/img/product_docs/activitymonitor/7.1/admin/search/query/general.webp)
+![View general information as graphics and charts related to the most important activities](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/general.webp)
 
 ## System Status
 
@@ -67,7 +67,7 @@ From the System Status subsection, you can enable the HDD Disk Space and Log Rot
 From the System Alerts subsection, you can enable important alerts notifying the expiration of the
 APNS Certiﬁcate, Updates, and Support or Passwords.
 
-![Enable important alerts ](/img/product_docs/endpointprotector/5.9.4.2/admin/alerts/systemalerts.webp)
+![Enable important alerts ](/img/product_docs/endpointprotector/5.9.4.2/admin/dashboard/systemalerts.webp)
 
 From the System Backup subsection, you can enable the System Backup.
 

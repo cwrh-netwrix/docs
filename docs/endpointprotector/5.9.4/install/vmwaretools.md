@@ -51,7 +51,7 @@ Follow the steps to set up your virtual machine.
 
 **Step 10 –** Click **Finish** to complete the installation.
 
-![Completing the installation](/img/product_docs/accessanalyzer/11.6/admin/jobs/instantjobs/installationcomplete.webp)
+![Completing the installation](/img/product_docs/endpointprotector/5.9.4/install/installationcomplete.webp)
 
 ### VMware Workstation
 

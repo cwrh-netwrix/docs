@@ -6,7 +6,7 @@ create the new policy, follow these steps:
 **Step 1 –** In your Jamf account, from the main navigation bar, click **Computer**, from the left
 sidebar menu, select **Policies**, and then click **+ New**.
 
-![Creating a New Policy](/img/product_docs/accessanalyzer/11.6/requirements/target/config/policies.webp)
+![Creating a New Policy](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/policies.webp)
 
 **Step 2 –** On the default General section, enter the following information:
 

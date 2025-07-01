@@ -34,7 +34,7 @@ displays a message that indicates the session will expire in the predeﬁned cou
 
 You can choose to log out or continue your session, resetting the session timeout interval.
 
-![Session timeout interval](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/sessiontimeout.webp)
+![Session timeout interval](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/sessiontimeout.webp)
 
 ## Endpoint Protector Rights Functionality
 

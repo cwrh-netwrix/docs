@@ -117,7 +117,7 @@ section, scroll to the bottom of the page and click **Save**.
 **NOTE:** By enabling the Smart Group feature, Computers and Users will not be automatically
 assigned to the Default Group unless you create a Smart Group.
 
-![ Membership can be deﬁned based on element name patterns](/img/product_docs/endpointprotector/5.9.4/admin/systemconfiguration/smartgroups.webp)
+![ Membership can be deﬁned based on element name patterns](/img/product_docs/endpointprotector/5.9.4/admin/devicecontrol/smartgroups.webp)
 
 **Step 2 –** Create a Smart Groups from Device Control, Groups section. Click **Create**, provide
 the following and then click **Save**:

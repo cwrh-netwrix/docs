@@ -457,7 +457,7 @@ permission cannot beneﬁt from the User Remediation feature.
 **NOTE:** For built-in devices, such as Webcam and Network share, the User Remediation feature is
 not available.
 
-![These are device types that apply in General](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/devicetypes.webp)
+![These are device types that apply in General](/img/product_docs/endpointprotector/5.9.4.2/admin/systemparameters/devicetypes.webp)
 
 ### User Remediation Usage
 

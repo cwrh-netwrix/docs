@@ -31,7 +31,7 @@ modules, and requires separate licensing.
 This section offers a quick overview in the form of graphics and charts related to the eDiscovery
 module.
 
-![A quick overview in the form of graphics and charts related to the eDiscovery module](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard.webp)
+![A quick overview in the form of graphics and charts related to the eDiscovery module](/img/product_docs/endpointprotector/5.9.4.2/admin/ediscovery/dashboard.webp)
 
 ## eDiscovery Policies and Scans
 
@@ -81,7 +81,7 @@ Scans section.
 To create a new policy click **Create Custom Policy** and to edit an available policy, double-click
 it. You need to select a policy to edit, duplicate or delete a policy.
 
-![Creating a new Policy](/img/product_docs/endpointprotector/5.9.4.2/install/agent/jamf/newpolicy.webp)
+![Creating a new Policy](/img/product_docs/endpointprotector/5.9.4.2/admin/ediscovery/newpolicy.webp)
 
 When creating a new policy, select the following:
 

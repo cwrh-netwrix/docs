@@ -25,7 +25,7 @@ Your available modules are displayed in the left-side navigation pane. These can
 further manage module-specific policies. Ultimately, policies define the actions allowed /
 disallowed on the endpoint.
 
-![High-level overview of endpoints under management as well as activity](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/dashboard.webp)
+![High-level overview of endpoints under management as well as activity](/img/product_docs/endpointprotector/5.9.4/admin/dashboard.webp)
 
 Before deploying any agents, each module’s policy should be reviewed. If agents have already been
 delivered to systems, a review of the configuration(s) can be accomplished by verifying active

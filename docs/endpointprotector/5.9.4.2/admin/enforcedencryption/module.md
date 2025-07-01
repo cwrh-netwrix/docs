@@ -5,7 +5,7 @@ with government-approved 256 bit AES CBC-mode encryption. For USB devices, it ne
 on the root of the device. With the intuitive Drag & Drop interface, ﬁles can be quickly copied to
 and from the device.
 
-![Enforced Encryption, Formerly known as EasyLock](/img/product_docs/endpointprotector/5.9.4.2/install/agent/jamf/enforcedencryption.webp)
+![Enforced Encryption, Formerly known as EasyLock](/img/product_docs/endpointprotector/5.9.4.2/admin/enforcedencryption/enforcedencryption.webp)
 
 Used in combination with Endpoint Protector, Enforced Encryption allows USB storage devices to be
 identiﬁed as Trusted Device™ Level 1. This can ensure that USB Enforced Encryption is used on
@@ -58,7 +58,7 @@ Encryption and Trusted Device™ Level 1.
 This section allows you to remotely manage Enforced Encryption encrypted devices. Before being able
 to take advantage of these features, you must conﬁgure a Master Password.
 
-![Enforced Encryption Settings](/img/product_docs/activitymonitor/7.1/config/dellpowerscale/settings.webp)
+![Enforced Encryption Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/enforcedencryption/settings.webp)
 
 In the Settings section, the Master Password can be conﬁgured, the Enforced Encryption File Tracing
 enabled, as well as deﬁning the installation and execution of Enforced Encryption only on computers

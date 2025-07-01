@@ -1,0 +1,194 @@
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\contentawareprotection\deeppacket.md
+Context:
+and download the **CA Certiﬁcate**.
+
+![Deep Packet Inspection Certiﬁcate on macOS](/img/product_docs/endpointprotector/5.9.4.2/install/agent/dpicertificate.webp)
+
+**Step 2 –** Open the **Keychain Access** application from your macOS and select **System**.
+Original image link: ![Deep Packet Inspection Certiﬁcate on macOS](/img/product_docs/endpointprotector/5.9.4.2/install/agent/dpicertificate.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\contentawareprotection\deeppacket.md
+Context:
+**Step 2 –** Open the **Keychain Access** application from your macOS and select **System**.
+
+![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccess.webp)
+
+**Step 3 –** Decompress the downloaded **ClientCerts** ﬁle.
+Original image link: ![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccess.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\contentawareprotection\deeppacket.md
+Context:
+**Step 4 –** Select **cacert.pem** ﬁle and drag and drop it on **System** > **Keychain Access**.
+
+![Configuring Client Certificate on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/clientcerts.webp)
+
+**Step 5 –** Double click the **X** from the newly added certiﬁcate and from the Trust section,
+Original image link: ![Configuring Client Certificate on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/clientcerts.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\contentawareprotection\deeppacket.md
+Context:
+select **Always Trust**.
+
+![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccesstwo.webp)
+
+**Step 6 –** **Save** the changes.
+Original image link: ![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccesstwo.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\customclasses.md
+Context:
+[System Configuration](/docs/endpointprotector/5.9.4.2/admin/systemconfiguration/overview.md) topic.
+
+![Select an option to grant access for clients based on the Department Code](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/departmentusage.webp)
+
+### Session Settings
+Original image link: ![Select an option to grant access for clients based on the Department Code](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/departmentusage.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\customclasses.md
+Context:
+will be logged out.
+
+![Modify session timeout settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/sessionsettings.webp)
+
+If you remain idle for the deﬁned amount of time, then Endpoint Protector stops responding and
+Original image link: ![Modify session timeout settings](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/sessionsettings.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\customclasses.md
+Context:
+You can choose to log out or continue your session, resetting the session timeout interval.
+
+![Choose to log out or continue your session, resetting the session timeout interval](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/sessiontimeout.webp)
+
+Endpoint Protector Rights Functionality
+Original image link: ![Choose to log out or continue your session, resetting the session timeout interval](/img/product_docs/privilegesecure/4.1/accessmanagement/enduser/sessiontimeout.webp)
+Case: Product folder mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\globalsettings.md
+Context:
+**OK** to allow.
+
+![Pop-up window informing the user that a System Extension is blocked](/img/product_docs/endpointprotector/5.9.4.2/install/agent/systemextensionblocked.webp)
+
+**Step 6 –** Go to **System Preferences** >**Security and Privacy** > **General**, and then
+Original image link: ![Pop-up window informing the user that a System Extension is blocked](/img/product_docs/endpointprotector/5.9.4.2/install/agent/systemextensionblocked.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\globalsettings.md
+Context:
+**allow** the Endpoint Protector Client Extension.
+
+![Security and private settings on Mac](/img/product_docs/endpointprotector/5.9.4.2/install/agent/generaltabios.webp)
+
+**Step 7 –** On the Endpoint Protector Proxy Conﬁguration pop-up window, click **Allow**.
+Original image link: ![Security and private settings on Mac](/img/product_docs/endpointprotector/5.9.4.2/install/agent/generaltabios.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\globalsettings.md
+Context:
+**Step 7 –** On the Endpoint Protector Proxy Conﬁguration pop-up window, click **Allow**.
+
+![Proxy Conﬁguration pop-up window](/img/product_docs/endpointprotector/5.9.4.2/install/agent/proxypop-up.webp)
+
+**NOTE:** When network extension is successfully enabled, a Client Integrity OK log is generated.
+Original image link: ![Proxy Conﬁguration pop-up window](/img/product_docs/endpointprotector/5.9.4.2/install/agent/proxypop-up.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\globalsettings.md
+Context:
+Certiﬁcate**, and then download the CA Certiﬁcate.
+
+![Downloading a DPI Certificate](/img/product_docs/endpointprotector/5.9.4.2/install/agent/dpicertificate.webp)
+
+**Step 9 –** On your macOS, open the **Keychain Access** application and go to **System**.
+Original image link: ![Downloading a DPI Certificate](/img/product_docs/endpointprotector/5.9.4.2/install/agent/dpicertificate.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\globalsettings.md
+Context:
+**Step 9 –** On your macOS, open the **Keychain Access** application and go to **System**.
+
+![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccess.webp)
+
+**Step 10 –** Decompress the ClientCerts ﬁle.
+Original image link: ![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccess.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\globalsettings.md
+Context:
+Access**.
+
+![Configuring Client Certificate on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/clientcerts.webp)
+
+**Step 12 –** Double click the **X** from the newly added certiﬁcate and select **Always Trust**
+Original image link: ![Configuring Client Certificate on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/clientcerts.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\devicecontrol\globalsettings.md
+Context:
+from the Trust section.
+
+![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccesstwo.webp)
+
+**Step 13 –** **Save** the changes.
+Original image link: ![Keychain Access application settings on MacOs](/img/product_docs/endpointprotector/5.9.4.2/install/agent/keychainaccesstwo.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointprotector\5.9.4.2\admin\reportsanalysis\overview.md
+Context:
+included in this section. Additionally, the main Device Control logs can be viewed in this section.
+
+![Logs Report Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/logsreport.webp)
+
+**NOTE:** Use the Filters option to view and sort different log types and then export the result
+Original image link: ![Logs Report Settings](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/logsreport.webp)
+Case: Path alignment mismatch
+No suggested images found.

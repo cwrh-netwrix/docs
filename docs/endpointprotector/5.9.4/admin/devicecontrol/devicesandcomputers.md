@@ -15,7 +15,7 @@ You can view the right for each device based on the color code from the Status c
 **NOTE:** Any new device connected to a protected computer is automatically added to the database
 and assigned to its ﬁrst user which can be changed later.
 
-![View, sort, and export in Excel, PDF or CSV format any devices from the system](/img/product_docs/changetracker/8.0/admin/settings/devices.webp)
+![View, sort, and export in Excel, PDF or CSV format any devices from the system](/img/product_docs/endpointprotector/5.9.4/admin/devicecontrol/devices.webp)
 
 Click **Create** to manually add a new device on the list by providing device information: name,
 friendly name, type PID, department, description, friendly description, VID, serial number and

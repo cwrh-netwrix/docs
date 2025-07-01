@@ -101,7 +101,7 @@ You can choose to log out or continue your session, resetting the session timeou
 
 Endpoint Protector Rights Functionality
 
-![Rights Functionality ](/img/product_docs/endpointprotector/5.9.4.2/admin/systemconfiguration/rightsfunctionality.webp)
+![Rights Functionality ](/img/product_docs/endpointprotector/5.9.4.2/admin/devicecontrol/rightsfunctionality.webp)
 
 For example; Device X is allowed from Global Rights. If in the Computer Rights section, the same
 device does not have permission to be used, the device will not be usable. Same applies vice-versa:

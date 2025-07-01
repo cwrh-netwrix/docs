@@ -27,7 +27,7 @@ On the default General section, enter the following information:
 
 You can continue with the default settings for the category, level, and distribution method fields.
 
-![Completing information on the general section](/img/product_docs/auditor/10.6/addon/azurefiles/generalsettings.webp)
+![Completing information on the general section](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/generalsettings.webp)
 
 ## Certificate Settings
 
@@ -43,7 +43,7 @@ select **System Settings**.
 then download Client CA Certificate – the downloaded .zip file contains the .cer and .crt client
 certifications.
 
-![Enabling Deep Packet Inspection Certificate and then downloading Client CA Certificate](/img/product_docs/endpointprotector/5.9.4/install/agent/dpicertificate.webp)
+![Enabling Deep Packet Inspection Certificate and then downloading Client CA Certificate](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/dpicertificate.webp)
 
 **Step 3 –** Go to Jamf, the Certificate section, and click **Configure**.
 
@@ -221,4 +221,4 @@ Click **Save** to apply all settings to the new configuration profile.
 **NOTE:** To confirm that the new configuration profile is saved successfully, reboot your computer
 at this point.
 
-![Selecting Devices and Users to deploy to the new profile.](/img/product_docs/activitymonitor/7.1/config/activedirectory/scope.webp)
+![Selecting Devices and Users to deploy to the new profile.](/img/product_docs/endpointprotector/5.9.4/install/agent/jamf/scope.webp)

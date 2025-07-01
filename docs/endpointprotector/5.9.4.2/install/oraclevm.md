@@ -26,7 +26,7 @@ from the extracted zip.
 
 **Step 5 –** Click **Open**.
 
-![Selecting the Virtual Appliance to Import](/img/product_docs/accessanalyzer/11.6/admin/hostdiscovery/wizard/fileimport.webp)
+![Selecting the Virtual Appliance to Import](/img/product_docs/endpointprotector/5.9.4.2/install/fileimport.webp)
 
 **Step 6 –** Click **Import**.
 
