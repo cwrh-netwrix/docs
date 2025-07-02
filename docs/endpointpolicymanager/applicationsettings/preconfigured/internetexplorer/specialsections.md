@@ -10,7 +10,7 @@ MODE=REPLACE or MODE=MERGE
 In Figure 3, you can see the Site to Zone Assignment in the Security tab has the default example set
 with MODE=REPLACE. The figure also shows some examples on how to use the special section.
 
-![how_to_use_special_sections](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/how_to_use_special_sections.webp)
+![how_to_use_special_sections](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/how_to_use_special_sections.webp)
 
 Figure 3. Using the Site to Zone Assignment special section.
 

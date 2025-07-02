@@ -6,7 +6,7 @@ Let's simulate what would happen if the user changes job roles or the GPO is no 
 to move the account to another OU. Find the account, right-click on it, and select "Move," as seen
 in Figure 17.
 
-![policypak_application_settings_16](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_16.webp)
+![policypak_application_settings_16](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_16.webp)
 
 Figure 17. Moving user accounts to a different OU.
 
@@ -24,7 +24,7 @@ be as follows:
 
 Results are shown in Figure 18.
 
-![policypak_application_settings_17](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_17.webp)
+![policypak_application_settings_17](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_17.webp)
 
 Figure 18. The settings have been reverted to their original values.
 

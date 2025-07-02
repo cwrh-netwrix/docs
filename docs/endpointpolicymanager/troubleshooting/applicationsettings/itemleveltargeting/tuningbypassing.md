@@ -33,6 +33,6 @@ An example of using one of these entries—the `BypassAllILT `entry, which would
 processing—can be seen in Figure 102. Note that the ILT key will not exist by default and must be
 created before the value is set within it.
 
-![troubleshooting_policypak_6](/img/product_docs/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager_6.webp)
+![troubleshooting_policypak_6](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/itemleveltargeting/troubleshooting_endpointpolicymanager_6.webp)
 
 Figure 102. An example of a `BypassAllILT `entry.

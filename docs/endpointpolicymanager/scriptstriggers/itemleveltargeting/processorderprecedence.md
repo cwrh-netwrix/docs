@@ -5,11 +5,11 @@ So lower-numbered collections attempt to process first, and higher-numbered coll
 process last as shown in Figure 28. Then, within any collection, each policy is processed in
 numerical order from lowest to highest, as seen in Figure 29.
 
-![using_item_level_targeting_4](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_4.webp)
+![using_item_level_targeting_4](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting_4.webp)
 
 Figure 28. The order collections are processed in.
 
-![using_item_level_targeting_5](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_5.webp)
+![using_item_level_targeting_5](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting_5.webp)
 
 Figure 29. The order policies are processed in.
 

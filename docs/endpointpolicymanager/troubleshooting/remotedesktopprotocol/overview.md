@@ -21,6 +21,6 @@ There are also several files to check in the User folder:
 Start troubleshooting by verifying the licensing, GPO name, and collection or policy name, as shown
 in Figure 18.
 
-![troubleshooting](/img/product_docs/endpointpolicymanager/troubleshooting/preferences/troubleshooting.webp)
+![troubleshooting](/img/product_docs/endpointpolicymanager/troubleshooting/remotedesktopprotocol/troubleshooting.webp)
 
 Figure 18. The ppuser log file.

@@ -7,13 +7,13 @@ Start out on your GPMC management station by creating a group policy object (GPO
 your users. In this example we have a GPO created and linked to the East Sales Users organizational
 unit (OU).
 
-![getting_to_know_policypak](/img/product_docs/endpointpolicymanager/remoteworkdelivery/getting_to_know_endpointpolicymanager.webp)
+![getting_to_know_policypak](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/getting_to_know_endpointpolicymanager.webp)
 
 Next, you need to configure settings, starting with the general settings. Under the General tab,
 enter the file path, which is the destination location for the RDP file. In most cases, you will
 probably want it delivered to the user desktop.
 
-![getting_to_know_policypak_1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/gettingstarted/getting_to_know_endpointpolicymanager_1.webp)
+![getting_to_know_policypak_1](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/getting_to_know_endpointpolicymanager_1.webp)
 
 You also need to select an action from the following list. In most cases you will choose **Create**
 or **Update**.
@@ -29,20 +29,20 @@ or **Update**.
 You should configure the logon settings next. You can use the browse button to search for designated
 servers in AD. Then use the user name variable `%domainname%\%username%` .
 
-![getting_to_know_policypak_2](/img/product_docs/endpointpolicymanager/remoteworkdelivery/gettingstarted/getting_to_know_endpointpolicymanager_2.webp)
+![getting_to_know_policypak_2](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/getting_to_know_endpointpolicymanager_2.webp)
 
 You can then begin to choose the granular settings you want. For instance, you can use the slider to
 set your display configuration and choose your color depth from the drop down menu .
 
-![getting_to_know_policypak_3](/img/product_docs/endpointpolicymanager/remoteworkdelivery/gettingstarted/getting_to_know_endpointpolicymanager_3.webp)
+![getting_to_know_policypak_3](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/getting_to_know_endpointpolicymanager_3.webp)
 
 An underlined variable means that it will be delivered within the policy. As we can see below, there
 is one checked box and two underlined, unchecked boxes in the Local devices and resources section.
 That means that these checked and unchecked values will be delivered. When a check box is solid
 green it means that no value has been assigned to that variable.
 
-![getting_to_know_policypak_4](/img/product_docs/endpointpolicymanager/remoteworkdelivery/gettingstarted/getting_to_know_endpointpolicymanager_4.webp)
+![getting_to_know_policypak_4](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/getting_to_know_endpointpolicymanager_4.webp)
 
 You can also configure experience settings such as optimized performance speed.
 
-![getting_to_know_policypak_5](/img/product_docs/endpointpolicymanager/remoteworkdelivery/gettingstarted/getting_to_know_endpointpolicymanager_5.webp)
+![getting_to_know_policypak_5](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/getting_to_know_endpointpolicymanager_5.webp)

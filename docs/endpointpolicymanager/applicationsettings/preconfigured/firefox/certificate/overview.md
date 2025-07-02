@@ -11,7 +11,7 @@ Video: To see a video of Endpoint Policy Manager managing Firefox's add-ons, go 
 You can see Firefox's certificates under` Options | Advanced | Certificates | View Certificates`, as
 shown in Figure 42.
 
-![certificates](/img/product_docs/threatprevention/7.5/install/agent/certificates.webp)
+![certificates](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/certificate/certificates.webp)
 
 Figure 42. The Servers tab within the Certificate Manager.
 

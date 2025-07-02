@@ -21,7 +21,7 @@ affecting only computers (not users).
 
 Figure 19 displays an example of how to create and link a GPO to computers.
 
-![policypak_application_settings_18](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_18.webp)
+![policypak_application_settings_18](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_18.webp)
 
 Figure 19. Creating and linking a GPO.
 
@@ -32,9 +32,9 @@ can modify settings for Firefox, Thunderbird, and Java, including "Lockdown this
 system-wide config file," as seen in the top of the figure with Firefox and the bottom of the figure
 with Java.
 
-![policypak_application_settings_19](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_19.webp)
+![policypak_application_settings_19](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_19.webp)
 
-![policypak_application_settings_20](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_20.webp)
+![policypak_application_settings_20](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_20.webp)
 
 Figure 20. System-wide lockdown using config files is only available on the Computer side, as seen
 in the examples of Firefox (top) and Java (bottom).
@@ -44,7 +44,7 @@ does not appear on the User side. If you try to edit these three AppSets on the 
 not see an option to perform UI lockdown. An example of editing one of these AppSets (the Firefox
 AppSet) on the User side (and therefore, not seeing the system-wide lockdown) is shown in Figure 21.
 
-![policypak_application_settings_19](/img/product_docs/endpointpolicymanager/applicationsettings/designstudio/quickstart/endpointpolicymanager_application_settings_19.webp)
+![policypak_application_settings_19](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/quickstart/endpointpolicymanager_application_settings_19.webp)
 
 Figure 21. The lockdown via system-wide config file is not present on the User side.
 

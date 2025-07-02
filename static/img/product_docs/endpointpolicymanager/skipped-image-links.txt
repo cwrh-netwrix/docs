@@ -1,0 +1,428 @@
+
+---
+File: docs\endpointpolicymanager\applicationsettings\preconfigured\internetexplorer\tab\extras.md
+Context:
+"`DER encoded binary X.509 (CER)`," as shown in Figure 33.
+
+![ie_appset_tab_by_tab_29](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/certificate/certificates_5.webp)
+
+Figure 33. Exporting a certificate using the "Copy to File..." button.
+Original image link: ![ie_appset_tab_by_tab_29](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/certificate/certificates_5.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\cloud\interface\companydetails\overview.md
+Context:
+setting in this section is the **Computer registration mode**, which has four options.
+
+![web_interface_and_controls_71_624x518](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.webp)
+
+This setting directs Endpoint Policy Manager Cloud on how to act when an endpoint computer is
+Original image link: ![web_interface_and_controls_71_624x518](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/web_interface_and_controls_71_624x518.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\editions\solutions.md
+Context:
+process.
+
+![editions_solutions_paks_and_2](/img/product_docs/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_1.webp)
+
+Below is an example of an uploaded Endpoint Policy Manager MSI file containing XML directives along
+Original image link: ![editions_solutions_paks_and_2](/img/product_docs/endpointpolicymanager/mdm/service/using_endpointpolicymanager_with_mdm_and_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\editions\solutions.md
+Context:
+Below we can see what Endpoint Policy Manager would look like using a tool like SCCM.
+
+![editions_solutions_paks_and_5](/img/product_docs/endpointpolicymanager/mdm/using_endpointpolicymanager_with_mdm_and.webp)
+
+We provide the Endpoint Policy Manager Exporter Tool. This topic is not discussed in this section
+Original image link: ![editions_solutions_paks_and_5](/img/product_docs/endpointpolicymanager/mdm/using_endpointpolicymanager_with_mdm_and.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\gpoexport\delivercertificates.md
+Context:
+**Step 1 –** Create a real GPO.
+
+![663_1_q10-img-1](/img/product_docs/endpointpolicymanager/cloud/security/580_1_q10-img-1.webp)
+
+**Step 2 –** Export it using PP Settings Manager to an XML. See the
+Original image link: ![663_1_q10-img-1](/img/product_docs/endpointpolicymanager/cloud/security/580_1_q10-img-1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\gpoexport\delivercertificates.md
+Context:
+Inside the exported XML you can see the certificate embedded like this and ready for use.
+
+![663_2_q10-img-2](/img/product_docs/endpointpolicymanager/cloud/security/580_2_q10-img-2.webp)
+
+Original image link: ![663_2_q10-img-2](/img/product_docs/endpointpolicymanager/cloud/security/580_2_q10-img-2.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\grouppolicycompliancereporter\install.md
+Context:
+1. Open the "run" box (Win-R), type `"dcomcnfg"` and click OK
+
+![673_9_image-20200430140138-5](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
+
+**Step 2 –** Expand Console Root -> Component Services -> Computers -> My Computer -> Distributed
+Original image link: ![673_9_image-20200430140138-5](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_3_image-20200327172830-3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\grouppolicycompliancereporter\install.md
+Context:
+Transaction Coordinator, Right-Click on Local DTC and click Properties
+
+![673_11_image-20200430140138-6](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
+
+**Step 3 –** On the Security tab -> Security Settings and Configure as follows:
+Original image link: ![673_11_image-20200430140138-6](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_5_image-20200327172830-4.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\grouppolicycompliancereporter\install.md
+Context:
+5. Click OK
+
+   ![673_13_image-20200430140138-7](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
+
+**Step 4 –** The MSDTC service will need to be restarted for the changes to take affect – Click YES
+Original image link: ![673_13_image-20200430140138-7](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_7_image-20200327172830-5.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\grouppolicycompliancereporter\install.md
+Context:
+**Step 2 –** Click on "Allow an app or feature through Windows Defender Firewall"
+
+![673_15_image-20200430140138-8](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
+
+**Step 3 –** Find "Distributed Transaction Coordinator", check and check the appropriate Network
+Original image link: ![673_15_image-20200430140138-8](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_9_image-20200327172830-6.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\grouppolicycompliancereporter\install.md
+Context:
+profile (e.g. Domain).
+
+![673_17_image-20200430140138-9](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
+
+**Step 4 –** Click OK to save and close
+Original image link: ![673_17_image-20200430140138-9](/img/product_docs/endpointpolicymanager/troubleshooting/error/gpocompilancereporter/669_11_image-20200327172830-7.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\license\unlicense\options.md
+Context:
+(Must be typed / copied / pasted on one line)
+
+![144_1_lt-and-powershell-counts](/img/product_docs/endpointpolicymanager/license/mdm/200_3_image-20200723102952-2.webp)
+
+**Step 2 –** As you can see, this Powershell command simply reports back the same count that LT
+Original image link: ![144_1_lt-and-powershell-counts](/img/product_docs/endpointpolicymanager/license/mdm/200_3_image-20200723102952-2.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\softwarepackage\itemleveltargeting.md
+Context:
+users not be on the corporate LAN.
+
+![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_3.webp)
+
+In this example, the Pak would only apply to Windows 10 machines when the machine is portable and
+Original image link: ![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\startscreentaskbar\startscreen\windows10.md
+Context:
+**Step 3 –** Let's select the "Partial (Preserve)" layout mode and click "OK" as shown in Figure 8.
+
+![quickstart_start_screen_manager_3](/img/product_docs/endpointpolicymanager/startscreentaskbar/settings/startscreen/quickstart_start_screen_manager_3.webp)
+
+Figure 8. Selecting the "Partial (Preserve)" layout mode.
+Original image link: ![quickstart_start_screen_manager_3](/img/product_docs/endpointpolicymanager/startscreentaskbar/settings/startscreen/quickstart_start_screen_manager_3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\browserrouter\install\defaultbrowser.md
+Context:
+licensed, it becomes the "default browser" in the operating system, like what is seen here.
+
+![141_1_img-01](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
+
+However, if you are using the Legacy Browser Router mode and unlicense Endpoint Policy Manager
+Original image link: ![141_1_img-01](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_3_ppbr-faq-3-pic-3.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\browserrouter\install\defaultbrowser.md
+Context:
+Firefox, Chrome, IE or Edge … like what is seen here…
+
+![141_2_img-02](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_1_ppbr-faq-3-pic-1.webp)
+
+And manually set the default browser, or use the operating system itself to specify the desired
+Original image link: ![141_2_img-02](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_1_ppbr-faq-3-pic-1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\browserrouter\install\defaultbrowser.md
+Context:
+default browser .. like what is seen here…
+
+![141_3_img-03](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_2_ppbr-faq-3-pic-2.webp)
+
+Afterward, they should see the OS default web browser change accordingly and be maintained correctly
+Original image link: ![141_3_img-03](/img/product_docs/endpointpolicymanager/browserrouter/defaultbrowser/218_2_ppbr-faq-3-pic-2.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\browserrouter\install\defaultbrowser.md
+Context:
+ever installed on the machine.
+
+![141_4_image-20210104150503-1](/img/product_docs/endpointpolicymanager/browserrouter/install/483_7_image-20210105155954-1.webp)
+
+You have to delete this file first…as a one time action using GPPPrefs if
+Original image link: ![141_4_image-20210104150503-1](/img/product_docs/endpointpolicymanager/browserrouter/install/483_7_image-20210105155954-1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\error\applicationsettings\code0xc000428.md
+Context:
+or it contains an error. Error status 0xc0000428.
+
+![23_1_image](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/280_1_image-20191015113622-1.webp)
+
+![23_2_image](/img/product_docs/endpointpolicymanager/troubleshooting/error/applicationsettings/23_2_image.webp)
+Original image link: ![23_1_image](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/280_1_image-20191015113622-1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\error\cloud\verifysecurity.md
+Context:
+An example of the error can be seen here:
+
+![113_1_dtyeryrtyy](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.webp)
+
+Please follow the following steps
+Original image link: ![113_1_dtyeryrtyy](/img/product_docs/endpointpolicymanager/troubleshooting/cloud/underhood/underneath_the_hood_and_troubleshooting_5.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\feature\events.md
+Context:
+of a feature attempting to be installed. This is Event ID 600.
+
+![troubleshooting_5](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
+
+Figure 47. Endpoint Policy Manager Feature Manager for Windows events can be found in the Endpoint
+Original image link: ![troubleshooting_5](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\leastprivilege\overview.md
+Context:
+the end user was not permitted to perform an action which required a UAC prompt.
+
+![A screenshot of a computer program
+
+Description automatically
+Original image link: ![A screenshot of a computer program
+
+Description automatically
+generated](/img/product_docs/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\leastprivilege\securerun\inlinecommands.md
+Context:
+```
+
+![538_1_image-20201215000203-1](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/securerun_and_inline_commands.webp)
+
+Normally, users don't do this. But it could be valid during an application installation or program
+Original image link: ![538_1_image-20201215000203-1](/img/product_docs/endpointpolicymanager/leastprivilege/securerun/securerun_and_inline_commands.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\eventcollectiion.md
+Context:
+  (under Actions).
+
+  ![setting_up_policypak_cloud](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_5_cd439679970dd94379dc97da3de13756.webp)
+
+- Click “Available Computers”.
+Original image link: ![setting_up_policypak_cloud](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_5_cd439679970dd94379dc97da3de13756.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\eventcollectiion.md
+Context:
+- Click “Available Computers”.
+
+  ![setting_up_policypak_cloud_1](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_6_89a9d67a0c348b5ab03d304ea9392884.webp)
+
+- Check the ones to add and click “Add”.
+Original image link: ![setting_up_policypak_cloud_1](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_6_89a9d67a0c348b5ab03d304ea9392884.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\eventcollectiion.md
+Context:
+resulting pop-up window, click on the “Event Collector” tab.
+
+![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_7_44a2bef19cdb90973520bb3702397eb4.webp)
+
+The “Event submission interval” dictates how often the logs get uploaded to the cloud. This is
+Original image link: ![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_7_44a2bef19cdb90973520bb3702397eb4.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\eventcollectiion.md
+Context:
+cloud.log example above.
+
+![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_8_464e110a1254c22ecac8a612b13ffc76.webp)
+
+Notes on Collection Configuration:
+Original image link: ![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_8_464e110a1254c22ecac8a612b13ffc76.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\eventcollectiion.md
+Context:
+```
+
+![setting_up_policypak_cloud_4](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_9_e5dddf2ba28a115aa5782c49a21fbac6.webp)
+
+**NOTE:** This command can be run by a standard user. It does not require elevated or administrative
+Original image link: ![setting_up_policypak_cloud_4](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_9_e5dddf2ba28a115aa5782c49a21fbac6.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\logs.md
+Context:
+endpointpolicymanagerd.log and cloud.log (details later in this document).
+
+![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_1_6e10551394ec326177434ffc228df475.webp)
+
+Original image link: ![A screenshot of a computer Description automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_1_6e10551394ec326177434ffc228df475.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\reports.md
+Context:
+Reports tab and selecting “Endpoint Policy Manager Least Privilege Manager for macOS”.
+
+![A screenshot of a computerDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_10_2ab64dc549729d2f51cdf61ab7d88108.webp)
+
+Next, configure the time period you want to report on. The default is the beginning of the day, but
+Original image link: ![A screenshot of a computerDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_10_2ab64dc549729d2f51cdf61ab7d88108.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\reports.md
+Context:
+this can be altered to the desired start and stop time and date. Click “Show” to see the results.
+
+![A screenshot of a computerDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_11_7135ed6ab54692983796dd995a2517e4.webp)
+
+The results can be filtered to show only the desired information. For example, show only specific
+Original image link: ![A screenshot of a computerDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_11_7135ed6ab54692983796dd995a2517e4.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\reports.md
+Context:
+column header.
+
+![A screenshot of a computerDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_12_3996f6bea2016ba07eaf96f5c05b43c0.webp)
+
+For offline analysis, the report can be exported to either Excel or, if very large, CSV format. This
+Original image link: ![A screenshot of a computerDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_12_3996f6bea2016ba07eaf96f5c05b43c0.webp)
+Case: Path alignment mismatch
+No suggested images found.
+
+
+---
+File: docs\endpointpolicymanager\troubleshooting\mac\reports.md
+Context:
+can be done before or after filtering.
+
+![A screenshot of a loginDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_13_50b225886bba8747a9460411f4662cc9.webp)
+
+Original image link: ![A screenshot of a loginDescription automatically generated](/img/product_docs/endpointpolicymanager/leastprivilege/mac/1329_13_50b225886bba8747a9460411f4662cc9.webp)
+Case: Path alignment mismatch
+No suggested images found.

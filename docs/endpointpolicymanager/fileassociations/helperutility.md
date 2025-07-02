@@ -18,7 +18,7 @@ Associations Manager Helper utility, watch this video:
 The Endpoint Policy Manager File Associations Manager Helper is found in the Endpoint Policy Manager
 ISO or ZIP download in the Endpoint Policy Manager Extras folder.
 
-![using_the_helper_utility](/img/product_docs/endpointpolicymanager/startscreentaskbar/using_the_helper_utility.webp)
+![using_the_helper_utility](/img/product_docs/endpointpolicymanager/fileassociations/using_the_helper_utility.webp)
 
 Follow these steps to setup the Endpoint Policy ManagerPolicyPak File Associations Manager Helper
 utility:
@@ -26,25 +26,25 @@ utility:
 **Step 1 –** Launch the 11,000 kB EXE. When you do, the Endpoint Policy Manager File Associations
 Manager Export wizard appears.
 
-![using_the_helper_utility_1](/img/product_docs/endpointpolicymanager/startscreentaskbar/using_the_helper_utility_1.webp)
+![using_the_helper_utility_1](/img/product_docs/endpointpolicymanager/fileassociations/using_the_helper_utility_1.webp)
 
 **Step 2 –** Find a particular file association that already exists on the machine, such as 3mf, and
 the application it is already associated with. The application must be registered in order to see it
 in the list.
 
-![using_the_helper_utility_2](/img/product_docs/endpointpolicymanager/startscreentaskbar/using_the_helper_utility_2.webp)
+![using_the_helper_utility_2](/img/product_docs/endpointpolicymanager/fileassociations/using_the_helper_utility_2.webp)
 
 **Step 3 –** Select **Include icons in the file (Can dramatically increase file size)**. This
 setting is recommended even though the XML might be bigger. You must also choose to **Show file in
 folder after finished** and **Open XML in Notepad when save is complete** for examination.
 
-![using_the_helper_utility_3](/img/product_docs/endpointpolicymanager/startscreentaskbar/using_the_helper_utility_3.webp)
+![using_the_helper_utility_3](/img/product_docs/endpointpolicymanager/fileassociations/using_the_helper_utility_3.webp)
 
 **Step 4 –** Take the exported file and import it into a Endpoint Policy Manager File Associations
 Manager Group Policy Object (GPO). Note that the option to import from an XML is available when you
 create a new entry and click **Select Program**.
 
-![using_the_helper_utility_4](/img/product_docs/endpointpolicymanager/startscreentaskbar/using_the_helper_utility_4.webp)
+![using_the_helper_utility_4](/img/product_docs/endpointpolicymanager/fileassociations/using_the_helper_utility_4.webp)
 
 To import the exported file into a Endpoint Policy Manager File Associations Manager GPO, pull up
 the Select Program Association window, and then click on **From XML file** under Import.

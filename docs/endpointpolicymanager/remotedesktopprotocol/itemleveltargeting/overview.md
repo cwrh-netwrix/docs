@@ -9,17 +9,17 @@ A collection enables you to group together Endpoint Policy Manager RDP Manager p
 act together. For instance, you might create a collection for only East Sales users and another for
 HR Users.
 
-![using_item_level_targeting](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting.webp)
+![using_item_level_targeting](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting.webp)
 
 Below you can see the two collections we have created which can hold other collections or policies.
 You can also see how you can apply Item-Level Targeting for a collection.
 
-![using_item_level_targeting_1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_1.webp)
+![using_item_level_targeting_1](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_1.webp)
 
 To change the Item-Level Targeting, right-click any Endpoint Policy Manager RDP Manager policy, and
 select **Edit Item Level Targeting**.
 
-![using_item_level_targeting_2](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_2.webp)
+![using_item_level_targeting_2](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_2.webp)
 
 The Edit Item Level Targeting menu item brings up the Targeting Editor. You can select any
 combination of characteristics you want to test for. Administrators familiar with Group Policy
@@ -35,7 +35,7 @@ When targeting policies and collections for Endpoint Policy Manager RDP Manager 
 good idea to target portable computers and mobile user security groups. You can also require that
 users not be on the corporate LAN as well.
 
-![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_3.webp)
+![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/remotedesktopprotocol/itemleveltargeting/using_item_level_targeting_3.webp)
 
 In this example, the Pak would only apply to Windows 10 machines when the machine is portable and
 not on the corporate LAN subnet, and the user is in the FABRIKAM\Traveling Sales Users group.

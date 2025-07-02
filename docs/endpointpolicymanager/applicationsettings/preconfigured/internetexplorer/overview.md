@@ -16,7 +16,7 @@ This AppSet is no different than other AppSets, in that it can be placed into Lo
 Central storage. (See Book 3: Application Settings Manager for details.) Once placed into the
 storage location, it will be available under the Application Settings Manager, as shown in Figure 1.
 
-![about_this_document_and_the](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/firefox/about_this_document_and_the.webp)
+![about_this_document_and_the](/img/product_docs/endpointpolicymanager/applicationsettings/preconfigured/internetexplorer/about_this_document_and_the.webp)
 
 Figure 1. The IE AppSet.
 

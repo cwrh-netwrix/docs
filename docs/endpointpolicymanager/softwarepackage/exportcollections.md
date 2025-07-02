@@ -9,9 +9,9 @@ To export a policy for later use using Endpoint Policy Manager Exporter or Endpo
 Cloud, right-click the collection or the policy and select **Export to XML**. This will enable you
 to save an XML file, which you can use later.
 
-![exporting_collections](/img/product_docs/endpointpolicymanager/remoteworkdelivery/exporting_collections.webp)
+![exporting_collections](/img/product_docs/endpointpolicymanager/softwarepackage/exporting_collections.webp)
 
 Remember that Endpoint Policy Manager RDP policies can be created and exported on the User or
 Computer side. For instance, below you can see an item being exported from the Computer side.
 
-![exporting_collections_1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/exporting_collections_1.webp)
+![exporting_collections_1](/img/product_docs/endpointpolicymanager/softwarepackage/exporting_collections_1.webp)

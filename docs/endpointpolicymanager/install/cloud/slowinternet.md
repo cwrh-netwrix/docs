@@ -15,7 +15,7 @@ CSE is available for download within the Customer Portal only. Go to
 [https://portal.endpointpolicymanager.com](https://portal.endpointpolicymanager.com/) and download **Latest Bits**. You'll
 find the Endpoint Policy Manager Client-Side Extension folder in the archive.
 
-![image1](/img/product_docs/passwordsecure/9.2/configuration/basic_view/image1.webp)
+![image1](/img/product_docs/endpointpolicymanager/install/cloud/image1.webp)
 
 Follow these steps to install both MSIs:
 

@@ -11,7 +11,7 @@ policies so they can act together. For instance, you might create a collection f
 computers and another for West Sales computers. Or you might create a collection for Windows 10
 machines and one for Windows Server 2016 RDS, as seen in Figure 24.
 
-![using_item_level_targeting](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting.webp)
+![using_item_level_targeting](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting.webp)
 
 Figure 24. Scripts & Triggers Manger allows the user to create collections and then set Item-Level
 Targeting upon the collections.
@@ -19,7 +19,7 @@ Targeting upon the collections.
 Right-click any Endpoint Policy Manager Scripts & Triggers Manager policy, and select "Edit Item
 Level Targeting," as demonstrated in Figure 25.
 
-![using_item_level_targeting_1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_1.webp)
+![using_item_level_targeting_1](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting_1.webp)
 
 Figure 25. Setting Item-Level Targeting for policy entries themselves.
 
@@ -34,7 +34,7 @@ targeting items in much the same way parentheses are used in an equation. In thi
 create a complex determination about where a policy will be applied. Collections may be set to
 "And", "Or", "Is", or "Is Not."
 
-![using_item_level_targeting_2](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_2.webp)
+![using_item_level_targeting_2](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting_2.webp)
 
 Figure 26. In this example, the Pak would only apply to Windows 10 machines when the machine is
 portable and the user is in the FABRIKAM\Traveling Sales Users group.
@@ -58,7 +58,7 @@ Below are some real-world examples of of how you can use Item-Level Targeting.
 After editing is completed, close the editor. Note that the icon for the policy or collection has
 changed to orange, which shows that it now has Item-Level Targeting, as seen in Figure 27.
 
-![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_3.webp)
+![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/scriptstriggers/itemleveltargeting/using_item_level_targeting_3.webp)
 
 Figure 27. When the policy or collection's icon is orange, the entry has Item-Level Targeting.
 

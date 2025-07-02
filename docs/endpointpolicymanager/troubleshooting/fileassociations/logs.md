@@ -29,11 +29,11 @@ Start troubleshooting by verifying that the following conditions are true:
 Figure 55 and Figure 56 are examples of Endpoint Policy Manager File Associations Manager logs with
 some important items highlighted.
 
-![troubleshooting_1](/img/product_docs/endpointpolicymanager/troubleshooting/preferences/troubleshooting_1.webp)
+![troubleshooting_1](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/troubleshooting_1.webp)
 
 Figure 55. An example of a Endpoint Policy Manager File Associations Manager log.
 
-![troubleshooting_2](/img/product_docs/endpointpolicymanager/troubleshooting/preferences/troubleshooting_2.webp)
+![troubleshooting_2](/img/product_docs/endpointpolicymanager/troubleshooting/fileassociations/troubleshooting_2.webp)
 
 Figure 56. Highlights from the Endpoint Policy Manager k File Associations Manager log.
 

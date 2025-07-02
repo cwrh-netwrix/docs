@@ -10,12 +10,12 @@ policies so they can act together. For instance, you might create a collection f
 Computers and another for West Sales Computers. Or you might create one for Windows Server 2016
 servers with Exchange, and one for Windows 10 laptops in Sales.
 
-![using_item_level_targeting](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting.webp)
+![using_item_level_targeting](/img/product_docs/endpointpolicymanager/feature/itemleveltargeting/using_item_level_targeting_1.webp)
 
 You can also right-click any Endpoint Policy Manager Feature Manager for Windows policy, and select
 **Edit Item Level Targeting**.
 
-![using_item_level_targeting_1](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_1.webp)
+![using_item_level_targeting_1](/img/product_docs/endpointpolicymanager/feature/itemleveltargeting/using_item_level_targeting_1.webp)
 
 You can also select Item-Level Targeting when a policy is created using the wizard.
 
@@ -30,7 +30,7 @@ same way parentheses are used in an equation. In this way, you can create a comp
 about where a policy will be applied. Collections may be set to **And**, **Or** **Is**, or **Is
 Not**.
 
-![using_item_level_targeting_2](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_2.webp)
+![using_item_level_targeting_2](/img/product_docs/endpointpolicymanager/feature/itemleveltargeting/using_item_level_targeting_2.webp)
 
 Below are some real-world examples of how you can use Item-Level Targeting.
 
@@ -52,7 +52,7 @@ Below are some real-world examples of how you can use Item-Level Targeting.
 After you're done editing, close the editor. Note that the icon of the policy or collection has
 changed to orange, which shows that it now has Item-Level Targeting.
 
-![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/remoteworkdelivery/using_item_level_targeting_3.webp)
+![using_item_level_targeting_3](/img/product_docs/endpointpolicymanager/feature/itemleveltargeting/using_item_level_targeting_3.webp)
 
 When Item-Level Targeting is on, the policy won't apply unless the conditions are **True**. If
 Item-Level Targeting is on a collection, then none of the items in the collection will apply unless

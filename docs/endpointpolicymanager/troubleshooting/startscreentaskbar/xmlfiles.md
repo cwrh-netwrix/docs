@@ -7,7 +7,7 @@ in
 `%programdata%\PolicyPak\PolicyPak Start Screen Manager\RSoP\User\<sid>`, as seen in Figure 58. A
 good first troubleshooting step would be to see what the file contains.
 
-![troubleshooting](/img/product_docs/endpointpolicymanager/troubleshooting/preferences/troubleshooting.webp)
+![troubleshooting](/img/product_docs/endpointpolicymanager/troubleshooting/startscreentaskbar/troubleshooting.webp)
 
 Figure 58. The ssmResults.xml file shows what Start Screen & Taskbar Manager has performed.
 

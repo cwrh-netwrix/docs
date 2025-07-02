@@ -5,7 +5,7 @@ This means that lower-numbered collections attempt to process first, and higher-
 attempt to process last. Then, within any collection, each policy is processed in numerical order
 from lowest to highest.
 
-![understanding_processing_order](/img/product_docs/endpointpolicymanager/remoteworkdelivery/understanding_processing_order.webp)
+![understanding_processing_order](/img/product_docs/endpointpolicymanager/softwarepackage/understanding_processing_order.webp)
 
 Therefore, you might want to organize your policies such that removal policies come first, since
 those operations are faster. Then, order the installation policies by length of installation time,

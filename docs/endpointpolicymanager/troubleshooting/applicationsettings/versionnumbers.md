@@ -19,16 +19,16 @@ every system (or at least a test system where you want to perform troubleshootin
 If those steps fail, and your problem reoccurs, please be prepared with the version information from
 the following areas, shown in Figure 98, Figure 99, and Figure 100.
 
-![troubleshooting_policypak_2](/img/product_docs/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager_2.webp)
+![troubleshooting_policypak_2](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/troubleshooting_endpointpolicymanager_2.webp)
 
 Figure 98. Endpoint Policy Manager DesignStudio: Help | About.
 
-![troubleshooting_policypak_3](/img/product_docs/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager_3.webp)
+![troubleshooting_policypak_3](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/troubleshooting_endpointpolicymanager_3.webp)
 
 Figure 99. Pak compiled version. With any Pak, open in the Group Policy Editor, and click Endpoint
 Policy Manager and then About. The About dialog shows the version number used to compile your Pak.
 
-![troubleshooting_policypak_4](/img/product_docs/endpointpolicymanager/troubleshooting/javaenterpriserules/troubleshooting_endpointpolicymanager_4.webp)
+![troubleshooting_policypak_4](/img/product_docs/endpointpolicymanager/troubleshooting/applicationsettings/troubleshooting_endpointpolicymanager_4.webp)
 
 Figure 100. On Windows 7, you can see the version number of the CSE in the "Uninstall or change a
 program" applet in Control Panel.
