@@ -5,6 +5,16 @@ on:
     branches: [dev, main]
   pull_request:
     branches: [dev, main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'development'
+        type: choice
+        options:
+          - development
+          - production
 
 # Prevent multiple concurrent deployments
 concurrency:
@@ -12,102 +22,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
-    name: Build Documentation
-    runs-on: ubuntu-latest
-    timeout-minutes: 90
-    outputs:
-      environment: ${{ steps.set-env.outputs.environment }}
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Determine environment
-        id: set-env
-        run: |
-          if [[ "${{ github.ref }}" == "refs/heads/main" ]] || [[ "${{ github.event_name }}" == "pull_request" && "${{ github.base_ref }}" == "main" ]]; then
-            echo "environment=Production" >> $GITHUB_OUTPUT
-            echo "SITE_URL=${{ secrets.PROD_URL }}" >> $GITHUB_ENV
-          else
-            echo "environment=Development" >> $GITHUB_OUTPUT
-            echo "SITE_URL=${{ secrets.DEV_URL }}" >> $GITHUB_ENV
-          fi
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
-
-      - name: Cache Docusaurus build
-        uses: actions/cache@v4
-        with:
-          path: |
-            .docusaurus
-            .cache
-            build/.cache
-          key: ${{ runner.os }}-docusaurus-build-${{ steps.set-env.outputs.environment }}-${{ hashFiles('**/package-lock.json', '**/docusaurus.config.js', 'docs/**/*.md', 'docs/**/*.mdx') }}
-          restore-keys: |
-            ${{ runner.os }}-docusaurus-build-${{ steps.set-env.outputs.environment }}-
-            ${{ runner.os }}-docusaurus-build-
-
-      - name: Cache webpack
-        uses: actions/cache@v4
-        with:
-          path: node_modules/.cache
-          key: ${{ runner.os }}-webpack-${{ steps.set-env.outputs.environment }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-webpack-${{ steps.set-env.outputs.environment }}-
-            ${{ runner.os }}-webpack-
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build site
-        run: npm run build
-        env:
-          RENDER_EXTERNAL_URL: ${{ env.SITE_URL }}
-
-      - name: Validate build output
-        run: |
-          if [ ! -d "build" ]; then
-            echo "❌ Build directory not found!"
-            exit 1
-          fi
-          echo "✅ Build directory exists with $(find build -type f | wc -l) files"
-
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: build-${{ steps.set-env.outputs.environment }}
-          path: build/
-          retention-days: 1
-
   deploy-dev:
     name: Deploy to Development
-    needs: build
     runs-on: ubuntu-latest
     environment: Development
-    if: (github.ref == 'refs/heads/dev' || (github.event_name == 'pull_request' && github.base_ref == 'dev')) && needs.build.outputs.environment == 'Development'
+    # Run for: dev branch pushes, PRs targeting dev, or manual dispatch to development
+    if: |
+      github.ref == 'refs/heads/dev' || 
+      (github.event_name == 'pull_request' && github.base_ref == 'dev') ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'development')
     permissions:
       deployments: write
-      pull-requests: write  # Needed to comment on PRs
+      pull-requests: write
     steps:
-      - name: Download build artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: build-Development
-          path: build/
-
-      - name: Deploy to Render Dev
+      - name: Trigger Render Deploy
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
-          service_id: ${{ secrets.RENDER_SERVICE_ID }}
+          service_id: ${{ vars.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
+          clear_cache: false
           wait_deploy: true
           github_deployment: true
-          deployment_environment: ${{ secrets.RENDER_DEPLOY_ENVIRONMENT }}
+          deployment_environment: ${{ vars.RENDER_DEPLOY_ENVIRONMENT }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment on PR
@@ -116,7 +53,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const deployUrl = '${{ secrets.SITE_URL }}';
+            const deployUrl = '${{ vars.SITE_URL }}';
             const environment = 'Development';
             const commentIdentifier = `<!-- deployment-bot:${environment} -->`;
             
@@ -165,29 +102,27 @@ jobs:
 
   deploy-prod:
     name: Deploy to Production
-    needs: build
     runs-on: ubuntu-latest
     environment: Production
-    if: (github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.base_ref == 'main')) && needs.build.outputs.environment == 'Production'
+    # Run for: main branch pushes, PRs targeting main, or manual dispatch to production
+    if: |
+      github.ref == 'refs/heads/main' || 
+      (github.event_name == 'pull_request' && github.base_ref == 'main') ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.environment == 'production')
     permissions:
       deployments: write
-      pull-requests: write  # Needed to comment on PRs
+      pull-requests: write
     steps:
-      - name: Download build artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: build-Production
-          path: build/
-
-      - name: Deploy to Render Prod
+      - name: Trigger Render Deploy
         id: deploy
         uses: JorgeLNJunior/render-deploy@v1.4.5
         with:
-          service_id: ${{ secrets.RENDER_SERVICE_ID }}
+          service_id: ${{ vars.RENDER_SERVICE_ID }}
           api_key: ${{ secrets.RENDER_API_KEY }}
+          clear_cache: false
           wait_deploy: true
           github_deployment: true
-          deployment_environment: ${{ secrets.RENDER_DEPLOY_ENVIRONMENT }}
+          deployment_environment: ${{ vars.RENDER_DEPLOY_ENVIRONMENT }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Comment on PR
@@ -196,7 +131,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const deployUrl = '${{ secrets.SITE_URL }}';
+            const deployUrl = '${{ vars.SITE_URL }}';
             const environment = 'Production';
             const commentIdentifier = `<!-- deployment-bot:${environment} -->`;
             

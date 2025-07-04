@@ -39,12 +39,8 @@ cd docs
 # Install dependencies
 npm install
 
-# Start development server (all products)
+# Start development server
 npm run start
-
-# Single product mode (recommended for development)
-npm run start 1secure
-npm run start accessanalyzer/12.0
 ```
 
 ## 📁 Project Structure
@@ -79,8 +75,7 @@ npm run start accessanalyzer/12.0
 │   │   └── 12.0.js
 │   └── [other product sidebars]/
 ├── scripts/                     # Development utilities
-│   ├── start-wrapper.js         # Single-product dev mode
-│   └── build-single.js          # Single-product builds
+
 ├── static/                      # Static assets
 │   └── img/
 │       ├── branding/            # Logos and brand assets
@@ -95,16 +90,11 @@ npm run start accessanalyzer/12.0
 
 ```bash
 # Development
-npm run start                     # All products (slower, loads everything)
-npm run start [product]           # start a solo product docs only
-npm run start [product]/[version] # start a versioned product docs only
+npm run start                     # Start development server
 
 # Building & Testing
 npm run build                     # Full production build
-npm run build [product]           # Full production build
-npm run build [product]/[version] # Full production build
-npm run format:check              # Check code formatting
-npm run format                    # Auto-format with Prettier
+
 # Utilities
 npm run clear                     # Clear Docusaurus cache
 npm run serve                     # Serve production build after `npm run build`
@@ -112,23 +102,12 @@ npm run serve                     # Serve production build after `npm run build`
 
 ### Development Workflow
 
-The new centralized system makes development much simpler:
+The centralized system makes development simple:
 
 1. **Start development server**: `npm run start`
 2. **Make changes** to documentation or configuration
 3. **Hot reload** automatically updates the site
 4. **All products and versions** work seamlessly
-
-### Single Product Development (Legacy Script Support)
-
-For backward compatibility, single-product scripts still work:
-
-```bash
-# Examples (optional - full site starts quickly now)
-npm run start 1secure
-npm run start accessanalyzer/12.0
-npm run start identitymanager/saas
-```
 
 ## ⚙️ Centralized Configuration System
 
@@ -369,31 +348,15 @@ Contributing is easy:
 npm run start
 ```
 
-2. **Make changes** to documentation or configuration
+2. **Make your changes** to documentation or configuration
 
-3. **Format code** before committing:
-
-If this isn't done, a pre-commit hook will do it for you anyways.
-
-```bash
-npm run format
-```
-
-4. **Test builds**:
-
-Test a build of the docs you edited:
-
-```bash
-npm run build [product][/version]
-```
-
-Test a build of all docs:
+3. **Test builds**:
 
 ```bash
 npm run build
 ```
 
-5. **Submit pull request**
+4. **Submit pull request**
 
 Create a PR to the dev branch, and then main when ready for production.
 

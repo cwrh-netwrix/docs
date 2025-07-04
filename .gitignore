@@ -1,6 +1,9 @@
 # Dependencies
 /node_modules
 
+# VS Code
+.vscode/
+
 # Generated files
 .docusaurus
 .cache-loader
@@ -17,9 +20,3 @@ claude_logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# MDX Test Reports
-mdx-test-report.json
-pre-conversion-report.json
-post-conversion-report.json
-*.test-report.json

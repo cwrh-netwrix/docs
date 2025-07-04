@@ -5,25 +5,14 @@
   "main": "docusaurus.config.js",
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "node scripts/start-wrapper.js",
-    "start:all": "docusaurus start",
-    "build": "NODE_OPTIONS=--max-old-space-size=8192 npx docusaurus build",
-    "build:single": "node scripts/build-single.js",
+    "start": "cross-env NODE_OPTIONS=--max-old-space-size=12288 CHOKIDAR_USEPOLLING=false npx docusaurus start",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=12288 npx docusaurus build",
     "swizzle": "docusaurus swizzle",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc",
-    "format": "prettier --write .",
-    "format:check": "prettier --check .",
-    "prepare": "husky",
-    "update-mappings": "node scripts/generate-product-mappings.js"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
-    ]
+    "postinstall": "node scripts/windows-install.js"
   },
   "dependencies": {
     "@docusaurus/babel": "^3.8.1",
@@ -43,12 +32,13 @@
     "@docusaurus/module-type-aliases": "^3.8.1",
     "@docusaurus/types": "^3.8.1",
     "@mdx-js/mdx": "^3.1.0",
+    "cross-env": "^7.0.3",
     "husky": "^9.1.7",
     "ora": "^8.2.0",
-    "prettier": "3.5.3",
     "table": "^6.9.0",
     "to-vfile": "^8.0.0",
-    "vfile-reporter": "^8.1.1"
+    "vfile-reporter": "^8.1.1",
+    "watchman": "^1.0.0"
   },
   "engines": {
     "node": ">=18.0"
