@@ -14,14 +14,17 @@ user in GroupID.
 ## To create an Microsoft Entra ID Identity Store
 
 See the
-[Create an Identity Store for Microsoft Entra ID](/docs/directorymanager/11.0/signin/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
+[Create an Identity Store for Microsoft Entra ID](/docs/directorymanager/11.0/admincenter/identitystore/create.md#create-an-identity-store-for-microsoft-entra-id)
 topic for creating an Microsoft Entra ID identity store.
 
-NOTE: If you intend to use a service account user with Global Administrator directory role, then no
+:::note
+If you intend to use a service account user with Global Administrator directory role, then no
 change is required in the default GroupID security roles settings of Microsoft Entra ID identity
 store. And if you intend to use a service account user with any role, other than Global
 administrator directory role (i.e. User Administrator + Exchange Administrator), then the GroupID
 Administrator security role criteria group must be changed to User Account Administrator.
+:::
+
 
 ## GroupID Security Role Setting
 
@@ -51,7 +54,3 @@ limitations apply:
 
 - The password reset functionality would be limited to objects falling in the User role, User
   Administrator role, and Helpdesk role.
-
-See Also
-
-- [Registration and Permissions Assignment](/docs/directorymanager/11.0/configureentraid/register/appregister.md)

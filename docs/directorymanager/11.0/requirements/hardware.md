@@ -13,9 +13,12 @@ Minimum hardware requirements for GroupID are:
 
     6 GB of RAM in case of self-managed Elasticsearch
 
-    RECOMMENDED: We recommend a dedicated server for GroupID. If you install any other application
+    :::info
+    We recommend a dedicated server for GroupID. If you install any other application
     on the GroupID server, adjust RAM requirements accordingly. For example, if you install SQL
     Server, you may need to add 2-4 GB RAM depending on the edition of the SQL Server.
+    :::
+
 
     Different editions of SQL Server have varying resource requirements. For example:
 
@@ -26,7 +29,3 @@ Minimum hardware requirements for GroupID are:
 - 6 GB or more disk space (for installation only)
 
     Space requirements are relative to the provider's data size growth for Elasticsearch data.
-
-See Also
-
-- [Requirements](/docs/directorymanager/11.0/requirements/requirements.md)

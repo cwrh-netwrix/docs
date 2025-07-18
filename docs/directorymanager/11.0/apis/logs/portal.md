@@ -7,7 +7,7 @@ sidebar_position: 40
 # Portal Logs
 
 Use this API to get GroupID portal logs. See the
-[History](/docs/directorymanager/11.0/welcome/history/overview.md) topic for additional
+[History](/docs/directorymanager/11.0/portal/history/overview.md) topic for additional
 information on Portal history.
 
 ## Endpoint

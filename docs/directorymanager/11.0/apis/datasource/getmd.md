@@ -9,7 +9,7 @@ sidebar_position: 120
 Using this API, you can get metadata information of data sources defined so far in GroupID.
 
 See the
-[Create a Data Source](/docs/directorymanager/11.0/signin/datasource/create.md) topic
+[Create a Data Source](/docs/directorymanager/11.0/admincenter/datasource/create.md) topic
 for creating a data source using the GroupID interface.
 
 ## Endpoint

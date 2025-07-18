@@ -7,7 +7,7 @@ sidebar_position: 20
 # Data Service Logs
 
 Use this API to get GroupID Data service log. See the
-[Data Service](/docs/directorymanager/11.0/signin/service/dataservice/overview.md) for
+[Data Service](/docs/directorymanager/11.0/admincenter/service/dataservice/overview.md) for
 additional information on Data service.
 
 ## Endpoint

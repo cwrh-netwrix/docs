@@ -28,8 +28,3 @@ You can uninstall GroupID Credential Provider using one of the following:
        applied on it. This removes the installed GroupID Credential Provider from all client
        workstations. Once it is removed from the client workstation, the user must restart it again
        to remove the links from the Windows logon screen.
-
-See Also
-
-- [Install GroupID Credential Provider](/docs/directorymanager/11.0/credentialprovider/installcp.md)
-- [ GroupID Credential Provider](/docs/directorymanager/11.0/credentialprovider/credentialprovider.md)

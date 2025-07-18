@@ -18,10 +18,3 @@ Here are the steps to configure single sign-on in GroupID using Microsoft Entra 
 - Configure the Microsoft Entra ID SSO application in GroupID.
 
 That done, you can sign into GroupID using Microsoft Entra ID SSO.
-
-See Also
-
-- [Generate URLs](/docs/directorymanager/11.0/authenticate/asserviceprovider/entrasso/generateurls.md)
-- [Configure GroupID in Microsoft Entra ID for SSO](/docs/directorymanager/11.0/authenticate/asserviceprovider/entrasso/configureinentra.md)
-- [Configure the Microsoft Entra SSO Application in GroupID](/docs/directorymanager/11.0/authenticate/asserviceprovider/entrasso/configureproviderindirectorymanager.md)
-- [Sign In Using Microsoft Entra ID SSO](/docs/directorymanager/11.0/authenticate/asserviceprovider/entrasso/signin.md)

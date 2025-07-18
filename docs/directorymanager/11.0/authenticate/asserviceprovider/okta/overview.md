@@ -17,10 +17,3 @@ Here are the steps to configure single sign-on in GroupID using Okta as a provid
 - Configure the Okta provider in GroupID.
 
 That done, you can sign into GroupID using Okta.
-
-See Also
-
-- [Generate URLs](/docs/directorymanager/11.0/authenticate/asserviceprovider/okta/generateurls.md)
-- [Configure GroupID In Okta](/docs/directorymanager/11.0/authenticate/asserviceprovider/okta/configureinokta.md)
-- [Configure the Okta Provider In GroupID](/docs/directorymanager/11.0/authenticate/asserviceprovider/okta/configureoktaindirectorymanager.md)
-- [Sign In Using Okta](/docs/directorymanager/11.0/authenticate/asserviceprovider/okta/signin.md)

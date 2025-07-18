@@ -34,7 +34,7 @@ GroupID provides the following APIs to perform functions related to data sources
 - [Update a Data Source](/docs/directorymanager/11.0/apis/datasource/updateds.md)
 - [Validate Data Connectivity of a Data Source](/docs/directorymanager/11.0/apis/datasource/validatedc.md)
 
-See the[ Data Sources](/docs/directorymanager/11.0/signin/datasource/overview.md)
+See the[ Data Sources](/docs/directorymanager/11.0/admincenter/datasource/overview.md)
 topic for additional information on data sources.
 
 See Also

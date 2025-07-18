@@ -8,9 +8,9 @@ sidebar_position: 130
 
 Use this API to retrieve information about all those requests with pending status provided you have
 the required permissions to manage all requests. See the
-[Miscellaneous](/docs/directorymanager/11.0/signin/securityrole/permissions.md#miscellaneous)
+[Miscellaneous](/docs/directorymanager/11.0/admincenter/securityrole/permissions.md#miscellaneous)
 section of the
-[Security Role – Permissions](/docs/directorymanager/11.0/signin/securityrole/permissions.md)
+[Security Role – Permissions](/docs/directorymanager/11.0/admincenter/securityrole/permissions.md)
 topic.
 
 ## Endpoint

@@ -17,10 +17,3 @@ Here are the steps to configure single sign-on in GroupID using PingOne as a pro
 - Configure the PingOne provider in GroupID.
 
 That done, you can sign into GroupID using PingOne.
-
-See Also
-
-- [Generate the Consumer URL and Metadata File](/docs/directorymanager/11.0/authenticate/asserviceprovider/pingone/generatemetadata.md)
-- [Configure GroupID In PingOne](/docs/directorymanager/11.0/authenticate/asserviceprovider/pingone/configureinpingone.md)
-- [Configure the PingOne Provider In GroupID](/docs/directorymanager/11.0/authenticate/asserviceprovider/pingone/configurepingoneindirectorymanager.md)
-- [Sign In Using PingOne](/docs/directorymanager/11.0/authenticate/asserviceprovider/pingone/signin.md)

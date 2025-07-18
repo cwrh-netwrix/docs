@@ -175,8 +175,3 @@ The modified domain policy will be installed on the client machines, which are i
 Group Policy Object, upon their next restart. The Windows logon screen appear as follows:
 
 ![Windows Logon screen](/img/product_docs/directorymanager/11.0/portal/user/manage/windows_screen.webp)
-
-See Also
-
-- [ GroupID Credential Provider](/docs/directorymanager/11.0/credentialprovider/credentialprovider.md)
-- [Uninstall GroupID Credential Provider](/docs/directorymanager/11.0/credentialprovider/uninstallcp.md)

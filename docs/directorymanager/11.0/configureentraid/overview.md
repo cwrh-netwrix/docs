@@ -14,7 +14,3 @@ as creating users and mailboxes, managing users’ profiles, and more.
 GroupID supports multiple identity providers for creating an identity store, including Microsoft
 Entra ID, formerly Azure Active Directory. This section provides information that will help
 configure GroupID in Microsoft Entra ID.
-
-See Also
-
-- [Registration and Permissions Assignment](/docs/directorymanager/11.0/configureentraid/register/appregister.md)

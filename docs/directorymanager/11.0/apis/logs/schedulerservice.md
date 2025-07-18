@@ -7,7 +7,7 @@ sidebar_position: 60
 # Scheduler Service Logs
 
 Using this API you can get Scheduler Service logs. See the
-[Scheduler Service](/docs/directorymanager/11.0/signin/service/schedulerservice.md)topic
+[Scheduler Service](/docs/directorymanager/11.0/admincenter/service/schedulerservice.md)topic
 for additional information on Scheduler service.
 
 ## Endpoint

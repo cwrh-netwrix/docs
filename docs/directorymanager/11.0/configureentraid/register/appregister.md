@@ -59,10 +59,13 @@ This section discusses the GroupID application registration and permission assig
             Administrators can change passwords for users, Helpdesk administrators, and other User
             Account Administrators only.
 
-            NOTE: By default, the GroupID Administrator security role in a Microsoft Entra
+            :::note
+            By default, the GroupID Administrator security role in a Microsoft Entra
             IDidentity store binds to Global Administrator. If minimum role assignment for the
             service account is used, the default Admin Security role criteria should also be changed
             to the _User Account Administrators_ group.
+            :::
+
 
 9. Click **Add**.
 10. Go to the **API permissions** node and select **Add a permission**.
@@ -106,7 +109,3 @@ This section discusses the GroupID application registration and permission assig
     topic for the required permission name.
 
 This completes the registration process of GroupID in Microsoft Entra ID.
-
-See Also
-
-- [Register in Microsoft Entra ID](/docs/directorymanager/11.0/configureentraid/register/overview.md)

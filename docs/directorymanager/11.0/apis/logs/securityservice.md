@@ -7,7 +7,7 @@ sidebar_position: 70
 # Security Service Logs
 
 This API fetches GroupID Security service logs. See the
-[Security Service](/docs/directorymanager/11.0/signin/service/securityservice/overview.md)
+[Security Service](/docs/directorymanager/11.0/admincenter/service/securityservice/overview.md)
 topic for additional information on Security service.
 
 ## Endpoint

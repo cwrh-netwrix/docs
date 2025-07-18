@@ -10,8 +10,8 @@ Use this API to retrieve information about GroupID default workflows. These wo
 in GroupID that trigger when their associated events occur.
 
 See the
-[System Workflows](/docs/directorymanager/11.0/signin/workflow/overview.md#system-workflows)
-section of the [Workflows](/docs/directorymanager/11.0/signin/workflow/overview.md)
+[System Workflows](/docs/directorymanager/11.0/admincenter/workflow/overview.md#system-workflows)
+section of the [Workflows](/docs/directorymanager/11.0/admincenter/workflow/overview.md)
 topic for additional information.
 
 ## Endpoint

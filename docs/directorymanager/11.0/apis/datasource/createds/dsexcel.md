@@ -9,9 +9,9 @@ sidebar_position: 30
 Use this API to create a new data source.
 
 See the
-[Create a Data Source for MS Excel](/docs/directorymanager/11.0/signin/datasource/create.md#create-a-data-source-for-ms-excel)
+[Create a Data Source for MS Excel](/docs/directorymanager/11.0/admincenter/datasource/create.md#create-a-data-source-for-ms-excel)
 section of the
-[Create a Data Source](/docs/directorymanager/11.0/signin/datasource/create.md) topic
+[Create a Data Source](/docs/directorymanager/11.0/admincenter/datasource/create.md) topic
 for additional information on creating an Excel data source using GroupID interface.
 
 ## Endpoint

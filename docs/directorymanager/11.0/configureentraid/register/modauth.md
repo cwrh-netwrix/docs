@@ -59,7 +59,10 @@ Get-InstallModule -name exchangeonlinemanagement
 
 Connect to Exchange Online using the cmdlet shown below and fetch some data:
 
-NOTE: For that you need Certificate Thumbprint and Application ID of the registered app.
+:::note
+For that you need Certificate Thumbprint and Application ID of the registered app.
+:::
+
 
 ```
 Connect-ExchangeOnline -certificateThumbprint Thumbprint -AppId App ID -organization organization name
@@ -72,7 +75,3 @@ Disconnect-ExchangeOnline
 ```
 
 After this verification process, you can use the certificate Thumbprint in GroupID.
-
-See Also
-
-- [Registration and Permissions Assignment](/docs/directorymanager/11.0/configureentraid/register/appregister.md)

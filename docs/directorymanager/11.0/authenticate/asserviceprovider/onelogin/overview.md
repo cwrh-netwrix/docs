@@ -17,10 +17,3 @@ Here are the steps to configure single sign-on in GroupID using OneLogin as a pr
 - Configure the OneLogin provider in GroupID.
 
 That done, you can sign into GroupID using OneLogin.
-
-See Also
-
-- [Generate URLs](/docs/directorymanager/11.0/authenticate/asserviceprovider/onelogin/generateurls.md)
-- [Configure GroupID In OneLogin](/docs/directorymanager/11.0/authenticate/asserviceprovider/onelogin/configureinonelogin.md)
-- [Configure the OneLogin Provider in GroupID](/docs/directorymanager/11.0/authenticate/asserviceprovider/onelogin/configureoneloginindirectorymanager.md)
-- [Sign In Using OneLogin](/docs/directorymanager/11.0/authenticate/asserviceprovider/onelogin/signin.md)

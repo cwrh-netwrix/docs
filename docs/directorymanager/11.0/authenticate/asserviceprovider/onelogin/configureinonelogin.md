@@ -39,7 +39,7 @@ You also have to:
    A message is displayed that the app is added and a few links are displayed under the message.
    Using them, you can specify certain settings for the app.
 
-**Provide consumer URL and audience URL:**
+   **Provide consumer URL and audience URL:**
 
 8. Click the **Configurations** link. The **Configurations** page for the new app is displayed.
 9. In the **ACS (Consumer) URL Validator** and **ACS (Consumer) URL** boxes, provide the consumer
@@ -49,14 +49,14 @@ You also have to:
 10. In the **Audience** box. provide the audience URL that you generated for the GroupID client
     _Wizard_.
 
-**Specify attribute for user authentication:**
+   **Specify attribute for user authentication:**
 
 11. Click the **Parameters** link at the top.
 12. On the **Parameters** page, _Email_ is already set as the entity ID that will be used for
     authenticating users who opt to sign into GroupID using the OneLogin single sign-on option.
     Leave all settings to default.
 
-**Configure SSO settings:**
+   **Configure SSO settings:**
 
 13. Click the **SSO** link at the top.
 14. In the **SAML Signature Algorithm** list on the **SSO** page, select _SHA-256_.
@@ -65,7 +65,7 @@ You also have to:
     configuring the OneLogin provider in GroupID. Copy and paste them in a file, preferably a text
     file, to save them.
 
-**Define users:**
+   **Define users:**
 
 16. Click the **Access** link at the top. The **Policy** list displays any policies that you may
     have configured for users. You can select a policy to enforce it.

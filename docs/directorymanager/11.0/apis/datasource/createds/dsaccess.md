@@ -9,9 +9,9 @@ sidebar_position: 20
 Use this API to create a new data source.
 
 See the
-[Create a Data Source for MS Access](/docs/directorymanager/11.0/signin/datasource/create.md#create-a-data-source-for-ms-access)
+[Create a Data Source for MS Access](/docs/directorymanager/11.0/admincenter/datasource/create.md#create-a-data-source-for-ms-access)
 section of the
-[Create a Data Source](/docs/directorymanager/11.0/signin/datasource/create.md) topic
+[Create a Data Source](/docs/directorymanager/11.0/admincenter/datasource/create.md) topic
 to create an MS Access data source using the GroupID interface.
 
 ## Endpoint
