@@ -30,9 +30,3 @@ are replicated to Elasticsearch and the time elapsed since last replication.
 ```
 Get-ReplicationStatus -IdentityStoreName AdStore8
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -37,9 +37,3 @@ The following command reinstates the specified disabled user of the connected id
 ```
 Reinstate-User -Identity "Farzana Jafar"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

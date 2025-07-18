@@ -10,11 +10,11 @@ Using this API, the authenticated user can get the number of groups the user is
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}/Groups/Membership/count?sortOrder=1&pageNo=1&pageSize=8&displayAdditionalGroups=true&calculateTotal=true&searchMode=0
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}/Groups/Membership/count?sortOrder=1&pageNo=1&pageSize=8&displayAdditionalGroups=true&calculateTotal=true&searchMode=0**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -32,9 +32,3 @@ GET
     "count": 32
 }
 ```
-
-See Also
-
-- Common Errors
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- Group APIs

@@ -10,11 +10,11 @@ Using this API, you can delete a single user.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 
@@ -33,9 +33,3 @@ DELETE
     "status": 0
 }
 ```
-
-See Also
-
-- Common Errors
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- Group APIs

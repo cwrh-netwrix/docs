@@ -11,11 +11,11 @@ those settings.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings**
 
 ## HTTP Methods
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 
@@ -37,8 +37,3 @@ PATCH
 ```
 true
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Workflow APIs](/docs/directorymanager/11.0/apis/workflow/workflowapis.md)

@@ -53,9 +53,3 @@ targets through the pipeline operator.
 ```
 'OU=WorkingOU,DC=pucit,DC=local', 'CN=SGroup1,OU=ArslanAhmadOU,OU=WorkingOU,DC=pucit,DC=local' | Get-TargetSchedules | Select-Object -Property Name,JobType
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

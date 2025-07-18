@@ -11,11 +11,11 @@ valid token in case the token expires in a session.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDSecurityService/connect/token
+**https://demomachine:4443/GroupIDSecurityService/connect/token**
 
 ## HTTP Method
 
-POST
+**POST**
 
 ### Parameters Values and Description
 
@@ -45,10 +45,3 @@ application/x-www-form-urlencoded
     "expires_in": 1200
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- Get Token
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

@@ -48,9 +48,3 @@ This section covers cmdlets for performing identity store-related tasks such as:
   modifies notification settings of an identity store.
 - [Set-SmtpServer](/docs/directorymanager/11.0/managementshell/identitystore/setsmtpserver.md):
   configures an SMTP server of an identity store.
-
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

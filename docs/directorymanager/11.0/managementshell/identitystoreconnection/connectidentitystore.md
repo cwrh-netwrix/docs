@@ -39,9 +39,3 @@ topic for setting credentials in an environment variable.
 ```
 Connect-IdentityStore -AuthenticationMode 2 -IdentityStoreId 2 -Credential $Cred
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Connection Commands](/docs/directorymanager/11.0/managementshell/identitystoreconnection/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

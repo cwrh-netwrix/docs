@@ -125,9 +125,3 @@ them in the same container where the Top Manager resides.
 ```
 New-Dynasty -OrganizationalUnit "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Name "Managerial" -SamAccountName "Managerial" -GroupScope "Universal Group" -Type "Distribution" -SearchContainers "OU=Recruiting,OU=HR,DC=Imanami,DC=US","OU=Outsourcing,OU=HR,DC=Imanami,DC=US" -SearchContainersScopeList "2","2" -TopManager "CN=BrianRegan,CN=Users,DC=HR,DC=Imanami,DC=US" -ExcludeNestedLists False -ChildContainer ""
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Dynasty Commands](/docs/directorymanager/11.0/managementshell/dynasty/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

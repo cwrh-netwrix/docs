@@ -16,11 +16,11 @@ to create an ODBC data source using the GroupID interface.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/Create
+**https://demomachine:4443/GroupIDDataService/api/DataSource/Create**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Response Syntax
 
@@ -66,8 +66,3 @@ an ODBC-compatible provider.
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

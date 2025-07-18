@@ -10,11 +10,11 @@ This API updates a user's information in the specified identity store.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users**
 
 ## HTTP Method
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 
@@ -65,9 +65,3 @@ PATCH
     "status": 0
 }
 ```
-
-See Also
-
-- Common Errors
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- Group APIs

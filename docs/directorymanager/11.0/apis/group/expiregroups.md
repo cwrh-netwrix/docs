@@ -10,11 +10,11 @@ This API expires multiple groups whose identities are provided in the request bo
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/Expire
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/Expire**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -82,8 +82,3 @@ POST
     "status": 0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

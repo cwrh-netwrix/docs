@@ -12,11 +12,11 @@ for additional information.
 
 ## Endpoint
 
-https://demomachine:4443/AdminCenter/api/Logs/Download
+**https://demomachine:4443/AdminCenter/api/Logs/Download**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -25,8 +25,3 @@ GET
 ```
 
 Save the encrypted response as a zip file to a desired location.
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Logs APIs](/docs/directorymanager/11.0/apis/logs/logsapis.md)

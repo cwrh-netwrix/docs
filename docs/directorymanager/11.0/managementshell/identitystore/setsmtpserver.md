@@ -50,9 +50,3 @@ stored in the $creds variable.
 ```
 Set-SmtpServer -IdentityStorename AdStore9 -SmtpServer smtp.office365.com -FromEmail admin@mydomain.onmicrosoft.com -ToEmail admin@mydomain.onmicrosoft.com -Port 587 -UseSmptUserAuthentication -SslEnabled -Credential $creds
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -10,11 +10,11 @@ Use this API to get information about jobs based on the filters provided in the 
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSyncJobs
+**https://demomachine:4443/GroupIDDataService/api/DataSyncJobs**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -88,8 +88,3 @@ GET
     "message": null
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Synchronize Jobs APIs](/docs/directorymanager/11.0/apis/jobs/jobsapis.md)

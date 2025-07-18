@@ -11,11 +11,11 @@ Excel data source(s) defined so far in GroupID that have their source files in 
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/GetFileServerMetaDataByType??fileServerType=OneDrive
+**https://demomachine:4443/GroupIDDataService/api/DataSource/GetFileServerMetaDataByType??fileServerType=OneDrive**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -134,8 +134,3 @@ GET
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

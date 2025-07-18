@@ -10,11 +10,11 @@ Using this API you can get a list of job names both predefined and user created
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/Names
+**https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/Names**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -46,8 +46,3 @@ GET
     }
 ]
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Synchronize Jobs APIs](/docs/directorymanager/11.0/apis/jobs/jobsapis.md)

@@ -69,9 +69,3 @@ topic for setting credentials in an environment variable.
 ```
 Send-Notification -Identity "CN=New Arrivals,CN=Users,DC=HR,DC=Imanami,DC=US" -Subject "Welcome to Imanami" -TemplateFile "C:\Welcome.html" -InlineImageFile "C:\WelcomeNote.jpg" -QueueEmail
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

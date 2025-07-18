@@ -10,11 +10,11 @@ Use this API to retrieve information of multiple users from the specified ident
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -281,9 +281,3 @@ GET
     }
 ]
 ```
-
-See Also
-
-- Common Errors
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- Group APIs

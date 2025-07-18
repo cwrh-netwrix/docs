@@ -70,9 +70,3 @@ name of the new user.
 ```
 New-User -Name "OsamaUser" -OrganizationalUnit "OU=osamamu,DC=naveed,DC=local" -SAMAccountName "OsamaUser11" -Password "webdir123R" -FirstName "Osama" -LastName "Shahbaz" -DisplayName "Osama"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [User Commands](/docs/directorymanager/11.0/managementshell/user/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

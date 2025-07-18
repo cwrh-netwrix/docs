@@ -57,9 +57,3 @@ specified in the **$Credentials** environment variable.
 Get-SmartGroup -SearchContainer "OU=Recuriting,DC=HR,DC=Imanami,DC=US","OU=OutSourcing,DC=HR,DC=Imanami,DC=US" -SearchContainersScopeList "2","1" -LdapFilter "(DisplayName = S*)" -Credential $Cred
 
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -10,11 +10,11 @@ Using this API, information about the authentiacated user's Smart Groups can be 
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}/Groups/SmartGroups?sortOrder=1&pageNo=1&pageSize=2&displayNestedOwnership=true&displayAdditionalGroups=true&calculateTotal=true&searchMode=0
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users/{userIdentity}/Groups/SmartGroups?sortOrder=1&pageNo=1&pageSize=2&displayNestedOwnership=true&displayAdditionalGroups=true&calculateTotal=true&searchMode=0**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -173,9 +173,3 @@ GET
   ]
 }
 ```
-
-See Also
-
-- Common Errors
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- Group APIs

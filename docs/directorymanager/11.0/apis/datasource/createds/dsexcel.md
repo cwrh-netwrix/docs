@@ -16,11 +16,11 @@ for additional information on creating an Excel data source using GroupID inter
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/Create
+**https://demomachine:4443/GroupIDDataService/api/DataSource/Create**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -60,8 +60,3 @@ The syntax given below provides you information for creating an Excel data sourc
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

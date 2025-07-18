@@ -22,9 +22,3 @@ This section covers the cmdlets that perform scheduling-related operations.
   modifies a schedule.
 - [Stop-Schedule](/docs/directorymanager/11.0/managementshell/scheduling/stopschedule.md):
   stops a running schedule.
-
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

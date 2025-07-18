@@ -10,11 +10,11 @@ Use this API to get information of a single user.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users/{userIdentity}
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Users/{userIdentity}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -161,9 +161,3 @@ GET
   "identityStoreId": 2
 }
 ```
-
-See Also
-
-- Common Errors
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- Group APIs

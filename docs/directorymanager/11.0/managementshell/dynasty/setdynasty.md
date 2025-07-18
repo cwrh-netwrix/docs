@@ -186,9 +186,3 @@ The following command clears the groups specified in the **Includes** list of a 
 ```
 Set-Dynasty -Identity "CN=Managerial,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Clear "Includes"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Dynasty Commands](/docs/directorymanager/11.0/managementshell/dynasty/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

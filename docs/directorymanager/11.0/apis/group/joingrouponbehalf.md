@@ -12,11 +12,11 @@ of whom you are joining the group, and membership type details.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/JoinOnBehalf
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}/JoinOnBehalf**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -64,8 +64,3 @@ POST
     "status": 0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

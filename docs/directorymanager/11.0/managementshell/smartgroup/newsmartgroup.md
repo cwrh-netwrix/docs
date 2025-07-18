@@ -94,8 +94,11 @@ logged-on to the identity store.
 New-SmartGroup  -OrganizationalUnit "OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Name "Smart_Training" -GroupAlias "Smart_Training" -MailEnable True -SamAccountName "Smart_Training" -GroupScope "Universal Group" -Type "Distribution"
 ```
 
-NOTE: In Microsoft Exchange 2007 and later, mail-enabled groups are created with _Universal Group
+:::note
+In Microsoft Exchange 2007 and later, mail-enabled groups are created with _Universal Group
 Scope_.
+:::
+
 
 Example 2:
 
@@ -118,9 +121,3 @@ membership.
 ```
 New-SmartGroup -OrganizationalUnit "OU=Recruiting,OU=HR,DC=Imanami,DC=US" -Name "Password_Expiry" -GroupAlias "Password_Expiry" -SamAccountName "Password_Expiry" -GroupScope "Domain Local" -Type "Distribution" -IsPasswordExpiryGroup -DomainExpiration 30 -ExpirationRange 10 -IncludeDisabledUsers True -Credential $Cred
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

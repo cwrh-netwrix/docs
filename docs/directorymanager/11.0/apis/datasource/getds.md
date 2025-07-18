@@ -11,11 +11,11 @@ URL.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/{dataSourceId}
+**https://demomachine:4443/GroupIDDataService/api/DataSource/{dataSourceId}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -54,8 +54,3 @@ true
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

@@ -16,11 +16,11 @@ to create an MS Access data source using the GroupID interface.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/Create
+**https://demomachine:4443/GroupIDDataService/api/DataSource/Create**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -29,8 +29,11 @@ Oracle server or a specific database on a server. This data source can be used i
 source and destination provider in Synchronize jobs. This provider supports dynamic schema
 detection.
 
-NOTE: Oracle client must be installed to use this provider. Make sure you reboot your computer after
+:::note
+Oracle client must be installed to use this provider. Make sure you reboot your computer after
 installing the Oracle client.
+:::
+
 
 ```
 {
@@ -74,8 +77,3 @@ installing the Oracle client.
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

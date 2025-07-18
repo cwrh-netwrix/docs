@@ -74,9 +74,3 @@ The following command modifies the city of the specified contact.
 ```
 Set-Contact -Identity "OsamaContact" -City "Islamabad"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Contact Commands](/docs/directorymanager/11.0/managementshell/contact/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

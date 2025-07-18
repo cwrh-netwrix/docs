@@ -58,9 +58,3 @@ The following example modifies description of a user specified user against the 
 ```
 Set-object -identity "Sonia Iqbal" -Description TestUser
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Membership Commands](/docs/directorymanager/11.0/managementshell/membership/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

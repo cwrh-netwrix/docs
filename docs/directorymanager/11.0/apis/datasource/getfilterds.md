@@ -13,11 +13,11 @@ Filtered based on role policy, if isSource true then it ll filter otherwise it l
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/GetFilteredDataSources?isSource=true
+**https://demomachine:4443/GroupIDDataService/api/DataSource/GetFilteredDataSources?isSource=true**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -87,8 +87,3 @@ GET
     }
 ]
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)

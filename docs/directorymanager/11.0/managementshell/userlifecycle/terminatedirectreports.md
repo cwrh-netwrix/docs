@@ -9,7 +9,10 @@ sidebar_position: 40
 Use the **Terminate-DirectRreports** command to terminate user(s). Specify manager of the user you
 want to terminate.
 
-NOTE: You can perform this function in directory as per your role and permissions.
+:::note
+You can perform this function in directory as per your role and permissions.
+:::
+
 
 ## Syntax
 
@@ -37,9 +40,3 @@ is also specified in the command who will receive notification as per the define
 ```
 Terminate-DirectReports -DirectReports "Irfan","Naeem" -Manager "Raja"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

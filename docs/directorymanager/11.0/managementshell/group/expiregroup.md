@@ -34,9 +34,3 @@ The following command expires the specified group from the connected identity st
 ```
 Expire-Group –Identity "CN=Training,OU=Local Recruiting,DC=HR,DC=Imanami,DC=US"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

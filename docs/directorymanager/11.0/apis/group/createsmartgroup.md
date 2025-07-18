@@ -11,11 +11,11 @@ You have to provide the mandatory information for creating a Smart Group in the
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/DynamicGroup
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/DynamicGroup**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -185,7 +185,3 @@ POST
     "status": 0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

@@ -44,9 +44,3 @@ This example gets user enrollment information through the pipeline operator.
 ```
 'euser1', 'euser2' | Get-UserEnrollment
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [User Commands](/docs/directorymanager/11.0/managementshell/user/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

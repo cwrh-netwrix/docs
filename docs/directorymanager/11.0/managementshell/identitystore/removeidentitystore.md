@@ -44,9 +44,3 @@ This example removes DemoGStore1 and DemoGStore2 identity stores through the pip
 ```
 'DemoGStore1', 'DemoGStore2' | Remove-IdentityStore
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

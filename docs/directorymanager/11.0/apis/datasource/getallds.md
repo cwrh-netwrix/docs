@@ -10,11 +10,11 @@ Using this API you can get information of all data source defined so far in Grou
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/GetAll
+**https://demomachine:4443/GroupIDDataService/api/DataSource/GetAll**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -84,8 +84,3 @@ GET
     }
 ]
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

@@ -73,9 +73,3 @@ This example retrieves the two scheduled jobs – GUS1 and GLM6 –through the p
 ```
 'GUS1','GLM6' | Get-Schedule
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

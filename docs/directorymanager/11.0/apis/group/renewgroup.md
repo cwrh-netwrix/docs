@@ -10,11 +10,11 @@ It renews a group, identity of which is provided in the endpoint URL.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/{groupIdentity}/Renew?ReplicationRequired=true
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/{groupIdentity}/Renew?ReplicationRequired=true**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Response Syntax
 
@@ -33,8 +33,3 @@ POST
     "status": 0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

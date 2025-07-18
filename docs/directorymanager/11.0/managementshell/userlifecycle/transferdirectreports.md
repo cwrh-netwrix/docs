@@ -9,7 +9,10 @@ sidebar_position: 50
 Use the **Transfer-DirectReports** commandlet to transfer direct report(s) in the connected identity
 store. Specify manager who will approve this transfer.
 
-NOTE: You can perform this function in directory as per your role and permissions.
+:::note
+You can perform this function in directory as per your role and permissions.
+:::
+
 
 ## Syntax
 
@@ -28,16 +31,10 @@ Transfer-DirectReports
 - DirectReports
 - Manager
 
-Example
+**Example**
 
 The following command transfers two direct reports to Manager Robin.
 
 ```
 Transfer-DirectReports -DirectReports "F Jafar","azram" -Manager "Robin"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

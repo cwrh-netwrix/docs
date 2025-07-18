@@ -10,11 +10,11 @@ This API parses the connection string given in one line format.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/ParseConnectionString
+**https://demomachine:4443/GroupIDDataService/api/DataSource/ParseConnectionString**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -36,8 +36,3 @@ POST
     "WindowsAuthentication": "true"
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

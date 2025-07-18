@@ -31,9 +31,3 @@ static group.
 ```
 ConvertTo-StaticGroup -IdentityStoreName AdStore9 -GroupName "Smart_Training" -SearchContainers "OU=Recruiting,OU=HR,DC=Imanami,DC=US","OU=Outsourcing,OU=HR,DC=Imanami,DC=US"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

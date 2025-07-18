@@ -18,9 +18,3 @@ This section covers cmdlets for performing user-related tasks such as:
   user from the directory.
 - [Set-User ](/docs/directorymanager/11.0/managementshell/user/setuser.md): modifies a user
   in the directory
-
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

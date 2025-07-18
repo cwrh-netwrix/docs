@@ -41,9 +41,3 @@ port 25 for user arsalanahmadsvm in AdStore1 identity store.
 ```
 Send-TestNotification -IdentityStorename AdStore9 -SmtpServer arslanahmadsvm.pucit.local -Port 25 -FromEmail noreply@pucit.local -ToEmail euser1@pucit.local
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

@@ -130,9 +130,3 @@ current logged-on user.
 ```
 Convert-Group -Identity "Clay2" -Credential $Cred
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

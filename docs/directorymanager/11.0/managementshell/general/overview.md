@@ -33,8 +33,3 @@ You can use the following Management Shell cmdlets to perform tasks such as:
 - [Send-Notification](/docs/directorymanager/11.0/managementshell/general/sendnotification.md):
   sends notifications to a group or a user.
 
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

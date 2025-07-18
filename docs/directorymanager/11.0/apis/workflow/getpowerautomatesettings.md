@@ -11,11 +11,11 @@ Automate setting using this API.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/MsFlow/Settings**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -31,8 +31,3 @@ GET
     "tenantID": "69d41d70-9b80-492d-aee8-56458db65582"
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Workflow APIs](/docs/directorymanager/11.0/apis/workflow/workflowapis.md)

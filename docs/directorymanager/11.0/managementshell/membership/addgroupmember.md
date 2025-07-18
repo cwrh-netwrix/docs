@@ -61,9 +61,3 @@ the console.
 ```
 Get-Object -SearchContainer "OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -ObjectType "User" | Add-GroupMember -GroupIdentity "CN=Event Management,OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Membership Commands](/docs/directorymanager/11.0/managementshell/membership/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

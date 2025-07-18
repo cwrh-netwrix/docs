@@ -8,15 +8,18 @@ sidebar_position: 40
 
 Use this API to retrieve information about a contact in a specified identity store.
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
+
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts/{userIdentity}
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts/{userIdentity}**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -137,8 +140,3 @@ GET
     "elasticHitScore": 0.0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Contact APIs](/docs/directorymanager/11.0/apis/contact/contactapis.md)

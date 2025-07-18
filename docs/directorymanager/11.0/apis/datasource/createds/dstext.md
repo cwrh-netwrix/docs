@@ -16,11 +16,11 @@ to create a Text/CSV data source using the GroupID interface.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/Create
+**https://demomachine:4443/GroupIDDataService/api/DataSource/Create**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -64,8 +64,3 @@ connect to a text file that is placed on a local server or on OneDrive.
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

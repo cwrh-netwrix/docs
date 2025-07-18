@@ -82,9 +82,3 @@ through pipelining.
 ```
 'euser1', 'euser2', 'testingaccount' | Get-UserRole -All
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

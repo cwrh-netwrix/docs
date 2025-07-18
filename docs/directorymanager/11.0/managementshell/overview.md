@@ -30,8 +30,11 @@ creating an identity store:
 - Generic LDAP
 - Google Workspace
 
-NOTE: The commandlets covered in this section are for Active Directory and Microsoft Entra ID based
+:::note
+The commandlets covered in this section are for Active Directory and Microsoft Entra ID based
 identity stores.
+:::
+
 
 ## Access GroupID Management Shell
 
@@ -45,14 +48,20 @@ To access Management Shell:
 
     ![Login page](/img/product_docs/directorymanager/11.0/managementshell/login.webp)
 
-    NOTE: If your required identity store is not listed, contact the GroupID administrator.
+    :::note
+    If your required identity store is not listed, contact the GroupID administrator.
+    :::
+
 
 3. In the **Username** and **Password** boxes, provide the user name and password of your identity
    store account and click **Sign In**.
 
     ![Login page](/img/product_docs/directorymanager/11.0/managementshell/login-2.webp)
 
-    NOTE: Click the **Edit** icon if you want to select another identity store to connect to.
+    :::note
+    Click the **Edit** icon if you want to select another identity store to connect to.
+    :::
+
 
     The Management Shell window appears as follows:
 
@@ -98,8 +107,11 @@ To enable remoting on a GroupID machine:
 
     ![powershellwindow](/img/product_docs/directorymanager/11.0/managementshell/powershellwindow.webp)
 
-NOTE: By default, on Windows Server 2016, Windows PowerShell remoting is enabled. Use this command
+:::note
+By default, on Windows Server 2016, Windows PowerShell remoting is enabled. Use this command
 to re-enable remoting on Windows Server 2016 if it becomes disabled.
+:::
+
 
 You have to run this command only one time on each computer that will receive commands. You do not
 have to run it on computers that only send commands. Because the configuration starts listeners, it
@@ -153,8 +165,3 @@ perform the following steps:
 
 Once the script has run, a remote session will be created. You can now run all GroupID cmdlets
 through PowerShell 7 without the need of signing into the GroupID server.
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

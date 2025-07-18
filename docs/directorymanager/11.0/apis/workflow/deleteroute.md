@@ -8,15 +8,18 @@ sidebar_position: 50
 
 You can use this API to delete a user-defined workflow route.
 
-NOTE: You cannot delete a system workflow.
+:::note
+You cannot delete a system workflow.
+:::
+
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes?ids=1
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes?ids=1**
 
 ## HTTP Methods
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 
@@ -49,8 +52,3 @@ DELETE
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Workflow APIs](/docs/directorymanager/11.0/apis/workflow/workflowapis.md)

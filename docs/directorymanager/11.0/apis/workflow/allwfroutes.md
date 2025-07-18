@@ -11,11 +11,11 @@ specified identity store.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -402,8 +402,3 @@ GET
     }
 ] 
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Workflow APIs](/docs/directorymanager/11.0/apis/workflow/workflowapis.md)

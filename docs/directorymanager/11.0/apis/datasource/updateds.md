@@ -10,11 +10,11 @@ Using this API you can update information of an already created data source.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/Update
+**https://demomachine:4443/GroupIDDataService/api/DataSource/Update**
 
 ## HTTP Method
 
-PUT
+**PUT**
 
 #### Sample Request Syntax
 
@@ -53,8 +53,3 @@ PUT
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

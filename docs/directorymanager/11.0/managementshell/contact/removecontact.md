@@ -30,9 +30,3 @@ The following command deletes the specified contact from the identity store.
 ```
 Remove-Contact -Identity "OsamaContact"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Contact Commands](/docs/directorymanager/11.0/managementshell/contact/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

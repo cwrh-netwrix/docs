@@ -8,15 +8,15 @@ sidebar_position: 90
 
 Use this API to get workflow route id of which is specidied in the end point URL.
 
-Change filename . add Get
+**Change filename . add Get**
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes/{WorkflowRouteID}
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Workflows/Routes/{WorkflowRouteID}**
 
 ## HTTP Methods
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -74,8 +74,3 @@ GET
     "updateMsFlowToken": false
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Workflow APIs](/docs/directorymanager/11.0/apis/workflow/workflowapis.md)

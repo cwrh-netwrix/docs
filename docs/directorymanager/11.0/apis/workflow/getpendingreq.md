@@ -15,7 +15,7 @@ topic.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/Pending
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Workflows/Pending**
 
 ## HTTP Methods
 
@@ -287,8 +287,3 @@ GET.
     ]
 }   
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Workflow APIs](/docs/directorymanager/11.0/apis/workflow/workflowapis.md)

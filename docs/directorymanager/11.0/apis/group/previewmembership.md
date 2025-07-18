@@ -11,11 +11,11 @@ per the query given in the body.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/SmartGroups/Members?sortOrder=1&pageNo=1&pageSize=2
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/SmartGroups/Members?sortOrder=1&pageNo=1&pageSize=2**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -253,8 +253,3 @@ GET
   ]
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

@@ -58,9 +58,3 @@ This example modifies the messaging system of the AdStore9 identity store to Exc
 ```
 Set-MessagingServer -IdentityStoreName AdStore9 -Provider exchange2013 -UserName administrator -Password webdir123R - SmtpServer arslanahmadsvm.pucit.local -Domain pucit.local
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

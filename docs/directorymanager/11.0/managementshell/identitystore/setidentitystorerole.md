@@ -60,9 +60,3 @@ group_ and _Create Smart Group_ are being assigned.
 ```
 Set-IdentityStoreRole -RoleName DemoRole2 -IdentityStoreName AdStore9 -PermissionOperation Grant -Permissions 'Manage any group', 'create smart group'
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

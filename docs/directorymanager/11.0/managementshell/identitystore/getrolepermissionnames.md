@@ -36,9 +36,3 @@ This example provides a list of permission names along with the category of a pe
 ```
 Get-RolePermissionNames -IncludeEntityTypes
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

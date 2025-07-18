@@ -128,8 +128,3 @@ You can get a list of all GroupID Management Shell cmdlets using the _Get-Imanam
 3. [Reinstate-User](/docs/directorymanager/11.0/managementshell/userlifecycle/reinstateuser.md)
 4. [Terminate-DirectReports](/docs/directorymanager/11.0/managementshell/userlifecycle/terminatedirectreports.md)
 5. [Transfer-DirectReports ](/docs/directorymanager/11.0/managementshell/userlifecycle/transferdirectreports.md)
-
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

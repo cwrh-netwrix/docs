@@ -15,11 +15,11 @@ for additional information on the Job collection.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/Collections
+**https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/Collections**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -452,7 +452,7 @@ POST
 }
 ```
 
-See Also
+**See Also**
 
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Synchronize Jobs APIs](/docs/directorymanager/11.0/apis/jobs/jobsapis.md)
+- [Common Errors](/docs/directorymanager/11.0/APIs/commonerrors.md)
+- [Synchronize Jobs APIs](/docs/directorymanager/11.0/APIs/jobs/jobsapis.md)

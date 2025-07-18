@@ -10,11 +10,11 @@ Use this API to delete a group from an identity store.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Groups/{GroupIdentity}**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 
@@ -33,8 +33,3 @@ DELETE
     "status": 0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

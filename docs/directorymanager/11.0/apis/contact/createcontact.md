@@ -8,15 +8,18 @@ sidebar_position: 10
 
 Using this API you can create a contact in the specified identity store.
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
+
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Contacts**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -59,8 +62,3 @@ POST
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Contact APIs](/docs/directorymanager/11.0/apis/contact/contactapis.md)

@@ -52,9 +52,3 @@ upon joining a group and intimates the user before 7 days it is removed as a mem
 ```
 Set-Notifications -IdentityStoreName AdStore9 -NotifyUserGroupJoinML $true -XDaysBeforeLeaveNotificationML 7
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

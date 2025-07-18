@@ -176,9 +176,3 @@ The following command modifies lists of members a Smart Group can accept and rej
 ```
 Set-SmartGroup -Identity "CN=Smart_Training,OU=Recruiting,DC=HR,DC=Imanami,DC=US" –Add @{ RejectMessagesFrom = "CN=Roger_Manson,OU=ResignedStaff,DC=HR,DC=Imanami,DC=US"} -Add @(AcceptMessageOnlyFrom = "CN=PKWing,OU=Recruiting,DC=HR,DC=Imanami,DC=US","CN=USWing,OU=Recruiting,DC=HR,DC=Imanami,DC=US")
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

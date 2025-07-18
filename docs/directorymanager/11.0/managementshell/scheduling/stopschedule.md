@@ -52,9 +52,3 @@ This example stops all the daily running GUS jobs.
 ```
 Get-Schedule -JobType GUS -TriggerType RunDaily -MatchingCriteria And | Select-Object -Property Name | Stop-Schedule
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

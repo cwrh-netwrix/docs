@@ -58,7 +58,10 @@ insecure password.
 New-Schedule -ScheduleName SmuTest1 -IdentityStoreName AdStore8 -UserName user -Password password1 -Targets 'OU=ArslanAhmadOU,OU=WorkingOU,DC=pucit,DC=local', 'OU=ArslanAhmadOU,OU=WorkingOU,DC=pucit,DC=local' -JobType SmartGroup -TriggerType Daily -StartTime '16:56'
 ```
 
-NOTE: This example uses insecure credentials.
+:::note
+This example uses insecure credentials.
+:::
+
 
 Example 2:
 
@@ -102,9 +105,3 @@ job successfully.
 ```
 New-Schedule -ScheduleName GusTest3 -IncludeAllContainers -IncludeAllMessagingSystems -JobType GUS -Credentials $creds -TriggerType Daily -StartTime '16:56' -EnableNotifications -Recepients 'recep1@gid.com','recep2@gid.com' -SendToOwners -NotificationSendingCriteria OnSuccess
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

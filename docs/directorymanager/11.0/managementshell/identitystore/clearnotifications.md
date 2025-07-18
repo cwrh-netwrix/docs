@@ -56,9 +56,3 @@ page of AdStore9 identity store properties.
 ```
 Clear-Notifications -IdentityStoreName AdStore9 -ClearSet Recipients
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

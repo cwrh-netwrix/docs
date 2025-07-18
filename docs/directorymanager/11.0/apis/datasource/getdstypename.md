@@ -11,11 +11,11 @@ data source, with a specific name.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/Get?type=4&name=Text/CSV_API
+**https://demomachine:4443/GroupIDDataService/api/DataSource/Get?type=4&name=Text/CSV_API**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -44,8 +44,3 @@ GET
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

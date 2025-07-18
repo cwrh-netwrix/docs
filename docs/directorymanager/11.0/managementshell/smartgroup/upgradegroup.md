@@ -9,9 +9,12 @@ sidebar_position: 60
 The **Upgrade-Group** commandlet upgrades managed (Smart Groups and Dynasties) and non-managed
 Groups of GroupID 9 and 10 to GroupID 11.0 version.
 
-NOTE: GroupID upgrades groups from the connected database to the current instance of GroupID. This
+:::note
+GroupID upgrades groups from the connected database to the current instance of GroupID. This
 database can be an upgraded version or copied database from the previous GroupID versions i.e.
 GroupID 9 and 10.
+:::
+
 
 ## Syntax
 
@@ -83,9 +86,3 @@ version, the command uses the _sa_ user account of the specified SQL server.
 ```
 Upgrade-Group -Identity "departsales" -SearchContainer "OU=GID10,DC=Demo1,DC=com" -SQLServer "msvr02\sqlexpress" -SQLUserName "sa" -Database "GroupID10" -Password "support123R" -GroupIDVersion "10.0" -GroupType "1"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

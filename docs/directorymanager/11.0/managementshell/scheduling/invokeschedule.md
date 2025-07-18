@@ -52,9 +52,3 @@ This example executes all the GUS scheduled jobs with daily running trigger.
 ```
 Get-Schedule -JobType GUS -TriggerType RunDaily -MatchingCriteria And | Select-Object -Property Name | Invoke-Schedule
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

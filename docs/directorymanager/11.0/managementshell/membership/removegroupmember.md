@@ -41,9 +41,3 @@ topic for setting credentials in an environment variable.
 ```
 Remove-GroupMember -GroupIdentity "CN=Event Management,OU=Local Recruiting,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Identity "Brian Regan" -Credential $Cred
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Membership Commands](/docs/directorymanager/11.0/managementshell/membership/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

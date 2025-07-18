@@ -75,9 +75,3 @@ identity store.
 ```
 Set-MailBox -Identity "OsamaMailBox" -Country "Pakistan"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Mailbox Commands](/docs/directorymanager/11.0/managementshell/mailbox/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

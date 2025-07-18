@@ -10,11 +10,11 @@ This API renews multiple groups, identities of which are provided in the request
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/Renew
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/Renew**
 
 ## HTTP Method
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -85,8 +85,3 @@ POST
     "status": 0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

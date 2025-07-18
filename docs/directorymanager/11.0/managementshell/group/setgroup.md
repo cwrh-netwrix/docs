@@ -124,9 +124,3 @@ additional owners to the group and excludes an additional owner from receiving e
 ```
 Set-Group -Identity "CN=Training,OU=Recruiting,DC=HR,DC=Imanami,DC=US" -Remove @{AdditionalOwners = "CN=Roger_Manson,OU=ResignedStaff,DC=HR,DC=Imanami,DC=US","KillenEdward"} -Add @{AdditionalOwners = "RobinSoto","MeganFox","DollyChan"} -NotifyOptOutAdditionalOwners "RobinSoto"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Group Commands](/docs/directorymanager/11.0/managementshell/group/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

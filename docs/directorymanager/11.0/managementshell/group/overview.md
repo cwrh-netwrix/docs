@@ -24,9 +24,3 @@ This section covers cmdlets for performing tasks related to managed and unmanage
   reactivates an expired group.
 - [Set-Group](/docs/directorymanager/11.0/managementshell/group/setgroup.md): modifies an
   unmanaged group in the directory.
-
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

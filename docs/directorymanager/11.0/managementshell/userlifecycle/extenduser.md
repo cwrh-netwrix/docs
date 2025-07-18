@@ -33,9 +33,3 @@ extended up to the specified days for the identity store.
 ```
 Extend-User -Identity "CN=ImanamiUser100,OU=BulkUsers,DC=gid,DC=local"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [User Lifecycle Commands ](/docs/directorymanager/11.0/managementshell/userlifecycle/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

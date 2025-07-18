@@ -16,11 +16,11 @@ topic for additional information on job collection.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/Collections?jobids=1&jobids=2
+**https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/Collections?jobids=1&jobids=2**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 
@@ -39,8 +39,3 @@ DELETE
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Synchronize Jobs APIs](/docs/directorymanager/11.0/apis/jobs/jobsapis.md)

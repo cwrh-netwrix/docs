@@ -8,9 +8,12 @@ sidebar_position: 160
 
 The commandlet **Set-IdentityStore** modifies the identity store settings and configurations.
 
-NOTE: Many parameters of this cmdlet require the user to specify schema attribute names. You can use
+:::note
+Many parameters of this cmdlet require the user to specify schema attribute names. You can use
 **Get-SchemaAttributes** commandlet to retrieve a list of attributes available for an identity
 store.
+:::
+
 
 ## Syntax
 
@@ -111,9 +114,12 @@ Set-IdentityStore
 [<CommonParameters>]
 ```
 
-NOTE: You can use the **Set-IdentityStore** commandlet in a secure way by using the _Credential_
+:::note
+You can use the **Set-IdentityStore** commandlet in a secure way by using the _Credential_
 parameter or by specifying the credentials through _Username_ and _Password_ parameters in plain
 text format which is not a secure way.
+:::
+
 
 ## Required Parameters
 
@@ -218,8 +224,11 @@ Example 12:
 This example creates a new role – DemoRole1 – for the AdStore9 identity store by specifying the
 minimum possible parameters.
 
-NOTE: By default, all permissions are declined to the role created through this commandlet.
+:::note
+By default, all permissions are declined to the role created through this commandlet.
 Moreover, no criteria filters or scope (group / container) are added to the role.
+:::
+
 
 ```
 Set-IdentityStore -IdentityStoreName AdStore9 -Credential $creds -Domain pucit.local -RoleOperation add -RoleName DemoRole1 -RolePriority 50 -RoleCriteriaScope Container
@@ -230,7 +239,10 @@ Example 13:
 This example creates a new security role – DemoRole1 – in AdStore9 identity store and a container is
 set as its role criteria.
 
-NOTE: By default, all permissions are declined to the role created through this commandlet.
+:::note
+By default, all permissions are declined to the role created through this commandlet.
+:::
+
 
 ```
 Set-IdentityStore -IdentityStoreName AdStore9 -Credential $creds -Domain pucit.local -RoleOperation add -RoleName DemoRole1 -RolePriority 50 -RoleCriteriaScope Container -RoleCriteriaDN 'ou=workingou,dc=pucit,dc=local'
@@ -255,9 +267,12 @@ This example creates a new security role by specifying the container, criteria f
 permissions. In this example, only Manage My Groups and Create User permissions are granted to the
 created role.
 
-NOTE: By default, all the permissions except those specified in RolePermissions parameter are denied
+:::note
+By default, all the permissions except those specified in RolePermissions parameter are denied
 to the role created through this commandlet.  
 The role permission names can be retrieved from **Get-RolePermissionNames** commandlet.
+:::
+
 
 ```
 Set-IdentityStore -IdentityStoreName AdStore9 -Credential $creds -Domain pucit.local -RoleOperation add -RoleName DemoRole6 -RolePriority 55 -RoleCriteriaScope Container -RoleCriteriaDN 'ou=workingou,dc=pucit,dc=local' -RoleCriteriaOperator Or -RoleCriteriaFilters @('name', 'is exactly', 'automate arslanahmadvm'), @('type', 'is not', 'managementshell') -RolePermissions 'manage my groups', 'create user'
@@ -372,9 +387,3 @@ This example configures the second way authentication via security questions.
 ```
 Set-IdentityStore -IdentityStoreName AdStore9 -Credential $creds -Domain pucit.local -EnableSWAuthenticationViaSecurityQuestions -SWAQuestionsOperation add -SWAQuestions @('when was the first time you felt that it is raining even though it was not raining?', 'info')
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Identity Store Commands](/docs/directorymanager/11.0/managementshell/identitystore/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

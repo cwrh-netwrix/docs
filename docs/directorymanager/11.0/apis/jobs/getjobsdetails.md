@@ -10,11 +10,11 @@ Use this API to get details of a job specified in endpoint URL.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/{jobId}/Details
+**https://demomachine:4443/GroupIDDataService/api/DataSyncJobs/{jobId}/Details**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Response Syntax
 
@@ -379,8 +379,3 @@ GET
     "message": null
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Synchronize Jobs APIs](/docs/directorymanager/11.0/apis/jobs/jobsapis.md)

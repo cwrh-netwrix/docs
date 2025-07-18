@@ -73,9 +73,3 @@ name, last name and display name of the new mailbox.
 ```
 New-MailBox -MailBoxStore "OsamaMailBoxDb120435" -Name "OsamaMailBox" -OrganizationalUnit "OU=osamamu,DC=naveed,DC=local" -SAMAccountName "OsamaMailBoxUser" -Password "webdir123R" -FirstName "OsamaMailBox" -LastName "MailBoxuser" -DisplayName "OsamaMailBox" -Alias "OsamaMailBox
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Mailbox Commands](/docs/directorymanager/11.0/managementshell/mailbox/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

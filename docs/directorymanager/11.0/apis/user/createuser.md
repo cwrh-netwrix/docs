@@ -12,11 +12,11 @@ created, given name, display name and so on.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identitystoreId}/Users**
 
 ## HTTP Methods
 
-POST
+**POST**
 
 #### Sample Request Syntax
 
@@ -102,9 +102,3 @@ POST
     "status": 0
 }
 ```
-
-See Also
-
-- Common Errors
-- [User APIs](/docs/directorymanager/11.0/apis/user/userapis.md)
-- Group APIs

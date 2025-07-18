@@ -50,9 +50,3 @@ topic for setting credentials in an environment variable.
 ```
 Update-Group -SearchContainer "OU=Training,DC=HR,DC=Imanami,DC=US" -Credential $Cred
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Smart Group Commands](/docs/directorymanager/11.0/managementshell/smartgroup/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

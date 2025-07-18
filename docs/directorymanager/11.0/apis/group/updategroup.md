@@ -10,11 +10,11 @@ Using this API, you can update a group's details.
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/{groupIdentity}
+**https://demomachine:4443/GroupIDDataService/api/IdentityStores/{identityStoreId}/Groups/{groupIdentity}**
 
 ## HTTP Method
 
-PATCH
+**PATCH**
 
 #### Sample Request Syntax
 
@@ -95,8 +95,3 @@ PATCH
     "status": 0
 }
 ```
-
-See Also
-
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)
-- [Group APIs](/docs/directorymanager/11.0/apis/group/groupapis.md)

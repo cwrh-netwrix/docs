@@ -16,9 +16,3 @@ GroupID provides the following cmdlets to perform contact-related tasks, such as
   removes a contact from the directory.
 - [Set-Contact](/docs/directorymanager/11.0/managementshell/contact/setcontact.md):
   modifies a contact in the directory.
-
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

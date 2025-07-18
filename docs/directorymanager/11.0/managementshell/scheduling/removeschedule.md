@@ -52,9 +52,3 @@ This example removes all schedules with job type Glm.
 ```
 Get-Schedule -JobType Glm | Select-Object -Property Name | Remove-Schedule
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Scheduling Commands](/docs/directorymanager/11.0/managementshell/scheduling/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

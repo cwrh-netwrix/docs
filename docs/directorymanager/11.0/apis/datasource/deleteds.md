@@ -8,16 +8,19 @@ sidebar_position: 20
 
 This API can be used for deleting a specified data source.
 
-NOTE: Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
+:::note
+Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
 using that data source.
+:::
+
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/{dataSourceId}
+**https://demomachine:4443/GroupIDDataService/api/DataSource/{dataSourceId}**
 
 ## HTTP Method
 
-DELETE
+**DELETE**
 
 #### Sample Response Syntax
 
@@ -36,8 +39,3 @@ DELETE
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

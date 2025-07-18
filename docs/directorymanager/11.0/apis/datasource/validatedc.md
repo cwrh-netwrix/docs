@@ -10,11 +10,11 @@ Use this API to validate connection of a data source with the provider or with a
 
 ## Endpoint
 
-https://demomachine:4443/GroupIDDataService/api/DataSource/ValidateServerConnectivity
+**https://demomachine:4443/GroupIDDataService/api/DataSource/ValidateServerConnectivity**
 
 ## HTTP Method
 
-GET
+**GET**
 
 #### Sample Request Syntax
 
@@ -52,8 +52,3 @@ GET
     "isResyncAble": true
 }
 ```
-
-See Also
-
-- [Data Source APIs](/docs/directorymanager/11.0/apis/datasource/datasourceapis.md)
-- [Common Errors](/docs/directorymanager/11.0/apis/commonerrors.md)

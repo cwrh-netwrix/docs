@@ -22,9 +22,3 @@ This section covers cmdlets for managing Smart Groups.
 - [Upgrade-Group](/docs/directorymanager/11.0/managementshell/smartgroup/upgradegroup.md):
   upgrades managed (Smart Groups and Dynasties) and non-managed groups from GroupID 9 and 10 to
   GroupID 11.
-
-See Also
-
-- [GroupID Management Shell](/docs/directorymanager/11.0/managementshell/overview.md)
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

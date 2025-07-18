@@ -48,9 +48,3 @@ The following command will start restoration of replication for identity store w
 ```
 Invoke-Replication -IdentitystoreId 1 -RestoreReplication
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [General Commands](/docs/directorymanager/11.0/managementshell/general/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)

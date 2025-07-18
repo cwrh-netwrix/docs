@@ -61,9 +61,3 @@ display names starting with the letter S .
 ```
 Get-Object -SearchContainer "OU=Recruiting,DC=HR,DC=Imanami,DC=US","OU=OutSourcing,DC=HR,DC=Imanami,DC=US" -LdapFilter "(DisplayName = S*)"
 ```
-
-See Also
-
-- [All Commands](/docs/directorymanager/11.0/managementshell/commands.md)
-- [Membership Commands](/docs/directorymanager/11.0/managementshell/membership/overview.md)
-- [Parameters](/docs/directorymanager/11.0/managementshell/parameters.md)
