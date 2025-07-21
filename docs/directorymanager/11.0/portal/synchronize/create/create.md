@@ -47,11 +47,11 @@ topic.
    scratch.
 4. Click **Next Step**.
 5. On the
-   [Select Your Source and Destination](/docs/directorymanager/11.0/portal/synchronize/create/job/sourcedestination.md)
+   [Select Your Source and Destination](/docs/directorymanager/11.0/portal/synchronize/create/sourcedestination.md)
    page, specify the source and destination providers.
 6. Click **Next Step**.
 7. On the
-   [Objects, Fields and Mapping ](/docs/directorymanager/11.0/portal/synchronize/create/job/objectfieldsmapping.md)
+   [Objects, Fields and Mapping ](/docs/directorymanager/11.0/portal/synchronize/create/objectfieldsmapping.md)
    page, map the source and destination fields and apply transformations.
 8. On the
    [Schedule Job and Notifications](/docs/directorymanager/11.0/portal/synchronize/create/jobschedule.md)

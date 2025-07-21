@@ -119,7 +119,7 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
     8. Click **Save** to save the changes made to the script.
 
 5. On the
-   [Selected Fields for object types](/docs/directorymanager/11.0/portal/synchronize/create/job/selectedfields.md)
+   [Selected Fields for object types](/docs/directorymanager/11.0/portal/synchronize/create/selectedfields.md)
    type section, click **Add/Edit Fields**. You can specify the action to take if the data or object
    being exported from the source does not exist at the destination.
 6. Use the **Map Field** section to map the source and destination fields and to apply
@@ -129,7 +129,7 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
         Do one of the following:
 
-        - [Map Fields](/docs/directorymanager/11.0/portal/synchronize/create/job/mapfields.md)
+        - [Map Fields](/docs/directorymanager/11.0/portal/synchronize/create/mapfields.md)
 
             In the Source column of each destination item, select the source fields that contribute
             the data for the destination.
