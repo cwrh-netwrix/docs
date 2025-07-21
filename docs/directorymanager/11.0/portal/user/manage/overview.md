@@ -13,7 +13,3 @@ Using GroupID portal, you can perform the following actions:
 - [Reset your password](/docs/directorymanager/11.0/portal/user/manage/resetpassword.md)
 - [ Change your password](/docs/directorymanager/11.0/portal/user/manage/changepassword.md)
 - [Unlock your accounts](/docs/directorymanager/11.0/portal/user/manage/unlockaccount.md)
-
-See Also
-
-- [User Management](/docs/directorymanager/11.0/portal/user/overview.md)

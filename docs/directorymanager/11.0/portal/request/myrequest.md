@@ -16,9 +16,3 @@ request by adding filters.
 For each request, you can view the description, approver(s), requester name, the target to change,
 status, date the request was made on, and the reason why that request was denied. Expand a request
 to view more details, such as the field changed along with its old and new value.
-
-**See Also**
-
-- [Requests](/docs/directorymanager/11.0/portal/request/overview.md)
-- [All Requests](/docs/directorymanager/11.0/portal/request/allrequest.md)
-- [Request Inbox](/docs/directorymanager/11.0/portal/request/pending.md)

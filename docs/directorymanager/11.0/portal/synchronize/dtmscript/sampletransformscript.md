@@ -100,9 +100,3 @@ Case Else   
   DTM.Result = "Other"
 End Select
 ```
-
-**See Also**
-
-- [Script](/docs/directorymanager/11.0/portal/synchronize/dtmscript/dtmscript.md)
-- [Visual Basic .NET for GroupID](/docs/directorymanager/11.0/portal/synchronize/dtmscript/visualbasicnetbasic.md)
-- [Sample Container Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/samplecontainerscript.md)

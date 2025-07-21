@@ -44,8 +44,11 @@ box from.
    first name, last name, and company) to search for objects using attributes other than the
    object's display name.
 
-    NOTE: The fields available for Advanced Search may vary, depending on the portal's
+    :::note
+    The fields available for Advanced Search may vary, depending on the portal's
     configuration.
+    :::
+
 
 5. Click the **Search** button to display the search results.
 6. The **Search Results** section displays a list of objects matching the search criteria.
@@ -58,7 +61,3 @@ box from.
 
     Click the left-arrow to move the selected objects from the **Selected Results** list to the
     **Search Results** list.
-
-**See Also**
-
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)

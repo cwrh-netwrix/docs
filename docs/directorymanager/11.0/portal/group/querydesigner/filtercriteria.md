@@ -1,5 +1,5 @@
 ---
-title: "Query Designer - Filter Criteria tab"
+title: "Filter Criteria tab"
 description: "Query Designer - Filter Criteria tab"
 sidebar_position: 10
 ---
@@ -24,7 +24,7 @@ members only.
 
 Let's say the administrator has defined the following default criteria in the policy:
 
-department is exactly HR
+**department is exactly HR**
 
 You can add another row of filter criteria in the portal query designer window, if need be.
 
@@ -41,8 +41,11 @@ Houston, select the City attribute from this list.
 From here, select the condition that identifies search results. The following table lists the
 available conditions:
 
-NOTE: Depending on configurations made by the GroupID administrator for the portal, all of the
+:::note
+Depending on configurations made by the GroupID administrator for the portal, all of the
 following or specific conditions will be displayed in the list.
+:::
+
 
 The condition list for query based searches may vary.
 
@@ -110,7 +113,3 @@ Discards settings and closes the dialog box.
 **LDAP Query**
 
 View the provider query in the LDAP Query box.
-
-**See Also**
-
-- [Query Designer](/docs/directorymanager/11.0/portal/group/querydesigner/overview.md)

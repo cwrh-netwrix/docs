@@ -1,5 +1,5 @@
 ---
-title: "Deleted Groups"
+title: "Recycle Bin"
 description: "Deleted Groups"
 sidebar_position: 60
 ---
@@ -21,7 +21,10 @@ restored.
 
 A Smart Group and Dynasty is restored as a static group with no members and no query.
 
-NOTE: Tombstone groups are not available in Microsoft Entra ID.
+:::note
+Tombstone groups are not available in Microsoft Entra ID.
+:::
+
 
 ## Logical Deletion
 
@@ -42,7 +45,7 @@ deleted. Simply select the required group and select Delete on the shortcut menu
 When the Group Lifecycle job deletes a group, it notifies the group owners or, if there is no owner,
 the default approver specified in the Group Lifecycle policy.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Modify Search Directory](#modify-search-directory)
 - [Filter Deleted Groups](#filter-deleted-groups)
@@ -89,17 +92,18 @@ The group / groups will be permanently deleted from the recycle bin.
 
 The group / groups will be restored in the directory.
 
-NOTE: You can only restore a physically deleted group from the Recycle Bin if the service account
+:::note
+You can only restore a physically deleted group from the Recycle Bin if the service account
 for the connected identity store has the ‘Reanimate Tombstone’ permissions.
+:::
 
-NOTE: While all searches in GroupID are catered through Elasticsearch, the Recycle Bin is an
+
+:::note
+While all searches in GroupID are catered through Elasticsearch, the Recycle Bin is an
 exception, as it fetches data from the directory.
+:::
 
-NOTE: The Recycle Bin does not display data for a Microsoft Entra ID based identity store.
 
-**See Also**
-
-- [Create Active Directory Groups](/docs/directorymanager/11.0/portal/group/create/group/group.md)
-- [Create an Active Directory Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/createdynasty.md)
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)
+:::note
+The Recycle Bin does not display data for a Microsoft Entra ID based identity store.
+:::

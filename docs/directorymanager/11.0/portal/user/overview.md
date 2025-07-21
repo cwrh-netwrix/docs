@@ -11,9 +11,9 @@ With GroupID, you can:
 - Automate user provisioning and deprovisioning in bulk. See the
   [Synchronize](/docs/directorymanager/11.0/portal/synchronize/overview.md) section.
 - Establish ownership by defining a clear managerial hierarchy with dotted line management. See the
-  [Dotted line management](/docs/directorymanager/11.0/portal/user/properties/activedirectory/useroverview/organization.md#dotted-line-management)
+  [Dotted line management](/docs/directorymanager/11.0/portal/user/properties/activedirectory/user/organization.md#dotted-line-management)
   section of the
-  [Object properties - Organization tab](/docs/directorymanager/11.0/portal/user/properties/activedirectory/useroverview/organization.md)
+  [Object properties - Organization tab](/docs/directorymanager/11.0/portal/user/properties/activedirectory/user/organization.md)
   topic.
 - Delegate user management to end users by enabling them to:
 
@@ -47,10 +47,6 @@ The table below displays the major functions that users can perform in GroupID p
 | Validate Your Profile         | Validate your profile after a particular time in order to ensure the user information in the directory.                                                                            |
 | User Account Settings         | Modify your profile information. Administrators can manage the user information, enable/disable the user, or expire a user.                                                        |
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
-
-**See Also**
-
-- [Enroll Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/enrollaccount.md)
-- [Second Factor Authentication](/docs/directorymanager/11.0/portal/secondfactorauthentication/secondfactorauthentication.md)
-- [Portal Settings](/docs/directorymanager/11.0/portal/generalfeatures/portal.md)
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::

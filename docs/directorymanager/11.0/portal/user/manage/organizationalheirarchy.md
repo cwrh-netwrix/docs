@@ -14,7 +14,7 @@ displays the email address, photo, and other attributes of each user.
 By default, the organizational hierarchy chart is displayed for the logged-in user. However, the
 user can view it for any user in the organization.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View the hierarchy structure for a user](#view-the-hierarchy-structure-for-a-user)
 
@@ -35,9 +35,3 @@ What do you want to do?
     - Click a user’s name to view his or her profile.
     - Click a user’s email address to send an email to him or her.
     - Use the **Export** button to export the chart to a PNG file.
-
-**See Also**
-
-- [Create an AD User](/docs/directorymanager/11.0/portal/user/create/activedirectory/user.md)
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)
-- [Update your Direct Reports](/docs/directorymanager/11.0/portal/user/manage/directreport.md)

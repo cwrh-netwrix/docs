@@ -1,5 +1,5 @@
 ---
-title: "Group properties - Smart Group/Query Designer tab"
+title: "Smart Group/Query Designer tab"
 description: "Group properties - Smart Group/Query Designer tab"
 sidebar_position: 90
 ---
@@ -11,8 +11,11 @@ updates.
 
 The group’s membership is updated with the records fetched by the query.
 
-NOTE: In case of an Office 365 group in a Microsoft Entra ID based identity store, group membership
+:::note
+In case of an Office 365 group in a Microsoft Entra ID based identity store, group membership
 is updated with user objects only.
+:::
+
 
 Membership update settings defined for the identity store also impact Smart Group and Dynasty
 membership update.
@@ -57,8 +60,11 @@ From the **Scheduled Job** list, select a Smart Group Update job to associate wi
 
 This list contains Smart Group Update jobs define for the identity store.
 
-NOTE: If the administrator has enforced the job selection option, you cannot save any changes unless
+:::note
+If the administrator has enforced the job selection option, you cannot save any changes unless
 you associate a scheduled job with this group.
+:::
+
 
 **Updated On**
 
@@ -67,7 +73,3 @@ Display the date and time when the group was updated based on the schedule set f
 **Create a Schedule**
 
 You can create a new schedule other than the ones on the list.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

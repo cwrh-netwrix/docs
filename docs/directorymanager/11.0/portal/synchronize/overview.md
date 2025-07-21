@@ -65,15 +65,9 @@ job collections. On the navigation pane on the left side, you will see the follo
 
 - Create New ([Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
   and
-  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md))
+  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md))
 - [Dashboard](/docs/directorymanager/11.0/portal/synchronize/dashboard.md)
 - [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
 - [Manage a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollection.md)
 - [Job Templates](/docs/directorymanager/11.0/portal/synchronize/manage/jobtemplate.md)
 - [Job Collection Template](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollectiontemplate.md)
-
-**See Also**
-
-- [Dashboard](/docs/directorymanager/11.0/portal/synchronize/dashboard.md)
-- [Synchronize Providers](/docs/directorymanager/11.0/portal/synchronize/provider.md)
-- [Requests](/docs/directorymanager/11.0/portal/request/overview.md)

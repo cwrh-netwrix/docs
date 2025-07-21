@@ -21,7 +21,3 @@ This tab displays the following general attributes:
 - Deletion Date
 - Distinguished Name
 - Group Type
-
-**See Also**
-
-- [Deleted Groups](/docs/directorymanager/11.0/portal/group/recyclebin/overview.md)

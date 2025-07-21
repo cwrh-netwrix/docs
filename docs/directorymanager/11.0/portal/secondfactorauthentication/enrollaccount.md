@@ -16,7 +16,7 @@ Authentication Type.
 Once a user has enrolled his or her account, he or she must authenticate with the same
 authentication types whenever he or she has to log into the GroupID portal using that account.
 
-What do you want to do?
+**What do you want to do?**
 
 - Enroll your identity store account
 
@@ -25,7 +25,7 @@ What do you want to do?
 1. On the login page of the portal, select an identity store and then provide your user name and
    password to connect the portal to it and click Sign In.
 
-    OR
+**OR**
 
     Scan the QR code if the OR code is enabled in GroupID Admin Center.
 
@@ -88,8 +88,3 @@ What do you want to do?
 
         1. On the **Your Enrollments** page, click the **Windows Hello** tab.
         2. Enter a name for your authentication device and click **Start Registration**.
-
-**See Also**
-
-- [Second Factor Authentication](/docs/directorymanager/11.0/portal/secondfactorauthentication/secondfactorauthentication.md)
-- [Authenticate Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/authenticateaccount.md)

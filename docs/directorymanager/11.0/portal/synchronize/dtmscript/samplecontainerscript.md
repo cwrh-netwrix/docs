@@ -76,9 +76,3 @@ sidebar_position: 10
     DTM.Result = "CN=Users,DC=dc2000,DC=imanami,DC=biz"
     End If
     ```
-
-**See Also**
-
-- [Script](/docs/directorymanager/11.0/portal/synchronize/dtmscript/dtmscript.md)
-- [Visual Basic .NET for GroupID](/docs/directorymanager/11.0/portal/synchronize/dtmscript/visualbasicnetbasic.md)
-- [Sample Transform Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/sampletransformscript.md)

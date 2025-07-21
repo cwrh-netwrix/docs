@@ -53,9 +53,3 @@ specified in the Group Life Cycle policy for the identity store. The job does no
 that neither has an owner nor a default approver.
 
 Deleted groups are locked for further operations until renewed.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)
-- [ Group Expiry and Deletion](/docs/directorymanager/11.0/admincenter/identitystore/configure/groupexpirydeletion.md)
-- [Manage Group Lifecycle Settings](/docs/directorymanager/11.0/admincenter/identitystore/configure/grouplifecycle.md)

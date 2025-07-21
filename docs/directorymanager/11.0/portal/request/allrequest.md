@@ -14,7 +14,7 @@ the description, approver(s), requester name, the target to change, status, date
 made on, and the reason why that request was denied. Expand a request to view more details, such as
 the field changed along with its old and new value.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Approve a request](#approve-a-request)
 - [Deny a request](#deny-a-request)
@@ -134,9 +134,3 @@ To reroute a request to a different approver, follow these steps:
 12. Click **Reset Filter** to remove the filters that you have added.
 
     All the workflow request will be displayed below.
-
-**See Also**
-
-- [Requests](/docs/directorymanager/11.0/portal/request/overview.md)
-- [My Requests](/docs/directorymanager/11.0/portal/request/myrequest.md)
-- [Request Inbox](/docs/directorymanager/11.0/portal/request/pending.md)

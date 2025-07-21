@@ -1,5 +1,5 @@
 ---
-title: "Contact properties - Member Of tab"
+title: "Member Of tab"
 description: "Contact properties - Member Of tab"
 sidebar_position: 20
 ---
@@ -25,7 +25,3 @@ search.
 
 Select a group in the Member Of list and click **Remove** to remove the contact from the membership
 of that group.
-
-**See Also**
-
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)

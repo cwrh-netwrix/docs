@@ -26,8 +26,11 @@ Use any of the following methods to connect and sign in:
 - Select an identity store and sign in using a SAML provider.  
   (This option is available if a SAML provider is configured with the selected identity store.)
 
-    NOTE: Microsoft Entra ID MFA enabled users cannot log into GroupID using their username and
+    :::note
+    Microsoft Entra ID MFA enabled users cannot log into GroupID using their username and
     password. They will be authenticated through the SAML provider configured for in GroupID.
+    :::
+
 
 - Scan the displayed QR code with the GroupID app installed on your smartphone.  
   (This option is available if the QR code feature is enabled for the identity store you want to
@@ -67,8 +70,11 @@ configuration:
 On the **GroupID Authenticate** page, click the button or image for the provider and proceed to sign
 in.
 
-NOTE: For Microsoft Entra ID multifactor-enabled users, a SAML provider must be configured for
+:::note
+For Microsoft Entra ID multifactor-enabled users, a SAML provider must be configured for
 signing into GroupID.
+:::
+
 
 ### With QR Code
 
@@ -109,9 +115,3 @@ the following applies:
 ## Sign Out
 
 In GroupID portal, click your profile info in the top right corner and select **Sign Out**.
-
-**See Also**
-
-- [Second Factor Authentication](/docs/directorymanager/11.0/portal/secondfactorauthentication/secondfactorauthentication.md)
-- [Unlock your accounts](/docs/directorymanager/11.0/portal/user/manage/unlockaccount.md)
-- [Reset Passwords](/docs/directorymanager/11.0/portal/secondfactorauthentication/passwordreset.md)

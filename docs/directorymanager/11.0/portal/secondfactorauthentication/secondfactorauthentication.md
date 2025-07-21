@@ -61,8 +61,11 @@ authenticate.
   number. The portal then sends a confirmation code on this number; the user has to enter the code
   in the portal for authentication.
 
-NOTE: The SMS authentication type is available if the GroupID administrator has linked an SMS
+:::note
+The SMS authentication type is available if the GroupID administrator has linked an SMS
 gateway account with the identity store.
+:::
+
 
 ### Email Verification
 
@@ -76,8 +79,11 @@ authenticate.
   enrollment. The portal then sends a confirmation code to this email address; the user has to enter
   the code in the portal for authentication.
 
-NOTE: The Email authentication type is available if the administrator has defined an SMTP server for
+:::note
+The Email authentication type is available if the administrator has defined an SMTP server for
 the identity store.
+:::
+
 
 ### Authenticator app
 
@@ -123,15 +129,18 @@ IE and Microsoft Edge are not supported.
 - To authenticate with this YubiKey, insert the device in your computer and then tap on the device
   in the portal.
 
-NOTE: Users can enroll and authenticate with a YubiKey only on a physical machine. Virtual machines
+:::note
+Users can enroll and authenticate with a YubiKey only on a physical machine. Virtual machines
 are not supported.
+:::
+
 
 ### Windows Hello authentication
 
 The Windows Hello authentication type can be used on devices running Windows 10 with specialized
 hardware installed, such as fingerprint reader and 3D camera.
 
-Enable Windows Hello on Windows 10
+**Enable Windows Hello on Windows 10**
 
 1. Go to the **Start** menu and select **Settings**.
 2. Go to **Accounts Sign-in options**.
@@ -143,11 +152,8 @@ Enable Windows Hello on Windows 10
 4. In the **Windows Hello** section, click **Set up** under **Face** or **Fingerprint** to add the
    recognition data.
 
-NOTE: If your device does not meet the hardware requirements, Windows Hello is not available, even
+:::note
+If your device does not meet the hardware requirements, Windows Hello is not available, even
 if Windows 10 is installed on it.  
- Window Hello supports the Microsoft Edge browser only.
-
-**See Also**
-
-- [Enroll Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/enrollaccount.md)
-- [Authenticate Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/authenticateaccount.md)
+Window Hello supports the Microsoft Edge browser only.
+:::

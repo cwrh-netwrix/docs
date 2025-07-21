@@ -1,5 +1,5 @@
 ---
-title: "Group properties - Email tab"
+title: "Email tab"
 description: "Group properties - Email tab"
 sidebar_position: 70
 ---
@@ -37,8 +37,6 @@ in group properties.
   search.
 - To remove an Exchange additional owner, select it and click **Remove**.
 
-NOTE: Only mail-enabled users can be designated as Exchange additional owners.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
+:::note
+Only mail-enabled users can be designated as Exchange additional owners.
+:::

@@ -18,13 +18,3 @@ to search your memberships and add
 [Filter All Groups](/docs/directorymanager/11.0/portal/group/allgroups/allgroups.md#filter-all-groups)by
 clicking **My Memberships Grid Filters**. All your memberships matching the filters will be
 displayed.
-
-**See Also**
-
-- [My Groups](/docs/directorymanager/11.0/portal/group/mygroups/mygroups.md)
-- [Groups](/docs/directorymanager/11.0/portal/group/create/overview.md)
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
-- [Group Membership functions](/docs/directorymanager/11.0/portal/group/workingwithgroups/groupmembershipfunction.md)
-- [Join/Leave a Group](/docs/directorymanager/11.0/portal/group/workingwithgroups/groupjoinleave.md)
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)

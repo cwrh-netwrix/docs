@@ -17,7 +17,7 @@ Dynasties.
 
 **In Linked mode**: Query based searches cannot be performed.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a query](#create-a-query)
 - [Preview query results](#preview-query-results)
@@ -34,8 +34,11 @@ The Query Designer dialog box provides you a visual interface for creating searc
 
     The **Queries** page is displayed.
 
-    NOTE: If you are creating a search query for the first time the **Query Designer** dialog box
+    :::note
+    If you are creating a search query for the first time the **Query Designer** dialog box
     opens automatically.
+    :::
+
 
 3. Click **Query Designer** to create queries to search directory objects.
 4. Select an option from the
@@ -104,7 +107,3 @@ changes to the search query.
 ## Delete a query
 
 To delete a query, click the **Delete** icon. The query will be removed from the saved queries list.
-
-**See Also**
-
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)

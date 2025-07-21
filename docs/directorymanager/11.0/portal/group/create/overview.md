@@ -1,10 +1,10 @@
 ---
-title: "Groups"
+title: "Create Groups Objects"
 description: "Groups"
 sidebar_position: 10
 ---
 
-# Groups
+# Create Groups
 
 Using GroupID portal, you can create:
 
@@ -31,10 +31,3 @@ Using GroupID portal, you can create:
     - A Dynasty is a Smart Group that creates and manages other Smart Groups using information in
       the directory. Dynasties help you manage large distribution lists by creating hierarchical
       group structures that represent your organization’s hierarchy.
-
-**See Also**
-
-- [Group Management](/docs/directorymanager/11.0/portal/group/overview.md)
-- [Create Active Directory Groups](/docs/directorymanager/11.0/portal/group/create/group/group.md)
-- [Create Microsoft Entra ID Groups](/docs/directorymanager/11.0/portal/group/create/group/group_1.md)
-- [Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/overview.md)

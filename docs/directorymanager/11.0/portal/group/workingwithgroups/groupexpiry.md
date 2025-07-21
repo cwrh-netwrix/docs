@@ -100,9 +100,3 @@ expiry, the job does the following:
 Notifications are sent if an SMTP server is configured for the identity store. See the
 [Set Group Expiry Notifications](/docs/directorymanager/11.0/admincenter/identitystore/configure/grouplifecycle.md#set-group-expiry-notifications)
 topic for additional information.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)
-- [ Group Expiry and Deletion](/docs/directorymanager/11.0/admincenter/identitystore/configure/groupexpirydeletion.md)
-- [Manage Group Lifecycle Settings](/docs/directorymanager/11.0/admincenter/identitystore/configure/grouplifecycle.md)

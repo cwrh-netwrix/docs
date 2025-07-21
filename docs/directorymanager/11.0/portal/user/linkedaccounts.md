@@ -27,7 +27,7 @@ When two accounts are linked, notification emails are sent to the master account
 linked account, provided that notifications are configured for the respective identity stores in
 GroupID Admin Center. Un-linking an account also initiates notifications.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Link an account](#link-an-account)
 - [View your linked accounts](#view-your-linked-accounts)
@@ -48,7 +48,10 @@ master account, with which you can link other identity store accounts that you m
     If the master account is not enrolled yet, it automatically gets enrolled when an account is
     linked to it.
 
-    NOTE: An already enrolled or linked account cannot be linked to a master account.
+    :::note
+    An already enrolled or linked account cannot be linked to a master account.
+    :::
+
 
 5. Turn on the **Allow Authentication** button against the account(s) you want to use to
    authenticate with, while unlocking any linked accounts or resetting passwords of linked accounts.
@@ -88,7 +91,10 @@ into multiple accounts.
     If the master account is not enrolled yet, it automatically gets enrolled when an account is
     linked to it.
 
-    NOTE: An already enrolled or linked account cannot be linked to a master account.
+    :::note
+    An already enrolled or linked account cannot be linked to a master account.
+    :::
+
 
 5. Turn on the **Allow Authentication** button against the account(s) you want to use to
    authenticate with, while unlocking any linked accounts or resetting passwords of linked accounts.
@@ -121,8 +127,3 @@ information of your master account. In GroupID portal, click **Users** in the le
 
 2. On the **My Linked Account** page, select the check box for the account you want to un-link.
 3. Click **Un-link Account**.
-
-**See Also**
-
-- [Enroll Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/enrollaccount.md)
-- [Second Factor Authentication](/docs/directorymanager/11.0/portal/secondfactorauthentication/secondfactorauthentication.md)

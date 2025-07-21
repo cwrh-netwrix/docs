@@ -124,11 +124,3 @@ External data sources must be created first in Data Sources tab in Admin Center.
 
 See the [ Data Sources](/docs/directorymanager/11.0/admincenter/datasource/overview.md)
 topic for additional information on Data Sources.
-
-**See Also**
-
-- [Synchronize](/docs/directorymanager/11.0/portal/synchronize/overview.md)
-- [Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
-- [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)
-- [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollection.md)

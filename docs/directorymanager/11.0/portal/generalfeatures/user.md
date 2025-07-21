@@ -14,7 +14,7 @@ Administrators can also reset the passwords of other user accounts in the identi
 also set the expiration policy of user accounts, lock or unlock accounts, and enable or disable
 accounts.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Update your account information](#update-your-account-information)
 - [Add a photo to your profile](#add-a-photo-to-your-profile)
@@ -29,8 +29,11 @@ What do you want to do?
 2. Make the required changes to your profile on the My Profile page.
 3. Click **Save**.
 
-NOTE: If the administrator has specified this action for review, your changes will not take effect
+:::note
+If the administrator has specified this action for review, your changes will not take effect
 until verified by an approver.
+:::
+
 
 ## Add a photo to your profile
 
@@ -48,8 +51,11 @@ until verified by an approver.
 5. Click **OK** to close the **Manage Photo** dialog box.
 6. Click **Save.**
 
-NOTE: If the administrator has specified this action for review, your changes will not take effect
+:::note
+If the administrator has specified this action for review, your changes will not take effect
 until verified by an approver.
+:::
+
 
 ## Set a user account to never expire
 
@@ -99,8 +105,3 @@ until verified by an approver.
     - Clear the **Account is disabled** check box to enable the user account.
 
 4. Click **Save**.
-
-**See Also**
-
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)

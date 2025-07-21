@@ -20,7 +20,7 @@ You can generate a report in any of the two ways:
 
 Of these, the last method can only be used for a report that has previously been generated.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Report](#create-a-report)
 - [Scheduled Report job](#scheduled-report-job)

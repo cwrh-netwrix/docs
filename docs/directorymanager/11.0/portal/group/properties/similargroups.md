@@ -1,5 +1,5 @@
 ---
-title: "Group properties - Similar Groups tab"
+title: "Similar Groups tab"
 description: "Group properties - Similar Groups tab"
 sidebar_position: 130
 ---
@@ -20,7 +20,3 @@ The six similar groups are sorted in the order of strength, with the strongest m
 
 Click a group bar or a group in the left pane to view similarity details. The **Similarity Details**
 dialog box displays the common type and common members that both groups have.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

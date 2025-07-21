@@ -13,7 +13,7 @@ On the History page, click **My History** tab to view your history.
 
 The log also tracks any change that another user makes to your profile using the portal.
 
-What do you want to do?
+**What do you want to do?**
 
 - History view modes
 - Filter history data
@@ -129,8 +129,3 @@ formats are:
 - XML
 
 The file is created at the download location specified in the browser settings.
-
-**See Also**
-
-- [History](/docs/directorymanager/11.0/portal/history/overview.md)
-- [Portal Settings](/docs/directorymanager/11.0/portal/generalfeatures/portal.md)

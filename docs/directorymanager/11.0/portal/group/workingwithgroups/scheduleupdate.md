@@ -16,8 +16,11 @@ When a Smart Group or Dynasty is updated using a scheduled job, it involves the 
     [ Query Designer Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/querydesigner.md)topic
     for additional information.
 
-    NOTE: Whatever the records returned by the query, the membership of an Office 365 group is
+    :::note
+    Whatever the records returned by the query, the membership of an Office 365 group is
     updated with user objects only.
+    :::
+
 
 - The values of certain attribute(s) is updated.
 
@@ -44,7 +47,7 @@ automatically at a specified frequency.
 
 In GroupID portal, you can perform the following functions for Smart Groups and Dynasties.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Modify the query for a Smart Group/Dynasty](#modify-the-query-for-a-smart-groupdynasty)
 - [Schedule periodic membership updates for Smart Groups/Dynasties](#schedule-periodic-membership-updates-for-smart-groupsdynasties)
@@ -58,7 +61,7 @@ What do you want to do?
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md) the group you
     want to modify the query for.
@@ -73,8 +76,11 @@ What do you want to do?
 
 4. Save the changes.
 
-NOTE: For an Office 365 group in a Microsoft Entra ID based identity store, group membership is
+:::note
+For an Office 365 group in a Microsoft Entra ID based identity store, group membership is
 updated with user objects only.
+:::
+
 
 ## Schedule periodic membership updates for Smart Groups/Dynasties
 
@@ -89,7 +95,7 @@ membership update.
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md) the group you
     want to associate a Smart Group Update job with.
@@ -105,8 +111,11 @@ membership update.
 
     When this job runs, it updates the group's membership.
 
-    NOTE: The schedule job will update the group taking into account Query Designer policy of group
+    :::note
+    The schedule job will update the group taking into account Query Designer policy of group
     owner role, if defined.
+    :::
+
 
 4. Save the changes.
 
@@ -173,7 +182,3 @@ A member of administrator role has created a Smart Group named QDGroup1.
       modify the query of the group.
     - Similarly, if the group has been created using the user object and in your role policy the
       user object is not available, upon group update an error will be displayed.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

@@ -1,5 +1,5 @@
 ---
-title: "Mailbox properties - Advanced tab"
+title: "Advanced tab"
 description: "Mailbox properties - Advanced tab"
 sidebar_position: 10
 ---
@@ -53,7 +53,3 @@ Notes by the administrator.
 **Deliver messages to both forwarding address and mailbox**
 
 Indicates whether to send every email for this user to the alternate recipient as well.
-
-**See Also**
-
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)

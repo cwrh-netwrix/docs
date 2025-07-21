@@ -19,7 +19,7 @@ but a new job collection is created with the modifications.
 Because of the wide variation of possible job combinations, Synchronize does not provide predefined
 job collection templates.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a job collection template from a job collection](#create-a-job-collection-template-from-a-job-collection)
 - [Import a Job Collection Template](#import-a-job-collection-template)
@@ -89,12 +89,12 @@ the top right corner.
 3. On the **Job Collection Templates** page, click the **three vertical dots** icon on the template
    in the list and select **Create from Template**.
 
-    OR
+**OR**
 
     Double-click the job collection template you want to use for the new job collection.
 
 4. This will launch
-   [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)
+   [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md)
    wizard starting from the Job Collection(s) page. Proceed to map the settings stored in the
    template on to the new job collection.
 
@@ -135,9 +135,3 @@ that match the criteria set in the **Search Filters** section.
 5. Click **Apply Filter**.
 
     All the job collection templates that match the specified criterion are displayed.
-
-**See Also**
-
-- [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)
-- [Manage a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollection.md)
-- [Synchronize Schedule](/docs/directorymanager/11.0/admincenter/schedule/synchronize.md)

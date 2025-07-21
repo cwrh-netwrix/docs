@@ -9,7 +9,7 @@ sidebar_position: 10
 While creating or editing mail enabled objects through a Synchronize job, GroupID provides you the
 facility to sync or deprovision subscriptions from Office 365 messaging provider.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Sync Exchange subscriptions](#sync-exchange-subscriptions)
 
@@ -44,10 +44,3 @@ On the **Object, Fields and Mapping** page:
        highest priority.
 
 5. Click **Save**.
-
-**See Also**
-
-- [Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
-- [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)
-- [Transform](/docs/directorymanager/11.0/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/docs/directorymanager/11.0/portal/synchronize/transformation/autogenerateuniquepassword.md)

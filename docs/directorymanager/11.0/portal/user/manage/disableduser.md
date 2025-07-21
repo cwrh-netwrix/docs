@@ -22,7 +22,7 @@ and select **My Direct Reports**. On the displayed page, select the **Disabled U
 A disabled user can be reinstated but not extended. An expired user can be extended but not
 reinstated. The administrator or a Helpdesk user is responsible for reinstating and extending users.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View User Properties](#view-user-properties)
 - [Reinstate a Disabled User](#reinstate-a-disabled-user)
@@ -65,9 +65,3 @@ Use the page numbers under the disabled users listing to page through the record
 You can control the number of records to be displayed per page by modifying the **Search results per
 page** setting on the User Settings panel. You can modify the search results in **Modify Search
 Directory.** You can select entire directory or a domain to search active groups from.
-
-**See Also**
-
-- [Validate your profile](/docs/directorymanager/11.0/portal/user/manage/validateprofile.md)
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)
-- [Portal Settings](/docs/directorymanager/11.0/portal/generalfeatures/portal.md)

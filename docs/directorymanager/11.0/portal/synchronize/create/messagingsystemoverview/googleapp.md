@@ -9,7 +9,7 @@ sidebar_position: 20
 While creating or editing mail enabled objects through a Synchronize job, GroupID provides you the
 facility to sync or deprovision subscriptions from Google Workspace messaging provider.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Sync Google Workspace subscriptions](#sync-google-workspace-subscriptions)
 - [Deprovision existing Google Workspace subscriptions](#deprovision-existing-google-workspacesubscriptions)
@@ -69,7 +69,7 @@ On the **Object, Fields and Mapping** page:
         2. Click **Edit Script** to edit the script to append the user logon name with Google
            Workspace domain name.
 
-            By default, it displays: DTM.Result = ""
+**By default, it displays: DTM.Result = ""**
 
             Modify it with the attributes you want to form email address of the mailbox-enabled
             user. For example:
@@ -118,10 +118,3 @@ opens.
 
 3. Click **Finish** or click **Next** if you want to modify a setting on any rest of the pages of
    the **Edit Job** wizard.
-
-**See Also**
-
-- [Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
-- [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)
-- [Transform](/docs/directorymanager/11.0/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/docs/directorymanager/11.0/portal/synchronize/transformation/autogenerateuniquepassword.md)

@@ -31,7 +31,7 @@ replicated, the server is enabled.
 - You can search specific servers on the search bar on the top. If you want to undo the search
   results, click **Refresh List** which will display all the servers on the page.
 
-What do you want to do?
+**What do you want to do?**
 
 - Explore a Server Card View
 - View file/folder permissions
@@ -48,7 +48,10 @@ displayed, showcasing the following information:
 
     ![fileservercard](/img/product_docs/directorymanager/11.0/portal/entitlement/fileservercard.webp)
 
-NOTE: Date format: mm/dd/yyyy
+:::note
+Date format: mm/dd/yyyy
+:::
+
 
 - For child folders, the path is as: servername.parentsharedfoldername.
 
@@ -126,7 +129,7 @@ with respect to the specified permission(s).
 
 User: Administrator
 
-Access type: Allow
+**Access type: Allow**
 
 Permission: WriteAttributes, ExecuteFile, Read
 
@@ -146,7 +149,3 @@ displayed in the results.
 | Group has direct Deny access on a folder.                                     | Explicit Deny access is displayed on the root parent folder. |
 | User has inherited the Allow access but has explicit Deny access on a folder. | Deny access is displayed on the folder.                      |
 | User has inherited the Deny access but has explicit Allow access on a folder. | Allow access is displayed on the folder.                     |
-
-**See Also**
-
-- [ Entitlement](/docs/directorymanager/11.0/portal/entitlement/overview.md)

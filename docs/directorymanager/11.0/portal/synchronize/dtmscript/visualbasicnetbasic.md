@@ -110,7 +110,10 @@ With extensive string manipulation, statement lines frequently become quite long
 a statement into two or more lines, insert a space followed by an underline (”_”) just prior to
 each line break.
 
-NOTE: Be sure to insert the line break characters ("_") outside of a string literal.
+:::note
+Be sure to insert the line break characters ("_") outside of a string literal.
+:::
+
 
 Example:
 
@@ -181,9 +184,3 @@ function of the .Net Char class.
  Next
                 
 ```
-
-**See Also**
-
-- [Script](/docs/directorymanager/11.0/portal/synchronize/dtmscript/dtmscript.md)
-- [Sample Transform Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/sampletransformscript.md)
-- [Sample Container Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/samplecontainerscript.md)

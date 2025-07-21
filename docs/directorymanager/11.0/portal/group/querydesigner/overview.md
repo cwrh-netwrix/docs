@@ -62,8 +62,11 @@ Select an option to specify the type of object to include in the membership of t
 
 - **Users, Contacts, and Groups** - Any user, contact, or group, whether mail-enabled or not.
 
-NOTE: The _Computers_ and _Contact_ object types are not supported in a Microsoft Entra ID identity
+:::note
+The _Computers_ and _Contact_ object types are not supported in a Microsoft Entra ID identity
 store.
+:::
+
 
 **Start in**
 
@@ -101,10 +104,7 @@ The Query Designer has the following tabs:
 - [Query Designer - Password Expiry Options tab](/docs/directorymanager/11.0/portal/group/querydesigner/passwordexpiryoptions.md)[Query Designer - Password Expiry Options tab](/docs/directorymanager/11.0/portal/group/querydesigner/passwordexpiryoptions.md)
   (only available for Smart Groups with a password expiry condition)
 
-NOTE: The **Storage** and **Script** tabs are not available for groups in a Microsoft Entra ID
+:::note
+The **Storage** and **Script** tabs are not available for groups in a Microsoft Entra ID
 identity store.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
-- [Group properties - Smart Group/Query Designer tab](/docs/directorymanager/11.0/portal/group/properties/smartgroup.md)
+:::

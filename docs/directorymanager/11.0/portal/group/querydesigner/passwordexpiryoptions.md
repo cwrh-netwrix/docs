@@ -1,5 +1,5 @@
 ---
-title: "Query Designer - Password Expiry Options tab"
+title: "Password Expiry Options tab"
 description: "Query Designer - Password Expiry Options tab"
 sidebar_position: 40
 ---
@@ -112,7 +112,3 @@ Discards settings and closes the dialog box.
 **LDAP Query**
 
 View the provider query in the LDAP Query box.
-
-**See Also**
-
-- [Query Designer](/docs/directorymanager/11.0/portal/group/querydesigner/overview.md)

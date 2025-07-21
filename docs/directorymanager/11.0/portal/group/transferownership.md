@@ -39,9 +39,12 @@ minutes.
     | Domain              | Includes all organizational units and their sub-trees in the search for required groups. |
     | Entire Directory    | Searches the entire forest.                                                              |
 
-    NOTE: For Active Directory, if the search container is set to Global Catalog and Extension Data
+    :::note
+    For Active Directory, if the search container is set to Global Catalog and Extension Data
     is not replicated to the Global Catalog, additional ownership of the groups will not be
     transferred.
+    :::
+
 
 3. Click **Next**.
 4. On the **Existing Owner** page, select one of the following:
@@ -74,7 +77,3 @@ minutes.
     The page displays the distinguished names of all groups that have been successfully processed
     and transferred to the new owner. It also displays any errors that were encountered during the
     process.
-
-**See Also**
-
-- [Group Ownership Functions](/docs/directorymanager/11.0/portal/group/workingwithgroups/groupownershipfunction.md)

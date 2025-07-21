@@ -1,5 +1,5 @@
 ---
-title: "Group Properties - Entitlement tab"
+title: "Entitlement tab"
 description: "Group Properties - Entitlement tab"
 sidebar_position: 120
 ---
@@ -37,7 +37,3 @@ replicate permissions granted on shared files and folders on the servers.
 
 You can enable or restrict a security role from accessing the Insights portal. Use the Criteria tab
 in role properties to specify the GroupID clients that role members can or cannot access.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

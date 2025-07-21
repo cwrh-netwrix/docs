@@ -16,7 +16,7 @@ GroupID provides three security types:
 A security type is assigned to the group when it is created. However, you can change it later, if
 required.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Changing the security type for a group](#changing-the-security-type-for-a-group)
 - [Changing the security type for multiple groups](#changing-the-security-type-for-multiple-groups)
@@ -44,7 +44,3 @@ What do you want to do?
     - Public
 
 3. Click **Save**.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

@@ -1,7 +1,7 @@
 ---
 title: "Create a Job"
 description: "Create a Job"
-sidebar_position: 30
+sidebar_position: 10
 ---
 
 # Create a Job
@@ -42,23 +42,26 @@ topic.
 1. On GroupID Portal, select **Synchronize**on left pane.
 2. On the Synchronize portal, click **Create New** and then click **Job**.
 3. On the
-   [Choose Your Job Template](/docs/directorymanager/11.0/portal/synchronize/create/chooseyourjobtemplate.md)
+   [Choose Your Job Template](/docs/directorymanager/11.0/portal/synchronize/create/jobtemplate.md)
    page, enter the job details and select whether to use a job template or create the job from
    scratch.
 4. Click **Next Step**.
 5. On the
-   [Select Your Source and Destination](/docs/directorymanager/11.0/portal/synchronize/create/sourceanddestination.md)
+   [Select Your Source and Destination](/docs/directorymanager/11.0/portal/synchronize/create/job/sourcedestination.md)
    page, specify the source and destination providers.
 6. Click **Next Step**.
 7. On the
-   [Objects, Fields and Mapping ](/docs/directorymanager/11.0/portal/synchronize/create/objectfieldsandmapping.md)
+   [Objects, Fields and Mapping ](/docs/directorymanager/11.0/portal/synchronize/create/job/objectfieldsmapping.md)
    page, map the source and destination fields and apply transformations.
 8. On the
-   [Schedule Job and Notifications](/docs/directorymanager/11.0/portal/synchronize/create/scheduleandnotification.md)
+   [Schedule Job and Notifications](/docs/directorymanager/11.0/portal/synchronize/create/jobschedule.md)
    page, choose a schedule for a job and set up notification settings.
 
-    NOTE: After creating the job, you can modify the schedule for the job and you can also create a
+    :::note
+    After creating the job, you can modify the schedule for the job and you can also create a
     new schedule.
+    :::
+
 
 9. Select **Preview job when finished** checkbox to preview the job.
 10. **Review your Changes** before finishing the job.
@@ -71,14 +74,3 @@ topic.
     results.
 14. The **Review Job Run** dialog box appears, providing access to run statistics, reports, and logs
     for the last job run.
-
-**See Also**
-
-- [Job Templates](/docs/directorymanager/11.0/portal/synchronize/manage/jobtemplate.md)
-- [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
-- [Synchronize Schedule](/docs/directorymanager/11.0/admincenter/schedule/synchronize.md)
-- [Transform](/docs/directorymanager/11.0/portal/synchronize/transformation/overview.md)
-- [Auto-Generate Unique, Complex Passwords](/docs/directorymanager/11.0/portal/synchronize/transformation/autogenerateuniquepassword.md)
-- [Sample Transform Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/sampletransformscript.md)
-- [Sample Container Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/samplecontainerscript.md)
-- [Script](/docs/directorymanager/11.0/portal/synchronize/dtmscript/dtmscript.md)

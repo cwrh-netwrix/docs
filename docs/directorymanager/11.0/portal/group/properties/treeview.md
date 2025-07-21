@@ -1,5 +1,5 @@
 ---
-title: "Group properties - Tree View"
+title: "Tree View"
 description: "Group properties - Tree View"
 sidebar_position: 110
 ---
@@ -13,7 +13,3 @@ in a heirarchical form in this tab.
 **Export**
 
 You can also export the graphical representation of the group in the form of a png file.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

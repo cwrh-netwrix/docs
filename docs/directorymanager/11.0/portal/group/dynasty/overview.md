@@ -65,10 +65,3 @@ to worry that they will go out-of-date.
 
 Dynasties come in handy for creating and maintaining large dynamic distribution lists in your
 organization.
-
-**See Also**
-
-- [Group Management](/docs/directorymanager/11.0/portal/group/overview.md)
-- [Create an Active Directory Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/createdynasty.md)
-- [Create a Microsoft Entra ID Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/createdynasty_1.md)
-- [Groups](/docs/directorymanager/11.0/portal/group/create/overview.md)

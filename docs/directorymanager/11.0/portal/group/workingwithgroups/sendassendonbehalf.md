@@ -29,9 +29,7 @@ are displayed as:
 Use the **Add** and **Remove** buttons to add and remove objects in the Send As and Send on Behalf
 lists.
 
-NOTE: Only mailboxes and mail-enabled groups can add objects to their Send As and Send on Behalf
+:::note
+Only mailboxes and mail-enabled groups can add objects to their Send As and Send on Behalf
 lists.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)
+:::

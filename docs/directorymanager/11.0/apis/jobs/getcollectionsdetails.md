@@ -10,7 +10,7 @@ Use this API to retrieve information about jobs within a job collection based on
 provided in the request syntax.
 
 See the
-[Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)for
+[Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md)for
 additional information on Job Collections.
 
 ## Endpoint

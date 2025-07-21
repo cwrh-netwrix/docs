@@ -36,13 +36,16 @@ Since the count exceeds 500, it breaks the membership into 2 child groups (Group
 and Group 2 with 120 members) and nests them into Group A. Hence, GroupID checks the member count
 and takes necessary action before adding members to the group.
 
-NOTE: An Office 365 group cannot have other groups as members. Therefore, the option to break the
+:::note
+An Office 365 group cannot have other groups as members. Therefore, the option to break the
 membership into child groups would have the following impact:  
- An Office 365 group (Group A) will be updated according to the Smart Group update process. When the
+An Office 365 group (Group A) will be updated according to the Smart Group update process. When the
 maximum membership limit is hit, the update process will create child group(s). These child groups
 will exist but without any link to Group A. Hence, Group A’s membership will be empty.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Add members to a group](#add-members-to-a-group)
 - [Change the membership type of a group member ](#change-the-membership-type-of-a-group-member)
@@ -58,8 +61,11 @@ You can add one or more objects to the membership of one or more groups. These o
 added as permanent members. You will find them listed as members on the Members tab in
 [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md).
 
-NOTE: In a Microsoft Entra ID based identity store, only user objects can be added as members of an
+:::note
+In a Microsoft Entra ID based identity store, only user objects can be added as members of an
 Office 365 group.
+:::
+
 
 Use any of the following methods to add members to groups.
 
@@ -87,9 +93,12 @@ Use any of the following methods to add members to groups.
    search.
 5. Save the changes.
 
-NOTE: These methods for adding members are recommended for static (unmanaged) groups only. For Smart
+:::note
+These methods for adding members are recommended for static (unmanaged) groups only. For Smart
 Groups, GroupID will discard any manual membership changes when it updates the group through the
 Smart Group Update job.
+:::
+
 
 To add a member temporarily to a group, see
 [Change the membership type of a group member ](#change-the-membership-type-of-a-group-member).
@@ -181,9 +190,12 @@ days for temporary membership update.
 3. On the **Members** tab, select the group members you want to remove and click **Remove**.
 4. Save the changes.
 
-NOTE: This method of removing members is recommended for static (unmanaged) groups only. For Smart
+:::note
+This method of removing members is recommended for static (unmanaged) groups only. For Smart
 Groups, GroupID will discard any manual membership changes when it updates the group through the
 Smart Group Update job.
+:::
+
 
 To remove a member temporarily from a group, see
 [Change the membership type of a group member ](#change-the-membership-type-of-a-group-member).
@@ -201,8 +213,11 @@ To remove a member temporarily from a group, see
 
 You can import members to a group using an external file.
 
-NOTE: In a Microsoft Entra ID based identity store, only user objects can be added as members of an
+:::note
+In a Microsoft Entra ID based identity store, only user objects can be added as members of an
 Office 365 group.
+:::
+
 
 1. In GroupID portal, click **Groups** in the left navigation pane, select Groups.
 
@@ -263,7 +278,7 @@ Microsoft Entra ID tenant to the membership of a group in your domain.
 
     The Groups page is displayed with the **My Groups** tab in view.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md) the group you
     want to invite a guest user to.
@@ -280,9 +295,12 @@ Microsoft Entra ID tenant to the membership of a group in your domain.
     3. Add any message for the guest user in the **Personal Message** box.
     4. Click **Invite User**.
 
-        NOTE: If the group you want to invite a guest user to is a distribution group and the
+        :::note
+        If the group you want to invite a guest user to is a distribution group and the
         invited user is not in the guest user list of Microsoft 365 Admin portal than the invited
         user is not added into the group on the first invite but on the second invite.
+        :::
+
 
 5. The guest user is sent an email with the redirect link. On clicking this link, the guest user is
    successfully invited.
@@ -294,7 +312,3 @@ Microsoft Entra ID tenant to the membership of a group in your domain.
 
 An object for the guest user is created in Microsoft Entra ID, with type as ‘guest user’. This user
 has the same rights and permissions as any other group member.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

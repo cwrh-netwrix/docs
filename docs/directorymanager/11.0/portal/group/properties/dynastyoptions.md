@@ -1,5 +1,5 @@
 ---
-title: "Group properties - Dynasty Options tab"
+title: "Dynasty Options tab"
 description: "Group properties - Dynasty Options tab"
 sidebar_position: 100
 ---
@@ -16,8 +16,11 @@ membership. You can:
 
 Your changes will be reflected on the next update of the Dynasty.
 
-NOTE: Advanced Dynasty options are available for Dynasties of the parent and middle level, but not
+:::note
+Advanced Dynasty options are available for Dynasties of the parent and middle level, but not
 for the leaf level.
+:::
+
 
 ## For an Organizational/Geographical/Custom Dynasty
 
@@ -34,9 +37,10 @@ Also, the alias must not contain characters that are invalid for the configured 
 The following table lists the valid characters the supported messaging systems.
 
 | Messaging System                                               | Valid Characters                                                                                                                                                                                                                                                                                   |
-| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Exchange Server 2013 Exchange Server 2016 Exchange Server 2019 | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) - Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, _, \`, \{, \| , \} or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters |
-| All other messaging systems                                    | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9)                                                                                                                                                                                                                   |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Exchange Server 2013 Exchange Server 2016 Exchange Server 2019 | <ul><li>Uppercase letters (A - Z)</li><li>Lowercase letters (a - z)</li><li>Numeric digits (0 - 9)</li><li>Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, _, \`, \{, | , \} or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters</li></ul> |
+| All other messaging systems                                    | <ul><li>Uppercase letters (A</li><li>Z)</li><li>Lowercase letters (a</li><li>z)</li><li>Numeric digits (0</li><li>9)</li></ul>                                                                                                                                                                     |
+
 
 **Display Name Template**
 
@@ -55,7 +59,7 @@ You can view and change the attributes for parent and middle Dynasties.
 - Click **Remove** to remove the selected attribute.
 
 See the
-[Dynasty Options page](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/dynastyoptionsorggeocus.md)
+[Dynasty Options page](/docs/directorymanager/11.0/portal/group/dynasty/AD/dynastyoptionsorggeocus.md)
 for details.
 
 **Inheritance**
@@ -98,9 +102,10 @@ managers as members of a single group.
 
 You can view and change these structure options for parent and middle Dynasties. For details, see
 the
-[Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/dynastyoptionsmanagerial.md).
+[Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.0/portal/group/dynasty/AD/dynastyoptionsmanagerial.md).
 
-NOTE: (1) If the **Set manager as owner** check box is selected, the **Always inherit** option is
+:::note
+(1) If the **Set manager as owner** check box is selected, the **Always inherit** option is
 set for Inheritance, and the managedBy attribute is specified for inheritance, the **Set manager as
 owner** option takes priority over the managedBy attribute inheritance. Hence, the manager of a
 child Dynasty would be set as its respective primary owner.  
@@ -110,13 +115,14 @@ child Dynasty may be updated, depending on the Dynasty inheritance options. For 
 **Always inherit** option is set for Inheritance and the managedBy attribute is specified for
 inheritance, the primary owner of the parent Dynasty would be set as the primary owner for all child
 Dynasties, replacing their respective primary owners.
+:::
 
 **Attributes**
 
 Set a custom attribute to create a managerial lineage in the context of this attribute.
 
 See the
-[Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/dynastyoptionsmanagerial.md)for
+[Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.0/portal/group/dynasty/AD/dynastyoptionsmanagerial.md)for
 a discussion on attributes.
 
 In addition to the scenarios discussed, the following also apply on Dynasty update:
@@ -149,11 +155,11 @@ be unique.
 
 Example using the cn attribute:
 
-%MANAGER.cn%
+**%MANAGER.cn%**
 
 Example using the name attribute:
 
-%MANAGER.name%
+**%MANAGER.name%**
 
 If Exchange Server is the designated messaging system for the identity store, the alias length is
 limited to 64 characters and must be unique to the forest. For other messaging systems, the alias
@@ -163,9 +169,10 @@ Also, the alias must not contain characters that are invalid for the configured 
 The following table lists the valid characters the supported messaging systems.
 
 | Messaging System                                               | Valid Characters                                                                                                                                                                                                                                                                                   |
-| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Exchange Server 2013 Exchange Server 2016 Exchange Server 2019 | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9) - Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, _, \`, \{, \| , \} or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters |
-| All other messaging systems                                    | - Uppercase letters (A - Z) - Lowercase letters (a - z) - Numeric digits (0 - 9)                                                                                                                                                                                                                   |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Exchange Server 2013 Exchange Server 2016 Exchange Server 2019 | <ul><li>Uppercase letters (A - Z)</li><li>Lowercase letters (a - z)</li><li>Numeric digits (0 - 9)</li><li>Special characters (#, $, %, &, ', \*, +, -, /, =, ?, ^, _, \`, \{, | , \} or ~). You can use one or more periods in an alias, but each must be preceded and followed by at least one of the other characters</li></ul>|
+| All other messaging systems                                    | <ul><li>Uppercase letters (A</li><li>Z)</li><li>Lowercase letters (a</li><li>z)</li><li>Numeric digits (0</li><li>9)</li></ul>                                                                                                                                                                     |
+
 
 **Display Name Template**
 
@@ -176,21 +183,19 @@ name. Note that the value of the attribute must be unique.
 
 Example using the cn attribute:
 
-%MANAGER.cn%
+**%MANAGER.cn%**
 
 Example using the name attribute:
 
-%MANAGER.name%
+**%MANAGER.name%**
 
-NOTE: For a managerial Dynasty, the **%MANAGER%** variable for the alias and display name templates
+:::note
+For a managerial Dynasty, the **%MANAGER%** variable for the alias and display name templates
 must be the same. The selected attribute must be a string and cannot include characters that are not
 supported in pre-Windows 2000 group names.
+:::
+
 
 **Inheritance**
 
 See Inheritance.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
-- [Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/overview.md)

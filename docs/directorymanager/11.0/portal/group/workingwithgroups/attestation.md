@@ -28,7 +28,7 @@ in group properties, the following is logged:
 - Any attribute value updated during group attestation.
 - The status of a group member set to ‘active’ or ‘inactive’.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Attest a group](#attest-a-group)
 
@@ -62,10 +62,13 @@ What do you want to do?
     - If the **Active All** and **Inactive All** buttons are not available, the group owner must
       verify each member one by one (by individually specifying its status as active or inactive.
 
-    NOTE: Setting ‘active’ as status for a disabled user does not activate or enable the user's
+    :::note
+    Setting ‘active’ as status for a disabled user does not activate or enable the user's
     account.  
-     Setting ‘active’ as status for users who have not logged in during the last 30 days does not
+    Setting ‘active’ as status for users who have not logged in during the last 30 days does not
     move them to the **All Members** listing.
+    :::
+
 
 6. The **Membership** column displays the membership type for active members.
 
@@ -148,8 +151,3 @@ What do you want to do?
     Click **Attest Group** to attest and renew the group.
 
     On attestation, the group’s expiration policy is re-applied to it, starting from today.
-
-**See Also**
-
-- [My Expiring Groups](/docs/directorymanager/11.0/portal/group/mygroups/myexpiringgroups.md)
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

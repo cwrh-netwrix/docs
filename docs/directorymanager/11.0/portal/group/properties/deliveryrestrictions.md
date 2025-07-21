@@ -1,5 +1,5 @@
 ---
-title: "Group properties - Delivery Restrictions tab"
+title: "Delivery Restrictions tab"
 description: "Group properties - Delivery Restrictions tab"
 sidebar_position: 50
 ---
@@ -36,7 +36,3 @@ search.
 **Remove**
 
 To remove an object from a list, select it and click **Remove** in the respective area.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

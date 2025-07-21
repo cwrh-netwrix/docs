@@ -19,7 +19,7 @@ History** tab.
 
 History is logged for groups that have you as the primary or additional owner.
 
-What do you want to do?
+**What do you want to do?**
 
 - History view modes
 - Filter history data
@@ -139,8 +139,3 @@ formats are:
 - XML
 
 The file is created at the download location specified in the browser settings.
-
-**See Also**
-
-- [History](/docs/directorymanager/11.0/portal/history/overview.md)
-- [Portal Settings](/docs/directorymanager/11.0/portal/generalfeatures/portal.md)

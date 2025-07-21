@@ -18,7 +18,7 @@ Supported file formats are:
 - Microsoft Excel (.xls and .xlsx)
 - Extensible Markup Language (.xml)
 
-What do you want to do?
+**What do you want to do?**
 
 - [Import group members using a wizard](#import-group-members-using-a-wizard)
 - [Import members of an existing group to this group](#import-members-of-an-existing-group-to-this-group)
@@ -129,9 +129,3 @@ launch the **Import Members** wizard.
 5. If you do not want existing group members to be deleted during import, make sure that the
    **Append existing items (uncheck to replace)** check box is selected.
 6. Click **Finish** to import members from the selected group(s).
-
-**See Also**
-
-- [Groups](/docs/directorymanager/11.0/portal/group/create/overview.md)
-- [Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/overview.md)
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

@@ -21,10 +21,13 @@ You can do the following in a job collection:
 - **Set up job run notifications** - Email notifications contain a brief numerical summary of the
   objects processed by the job collection and a detailed log of statistics and errors.
 
-    NOTE: Notification settings for individual jobs do not apply when they are run as part of a job
+    :::note
+    Notification settings for individual jobs do not apply when they are run as part of a job
     collection.
+    :::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Filter Job Collection](#filter-job-collection)
 - [Run a Job Collection](#run-a-job-collection)
@@ -243,8 +246,3 @@ The import action only requires you to select the location where the exported jo
 3. From the list, right-click the required job group and click **Recent Runs**.
 4. This provides the overall collection statistics, reports and individual logs for each of the jobs
    in the collection for their last run activity.
-
-**See Also**
-
-- [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)
-- [Synchronize Schedule](/docs/directorymanager/11.0/admincenter/schedule/synchronize.md)

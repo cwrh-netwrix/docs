@@ -9,7 +9,7 @@ sidebar_position: 100
 In GroupID portal, you can manage Dynasty structure and its membership using the following
 functions.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Manage attributes for an Organizational/Geographical/Custom Dynasty](#manage-attributes-for-an-organizationalgeographicalcustom-dynasty)
 - [Manage Managerial Dynasty structure](#manage-managerial-dynasty-structure)
@@ -36,7 +36,7 @@ for each state within a country, and finally for each city within a state.
 3. On the **Dynasty Options** tab, update the attributes in the **Attributes** area.
 
     Refer to the
-    [Dynasty Options page](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/dynastyoptionsorggeocus.md)
+    [Dynasty Options page](/docs/directorymanager/11.0/portal/group/dynasty/AD/dynastyoptionsorggeocus.md)
     for details.
 
 4. Click **Save**.
@@ -57,7 +57,7 @@ for each state within a country, and finally for each city within a state.
 3. On the **Dynasty Options** tab, modify the options related to the Dynasty structure.
 
     Refer to the
-    [Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.0/portal/group/dynasty/createdynasty/dynastyoptionsmanagerial.md)
+    [Dynasty Options page (Managerial Dynasty)](/docs/directorymanager/11.0/portal/group/dynasty/AD/dynastyoptionsmanagerial.md)
     for details.
 
 4. Click **Save**.
@@ -129,7 +129,3 @@ for each state within a country, and finally for each city within a state.
     for a Managerial Dynasty.
 
 4. Click **Save**.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

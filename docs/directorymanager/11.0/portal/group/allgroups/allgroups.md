@@ -137,11 +137,3 @@ You can add filters in **All Group Grid Filters** while searching for specific g
 
 5. You can add additional filters by clicking **Add Filter.**
 6. To undo the filters, click **Reset Filter.** It will remove all the criteria set before.
-
-**See Also**
-
-- [Groups](/docs/directorymanager/11.0/portal/group/create/overview.md)
-- [Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/overview.md)
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

@@ -14,7 +14,7 @@ Creating a custom template involves saving a job as a template. Therefore, you m
 job with commonly used settings before you can save it as a template. You can also create templates
 of existing jobs on-the-fly to reuse their settings in new jobs.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Job Template](#create-a-job-template)
 - [Import a Job Template](#import-a-job-template)
@@ -79,7 +79,7 @@ right corner.
 3. On the **Job Templates** page, click the **three vertical dots** icon on the template in the list
    and select **Create from Template**.
 
-    OR
+**OR**
 
     Click the job template you want to use for the new job..
 
@@ -126,9 +126,3 @@ the criteria set in the **Search Filters** section.
 5. Click **Apply Filter**.
 
     All the job templates that match the specified criterion are displayed.
-
-**See Also**
-
-- [Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
-- [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
-- [Synchronize Schedule](/docs/directorymanager/11.0/admincenter/schedule/synchronize.md)

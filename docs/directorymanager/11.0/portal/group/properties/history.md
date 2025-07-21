@@ -1,5 +1,5 @@
 ---
-title: "Object properties - History tab"
+title: "History tab"
 description: "Object properties - History tab"
 sidebar_position: 140
 ---
@@ -12,7 +12,7 @@ History is available if the administrator has enabled history tracking for the i
 GroupID Management Console. See
 [History](/docs/directorymanager/11.0/portal/history/overview.md).
 
-What do you want to do?
+**What do you want to do?**
 
 - [View History](#view-history)
 - [Export History Data](#export-history-data)
@@ -102,9 +102,3 @@ You can only remove the note that you have added.
 1. Click the **View Note** button next to a history item to view or remove the note for it.
 2. Click the **Edit Note** button and remove the note.
 3. Click **Update Note**.
-
-See Also
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
-- [History](/docs/directorymanager/11.0/portal/history/overview.md)
-- [Portal Settings](/docs/directorymanager/11.0/portal/generalfeatures/portal.md)

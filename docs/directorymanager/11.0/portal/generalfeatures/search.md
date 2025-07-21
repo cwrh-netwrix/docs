@@ -9,9 +9,12 @@ sidebar_position: 30
 Using the GroupID portal, you can search and manage different directory objects (users, groups,
 contacts and mailboxes).
 
-NOTE: The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::note
+The contact object type is not supported in a Microsoft Entra ID based identity store.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Search directory objects (Quick Search)](#search-directory-objects-quick-search)
 - [Search directory objects (Advanced Search)](#search-directory-objects-advanced-search)
@@ -33,9 +36,12 @@ role in the identity store.
 
     Matches are displayed on the **Search Results** page.
 
-NOTE: Display name, first name and email address are the default schema attributes for Quick Search.
+:::note
+Display name, first name and email address are the default schema attributes for Quick Search.
 If the GroupID administrator specifies different attributes, you will not get the desired results
 when you perform a search with the display name, first name or email address.
+:::
+
 
 ## Search directory objects (Advanced Search)
 
@@ -46,8 +52,11 @@ directory, depending on search permissions granted to your role in the identity 
 Multiple filters are available to search for objects. You can use them individually or in
 combination to get the most appropriate search results.
 
-NOTE: In portal's linked mode, you cannot search contacts in linked Azure / Google Workspace /
+:::note
+In portal's linked mode, you cannot search contacts in linked Azure / Google Workspace /
 Generic LDAP store as contact object is not available in these providers.
+:::
+
 
 1. Click **Advanced Search** at the top. The **Advanced Search** page is displayed.
 2. In the **Search** box:
@@ -56,8 +65,11 @@ Generic LDAP store as contact object is not available in these providers.
     want to search in. You can also specify the default search OUs using the **Domains to Search**
     setting on the User Settings panel.
 
-    NOTE: In **Linked** mode: the **Search** and the **Domains to Search** boxes will list all the
+    :::note
+    In **Linked** mode: the **Search** and the **Domains to Search** boxes will list all the
     domains of the linked identity stores. You can select domain(s) or OUs you want to search in.
+    :::
+
 
 3. In the **Objects** box, select the objects (User, mailboxes, contact, group) you want to search
    for.
@@ -85,8 +97,11 @@ identity store based on a query. See the
 [Query Based Advanced Search](/docs/directorymanager/11.0/portal/generalfeatures/querysearch.md)
 topic.
 
-NOTE: In portal's linked mode, you cannot search contacts in linked Azure / Google Workspace /
+:::note
+In portal's linked mode, you cannot search contacts in linked Azure / Google Workspace /
 Generic LDAP store as contact object is not available in these providers.
+:::
+
 
 ## View Search Results
 
@@ -131,7 +146,3 @@ You can perform multiple actions on objects. See the
 To move through search results, use the page numbers given at the bottom of the listing. You can
 also control the number of results per page by modifying the **Search results per page** setting on
 the User Settings panel.
-
-See Also
-
-- [Portal Settings](/docs/directorymanager/11.0/portal/generalfeatures/portal.md)

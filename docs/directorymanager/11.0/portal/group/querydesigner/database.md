@@ -1,5 +1,5 @@
 ---
-title: "Query Designer - Database tab"
+title: "Database tab"
 description: "Query Designer - Database tab"
 sidebar_position: 70
 ---
@@ -68,7 +68,7 @@ For example:
 SELECT [Column1],[Column2] FROM [Filename.csv]
 ```
 
-Execute
+**Execute**
 
 Click this button to execute the command and preview the results. This process may take several
 minutes depending on the size of your data source.
@@ -94,7 +94,3 @@ Discards settings and closes the dialog box.
 **LDAP Query**
 
 View the provider query in the LDAP Query box.
-
-**See Also**
-
-- [Query Designer](/docs/directorymanager/11.0/portal/group/querydesigner/overview.md)

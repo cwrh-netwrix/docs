@@ -70,8 +70,11 @@ fields.
 destination: The target location to which to copy data. Destinations must be Exchange 5.5, Active
 Directory, SQL Server, or Excel.
 
-NOTE: This transformation can adversely affect performance, as it adds an additional query to each
+:::note
+This transformation can adversely affect performance, as it adds an additional query to each
 record. It applies to Active Directory and Exchange only.
+:::
+
 
 ## Join
 
@@ -145,13 +148,3 @@ custom scripts. Use the **Script** template by selecting a built-in transform th
 the functionality you need, select parameters, if any, and then switch the transform type to
 **Script** to view the resulting script. You can then modify the script to add the functionality you
 need.
-
-**See Also**
-
-- [Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
-- [Objects, Fields and Mapping ](/docs/directorymanager/11.0/portal/synchronize/create/objectfieldsandmapping.md)
-- [Auto-Generate Unique, Complex Passwords](/docs/directorymanager/11.0/portal/synchronize/transformation/autogenerateuniquepassword.md)
-- [Script](/docs/directorymanager/11.0/portal/synchronize/dtmscript/dtmscript.md)
-- [Visual Basic .NET for GroupID](/docs/directorymanager/11.0/portal/synchronize/dtmscript/visualbasicnetbasic.md)
-- [Sample Transform Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/sampletransformscript.md)
-- [Sample Container Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/samplecontainerscript.md)

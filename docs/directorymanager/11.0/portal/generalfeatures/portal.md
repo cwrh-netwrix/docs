@@ -12,26 +12,6 @@ personalize the GroupID portal.
 These settings are saved for a user with respect to the identity store. When this user logs on to
 another GroupID portal for the same identity store, the settings apply there too.
 
-What do you want to do?
-
-- [Set Identity Store mode](#set-identity-store-mode)
-- [Set a language for notifications](#set-a-language-for-notifications)
-- [Set the time zone](#set-the-time-zone)
-- [Set a default start page](#set-a-default-start-page)
-- [Set the number of history items to show on the home page](#set-the-number-of-history-items-to-show-on-the-home-page)
-- [Set the number of history items to show for objects](#set-the-number-of-history-items-to-show-for-objects)
-- [Set the number of recent objects to show](#set-the-number-of-recent-objects-to-show)
-- [Set the default domains for search lists](#set-the-default-domains-for-search-lists)
-- [Set the number of results to show on a page](#set-the-number-of-results-to-show-on-a-page)
-- [Show additional group ownership in My Groups](#show-additional-group-ownership-in-my-groups)
-- [Show additional group ownership in My Expiring Groups](#show-additional-group-ownership-in-my-expiring-groups)
-- [Show additional group ownership in My Expired Groups](#show-additional-group-ownership-in-my-expired-groups)
-- [Show additional group ownership in My Deleted Groups](#show-additional-group-ownership-in-my-deleted-groups)
-- [Display additional group ownership in my Smart Groups](#display-additional-group-ownership-in-my-smart-groups)
-- [Display additional group ownership in my Dynasties](#display-additional-group-ownership-in-my-dynasties)
-- [Display Additional Manager Direct Reports](#display-additional-manager-direct-reports)
-- [Reset default user options](#reset-default-user-options)
-
 ## Set Identity Store mode
 
 GroupID portal works with a single identity store. However, GroupID also enables administrators to
@@ -237,12 +217,3 @@ You can reset the settings on the **User Settings** panel to their default value
     | Search results per page                        | 25                                               |
     | Display additional group ownership check boxes | Not selected                                     |
     | Display Additional Manager Direct Reports      | Not selected                                     |
-
-**See Also**
-
-- [My History](/docs/directorymanager/11.0/portal/history/myhistory.md)
-- [My Groups' History](/docs/directorymanager/11.0/portal/history/mydirectorygroup.md)
-- [My Groups](/docs/directorymanager/11.0/portal/group/mygroups/mygroups.md)
-- [My Expiring Groups](/docs/directorymanager/11.0/portal/group/mygroups/myexpiringgroups.md)
-- [My Expired Groups](/docs/directorymanager/11.0/portal/group/mygroups/myexpiredgroups.md)
-- [My Deleted Groups](/docs/directorymanager/11.0/portal/group/mygroups/mydeletedgroups.md)

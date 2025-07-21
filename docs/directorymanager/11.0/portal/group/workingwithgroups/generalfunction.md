@@ -1,14 +1,14 @@
 ---
-title: "General Group functions"
+title: "General Functions"
 description: "General Group functions"
 sidebar_position: 10
 ---
 
-# General Group functions
+# General Functions
 
 You can perform the following general functions on your directory groups.
 
-What do you want to do
+**What do you want to do**
 
 - [Search for groups](#search-for-groups)
 - [View object properties](#view-object-properties)
@@ -65,7 +65,10 @@ required.
 
 You can allow or restrict a group from receiving emails from specified recipients.
 
-NOTE: This feature is not available for groups in a Microsoft Entra ID based identity store.
+:::note
+This feature is not available for groups in a Microsoft Entra ID based identity store.
+:::
+
 
 1. In GroupID portal, click **Groups** in the left navigation pane, select **My Groups**.
 
@@ -91,7 +94,3 @@ NOTE: This feature is not available for groups in a Microsoft Entra ID based ide
        [Find Dialog Box](/docs/directorymanager/11.0/portal/generalfeatures/find.md) for performing
        a search.
 6. Save the changes.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

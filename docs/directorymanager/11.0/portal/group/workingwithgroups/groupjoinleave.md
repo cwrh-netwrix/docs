@@ -9,7 +9,7 @@ sidebar_position: 110
 GroupID provides you the facility to join/leave a group temporarily or permanently for a specified
 period of time.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Join a group permanently](#join-a-group-permanently)
 - [Join a group temporarily](#join-a-group-temporarily)
@@ -36,9 +36,12 @@ When a user joins a Smart Group or Dynasty, he or she is added to the **Include*
 of the Query Designer. As a result, the user remains a group member even when it does not fall in
 the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _join_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _join_ request before you are
 added to group membership. See
 [Requests](/docs/directorymanager/11.0/portal/request/overview.md).
+:::
+
 
 ## Join a group temporarily
 
@@ -69,9 +72,12 @@ When a user joins a Smart Group or Dynasty, he or she is added to the **Include*
 of the Query Designer. As a result, the user remains a group member even when it does not fall in
 the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _join_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _join_ request before you are
 added to group membership. See
 [Requests](/docs/directorymanager/11.0/portal/request/overview.md).
+:::
+
 
 ## Leave a group permanently
 
@@ -81,7 +87,7 @@ The logged-in user can permanently leave the membership of a semi-private or pub
 
     Select the **My Groups**/**My Memberships** tab.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md) the group(s)
     you want to leave.
@@ -99,9 +105,12 @@ When a user leaves a Smart Group or Dynasty, he or she is added to the **Exclude
 of the Query Designer. As a result, the user is not added to group membership even when it falls in
 the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _leave_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _leave_ request before you are
 removed from group membership. See
 [Requests](/docs/directorymanager/11.0/portal/request/overview.md).
+:::
+
 
 ## Leave a group temporarily
 
@@ -111,7 +120,7 @@ The logged-in user can leave the membership of a semi-private or public group on
 
     Select the **My Groups**/**My Memberships** tab.
 
-    Or
+**Or**
 
     [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md) the group(s)
     you want to leave.
@@ -139,9 +148,12 @@ When a user leaves a Smart Group or Dynasty, he or she is added to the **Exclude
 of the Query Designer. As a result, the user is not added to group membership even when it falls in
 the scope of the query.
 
-NOTE: For a semi-private group, the group owner must approve your _leave_ request before you are
+:::note
+For a semi-private group, the group owner must approve your _leave_ request before you are
 removed from group membership. See
 [Requests](/docs/directorymanager/11.0/portal/request/overview.md).
+:::
+
 
 ## Join or leave a group on behalf of a direct report or peer
 
@@ -224,10 +236,8 @@ When a user is removed on behalf from a Smart Group or Dynasty, he or she is add
 of the Query Designer. As a result, the user is not added to group membership even when it falls in
 the scope of the query.
 
-NOTE: For a semi-private group, workflow is triggered and a notification is sent to the group’s
+:::note
+For a semi-private group, workflow is triggered and a notification is sent to the group’s
 primary owner for approval. If the requester is the default approver, the request is auto approved.
 Else, the request must be approved by an authorized user for changes to take effect.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)
+:::

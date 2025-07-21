@@ -26,8 +26,3 @@ The new password must meet the complexity requirements specified for the identit
     - **New password** and **Confirm password** - Type a new password for the specified user.
 
 4. Click **Save**.
-
-**See Also**
-
-- [Access Portal](/docs/directorymanager/11.0/portal/login.md)
-- [Dashboard](/docs/directorymanager/11.0/portal/dashboard.md)

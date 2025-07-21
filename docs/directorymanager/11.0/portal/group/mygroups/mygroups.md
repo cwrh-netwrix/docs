@@ -131,11 +131,3 @@ You can add filters in **My Group Grid Filters** while searching for specific gr
 6. To undo the filters, click **Reset Filter.**
 
     It will remove all the criteria set before.
-
-**See Also**
-
-- [Groups](/docs/directorymanager/11.0/portal/group/create/overview.md)
-- [Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/overview.md)
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

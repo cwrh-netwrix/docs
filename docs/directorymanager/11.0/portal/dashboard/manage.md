@@ -17,7 +17,7 @@ Reports listings displays the following for each report:
 
 You can run, edit, download, and delete the job from the Reports listing.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Run a Report](#run-a-report)
 - [Edit a Report](#edit-a-report)

@@ -26,7 +26,7 @@ Your account can get locked due to:
 With authentication disabled, you cannot authenticate yourself on the GroupID portal; hence, you
 cannot unlock your identity store accounts or reset your passwords until the account is unlocked.
 
-What do you want to do?
+**What do you want to do?**
 
 - Unlock Identity Store User Accounts after Wrong Password Attempts (Enrolled Users)
 - Unlock Identity Store User Accounts after Wrong Password Attempts (Unenrolled Users)
@@ -206,11 +206,7 @@ This type of account unlock can be resolved in one of the following two ways:
 
 - You wait for the specified duration, after which the account will be unlocked automatically.
 
-    NOTE: Helpdesk members cannot unlock accounts that get locked out on providing a wrong response
+    :::note
+    Helpdesk members cannot unlock accounts that get locked out on providing a wrong response
     to the authentication type(s).
-
-**See Also**
-
-- [Enroll Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/enrollaccount.md)
-- [Reset Passwords](/docs/directorymanager/11.0/portal/secondfactorauthentication/passwordreset.md)
-- [ Change your password](/docs/directorymanager/11.0/portal/user/manage/changepassword.md)
+    :::

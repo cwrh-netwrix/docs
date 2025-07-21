@@ -14,8 +14,11 @@ To do this, provide the existing password and then a new password to replace it.
 must conform to the password policy the administrator has defined for your role in the connected
 identity store.
 
-NOTE: Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords
+:::note
+Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords
 in GroupID. The following message is displayed:
+:::
+
 
 ![Change Password error message for Entra ID user](/img/product_docs/directorymanager/11.0/portal/user/manage/changepasswordentraiduser.webp)
 
@@ -56,8 +59,3 @@ GroupID.
 
 5. On successful change password, the message,"Password has been reset successfully." is displayed.
 6. Click **OK**.
-
-**See Also**
-
-- [Access Portal](/docs/directorymanager/11.0/portal/login.md)
-- [Dashboard](/docs/directorymanager/11.0/portal/dashboard.md)

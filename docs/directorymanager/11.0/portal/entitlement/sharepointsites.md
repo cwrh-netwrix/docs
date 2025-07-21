@@ -29,7 +29,7 @@ Once permissions are replicated, the site is enabled.
 - You can search specific sites on the search bar on the top. If you want to undo the search
   results, click **Refresh** which will display all the sites on the page.
 
-What do you want to do?
+**What do you want to do?**
 
 - Explore a Site Card View
 - View levels and permissions on a library
@@ -43,7 +43,10 @@ showcasing the following information:
 
 - The date and time the library was last created.
 
-    NOTE: Date format: mm/dd/yyyy
+    :::note
+    Date format: mm/dd/yyyy
+    :::
+
 
 - You can view the files and folders within a document library till the nth level. Double-click a
   folder card to view its direct child files and folders. Continue till the nth level.
@@ -79,8 +82,11 @@ Information includes:
 
     You can view and update properties, depending on your rights and privileges.
 
-    NOTE: For groups, this functionality is available for domain groups only; SharePoint groups are
+    :::note
+    For groups, this functionality is available for domain groups only; SharePoint groups are
     not linked.
+    :::
+
 
 - Clicking a level for a user displays the effective permissions assigned to this user on the
   file/folder.
@@ -120,7 +126,7 @@ with respect to the specified permission(s).
 
 User: Administrator
 
-Access type: Allow
+**Access type: Allow**
 
 Permission: WriteAttributes, ExecuteFile, Read
 
@@ -139,7 +145,3 @@ displayed in the results.
 | User/Group has the 'Limited Access' permission level on a file/folder. | 'Allow' only for the View Application Pages list permission.                                                       |
 | User/Group has the 'Edit' permission level on a file/folder.           | 'Allow' for all list permissions except Full Control and Approve Items.                                            |
 | User/Group has the 'Read' permission level on a file/folder.           | 'Allow' for the View Items, Open Items, View Versions, Create Alerts, and View Application Pages list permissions. |
-
-**See Also**
-
-- [ Entitlement](/docs/directorymanager/11.0/portal/entitlement/overview.md)

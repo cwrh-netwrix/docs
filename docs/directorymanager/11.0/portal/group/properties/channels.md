@@ -1,5 +1,5 @@
 ---
-title: "Teams Properties - Channels"
+title: "Channels"
 description: "Teams Properties - Channels"
 sidebar_position: 170
 ---
@@ -47,7 +47,3 @@ Click **Add** to add the channel to the Teams group. The channel get listed in t
 
 Select a channel from the **Channels** list and click **Remove** to remove this channel from the
 membership of Teams group.
-
-**See Also**
-
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

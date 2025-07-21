@@ -1,5 +1,5 @@
 ---
-title: "Mailbox properties - Auto Reply tab"
+title: "Auto Reply tab"
 description: "Mailbox properties - Auto Reply tab"
 sidebar_position: 20
 ---
@@ -52,7 +52,3 @@ Select this option button to send replies to all external senders.
 
 In the text box, type the content that should be sent as the reply to the senders who do not belong
 to your organization.
-
-**See Also**
-
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)

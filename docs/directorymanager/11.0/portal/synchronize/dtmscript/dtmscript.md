@@ -166,9 +166,3 @@ file as follows:
  Dim ds = New System.Data.DataSet()<br xmlns="http://www.w3.org/1999/xhtml" /> ds.ReadXml("C:\Temp\MyFile.xml")
                 
 ```
-
-**See Also**
-
-- [Visual Basic .NET for GroupID](/docs/directorymanager/11.0/portal/synchronize/dtmscript/visualbasicnetbasic.md)
-- [Sample Transform Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/sampletransformscript.md)
-- [Sample Container Scripts](/docs/directorymanager/11.0/portal/synchronize/dtmscript/samplecontainerscript.md)

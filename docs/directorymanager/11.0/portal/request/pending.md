@@ -23,9 +23,3 @@ You can perform the following functions on **Requests Inbox** page:
 - [Approve a request](/docs/directorymanager/11.0/portal/request/allrequest.md#approve-a-request).
 - [Deny a request](/docs/directorymanager/11.0/portal/request/allrequest.md#deny-a-request).
 - [Filter requests](/docs/directorymanager/11.0/portal/request/allrequest.md#filter-requests).
-
-**See Also**
-
-- [Requests](/docs/directorymanager/11.0/portal/request/overview.md)
-- [All Requests](/docs/directorymanager/11.0/portal/request/allrequest.md)
-- [My Requests](/docs/directorymanager/11.0/portal/request/myrequest.md)

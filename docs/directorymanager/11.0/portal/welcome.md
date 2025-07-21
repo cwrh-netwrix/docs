@@ -36,17 +36,8 @@ that users enter correct data before changes are committed to the directory.
 A GroupID portal can be linked with multiple identity stores, thus eliminating the need to create a
 separate portal for each identity store. Users can select an identity store to log in.
 
-NOTE: Since the administrator can customize the portal for different identity stores and for
+:::note
+Since the administrator can customize the portal for different identity stores and for
 different user roles within an identity stores, you may not have access to all portal features.
 
-**See Also**
-
-- [Access Portal](/docs/directorymanager/11.0/portal/login.md)
-- [Dashboard](/docs/directorymanager/11.0/portal/dashboard.md)
-- [Group Management](/docs/directorymanager/11.0/portal/group/overview.md)
-- [User Management](/docs/directorymanager/11.0/portal/user/overview.md)
-- [Requests](/docs/directorymanager/11.0/portal/request/overview.md)
-- [History](/docs/directorymanager/11.0/portal/history/overview.md)
-- [ Entitlement](/docs/directorymanager/11.0/portal/entitlement/overview.md)
-- [Synchronize](/docs/directorymanager/11.0/portal/synchronize/overview.md)
-- [Reports](/docs/directorymanager/11.0/portal/dashboard/dashboard.md)
+:::

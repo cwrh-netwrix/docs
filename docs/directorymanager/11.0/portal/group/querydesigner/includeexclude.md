@@ -1,5 +1,5 @@
 ---
-title: "Query Designer - Include/Exclude tab"
+title: "Include/Exclude tab"
 description: "Query Designer - Include/Exclude tab"
 sidebar_position: 20
 ---
@@ -19,8 +19,11 @@ update process:
   Update command, GroupID obtains the query results, adds the objects to include, and then removes
   the objects to exclude.
 
-NOTE: For best performance, use query criteria to include or exclude objects as opposed to
+:::note
+For best performance, use query criteria to include or exclude objects as opposed to
 statically selecting the objects using this tab.
+:::
+
 
 **Include**
 
@@ -50,7 +53,3 @@ Discards settings and closes the dialog box.
 **LDAP Query**
 
 View the provider query in the LDAP Query box.
-
-**See Also**
-
-- [Query Designer](/docs/directorymanager/11.0/portal/group/querydesigner/overview.md)

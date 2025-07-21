@@ -43,17 +43,13 @@ You can control the number of records to be displayed per page by modifying the 
 page** setting on the User Settings panel. You can modify the search results in **Modify Search
 Directory.** You can select entire directory or a domain to search active groups from.
 
-NOTE: You cannot add or remove direct reports on this page. Use the **Organization** tab of your
+:::note
+You cannot add or remove direct reports on this page. Use the **Organization** tab of your
 profile to add or remove your direct reports.  
 You can also transfer and terminate your direct reports while you validate your Profile.
+:::
+
 
 To view any changes made to your direct reports, see the
 [My Direct Reports' History](/docs/directorymanager/11.0/portal/history/mydirectreport.md)
 topic.
-
-**See Also**
-
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)
-- [Create an AD User](/docs/directorymanager/11.0/portal/user/create/activedirectory/user.md)
-- [Directory Search](/docs/directorymanager/11.0/portal/generalfeatures/search.md)
-- [Validate your profile](/docs/directorymanager/11.0/portal/user/manage/validateprofile.md)

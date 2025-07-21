@@ -19,7 +19,7 @@ Supported file formats are:
 - Microsoft Excel (.xls and .xlsx)
 - Extensible Markup Language (.xml)
 
-What do you want to do?
+**What do you want to do?**
 
 - [Import additional owners using a wizard](#import-additional-owners-using-a-wizard)
 
@@ -65,9 +65,3 @@ launch the **Import Additional Owners** wizard.
         Shows objects for which duplicate entries were found in the destination directory.
 
 6. Click **Finish** to import the Additional Owners.
-
-**See Also**
-
-- [Groups](/docs/directorymanager/11.0/portal/group/create/overview.md)
-- [Dynasty](/docs/directorymanager/11.0/portal/group/dynasty/overview.md)
-- [Group Properties](/docs/directorymanager/11.0/portal/group/properties/overview.md)

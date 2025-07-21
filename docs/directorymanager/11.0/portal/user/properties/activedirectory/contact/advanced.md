@@ -1,5 +1,5 @@
 ---
-title: "Contact properties - Advanced tab"
+title: "Advanced tab"
 description: "Contact properties - Advanced tab"
 sidebar_position: 10
 ---
@@ -25,7 +25,3 @@ The employee ID of the contact.
 **Admin No**tes
 
 Notes by the administrator.
-
-**See Also**
-
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)

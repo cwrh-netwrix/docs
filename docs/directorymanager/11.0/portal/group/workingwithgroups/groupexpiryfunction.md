@@ -9,7 +9,7 @@ sidebar_position: 120
 You can expire, renew or delete a group using GroupID portal. You can change expiry policy of a
 group and attest an expiring group, if required.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Expire a group manually ](#expire-a-group-manually)
 - [Change the expiry policy for a group](#change-the-expiry-policy-for-a-group)
@@ -26,7 +26,10 @@ What do you want to do?
 
 2. On the page displayed, select the required group and click **Expire** on the toolbar.
 
-NOTE: Note the following:
+:::note
+Note the following:
+:::
+
 
 - When you try to manually expire a group with the expiry policy set to ‘Never Expire’, an error
   message is displayed, informing you that the group cannot be expired.
@@ -77,9 +80,12 @@ page.
 
 4. Click **Save**.
 
-NOTE: If the GroupID administrator has specified this action for review, your changes will not take
+:::note
+If the GroupID administrator has specified this action for review, your changes will not take
 effect until verified by an approver. See
 [Requests](/docs/directorymanager/11.0/portal/request/overview.md).
+:::
+
 
 ## Attest an expiring group
 
@@ -98,7 +104,3 @@ automatically deletes it from the directory.
 1. On the left navigation bar, click **Groups** and then select the **My Groups** tab.
 2. Go to **My Expired Groups** tab and select the required group and click **Renew** on the toolbar.
 3. Click **OK** to confirm the renewal.
-
-**See Also**
-
-- [Working with Groups](/docs/directorymanager/11.0/portal/group/workingwithgroups/workingwithgroups.md)

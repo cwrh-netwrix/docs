@@ -78,8 +78,3 @@ enroll his or her identity store account with.
         1. On the **Authenticate Account** page, select **Windows Hello** and click **Continue**.
         2. Click **Authenticate and Continue**.
         3. Provide the biometric information you enrolled your account with.
-
-**See Also**
-
-- [Second Factor Authentication](/docs/directorymanager/11.0/portal/secondfactorauthentication/secondfactorauthentication.md)
-- [Enroll Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/enrollaccount.md)

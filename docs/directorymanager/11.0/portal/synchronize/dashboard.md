@@ -27,11 +27,12 @@ and job templates.
 
 The top right corner of the application displays:
 
-| Icon                 | Description                                                                                                                                                                                                                                                                                                                                           |
-| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Background jobs icon | View the status of jobs and job collections that are running in the background. It displays: - Jobs - Completed Jobs: Jobs that have been completed. - In Progress Jobs: Jobs that are still in running. - Job Collections - Completed Jobs: Job collections that have been completed. - In Progress Jobs: Job collections that are still in running. |
-| Help icon            | Launch the synchronize portal help.                                                                                                                                                                                                                                                                                                                   |
-| User profile icon    | Displays your profile picture with your name and the identity store that GroupID Portal is connected to. Click it to launch the menu that displays the option to [Sign Out](/docs/directorymanager/11.0/portal/login.md#sign-out) of the portal.                                                                                             |
+| Icon | Description |
+| --- | --- |
+| Background jobs icon | View the status of jobs and job collections that are running in the background. It displays: <ul><li>Jobs<ul><li>Completed Jobs: Jobs that have been completed.</li><li>In Progress Jobs: Jobs that are still in running.</li></ul></li><li>Job Collections<ul><li>Completed Jobs: Job collections that have been completed.</li><li>In Progress Jobs: Job collections that are still in running.</li></ul></li></ul> |
+| Help icon            | Launch the synchronize portal |
+| User profile icon    | Displays your profile picture with your name and the identity store that GroupID Portal is connected to. <br />Click it to launch the menu that displays the option to [Sign Out](/docs/directorymanager/11.0/portal/login.md#sign-out) of the portal.                                                                                                                                                    |
+
 
 ## Menu Pane
 
@@ -39,7 +40,7 @@ Look on the left side of the page for the navigation pane, which lists links to:
 
 - Create New ([Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
   and
-  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md))
+  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md))
 - Dashboard
 - [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
 - [Manage a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollection.md)
@@ -58,11 +59,3 @@ The dashboard comprises of the following cards:
 | Scheduled Jobs         | Displays jobs that will run based on the time set for them. |
 | My Pinned Jobs         | Displays frequently used jobs.                              |
 | Pinned Job Collections | Displays frequently used job collections.                   |
-
-**See Also**
-
-- [Synchronize](/docs/directorymanager/11.0/portal/synchronize/overview.md)
-- [Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
-- [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/create_1.md)
-- [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
-- [Manage a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollection.md)

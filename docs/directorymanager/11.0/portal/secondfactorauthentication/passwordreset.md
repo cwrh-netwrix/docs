@@ -19,7 +19,7 @@ authenticate their accounts using the authentication type(s) they enrolled their
 successful authentication, users can reset account password in accordance with the password policies
 the GroupID administrator has defined for your role in the identity store.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Reset identity store account password (enrolled users)](#reset-identity-store-account-password-enrolled-users)
 - [Reset identity store account password (unenrolled users)](#reset-identity-store-account-password-unenrolled-users)
@@ -175,9 +175,3 @@ What do you want to do?
 7. Follow the steps 6 - 12 in
    [Reset identity store account password (enrolled users)](#reset-identity-store-account-password-enrolled-users)
    section to reset your password.
-
-**See Also**
-
-- [Enroll Your Identity Store Account](/docs/directorymanager/11.0/portal/secondfactorauthentication/enrollaccount.md)
-- [ Change your password](/docs/directorymanager/11.0/portal/user/manage/changepassword.md)
-- [Unlock your accounts](/docs/directorymanager/11.0/portal/user/manage/unlockaccount.md)

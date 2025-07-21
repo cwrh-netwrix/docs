@@ -60,12 +60,3 @@ Groups History page.
 
 Use the **Most recent objects** setting on the User Settings panel to specify the number of recent
 objects to show on the **My Account History** card on Dashboard.
-
-See Also
-
-- [My History](/docs/directorymanager/11.0/portal/history/myhistory.md)
-- [My Direct Reports' History](/docs/directorymanager/11.0/portal/history/mydirectreport.md)
-- [My Groups' History](/docs/directorymanager/11.0/portal/history/mydirectorygroup.md)
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)
-- [Portal Settings](/docs/directorymanager/11.0/portal/generalfeatures/portal.md)
-- [History in GroupID](/docs/directorymanager/11.0/admincenter/concepts/history.md)

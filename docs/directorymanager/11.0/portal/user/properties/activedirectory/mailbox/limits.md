@@ -1,5 +1,5 @@
 ---
-title: "Mailbox properties - Limits tab"
+title: "Limits tab"
 description: "Mailbox properties - Limits tab"
 sidebar_position: 30
 ---
@@ -28,7 +28,3 @@ ability to send emails.
 
 The maximum mailbox size, in kilobytes (KB) for this user, that, when exceeded, suspends the user's
 ability to both send and receive emails.
-
-**See Also**
-
-- [User Properties](/docs/directorymanager/11.0/portal/user/properties/overview.md)

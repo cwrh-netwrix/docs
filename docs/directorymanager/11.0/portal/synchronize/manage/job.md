@@ -10,7 +10,7 @@ After creating a job, you can open a job to edit and change the settings of the 
 rename a job without changing its setting or entirely delete a job. All these actions are easily
 accessible through the Actions pane in **All Jobs** page.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Filter a Job](#filter-a-job)
 - [Open a Job](#open-a-job)
@@ -224,8 +224,3 @@ renaming a job does not affect its settings.
     2. In the **Description** box, type a new description for the box (optional).
 
 6. Click **Save** to close the dialog box and save changes.
-
-**See Also**
-
-- [Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
-- [Synchronize Schedule](/docs/directorymanager/11.0/admincenter/schedule/synchronize.md)
