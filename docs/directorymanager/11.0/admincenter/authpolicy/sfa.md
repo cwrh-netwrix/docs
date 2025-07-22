@@ -16,9 +16,12 @@ Once enrolled, role members must authenticate their accounts using an authentica
 enrolled with, while signing into Admin Center, GroupID portal or the GroupID mobile app. Users
 enrolled with multiple authentication types can use any one type to authenticate.
 
-NOTE: GroupID SFA does not apply to Microsoft Entra ID MFA enabled users.
+:::note
+GroupID SFA does not apply to Microsoft Entra ID MFA enabled users.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - Configure Second Factor Authentication
 
@@ -38,10 +41,3 @@ Step 2 – Enable second factor authentication for a security role in an identit
 See the
 [Enable Second Factor Authentication](/docs/directorymanager/11.0/admincenter/securityrole/policy/authentication.md#enable-second-factor-authentication)
 topic for details.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Configure Multifactor Authentication](/docs/directorymanager/11.0/admincenter/authpolicy/mfa.md)
-- [Enroll with Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/enroll.md)
-- [Authenticate with Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/authenticate.md)

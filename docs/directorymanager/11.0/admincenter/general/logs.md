@@ -10,7 +10,7 @@ GroupID generates logs for its services, clients, and Windows events, which are 
 locations on the network. Rather than locating these log files in their respective folders, you can
 collect and dump your required logs to a desired location.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Get Log Files](#get-log-files)
 
@@ -43,9 +43,3 @@ What do you want to do?
 4. Click **Download**.  
    GroupID creates a zipped file containing the selected logs and saves it to the download location
    set in browser settings.
-
-**See Also**
-
-- [Event Logging](/docs/directorymanager/11.0/admincenter/identitystore/view/eventlogging.md)
-- For a Portal -
-  [Manage Log Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/log.md)

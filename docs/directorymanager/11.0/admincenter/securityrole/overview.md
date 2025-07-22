@@ -14,7 +14,10 @@ GroupID has the following built-in roles that you can assign to users:
 - **Helpdesk:** This role is available for helpdesk users, who can reset identity store account
   passwords and unlock identity store accounts on behalf of other users.
 
-    NOTE: The Helpdesk role is not available by default for a Microsoft Entra ID identity store.
+    :::note
+    The Helpdesk role is not available by default for a Microsoft Entra ID identity store.
+    :::
+
 
 - **User:** This role can be assigned to standard users, who can create new groups, manage their
   groups, update their directory profiles, and manage their direct reports.
@@ -67,9 +70,3 @@ priority is used to determine the access level of the user on the specific clien
 To view the highest priority role of a user with respect to a GroupID client, see the
 [Check the Roles of a User](/docs/directorymanager/11.0/admincenter/securityrole/checkrole.md)
 topic.
-
-See Also
-
-- [Identity Stores](/docs/directorymanager/11.0/admincenter/identitystore/overview.md)
-- [Create a Security Role](/docs/directorymanager/11.0/admincenter/securityrole/create.md)
-- [Manage Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/manage.md)

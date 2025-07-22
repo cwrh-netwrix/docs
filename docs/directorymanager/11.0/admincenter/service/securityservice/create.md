@@ -8,7 +8,7 @@ sidebar_position: 10
 
 You can create a Security service in native IIS, remote IIS, and Docker.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Security Service in Native IIS](#create-a-security-service-in-native-iis)
 - [Create a Security Service in Remote IIS](#create-a-security-service-in-remote-iis)
@@ -104,7 +104,10 @@ For an overview on application deployment in Docker, see the
 [Prerequisites for Deployments in Docker](/docs/directorymanager/11.0/admincenter/applications/dockerprerequisites.md)
 topic.
 
-NOTE: To host the Security service, Docker daemon should be configured to run Windows containers.
+:::note
+To host the Security service, Docker daemon should be configured to run Windows containers.
+:::
+
 
 **To create a Security service:**
 
@@ -131,11 +134,5 @@ NOTE: To host the Security service, Docker daemon should be configured to run Wi
 1. In Admin Center, select **Applications** in the left pane.
 2. On the **Security Service** tab, click **Launch Application** for a service. The **GroupID
    Applications** page is displayed. Options on this page are discussed in the
-   [Access your Applications](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md)
+   [Access your Applications](/docs/directorymanager/11.0/admincenter/general/accessapplications.md)
    topic. Any actions you perform will be carried out through the respective Security service.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)
-- [Manage Security Service Settings](/docs/directorymanager/11.0/admincenter/service/securityservice/manage.md)

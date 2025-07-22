@@ -12,7 +12,7 @@ You can create a Reports schedule and add reports to it. When the schedule runs,
 are auto generated. The Reports schedule also sends email notifications to the designated
 recipients.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Reports Schedule](#create-a-reports-schedule)
 
@@ -36,9 +36,12 @@ What do you want to do?
 8. To add reports to the schedule, click **Add Report(s)** in the **Reports** area. The **Add
    Reports to Schedule** dialog box is displayed.
 
-    NOTE: You can only add reports that have been generated in the GroupID portal, since the
+    :::note
+    You can only add reports that have been generated in the GroupID portal, since the
     schedule uses the settings provided there to generate the report. Moreover, you cannot change
     the settings here, such as the container and filter settings.
+    :::
+
 
     1. In the **Object Category** drop-down list, select a report category. Available categories
        are: _All Categories, Users, Groups, Contacts and Computers_. In the GroupID portal, reports
@@ -92,7 +95,3 @@ What do you want to do?
     The schedule is displayed under **Reports**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic
     for details.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

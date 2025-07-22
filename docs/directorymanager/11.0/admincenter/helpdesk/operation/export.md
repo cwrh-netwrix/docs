@@ -8,7 +8,7 @@ sidebar_position: 40
 
 You can export users' information to an Excel, XML, or CSV file.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Export Users](#export-users)
 
@@ -24,8 +24,3 @@ What do you want to do?
    to select all users. Then click **Export**.
 4. Select a file format in the list. The file is saved to the download location specified in your
    browser settings.
-
-**See Also**
-
-- [Helpdesk](/docs/directorymanager/11.0/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/directorymanager/11.0/admincenter/helpdesk/operation/overview.md)

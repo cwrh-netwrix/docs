@@ -9,7 +9,7 @@ sidebar_position: 10
 You can manage general server settings for a portal, such as change it's display name, associate
 identity stores with it, and view it's various deployments.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Change a Portal's Display Name](#change-a-portals-display-name)
 - [Associate Identity Stores with a Portal](#associate-identity-stores-with-a-portal)
@@ -54,7 +54,10 @@ Users can connect a portal to an associated identity store only.
 
 4. Click **Save.**
 
-NOTE: You may observe the following message on the **Server Settings – General** page:
+:::note
+You may observe the following message on the **Server Settings – General** page:
+:::
+
 
 ![linked_message](/img/product_docs/directorymanager/11.0/admincenter/portal/linked_message.webp)
 
@@ -97,7 +100,3 @@ settings for each deployment instance of a portal.
       Select an instance to view the port and Service URL used for deployment. See the
       [Manage Settings for a Docker Deployment](/docs/directorymanager/11.0/admincenter/applications/portal/server/docker.md)
       topic for details.
-
-**See Also**
-
-- [Create a GroupID Portal](/docs/directorymanager/11.0/admincenter/applications/portal/create.md)

@@ -10,7 +10,7 @@ To authenticate your identity store account in GroupID for multifactor authentic
 factor authentication, you must use one or more authentication types that you enrolled your account
 with.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Authenticate using Security Questions](#authenticate-using-security-questions)
 - [Authenticate using Mobile](#authenticate-using-mobile)
@@ -48,7 +48,10 @@ GroupID for authentication.
    the page. Enter the received code in it.
 6. Click **Verify and Continue**.
 
-RECOMMENDED: If you do not receive the code, recheck your mobile number and click **Send Again**.
+:::info
+If you do not receive the code, recheck your mobile number and click **Send Again**.
+:::
+
 
 ## Authenticate using Email
 
@@ -68,7 +71,10 @@ for authentication.
    the page. Enter the received code in it.
 6. Click **Verify and Continue**.
 
-RECOMMENDED: If you do not receive the code, recheck your email address and click **Send Again**.
+:::info
+If you do not receive the code, recheck your email address and click **Send Again**.
+:::
+
 
 ## Authenticate using Authenticator
 
@@ -104,10 +110,3 @@ RECOMMENDED: If you do not receive the code, recheck your email address and clic
 4. On the next page, click **Authenticate and Continue**.
 5. Authenticate with the provided biometric information or with the PIN given in the Windows Hello
    sign-in options.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Enable Authentication Types](/docs/directorymanager/11.0/admincenter/identitystore/configure/authtypes.md)
-- [Authentication Policy for Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/policy/authentication.md)
-- [Enroll with Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/enroll.md)

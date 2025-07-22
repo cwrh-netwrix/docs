@@ -27,7 +27,3 @@ The user name of the proxy account.
 **Remarks**
 
 Use this property if your proxy server requires a user name and password for connecting to it.
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

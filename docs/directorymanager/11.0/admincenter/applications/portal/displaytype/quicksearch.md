@@ -14,7 +14,7 @@ return the results (allowed objects).
 You can also specify a search operator that determines what part of the attribute value should match
 the search string.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Specify Attributes for Quick Search](#specify-attributes-for-quick-search)
 - [Change the Search Operator](#change-the-search-operator)
@@ -74,8 +74,3 @@ What do you want to do?
    Select any or all three **User**, **Group**, and **Contact** check boxes next to **Quick Search
    Objects** to make that object type searchable in quick search.
 6. Click **Save**.
-
-**See Also**
-
-- [Customize Search Forms](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/searchforms.md)
-- [Customize Search Results](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/searchresults.md)

@@ -15,7 +15,7 @@ GroupID users can have access to GroupID applications such as:
 You can view a list of your applications and launch them from Admin Center without having to
 authenticate with a user name and password.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Access an Application](#access-an-application)
 - [Add a Third-party Application](#add-a-third-party-application)
@@ -48,8 +48,3 @@ To add a third-party application:
    account with which you are signed into Admin Center. See the
    [Enroll with Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/enroll.md)
    topic for enrollment details.
-
-**See Also**
-
-- [Dashboard](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md)
-- [Navigation](/docs/directorymanager/11.0/admincenter/concepts/navigation.md)

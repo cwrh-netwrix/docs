@@ -10,10 +10,10 @@ The GroupID Reports enables you to generate web-based reports for an identity st
 
 GroupID reports are organized into four categories:
 
-- [User Reports](/docs/directorymanager/11.0/portal/dashboard/user.md)
-- [Group Reports](/docs/directorymanager/11.0/portal/dashboard/group.md)
-- [Computer Reports](/docs/directorymanager/11.0/portal/dashboard/computer.md)
-- [Contact Reports](/docs/directorymanager/11.0/portal/dashboard/contact.md)
+- [User Reports](/docs/directorymanager/11.0/portal/reports/user.md)
+- [Group Reports](/docs/directorymanager/11.0/portal/reports/group.md)
+- [Computer Reports](/docs/directorymanager/11.0/portal/reports/computer.md)
+- [Contact Reports](/docs/directorymanager/11.0/portal/reports/contact.md)
 
 :::note
 A Microsoft Entra ID based identity store does not support the computer and contact object types.
@@ -62,7 +62,7 @@ Different elements of the Dashboard are described below:
 - Look on the left side of the page for the navigation pane, which lists links to the following:
 
     - Dashboard
-    - [User Reports](/docs/directorymanager/11.0/portal/dashboard/user.md)
-    - [Group Reports](/docs/directorymanager/11.0/portal/dashboard/group.md)
-    - [Computer Reports](/docs/directorymanager/11.0/portal/dashboard/computer.md)
-    - [Contact Reports](/docs/directorymanager/11.0/portal/dashboard/contact.md)
+    - [User Reports](/docs/directorymanager/11.0/portal/reports/user.md)
+    - [Group Reports](/docs/directorymanager/11.0/portal/reports/group.md)
+    - [Computer Reports](/docs/directorymanager/11.0/portal/reports/computer.md)
+    - [Contact Reports](/docs/directorymanager/11.0/portal/reports/contact.md)

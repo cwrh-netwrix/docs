@@ -8,7 +8,7 @@ sidebar_position: 10
 
 You can create a Data service in native IIS, remote IIS, and Docker.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Data Service in Native IIS](#create-a-data-service-in-native-iis)
 - [Create a Data Service in Remote IIS](#create-a-data-service-in-remote-iis)
@@ -119,7 +119,10 @@ For an overview on application deployment in Docker, see the
 [Prerequisites for Deployments in Docker](/docs/directorymanager/11.0/admincenter/applications/dockerprerequisites.md)
 topic.
 
-NOTE: To host the Data service, Docker daemon should be configured to run Windows containers.
+:::note
+To host the Data service, Docker daemon should be configured to run Windows containers.
+:::
+
 
 **To create a Data service:**
 
@@ -139,9 +142,3 @@ NOTE: To host the Data service, Docker daemon should be configured to run Window
    [Create a Data Service in Native IIS](#create-a-data-service-in-native-iis) topic.
 9. Click **Create Application**.  
    The Data service is created and displayed on the **Data Service** tab.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Data Service](/docs/directorymanager/11.0/admincenter/service/dataservice/overview.md)
-- [Manage Data Service Settings](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md)

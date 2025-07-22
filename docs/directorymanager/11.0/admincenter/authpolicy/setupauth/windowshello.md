@@ -9,9 +9,12 @@ sidebar_position: 50
 The Windows Hello authentication type can be used on Windows 10 devices only with specialized
 hardware installed, such as fingerprint reader and 3D camera.
 
-NOTE: Windows Hello supports the Microsoft Edge browser only.
+:::note
+Windows Hello supports the Microsoft Edge browser only.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Enable Windows Hello on Windows 10](#enable-windows-hello-on-windows-10)
 - [Enable Windows Hello Authentication for an Identity Store](#enable-windows-hello-authentication-for-an-identity-store)
@@ -44,7 +47,3 @@ topic.
 Role members must use an enforced authentication type for multifactor authentication. When an
 authentication type is enabled but not enforced, role members can choose to use it for enrollment
 and authentication.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)

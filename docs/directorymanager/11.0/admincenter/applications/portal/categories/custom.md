@@ -30,7 +30,10 @@ value for the linked attribute.
 
 You can delete custom display types, including linked combos.
 
-NOTE: You cannot delete a custom display type that has been linked to a field in the portal.
+:::note
+You cannot delete a custom display type that has been linked to a field in the portal.
+:::
+
 
 To delete a custom display type:
 
@@ -46,8 +49,3 @@ To delete a custom display type:
     - On the **Linked Combo Types** tab, click **Delete** for a linked combo to delete it.
 
 5. Click **Save**.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)

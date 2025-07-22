@@ -38,7 +38,7 @@ A few text box display types used in the default portal template are:
 | 4.  | maskEmailAddress   | None          | ^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.) | (([a-zA-Z0-9\-]+\.)+))([a-zA-Z]{2,4} | [0-9]{1,3})(\]?)$ | user@domain.com     |
 | 5.  | maskZipCode        | None          | \d{5}(-\d{4})?                                                 | NNNNN-NNNN                           |
 
-What do you want to do?
+**What do you want to do?**
 
 - [Define a Text Box Display Type](#define-a-text-box-display-type)
 
@@ -104,10 +104,6 @@ The API returns the following parameters:
 | message   | (Optional) For the ‘false’ status, you can return an error message in this parameter, that is displayed to the user. |
 | data      | Not in use                                                                                                           |
 
-NOTE: Data should be in JSON format.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/categories/custom.md)
+:::note
+Data should be in JSON format.
+:::

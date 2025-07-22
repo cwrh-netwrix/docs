@@ -22,7 +22,7 @@ topic.
 While creating a Group Usage Service schedule, you have to specify a job triggering criterion, the
 containers the job will process, and the messaging servers for reading expansion logs.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Group Usage Service Schedule](#create-a-group-usage-service-schedule)
 
@@ -66,7 +66,7 @@ What do you want to do?
     2. Select the check boxes for the messaging servers that the Group Usage Service schedule should
        process.
 
-        Or
+**Or**
 
         Select the Server Name check box if you want this job to read the expansion logs of all
         messaging servers in the identity store.
@@ -105,23 +105,24 @@ What do you want to do?
     different user** to provide the credentials of another account to run the schedule in the
     identity store.
 
-    NOTE: Make sure this account falls under a high priority security role that has elevated
+    :::note
+    Make sure this account falls under a high priority security role that has elevated
     permissions in the identity store (for example, Administrator).
+    :::
 
-    NOTE: If you are creating this schedule in a Microsoft Entra ID identity store, you can only
+
+    :::note
+    If you are creating this schedule in a Microsoft Entra ID identity store, you can only
     specify the logged-in user's account. See the
     [Schedules for Microsoft Entra ID Identity Store](/docs/directorymanager/11.0/admincenter/schedule/overview.md#schedules-for-microsoft-entra-id-identity-store)
     section of the
     [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md) topic for
     additional information.
+    :::
+
 
 13. On the **Create Schedule** page, click **Create Schedule**.
 14. On the **Schedules** page, click **Save**.  
      The schedule is displayed under **Group Usage Service**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)
-- [Scheduler Service](/docs/directorymanager/11.0/admincenter/service/schedulerservice.md)

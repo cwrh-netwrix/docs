@@ -38,7 +38,3 @@ To define a custom gateway, a list of ISMSGateway members that you must implemen
     - [SendSmsMessageResult.ExceptionMessage](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/exceptionmessage.md)
     - [SendSmsMessageResult.Message](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/message_1.md)
     - [SendSmsMessageResult.Success](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/success.md)
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

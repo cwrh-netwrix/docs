@@ -43,8 +43,3 @@ following cases, where users continue to receive notifications in English:
   box in the notification settings of a Reports schedule. See step 11 in the
   [Create a Reports Schedule](/docs/directorymanager/11.0/admincenter/schedule/reports.md#create-a-reports-schedule)
   topic.
-
-**See Also**
-
-- [Configure an SMTP Server](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md)
-- [Customize Notifications](/docs/directorymanager/11.0/admincenter/notification/customize.md)

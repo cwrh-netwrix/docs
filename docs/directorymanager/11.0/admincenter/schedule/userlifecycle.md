@@ -13,7 +13,7 @@ following main functions in keeping with the user profile validation settings fo
 - Generates reminder emails
 - Disables users who do not validate their profiles within the given period
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a User Life Cycle Schedule](#create-a-user-life-cycle-schedule)
 
@@ -49,8 +49,3 @@ What do you want to do?
     The schedule is displayed under **User Life Cycle**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)topic
     for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)
-- [Configure User Profile Validation](/docs/directorymanager/11.0/admincenter/identitystore/configure/profilevalidation.md)

@@ -14,7 +14,7 @@ By default, the organizational hierarchy chart displays four attributes of a use
 name_, _email_, and _picture_. You can replace an attribute with another one but you cannot add or
 remove attributes. Hence the attribute count remains ‘four’.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Replace an Attribute on the Organizational Hierarchy Tree](#replace-an-attribute-on-the-organizational-hierarchy-tree)
 
@@ -46,7 +46,3 @@ What do you want to do?
    topic.
 9. Click **OK**.
 10. Click **Save** on the **Organizational Hierarchy** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)

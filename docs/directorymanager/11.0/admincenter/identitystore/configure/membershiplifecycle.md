@@ -13,10 +13,16 @@ You can define a membership policy for groups and OUs. In case of an OU, the pol
 groups in that OU. The Membership Life Cycle schedule is responsible for applying membership
 lifecycle policies to groups.
 
-NOTE: Membership lifecycle policies apply to static groups only. You cannot specify system critical
+:::note
+Membership lifecycle policies apply to static groups only. You cannot specify system critical
 objects, Smart Groups, and Dynasties as target groups in a policy.
+:::
 
-NOTE: When Smart Groups and Dynasties reside in a target OU, GroupID does not process them.
+
+:::note
+When Smart Groups and Dynasties reside in a target OU, GroupID does not process them.
+:::
+
 
 ## Types of Membership Lifecycle Policies
 
@@ -52,7 +58,7 @@ Some main features of the membership lifecycle policies are:
   [Manage Membership Life Cycle Notifications](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
   topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Specify an ‘Add Temporary’ Membership Policy](#specify-an-add-temporary-membership-policy)
 - [Specify a ‘Remove Temporary’ Membership Policy](#specify-a-remove-temporary-membership-policy)
@@ -89,7 +95,7 @@ certain period will be temporary. When the period ends, they will be removed fro
       and OU names starting with the string are displayed as you type. Click **Add** for an object
       to add it to the policy.
 
-        Or
+**Or**
 
     - Click **Advanced** to search an object by different parameters, such as name, display name,
       and email.
@@ -145,7 +151,7 @@ added back as permanent members.
       and OU names starting with the string are displayed as you type. Click **Add** for an object
       to add it to the policy.
 
-        Or
+**Or**
 
     - Click **Advanced** to search an object by different parameters, such as name, display name,
       and email.
@@ -227,9 +233,12 @@ Consider the following:
   **Example:** Let’s assume a policy is active from Jan. 20-31. Reapplying it on Feb 1 will have no
   impact.\
 
-NOTE: When you move a group from a target OU in a policy (OUA) to an OU that is not the target of
+:::note
+When you move a group from a target OU in a policy (OUA) to an OU that is not the target of
 any policy (OUB), the policy applied to the group in OUA will continue to apply to till its end
 date.
+:::
+
 
 **To reapply a policy:**
 
@@ -270,7 +279,3 @@ To delete a policy:
       OUs.
 
 6. Click **Save**.
-
-**See Also**
-
-- [Membership Life Cycle Schedule](/docs/directorymanager/11.0/admincenter/schedule/membershiplifecycle.md)

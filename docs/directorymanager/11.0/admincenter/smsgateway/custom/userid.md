@@ -23,7 +23,3 @@ string UserId { get; set; }
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The value of the user name.
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

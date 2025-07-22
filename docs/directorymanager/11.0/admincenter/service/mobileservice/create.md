@@ -8,7 +8,7 @@ sidebar_position: 10
 
 You can create a Mobile service in native IIS, remote IIS, and Docker.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Mobile Service in Native IIS](#create-a-mobile-service-in-native-iis)
 - [Create a Mobile Service in Remote IIS](#create-a-mobile-service-in-remote-iis)
@@ -128,7 +128,10 @@ For an overview on application deployment in Docker, see the
 [Prerequisites for Deployments in Docker](/docs/directorymanager/11.0/admincenter/applications/dockerprerequisites.md)
 topic.
 
-NOTE: To host the Mobile service, Docker daemon should be configured to run Windows containers.
+:::note
+To host the Mobile service, Docker daemon should be configured to run Windows containers.
+:::
+
 
 **To create a service:**
 
@@ -250,7 +253,3 @@ You can either copy the URL of the GroupIDMobileService page from the address ba
 service's deployment settings. See the
 [View the Launch URL for an Instance](/docs/directorymanager/11.0/admincenter/service/mobileservice/server/deployment.md#view-the-launch-url-for-an-instance)
 topic.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)

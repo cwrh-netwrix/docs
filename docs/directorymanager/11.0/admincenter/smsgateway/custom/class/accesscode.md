@@ -23,7 +23,3 @@ public string AccessCode { get; set; }
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The confirmation code.
-
-See Also
-
-- [ShortMessage class](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/class.md)

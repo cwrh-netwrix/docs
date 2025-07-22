@@ -26,7 +26,7 @@ accounts every time they have to pass multifactor or second factor authenticatio
   the[Enforce Authentication Types for Multifactor Authentication](/docs/directorymanager/11.0/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
   topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Enroll using Security Questions](#enroll-using-security-questions)
 - [Enroll using Mobile](#enroll-using-mobile)
@@ -51,7 +51,7 @@ topic.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/directorymanager/11.0/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Security Question** tab.
 4. From a **Question X** list, select a security question of your choice (X represents the question
@@ -80,7 +80,7 @@ topic.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/directorymanager/11.0/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Mobile** tab.
 4. Select your country and then type your mobile number in the box.
@@ -89,8 +89,11 @@ topic.
    the page. Enter the received code in it.
 7. Click **Enroll Account**.
 
-RECOMMENDED: If you do not receive the code, recheck your mobile number and click **Send code
+:::info
+If you do not receive the code, recheck your mobile number and click **Send code
 again**.
+:::
+
 
 ## Enroll using Email
 
@@ -110,7 +113,7 @@ topic.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/directorymanager/11.0/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Email** tab.
 4. Type your email address in the box and click **Send verification code**.
@@ -118,8 +121,11 @@ topic.
    the page. Enter the received code in it.
 6. Click **Enroll Account**.
 
-RECOMMENDED: If you do not receive the code, recheck your email address and click **Send code
+:::info
+If you do not receive the code, recheck your email address and click **Send code
 again**.
+:::
+
 
 ## Enroll using Authenticator
 
@@ -134,7 +140,7 @@ Google Authenticator or Microsoft Authenticator, on your phone.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/directorymanager/11.0/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Authenticator** tab.
 4. Scan the QR code with the authenticator app installed on your smartphone.  
@@ -150,7 +156,7 @@ Google Authenticator or Microsoft Authenticator, on your phone.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/directorymanager/11.0/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Insert the YubiKey device in the USB slot of your computer.
 4. Click the **YubiKey** tab.
@@ -173,15 +179,8 @@ GroupID allows enrollment on one Windows Hello device only.
    page represent the different authentication types the administrator has enabled for enrollment.  
    You can also launch the **Your Enrollments** page from Admin Center and the GroupID portal. See
    the
-   [Enroll your Account](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md#enroll-your-account)
+   [Enroll your Account](/docs/directorymanager/11.0/admincenter/general/accessapplications.md#enroll-your-account)
    topic.
 3. Click the **Windows Hello** tab.
 4. Enter a name for your authentication device in the box and click **Start Registration**. You will
    be prompted to provide your biometric information using the configured biometric device.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Enable Authentication Types](/docs/directorymanager/11.0/admincenter/identitystore/configure/authtypes.md)
-- [Authentication Policy for Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/policy/authentication.md)
-- [Authenticate with Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/authenticate.md)

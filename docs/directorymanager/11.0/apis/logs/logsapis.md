@@ -9,7 +9,7 @@ sidebar_position: 40
 GroupID generates logs for its services, clients, and Windows events. Using the following APIs, you
 can collect and dump your required logs to a desired location.
 
-See the [Get Logs](/docs/directorymanager/11.0/admincenter/concepts/logs.md) topic for
+See the [Get Logs](/docs/directorymanager/11.0/admincenter/general/logs.md) topic for
 additional information on logs.
 
 - [Admin Center Logs](/docs/directorymanager/11.0/APIs/logs/admincenter.md)

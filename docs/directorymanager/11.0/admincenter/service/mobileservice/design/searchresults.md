@@ -14,7 +14,7 @@ search results pages:
 
 You can customize these pages by adding, updating, and removing fields.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Add a Field to a Search Results Page](#add-a-field-to-a-search-results-page)
 - [Edit a Field on a Search Results Page](#edit-a-field-on-a-search-results-page)
@@ -85,8 +85,3 @@ To update a field:
    results page.
 7. Click **OK**.
 8. Click **Save**.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Design Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/design/overview.md)

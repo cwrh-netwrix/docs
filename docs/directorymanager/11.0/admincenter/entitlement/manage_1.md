@@ -19,7 +19,7 @@ sites and the document libraries in those sites using GroupID.
 The user can also manage certain settings for a site, such as change the service account for reading
 and managing permissions and exclude a document library in a site from entitlement management.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Specify SharePoint Sites for Entitlement Management](#specify-sharepoint-sites-for-entitlement-management)
 - [Include Future Sites for Entitlement Management](#include-future-sites-for-entitlement-management)
@@ -169,7 +169,7 @@ run in the context of the account specified here.
 - The User name and Password boxes display the credentials of the account used to connect to the
   site. You can connect using a different account by providing the credentials of that account.
 
-    Or
+**Or**
 
 - Select the **Use Identity Store Service Account** check box to use the service account specified
   for the identity store to connect to the site.
@@ -269,8 +269,3 @@ from replication.
 Click **Remove** for a site to move it to the **Included SharePoint Sites** area.
 
 Step 5 – Click **Save**.
-
-See Also
-
-- [Entitlement](/docs/directorymanager/11.0/admincenter/entitlement/overview.md)
-- [Manage File Servers](/docs/directorymanager/11.0/admincenter/entitlement/manage.md)

@@ -58,7 +58,7 @@ perform identity and access management tasks using GroupID:
   [SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/overview.md) topic.
 
 See the
-[Menu Pane](/docs/directorymanager/11.0/admincenter/concepts/navigation.md#menu-pane) topic
+[Menu Pane](/docs/directorymanager/11.0/admincenter/general/navigation.md#menu-pane) topic
 for additional information.
 
 ## Compatibility

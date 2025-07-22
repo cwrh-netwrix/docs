@@ -17,7 +17,7 @@ refreshes a page or previews any information.
 Furthermore, if history tracking is not enabled or has been lately disabled, the **Identity Store
 History** page is blank or it displays data that was logged before history-tracking was turned off.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View Identity Store History](#view-identity-store-history)
 - [Filter History Data](#filter-history-data)
@@ -71,7 +71,7 @@ value, and more.
    attribute. This drop-down displays the operators on the basis of the selected attribute.
    Available operators are:
 
-    (missing or bad snippet)
+**(missing or bad snippet)**
 
 6. In the _Select a Value_ box, specify a value for the attribute. The selected attribute and
    operator determine the kind of value that can be entered in this box.  
@@ -149,8 +149,3 @@ You can export identity store history to Microsoft Excel, CSV, and XML formats.
    settings.
 8. A message is displayed that history data is successfully exported. Click **OK**.
 
-**See Also**
-
-- [Configure History Tracking](/docs/directorymanager/11.0/admincenter/identitystore/configure/historytracking.md)
-- [History in GroupID](/docs/directorymanager/11.0/admincenter/concepts/history.md)
-- [Event Logging](/docs/directorymanager/11.0/admincenter/identitystore/view/eventlogging.md)

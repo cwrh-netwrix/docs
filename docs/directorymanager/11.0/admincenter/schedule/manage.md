@@ -8,7 +8,7 @@ sidebar_position: 160
 
 GroupID enables you to run, modify, disable, and delete the schedules defined for an identity store.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View the Schedules in an Identity Store ](#view-the-schedules-in-an-identity-store)
 - [Enable/Disable a Schedule](#enabledisable-a-schedule)
@@ -36,7 +36,7 @@ What do you want to do?
     | Target(s) | The group(s) and container(s) that a schedule processes.                                                                                                                                                                                                                                                                                                                                                           |
     | Last Run  | The date and time a schedule last ran.                                                                                                                                                                                                                                                                                                                                                                             |
     | Next Run  | The next date and time a schedule will run.                                                                                                                                                                                                                                                                                                                                                                        |
-    | Actions   | Click the ellipsis button for a schedule in the **Actions** column and select an option: - **Edit:** to update the schedule's settings, such as targets, triggers, and notifications. - **Delete:** to delete a schedule. - **Run:** to manually run a schedule instantly. - **Terminate:** to manually terminate a running schedule instantly. This option is available for schedules that are currently running. |
+    | Actions   | Click the ellipsis button for a schedule in the **Actions** column and select an option: <ul><li>**Edit:** to update the schedule's settings, such as targets, triggers, and notifications.</li><li> **Delete:** to delete a schedule.</li><li>**Run:** to manually run a schedule instantly.</li><li>**Terminate:** to manually terminate a running schedule instantly. This option is available for schedules that are currently running.</li></ul> |
 
 ### Search a Schedule
 
@@ -52,7 +52,7 @@ a job.
    attribute. This drop-down displays the operators on the basis of the selected attribute.
    Available operators are:
 
-    (missing or bad snippet)
+**(missing or bad snippet)**
 
 4. In the _Select a Value_ box, specify a value for the attribute. The selected attribute and
    operator determine the kind of value that can be entered in this box. For some operators, such as
@@ -185,7 +185,3 @@ unprocessed.
    The **Delete** option is not available for system-defined schedules.
 6. On the **Delete Schedule** dialog box, click **Delete**.
 7. Click **Save** on the **Schedules** page.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

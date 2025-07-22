@@ -29,7 +29,3 @@ The value of the account ID.
 The account ID may not be required for every SMS gateway. If required, use this property to get or
 set its respective value. This property can also contain any other identification number that a
 gateway needs for authenticating a connection.
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

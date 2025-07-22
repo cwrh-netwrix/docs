@@ -26,7 +26,7 @@ page that contains tabs under that sub-node. It is as:
 
 GroupID enables you to customize the nodes, sub-nodes, and their respective tabs.
 
-What do you want to do?
+**What do you want to do?**
 
 **At the node level:**
 
@@ -98,8 +98,11 @@ Note the following:
     - If an image has been uploaded, the very image is displayed. Click the icon below the image to
       replace the existing image with a new one.
 
-        NOTE: Image dimensions: 30 x 30 pixels  
-         Supported formats: .webp, .jpg, .jpe, .jpeg
+        :::note
+        Image dimensions: 30 x 30 pixels  
+        Supported formats: .webp, .jpg, .jpe, .jpeg
+        :::
+
 
 11. Click **OK**.
 12. Click **Save** on the **Navigation Bar** page.
@@ -349,7 +352,3 @@ You can modify the following for a tab:
 7. Click **Remove** for a tab to remove it.
 8. Click **OK**.
 9. Click **Save** on the **Navigation Bar** page.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)

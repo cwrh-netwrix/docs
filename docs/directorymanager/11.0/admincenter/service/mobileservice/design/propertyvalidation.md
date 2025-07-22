@@ -23,7 +23,7 @@ See the
 [Property Validation for Groups](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/propertyvalidation.md#property-validation-for-groups)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Add a Property Validation Field](#add-a-property-validation-field)
 - [Edit a Field](#edit-a-field)
@@ -117,8 +117,3 @@ validation:
 
 6. In the **Name** area, click **Remove** for a field to remove it.
 7. Click **Save**.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Design Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/design/overview.md)

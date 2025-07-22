@@ -49,7 +49,7 @@ can launch this wizard again for a report and edit the settings.
     The template page will list the generated report.
 
 3. Click the **Edit** icon next to the report and follow the steps in
-   [Generate Reports](/docs/directorymanager/11.0/portal/dashboard/generate.md). Make the
+   [Generate Reports](/docs/directorymanager/11.0/portal/reports/generate.md). Make the
    relevant changes and click Finish to generate the report.
 
 ## Download a Report
@@ -80,11 +80,3 @@ When you delete a report, all its settings are removed.
     The template page will list the generated report.
 
 3. Click the **Delete** button next to the report. It will permanently delete the report.
-
-**See Also**
-
-- [Generate Reports](/docs/directorymanager/11.0/portal/dashboard/generate.md)
-- [Group Reports](/docs/directorymanager/11.0/portal/dashboard/group.md)
-- [User Reports](/docs/directorymanager/11.0/portal/dashboard/user.md)
-- [Computer Reports](/docs/directorymanager/11.0/portal/dashboard/computer.md)
-- [Contact Reports](/docs/directorymanager/11.0/portal/dashboard/contact.md)

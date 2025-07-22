@@ -13,7 +13,10 @@ You can customize the search result pages for a portal. You can:
 - Remove fields
 - Change the arrangement of fields on a page
 
-NOTE: You can only customize existing search result pages; you cannot add new ones.
+:::note
+You can only customize existing search result pages; you cannot add new ones.
+:::
+
 
 ### Customizable Search Results Pages
 
@@ -23,14 +26,15 @@ The following table lists the search results pages that you can customize:
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Smart Group Preview | Manage the column headers on the preview page, which is displayed when users click the **Preview** button on the **Query Designer** dialog box. It enables users to preview the results returned with the specified query for the Smart Group/Dynasty. The **Query Designer** dialog box can be launched from the Smart Group page when creating a new Smart Group or Dynasty, and from the Smart Group tab in group properties.                                                                                                                             |
 | Default             | Manage the column headers on the **All** tab of the search results page, which is displayed when users perform a search on the **Advanced Search** page in the portal. The **Advanced Search** page can be launched using the **Advanced Search** link.                                                                                                                                                                                                                                                                                                      |
-| User                | Manage the column headers on the following portal pages: - The **My Direct Reports** tab, where users can view a list of their direct reports. This tab is displayed when users click **Users > My Direct Reports** in the portal. - The **Users** and **Contacts** tabs on the search results page, which is displayed when users perform a search on the **Advanced Search** page in the portal.                                                                                                                                                           |
+| User                | Manage the column headers on the following portal pages: <ul><li>The **My Direct Reports** tab, where users can view a list of their direct reports. This tab is displayed when users click **Users > My Direct Reports** in the portal.</li><li>The **Users** and **Contacts** tabs on the search results page, which is displayed when users perform a search on the **Advanced Search** page in the portal.</li></ul>                                                                                                                                     |
 | Disabled Users      | Manage the column headers on the **Disabled Users** tab in the portal, which displays a list of disabled users in the directory. This tab is displayed when users click **Users > My Direct Reports** and then the **Disabled Users** tab in the portal.                                                                                                                                                                                                                                                                                                     |
-| Groups              | Manage the column headers on the following portal pages: - The **All Groups** page – all except the **Expired Groups** and **Expiring Groups** tabs - The **My Groups** page – all except the **My Expired Groups** and **My Expiring Groups** tabs - The **Groups** tab on the search results page, which is displayed when users perform a search on the **Advanced Search** page in the portal.                                                                                                                                                           |
-| Expiring Groups     | Manage the column headers on the following tabs in the portal: - Groups > All Groups and then the **Expiring Groups** tab . It displays the groups in the directory that will expire in 30 days or less. - Groups > My Groups and then the **My Expiring Groups** tab. It displays the logged-on user's groups that will expire in 30 days or less.                                                                                                                                                                                                          |
-| Expired Groups      | Manage the column headers on the following tabs in the portal: - Groups > All Groups and then the **Expired Groups** tab. It displays the expired groups in the directory. - Groups > My Groups and then the **My Expired Groups** tab. It displays the logged-on user's groups that have expired.                                                                                                                                                                                                                                                           |
+| Groups              | Manage the column headers on the following portal pages: <ul><li>The **All Groups** page – all except the **Expired Groups** and **Expiring Groups** tabs</li><li>The **My Groups** page – all except the **My Expired Groups** and **My Expiring Groups** tabs</li><li>The **Groups** tab on the search results page, which is displayed when users perform a search on the **Advanced Search** page in the portal.</li></ul>                                                                                                                               |
+| Expiring Groups     | Manage the column headers on the following tabs in the portal: <ul><li>Groups > All Groups and then the **Expiring Groups** tab . It displays the groups in the directory that will expire in 30 days or less.</li><li>Groups > My Groups and then the **My Expiring Groups** tab. It displays the logged-on user's groups that will expire in 30 days or less.</li></ul>                                                                                                                                                                                    |
+| Expired Groups      | Manage the column headers on the following tabs in the portal: <ul><li>Groups > All Groups and then the **Expired Groups** tab. It displays the expired groups in the directory.</li><li>Groups > My Groups and then the **My Expired Groups** tab. It displays the logged-on user's groups that have expired.</li></ul>                                                                                                                                                                                                                                     |
 | Find dialog         | Define the attributes to display for objects shown as search results on the _Find_ dialog box. The _Find_ dialog box is used to search and select objects to designate as owners, managers, additional owners, group members, and more. It has a _search_ area and a _search results_ area. This option controls the column headers (attributes) displayed in the **Search Results** area. The _Find_ dialog box can be launched from various portal pages, for example, from the **Owner** tab, **Members** tab, and **Member Of** tab in group properties. |
 
-What do you want to do?
+
+**What do you want to do?**
 
 - Add a Field to a Search Results Page
 - Update a Field on a Search Results Page
@@ -104,10 +108,3 @@ You can change the following for a field on a search results page:
 6. On the **Edit Search Results** pane, click **Remove** for a field to remove it.
 7. Click **OK**.
 8. Click **Save** on the **Search Forms** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)
-- Customize Search Results
-- [Customize Quick Search](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/quicksearch.md)

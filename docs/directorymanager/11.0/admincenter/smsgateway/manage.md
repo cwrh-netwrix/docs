@@ -13,7 +13,7 @@ identity store created thereafter.
 GroupID supports several SMS gateway providers. You can also use the Custom Gateway API to integrate
 with an unsupported provider.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create an SMS Gateway Account](#create-an-sms-gateway-account)
 - [Modify an SMS Gateway Account](#modify-an-sms-gateway-account)
@@ -121,8 +121,3 @@ You can delete an SMS gateway account that is not linked with any identity store
       you to confirm its deletion. Clicking **Delete** will delete the account.
     - If the gateway account is linked with an identity store, GroupID will not allow you to delete
       it.
-
-See Also
-
-- [SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/overview.md)
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

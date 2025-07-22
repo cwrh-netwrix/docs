@@ -15,17 +15,20 @@ You can define the following password restrictions and rules for an identity sto
 When identity store users reset or change their passwords using GroupID, their new passwords must
 adhere to the defined rules.
 
-NOTE: (1) These password configurations do not apply when helpdesk users reset passwords of
+:::note
+(1) These password configurations do not apply when helpdesk users reset passwords of
 end-users.  
- (2) In case a user has linked his or her accounts in different identity stores, the password
+(2) In case a user has linked his or her accounts in different identity stores, the password
 configurations for the master account apply.
+:::
+
 
 In addition to these password restrictions, you can define a password policy for a security role in
 an identity store. See the
 [Set a Password Policy ](/docs/directorymanager/11.0/admincenter/securityrole/policy/password.md)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Define Restricted Passwords](#define-restricted-passwords)
 - [Specify Regular Expressions for Allowed Passwords](#specify-regular-expressions-for-allowed-passwords)
@@ -116,9 +119,7 @@ restricted passwords to a .csv or .txt file and upload it to GroupID.
 5. Click **Import** to browse and select the file (.csv, .txt) containing the disallowed passwords.
 6. Click **Save** on the **Password Options** page.
 
-NOTE: Only a single file containing disallowed passwords can be imported for an identity store;
+:::note
+Only a single file containing disallowed passwords can be imported for an identity store;
 importing another file will replace the existing one.
-
-**See Also**
-
-- [Set a Password Policy ](/docs/directorymanager/11.0/admincenter/securityrole/policy/password.md)
+:::

@@ -51,8 +51,11 @@ schedule:
 - GroupID takes a backup of the group’s membership.
 - It empties out the group’s membership in Office 365.
 
-    NOTE: When an Office 365 group is expired, its member list is backed up in the database and
+    :::note
+    When an Office 365 group is expired, its member list is backed up in the database and
     cleared from Office 365.
+    :::
+
 
 On renewing an expired distribution group, the following happens:
 
@@ -75,10 +78,16 @@ GroupID portal. You can distinguish physically deleted groups from logically del
 
 Both types are locked for further operations until restored.
 
-NOTE: While all searches in GroupID are catered through Elasticsearch, the Recycle Bin is an
+:::note
+While all searches in GroupID are catered through Elasticsearch, the Recycle Bin is an
 exception; it fetches data from the directory.
+:::
 
-NOTE: The Recycle Bin does not display data for a Microsoft Entra ID identity store.
+
+:::note
+The Recycle Bin does not display data for a Microsoft Entra ID identity store.
+:::
+
 
 ### Physical Deletion
 
@@ -113,8 +122,3 @@ owner, the default approver. The job does not delete a group that neither has an
 approver. See the
 [Specify a Default Approver](/docs/directorymanager/11.0/admincenter/workflow/advancedsettings.md#specify-a-default-approver)
 topic.
-
-**See Also**
-
-- [Manage Group Lifecycle Settings](/docs/directorymanager/11.0/admincenter/identitystore/configure/grouplifecycle.md)
-- [Group Life Cycle Schedule](/docs/directorymanager/11.0/admincenter/schedule/grouplifecycle.md)[Specify a Default Approver](/docs/directorymanager/11.0/admincenter/workflow/advancedsettings.md#specify-a-default-approver)

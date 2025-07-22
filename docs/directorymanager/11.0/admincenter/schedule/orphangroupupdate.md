@@ -36,7 +36,7 @@ level. See the
 [Configure History Tracking](/docs/directorymanager/11.0/admincenter/identitystore/configure/historytracking.md)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create an Orphan Group Update Schedule](#create-an-orphan-group-update-schedule)
 
@@ -76,7 +76,3 @@ What do you want to do?
     The schedule is displayed under **Orphan Group Update**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

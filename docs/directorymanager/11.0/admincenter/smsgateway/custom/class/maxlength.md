@@ -30,7 +30,3 @@ This property stores the maximum length of an SMS message. If you send a message
 length, the message is split in two or more pieces and the user is charged for each piece. Most, if
 not all, gateways will automatically split the message. You can increase this limit but it may cost
 more from the gateway.
-
-See Also
-
-- [ShortMessage class](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/class.md)

@@ -10,7 +10,7 @@ Use this API to retrieve information of job collection(s) based on filters prov
 syntax.
 
 See the
-[Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md)for
+[Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/collection/create.md)for
 additional information on job collections.
 
 ## Endpoint

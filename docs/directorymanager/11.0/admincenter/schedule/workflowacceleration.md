@@ -18,7 +18,7 @@ acceleration. It also generates notifications to inform approvers about pending 
 
 You cannot create or delete a Workflow Acceleration schedule; only update the existing one.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Update the Workflow Acceleration Schedule](#update-the-workflow-acceleration-schedule)
 
@@ -57,7 +57,3 @@ What do you want to do?
     For general schedule info, see the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

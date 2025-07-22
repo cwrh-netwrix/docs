@@ -9,8 +9,11 @@ sidebar_position: 10
 The Mobile service enables the GroupID mobile app to communicate with the GroupID server, enabling
 it to work on smartphones.
 
-NOTE: The GroupID app can connect with the Mobile service over HTTP and HTTPS. For HTTPS, a security
+:::note
+The GroupID app can connect with the Mobile service over HTTP and HTTPS. For HTTPS, a security
 certificate from a trusted certification authority is required.
+:::
+
 
 The app enables users to manage the following in an identity store from their smartphones:
 
@@ -26,7 +29,7 @@ The app enables users to manage the following in an identity store from their sm
 - Unlock their identity store account
 
 Actions performed in the app are logged in Admin Center history. See the
-[History in GroupID](/docs/directorymanager/11.0/admincenter/concepts/history.md) topic.
+[History in GroupID](/docs/directorymanager/11.0/admincenter/general/history.md) topic.
 
 To secure access to the app, the administrator can enable the following for an identity store:
 
@@ -57,8 +60,3 @@ The Android, Windows, and iOS versions of the GroupID app are available on Googl
 Store, and App Store respectively. To install and configure the app, see the
 [Install and Configure the GroupID App](/docs/directorymanager/11.0/admincenter/service/mobileservice/phonesetup.md)
 topic.
-
-See Also
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)

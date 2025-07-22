@@ -61,10 +61,13 @@ You can define the following schedules for an identity store:
   forwards workflow requests to approvers and auto approves requests according to workflow approver
   acceleration rules.
 
-NOTE: Role members with the _Manage Scheduling_ permission in an identity store can create and
+:::note
+Role members with the _Manage Scheduling_ permission in an identity store can create and
 manage scheduled jobs. See the
 [Modify Role Permissions](/docs/directorymanager/11.0/admincenter/securityrole/manage.md#modify-role-permissions)
 topic.
+:::
+
 
 Schedules are saved in the GroupID database. The GroupIDSchedulerService, created in the
 GroupIDSite11 site in native IIS is responsible for initiating schedule runs.
@@ -92,10 +95,7 @@ configure a schedule:
 Use the Login with a different user option to provide the credentials of another account to run the
 schedule in the identity store is not available for a Microsoft Entra ID identity store.
 
-NOTE: The existing schedules will continue to work. The SAML provider authentication does not apply
+:::note
+The existing schedules will continue to work. The SAML provider authentication does not apply
 on them.
-
-**See Also**
-
-- [Manage Schedules](/docs/directorymanager/11.0/admincenter/schedule/manage.md)
-- [Scheduler Service](/docs/directorymanager/11.0/admincenter/service/schedulerservice.md)
+:::

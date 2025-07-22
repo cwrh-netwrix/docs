@@ -18,9 +18,12 @@ On every successful run of the Replication service, GroupID generates the replic
 object types for each domain in an identity store and alerts you to any errors that may have
 occurred during the replication process.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the
+:::note
+The Replication service does not replicate excluded domains for an identity store. See the
 [Exclude an Active Directory Domain from Replication](/docs/directorymanager/11.0/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
 topic.
+:::
+
 
 ### How to Resolve Replication Errors
 
@@ -34,7 +37,7 @@ Possible actions to eliminate replication errors are:
   [Replication Service Logs](/docs/directorymanager/11.0/admincenter/replication/overview.md#replication-service-logs)
   topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Monitor Elasticsearch Health Status](#monitor-elasticsearch-health-status)
 - [Specify a Replication Interval for Objects](#specify-a-replication-interval-for-objects)
@@ -52,7 +55,7 @@ What do you want to do?
 GroupID enables you to monitor the Elasticsearch service for the following:
 
 - The status of the Elasticsearch service. See the
-  [Elasticsearch Service](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md#elasticsearch-service)
+  [Elasticsearch Service](/docs/directorymanager/11.0/admincenter/general/dashboard.md#elasticsearch-service)
   card on the Admin Center dashboard.
 - Elasticsearch cluster health stats, which include:
 
@@ -300,9 +303,3 @@ topic.
    run.  
    To change the threshold value, click **Edit**. Specify a threshold value to trigger replication
    error notifications and click the check mark.
-
-**See Also**
-
-- [Elasticsearch and Replication ](/docs/directorymanager/11.0/admincenter/replication/overview.md)
-- [Manage Local Replication Settings](/docs/directorymanager/11.0/admincenter/identitystore/replication.md)
-- [Replication Service](/docs/directorymanager/11.0/admincenter/service/replicationservice.md)

@@ -38,7 +38,7 @@ additional owners/managers. See the
 [Manage Managed by Life Cycle Notifications](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md#manage-managed-by-life-cycle-notifications)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Managed By Life Cycle Schedule](#create-a-managed-by-life-cycle-schedule)
 
@@ -78,7 +78,3 @@ What do you want to do?
      The schedule is displayed under **Managed By Life Cycle**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

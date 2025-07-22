@@ -23,7 +23,7 @@ are discussed in the
 [Configure an Identity Store](/docs/directorymanager/11.0/admincenter/identitystore/configure/configure.md)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create an Identity Store for Active Directory](#create-an-identity-store-for-active-directory)
 - [Create an Identity Store for Microsoft Entra ID](#create-an-identity-store-for-microsoft-entra-id)
@@ -66,9 +66,12 @@ Skip this box for a gMSA.
 
 Select the **SSL Enabled** check box if the directory server is LDAP over SSL enabled.
 
-NOTE: GroupID 11 supports LDAPS; however, the Replication Service will still connect to the domain
+:::note
+GroupID 11 supports LDAPS; however, the Replication Service will still connect to the domain
 controller via the LDAP 389 port. Hence, both LDAP and LDAPS protocols must be enabled on the domain
 controller.
+:::
+
 
 Click **Create Identity Store**. The **Replicate Identity Store** message is displayed. Select:
 
@@ -125,9 +128,12 @@ Click **Create Identity Store**. The **Replicate Identity Store** message is dis
 The identity store is available on the **Identity Stores** page. You can specify different
 configurations for it.
 
-NOTE: Microsoft’s throttling policy restricts an application (such as GroupID) to create a maximum
+:::note
+Microsoft’s throttling policy restricts an application (such as GroupID) to create a maximum
 of 3 concurrent sessions with Microsoft Entra ID. With this in view, GroupID allows only one active
 session at any given time, which is used by Data service and Replication service.
+:::
+
 
 ## Create an Identity Store for Generic LDAP
 
@@ -209,9 +215,3 @@ Click **Create Identity Store**. The **Replicate Identity Store** message is dis
 
 The identity store is available on the **Identity Stores** page. You can specify different
 configurations for it.
-
-**See Also**
-
-- [Service Accounts](/docs/directorymanager/11.0/requirements/permissions/overview.md)
-- [Manage an Identity Store](/docs/directorymanager/11.0/admincenter/identitystore/manage.md)
-- [Configure an Identity Store](/docs/directorymanager/11.0/admincenter/identitystore/configure/configure.md)

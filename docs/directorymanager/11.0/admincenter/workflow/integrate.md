@@ -24,9 +24,12 @@ be linked to flows.
 
 Consequently, when the identity store workflow is triggered, the linked flow is auto triggered.
 
-NOTE: When the flow is approved in Power Automate, the identity store workflow request is auto
+:::note
+When the flow is approved in Power Automate, the identity store workflow request is auto
 approved. However, if the identity store workflow request is approved first, the flow would not be
 auto approved.
+:::
+
 
 ### Connect an Identity Store to Power Automate
 
@@ -34,9 +37,12 @@ To connect an identity tore to Power Automate, you must configure a Power Automa
 identity store. This will establish a communication channel between the GroupID Data service and the
 Power Automate platform.
 
-NOTE: Make sure the GroupID server is deployed on a machine that is exposed over the Internet, as
+:::note
+Make sure the GroupID server is deployed on a machine that is exposed over the Internet, as
 Power Automate needs to communicate with the GroupID server for processing requests. Power Automate
 cannot communicate with a server deployed on a machine behind NAT.
+:::
+
 
 **To configure a Power Automate client for an identity store:**
 
@@ -61,9 +67,12 @@ cannot communicate with a server deployed on a machine behind NAT.
     - **Client ID** - the application ID assigned to the GroupID application when you registered it
       in Microsoft Entra Admin Center.
 
-    NOTE: The GroupID application in Microsoft Entra Admin Center must have the following
+    :::note
+    The GroupID application in Microsoft Entra Admin Center must have the following
     permissions for Power Automate:  
-     ![pa_permissions](/img/product_docs/directorymanager/11.0/admincenter/workflow/pa_permissions.webp)
+    ![pa_permissions](/img/product_docs/directorymanager/11.0/admincenter/workflow/pa_permissions.webp)
+    :::
+
 
 7. Click **Save** on the **Advanced Workflow Settings** page.
 
@@ -120,10 +129,3 @@ triggered, the linked flow is auto triggered.
        displays the flow you created in Power Automate from the GroupID workflow.
     2. Hover the mouse over the flow to display the ellipsis button. Click it and select **Turn
        on**.
-
-**See Also**
-
-- [Workflows](/docs/directorymanager/11.0/admincenter/workflow/overview.md)
-- [Implement Workflows](/docs/directorymanager/11.0/admincenter/workflow/implement.md)
-- [Manage Advanced Workflow Settings](/docs/directorymanager/11.0/admincenter/workflow/advancedsettings.md)
-- [Workflow Approver Acceleration](/docs/directorymanager/11.0/admincenter/workflow/approveracceleration.md)

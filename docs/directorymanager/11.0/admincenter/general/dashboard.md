@@ -181,7 +181,3 @@ Consider the following:
 - By default, data for all the activities is displayed. Click an activity name at the bottom of the
   graph to hide its data. The name is struck out, indicating that data for the activity is not
   depicted on the graph. Click the activity name again to display its data on the graph.
-
-**See Also**
-
-- [Navigation](/docs/directorymanager/11.0/admincenter/concepts/navigation.md)

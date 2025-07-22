@@ -17,7 +17,7 @@ in an identity store, or (c) both at the identity store and role levels.
 The Password policy also enables you to manage settings related to security questions and account
 lockout for security roles in an identity store.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Set Password Restrictions and Rules for an Identity Store](#set-password-restrictions-and-rules-for-an-identity-store)
 - [Define Security Question Settings for a Security Role](#define-security-question-settings-for-a-security-role)
@@ -70,8 +70,11 @@ authentication and second factor authentication in GroupID. The policy controls 
 
 With authentication disabled, role members cannot sign into GroupID.
 
-NOTE: The authentication lockout policy only disables the user account in GroupID. It does not
+:::note
+The authentication lockout policy only disables the user account in GroupID. It does not
 disable it in the provider, such as Active Directory.
+:::
+
 
 **To specify an authentication lockout policy:**
 
@@ -85,10 +88,10 @@ disable it in the provider, such as Active Directory.
 6. On the **Add Policies** pane, click the **Password** tab.  
    The following settings in the **Password Policies** area control authentication lockout:
 
-    |     | Setting                                  | Description                                                                                                                                                                                                                                                                                                                                                                                               |
-    | --- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-    | 1.  | Failed Authentication Attempts Threshold | The number of consecutive attempts to provide a wrong value for an authentication type. Authentication is disabled for a user when the number of consecutive unsuccessful attempts by him or her reach the number given here.                                                                                                                                                                             |
-    | 2.  | Account Locked out Duration              | The number of minutes to disable authentication in GroupID after consecutive unsuccessful attempts to provide the right value for an authentication type. Note the following: - Authentication is automatically enabled after the specified duration. - Else it is enabled when, during the lockout period, the user correctly enters his or her identity store account credentials to sign into GroupID. |
+    |     | Setting | Description |
+    | --- | --- | --- |
+    | 1.  | Failed Authentication Attempts Threshold | The number of consecutive attempts to provide a wrong value for an authentication type. <br />Authentication is disabled for a user when the number of consecutive unsuccessful attempts by him or her reach the number given here. |
+    | 2.  | Account Locked out Duration | The number of minutes to disable authentication in GroupID after consecutive unsuccessful attempts to provide the right value for an authentication type. <br />Note the following: <ul><li>Authentication is automatically enabled after the specified duration.</li><li>Else it is enabled when, during the lockout period, the user correctly enters his or her identity store account credentials to sign into GroupID.</li></ul> |
 
 7. Click **OK**.
 8. On the **Edit Security Role** page, click **Update Security Role**.
@@ -136,8 +139,3 @@ properties in the GroupID portal.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Configure Access Control** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)

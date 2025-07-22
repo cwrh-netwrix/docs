@@ -20,7 +20,3 @@ Following is a list of its members with description:
 | ExceptionMessage property | Gets the exception message if one occurs while sending the text message.                                                                                                                                                                                                          |
 | Message property          | Returns the [ShortMessage class](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/class.md) object processed by the [ISmsGateway.SendShortMessage](/docs/directorymanager/11.0/admincenter/smsgateway/custom/sendshortmessage.md) method. |
 | Success property          | Returns a boolean value indicating whether the text message is successfully sent to the target mobile phone numbers.                                                                                                                                                              |
-
-**See Also**
-
-- [ISMSGateway Members](/docs/directorymanager/11.0/admincenter/smsgateway/custom/overview.md)

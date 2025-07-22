@@ -12,7 +12,7 @@ application. Typically, the _GroupID_ provider has one default user, _Super Admi
 access to Admin Center. On signing in, this user can create identity stores and configure settings
 to get the application ready for use.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Sign In](#sign-in)
 - [Sign Out](#sign-out)
@@ -27,17 +27,23 @@ Use any of the following methods to connect and sign in:
 
 - Select an identity store and enter the username and password of your identity store account.
 
-    NOTE: To sign in using the GroupID provider, enter the username and password you specified for
+    :::note
+    To sign in using the GroupID provider, enter the username and password you specified for
     _GroupID Administrator_ on the **Service Account Settings** page of the Configuration Tool. See
     the
     [Configure a new GroupID server with a new or an existing database](/docs/directorymanager/11.0/install/configure/gidserver.md)
     topic.
+    :::
+
 
 - Select an identity store and sign in using a SAML provider.  
   (This option is available if a SAML provider is configured with the selected identity store.)
 
-    NOTE: Microsoft Entra ID MFA enabled users cannot log into GroupID using their username and
+    :::note
+    Microsoft Entra ID MFA enabled users cannot log into GroupID using their username and
     password. They will be authenticated through the SAML provider configured for in GroupID.
+    :::
+
 
 - Scan the displayed QR code with the GroupID app installed on your smartphone.  
   (This option is available if the QR code feature is enabled for the identity store you want to
@@ -52,7 +58,7 @@ permissions in the identity store.
 1. Type the Admin Center URL in the address bar of a web browser and press Enter. For example:  
    https://[machine name]:4443//AdminCenter
 
-    Or
+**Or**
 
     On the Windows Start menu, search for the GroupID 11.0 icon and double-click it to launch Admin
     Center in a browser window.
@@ -83,8 +89,11 @@ configuration:
 On the **GroupID Authenticate** page, click the button or image for the provider and proceed to sign
 in.
 
-NOTE: For Microsoft Entra ID MFA enabled users, a SAML provider must be configured for signing into
+:::note
+For Microsoft Entra ID MFA enabled users, a SAML provider must be configured for signing into
 GroupID.
+:::
+
 
 ### With QR Code
 
@@ -159,9 +168,3 @@ To use a gMSA as service account for GroupID services and app pool, do the follo
 1. Add the gMSA account to the membership of the _IIS_IUSRS_ group on the GroupID server.
 2. Then, add the _IIS_IUSRS_ group in the ‘Manage Private Keys’ permission for the certificate that
    GroupID uses for modern authentication.
-
-See Also
-
-- [Getting Started](/docs/directorymanager/11.0/gettingstarted.md)
-- [Dashboard](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md)
-- [Navigation](/docs/directorymanager/11.0/admincenter/concepts/navigation.md)

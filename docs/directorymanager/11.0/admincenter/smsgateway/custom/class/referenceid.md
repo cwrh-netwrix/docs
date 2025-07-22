@@ -23,7 +23,3 @@ public string ReferenceId { get; set; }
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The reference ID for the text message.
-
-See Also
-
-- [ShortMessage class](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/class.md)

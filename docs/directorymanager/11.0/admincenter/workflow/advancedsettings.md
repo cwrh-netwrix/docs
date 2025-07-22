@@ -9,10 +9,13 @@ sidebar_position: 20
 You can specify advanced settings for workflow, such as set a default approver for workflow requests
 and define approver acceleration settings.
 
-NOTE: Functions discussed in this topic are licensed under different add-ons. See the
-[ License GroupID](/docs/directorymanager/11.0/admincenter/concepts/licensing.md) topic.
+:::note
+Functions discussed in this topic are licensed under different add-ons. See the
+[ License GroupID](/docs/directorymanager/11.0/admincenter/general/licensing.md) topic.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Specify a Default Approver](#specify-a-default-approver)
 - [Apply Approver Acceleration](#apply-approver-acceleration)
@@ -52,7 +55,7 @@ owners.
     - Enter a search string in the box. Group and user names starting with the string are displayed
       as you type. Select a user or group to set as the default approver.
 
-        Or
+**Or**
 
     - Click **Advanced** to search an object by different parameters, such as name, department,
       company, and email.  
@@ -100,10 +103,3 @@ example, you can delete the ‘denied’ requests that are old by 30 days or mor
 You can also link your Power Automate flows to GroupID workflows. For details, see the
 [Integrate with Power Automate](/docs/directorymanager/11.0/admincenter/workflow/integrate.md)
 topic.
-
-**See Also**
-
-- [Workflows](/docs/directorymanager/11.0/admincenter/workflow/overview.md)
-- [Implement Workflows](/docs/directorymanager/11.0/admincenter/workflow/implement.md)
-- [Workflow Approver Acceleration](/docs/directorymanager/11.0/admincenter/workflow/approveracceleration.md)
-- [Integrate with Power Automate](/docs/directorymanager/11.0/admincenter/workflow/integrate.md)

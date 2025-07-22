@@ -107,8 +107,3 @@ permissions, and more.
 Entitlement-related permissions for a security role are discussed in the
 [Entitlement](/docs/directorymanager/11.0/admincenter/securityrole/permissions.md#entitlement)
 topic.
-
-See Also
-
-- [Manage File Servers](/docs/directorymanager/11.0/admincenter/entitlement/manage.md)
-- [Manage SharePoint Sites](/docs/directorymanager/11.0/admincenter/entitlement/manage_1.md)

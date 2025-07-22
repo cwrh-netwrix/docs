@@ -10,7 +10,7 @@ Computer Reports contains reports for the Computer objects in the directory. Sea
 report by typing its name in the **Search Reports** box.
 
 Click any of the report template from the list to
-[Generate Reports](/docs/directorymanager/11.0/portal/dashboard/generate.md).
+[Generate Reports](/docs/directorymanager/11.0/portal/reports/generate.md).
 
 Following is the list of reports for this category:
 
@@ -38,11 +38,3 @@ Following is the list of reports for this category:
 | Inactive Computers from X days                       | Returns all the computers which are inactive by specified number of days. |
 | Managed Computers                                    | Returns all managed computers.                                            |
 | Unmanaged Computers                                  | Returns all unmanaged computers.                                          |
-
-**See Also:**
-
-- [Generate Reports](/docs/directorymanager/11.0/portal/dashboard/generate.md)
-- [Manage Reports](/docs/directorymanager/11.0/portal/dashboard/manage.md)
-- [Group Reports](/docs/directorymanager/11.0/portal/dashboard/group.md)
-- [User Reports](/docs/directorymanager/11.0/portal/dashboard/user.md)
-- [Contact Reports](/docs/directorymanager/11.0/portal/dashboard/contact.md)

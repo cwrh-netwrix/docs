@@ -1,10 +1,10 @@
 {
-  "label": "Group Management Concepts",
-  "position": 10,
+  "label": "Create a Job Collection",
+  "position": 40,
   "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "concepts"
+    "id": "create"
   }
 }

@@ -30,9 +30,12 @@ Mobile service in the app. Choose any of the following methods to do so:
 - Enter the web server URL manually in the app, or
 - Scan a QR code with your phone.
 
-NOTE: Since you can have multiple Mobile services as well as multiple instances of the same service,
+:::note
+Since you can have multiple Mobile services as well as multiple instances of the same service,
 the administrator should provide the URL or QR code of the specific service or instance that they
 want users to configure the app with.
+:::
+
 
 ### Manually Provide the Web Server URL
 
@@ -81,7 +84,3 @@ service.
 3. Scan the QR code with your smartphone.  
    On successful configuration, the **Login** page is displayed. Sign into the app and start using
    it.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)

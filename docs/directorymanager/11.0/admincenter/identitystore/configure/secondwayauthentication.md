@@ -36,7 +36,7 @@ On providing the right code, he or she can proceed with the operation.
 Second way authentication is disabled by default for an identity store. To facilitate users to avail
 it, you must enable one or more authentication types.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Enable Second Way Authentication Via Security Questions](#enable-second-way-authentication-via-security-questions)
 - [Enable Second Way Authentication via Mobile](#enable-second-way-authentication-via-mobile)
@@ -78,11 +78,14 @@ What do you want to do?
 4. On the **Second Way Authentication** page, use the toggle button for **Enable Second Way
    Authentication via Mobile** to enable it.
 
-    NOTE: If an SMS gateway account is not linked with the identity store, **Configure Now** is
+    :::note
+    If an SMS gateway account is not linked with the identity store, **Configure Now** is
     displayed in place of the toggle button. Click it to go to the **SMS Authentication** page,
     where you can link an SMS gateway account with the identity store. See the
     [Link an SMS Gateway Account to an Identity Store](/docs/directorymanager/11.0/admincenter/identitystore/configure/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
     topic.
+    :::
+
 
 5. In the **Mobile Attribute** drop-down list, select an attribute that stores mobile numbers in the
    directory.  
@@ -100,11 +103,14 @@ What do you want to do?
 4. On the **Second Way Authentication** page, use the toggle button for **Enable Second Way
    Authentication via Email** to enable it.
 
-    NOTE: If an SMTP server is not defined for the identity store, **Configure Now** is displayed in
+    :::note
+    If an SMTP server is not defined for the identity store, **Configure Now** is displayed in
     place of the toggle button. Click it to go to the **Notifications** page for configuring an SMTP
     server. See the
     [Configure an SMTP Server](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md)
     topic.
+    :::
+
 
 5. In the **Email Attribute** drop-down list, select an attribute that stores email addresses in the
    directory.  
@@ -131,9 +137,3 @@ type(s) they want to use for authentication.
    by the end user)** box. This number must be equal or less than the enabled SWA authentication
    types. Users must use these x number of types for second way authentication.
 5. Click **Save**.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Configure an SMTP Server](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md)
-- [SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/overview.md)

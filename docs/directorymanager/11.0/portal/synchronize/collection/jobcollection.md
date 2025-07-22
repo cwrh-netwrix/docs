@@ -1,5 +1,5 @@
 ---
-title: "Synchronized Job Collection"
+title: "Job Collections"
 description: "Synchronized Job Collection"
 sidebar_position: 30
 ---

@@ -65,7 +65,7 @@ job collections. On the navigation pane on the left side, you will see the follo
 
 - Create New ([Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
   and
-  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md))
+  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/collection/create.md))
 - [Dashboard](/docs/directorymanager/11.0/portal/synchronize/dashboard.md)
 - [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
 - [Manage a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollection.md)

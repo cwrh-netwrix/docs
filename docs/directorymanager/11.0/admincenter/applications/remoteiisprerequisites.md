@@ -116,8 +116,11 @@ The next step is to assign permissions on the physical folder that binds to your
 
     ```
 
-    Remember, to provide values for alias "site name" and path "physical folder location of the
+    :::tip
+        Remember, to provide values for alias "site name" and path "physical folder location of the
     site", created in the section [Create a Site in Remote IIS](#create-a-site-in-remote-iis).
+    :::
+
 
 ## Generate an Access Key
 
@@ -143,8 +146,3 @@ To connect to the API, an access key is required. Follow the steps below to gene
 4. On clicking **Create**, the access key is generated.
 
     ![Access Token window](/img/product_docs/directorymanager/11.0/admincenter/portal/accesstoken.webp)
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [GroupID Portal](/docs/directorymanager/11.0/admincenter/applications/portal/overview.md)

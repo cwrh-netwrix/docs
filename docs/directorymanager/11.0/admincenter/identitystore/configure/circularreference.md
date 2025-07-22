@@ -22,7 +22,7 @@ Examples of circular reference are:
 You can change the default setting to allow GroupID to save updates to objects even when a circular
 reference occurs.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Allow Circular Reference](#allow-circular-reference)
 - [Skip the replication of members of a dynamic group in Entra ID ](#skip-the-replication-of-members-of-a-dynamic-group-in-entra-id)

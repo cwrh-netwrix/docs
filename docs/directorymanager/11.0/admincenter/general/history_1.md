@@ -24,7 +24,7 @@ History can be viewed using the **History** node in Admin Center. You can:
 - Narrow down the history items using filters.
 - Export history data to Microsoft Excel, CSV, and XML formats.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View Admin Center History](#view-admin-center-history)
 - [Annotate History Items](#annotate-history-items)
@@ -91,8 +91,3 @@ You can export Admin Center history to Microsoft Excel, CSV, and XML formats.
 5. Click **Export History**. The file is saved at the download location specified in browser
    settings.
 6. A message is displayed that history data is successfully exported. Click **OK**.
-
-**See Also**
-
-- [History in GroupID](/docs/directorymanager/11.0/admincenter/concepts/history.md)
-- [Event Logging](/docs/directorymanager/11.0/admincenter/identitystore/view/eventlogging.md)

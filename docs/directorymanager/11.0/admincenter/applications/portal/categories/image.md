@@ -27,7 +27,7 @@ A custom image display type is rendered on a portal page as:
 Click **Edit** to launch the **Manage Photo** dialog box for uploading a photo. The dialog box also
 provides many image editing options, including rotate, crop, flip, and re-size.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Define an Image Display Type](#define-an-image-display-type)
 
@@ -57,9 +57,3 @@ attributes _jpegPhoto_, _Photo_, _thumbnailPhoto_, and _thumbnailLogo_) on the *
 Properties, Create Object**, and **Property Validation** pages in **Design Settings**, after which
 the image placeholder is displayed on the respective portal page. Users can use it to upload their
 photos.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/categories/custom.md)

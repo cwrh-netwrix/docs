@@ -8,7 +8,7 @@ sidebar_position: 20
 
 You can manage various settings for a portal instance deployed in native IIS.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Start or Stop an Instance](#start-or-stop-an-instance)
 - [Change the IIS Application Name for an Instance](#change-the-iis-application-name-for-an-instance)
@@ -134,7 +134,3 @@ To set file logging and Windows logging levels for a deployment instance, see t
 To delete a portal’s deployment instance, see the
 [Delete a Deployment Instance for a Portal](/docs/directorymanager/11.0/admincenter/applications/portal/delete.md#delete-a-deployment-instance-for-a-portal)
 topic.
-
-**See Also**
-
-- [Server Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/overview.md)

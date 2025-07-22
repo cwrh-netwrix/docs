@@ -9,7 +9,7 @@ sidebar_position: 20
 You can delete a Mobile service or an instance of a service. On deleting a service, all its
 instances are deleted with it.
 
-What do you want to do?
+**What do you want to do?**
 
 - Delete a Deployment Instance for a Service
 - Delete a Service

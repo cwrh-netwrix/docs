@@ -9,7 +9,7 @@ sidebar_position: 20
 GroupID enables you to create data sources for various data providers. You can also update and
 delete these data sources.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Search a Data Source for a Specific Provider](#search-a-data-source-for-a-specific-provider)
 - [Update a Data Source](#update-a-data-source)
@@ -47,8 +47,11 @@ credentials to connect to it, and any other info you provided while creating it.
 You can delete a data source to prevent users from using it as source and destination in Synchronize
 jobs.
 
-NOTE: Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
+:::note
+Deleting a data source corrupts all Synchronize jobs, membership queries, and search queries
 using that data source.
+:::
+
 
 **To delete a data source:**
 

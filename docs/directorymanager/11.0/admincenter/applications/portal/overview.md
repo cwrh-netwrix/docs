@@ -56,9 +56,3 @@ topic.
 By default, notifications are sent to users in the English language. However, a user can opt to
 receive notifications in a supported language by personalizing the language settings from the
 **Settings** panel in the portal.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Create a GroupID Portal](/docs/directorymanager/11.0/admincenter/applications/portal/create.md)
-- [Delete a Portal](/docs/directorymanager/11.0/admincenter/applications/portal/delete.md)

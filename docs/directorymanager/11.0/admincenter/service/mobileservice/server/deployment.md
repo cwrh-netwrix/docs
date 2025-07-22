@@ -9,7 +9,7 @@ sidebar_position: 20
 You can manage various deployment settings for a Mobile service in any of the web servers: native
 IIS, remote IIS, and Docker.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View the Deployment(s) for a Mobile Service](#view-the-deployments-for-a-mobile-service)
 - [Start or Stop a Deployment Instance](#start-or-stop-a-deployment-instance)
@@ -145,8 +145,3 @@ configure the GroupID app with this deployment instance of the Mobile service.
     - For a Docker deployment, you can view the port and service URL used to communicate with Docker
       engine. You can also view the URL to launch the instance, and the Data service and Security
       service the instance uses.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Server Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/server/overview.md)

@@ -23,23 +23,10 @@ You can define the following policies for a role:
 
 In this way, you can create security roles with varying degrees of policy restrictions.
 
-NOTE: For users with multiple roles, the policies specified for the highest priority role apply (see
+:::note
+For users with multiple roles, the policies specified for the highest priority role apply (see
 [Priority](/docs/directorymanager/11.0/admincenter/securityrole/manage.md)). The _Search
 policy_, _New Object policy_, and _Group Name Prefixes_ policy, however, apply with respect to all
 assigned roles. For example, if different search containers are specified for two different roles of
 a user, that user can search and view objects in both containers.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Create a Security Role](/docs/directorymanager/11.0/admincenter/securityrole/create.md)
-- [Manage Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/manage.md)
-- [Group Owners Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/groupowners.md)
-- [Set Group Name Prefixes](/docs/directorymanager/11.0/admincenter/identitystore/configure/prefixes.md)
-- [New Object Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/newobject.md)
-- [Search Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/search.md)
-- [Authentication Policy for Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/policy/authentication.md)
-- [Set a Password Policy ](/docs/directorymanager/11.0/admincenter/securityrole/policy/password.md)
-- [Helpdesk Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/helpdesk.md)
-- [Synchronize Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/synchronize.md)
-- [ Query Designer Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/querydesigner.md)
+:::

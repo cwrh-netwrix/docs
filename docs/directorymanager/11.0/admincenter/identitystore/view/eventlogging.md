@@ -49,8 +49,3 @@ with the original name. X in .Log.X is a number from 1 to 10 representing the ar
 Under Windows logging, events for GroupID clients and services are logged to the Windows application
 log.
 
-**See Also**
-
-- [Configure History Tracking](/docs/directorymanager/11.0/admincenter/identitystore/configure/historytracking.md)
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Get Logs](/docs/directorymanager/11.0/admincenter/concepts/logs.md)

@@ -24,12 +24,15 @@ before resetting their password or unlocking their identity store account. See t
 [Set Restricted Mode](/docs/directorymanager/11.0/admincenter/securityrole/policy/helpdesk.md#set-restricted-mode)
 topic.
 
-NOTE: Multifactor authentication defined in Microsoft Entra Admin Center does not integrate with MFA
+:::note
+Multifactor authentication defined in Microsoft Entra Admin Center does not integrate with MFA
 in GroupID. See the
 [Multifactor Authentication Policy](/docs/directorymanager/11.0/admincenter/identitystore/advsentraid.md#multifactor-authentication-policy)
 topic.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - Configure Multifactor Authentication
 
@@ -45,10 +48,3 @@ To configure multifactor authentication for a security role in an identity store
    See the
    [Enforce Authentication Types for Multifactor Authentication](/docs/directorymanager/11.0/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
    topic for details.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Configure Second Factor Authentication](/docs/directorymanager/11.0/admincenter/authpolicy/sfa.md)
-- [Enroll with Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/enroll.md)
-- [Authenticate with Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/authenticate.md)

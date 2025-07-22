@@ -24,7 +24,7 @@ The Group Lifecycle schedule performs the following main functions:
 - Extends or reduces the life of mail-enabled distribution groups based on their usage.
 - Initiates group attestation for expiring groups.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Group Life Cycle Schedule](#create-a-group-life-cycle-schedule)
 
@@ -52,11 +52,14 @@ What do you want to do?
    topic. The schedule will process all groups in the containers and their sub-containers listed in
    the **Target(s)** area in keeping with the Group Lifecycle settings for the identity store.
 
-    NOTE: In Group Lifecycle settings, the administrator can specify container(s) for exclusively
+    :::note
+    In Group Lifecycle settings, the administrator can specify container(s) for exclusively
     applying or not applying the Group Life cycle policy. See the
     [Apply Policy on Specific Containers](/docs/directorymanager/11.0/admincenter/identitystore/configure/grouplifecycle.md#apply-policy-on-specific-containers)
     topic. With containers specified in the **Target(s)** area, there may be a conflict or
     overlapping of containers, in which case, the Group Lifecycle settings take precedence.
+    :::
+
 
 10. Click **Add Triggers** in the **Triggers** area to specify a triggering criterion for the
     schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
@@ -81,7 +84,3 @@ What do you want to do?
     The schedule is displayed under **Group Life Cycle**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

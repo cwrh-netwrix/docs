@@ -10,7 +10,7 @@ You can link identity stores built on the supported identity providers in GroupI
 identical user and group objects existing in multiple identity stores (domains) can be linked
 together and auto synced. GroupID further enables you to manage these linked identity stores.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Link Two Identity Stores](#link-two-identity-stores)
 - [View the Identity Store Links](#view-the-identity-store-links)
@@ -110,9 +110,12 @@ What do you want to do?
     5. Click **Add Filter for Users** in the bottom right corner of the **Add Filter for Users** or
        **Add Filter for Groups** pane.
 
-        NOTE: If you have added multiple clauses but do not group them using the AND/OR operator,
+        :::note
+        If you have added multiple clauses but do not group them using the AND/OR operator,
         GroupID auto groups them using AND. Similarly, if you add two groups of clauses but do not
         group them using the AND/OR operator, GroupID auto groups them using AND.
+        :::
+
 
         The filter is added and displayed on the **Link Identity Stores** page.  
          You can specify one filter expression for the user object and one filter expression for the
@@ -123,9 +126,12 @@ What do you want to do?
 
 7. Click **Create Link** to save the link.
 
-    NOTE: An identity store link is effective when the two identity stores linked together are also
+    :::note
+    An identity store link is effective when the two identity stores linked together are also
     associated with a GroupID portal, say Portal A. If a portal does not exist with both identity
     store associated with it, a message is displayed to alert you to it.
+    :::
+
 
     The link is displayed on the **Identity Stores** page.
 
@@ -195,8 +201,11 @@ You can edit a link to:
       object to delete it. Deleting the filter expression for the user or group object breaks the
       link for the respective objects in the linked identity stores.
 
-        NOTE: At least one filter expression for the user object and one filter expression for the
+        :::note
+        At least one filter expression for the user object and one filter expression for the
         group object must exist for the identity store link. Else changes will not be saved.
+        :::
+
 
 3. After making the required changes, click **Update Link**.
 
@@ -226,7 +235,3 @@ linked anymore in the GroupID portal.
    On the **Identity Stores** page, each card under **Identity Store Links** represents a distinct
    link between two identity stores.
 2. Click the ellipsis button on a card and select **Delete** to delete the link.
-
-**See Also**
-
-- [Link Identity Stores](/docs/directorymanager/11.0/admincenter/identitystore/link/overview.md)

@@ -22,7 +22,7 @@ In GroupID, history is tracked for:
     - GroupID Admin Center (actions performed by schedules only)
     - GroupID APIs
 
-Enabling history tracking
+**Enabling history tracking**
 
 History for Admin Center and helpdesk is tracked by default and you cannot disable it.
 
@@ -31,13 +31,13 @@ enable it for an identity store as well as choose to track all or specific actio
 [Configure History Tracking](/docs/directorymanager/11.0/admincenter/identitystore/configure/historytracking.md)
 topic.
 
-Where is history displayed?
+**Where is history displayed?**
 
 - History for Admin Center, helpdeak, and identity store configurations is displayed in Admin
   Center, each displayed on separate pages.
 - History for identity store objects is displayed in the GroupID portal.
 
-History Retention
+**History Retention**
 
 The _history retention_ setting for an identity store enables you to choose whether you want to keep
 history data forever or for a specific period. See the
@@ -47,7 +47,8 @@ and
 topics. Your desired setting applies to all history tracked for the respective identity store,
 including that tracked for helpdesk and Admin Center.
 
-NOTE: Actions tracked under Admin Center history are independent of an identity store. In this case,
+:::note
+Actions tracked under Admin Center history are independent of an identity store. In this case,
 history retention settings apply to a history item in the context of the identity store selected by
 the user to log into Admin Center to perform that action.  
 **Example:** UserA selects IdentityStoreA to sign into Admin Center and creates an SMS gateway
@@ -55,18 +56,12 @@ account. This user then selects IdentityStoreB to sign into Admin Center and cre
 portal. Both actions are logged in Admin Center history. However, history retention setting of
 IdentityStoreA will apply to the SMS gateway account creation action and that of IdentityStoreB will
 apply to the GroupID portal creation action.
+:::
 
-Event Logging
+
+**Event Logging**
 
 In addition to history tracking, GroupID provides event logging, which includes file logging and
 Windows logging for GroupID clients and services. See the
 [Event Logging](/docs/directorymanager/11.0/admincenter/identitystore/view/eventlogging.md)
 topic.
-
-**See Also**
-
-- [Admin Center History](/docs/directorymanager/11.0/admincenter/concepts/history_1.md)
-- [History in Helpdesk](/docs/directorymanager/11.0/admincenter/helpdesk/history.md)
-- [Identity Store History](/docs/directorymanager/11.0/admincenter/identitystore/view/view.md)
-  (for identity store configurations, workflows, and security roles)
-- [History](/docs/directorymanager/11.0/portal/history/overview.md) (for directory objects)

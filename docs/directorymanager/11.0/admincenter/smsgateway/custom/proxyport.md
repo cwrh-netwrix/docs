@@ -28,7 +28,3 @@ The port number.
 
 If communication with the SMS gateway is through a proxy server, you can use this property to set
 the port number the proxy server uses.
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

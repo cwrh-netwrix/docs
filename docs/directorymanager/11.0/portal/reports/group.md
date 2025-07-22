@@ -10,7 +10,7 @@ Group Reports contains reports for the Group objects in the directory. Search a 
 typing its name in the **Search Reports** box.
 
 Click any of the report template from the list to
-[Generate Reports](/docs/directorymanager/11.0/portal/dashboard/generate.md).
+[Generate Reports](/docs/directorymanager/11.0/portal/reports/generate.md).
 
 Following is the list of reports for this category:
 
@@ -71,7 +71,7 @@ Following is the list of reports for this category:
 | Mail-enabled groups with no members (Exchange)                                                                                     | Provides a list of all mail-enabled groups having no members.                                                                                                                                        |
 | Mail-enabled groups with no owner (Exchange)                                                                                       | Provides a list of mail-enabled groups having no owner.                                                                                                                                              |
 | Mail enabled Security Groups (Exchange)                                                                                            | Provides a list of mail-enabled groups in the domain.                                                                                                                                                |
-| Owners and objects they own Listed in [User Reports](/docs/directorymanager/11.0/portal/dashboard/user.md) category as well. | Provides a list of managers and their direct reports.                                                                                                                                                |
+| Owners and objects they own Listed in [User Reports](/docs/directorymanager/11.0/portal/reports/user.md) category as well. | Provides a list of managers and their direct reports.                                                                                                                                                |
 | Security Groups managed by GroupID                                                                                                 | Provides a list of the security groups that are managed by GroupID.                                                                                                                                  |
 | Smart Groups/Dynasties with their update status                                                                                    | Provides a list of Smart Groups and Dynasties with their update status information.                                                                                                                  |
 | Smart Groups and Included members                                                                                                  | Provides a list of Smart Group members that are mentioned in the Include list on the Include/Exclude tab of the Query Designer window.                                                               |
@@ -79,11 +79,3 @@ Following is the list of reports for this category:
 | Smart Groups and their expected membership                                                                                         | Provides information of expected members for the Smart Groups in the selected container or domain.                                                                                                   |
 | Smart Groups in current domain                                                                                                     | Provides a list of Smart Groups in the domain.                                                                                                                                                       |
 | Smart Groups with Exclude members                                                                                                  | Provides a list of Smart Group members that are mentioned in the Exclude list on the Include/Exclude tab of the Query Designer window.                                                               |
-
-**See Also:**
-
-- [Generate Reports](/docs/directorymanager/11.0/portal/dashboard/generate.md)
-- [Manage Reports](/docs/directorymanager/11.0/portal/dashboard/manage.md)
-- [User Reports](/docs/directorymanager/11.0/portal/dashboard/user.md)
-- [Computer Reports](/docs/directorymanager/11.0/portal/dashboard/computer.md)
-- [Contact Reports](/docs/directorymanager/11.0/portal/dashboard/contact.md)

@@ -21,7 +21,7 @@ You can configure notifications for a schedule that are sent to designated recip
 an event, such as when the schedule successfully updates all target groups or fails to update any
 target group.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Smart Group Update Schedule](#create-a-smart-group-update-schedule)
 
@@ -87,9 +87,12 @@ What do you want to do?
        notification recipients, using a semicolon to separate multiple addresses. These recipients
        will get a report on the event you select for **Send Notification**.
 
-        NOTE: If the email ID of a target group’s additional owner is specified in this box, the
+        :::note
+        If the email ID of a target group’s additional owner is specified in this box, the
         additional owner will receive notifications even if the **Do not Notify** check box is
         selected for it in the respective group’s properties.
+        :::
+
 
     3. Select the **Send Report to group owner(s)** check box to send a report to each unique group
        owner of the groups processed by the schedule. A Dynasty owner receives a notification for
@@ -97,9 +100,12 @@ What do you want to do?
        Group owners include the primary owner, additional owner(s), and Exchange additional
        owner(s).
 
-        NOTE: An additional owner of a target group will not receive notifications when the **Do not
+        :::note
+        An additional owner of a target group will not receive notifications when the **Do not
         Notify** check box is selected for it in the respective group’s properties, even with the
         **Send Report to group owner(s)** check box selected.
+        :::
+
 
     4. In the **Send Notification** area, select one of the following options:
 
@@ -114,18 +120,17 @@ What do you want to do?
 
     5. Click **Save**.
 
-        NOTE: When a Smart Group Update schedule is bound to a single OU that contains all expired
+        :::note
+        When a Smart Group Update schedule is bound to a single OU that contains all expired
         Smart Groups/Dynasties, notifications will not be sent, even if the _Always_ option is
         selected. Expired Smart Groups and Dynasties are not evaluated for the update process.
         However, even if one group in the OU is not expired, notifications will be sent for all
         objects with _failed_ status for expired objects.
+        :::
+
 
 13. On the **Create Schedule** page, click **Create Schedule**.
 14. On the Schedules page, click **Save**.  
     The schedule is displayed under **Smart Group Update**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

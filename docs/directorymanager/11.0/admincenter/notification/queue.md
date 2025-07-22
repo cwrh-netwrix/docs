@@ -22,7 +22,7 @@ notifications that GroupID generates on various events. See the
 [Customize Notifications](/docs/directorymanager/11.0/admincenter/notification/customize.md)
 topic for details.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View the Notification Queue](#view-the-notification-queue)
 - [Send a Notification Urgently](#send-a-notification-urgently)
@@ -105,9 +105,3 @@ To delete a notification:
         ![send_refresh](/img/product_docs/directorymanager/11.0/admincenter/notification/send_refresh.webp)
 
         Click the **Delete** icon to delete the selected notifications.
-
-**See Also**
-
-- [Notifications](/docs/directorymanager/11.0/admincenter/notification/overview.md)
-- [Email Service](/docs/directorymanager/11.0/admincenter/service/emailservice.md)
-- [Admin Center History](/docs/directorymanager/11.0/admincenter/concepts/history_1.md)

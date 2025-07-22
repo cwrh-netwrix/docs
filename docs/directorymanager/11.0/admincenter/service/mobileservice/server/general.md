@@ -8,7 +8,7 @@ sidebar_position: 10
 
 You can change the display name of a Mobile service and associate identity stores with it.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Change a Service’s Display Name](#change-a-services-display-name)
 - [Associate Identity Stores with a Service](#associate-identity-stores-with-a-service)
@@ -39,8 +39,3 @@ app for logging in.
     All instances of this Mobile service serve the identity stores you select here.
 
 4. Click **Save**.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Server Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/server/overview.md)

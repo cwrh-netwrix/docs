@@ -40,7 +40,7 @@ Look on the left side of the page for the navigation pane, which lists links to:
 
 - Create New ([Create a Job](/docs/directorymanager/11.0/portal/synchronize/create/create.md)
   and
-  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md))
+  [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/collection/create.md))
 - Dashboard
 - [Manage a Job](/docs/directorymanager/11.0/portal/synchronize/manage/job.md)
 - [Manage a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/manage/jobcollection.md)

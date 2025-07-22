@@ -23,7 +23,7 @@ for any history records, and if so, move them from the GroupID database to the f
   authentication action. See the
   [History in Helpdesk](/docs/directorymanager/11.0/admincenter/helpdesk/history.md) topic.
 - **AdminCenterHistory** - contains Admin Center history data. See the
-  [Admin Center History](/docs/directorymanager/11.0/admincenter/concepts/history_1.md) topic.
+  [Admin Center History](/docs/directorymanager/11.0/admincenter/general/history_1.md) topic.
 
 These files are available at the following location on the GroupID server:  
 X:\Program Files\Imanami\GroupID
@@ -32,10 +32,13 @@ X:\Program Files\Imanami\GroupID
 
 History data moved to these files is not longer displayed in GroupID.
 
-NOTE: Admin Center history does not fall in a specific identity store, so its retention mechanism is
+:::note
+Admin Center history does not fall in a specific identity store, so its retention mechanism is
 different. GroupID checks the identity store of the user who performed an action logged in Admin
 Center history, and archives that record according to the history retention setting of the identity
 store that user belongs to.
+:::
+
 
 After the History Retention schedule runs, the following information is displayed on the **History**
 page in identity store configurations:
@@ -44,7 +47,7 @@ page in identity store configurations:
 
 You cannot create or delete a History Retention schedule; only update the existing one.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Update the History Retention Schedule](#update-the-history-retention-schedule)
 
@@ -81,7 +84,3 @@ What do you want to do?
     For general schedule info, see the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

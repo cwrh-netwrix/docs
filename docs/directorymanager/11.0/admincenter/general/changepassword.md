@@ -9,7 +9,7 @@ sidebar_position: 50
 You can change the password of your identity store account. After changing it, use the new password
 to sign into GroupID and other applications that use your domain account.
 
-What do you want to do?
+**What do you want to do?**
 
 - Change your Password
 
@@ -27,15 +27,13 @@ Step 3 – Enter a new password in the **New Password** and **Confirm Password**
 
 Step 4 – Click **Change Password**.
 
-NOTE: Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords
+:::note
+Microsoft Entra ID users with multifactor authentication enabled cannot change their passwords
 in GroupID. The following message is displayed:.
+:::
+
 
 ![Admin Center Change Password error message for an Entra ID user](/img/product_docs/directorymanager/11.0/admincenter/general/admincenterchangepassword.webp)
 
 If the user's account is a master account, password of its child accounts also cannot be changed in
 GroupID.
-
-**See Also**
-
-- [Dashboard](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md)
-- [Navigation](/docs/directorymanager/11.0/admincenter/concepts/navigation.md)

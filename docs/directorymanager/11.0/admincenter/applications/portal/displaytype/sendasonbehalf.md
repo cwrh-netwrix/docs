@@ -45,7 +45,7 @@ Send As and Send on Behalf lists using the portal.
   Directory for the Send As permission to be set using the portal. For more information, see
   [Access denied when you try to give user "send-as" or "receive as" permission for a Distribution Group in Exchange Server](https://support.microsoft.com/en-us/topic/access-denied-when-you-try-to-give-user-send-as-or-receive-as-permission-for-a-distribution-group-in-exchange-server-505822f4-8dca-7b97-d378-c8416553f6d2).
 
-What do you want to do?
+**What do you want to do?**
 
 - [Set up the Send As Feature](#set-up-the-send-as-feature)
 - [Set up the Send on Behalf Feature](#set-up-the-send-on-behalf-feature)
@@ -243,7 +243,3 @@ follows:
 Use the **Add** and **Remove** buttons to add and remove objects in the Send on Behalf list. The
 added objects can send email on behalf of the target object in accordance with the Send on Behalf
 functionality.
-
-See Also
-
-- [Customize Properties Pages](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/objectproperties.md)

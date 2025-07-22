@@ -23,7 +23,3 @@ bool TestProxy();
 Type: [System.Boolean](http://msdn.microsoft.com/en-us/library/system.boolean.aspx)
 
 True if the proxy settings are valid.
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

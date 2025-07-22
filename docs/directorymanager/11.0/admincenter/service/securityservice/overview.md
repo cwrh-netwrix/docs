@@ -24,9 +24,3 @@ topic.
 See the
 [Why Create Multiple Data Services?](/docs/directorymanager/11.0/admincenter/service/dataservice/overview.md#why-create-multiple-data-services)
 topic while replacing references to Data service with Security service.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Create a Security Service](/docs/directorymanager/11.0/admincenter/service/securityservice/create.md)
-- [Manage Security Service Settings](/docs/directorymanager/11.0/admincenter/service/securityservice/manage.md)

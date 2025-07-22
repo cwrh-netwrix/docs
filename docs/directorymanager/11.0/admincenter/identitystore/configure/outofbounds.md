@@ -20,7 +20,7 @@ following group membership setting for an identity store:
   smaller, nested groups.
 - Define a criterion for out-of-bounds exceptions to raise alerts for group owners.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Set the Maximum Number of Group Members](#set-the-maximum-number-of-group-members)
 - [Manage Orphan Nested Groups](#manage-orphan-nested-groups)
@@ -33,7 +33,7 @@ an update to a group breaches this limit.
 
 - Not to update the group membership, thereby retaining the old membership.
 
-    Or
+**Or**
 
 - Create nested groups to accommodate membership. Nested groups are created as sub-groups of the
   group being updated. This simplifies permissions by allowing sub-groups to inherit permissions
@@ -52,12 +52,15 @@ Since the count exceeds 500, it breaks the membership into 2 child groups (Group
 and Group 2 with 120 members) and nests them into Group A. Hence, GroupID checks the member count
 and takes necessary action before adding members to the group.
 
-NOTE: In case of an Office 365 group, the option to break the membership into child groups has the
+:::note
+In case of an Office 365 group, the option to break the membership into child groups has the
 following impact - An Office 365 group (Group A) will be updated according to the Smart Group update
 process. However, when the maximum membership limit is hit, the update process will create child
 group(s) and try to add them as members of Group A. Since an Office 365 group cannot have groups as
 members, Group A’s membership will be empty. The child groups will continue to exist but without any
 link to Group A.
+:::
+
 
 **To set group membership limits:**
 
@@ -106,12 +109,15 @@ out-of-bounds exception occurs, GroupID does not update group membership and not
 recipient(s) by email. If they deem the change as valid, they can update the group manually in the
 GroupID portal.
 
-NOTE: 1. Settings in the **Threshold** section apply in case of membership update through a Smart
+:::note
+1. Settings in the **Threshold** section apply in case of membership update through a Smart
 Group Update schedule. On manual update, these settings have no impact.  
- 2. If the group is not updated manually after an out-of-bounds exception, the changes remain
+2. If the group is not updated manually after an out-of-bounds exception, the changes remain
 pending and the group will not be updated in future when the Smart Group Update job runs.  
- 3. Out-of-bounds exception notifications are sent as per notification settings configured for the
+3. Out-of-bounds exception notifications are sent as per notification settings configured for the
 Smart Group Update schedule responsible for updating the respective group.
+:::
+
 
 **To set a group update threshold:**
 
@@ -158,8 +164,3 @@ Smart Group Update schedule responsible for updating the respective group.
           percentage is exceeded, GroupID will not raise an exception and update group membership.
 
 6. Click **Save**.
-
-**See Also**
-
-- [Manage Dynasty Settings](/docs/directorymanager/11.0/admincenter/identitystore/configure/dynastysettings.md)
-- [Smart Group Update Schedule](/docs/directorymanager/11.0/admincenter/schedule/smartgroupupdate.md)

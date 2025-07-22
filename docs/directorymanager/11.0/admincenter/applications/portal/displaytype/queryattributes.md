@@ -56,7 +56,7 @@ You can also specify the following for an attribute:
   selecting an object.
 - The maximum number of characters that users can enter as value for an attribute.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Allow All Schema Attributes](#allow-all-schema-attributes)
 - [Allow Specific Attributes](#allow-specific-attributes)
@@ -169,7 +169,3 @@ You can change the following for an attribute:
    portal for building Smart Group queries and other purposes. However, Smart Groups and Dynasti
    created using those attributes will be unaffected.
 7. Click **Save**.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)

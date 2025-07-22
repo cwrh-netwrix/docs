@@ -14,8 +14,11 @@ in GroupID. Moreover, they can view the actions that users perform in the identi
 password change/reset, account enrollment/unenrollment, and the date and time they logged into
 GroupID.
 
-NOTE: The helpdesk role must be granted the following permissions in an identity store to enable
+:::note
+The helpdesk role must be granted the following permissions in an identity store to enable
 them to perform their job:
+:::
+
 
 - Reset Any Password
 - Unlock Any Account
@@ -34,9 +37,12 @@ The Helpdesk policy defines:
   performing the account unlock, account unenroll, and password reset functions.
 - The password reset options available to helpdesk role members.
 
-NOTE: Account unlock is not supported in a Microsoft Entra ID identity store.
+:::note
+Account unlock is not supported in a Microsoft Entra ID identity store.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Set Restricted Mode](#set-restricted-mode)
     - [Limit Helpdesk to Manage Users in a Specific OU](#limit-helpdesk-to-manage-users-in-a-specific-ou)
@@ -122,7 +128,7 @@ done through all or some of the authentication types the user's account is enrol
       the[Enforce Authentication Types for Multifactor Authentication](/docs/directorymanager/11.0/admincenter/securityrole/policy/authentication.md#enforce-authentication-types-for-multifactor-authentication)
       topic.
 
-        Or
+**Or**
 
     - **Enforce at least selected level of multifactor authentication:** to force helpdesk role
       members to authenticate end-users with x number of authentication types. Specify the number of
@@ -130,8 +136,11 @@ done through all or some of the authentication types the user's account is enrol
       authentication types. A helpdesk user can choose any 2 of these types to authenticate that
       user.
 
-    NOTE: Helpdesk users cannot authenticate end-users with the Linked account, Windows Hello, and
+    :::note
+    Helpdesk users cannot authenticate end-users with the Linked account, Windows Hello, and
     YubiKey authentication types.
+    :::
+
 
 9. Click **OK**.
 10. On the **Edit Security Role** page, click **Update Security Role**.
@@ -142,11 +151,14 @@ done through all or some of the authentication types the user's account is enrol
 You can specify the minimum number of security questions helpdesk role members must use to
 authenticate end-users before unlocking their identity store accounts or resetting their passwords.
 
-RECOMMENDED: As a prerequisite to applying this setting, make sure that the Security Questions
+:::info
+As a prerequisite to applying this setting, make sure that the Security Questions
 authentication type is enabled and configured for the identity store, as well as enforced as an
 account enrollment method for security roles. See the
 [Set up Authentication via Security Questions](/docs/directorymanager/11.0/admincenter/authpolicy/setupauth/securityquestions.md)
 topic.
+:::
+
 
 **To enforce security questions for authentication:**
 
@@ -166,9 +178,12 @@ topic.
    users. Helpdesk users have to type in the answers that end-users provide over phone for
    verification.
 
-    NOTE: If a user has not enrolled his or her account using security questions, the helpdesk user
+    :::note
+    If a user has not enrolled his or her account using security questions, the helpdesk user
     will get an error message when he or she attempts to authenticate this user for password
     reset/account unlock.
+    :::
+
 
 9. Click **OK**.
 10. On the **Edit Security Role** page, click **Update Security Role**.
@@ -210,8 +225,11 @@ As part of the Helpdesk policy, you can:
   and communicate it to the end-users.
 - Force end-users to change the password the next time they sign to their workstations.
 
+:::tip
 Remember, These settings are available if the _Reset Any Password_ permission is granted to the
 Helpdesk role in the identity store.
+:::
+
 
 ### Specify a Password Reset Method
 
@@ -250,14 +268,17 @@ methods, or limit them to use one of these methods:
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
 
-NOTE: (1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the
+:::note
+(1) An SMS gateway account must be linked with the identity store for an SMS to be sent on the
 end-users' mobile phones. See the
 [Link an SMS Gateway Account to an Identity Store](/docs/directorymanager/11.0/admincenter/identitystore/configure/smsauthentication.md#link-an-sms-gateway-account-to-an-identity-store)
 topic.  
- (2) An SMTP server must be configured for the identity store for email to be sent to end-users. See
+(2) An SMTP server must be configured for the identity store for email to be sent to end-users. See
 the
 [Configure an SMTP Server](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md)
 topic.
+:::
+
 
 ### Force Users to Change Password on Next Logon
 
@@ -280,9 +301,3 @@ change the password the next time they login to their workstations.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)

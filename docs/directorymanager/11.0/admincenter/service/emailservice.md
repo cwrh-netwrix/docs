@@ -17,7 +17,7 @@ For more on the notification queue, see the
 [Manage the Notification Queue](/docs/directorymanager/11.0/admincenter/notification/queue.md)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View Email Service Details](#view-email-service-details)
 - [Manage Email Service Settings](#manage-email-service-settings)
@@ -45,8 +45,3 @@ You can manage the following settings for the Email service:
 - [Start or Stop a Service](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
 - [View the Deployment Settings for a Service](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md#view-the-deployment-settings-for-a-service)
 - [Specify Log Settings for a Service](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)

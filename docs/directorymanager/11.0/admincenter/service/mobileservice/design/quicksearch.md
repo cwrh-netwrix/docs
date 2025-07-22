@@ -13,7 +13,7 @@ enters a search string, the values of the specified attributes are matched to re
 You can also specify a search operator that determines what part of the attribute value should match
 the search string.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Specify Search Attributes](#specify-search-attributes)
 
@@ -50,8 +50,3 @@ To specify an operator:
       records with values ending with the search string.
 
 2. Click **Save**.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Design Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/design/overview.md)

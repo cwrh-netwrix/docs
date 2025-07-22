@@ -10,7 +10,7 @@ Using this API you can create a new job collection which is a group of individua
 particular order.
 
 See the
-[Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md)topic
+[Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/collection/create.md)topic
 for additional information on the Job collection.
 
 ## Endpoint

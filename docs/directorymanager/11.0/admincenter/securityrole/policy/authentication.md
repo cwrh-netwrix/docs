@@ -14,11 +14,14 @@ Having enabled and configured authentication types for an identity store, you ca
   the identity store.
 - Enable second factor authentication (SFA) for a security role in an identity store.
 
-NOTE: For MFA and SFA to work for an identity store, make sure you enable enrollment for it. See the
+:::note
+For MFA and SFA to work for an identity store, make sure you enable enrollment for it. See the
 [Enable Enrollment](/docs/directorymanager/11.0/admincenter/identitystore/configure/authtypes.md#enable-enrollment)
 topic.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Enforce Authentication Types for Multifactor Authentication](#enforce-authentication-types-for-multifactor-authentication)
 - [Enable Second Factor Authentication](#enable-second-factor-authentication)
@@ -85,8 +88,3 @@ GroupID mobile app.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)

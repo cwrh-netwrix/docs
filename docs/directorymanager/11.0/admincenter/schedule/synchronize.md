@@ -10,7 +10,7 @@ The GroupID scheduling function enables you to set any Synchronize job or job co
 automatically. Create a Synchronize schedule and add Synchronize jobs and job collections as
 targets. When the schedule runs, the target jobs and job collections are executed.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Synchronize Schedule](#create-a-synchronize-schedule)
 
@@ -57,7 +57,3 @@ What do you want to do?
     The schedule is displayed under **Synchronize**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

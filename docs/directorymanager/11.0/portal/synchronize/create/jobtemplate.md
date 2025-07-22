@@ -1,5 +1,5 @@
 ---
-title: "Choose Your Job Template"
+title: "Job Template"
 description: "Choose Your Job Template"
 sidebar_position: 20
 ---

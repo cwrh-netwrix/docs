@@ -20,8 +20,11 @@ objects:
 - Computer (Only available for adding to group memberships in the portal. Its properties are
   read-only.)
 
-NOTE: A Microsoft Entra ID identity store does not support the _computer_ and _contact_ object
+:::note
+A Microsoft Entra ID identity store does not support the _computer_ and _contact_ object
 types.
+:::
+
 
 In the GroupID portal, the properties page of an object has multiple tabs, where each tab groups
 similar attributes. These tabs are referred to as categories.
@@ -41,7 +44,7 @@ You can customize the following:
 - Rearrange the fields on a tab
 - Remove a field from a tab
 
-What do you want to do?
+**What do you want to do?**
 
 - [Add a Tab (Category)](#add-a-tab-category)
 - [Update Tab Details](#update-tab-details)
@@ -376,7 +379,3 @@ The following field properties vary from field to field. You can:
    Click **Remove** for a field to remove it.
 8. Click **OK**.
 9. Click **Save** on the **Properties** page.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)

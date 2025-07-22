@@ -17,13 +17,19 @@ Helpdesk may have to authenticate users before unlocking their accounts. See the
 [Helpdesk Policy ](/docs/directorymanager/11.0/admincenter/helpdesk/overview.md#helpdesk-policy)
 topic.
 
-NOTE: You can unlock the account of unenrolled users if (a) the **Unlock Any Account** permission
+:::note
+You can unlock the account of unenrolled users if (a) the **Unlock Any Account** permission
 has been granted to your role and (b) the Helpdesk policy for your role is set to the unrestricted
 mode.
+:::
 
-NOTE: GroupID does not support account unlock in a Microsoft Entra ID identity store.
 
-What do you want to do?
+:::note
+GroupID does not support account unlock in a Microsoft Entra ID identity store.
+:::
+
+
+**What do you want to do?**
 
 - [Unlock User Accounts in Unrestricted Mode](#unlock-user-accounts-in-unrestricted-mode)
 - [Unlock User Accounts in Restricted Mode](#unlock-user-accounts-in-restricted-mode)
@@ -72,8 +78,3 @@ What do you want to do?
    has linked his or her accounts that exist in different identity stores, this page displays all
    linked accounts that are locked.  
    To unlock an account, select the check box for it and click **Unlock**.
-
-**See Also**
-
-- [Helpdesk](/docs/directorymanager/11.0/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/directorymanager/11.0/admincenter/helpdesk/operation/overview.md)

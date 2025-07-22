@@ -36,7 +36,7 @@ When you create a mail-enabled group using GroupID, it will be created in Active
 Messaging provider-related configurations will go to ExchB. In case of failure, the system will
 reiterate the same action on ExchA.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Set Microsoft Exchange as Messaging Provider](#set-microsoft-exchange-as-messaging-provider)
 - [Set Office 365 as Messaging Provider](#set-office-365-as-messaging-provider)
@@ -116,10 +116,13 @@ If the server is not listed, click **Sync Again**.
 
 Step 12 – Click **Save**.
 
-NOTE: When Office 365 is configured as the messaging provider for an Active Directory identity
+:::note
+When Office 365 is configured as the messaging provider for an Active Directory identity
 store, GroupID creates distribution groups but does not populate their membership in Office 365. Use
 AD Connect or any directory synchronize tool to replicate information (such as membership info)
 between on-premises AD and Office 365.
+:::
+
 
 ## Set Google Workspace as Messaging Provider
 
@@ -200,7 +203,3 @@ from creating mail-enabled objects in the identity store, select _None_ in the M
 drop-down list.
 
 Step 5 – Click **Save**.
-
-**See Also**
-
-- [Configure an SMTP Server](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md)

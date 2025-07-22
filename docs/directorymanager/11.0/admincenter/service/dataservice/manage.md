@@ -16,7 +16,7 @@ You can manage several settings for a service, such as:
 - Configure file logging for a service
 - Delete a service
 
-What do you want to do?
+**What do you want to do?**
 
 - [View Data Service Details](#view-data-service-details)
 - [Change a Service’s Display Name](#change-a-services-display-name)
@@ -43,7 +43,7 @@ What do you want to do?
     | Name                 | The name given to the service. For a Mobile service, the identity stores associated with the service are also displayed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
     | Deployment Instances | Displays the deployment name of the service and the web server where it is deployed. For a Mobile service, this area may display multiple deployment instance(s) of a service. Each instance is represented by a tile that shows the deployment name of the instance and the target web server.                                                                                                                                                                                                                                                                                                                                                                                                                                           |
     | Status               | A service has one of the following statuses: - **Running:** Indicates that the service is up and running. - **Stopped:** Indicates that GroupID is unable to communicate with the service. To troubleshoot, go to the web server where the service is deployed (IIS, remote IIS, or Docker) and make sure the service is running. - **Error:** Any issue other than _stopped_ is categorized as _error_. Contact your system administrator to resolve it.                                                                                                                                                                                                                                                                                 |
-    | Launch Application   | Click it to launch the service page. - For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_. - For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](/docs/directorymanager/11.0/admincenter/concepts/accessapplications.md) topic. - For Admin Center, this link launches the Admin Center application. - For Mobile service, it launches the **GroupIDMobileService** page that enables users to configure the GroupID mobile app on a phone. |
+    | Launch Application   | Click it to launch the service page. - For a Data service, Replication service, Email service, and Scheduler service, a page is displayed that simply shows the status of the service as _running_, _stopped_, or _error_. - For a Security service, the **GroupID Applications** page is displayed. Performing an action on this page will be carried out through the respective Security service. See the [Access your Applications](/docs/directorymanager/11.0/admincenter/general/accessapplications.md) topic. - For Admin Center, this link launches the Admin Center application. - For Mobile service, it launches the **GroupIDMobileService** page that enables users to configure the GroupID mobile app on a phone. |
     | Ellipsis             | Click it to launch a shortcut menu with the following options: - **Settings:** launches the service settings page, where you can manage deployment settings and log settings. - **Delete:** deletes the service. This option is not available for the default services. For Mobile service, this shortcut menu also displays the following options: - **Deploy Another Instance:** enables you to deploy another instance of the service. - **Copy:** enables you to create a new Mobile service by copying the settings of this service.                                                                                                                                                                                                 |
 
 ## Change a Service’s Display Name
@@ -133,7 +133,10 @@ and
 [Windows Logging](/docs/directorymanager/11.0/admincenter/applications/portal/server/log.md#windows-logging)
 topics. Replace references to the portal with the respective service.
 
-NOTE: Windows logging is not available for Data service and Security service.
+:::note
+Windows logging is not available for Data service and Security service.
+:::
+
 
 ### Change the File Logging Level for a Service
 
@@ -230,12 +233,7 @@ Deleting a Data service removes the following:
 3. On the **Data Service** tab page, click the ellipsis button for a Data service and select
    **Delete**.
 
-NOTE: You cannot delete the default Data service. You cannot also delete a Data service that has
+:::note
+You cannot delete the default Data service. You cannot also delete a Data service that has
 been linked with a GroupID client, such as the GroupID portal or a Mobile service.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Data Service](/docs/directorymanager/11.0/admincenter/service/dataservice/overview.md)
-- [Create a Data Service](/docs/directorymanager/11.0/admincenter/service/dataservice/create.md)
-- [Get Logs](/docs/directorymanager/11.0/admincenter/concepts/logs.md)
+:::

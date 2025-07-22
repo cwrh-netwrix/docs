@@ -13,7 +13,7 @@ An Entitlement schedule is automatically created for an identity store when:
   [Manage File Servers](/docs/directorymanager/11.0/admincenter/entitlement/manage.md)
   for additional information on adding a server.
 
-    Or
+**Or**
 
 - A SharePoint site is added for permission analysis on the Entitlement page in a Microsoft Entra ID
   identity store. See the
@@ -51,7 +51,7 @@ The GroupID Entitlement schedule runs in the context of the following accounts:
 
 You cannot create or delete a GroupID Entitlement schedule; only edit the existing schedule.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Update the GroupID Entitlement Schedule](#update-the-groupid-entitlement-schedule)
 
@@ -95,7 +95,3 @@ Step 10 – On the Schedules page, click **Save**.
 For general schedule info, see the
 [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
 topic.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

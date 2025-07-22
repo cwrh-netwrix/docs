@@ -21,7 +21,7 @@ For more on the Replication service, see the
 The service is also responsible for syncing data between the Elasticsearch clusters in your
 environment.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View Replication Service Details](#view-replication-service-details)
 - [Manage Replication Service Settings](#manage-replication-service-settings)
@@ -56,9 +56,12 @@ You can manage the following settings for a Replication service:
 In an environment with multiple Elasticsearch clusters, you can choose to sync data between
 clusters. You can also specify an interval for syncing.
 
-NOTE: In GroupID, a separate Replication service is created for each node in a cluster. To enable
+:::note
+In GroupID, a separate Replication service is created for each node in a cluster. To enable
 data syncing between clusters, simply enable the sync option for one Replications service within
 each cluster.
+:::
+
 
 To sync data:
 
@@ -77,8 +80,3 @@ To sync data:
    Interval**, specify an interval (in seconds) and click the check mark.  
    By default, the interval is set to 5 seconds. You can specify a maximum interval of 900 seconds.
 7. Click **Save**.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)

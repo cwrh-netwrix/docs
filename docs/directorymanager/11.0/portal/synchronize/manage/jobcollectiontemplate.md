@@ -94,7 +94,7 @@ the top right corner.
     Double-click the job collection template you want to use for the new job collection.
 
 4. This will launch
-   [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/create/collection/create.md)
+   [Create a Job Collection ](/docs/directorymanager/11.0/portal/synchronize/collection/create.md)
    wizard starting from the Job Collection(s) page. Proceed to map the settings stored in the
    template on to the new job collection.
 

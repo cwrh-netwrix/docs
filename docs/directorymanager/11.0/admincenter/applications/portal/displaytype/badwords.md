@@ -16,7 +16,7 @@ The bad words check applies to the following:
 - Fields with the ‘Filter Bad Words’ option enabled in field properties
 - History notes that a user enters for a logged history action
 
-What do you want to do?
+**What do you want to do?**
 
 - [Add a Bad Word to the List](#add-a-bad-word-to-the-list)
 - [Update a Bad Word](#update-a-bad-word)
@@ -78,7 +78,3 @@ What do you want to do?
    bad word check in the portal.  
    You can apply the check any time by enabling the toggle button.
 6. Click **Save**.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)

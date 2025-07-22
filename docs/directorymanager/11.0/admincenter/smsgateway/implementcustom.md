@@ -11,7 +11,7 @@ gateway, you can add an account for it. See the
 [Create an SMS Gateway Account](/docs/directorymanager/11.0/admincenter/smsgateway/manage.md#create-an-sms-gateway-account)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Implement a Custom SMS Gateway](#implement-a-custom-sms-gateway)
 - [Deploy a Custom SMS Gateway](#deploy-a-custom-sms-gateway)
@@ -104,8 +104,3 @@ Class ClickatellCustomSMSGatewayBasic : ISMSGateway 
 
 If the SMS gateway is successfully registered, it will get listed in the **Gateway Type** list (on
 the **Create SMS Gateway** page) for selection when creating an SMS gateway account.
-
-**See Also**
-
-- [SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/overview.md)
-- [ISMSGateway Members](/docs/directorymanager/11.0/admincenter/smsgateway/custom/overview.md)

@@ -28,13 +28,16 @@ be processed by the schedule; hence, the group life cycle policy is not applied 
 [Group Life Cycle Schedule](/docs/directorymanager/11.0/admincenter/schedule/grouplifecycle.md)
 topic.
 
-NOTE: Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the
+:::note
+Before you specify a group life cycle policy for a Microsoft Entra ID identity store, see the
 [Group Expiration Policy](/docs/directorymanager/11.0/admincenter/identitystore/advsentraid.md#group-expiration-policy)
 section in the
 [Microsoft Entra ID vs. Active Directory Identity Stores](/docs/directorymanager/11.0/admincenter/identitystore/advsentraid.md)
 topic.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Set a Default Expiry Policy for Groups](#set-a-default-expiry-policy-for-groups)
 - [Apply Policy on Specific Containers](#apply-policy-on-specific-containers)
@@ -109,10 +112,13 @@ those containers.
 
 5. Click **Save**.
 
-NOTE: If a container is set as target in a Group Life Cycle schedule while it is also listed as an
+:::note
+If a container is set as target in a Group Life Cycle schedule while it is also listed as an
 exempted container in the Group Lifecycle policy, the schedule does not process it. As a result,
 different aspects of the Group Lifecycle policy, such as group expiry and group attestation does not
 apply to groups in the container.
+:::
+
 
 ## Exempt Security Groups from Expiry
 
@@ -123,8 +129,11 @@ expire security groups.
 When a security group expires, its membership is cleared. However, GroupID keeps a backup of its
 membership in the database.
 
-NOTE: In a Microsoft Entra ID identity store, the security group expiry option also applies to
+:::note
+In a Microsoft Entra ID identity store, the security group expiry option also applies to
 Office 365 groups.
+:::
+
 
 **The security group expiration paradox**
 
@@ -292,8 +301,3 @@ The Group Life Cycle schedule handles group expiry notifications as follows:
 - When the **1 day before group expiration** option is selected for sending notifications and the
   Group Life Cycle schedule evaluates the group for the first time a day before its expiration date,
   GroupID will extend the group’s expiration date by 7 days.
-
-**See Also**
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)
-- [ Group Expiry and Deletion](/docs/directorymanager/11.0/admincenter/identitystore/configure/groupexpirydeletion.md)

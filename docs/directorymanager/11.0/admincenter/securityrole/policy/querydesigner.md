@@ -36,7 +36,7 @@ change this criterion as required.
 If you already have restricted some schema attributes for the Query Designer pages in portal, those
 settings will be override by the schema attribute settings specified here.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Apply the Policy to Groups ](#apply-the-policy-to-groups)
 - [Limit the Search Scope of the Query to Specific Containers](#limit-the-search-scope-of-the-query-to-specific-containers)
@@ -66,21 +66,21 @@ groups as well.
     - enable the **Apply policy only to newly created groups** toggle button to apply the policy on
       the new groups created in GroupID 11.1.
 
-        Let's say the following policy is defined for a user role:
+      Let's say the following policy is defined for a user role:
 
-        Start In Container: Users
+      **Start In Container: Users**
 
         Enforce Start In Containers: Enabled
 
-        Objects: Users with Mailboxes
+      **Objects: Users with Mailboxes**
 
         Users with External Email-Address
 
-        Objects: Users
+      **Objects: Users**
 
         Enforce Objects: Enabled
 
-        Default filter Criteria: Department is exactly HR
+      **Default filter Criteria: Department is exactly HR**
 
         When a user of this role creates a new group the policy is applied on it.
 
@@ -196,9 +196,12 @@ The Query Designer has multiple tabs, where each tab groups similar settings. Th
 
 You can hide any of these tabs from role members.
 
-NOTE: The General tab is displayed to all users and cannot be hidden. However, you can hide the
+:::note
+The General tab is displayed to all users and cannot be hidden. However, you can hide the
 objects displayed on it, as discussed in the
 [Limit the Objects for Use in a Query](#limit-the-objects-for-use-in-a-query) topic.
+:::
+
 
 **To hide a tab:**
 
@@ -253,10 +256,13 @@ the query (see the **Filter Criteria** tab of the Query Designer). You can:
    ‘Contains’ and ‘Equals’ operators for the ‘cn’ attribute, then only these operators will be
    displayed when role members select the ‘cn’ attribute.
 
-    NOTE: This schema attribute setting will override the schema attribute setting specified on the
+    :::note
+    This schema attribute setting will override the schema attribute setting specified on the
     Smart Group Attribute page in portal's design settings. See the
     [ Specify Smart Group Query Attributes](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/queryattributes.md)
     topic.
+    :::
+
 
 9. Click **Save Selection** on the **Allowed Attributes** dialog box. The **Attributes** area
    displays the allowed attributes count.  
@@ -281,8 +287,11 @@ Value: Human Resources
 You can specify a default criteria, that will be displayed to role members on the **Filter
 Criteria** tab. They can change it as required
 
-NOTE: If you have limited the attributes and operators for role members, then only the allowed
+:::note
+If you have limited the attributes and operators for role members, then only the allowed
 attributes and operators are available to create a default filter criteria.
+:::
+
 
 **To specify a default filter criteria:**
 
@@ -318,8 +327,3 @@ attributes and operators are available to create a default filter criteria.
 9. Click **OK** on the **Query Designer** tab.
 10. On the **Edit Security Role** page, click **Update Security Role**.
 11. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)

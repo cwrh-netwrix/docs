@@ -40,7 +40,7 @@ As multiple Data services and Security services can be created in GroupID, you c
 Data service and Security service with each deployment instance of a portal. In this way, different
 instances use different services for improved response times and load balancing.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Portal in Native IIS](#create-a-portal-in-native-iis)
 - [Create a Portal in Remote IIS](#create-a-portal-in-remote-iis)
@@ -149,7 +149,7 @@ located on disk.
     **File location in GroupID 9/10:**
     `[GroupID installation drive]:\Program Files\Imanami\GroupID <version>\SelfService\Inetpub\<portal name>\Design\`
 
-    For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Design\
+**For example: C:\Program Files\Imanami\GroupID 10.0\SelfService\Inetpub\TestPortal\Design\**
 
     Similarly, a separate file exists for each linked combo created in the Self-Service portal.  
     **Linked combo file name:** The file has the same name as that of the linked combo in the
@@ -281,7 +281,10 @@ For an overview on application deployment in Docker, see the
 [Prerequisites for Deployments in Docker](/docs/directorymanager/11.0/admincenter/applications/dockerprerequisites.md)
 topic.
 
-NOTE: To host the portal, Docker daemon should be configured to run Windows containers.
+:::note
+To host the portal, Docker daemon should be configured to run Windows containers.
+:::
+
 
 **To create a portal:**
 
@@ -410,9 +413,3 @@ to benefit from the linking.
     the URL from the address bar or from a portal's deployment settings. See the
     [View the Launch URL for an Instance](/docs/directorymanager/11.0/admincenter/applications/portal/server/nativeiis.md#view-the-launch-url-for-an-instance)
     topic.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [GroupID Portal](/docs/directorymanager/11.0/admincenter/applications/portal/overview.md)
-- [Delete a Portal](/docs/directorymanager/11.0/admincenter/applications/portal/delete.md)

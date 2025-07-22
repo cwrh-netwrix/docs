@@ -15,7 +15,7 @@ from it.
 To enroll using security questions, identity store users must select a certain number of questions
 from the local pool and provide answers.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Add a Question to the Local Pool from the Global Pool](#add-a-question-to-the-local-pool-from-the-global-pool)
 - [Add a Question of your Choice to the Local Pool](#add-a-question-of-your-choice-to-the-local-pool)
@@ -53,8 +53,3 @@ What do you want to do?
    the local pool. To remove all questions, click **Remove All**.
 5. Click **Save**.  
    Deleting a question does not impact the users currently enrolled with the question.
-
-**See Also**
-
-- [Manage the Global Question Pool ](/docs/directorymanager/11.0/admincenter/concepts/globalpool.md)
-- [Set up Authentication via Security Questions](/docs/directorymanager/11.0/admincenter/authpolicy/setupauth/securityquestions.md)

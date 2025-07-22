@@ -12,7 +12,7 @@ you must create data sources for those providers.
 Data sources are primarily used in Synchronize jobs, but you can also use them in queries to search
 for directory objects and in queries for group membership update.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Data Source for MS Excel](#create-a-data-source-for-ms-excel)
 - [Create a Data Source for MS Access](#create-a-data-source-for-ms-access)
@@ -60,8 +60,11 @@ steps in the respective section to create a data source.
    source for. This path should be complete with the file name and extension. For example:  
    D:\Employee Records\Sheets\EmployeeMedical Records.xlsx
 
-    NOTE: The MS Excel file must be placed either on the machine that Data service is installed on,
+    :::note
+    The MS Excel file must be placed either on the machine that Data service is installed on,
     or a location that Data service can access.
+    :::
+
 
 7. In case the file is placed on a network path, enter the network domain or hostname in the
    **Domain/Hostname** box.
@@ -80,8 +83,11 @@ steps in the respective section to create a data source.
 4. In the **Registered Application ID on Azure Active Directory** box, enter the application ID
    assigned to the GroupID application when you registered it in Microsoft Entra Admin Center.
 
-    NOTE: The registered app must have the following API permissions to access files on OneDrive:  
-     ![excel_-_one_drive](/img/product_docs/directorymanager/11.0/admincenter/datasource/excel_-_one_drive.webp)
+    :::note
+    The registered app must have the following API permissions to access files on OneDrive:  
+    ![excel_-_one_drive](/img/product_docs/directorymanager/11.0/admincenter/datasource/excel_-_one_drive.webp)
+    :::
+
 
 5. In the **Registered Tenant ID on Azure Active Directory** box, enter the tenant ID assigned to
    the GroupID application when you registered it in Microsoft Entra Admin Center.
@@ -123,8 +129,11 @@ steps in the respective section to create a data source.
    source for. This path should be complete with the file name and extension. For example:  
    D:\Employee Records\Databases\Employee Medical Records.accdb
 
-    NOTE: The Access database must be located either on the machine that Data service is installed
+    :::note
+    The Access database must be located either on the machine that Data service is installed
     on, or a location that Data service can access.
+    :::
+
 
 7. If the database file is password protected, then enter the password in the **File Password** box.
 8. In case the database file is placed on a network path, enter the network domain or hostname in
@@ -145,8 +154,11 @@ steps in the respective section to create a data source.
 5. In the **Registered Application ID on Azure Active Directory** box, enter the application ID
    assigned to the GroupID application when you registered it in Microsoft Entra Admin Center.
 
-    NOTE: The registered app must have the following API permissions to access files on OneDrive:  
-     ![access](/img/product_docs/directorymanager/11.0/admincenter/datasource/excel_-_one_drive.webp)
+    :::note
+    The registered app must have the following API permissions to access files on OneDrive:  
+    ![access](/img/product_docs/directorymanager/11.0/admincenter/datasource/excel_-_one_drive.webp)
+    :::
+
 
 6. In the **Registered Tenant ID on Azure Active Directory** box, enter the tenant ID assigned to
    the GroupID application when you registered it in Microsoft Entra Admin Center.
@@ -161,8 +173,11 @@ You can create a data source for an Oracle server or a specific database on a se
 source can be used in queries and as source and destination provider in Synchronize jobs. This
 provider supports dynamic schema detection.
 
-NOTE: Oracle client must be installed to use this provider. Make sure you reboot your computer after
+:::note
+Oracle client must be installed to use this provider. Make sure you reboot your computer after
 installing the Oracle client.
+:::
+
 
 **To create a data store:**
 
@@ -243,8 +258,11 @@ Follow the steps in the respective section to create a data source.
    for. This path should be complete with the file name and extension. For example:  
    D:\Employee Records\Sheets\Employee Medical Records.csv
 
-    NOTE: The text file must be placed either on the machine that Data service is installed on, or a
+    :::note
+    The text file must be placed either on the machine that Data service is installed on, or a
     location that Data service can access.
+    :::
+
 
 7. In the **Delimiter** box, specify the character that is used to separate values in the file. You
    can also enter a space as a character.
@@ -267,8 +285,11 @@ Follow the steps in the respective section to create a data source.
 5. In the **Registered Application ID on Azure Active Directory** box, enter the application ID
    assigned to the GroupID application when you registered it in Microsoft Entra Admin Center.
 
-    NOTE: The registered app must have the following API permissions to access files on OneDrive:  
-     ![textcsv-onedrive](/img/product_docs/directorymanager/11.0/admincenter/datasource/excel_-_one_drive.webp)
+    :::note
+    The registered app must have the following API permissions to access files on OneDrive:  
+    ![textcsv-onedrive](/img/product_docs/directorymanager/11.0/admincenter/datasource/excel_-_one_drive.webp)
+    :::
+
 
 6. In the **Registered Tenant ID on Azure Active Directory** box, enter the tenant ID assigned to
    the GroupID application when you registered it in Microsoft Entra Admin Center.
@@ -330,9 +351,3 @@ GroupID can consume.
 6. In the **Bearer Token** box, enter the authentication token you generated in the provider.
 7. Click **Create Data Source**.  
    The data source is available on the **SCIM** tab of the **Data Sources** page.
-
-See Also
-
-- [ Data Sources](/docs/directorymanager/11.0/admincenter/datasource/overview.md)
-- [Manage a Data Source](/docs/directorymanager/11.0/admincenter/datasource/manage.md)
-- [Data Service](/docs/directorymanager/11.0/admincenter/service/dataservice/overview.md)

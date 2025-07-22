@@ -14,7 +14,7 @@ See the
 [Manage SMS Gateway Accounts](/docs/directorymanager/11.0/admincenter/smsgateway/manage.md)
 topic for creating and managing SMS gateway accounts.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Enable SMS Authentication for an Identity Store](#enable-sms-authentication-for-an-identity-store)
 - [Link an SMS Gateway Account to an Identity Store](#link-an-sms-gateway-account-to-an-identity-store)
@@ -53,8 +53,3 @@ topic.
 Role members must use an enforced authentication type for multifactor authentication. When an
 authentication type is enabled but not enforced, role members can choose to use it for enrollment
 and authentication.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Manage SMS Gateway Accounts](/docs/directorymanager/11.0/admincenter/smsgateway/manage.md)

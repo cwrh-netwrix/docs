@@ -31,7 +31,7 @@ A few grid display types used in the default portal template are:
 | groupMemberOfGrid | Display Name Email Description           | Used to display the groups an object is a member of, with the display name, email address, and description shown for each group.    |
 | directReportsGrid | Display Name Status                      | Used to display the direct reports of a user, with the display name and status shown for each direct report.                        |
 
-What do you want to do?
+**What do you want to do?**
 
 - [Define a Grid Display Type](#define-a-grid-display-type)
 
@@ -111,9 +111,3 @@ What do you want to do?
     grid will be read-only.
 14. Click **OK**.
 15. Click **Save** on the **Custom Display Types** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/categories/custom.md)

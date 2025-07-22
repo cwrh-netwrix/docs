@@ -23,7 +23,3 @@ public string ExceptionMessage
 Type: [System.String](http://msdn.microsoft.com/en-us/library/system.string.aspx)
 
 The exception details.
-
-See Also
-
-- [SendSmsMessageResult class](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/class_1.md)

@@ -117,7 +117,3 @@ assigned to objects on shared resources. See the
 Define schedules to auto execute different GroupID functions, such as group expiry and deletion,
 Smart Group membership update, temporary additional manager assignment to users, and more. See the
 [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md) topic.
-
-**See Also**
-
-- [Manage an Identity Store](/docs/directorymanager/11.0/admincenter/identitystore/manage.md)

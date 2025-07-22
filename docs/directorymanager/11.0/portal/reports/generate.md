@@ -86,12 +86,3 @@ is joined to a domain, techwr5.local, reports would display data for techwr5.loc
 
 You can create a **Scheduled Report job** on GroupID Admin Center. See
 [Reports Schedule](/docs/directorymanager/11.0/admincenter/schedule/reports.md)
-
-**See Also:**
-
-- [Reports](/docs/directorymanager/11.0/portal/dashboard/dashboard.md)
-- [Manage Reports](/docs/directorymanager/11.0/portal/dashboard/manage.md)
-- [Group Reports](/docs/directorymanager/11.0/portal/dashboard/group.md)
-- [User Reports](/docs/directorymanager/11.0/portal/dashboard/user.md)
-- [Computer Reports](/docs/directorymanager/11.0/portal/dashboard/computer.md)
-- [Contact Reports](/docs/directorymanager/11.0/portal/dashboard/contact.md)

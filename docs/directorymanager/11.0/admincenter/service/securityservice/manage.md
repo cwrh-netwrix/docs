@@ -16,7 +16,7 @@ You can manage several settings for a service, such as:
 - Configure file logging for a service
 - Delete a service
 
-What do you want to do?
+**What do you want to do?**
 
 - View Service Details
 - Manage Security Service Settings
@@ -68,11 +68,7 @@ Deleting a Security service removes the following:
 2. On the **Applications** page, click the **Security Service** tab.
 3. Click the ellipsis button for a Security service and select **Delete**.
 
-NOTE: You cannot delete the default Security service. You cannot also delete a Security service that
+:::note
+You cannot delete the default Security service. You cannot also delete a Security service that
 has been linked with a GroupID client, such as the GroupID portal or a Mobile service.
-
-See Also
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)
-- [Create a Security Service](/docs/directorymanager/11.0/admincenter/service/securityservice/create.md)
+:::

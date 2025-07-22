@@ -64,8 +64,3 @@ You can customize the following for a portal:
   Groups** tab in group properties. See the
   [Specify Attributes for Object List View](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/objectlist.md)
   topic.
-
-**See Also**
-
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/categories/custom.md)

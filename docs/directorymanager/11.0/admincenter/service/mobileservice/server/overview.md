@@ -20,9 +20,3 @@ Server settings for a Mobile service include:
     - View the port and Service URL for a service instance (for Docker)
     - Configure Windows logging and file logging for an instance
     - Delete an instance
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Manage General Server Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/server/general.md)
-- [Manage Deployment Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/server/deployment.md)

@@ -21,7 +21,7 @@ continues to appear in the list of pending requests for the approver(s).
 Workflow approver acceleration settings apply to all workflows in the identity store. However, you
 can exempt individual workflows from it.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Apply Approver Acceleration](#apply-approver-acceleration)
 - [Workflow Approver Acceleration Rules](#workflow-approver-acceleration-rules)
@@ -48,9 +48,12 @@ topic.
 3. Click **Workflows** under **Settings** in the left pane.
 4. On the **Workflows** page, click the **Advanced Workflow Settings** tab.
 
-    NOTE: When an SMTP server is not defined for the identity store, approver acceleration settings
+    :::note
+    When an SMTP server is not defined for the identity store, approver acceleration settings
     are disabled and a message is displayed with a **Configure Now** link to redirect you to the
     **Notifications** page.
+    :::
+
 
 5. Use the **Approver Acceleration** toggle button to apply the approver acceleration settings and
    rules to all workflows defined for the identity store.  
@@ -73,9 +76,12 @@ GroupID applies certain rules to forward it to another approver.
 
 On acceleration, the new approver receives an email notification to approve/deny the request.
 
-NOTE: Even after acceleration, all previous approvers are authorized to approve/deny the requests.
+:::note
+Even after acceleration, all previous approvers are authorized to approve/deny the requests.
 Administrators can also approve or deny these requests at any given time from the _All Requests_
 node in the GroupID portal.
+:::
+
 
 Workflow acceleration rules are discussed below, with these assumed acceleration settings:
 
@@ -98,7 +104,10 @@ Acceleration rules for a user approver are:
    for 5 days, the request goes to the default approver. If the default approver is not specified,
    the request becomes static.
 
-NOTE: Consider the following:
+:::note
+Consider the following:
+:::
+
 
 1.  If, in the acceleration chain, any approver is disabled, the workflow request is directly sent
     to the primary manager of the disabled approver in the same acceleration hop. Referring to the
@@ -190,10 +199,3 @@ Rules for the default approver are:
    move to User B and ascend User B’s managerial line accordingly.
 5. If an administrator re-routes a workflow request to another user (User B) from the GroupID
    portal, the request acceleration chain will follow User B’s managerial line.
-
-**See Also**
-
-- [Workflows](/docs/directorymanager/11.0/admincenter/workflow/overview.md)
-- [Implement Workflows](/docs/directorymanager/11.0/admincenter/workflow/implement.md)
-- [Manage Advanced Workflow Settings](/docs/directorymanager/11.0/admincenter/workflow/advancedsettings.md)
-- [Integrate with Power Automate](/docs/directorymanager/11.0/admincenter/workflow/integrate.md)

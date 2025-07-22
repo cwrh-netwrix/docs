@@ -11,7 +11,7 @@ GroupID Management Shell. Use this policy to:
 
 - Limit role members to create new directory objects in the OUs they reside in respectively.
 
-    OR
+**OR**
 
 - Specify one or more OUs to limit object creation to those. Separate OUs can be specified for
   different object types.
@@ -24,13 +24,16 @@ By default, or when no OU is set for an object type, role members can select any
 store to create objects of that type. For example, when no OU is specified for the User object, role
 members can create user objects in any OU in the identity store.
 
-NOTE: (1) When a user has multiple roles in an identity store with a different New Object policy for
+:::note
+(1) When a user has multiple roles in an identity store with a different New Object policy for
 each role, then the policies configured for all roles apply to the user. Hence, a user with three
 roles - where a different OU for the Group object is specified for each role - can create groups in
 any of the three OUs.  
 (2( The New Object policy does not apply to a Microsoft Entra ID identity store.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Limit Object Creation to the OU the User Resides in](#limit-object-creation-to-the-ou-the-user-resides-in)
 - [Restrict Role Members to Create Objects in Specific OUs](#restrict-role-members-to-create-objects-in-specific-ous)
@@ -53,8 +56,11 @@ What do you want to do?
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
 
-NOTE: When role members create a new object, the _Container_ option shows the distinguished name of
+:::note
+When role members create a new object, the _Container_ option shows the distinguished name of
 the OU the logged-in user resides in as read-only.
+:::
+
 
 ## Restrict Role Members to Create Objects in Specific OUs
 
@@ -82,10 +88,13 @@ create group objects in those container(s) only.
 11. On the **Edit Security Role** page, click **Update Security Role**.
 12. On the **Security Roles** page, click **Save**.
 
-NOTE: When role members create a new object, the _Container_ option shows the containers specified
+:::note
+When role members create a new object, the _Container_ option shows the containers specified
 for the respective object type. The user can select the desired container to create the object
 there. When one container is specified, the _Container_ option displays its distinguished name as
 read-only.
+:::
+
 
 ## Remove an OU
 
@@ -111,8 +120,3 @@ the directory.
 8. Click **OK**.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)

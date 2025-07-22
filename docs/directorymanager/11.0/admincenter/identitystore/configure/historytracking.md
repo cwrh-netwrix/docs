@@ -44,11 +44,14 @@ By default, history tracking is disabled. You can:
 - Specify a period for retaining history data in the GroupID database. When the period is over, data
   is exported to CSV files and deleted from the database.
 
-RECOMMENDED: History tracking can slow down system performance. For optimal performance, it is
+:::info
+History tracking can slow down system performance. For optimal performance, it is
 recommended that you track only specific, more important actions and limit GroupID history data
 storage to the most recent records.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Enable History Tracking for All Actions](#enable-history-tracking-for-all-actions)
 - [Track Specific Actions for an Identity Store](#track-specific-actions-for-an-identity-store)
@@ -107,10 +110,10 @@ actions, such as changes to a group’s primary owner and object creation.
     | Query Change             | Changes to the query of a Smart Group or Dynasty.                                                                                                                                                                                              |
     | Object Created           | Creation of a new object.                                                                                                                                                                                                                      |
     | Object Deleted           | Deletion of an object.                                                                                                                                                                                                                         |
-    | Workflows history        | Addition, deletion, or modification made to a workflow. It does not track the deletion of workflow requests, that is tracked under the **Identity Store history** option.                                                                      |
+    | Workflows history        | Addition, deletion, or modification made to a workflow. <br />It does not track the deletion of workflow requests, that is tracked under the **Identity Store history** option.                                                                      |
     | Security Roles history   | Addition, deletion, or modification made to a security role.                                                                                                                                                                                   |
     | Security Type Change     | Changes to a group's security type.                                                                                                                                                                                                            |
-    | Identity Store history   | Changes to an identity store’s settings. This includes the configurations available for an identity store. This option does not track changes made to workflows and security roles. It does, however, track the deletion of workflow requests. |
+    | Identity Store history   | Changes to an identity store’s settings. This includes the configurations available for an identity store. <br />This option does not track changes made to workflows and security roles. It does, however, track the deletion of workflow requests. |
 
 5. Click an action to track it for the identity store. The tile for the action changes to blue,
    indicating that it is tracked.
@@ -129,8 +132,11 @@ You can set GroupID to retain history data for the identity store in the GroupID
 4. On the **History** page, select _All_ in the **History Options** drop-down list to retain all
    tracked history data in the database.
 
-    NOTE: This setting may result in a massive increase in the database size and may affect GroupID
+    :::note
+    This setting may result in a massive increase in the database size and may affect GroupID
     performance.
+    :::
+
 
 5. Click **Save**.
 
@@ -177,9 +183,3 @@ history data.
 4. On the **History** page, use the toggle button in the top right corner to disable history
    tracking for the identity store.
 5. Click **Save**.
-
-**See Also**
-
-- [Identity Store History](/docs/directorymanager/11.0/admincenter/identitystore/view/view.md)
-- [History in GroupID](/docs/directorymanager/11.0/admincenter/concepts/history.md)
-- [Event Logging](/docs/directorymanager/11.0/admincenter/identitystore/view/eventlogging.md)

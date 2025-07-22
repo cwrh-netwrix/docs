@@ -20,11 +20,14 @@ To create a security role for an identity store, you have to specify the followi
 
 You can create a role from scratch or by copying an existing role.
 
-NOTE: You can disable a role to prevent its members from accessing GroupID. To prevent an individual
+:::note
+You can disable a role to prevent its members from accessing GroupID. To prevent an individual
 role member from accessing GroupID, you must remove him or her from the group or container specified
 as role criteria.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Create a Security Role from Scratch](#create-a-security-role-from-scratch)
 - [Create a Role by Copying an Existing Role](#create-a-role-by-copying-an-existing-role)
@@ -71,8 +74,3 @@ permissions, and policies of the template role are copied to the new role.
 7. To update the policies for the new role, see the
    [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)
    topic.
-
-See Also
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Manage Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/manage.md)

@@ -14,7 +14,7 @@ GroupID Management Shell. You can:
 - Specify a range of additional owners, say 2-6, which implies that a group must have any number of
   additional owners in this range.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Enforce a Primary Owner](#enforce-a-primary-owner)
 - [Enforce Additional Owners](#enforce-additional-owners)
@@ -44,8 +44,11 @@ change the primary owner, but cannot remove it.
    If this check box is clear, role members can choose to remove the primary owner while creating or
    updating groups.
 
-    NOTE: In a Microsoft Entra ID identity store, a primary owner must be specified for groups,
+    :::note
+    In a Microsoft Entra ID identity store, a primary owner must be specified for groups,
     regardless of whether the Group Owners policy enforces it or not.
+    :::
+
 
 7. Click **OK**.
 8. On the **Edit Security Role** page, click **Update Security Role**.
@@ -80,11 +83,8 @@ role members can have any number of additional owners and even no additional own
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
 
-NOTE: When additional owners have been added using an earlier version of GroupID, and their number
+:::note
+When additional owners have been added using an earlier version of GroupID, and their number
 exceeds the value of this setting, GroupID will retain them. However, more additional owners cannot
 be added.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)
+:::

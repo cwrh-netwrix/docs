@@ -36,8 +36,11 @@ The administrator can define a Helpdesk policy for a user role in an identity st
 mainly defines whether helpdesk role members should operate under the restricted or unrestricted
 mode to perform the account unlock and reset password functions.
 
-NOTE: In unrestricted mode, helpdesk can unlock accounts and reset passwords of both enrolled and
+:::note
+In unrestricted mode, helpdesk can unlock accounts and reset passwords of both enrolled and
 unenrolled users. In restricted mode, helpdesk can perform these functions for enrolled users only.
+:::
+
 
 See the
 [Helpdesk Policy](/docs/directorymanager/11.0/admincenter/securityrole/policy/helpdesk.md)
@@ -50,12 +53,12 @@ users' activities (such as enrollment, account unlock, and password reset) in an
 
 The dashboard displays the following helpdesk-specific cards:
 
-- [Enrollment Summary](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md#enrollment-summary):
+- [Enrollment Summary](/docs/directorymanager/11.0/admincenter/general/dashboard.md#enrollment-summary):
   displays the number of enrolled users in an identity store.
-- [Auth Summary](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md#auth-summary):
+- [Auth Summary](/docs/directorymanager/11.0/admincenter/general/dashboard.md#auth-summary):
   displays information about failed and successful authentication attempts for each authentication
   type.
-- [Activity Summary](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md#activity-summary):
+- [Activity Summary](/docs/directorymanager/11.0/admincenter/general/dashboard.md#activity-summary):
   displays a summary of users' activities related to password change, password reset, account
   unlock, and enrollment.
 
@@ -74,8 +77,3 @@ any of the following actions in the GroupID portal:
 - Authenticates with password, authentication types, or any other medium
 
 These actions are also logged in helpdesk history.
-
-**See Also**
-
-- [Helpdesk Operations](/docs/directorymanager/11.0/admincenter/helpdesk/operation/overview.md)
-- [History in Helpdesk](/docs/directorymanager/11.0/admincenter/helpdesk/history.md)

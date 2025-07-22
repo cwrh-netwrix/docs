@@ -23,7 +23,7 @@ History can be used for audit and analysis, such as how many users changed their
 last x days, reset their passwords using secure link, and more. It can also be used to verify the
 identity of a user through the last action he or she performed.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View History in Helpdesk](#view-history-in-helpdesk)
     - [Switch History Layouts](#switch-history-layouts)
@@ -102,7 +102,7 @@ the [View History in Helpdesk](#view-history-in-helpdesk) topic for a discussion
 
 Use the pagination options at the bottom of the listing to navigate through records.
 
-Sort the Listing
+**Sort the Listing**
 
 History records on the **History** tab of the **Helpdesk** page are sorted in chronological order,
 with the latest action at the top.
@@ -161,9 +161,3 @@ To perform a search:
    [Search History](#search-history) topic.
 4. Click **Export History** and select a file format in the list to export history data to.  
    The file is saved to the download location specified in your browser settings.
-
-**See Also**
-
-- [Dashboard](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md)
-- [Search Users](/docs/directorymanager/11.0/admincenter/helpdesk/operation/search.md)
-- [History in GroupID](/docs/directorymanager/11.0/admincenter/concepts/history.md)

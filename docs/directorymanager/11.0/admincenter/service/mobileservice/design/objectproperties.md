@@ -14,7 +14,7 @@ Users can view basic information (properties) of the following directory objects
 You can customize the property page for an object by specifying the fields (attributes) to display
 for that object in the app.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Add a Field to the Properties Page](#add-a-field-to-the-properties-page)
 - [Edit a Field on the Properties Page](#edit-a-field-on-the-properties-page)
@@ -85,8 +85,3 @@ You can change the following for a field on a properties page:
    page. Click **Remove** for a field to remove it from the properties page.
 8. Click **OK**.
 9. Click **Save**.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Design Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/design/overview.md)

@@ -25,16 +25,16 @@ topic.
 1. On GroupID Portal, select **Synchronize** on left pane.
 2. On the Synchronize portal, click **Create New** and then click **Job Collection.**
 3. On the
-   [Choose your Job Template](/docs/directorymanager/11.0/portal/synchronize/create/collection/collectiontemplate.md)
+   [Choose your Job Template](/docs/directorymanager/11.0/portal/synchronize/collection/collectiontemplate.md)
    page, enter job collection details and select whether to use a job collection template or create
    the job collection from scratch.
 4. Click **Next Step**
 5. On the
-   [Synchronized Job Collection](/docs/directorymanager/11.0/portal/synchronize/create/collection/jobcollection.md)
+   [Synchronized Job Collection](/docs/directorymanager/11.0/portal/synchronize/collection/jobcollection.md)
    page, add jobs to the collection. You can either add existing jobs or create new jobs to add them
    to the job collection.
 6. On the
-   [Scheduling and Notifications](/docs/directorymanager/11.0/portal/synchronize/create/collection/collectionschedul.md)
+   [Scheduling and Notifications](/docs/directorymanager/11.0/portal/synchronize/collection/collectionschedul.md)
    page, choose a schedule for a job collection and set up notification settings.
 
     :::note

@@ -27,9 +27,3 @@ To use a gateway not in this list, write your own custom gateway using GroupID's
 
 For a gateway, you can set up as many gateway accounts as required and then link a gateway account
 to an identity store.
-
-**See Also**
-
-- [Manage SMS Gateway Accounts](/docs/directorymanager/11.0/admincenter/smsgateway/manage.md)
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)

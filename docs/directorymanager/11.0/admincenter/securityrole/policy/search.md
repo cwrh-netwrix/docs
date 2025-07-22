@@ -15,8 +15,11 @@ store. Use the Search policy to:
 - Limit the search scope to one container for role members.
 - Designate a criterion to limit the objects that role members can search.
 
-NOTE: Microsoft Entra ID supports a single container only, so the search scope cannot be restricted
+:::note
+Microsoft Entra ID supports a single container only, so the search scope cannot be restricted
 container-wise in a Microsoft Entra ID identity store.
+:::
+
 
 ## How does the Search Policy Work?
 
@@ -41,7 +44,7 @@ The Search policy has the following impact on the GroupID portal:
 - It sets the search scope for the Find dialog box.
 - It sets the scope for quick search and advanced search.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Set the Search Scope to a Specific Container](#set-the-search-scope-to-a-specific-container)
 - [Set the Search Scope to all Containers in the Identity Store](#set-the-search-scope-to-all-containers-in-the-identity-store)
@@ -64,11 +67,14 @@ What do you want to do?
 10. On the **Edit Security Role** page, click **Update Security Role**.
 11. On the **Security Roles** page, click **Save**.
 
-NOTE: An advanced setting for the GroupID portal, _Search Default_, controls the search scope of the
+:::note
+An advanced setting for the GroupID portal, _Search Default_, controls the search scope of the
 portal. If its value is "Global Catalog", the container specified here is ignored and the portal
 shows objects from the entire directory. See the
 [Manage Advanced Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/advanced.md)
 topic.
+:::
+
 
 ## Set the Search Scope to all Containers in the Identity Store
 
@@ -115,7 +121,7 @@ criteria.
     With this filter, search performed by role members will display objects with email addresses
     created on the netwrix.com domain.
 
-Advanced Filter
+**Advanced Filter**
 
 You can also define a query by adding more rows and applying the **AND** or **OR** operator to group
 them.
@@ -148,8 +154,3 @@ them.
 3. After defining a filter, click **OK**.
 4. On the **Edit Security Role** page, click **Update Security Role**.
 5. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)

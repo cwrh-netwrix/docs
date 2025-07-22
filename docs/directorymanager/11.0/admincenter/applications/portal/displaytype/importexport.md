@@ -33,10 +33,13 @@ wizards in the portal:
 | Import Additional Owners | This wizard is used to import additional owners to a group using an external file. Users can launch it from the Owners page on the Create Group wizard and from the Owner tab in group properties.           |
 | Export Additional Owners | This wizard is used to export the additional owners of a group to an external file. Users can launch it from the Owner tab in group properties.                                                              |
 
-NOTE: The attributes you specify apply to all four wizards. You cannot specify a different set of
+:::note
+The attributes you specify apply to all four wizards. You cannot specify a different set of
 attributes for a wizard.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Specify Attributes for Import and Export](#specify-attributes-for-import-and-export)
 - [Update an Attribute](#update-an-attribute)
@@ -90,7 +93,3 @@ What do you want to do?
    The attribute will not be available on the _Import Members_, _Export Members_, _Import Additional
    Owners_, and _Export Additional Owners_ wizards in the portal.
 6. Click **Save**.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)

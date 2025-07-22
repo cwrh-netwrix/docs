@@ -19,8 +19,3 @@ Moreover, you can manage some basic deployment and log settings for the followin
 - [Replication Service](/docs/directorymanager/11.0/admincenter/service/replicationservice.md)
 - [Email Service](/docs/directorymanager/11.0/admincenter/service/emailservice.md)
 - [Scheduler Service](/docs/directorymanager/11.0/admincenter/service/schedulerservice.md)
-
-**See Also**
-
-- [GroupID Portal](/docs/directorymanager/11.0/admincenter/applications/portal/overview.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)

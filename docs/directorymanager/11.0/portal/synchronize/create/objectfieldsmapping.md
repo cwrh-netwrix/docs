@@ -12,21 +12,74 @@ On the **Object, Fields and Mappings** page, map the a attributes with source fi
 
     Object types vary depending on the destination provider.
 
-    | Destination Provider | Object Type                                                                                                                                                        | Description                                                                                                      |
-    | -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-    | Active Directory     | User                                                                                                                                                               | An Active Directory user.                                                                                        |
-    | Mail-enabled User    | An Active Directory user with an external e-mail address (requires Exchange 2013 or later).                                                                        |                                                                                                                  |
-    | Mailbox-enabled User | An Active Directory user with an Exchange mailbox (requires Exchange 2013 or later).                                                                               |                                                                                                                  |
-    | Linked Mailbox       | A mailbox that is accessed by a user in a separate, trusted forest. Linked mailboxes may be necessary for organizations that deploy Exchange in a resource forest. |                                                                                                                  |
-    | Contact              | An Active Directory contact.                                                                                                                                       |                                                                                                                  |
-    | Group                | An Active Directory group. Members of the group will be synced with, but not created at, the destination.                                                          |                                                                                                                  |
-    | Mail-enabled Contact | An Active Directory contact with an external e-mail address (Exchange 2013 or later)                                                                               |                                                                                                                  |
-    | Microsoft Entra ID   | User                                                                                                                                                               | A Microsoft Entra ID user.                                                                                       |
-    | Mailbox-enabled User | A Microsoft Entra ID user with an external e-mail address (requires Exchange 2013 or later).                                                                       |                                                                                                                  |
-    | Group                | A Microsoft Entra IDgroup.                                                                                                                                         |                                                                                                                  |
-    | Generic LDAP         | inetOrgPerson                                                                                                                                                      | inetOrgPerson is an object class found in standard Lightweight Directory Access Protocol (LDAP) implementations. |
-    | Google Workspace     | User                                                                                                                                                               | A Google Workspace user.                                                                                         |
-    | Group                | A Google Workspace group.                                                                                                                                          |                                                                                                                  |
+<table>
+    <thead>
+        <tr>
+			<th>Destination Provider</th>
+            <th>Object Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="7" valign="top">Active Directory</td>
+        <td>User</td>
+        <td>An Active Directory user.</td>
+    </tr>
+    <tr>
+        <td>Mail-enabled User</td>
+        <td>An Active Directory user with an external e-mail address (requires Exchange 2013 or later).</td>
+    </tr>
+    <tr>
+        <td>Mailbox-enabled User</td>
+        <td>An Active Directory user with an Exchange mailbox (requires Exchange 2013 or later).</td>
+    </tr>
+    <tr>
+        <td>Linked Mailbox</td>
+        <td>A mailbox that is accessed by a user in a separate, trusted forest. Linked mailboxes may be necessary for organizations that deploy Exchange in a resource forest.</td>
+    </tr>
+    <tr>
+        <td>Contact</td>
+        <td>An Active Directory contact.</td>
+        </tr>
+		<tr>
+            <td>Group</td>
+            <td>An Active Directory group. Members of the group will be synced with, but not created at, the destination.</td>
+        </tr>
+        <tr>
+            <td>Mail-enabled Contact</td>
+            <td>An Active Directory contact with an external e-mail address (Exchange 2013 or later)</td>
+        </tr>
+         <tr>
+            <td rowspan="3" valign="top">Microsoft Entra ID</td>
+            <td>User</td>
+            <td>A Microsoft Entra ID user.</td>
+        </tr>
+        <tr>
+			<td>Mailbox-enabled User</td>
+			<td>A <MadCap:variable name="GroupID.Azure AD" /> user with an external e-mail address (requires Exchange 2013 or later).</td>
+        </tr>
+         <tr>
+            <td>Group</td>
+            <td>A Microsoft Entra ID group.</td>
+        </tr>
+        <tr>
+            <td>Generic LDAP</td>
+            <td>inetOrgPerson</td>
+            <td>inetOrgPerson is an object class found in standard Lightweight Directory Access Protocol (LDAP) implementations.</td>
+        </tr>
+		<tr>
+            <td rowspan="2" valign="top">Google Workspace</td>
+            <td>User</td>
+            <td>A Google Workspace user.</td>
+        </tr>
+        <tr>
+            <td>Group</td>
+            <td>A Google Workspace group.</td>
+        </tr>
+    </tbody>
+</table>
+
 
 2. The **Add Messaging Provider** option is only available with the mail-enabled objects. Click
    **Add Now** to select a messaging system you want to use with this job. You need to select from

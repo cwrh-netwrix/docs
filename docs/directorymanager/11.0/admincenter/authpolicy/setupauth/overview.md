@@ -16,7 +16,3 @@ and enforce them for a security role.
 - [Set up Authentication via Linked Account](/docs/directorymanager/11.0/admincenter/authpolicy/setupauth/linkedaccount.md)
 - [Set up Authentication via YubiKey](/docs/directorymanager/11.0/admincenter/authpolicy/setupauth/yubikey.md)
 - [Set up Authentication via Windows Hello](/docs/directorymanager/11.0/admincenter/authpolicy/setupauth/windowshello.md)
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)

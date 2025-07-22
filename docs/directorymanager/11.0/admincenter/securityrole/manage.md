@@ -9,7 +9,7 @@ sidebar_position: 20
 After creating a security role, you can manage various settings for it, such as tole criteria,
 permissions, and policies.
 
-What do you want to do?
+**What do you want to do?**
 
 - View Security Roles
 - Enable or Disable a Role
@@ -32,9 +32,9 @@ What do you want to do?
     | Enable       | Shows whether the security role is enabled or disabled. Use the toggle button for an enabled role to disable it and vice versa. Members of a disabled role cannot access GroupID.                                                                                                                                                                                                                                                                                                                                                |
     | Display name | The display name of the security role.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
     | Priority     | Each security role is assigned a value from 1-99, where 1 indicates the highest priority and 99 indicates the lowest priority. Role priority is unique for a role in an identity store. Role priority is used to resolve conflicts when a user has more than one role in GroupID. For example, when a user has two roles, Administrator and User, with role priority set to 1 and 25 respectively, then permissions and policies for the higher priority role (i.e., Administrator), will apply when the user logs into GroupID. |
-    | Criteria     | Role criteria determines the users the role applies to. You can specify as container or group as criteria for a role. - In case of a container, all users residing in it are assigned the role. - For a group, all group members are assigned the role.                                                                                                                                                                                                                                                                          |
+    | Criteria     | Role criteria determines the users the role applies to. You can specify as container or group as criteria for a role. <ul><li>In case of a container, all users residing in it are assigned the role.</li><li>For a group, all group members are assigned the role.</li></ul> |
     | Description  | A description for the security role.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-    | Actions      | - Click **Edit** for a security role to update its details, criteria, policies, and permissions. - Click the ellipsis button and select Delete to delete the security role. - Click the ellipsis button and select Copy to create a new security role by copying the respective role.                                                                                                                                                                                                                                            |
+    | Actions      | <ul><li>Click **Edit** for a security role to update its details, criteria, policies, and permissions.</li><li>Click the ellipsis button and select Delete to delete the security role.</li><li>Click the ellipsis button and select Copy to create a new security role by copying the respective role.</li></ul> |
 
 ## Enable or Disable a Role
 
@@ -42,8 +42,11 @@ You can disable a role to prevent its members from signing into GroupID. You can
 disabled role to allow its members to access GroupID. By default, all new roles created for an
 identity store are enabled.
 
-NOTE: To prevent an individual role member from accessing GroupID, you must remove him or her from
+:::note
+To prevent an individual role member from accessing GroupID, you must remove him or her from
 the group or container specified as role criteria.
+:::
+
 
 **To enable or disable a security role:**
 
@@ -146,8 +149,3 @@ When you delete a security role, role members will not be able to access GroupID
 4. On the **Security Roles** page, click the ellipsis button for a security role and select
    **Delete** to delete it.
 5. Click **Save**.
-
-See Also
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Create a Security Role](/docs/directorymanager/11.0/admincenter/securityrole/create.md)

@@ -24,12 +24,15 @@ can choose the object attributes you actually want to use in an identity store. 
 [Specify Object Attributes to Replicate](/docs/directorymanager/11.0/admincenter/identitystore/replication.md#specify-object-attributes-to-replicate)
 topic for details.
 
-NOTE: For Microsoft Entra ID, schema is replicated from the schema file for Graph API v 3.26.0.
+:::note
+For Microsoft Entra ID, schema is replicated from the schema file for Graph API v 3.26.0.
+:::
+
 
 The Schema Replication schedule runs in the context of the super admin account in the GroupID
 provider. You cannot create or delete a Schema Replication schedule; only update the existing one.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Update the Schema Replication Schedule](#update-the-schema-replication-schedule)
 
@@ -67,7 +70,3 @@ What do you want to do?
    For general schedule info, see the
    [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
    topic.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

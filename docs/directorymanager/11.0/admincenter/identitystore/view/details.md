@@ -67,8 +67,3 @@ the action) can add and update notes.
 
 On the **History Details** dialog box, the **Note** box displays your note. Remove it and click
 **Save Note**.
-
-**See Also**
-
-- [Identity Store History](/docs/directorymanager/11.0/admincenter/identitystore/view/view.md)
-- [Admin Center History](/docs/directorymanager/11.0/admincenter/concepts/history_1.md)

@@ -9,7 +9,7 @@ sidebar_position: 60
 You do not need to sign out of Admin Center in order to sign in with a different account. Simply use
 the _switch account_ function to achieve this.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Switch your Account](#switch-your-account)
 
@@ -21,8 +21,3 @@ What do you want to do?
     - Click an account to access Admin Center with it, without having to provide the password.
     - Click **Login as a different user** to sign in with an account not listed on this page.
     - Click **Logout completely** to sign out of all the accounts listed on this page.
-
-**See Also**
-
-- [Dashboard](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md)
-- [Navigation](/docs/directorymanager/11.0/admincenter/concepts/navigation.md)

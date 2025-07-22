@@ -37,8 +37,11 @@ Synchronize history is saved to Elasticsearch when Active Directory, Microsoft E
 LDAP, or Google Workspace is the destination provider in the respective Synchronize job. This
 history is replicated to the GroupID database by the Data s ervice.
 
-NOTE: The **Recycle Bin** in the GroupID portal fetches data from the directory server and not from
+:::note
+The **Recycle Bin** in the GroupID portal fetches data from the directory server and not from
 Elasticsearch.
+:::
+
 
 ## Replication Settings
 
@@ -55,9 +58,12 @@ an identity store.
   [Manage Local Replication Settings](/docs/directorymanager/11.0/admincenter/identitystore/replication.md)
   topic.
 
-NOTE: The Replication service does not replicate excluded domains for an identity store. See the
+:::note
+The Replication service does not replicate excluded domains for an identity store. See the
 [Exclude an Active Directory Domain from Replication](/docs/directorymanager/11.0/admincenter/identitystore/manage.md#exclude-an-active-directory-domain-from-replication)
 topic.
+:::
+
 
 ## Replication Service Logs
 
@@ -74,9 +80,3 @@ Events are logged in a text file. When the file size reaches 100 MB, GroupID arc
 directory by replacing the file extension with the suffix .Log.X and then creating a new text file
 with the original name. X in .Log.X is a number from 1 to 10 representing the archiving order; where
 ‘1’ denotes the most recent file.
-
-**See Also**
-
-- [Manage Global Replication Settings](/docs/directorymanager/11.0/admincenter/replication/settings.md)
-- [Manage Local Replication Settings](/docs/directorymanager/11.0/admincenter/identitystore/replication.md)
-- [Replication Service](/docs/directorymanager/11.0/admincenter/service/replicationservice.md)

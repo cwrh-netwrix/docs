@@ -15,7 +15,7 @@ You can manage the following replication settings for an identity store:
 - Force run the service at any given time to replicate object attributes.
 - Restore object data to Elasticsearch for an identity store.
 
-What do you want to do?
+**What do you want to do?**
 
 - Specify Object Attributes to Replicate
 - Replicate a Custom Attribute
@@ -49,14 +49,17 @@ modify the list as required.
    and click **Save**. The attributes are added to the **Attribute Name** column on the
    **Replication** page.
 
-    NOTE: If in a Microsoft Entra ID based identity store extension attributes are added, GroupID
+    :::note
+    If in a Microsoft Entra ID based identity store extension attributes are added, GroupID
     Schema Replication schedule fetches the latest schema at its next run and add the newly added
     extension attributes to the **Select Replication Attributes** list. See the
     [Schema Replication Schedule](/docs/directorymanager/11.0/admincenter/schedule/schemareplication.md)
     for additional information.  
-     Select the required extension attributes from the **Select Replication Attributes** list and
+    Select the required extension attributes from the **Select Replication Attributes** list and
     add them to the attribute to replicate list. See the Specify Object Attributes to Replicate
     section of the Manage Local Replication Settings topic.
+    :::
+
 
 7. Click **Save**
 
@@ -81,8 +84,11 @@ replicate its value in the Elasticsearch repository, do the following:
    object in the example). empty the replication timestamp for the specific object type in the
    GroupID database.
 
-NOTE: When a Smart Group, created with a custom attribute in a previous GroupID version, is upgraded
+:::note
+When a Smart Group, created with a custom attribute in a previous GroupID version, is upgraded
 using the Upgrade wizard, you will have to replicate the respective object type from scratch.
+:::
+
 
 ## Force Run the Replication Service (for Object Replication)
 
@@ -163,8 +169,3 @@ restores the following for an identity store:
 3. Click **Replication** under **Settings** in the left pane.
 4. On the **Replication** page, click **Restore** on the **Restore Data** card to restore object
    data for the identity store to Elasticsearch.
-
-See Also
-
-- [Elasticsearch and Replication ](/docs/directorymanager/11.0/admincenter/replication/overview.md)
-- [Manage Global Replication Settings](/docs/directorymanager/11.0/admincenter/replication/settings.md)

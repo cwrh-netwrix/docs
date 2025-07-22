@@ -10,7 +10,7 @@ In GroupID, schedules perform different tasks in an identity store. They run at 
 frequency to auto execute their respective functions. The Scheduler service is responsible for
 triggering these schedules at their respective frequency.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View Scheduler Service Details](#view-scheduler-service-details)
 - [Manage Scheduler Service Settings](#manage-scheduler-service-settings)
@@ -39,8 +39,3 @@ You can manage the following settings for the Scheduler service:
 - [Start or Stop a Service](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md#start-or-stop-a-service)
 - [View the Deployment Settings for a Service](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md#view-the-deployment-settings-for-a-service)
 - [Specify Log Settings for a Service](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)

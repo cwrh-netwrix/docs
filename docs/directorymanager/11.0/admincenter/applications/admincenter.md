@@ -12,7 +12,7 @@ the application and manage GroupID clients.
 When multiple instances of GroupID are deployed, a separate Admin Center application is created for
 each instance in native IIS.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View Admin Center Hosting Details](#view-admin-center-hosting-details)
 - [Launch Admin Center](#launch-admin-center)
@@ -68,8 +68,3 @@ To view deployment settings:
 To configure file logging and Windows logging for Admin Center, see the
 [Specify Log Settings for a Service](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md#specify-log-settings-for-a-service)
 topic.
-
-**See Also**
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Services](/docs/directorymanager/11.0/admincenter/service/overview.md)

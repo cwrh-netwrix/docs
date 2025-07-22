@@ -19,7 +19,7 @@ You can also specify the following settings for a user role in an identity store
 - The number of questions role members must use for enrollment and authentication
 - The minimum answer length
 
-What do you want to do?
+**What do you want to do?**
 
 - [Modify the Global Question Pool](#modify-the-global-question-pool)
 - [Modify the Local Question Pool](#modify-the-local-question-pool)
@@ -30,7 +30,7 @@ What do you want to do?
 ## Modify the Global Question Pool
 
 See the
-[Manage the Global Question Pool ](/docs/directorymanager/11.0/admincenter/concepts/globalpool.md)topic.
+[Manage the Global Question Pool ](/docs/directorymanager/11.0/admincenter/general/globalpool.md)topic.
 
 ## Modify the Local Question Pool
 
@@ -61,8 +61,3 @@ and authentication.
 
 See the
 [Define Security Question Settings for a Security Role](/docs/directorymanager/11.0/admincenter/securityrole/policy/password.md#define-security-question-settings-for-a-security-role) topic.
-
-See Also
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Manage the Local Question Pool](/docs/directorymanager/11.0/admincenter/identitystore/configure/securityquestions.md)

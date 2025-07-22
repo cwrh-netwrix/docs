@@ -9,7 +9,7 @@ sidebar_position: 30
 Users must install an authenticator app, such as Google Authenticator or Microsoft Authenticator, on
 their phones and use it to enroll and authenticate their identity store accounts in GroupID.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Enable the Authenticator Authentication Type for an Identity Store](#enable-the-authenticator-authentication-type-for-an-identity-store)
 - [Enforce Authentication by Authenticator for a Role in an Identity Store](#enforce-authentication-by-authenticator-for-a-role-in-an-identity-store)
@@ -32,7 +32,3 @@ topic.
 Role members must use an enforced authentication type for multifactor authentication. When an
 authentication type is enabled but not enforced, role members can choose to use it for enrollment
 and authentication.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)

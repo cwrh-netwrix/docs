@@ -12,7 +12,7 @@ their respective parent Dynasties.
 
 A Dynasty retrieves data from the directory on the same pattern as a Smart Group does, but it has
 its own mechanism of dividing the query results into child groups. To learn more about Dynasties,
-see the [Dynasties](/docs/directorymanager/11.0/admincenter/concepts/concepts.md#dynasties)
+see the [Dynasties](/docs/directorymanager/11.0/admincenter/general/concepts.md#dynasties)
 topic.
 
 You can control how GroupID processes Dynasties through the following settings:
@@ -44,7 +44,7 @@ When a Dynasty is updated, the following happens:
   values of these attributes are updated when the Dynasty is updated. See the
   [Specify Attributes for Inheritance](#specify-attributes-for-inheritance) topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Auto Update Dynasty Children When Parent Changes](#auto-update-dynasty-children-when-parent-changes)
 - [Auto Delete Empty and Orphan Dynasty Children](#auto-delete-empty-and-orphan-dynasty-children)
@@ -122,17 +122,18 @@ You can add and remove attributes to this list.
 
 5. Click **Save**.
 
-NOTE: (1) At the Dynasty level, you can control whether child Dynasties should inherit these
+:::note
+(1) At the Dynasty level, you can control whether child Dynasties should inherit these
 attributes only when child Dynasties are created, or every time the parent Dynasty is updated. You
 can also opt to disable attribute inheritance for child Dynasties.  
- (2) If, for a managerial Dynasty, the ‘Set manager as owner’ option is applied and the managedBy
+(2) If, for a managerial Dynasty, the ‘Set manager as owner’ option is applied and the managedBy
 attribute is set for inheritance, then the latter settings will not have any impact and the manager
 of a child Dynasty will be set as its owner.
+:::
 
-NOTE: In a Microsoft Entra ID identity store, where a group can have multiple primary owners, the
+
+:::note
+In a Microsoft Entra ID identity store, where a group can have multiple primary owners, the
 owner of the parent Dynasty and the manager of a child Dynasty are collectively set as owners of
 that child Dynasty.
-
-**See Also**
-
-- [Smart Group Update Schedule](/docs/directorymanager/11.0/admincenter/schedule/smartgroupupdate.md)
+:::

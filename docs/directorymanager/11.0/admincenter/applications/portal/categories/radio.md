@@ -23,7 +23,7 @@ A few radio display types used in the default portal template are:
 | groupType         | Security Group Distribution List                                                                                             | Enables users to specify whether they want to create a security group or a distribution list.            |
 | reportTo          | Report To Originator Report To Owner Don’t Send Delivery Reports                                                             | Enables users to set delivery report recipients when a message sent to a group or user is not delivered. |
 
-What do you want to do?
+**What do you want to do?**
 
 - [Define a Radio Display Type](#define-a-radio-display-type)
 
@@ -69,9 +69,3 @@ What do you want to do?
    The **Default Selection** list contains all radio buttons defined in the **Values** area.
 10. Click **OK**.
 11. Click **Save** on the **Custom Display Types** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/categories/custom.md)

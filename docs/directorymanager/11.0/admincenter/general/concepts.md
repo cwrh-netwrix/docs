@@ -1,10 +1,10 @@
 ---
-title: "Group Management Concepts"
+title: "Getting Started"
 description: "Group Management Concepts"
 sidebar_position: 10
 ---
 
-# Group Management Concepts
+# Getting Started
 
 To make the best of GroupID, you must be familiar with the following group management concepts:
 
@@ -195,7 +195,3 @@ GroupID provides three security types:
 - **Public** - to allow all users to access the group. Users can join or leave the group at will and
   do not require any permissions to do so. The administrator can configure email notifications to be
   sent to the group owner when a user joins or leaves the group.
-
-**See Also**
-
-- [Dashboard](/docs/directorymanager/11.0/admincenter/concepts/dashboard.md)

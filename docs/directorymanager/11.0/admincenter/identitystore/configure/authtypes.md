@@ -11,7 +11,7 @@ factor authentication and multifactor authentication.
 
 Moreover, you must also enable enrollment for an identity store, so users can enroll their accounts.
 
-What do you want to do?
+**What do you want to do?**
 
 - Enable Authentication Types
 - Enable Enrollment
@@ -52,9 +52,12 @@ What do you want to do?
    factor authentication in GroupID.
 5. Click **Save**.
 
-NOTE: For second factor authentication and multifactor authentication to work in GroupID, the
+:::note
+For second factor authentication and multifactor authentication to work in GroupID, the
 **Enrollment Enabled** check box must be selected. Else, users will not be able to enroll, which
 will prevent them from using GroupID.
+:::
+
 
 ## Enable QR Code
 
@@ -94,10 +97,3 @@ To sign in via QR code, users must first install the GroupID mobile app on their
 
 To sign in using the QR code, see the
 [Access Admin Center](/docs/directorymanager/11.0/admincenter/signin.md) topic.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Configure Second Factor Authentication](/docs/directorymanager/11.0/admincenter/authpolicy/sfa.md)
-- [Configure Multifactor Authentication](/docs/directorymanager/11.0/admincenter/authpolicy/mfa.md)
-- [Set Up Authentication Types](/docs/directorymanager/11.0/admincenter/authpolicy/setupauth/overview.md)

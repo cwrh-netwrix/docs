@@ -22,16 +22,7 @@ You can also view the deployment details for all instances of a portal and do th
 - Delete an instance.
 - Move a portal instance under a different site in IIS.
 
-NOTE: On changing some of these settings, the portal’s session ends and all connected users are
+:::note
+On changing some of these settings, the portal’s session ends and all connected users are
 logged out. When accessed again, the portal runs under the new configurations.
-
-**See Also**
-
-- [Create a GroupID Portal](/docs/directorymanager/11.0/admincenter/applications/portal/create.md)
-- [Manage General Server Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/general.md)
-- [Manage Settings for a Native IIS Deployment](/docs/directorymanager/11.0/admincenter/applications/portal/server/nativeiis.md)
-- [Manage Settings for a Remote IIS Deployment](/docs/directorymanager/11.0/admincenter/applications/portal/server/remoteiis.md)
-- [Manage Settings for a Docker Deployment](/docs/directorymanager/11.0/admincenter/applications/portal/server/docker.md)
-- [Manage Log Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/log.md)
-- [Add Support for a Portal](/docs/directorymanager/11.0/admincenter/applications/portal/server/support.md)
-- [Manage Advanced Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/advanced.md)
+:::

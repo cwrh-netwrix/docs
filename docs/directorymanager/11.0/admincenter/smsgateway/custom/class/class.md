@@ -25,7 +25,3 @@ Following is a list of its members with description:
 | [ShortMessage.PhoneNumbers](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/phonenumbers.md) property | Gets or sets the list of phone numbers to send the message to.                                                                |
 | [ShortMessage.ReferenceId](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/referenceid.md) property   | Gets or sets the reference ID for the text message.                                                                           |
 | [ShortMessage.Validate](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/validate.md) method           | Validates various elements in an SMS message, such as message length and phone number.                                        |
-
-**See Also**
-
-- [ISMSGateway Members](/docs/directorymanager/11.0/admincenter/smsgateway/custom/overview.md)

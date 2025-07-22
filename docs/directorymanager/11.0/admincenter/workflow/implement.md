@@ -37,16 +37,24 @@ the request is approved.
 
 But if you add a filter as:
 
-|               |            |         |
-| ------------- | ---------- | ------- |
-| Field         | Condition  | Value   |
-| employee Type | Not Equals | manager |
+<table>
+  <tr>
+    <td>Field</td>
+    <td>Condition</td>
+    <td>Value</td>
+  </tr>
+  <tr>
+    <td>employee Type</td>
+    <td>Not Equals</td>
+    <td>manager</td>
+  </tr>
+</table>
 
 It implies that when a manager edits the value of the _criteria_ attribute, the change is effective
 immediately and this workflow does not apply. When a non-manager user changes the value of the
 attribute, it triggers the workflow.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View the Workflows](#view-the-workflows)
 - [Create a New Workflow](#create-a-new-workflow)
@@ -66,7 +74,7 @@ What do you want to do?
     | Label       | Description                                                                                                                                                                                  |
     | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
     | Enable      | Shows whether a workflow is enabled or disabled. Use the toggle button next to a workflow to enable or disable it.                                                                           |
-    | Type        | A workflow has one of these types: - **System:** workflows that are defined by default for an identity store. - **User Defined:** workflows that are defined by users for an identity store. |
+    | Type        | A workflow has one of these types: <ul><li>**System:** workflows that are defined by default for an identity store.</li><li>**User Defined:** workflows that are defined by users for an identity store.</li></ul> |
     | Name        | A descriptive name for a workflow that identifies the action the workflow audits.                                                                                                            |
     | Object(s)   | The directory object(s) the workflow applies to.                                                                                                                                             |
     | Approver(s) | The approver(s) specified for a workflow. Approver(s) are responsible for approving or denying the requests generated for the workflow.                                                      |
@@ -91,9 +99,12 @@ What do you want to do?
 7. In the **Events** drop-down list, select the event (Create, Edit, Delete) that will trigger the
    workflow.
 
-    NOTE: (1) For the Create event, you can define only one workflow for an object.  
-     (2) A workflow for the Group object with the Delete event will be triggered when the group is
+    :::note
+    (1) For the Create event, you can define only one workflow for an object.  
+    (2) A workflow for the Group object with the Delete event will be triggered when the group is
     manually deleted.
+    :::
+
 
 8. Select the **Mail Approval** check box to enable the approver to approve or deny a workflow
    request from within the workflow email notification. These notifications contain the **Accept**
@@ -129,7 +140,7 @@ What do you want to do?
         | Owner and Additional Owner of the Group            | _Edit_ and _delete_ events of the _Group_ object               | Select it to specify the group’s primary and additional owners as the request approvers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
         | Manager of User                                    | _Edit_ and _Delete_ events of the _User_ and _Contact_ objects | Select it to specify the user’s or contact’s primary manager as the request approver.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
         | Manager and Additional Manager of User             | _Edit_ and _Delete_ events of the _User_ and _Contact_ objects | Select it to specify the user’s/contact’s primary and additional managers as the request approvers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-        | Search Container Include Sub-Containers Search box | For all objects and events                                     | You can specify one or more users and groups as approvers. In case of a group, all its members are set as approvers. Specify a container to search for the desired object(s); then perform a search to locate and select the object. - Click the down arrow in the **Search Container** box and select a container to limit the search scope to it. - Select the **Include Sub-Containers** check box to include the sub-containers within the selected container to search for the object. - Enter a search string in the search box; objects starting with the string are displayed as you type. Click **Add** for an object to select it. You can also perform an advanced search to locate the object. Click **Advanced** in the search box and use the search fields to enter a search string. On clicking **Search**, objects matching the string are displayed. Select the user or group you want to add as approver. |
+        | Search Container Include Sub-Containers Search box | For all objects and events | You can specify one or more users and groups as approvers. In case of a group, all its members are set as approvers. Specify a container to search for the desired object(s); then perform a search to locate and select the object. <ul><li>Click the down arrow in the **Search Container** box and select a container to limit the search scope to it.</li><li>Select the **Include Sub-Containers** check box to include the sub-containers within the selected container to search for the object.</li><li>Enter a search string in the search box; objects starting with the string are displayed as you type. Click **Add** for an object to select it. <br />You can also perform an advanced search to locate the object. Click **Advanced** in the search box and use the search fields to enter a search string. On clicking **Search**, objects matching the string are displayed. Select the user or group you want to add as approver.</li></ul> |
 
     2. Click **Add** to close the **Add Approver(s)** dialog box.
 
@@ -174,8 +185,11 @@ What do you want to do?
     2. On the **Add Fields** dialog box, select the check box for a field to add it to the workflow
        and click **Add**.
 
-    NOTE: The **Field(s)** section is not available when _Create_ is selected in the **Events**
+    :::note
+    The **Field(s)** section is not available when _Create_ is selected in the **Events**
     drop-down list.
+    :::
+
 
 15. By default, the workflow is enabled, as indicated by the **Enabled** toggle button at the top of
     the page. If required, use the toggle button to disable it.
@@ -266,10 +280,3 @@ user-defined workflows; system workflows cannot be deleted.
    user-defined workflow and select **Delete Workflow**.
 5. Click **Delete** on the confirmation dialog box.
 6. Click **Save**.
-
-**See Also**
-
-- [Workflows](/docs/directorymanager/11.0/admincenter/workflow/overview.md)
-- [Manage Advanced Workflow Settings](/docs/directorymanager/11.0/admincenter/workflow/advancedsettings.md)
-- [Workflow Approver Acceleration](/docs/directorymanager/11.0/admincenter/workflow/approveracceleration.md)
-- [Integrate with Power Automate](/docs/directorymanager/11.0/admincenter/workflow/integrate.md)

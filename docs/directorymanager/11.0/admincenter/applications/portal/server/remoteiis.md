@@ -8,7 +8,7 @@ sidebar_position: 30
 
 You can manage various settings for a portal instance deployed in remote IIS.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Start or Stop an Instance](#start-or-stop-an-instance)
 - [View the Deployment Settings for an Instance](#view-the-deployment-settings-for-an-instance)
@@ -61,7 +61,3 @@ To set file logging and Windows logging levels for a deployment instance, see th
 To delete a portal’s deployment instance, see the
 [Delete a Deployment Instance for a Portal](/docs/directorymanager/11.0/admincenter/applications/portal/delete.md#delete-a-deployment-instance-for-a-portal)
 topic.
-
-**See Also**
-
-- [Server Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/overview.md)

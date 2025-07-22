@@ -40,8 +40,3 @@ Data sources are used in the GroupID portal in the following ways:
   with the directory to search for specific objects. See the
   [Query Based Advanced Search](/docs/directorymanager/11.0/portal/generalfeatures/querysearch.md)
   topic.
-
-See Also
-
-- [Create a Data Source](/docs/directorymanager/11.0/admincenter/datasource/create.md)
-- [Manage a Data Source](/docs/directorymanager/11.0/admincenter/datasource/manage.md)

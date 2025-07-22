@@ -16,9 +16,12 @@ A workflow triggers when a certain operation, performed by a user, meets the cri
 that workflow. Designated users can approve or deny workflow requests using the GroupID portal or
 the GroupID mobile app.
 
-NOTE: Workflows require an SMTP server to be configured for the identity store. See the
+:::note
+Workflows require an SMTP server to be configured for the identity store. See the
 [Configure an SMTP Server](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md)
 topic.
+:::
+
 
 ## System Workflows
 
@@ -38,8 +41,11 @@ their associated events occur:
 
 You can also define new workflows for an identity store.
 
-NOTE: You cannot delete a system workflow, but you can disable it. You can also modify it to a
+:::note
+You cannot delete a system workflow, but you can disable it. You can also modify it to a
 limited extent.
+:::
+
 
 ## Synchronize Jobs and Workflows
 
@@ -105,10 +111,3 @@ The following scenarios are valid when workflow approver acceleration settings a
 ## Integration with Microsoft Power Automate
 
 To automate your everyday tasks, you can also link your GroupID workflows to Power Automate flows.
-
-**See Also**
-
-- [Implement Workflows](/docs/directorymanager/11.0/admincenter/workflow/implement.md)
-- [Manage Advanced Workflow Settings](/docs/directorymanager/11.0/admincenter/workflow/advancedsettings.md)
-- [Workflow Approver Acceleration](/docs/directorymanager/11.0/admincenter/workflow/approveracceleration.md)
-- [Integrate with Power Automate](/docs/directorymanager/11.0/admincenter/workflow/integrate.md)

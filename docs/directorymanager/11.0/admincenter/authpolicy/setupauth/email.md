@@ -14,12 +14,15 @@ GroupID provides a default notification template for enrollment/authentication v
 languages. You can change the subject line and the body text in the template for any of these
 languages.
 
-NOTE: Before configuring Email authentication, make sure that an SMTP server is configured for the
+:::note
+Before configuring Email authentication, make sure that an SMTP server is configured for the
 identity store. See the
 [Configure an SMTP Server](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md)
 topic.
+:::
 
-What do you want to do?
+
+**What do you want to do?**
 
 - [Enable Email Authentication for an Identity Store](#enable-email-authentication-for-an-identity-store)
 - [Modify the Email Template](#modify-the-email-template)
@@ -79,8 +82,3 @@ topic.
 Role members must use an enforced authentication type for multifactor authentication. When an
 authentication type is enabled but not enforced, role members can choose to use it for enrollment
 and authentication.
-
-**See Also**
-
-- [Authentication Policy](/docs/directorymanager/11.0/admincenter/authpolicy/authpolicy.md)
-- [Customize Notifications](/docs/directorymanager/11.0/admincenter/notification/customize.md)

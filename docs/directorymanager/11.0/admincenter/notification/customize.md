@@ -9,7 +9,7 @@ sidebar_position: 20
 GroupID generates a variety of notifications for different events, such as when changes are made to
 a group, when workflows are triggered, and when profile validation is due for users. Supported
 languages for notifications are listed in the
-[Localization](/docs/directorymanager/11.0/introduction/gettingstarted.md#localization) topic.
+[Localization](/docs/directorymanager/11.0/gettingstarted.md#localization) topic.
 
 Templates for all GroupID notifications are available in these languages. You can customize a
 notification template for the following in each of the supported languages:
@@ -21,7 +21,7 @@ By default, notifications are sent to users in the English language. However, a 
 receive notifications in a different language by personalizing the language settings from the
 **Settings** panel in the GroupID portal.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Customize a Notification Template](#customize-a-notification-template)
 
@@ -85,7 +85,10 @@ You can do the following in the Source Code view:
 - Replace the tags with other relevant tags. By using a tag, you can display an attribute’s value in
   the notification.
 
-NOTE: Do not insert tables or custom photos in a notification template.
+:::note
+Do not insert tables or custom photos in a notification template.
+:::
+
 
 After making the required changes, click **Save** on the menu bar.
 
@@ -169,7 +172,3 @@ can also use any custom attributes.
 | IsDeleted             | GroupTypeLocalSecurity_Builtin | GroupTypeGlobalDistribution | AccountDisabled         |
 | LastLogon             | PrimaryGroupToken              | PrimaryGroupId              | SubscribeByMail         |
 | AdPublicDelgateRights | UserPrincipleName              |                             |                         |
-
-**See Also**
-
-- [Notifications](/docs/directorymanager/11.0/admincenter/notification/overview.md)

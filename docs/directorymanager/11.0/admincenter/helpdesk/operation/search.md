@@ -9,7 +9,7 @@ sidebar_position: 30
 Helpdesk users can search for users in specific identity store(s) or all identity stores defined in
 GroupID. A search filter is also available to help you narrow down your search results.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Perform a Search](#perform-a-search)
 
@@ -56,8 +56,3 @@ Click the ellipsis button for a user to perform any of these actions:
 - Unlock account
 - Send enrollment reminder
 - Unenroll account
-
-**See Also**
-
-- [Helpdesk](/docs/directorymanager/11.0/admincenter/helpdesk/overview.md)
-- [Helpdesk Operations](/docs/directorymanager/11.0/admincenter/helpdesk/operation/overview.md)

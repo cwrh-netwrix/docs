@@ -28,7 +28,3 @@ The host name of the proxy server.
 
 If communication with the SMS gateway is through a proxy server, you can use this property to
 provide the host name of the proxy server.
-
-**See Also**
-
-- [Implement and Deploy a Custom SMS Gateway](/docs/directorymanager/11.0/admincenter/smsgateway/implementcustom.md)

@@ -36,7 +36,7 @@ These granular controls enable you to drill down from the provider to the attrib
 - Further down, you can disallow certain attributes for an object type in a specific identity store
   or data source built on a provider.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Prevent Role Members from Using a Provider as Source or Destination](#prevent-role-members-from-using-a-provider-as-source-or-destination)
 - [Prevent Role Members from Using an Identity Store or Data Source as Source or Destination](#prevent-role-members-from-using-an-identity-store-or-data-source-as-source-or-destination)
@@ -79,11 +79,14 @@ data sources build on specific provider(s) in a job.
 8. On the **Edit Security Role** page, click **Update Security Role**.
 9. On the **Security Roles** page, click **Save**.
 
-NOTE: If you disallow a provider as a source, all Synchronize jobs already using an identity
+:::note
+If you disallow a provider as a source, all Synchronize jobs already using an identity
 store/data source for that provider as source will become read-only for role members and they will
 not be able to run them. Similarly, if you disallow a provider as a destination, all Synchronize
 jobs already using an identity store/data source for that provider as destination will become
 read-only for role members and they will not be able to run them.
+:::
+
 
 ## Prevent Role Members from Using an Identity Store or Data Source as Source or Destination
 
@@ -122,11 +125,14 @@ store or data source in a job.
 9. On the **Edit Security Role** page, click **Update Security Role**.
 10. On the **Security Roles** page, click **Save**.
 
-NOTE: If you disallow an identity store or data source as a source, all Synchronize jobs already
+:::note
+If you disallow an identity store or data source as a source, all Synchronize jobs already
 using it as source will become read-only for role members and they will not be able to run them.
 Similarly, if you disallow an identity store or data source as destination, all Synchronize jobs
 already using it as destination will become read-only for role members and they will not be able to
 run them.
+:::
+
 
 ## Prevent Role Members from Manipulating Specific Object Type(s)
 
@@ -148,15 +154,19 @@ disallowed objects at the destination. For example, if you disallow the user obj
 IdentityStore_A, role members will not be able to provision, update and deprovision user objects in
 identityStore_A through a Synchronize job.
 
-NOTE: If you disallow an object type in an identity store or data source, all Synchronize jobs
+:::note
+If you disallow an object type in an identity store or data source, all Synchronize jobs
 already using that identity store or data source (either as source or destination) while only
 provisioning or updating the disallowed object type, will become read-only for role members and they
 will not be able to run them. If a job provisions or updates multiple objects, where the disallowed
 object is one of the object types it processes, it will run as usual, except that the disallowed
 object will not be processed.  
+:::
+
 **Example:** Suppose you disallow the mailbox object type in IdentityStore_A, when this identity
 store is already used as a destination in a Synchronize job that provisions mailbox objects, then
 the job will become read-only for role members and they will not be able to run it.  
+
 If IdentityStore_A is used as a source or destination in a Synchronize job that provisions multiple
 objects types, then the job will run as usual, except that the mailbox object will not be processed.
 
@@ -236,8 +246,3 @@ attributes:
 11. Click **OK**.
 12. On the **Edit Security Role** page, click **Update Security Role**.
 13. On the **Security Roles** page, click **Save**.
-
-**See Also**
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Security Role Policies](/docs/directorymanager/11.0/admincenter/securityrole/policy/overview.md)

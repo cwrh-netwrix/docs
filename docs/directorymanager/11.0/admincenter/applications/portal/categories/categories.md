@@ -124,8 +124,3 @@ topic to add more display types as needed.
 
 The **Custom Display Types** page in a portal’s design settings lists all the predefined custom
 display types and any custom display types you may have added.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Define Custom Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/categories/custom.md)

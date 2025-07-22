@@ -9,12 +9,15 @@ sidebar_position: 40
 In GroupID, three security roles are defined by default in an identity store: Administrator,
 Helpdesk, and User. More security roles can be added as required.
 
-NOTE: In a Microsoft Entra ID identity store, the Helpdesk role is not available by default.
+:::note
+In a Microsoft Entra ID identity store, the Helpdesk role is not available by default.
+:::
+
 
 You can grant permissions on the GroupID app to security roles that exist in an identity store
 associated with a Mobile service, so that role members can access the allowed features only.
 
-What do you want to do?
+**What do you want to do?**
 
 - Grant Permissions to Security Roles
 
@@ -35,8 +38,3 @@ What do you want to do?
 5. To grant permission to a role on a function, select the check box for it.  
    To deny permission, clear the respective check box.
 6. Click **Save**.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)
-- [Design Settings](/docs/directorymanager/11.0/admincenter/service/mobileservice/design/overview.md)

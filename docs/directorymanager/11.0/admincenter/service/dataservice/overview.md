@@ -37,9 +37,3 @@ improved response times and load balancing.
 
 GroupID enables you to create and deploy a Data service in any of these web servers: native IIS,
 remote IIS, and Docker.
-
-See Also
-
-- [GroupID Applications](/docs/directorymanager/11.0/admincenter/applications/applications.md)
-- [Create a Data Service](/docs/directorymanager/11.0/admincenter/service/dataservice/create.md)
-- [Manage Data Service Settings](/docs/directorymanager/11.0/admincenter/service/dataservice/manage.md)

@@ -21,11 +21,14 @@ Using a portal, users can create different directory objects, namely:
 The portal provides a separate wizard for creating each of these objects. You can customize a wizard
 as needed.
 
-NOTE: In the portal, the _Create Group_ wizard starts with the _Group Type_ page, where users can
+:::note
+In the portal, the _Create Group_ wizard starts with the _Group Type_ page, where users can
 select the type of group they want to create. Options on this page vary, depending on the
 permissions assigned to the user in the identity store. (See the
 [Security Role – Permissions](/docs/directorymanager/11.0/admincenter/securityrole/permissions.md)
 topic.)
+:::
+
 
 - If a user has the _Create Static Group_ permission and is denied the _Create Smart Group_
   permission, only the _Static Group_ option is displayed on the _Group Type_ page.
@@ -33,8 +36,11 @@ topic.)
   permission, all options except _Static Group_ are displayed on the _Group Type_ page.
   ![group_type](/img/product_docs/directorymanager/11.0/admincenter/portal/design/group_type.webp)
 
-NOTE: You can customize the _Group Type_ page individually for static group, Smart Group, and each
+:::note
+You can customize the _Group Type_ page individually for static group, Smart Group, and each
 of the Dynasty types. However:
+:::
+
 
 - If a user has permissions to create both static groups and Smart Groups, the _Group Type_ page
   created for _Static Group_ would be displayed to the user in the portal.
@@ -42,7 +48,7 @@ of the Dynasty types. However:
   Groups, the _Group Type_ page created for _Smart Group_ would be displayed to the user in the
   portal for Smart Groups and Dynasties.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Add a Page to a Wizard](#add-a-page-to-a-wizard)
 - [Update a Wizard Page](#update-a-wizard-page)
@@ -272,7 +278,3 @@ The following field properties vary from field to field. You can:
    Click **Remove** for a field to remove it.
 8. Click **OK**.
 9. Click **Save** on the **Create Object** page.
-
-See Also
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)

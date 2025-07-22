@@ -25,7 +25,7 @@ To define a multiline textbox display type, provide a name for it and specify th
 giving the number of rows to be displayed for it. Portal users can use the _Enter_ key to add as
 many rows as required while entering data.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Define a Multiline Textbox Display Type](#define-a-multiline-textbox-display-type)
 
@@ -47,9 +47,3 @@ What do you want to do?
    the _Enter_ key to add as many rows as required while entering data.
 8. Click **OK**.
 9. Click Save on the **Custom Display Types** page.
-
-**See Also**
-
-- [Design a Portal with Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/displaytype/overview.md)
-- [Display Type Categories](/docs/directorymanager/11.0/admincenter/applications/portal/categories/categories.md)
-- [Define Custom Display Types](/docs/directorymanager/11.0/admincenter/applications/portal/categories/custom.md)

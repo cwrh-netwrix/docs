@@ -41,7 +41,7 @@ group membership. See the
 [Manage Membership Life Cycle Notifications](/docs/directorymanager/11.0/admincenter/identitystore/configure/smtpserver.md#manage-membership-life-cycle-notifications)
 topic.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Create a Membership Life Cycle Schedule](#create-a-membership-life-cycle-schedule)
 
@@ -69,8 +69,11 @@ What do you want to do?
    [Create a Group Usage Service Schedule](/docs/directorymanager/11.0/admincenter/schedule/groupusageservice.md#create-a-group-usage-service-schedule)
    topic.
 
-    NOTE: Membership Lifecycle policies are not applied to OUs specified here. Target OUs and groups
+    :::note
+    Membership Lifecycle policies are not applied to OUs specified here. Target OUs and groups
     are set in the respective policy.
+    :::
+
 
 10. Click **Add Triggers** in the **Triggers** area to specify a triggering criterion for the
     schedule, that, when met, starts the execution of the schedule. Follow step 11 in the
@@ -85,7 +88,3 @@ What do you want to do?
     The schedule is displayed under **Membership Life Cycle**. See the
     [View the Schedules in an Identity Store ](/docs/directorymanager/11.0/admincenter/schedule/manage.md#view-the-schedules-in-an-identity-store)
     topic for more info.
-
-See Also
-
-- [Schedules](/docs/directorymanager/11.0/admincenter/schedule/overview.md)

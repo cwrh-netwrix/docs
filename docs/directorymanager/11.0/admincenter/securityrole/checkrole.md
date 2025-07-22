@@ -17,7 +17,7 @@ GroupID enables you to view the highest priority role of a user in a client. Thi
 the access level of that user in the client. Select a client and specify a user. GroupID fetches the
 highest priority role of the user with respect to the client.
 
-What do you want to do?
+**What do you want to do?**
 
 - [View the Highest Priority Role of a User in a GroupID Client](#view-the-highest-priority-role-of-a-user-in-a-groupid-client)
 
@@ -41,7 +41,7 @@ What do you want to do?
     - Enter a search string and press **Enter**. User names starting with the string are displayed.
       Select the required user.
 
-        OR
+**OR**
 
     - Click **Advanced** to search a user by different parameters, such as name, department,
       company, and email. Enter a search string and click **Search**. Users matching the string are
@@ -54,8 +54,3 @@ What do you want to do?
    For _None_, the highest privileged role of the user in th identity store is displayed,
    irrespective of any client.
 8. Click **Close** to close the dialog box.
-
-See Also
-
-- [Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/overview.md)
-- [Manage Security Roles](/docs/directorymanager/11.0/admincenter/securityrole/manage.md)

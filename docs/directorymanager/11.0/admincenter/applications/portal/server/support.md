@@ -12,7 +12,7 @@ helpdesk) for inquiries or feedback. The **Help** icon launches the online help 
 new browser window. Both links are customizable, and their target email address or web address can
 be changed.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Update the Support Email Address](#update-the-support-email-address)
 - [Change the Help URL for a Portal](#change-the-help-url-for-a-portal)
@@ -58,7 +58,3 @@ single sign-on solution that support the SAML standard, into GroupID via any of 
 3. Click **GroupID Support** under **Server Settings**; the **GroupID Support** page is displayed.  
    The **Client ID** box displays the client ID assigned to the portal. It is read-only and can be
    copied for use.
-
-**See Also**
-
-- [Server Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/overview.md)

@@ -7,7 +7,7 @@ sidebar_position: 10
 # Admin Center Logs
 
 Use this API to get Admin Center logs. See the
-[Admin Center History](/docs/directorymanager/11.0/admincenter/concepts/history_1.md) topic
+[Admin Center History](/docs/directorymanager/11.0/admincenter/general/history_1.md) topic
 for additional information.
 
 ## Endpoint

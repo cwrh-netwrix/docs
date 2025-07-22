@@ -33,7 +33,3 @@ service:
   validating their profiles using the app. See the
   [Manage Property Validation](/docs/directorymanager/11.0/admincenter/service/mobileservice/design/propertyvalidation.md)
   topic.
-
-**See Also**
-
-- [Mobile Service](/docs/directorymanager/11.0/admincenter/service/mobileservice/overview.md)

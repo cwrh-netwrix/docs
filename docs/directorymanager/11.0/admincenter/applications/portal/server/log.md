@@ -41,7 +41,10 @@ The Windows Event Viewer shows a log of application and system messages, includi
 information messages, and warnings. It is a useful tool for troubleshooting all kinds of Windows
 problems.
 
-NOTE: Windows logging is not available for a portal instance deployed in Docker.
+:::note
+Windows logging is not available for a portal instance deployed in Docker.
+:::
+
 
 #### View Windows Logs
 
@@ -50,7 +53,7 @@ NOTE: Windows logging is not available for a portal instance deployed in Docker.
 2. Click **Applications and Service Logs > Imanami GroupID** in the left pane to view the event logs
    for GroupID.
 
-What do you want to do?
+**What do you want to do?**
 
 - [Change the File Logging Level for a Portal Instance](#change-the-file-logging-level-for-a-portal-instance)
 - [Turn Off File Logging for a Portal Instance](#turn-off-file-logging-for-a-portal-instance)
@@ -125,8 +128,3 @@ What do you want to do?
 5. Click the **Logging** tab.
 6. In the **Windows Logging** area, select _Off_ in the **Log Events** drop-down list.
 7. Click **Save**.
-
-**See Also**
-
-- [Server Settings](/docs/directorymanager/11.0/admincenter/applications/portal/server/overview.md)
-- [Get Logs](/docs/directorymanager/11.0/admincenter/concepts/logs.md)

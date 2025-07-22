@@ -24,7 +24,3 @@ Type:
 [](http://msdn.microsoft.com/en-us/library/system.string.aspx)[System.Collection.Generic.List(of T)](http://msdn.microsoft.com/en-us/library/6sh2ey19.aspx)
 
 A list of mobile phone numbers.
-
-See Also
-
-- [ShortMessage class](/docs/directorymanager/11.0/admincenter/smsgateway/custom/class/class.md)
