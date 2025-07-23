@@ -144,7 +144,7 @@ recommended. By using a tag, you can display an attribute’s value in the notif
 Following is a list of all attributes that can be used with tags in the notification templates: You
 can also use any custom attributes.
 
-| Attributes            |
+| Attributes            |                                |                             |                         |
 | --------------------- | ------------------------------ | --------------------------- | ----------------------- |
 | Owner                 | Member                         | MemberOf                    | Manager                 |
 | Name                  | DisplayName                    | FirstName                   | LastName                |
