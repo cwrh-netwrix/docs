@@ -50,6 +50,11 @@ module.exports = {
           id: 'enterpriseupgrade',
           label: 'Upgrade',
         },
+        {
+          type: 'doc',
+          id: 'kpi-user-guide',
+          label: 'KPI User Guide',
+        },
       ],
     },
   ],
