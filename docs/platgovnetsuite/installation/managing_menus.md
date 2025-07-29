@@ -15,7 +15,7 @@ an **Intelligent Change Management** license, **Enterprise** license features su
 
 To Hide or Show menu items:
 
-1. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings**
+1. Open **Netwrix** > **Strongpoint Support** > **Installation Settings**
 2. Click **Edit** to edit the installation settings.
 3. Open the **Menu Management tab**. You only see the categories available for your license type.
    All of the optional **Menu Items** are hidden by default.

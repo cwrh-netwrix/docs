@@ -48,7 +48,7 @@ Strongpoint Menu tab includes:
 
 ## Strongpoint Overview
 
-Click **Strongpoint** > **Strongpoint Overview** to open the dashboard, providing an at-a-glance
+Click **Netwrix** > **Strongpoint Overview** to open the dashboard, providing an at-a-glance
 overview of your reminders, automated documentation summary and easy access to all the features.
 
 ![Strongpoint Overview Dashboard](/images/platgovnetsuite/dashboard_overview.webp)

@@ -38,7 +38,7 @@ To access the customization list:
 
 ## Customization Quick Search
 
-To access a customization quick search, open **Strongpoint** > **Customizations** > **Customization
+To access a customization quick search, open **Netwrix** > **Customizations** > **Customization
 Quick Search**
 
 You can search using several factors and submit. When looking up by **Name**, using **Contains**
@@ -105,7 +105,7 @@ search.
 
 To access a customization quick search:
 
-1. Select **Strongpoint** > **Customizations** > **Customization Impact Search Form**.
+1. Select **Netwrix** > **Customizations** > **Customization Impact Search Form**.
 2. Enter any criteria to narrow the results as required.
 
 ![impactsearchform](/images/platgovnetsuite/customizations/impactsearchform.webp)

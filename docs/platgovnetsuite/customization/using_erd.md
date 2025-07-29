@@ -9,7 +9,7 @@ sidebar_position: 20
 The Entity Relationship Diagram, **ERD** is a visual representation of your Customizations where you
 can easily review the relationships and dependencies. The ERD is easily accessible:
 
-- **Strongpoint** > **Customizations** > **ERD View**
+- **Netwrix** > **Customizations** > **ERD View**
 - ERD Search, refer to [Enabling the ERD Search on the Dashboard](#enabling-the-erdsearch-on-the-dashboard)
 - Tabs on various pages, for example, Customization record, Change Requests, and Process Issues.
 

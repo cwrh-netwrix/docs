@@ -63,7 +63,7 @@ If the field is grayed out, it should be set as a **Company Preference:**
 
 ## Assign a License
 
-1. Open **Strongpoint** > **Strongpoint Support** > **License Manager**
+1. Open **Netwrix** > **Strongpoint Support** > **License Manager**
 2. Click **View**.
 3. Click **New Licensed User**.
 4. Click **Edit** by your name.

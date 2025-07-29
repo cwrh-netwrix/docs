@@ -22,7 +22,7 @@ NetSuite to make it easy to access the Netwrix support site at
 - Click **Submit a Support Case** from the
   [Strongpoint Overview Dashboard](/docs/platgovnetsuite/navigating_strongpoint.md) in your Production or Sandbox
   accounts.
-- Open **Strongpoint** > **Strongpoint Support** > **Contact Support** to open the Netwrix Support
+- Open **Netwrix** > **Strongpoint Support** > **Contact Support** to open the Netwrix Support
   site.
 
 ![Contact Strongpoint Support](/images/platgovnetsuite/troubleshooting/report_bug.webp)

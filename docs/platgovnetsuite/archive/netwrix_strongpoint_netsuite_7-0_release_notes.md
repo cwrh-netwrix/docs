@@ -37,7 +37,7 @@ June 16, 2023
   Searches. Specifying these options enable you to export the Change Management Reports with the
   fields in plain text, removing the HTML tags to improve readability.
 
-    - Open **Strongpoint** > **Change Management Reports** > _report_name_ > **Customize**.
+    - Open **Netwrix** > **Change Management Reports** > _report_name_ > **Customize**.
     - Click **Edit this Search**.
     - Open the **Results** tab.
     - Click **Add Multiple**.
@@ -121,7 +121,7 @@ xml file exported from a Jira ticket.
 
 This feature must be enabled before you can create tickets from NetSuite to Jira.
 
-1. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings**
+1. Open **Netwrix** > **Strongpoint Support** > **Installation Settings**
 2. Open the **Jira Integration** tab
 3. Check **Allow NS to Jira Push** to enable pushing NetSuite change requests into Jira.
 

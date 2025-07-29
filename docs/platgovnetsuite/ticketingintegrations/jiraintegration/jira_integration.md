@@ -87,7 +87,7 @@ Refer to the Atlassian documentation for instructions on
 
 ### Configure NetSuite and Jira
 
-1. Open **Strongpoint** > **Strongpoint Support** > **Installation Settings**
+1. Open **Netwrix** > **Strongpoint Support** > **Installation Settings**
 2. Click **Edit** by the latest report to open **Configuration and Stats**.
 3. Open the **Jira Integration** tab.
 4. Enter your **Jira User name** and the **Jira Token**. Refer to the

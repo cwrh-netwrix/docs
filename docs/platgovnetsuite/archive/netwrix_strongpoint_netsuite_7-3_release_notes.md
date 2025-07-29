@@ -37,7 +37,7 @@ March 18, 2024
 - Updated library to SuiteScript 2.x to support customization audit tags.
 - Updated Strongpoint bundle component changes to be flagged as Managed Bundle instead of
   nonmaterial SP Bundle Change.
-- Updated the Search results link for **Strongpoint** > **Change Management Reports** > **Policy
+- Updated the Search results link for **Netwrix** > **Change Management Reports** > **Policy
   Changes** to open **Strongpoint Policy Changes**. This is the same report as the one available in
   the **Reminders** portlet.
 - Updated the Strongpoint _customscript_flo_create_error_proc_issue_ script to be a maximum of 4000

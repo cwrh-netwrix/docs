@@ -23,7 +23,7 @@ Here is the basic process.
 You can create the External System before using the mapping tool. If you do not create the External
 System, it can be automatically created by the tool.
 
-1. Open **Strongpoint** > **Customizations** > **Customization** > **New**
+1. Open **Netwrix** > **Customizations** > **Customization** > **New**
 2. Enter a **Name** for the External System, for example: _Salesforce_. (External System) is
    appended to the Name. For example, _Salesforce (External System)_.
 3. Enter a **Description**.
@@ -54,7 +54,7 @@ The Mapping Tool menu item is hidden by default. If you do not see the option in
 the [Managing Menus](/docs/platgovnetsuite/installation/managing_menus.md) topic for information on making it
 available.
 
-Open **Strongpoint** > **Integrations** > **Mapping Tool**
+Open **Netwrix** > **Integrations** > **Mapping Tool**
 
 **![int_mapping_menu](/images/platgovnetsuite/integrations/int_mapping_menu.webp)**
 
