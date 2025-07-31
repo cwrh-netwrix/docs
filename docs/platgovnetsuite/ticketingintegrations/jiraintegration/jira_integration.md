@@ -131,11 +131,11 @@ Refer to the Atlassian documentation for instructions on
 
     ![Open Jira Apps settings](/images/platgovnetsuite/integrations/jira_settings_cloud.webp)
 
-2. Search for _Strongpoint for NetSuite_.
+2. Search for _Platform Governance for NetSuite_.
 
     ![Jira Search.](/images/platgovnetsuite/integrations/jira_search.webp)
 
-3. Click on the **Strongpoint for NetSuite** tile to open the details and follow the installation
+3. Click on the **Platform Governance for NetSuite** tile to open the details and follow the installation
    prompts.
 
 ### Create an Integration User Account (optional)

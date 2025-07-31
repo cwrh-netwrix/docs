@@ -38,7 +38,7 @@ to unlocked scripts.
 1. Open **Documents** > **Files** > **File Cabinet**
 2. Expand **SuiteBundles** > **Bundle 294336**
 3. Look for **Archive** under **FLODocs Enterprise** or **FLODocs Enterprise (2)**
-4. Click on folder containing **Archive**, and copy the **Internal ID** of the Archive folder. If
+4. Click on the **Archive** folder, and copy the **Internal ID** of the Archive folder. If
    the **Internal ID** column is not displayed:
 
     1. Open **NetSuite Home** > **Set Preferences**

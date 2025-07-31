@@ -1,10 +1,10 @@
 ---
-title: "Netwrix Strongpoint for Netsuite 7.0 Release Notes"
-description: "Netwrix Strongpoint for Netsuite 7.0 Release Notes"
+title: "Netwrix Platform Governance for NetSuite 7.0 Release Notes"
+description: "Netwrix Platform Governance for NetSuite 7.0 Release Notes"
 sidebar_position: 40
 ---
 
-# Netwrix Strongpoint for Netsuite 7.0 Release Notes
+# Netwrix Platform Governance for NetSuite 7.0 Release Notes
 
 ## Core 7.0.3
 
@@ -32,7 +32,7 @@ June 23, 2023
 June 16, 2023
 
 - **Autospider**, **Manual Spider** and **ReSpider Now** now support French (both France and Canada)
-  for Strongpoint customers using French in NetSuite.
+  for Netwrix customers using French in NetSuite.
 - **Changed By No HTML** and **Diff No HTML** result options are available for customizing your
   Searches. Specifying these options enable you to export the Change Management Reports with the
   fields in plain text, removing the HTML tags to improve readability.
@@ -68,7 +68,7 @@ April 21, 2023
 ### **Reset Strongpoint scripts to Low Priority**
 
 This change ensures the Strongpoint scripts do not impact your performance. This change affects both
-new installs and updates to existing Strongpoint for NetSuite installations.
+new installs and updates to existing Platform Governance for NetSuite installations.
 
 There is an exception for customers using the **Agent** module to run **Large Controls**. These
 scripts are set to **Standard** priority. Contact your Customer Success Manager for assistance if
@@ -83,7 +83,7 @@ you are considering changing these associated scripts to a lower priority.
 
 ### **NetSuite Make Copy Creates Content and Resets Status**
 
-Strongpoint ensures the **Make Copy** command found under the **Actions** option only copies the
+Netwrix ensures the **Make Copy** command found under the **Actions** option only copies the
 content, not the status. Copied change requests are set to the **Not Started** status.
 
 ![Make Copy does not copy the status](/images/platgovnetsuite/release_notes/change_request_make_copy.webp)
@@ -113,7 +113,7 @@ Here are the enhancements for the release:
 
 ### Import Customizations from Jira
 
-An **Import Customization** button has been added to the Jira Strongpoint form. You can import an
+An **Import Customization** button has been added to the Jira form. You can import an
 xml file exported from a Jira ticket.
 ![Jira Strongpoint form](/images/platgovnetsuite/release_notes/jira_strongpoint_form.webp)
 
@@ -132,7 +132,7 @@ This feature must be enabled before you can create tickets from NetSuite to Jira
 Create Ticket from NetSuite to Jira must be enabled before you can create tickets from NetSuite to
 Jira.
 
-1. Create or open a change request in Strongpoint.
+1. Create or open a change request in Platform Governance for NetSuite.
 2. Add your information and customizations.
 3. Click **Push to Jira**.
 4. Select your Jira project.

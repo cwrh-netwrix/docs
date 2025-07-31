@@ -10,7 +10,7 @@ The first time the spider is run the entire account is scanned. Subsequent spide
 changes since the last run.
 
 :::note
-The **Strongpoint** tab is only available to Administrators unless you specifically add it to other
+The **Netwrix** tab is only available to Administrators unless you specifically add it to other
 roles. Refer to [Setting Access and Permissions](/docs/platgovnetsuite/installation/setting_strongpoint_tab_access.md) for more
 information.
 :::

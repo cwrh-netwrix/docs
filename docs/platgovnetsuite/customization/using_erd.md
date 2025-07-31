@@ -16,7 +16,7 @@ can easily review the relationships and dependencies. The ERD is easily accessi
 The ERD provides a way to look at customizations by record type. A left click on the customization
 name brings up the customization record.
 
-1. Open **Strongpoint**> **Customizations** > **ERD View**
+1. Open **Netwrix** > **Customizations** > **ERD View**
 2. Select a **Record Type** from the list.
 3. Add any options:
 

@@ -24,8 +24,11 @@ Change Request, where the mandated approvers are included.
 2. Enter the **Name** and **Owner** for the process. For this example, the name is **Provision
    Multi-Stream Approval**.
 3. **Custom Form** and **Step Type** should be set to **Process**.
-4. Ctrl-Click to select one or more **Additional Approvers**. NOTE: Select the additional approvers
-   in the order you want them to approve.
+4. Ctrl-Click to select one or more **Additional Approvers**.
+
+    :::note
+    Select the additional approvers in the order you want them to approve.
+    :::
 
     ![multi_stream_new_process](/images/platgovnetsuite/change_management/multi_stream_new_process.webp)
 

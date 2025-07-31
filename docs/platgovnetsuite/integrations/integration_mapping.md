@@ -62,7 +62,7 @@ Open **Netwrix** > **Integrations** > **Mapping Tool**
 
 1. Select an existing External System from the list if you created it during Step 1, or Enter a new
    name to have the tool automatically create a new External System, for example: _Salesforce_.
-   Strongpoint appends (External System) to the Name. For example, _Salesforce (External System)_.
+   Platform Governance appends (External System) to the Name. For example, _Salesforce (External System)_.
 
     ![int_map_ext_sys](/images/platgovnetsuite/integrations/int_map_ext_sys.webp)
 

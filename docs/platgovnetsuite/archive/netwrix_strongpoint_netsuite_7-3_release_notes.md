@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Core 7.3.2
 
-Netwrix Strongpoint for Netsuite 7.3 Release Notes
+Netwrix Platform Governance for NetSuite 7.3 Release Notes
 
 ## Core 7.3.2
 

@@ -1,10 +1,10 @@
 ---
-title: "Netwrix Strongpoint for Netsuite 7.1 Release Notes"
-description: "Netwrix Strongpoint for Netsuite 7.1 Release Notes"
+title: "Netwrix Platform Governance for NetSuite 7.1 Release Notes"
+description: "Netwrix Platform Governance for NetSuite 7.1 Release Notes"
 sidebar_position: 30
 ---
 
-# Netwrix Strongpoint for Netsuite 7.1 Release Notes
+# Netwrix Platform Governance for NetSuite 7.1 Release Notes
 
 ## Core 7.1.2.1
 
