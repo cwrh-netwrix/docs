@@ -1,6 +1,12 @@
-# 🏷️ 1Secure Classifier Setup Guide
+---
+title: "Configure SharePoint Online Classification App"
+description: "Setup guide for 1Secure SPO Data Classification Connector and Azure classifier deployment"
+sidebar_position: 30
+---
 
-# Create 1Secure SPO Data Classification Connector
+# Configure SharePoint Online Classification App
+
+## Create 1Secure SPO Data Classification Connector
 
 * Log in to 1Secure
 * Go to Configuration
@@ -9,7 +15,7 @@
 * Select the SharePoint Online source's Connectors
 * Add/Edit SharePoint Online Data Classification
 
-# Deploy and Configure the Classifier in Azure
+## Deploy and Configure the Classifier in Azure
 
 * Create new resource group
 * Give current user at least: Domain Services Contributor, Contributor, Key Vault Secrets Officer, Key Vault Certificates User, and Role Based Access Control Administrator within resource group
@@ -27,7 +33,7 @@
 * Open Settings folder and go to Environment variables
 * Paste "default" key into "TextExtraction__ApiKey" value
 
-# Register the Classifier in 1Secure
+## Register the Classifier in 1Secure
 
 * In Azure classifier app, go to Overview
 * Click on the "Default domain" link and copy the full url (see below)
@@ -55,15 +61,15 @@
 * Press Register
 * After success, save and swap back to Azure Portal (tab 1)
 
-# Set Up Classifier Link to SPO
+## Set Up Classifier Link to SPO
 
-## On Azure Portal (tab 1)
+**On Azure Portal (tab 1):**
 
 * Go to `<prefix>`-kv
 * Open Objects folder and go to Secrets![](attachments/ac55f3e0-fee7-4318-a86b-58e9899c3a10.png " =1738x283")
 * Swap to Azure Portal (tab 2)
 
-## On Azure Portal (tab 2)
+**On Azure Portal (tab 2):**
 
 * Open your SharePoint App Registration
 
@@ -73,32 +79,32 @@
 
 * Copy App Registration tenant ID
 * Swap to Azure Portal (tab 1)
-  * Click on the secret with the name "source-auth-key-{Guid}-__tenant-id__"
+  * Click on the secret with the name "source-auth-key-\{Guid\}-__tenant-id__"
   * Click "+New Version"
   * Paste the tenant ID as the secret value
   * Click Create\n![](attachments/beabf83e-a591-4914-be74-37cd6755fe25.png " =1510x876")
 * Copy App Registration client ID
 * Swap to Azure Portal (tab 1)
-  * Click on the secret with the name "source-auth-key-{Guid}-__client-id__"
+  * Click on the secret with the name "source-auth-key-\{Guid\}-__client-id__"
   * Click "+New Version"
   * Paste the client ID as the secret value
   * Click Create
 
 
-\
 
-## On Azure Portal (tab 1)
+
+**On Azure Portal (tab 1):**
 
 
  ![](attachments/2dfd2ba5-c013-43b5-ae8f-c813dda8e9a0.png " =1852x685")
 
 * Go to Certificates
-* Click on "sharepoint-auth-{Guid}"
+* Click on "sharepoint-auth-\{Guid\}"
 * Click on current version
 * Click on "Download in CER format"
 * Swap to Azure Portal (tab 2)
 
-## On Azure Portal (tab 2)
+**On Azure Portal (tab 2):**
 
 * Open Manage folder in App Registration and click Certificates & Secrets
 * Go to Certificates
@@ -108,30 +114,30 @@
 
  ![](attachments/3b0612ed-6b25-40c4-b091-7a5a73921914.png " =1409x817")
 
-# Troubleshooting
+## Troubleshooting
 
-## General Errors
+### General Errors
 
-### Classification connector successfully registers but shows status 'New' even after a successful state crawl
+**Classification connector successfully registers but shows status 'New' even after a successful state crawl**
 
 * There could be errors in the classifier app - check the Application Insights resource (in the classifier resource group, resource ending in `-ai`) for more detailed errors - use the below section for further troubleshooting steps
 
-## Application Insights Errors
+### Application Insights Errors
 
-### No ClientId was specified
+**No ClientId was specified**
 
 *(Full error: Microsoft.Graph.ServiceException: Code: generalException Message: An error occurred sending the request. ---> MSAL.NetCore.4.70.2.0.MsalClientException: ErrorCode: no_client_id……)*
 
 * Check that the client ID and tenant ID secrets are set in the KeyVault instance
 
-### The maximum entity size has been reached or exceeded for queue
+**The maximum entity size has been reached or exceeded for queue**
 
 * The classifier has been unable to process service bus messages and the queue is now full, the queue can be emptied. The classifications should be processed successfully on the next crawl.
   * In the classifier resource group, find the service bus namespace resource (named `<classifier-name>`**-class-sb-core**)
   * Open the **state-classification** queue, and click **Service Bus Explorer** in the left-hand side bar
   * Click **Peek Mode** and change it to **Receive Mode**, then click **Purge messages**
 
-### Name or service not known
+**Name or service not known**
 
 *(Example error: Microsoft.Graph.ServiceException: Code: generalException*\n*Message: An error occurred sending the request.*\n *---> System.AggregateException: Retry failed after 4 tries. Retry settings can be adjusted in ClientOptions.Retry or by configuring a custom retry policy in ClientOptions.RetryPolicy. (Name or service not known (*`<classifier-name>`*-kv:443))*
 
