@@ -1,0 +1,10 @@
+{
+  "label": "Browser Router",
+  "position": 5,
+  "collapsed": false,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

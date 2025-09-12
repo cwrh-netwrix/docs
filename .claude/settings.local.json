@@ -14,7 +14,13 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(find:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c:*)",
+      "Bash(chmod:*)",
+      "Bash(bash:*)",
+      "Bash(tree:*)"
     ],
     "deny": []
   }
