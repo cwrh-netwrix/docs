@@ -6,7 +6,7 @@ sidebar_position: 10
 
 # Which variables can I use in the Browser Router Advanced Blocking Message?
 
-A customer blocking message is optional. If you don't make any changes, the default looks like this:
+A customer blocking message is optional. If you don't make any changes at this point, the default looks like this:
 
 ![953_1_thumbnail_image001](/images/endpointpolicymanager/browserrouter/953_1_thumbnail_image001.webp)
 
