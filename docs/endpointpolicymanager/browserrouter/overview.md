@@ -15,11 +15,11 @@ Browser Router is a powerful component of Endpoint Policy Manager (PolicyPak) th
 - **Cross-Browser Compatibility**: Support for Chrome, Firefox, Edge, and Internet Explorer
 - **Enterprise Integration**: Works with Group Policy, MDM, and Cloud management
 
-## Getting Started
+## Documentation Sections
 
-- [Browse the Manual](manual/overview) - Comprehensive documentation
-- [Watch Videos](videolearningcenter/videolearningcenter) - Video tutorials and demonstrations  
-- [Technical Notes](knowledgebase/knowledgebase) - Installation, troubleshooting, and tips
+- [Manual](manual/overview) - Comprehensive documentation and configuration guides
+- [Videos](videolearningcenter/videolearningcenter) - Video tutorials and demonstrations  
+- [Tech Notes](knowledgebase/knowledgebase) - Installation, troubleshooting, and tips
 
 ## Quick Links
 
