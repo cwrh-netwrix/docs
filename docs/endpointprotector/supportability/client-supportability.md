@@ -12,7 +12,7 @@ The latest EPP agent for each OS (and the latest EasyLock client) can **only** b
 
 Below are key points about our support policy and recommendations for rolling out agent updates.
 
-NOTE: This supportability document is only for the EPP agent, and not about the Server. For a server specific supportability statement, read our companion guide “Netwrix Endpoint Protector Server-Side Support Policy.”
+NOTE: This supportability document is only for the EPP agent and client components, and not about the Server. For a server specific supportability statement, read our companion guide “Netwrix Endpoint Protector Server-Side Support Policy.”
 
 NOTE: EPP agents are really two parts, the actual EPP agent and the EasyLock client. This support guide applies to both the EPP agent and the Easy Lock client equally.
 
@@ -66,11 +66,11 @@ We strongly recommend using a phased rollout strategy—commonly known as the �
 
 This staged process helps reduce risk, allows validation across diverse environments, and limits blast radius if unexpected behavior occurs.
 
-1. **Initial Test Group (2–5%)**  
+1. **Initial Test Group (2–5%)**
     Begin by deploying the new agent version to a small, controlled group of endpoints (e.g., IT staff or low-risk devices). Use this group to evaluate basic functionality, check for regressions, and validate compatibility in your environment.
-2. **Wider Deployment (10–50%)**  
+2. **Wider Deployment (10–50%)**
     If no significant issues are found in the test group, expand the rollout to a larger segment of your organization. This middle ring can include a broader cross-section of users and departments to ensure confidence across varied use cases and endpoint types.
-3. **Full Deployment (51–100%)**  
+3. **Full Deployment (51–100%)**
     Once the agent has been verified in real-world conditions and has met internal validation criteria, proceed with full deployment to the remaining environment.
 
 Here's a diagram which visually expresses the ring model for agent deployment.
@@ -145,7 +145,7 @@ _General Guidance_
 
 Customers are strongly encouraged to plan migrations to supported operating systems ahead of published Microsoft EOL timelines. This ensures continued compatibility, access to full product capabilities, and ongoing support.
 
-**Important:**  
+**Important:**
 Netwrix EPP is **not supported** on Windows Server 2012 R2, Windows Server 2008, Windows 7, Windows XP, or any earlier versions. The final EPP Agent build with “best effort” support for these operating systems is 5.9.4.0 (Windows version 6.2.3.1010). No future builds will be produced for them.
 
 ### macOS Clients
@@ -175,5 +175,5 @@ These requests are reviewed and prioritized by Netwrix Product Management and ma
 
 ## Final Thoughts
 
-Using a supported operating system and staying up to date with the latest version of the Netwrix Endpoint Protector agent ensures optimal performance, access to the latest features, and a smoother support experience. By leveraging a phased rollout strategy and maintaining a proactive update schedule, your organization can confidently manage EPP updates and maintain robust data protection.  
+Using a supported operating system and staying up to date with the latest version of the Netwrix Endpoint Protector agent ensures optimal performance, access to the latest features, and a smoother support experience. By leveraging a phased rollout strategy and maintaining a proactive update schedule, your organization can confidently manage EPP updates and maintain robust data protection.
 <br/>For more information or assistance with your rollout strategy, please contact the Netwrix support team.
