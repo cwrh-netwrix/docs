@@ -20,7 +20,9 @@
       "Bash(cmd /c:*)",
       "Bash(chmod:*)",
       "Bash(bash:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(awk:*)",
+      "Bash(grep:*)"
     ],
     "deny": []
   }

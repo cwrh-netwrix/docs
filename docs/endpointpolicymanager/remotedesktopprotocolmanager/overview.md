@@ -15,7 +15,7 @@ Complete documentation for using Remote Desktop Protocol Manager:
 - **Getting to Know RDP Manager** - Basic concepts and interface
 - **Configuration** - Advanced settings and item-level targeting
 
-### 🎥 [Videos](./videolearningcenter/) 
+### 🎥 [Videos](./videos/) 
 Video tutorials and demonstrations:
 - Getting Started guides
 - Configuration methods
