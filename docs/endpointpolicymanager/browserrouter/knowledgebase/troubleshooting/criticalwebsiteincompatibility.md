@@ -38,7 +38,7 @@ screenshot below.)
 reproduce the issue, you could kill JUST the affected component like Browser Router. Use these
 instructions:
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
 (KB shows killing PPPreferences, but in this case you would kill Endpoint Policy Manager Browser
 Router.)
 

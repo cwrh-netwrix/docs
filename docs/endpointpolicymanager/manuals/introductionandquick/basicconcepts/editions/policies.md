@@ -71,7 +71,7 @@ service, you can also deliver these Endpoint Policy Manager Browser Router setti
 Internet to domain-joined and non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/videolearningcenter.md) > Browser Router
+[Video Learning Center](/docs/endpointpolicymanager/browserrouter/videolearningcenter/videolearningcenter.md) > Browser Router
 
 ## Java Enterprise Rules Manager
 
@@ -110,7 +110,7 @@ as .pdf) to specific applications, like Acrobat Reader (standard apps and Window
 apps), and handling applications with protocols (such as MAILTO:).
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/videolearningcenter.md) > File Associations
+[Video Learning Center](/docs/endpointpolicymanager/fileassociationsmanager/videolearningcenter/videolearningcenter.md) > File Associations
 Manager.
 
 ## Preferences Manager
@@ -175,7 +175,7 @@ In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you c
 deploy software over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/videolearningcenter.md) > Scripts &
+video:[Video Learning Center](/docs/endpointpolicymanager/scriptstriggers/videolearningcenter/videolearningcenter.md) > Scripts &
 Triggers Manager.
 
 ## Remote Work Delivery Manager

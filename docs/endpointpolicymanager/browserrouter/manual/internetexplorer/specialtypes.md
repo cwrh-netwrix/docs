@@ -13,7 +13,7 @@ Explorer 11.
 :::note
 To get an overview of Endpoint Policy Manager Browser Router's special policies for
 Microsoft Edge, please see
-[Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/edgespecial.md).
+[Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/browserrouter/videolearningcenter/gettingstarted/edgespecial.md).
 :::
 
 

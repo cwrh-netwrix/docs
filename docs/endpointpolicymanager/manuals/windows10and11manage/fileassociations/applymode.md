@@ -11,7 +11,7 @@ then drift from your configuration and choose their own application.
 
 :::note
 For a video on applying policies only once, see
-[Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/gettingstarted/applyonce.md).
+[Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/fileassociationsmanager/videolearningcenter/gettingstarted/applyonce.md).
 :::
 
 

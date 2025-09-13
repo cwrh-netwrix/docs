@@ -44,6 +44,6 @@ in the required IE Document Mode.
 :::note
 IE Mode in Edge takes 65 seconds to take effect after Internet Explorer is running Please
 see this kb article for more
-information: [Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/ieedgemode.md)
+information: [Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/ieedgemode.md)
 
 :::

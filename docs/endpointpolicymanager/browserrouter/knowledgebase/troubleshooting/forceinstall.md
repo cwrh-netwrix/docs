@@ -42,7 +42,7 @@ ADMX setting on USER or COMPUTER side.
 
 Use this string found in this article:
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
 
 For instance, an example string might look like …
 
@@ -68,4 +68,4 @@ the optional extensions you wish for Chrome.
 Again, the example extension ID above is just an example. Please use the correct one based upon your
 CSE.
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)

@@ -111,7 +111,7 @@ When Endpoint Policy Manager Browser Router is uninstalled or becomes unlicensed
 
 Additionally, and/or when the GPO / XML no longer applies, any Endpoint Policy Manager Browser
 Router "routes" are no longer honored. See
-[Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/twologons.md)
+[Why doesn't Endpoint Policy Manager Browser Router routes take effect the first time I log on to Windows 8.1 or Windows 10?](/docs/endpointpolicymanager/browserrouter/knowledgebase/installation/twologons.md)
 
 ## Endpoint Policy Manager Admin Templates Manager
 

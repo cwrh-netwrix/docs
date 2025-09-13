@@ -31,13 +31,13 @@ What won’t work:
   Browser” will be passed onward to Edge (instead of what you might have set it to, say, Firefox,
   Chrome, etc). Use this article to understand “Endpoint Policy Manager Browser Router Default
   Policy” type
-  [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/tipsandtricks/defined.md)
+  [What is meant by "Default Browser" within Endpoint Policy Manager Browser router?](/docs/endpointpolicymanager/browserrouter/knowledgebase/tipsandtricks/defined.md)
 - Delivering File Associations specifically for PDF for Endpoint Policy Manager File Associations
   Manager
 
 You will also get the same experience if you attempt to use PolicyPak File Associations Manager to
 change HTTP or HTTPS, even if you’re not using PolicyPak Browser Router. See the
-[Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/knowledgebase/troubleshooting/defaultbrowser.md)
+[Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/endpointpolicymanager/fileassociationsmanager/knowledgebase/troubleshooting/defaultbrowser.md)
 topic for additional information.
 
 Troubleshooting:

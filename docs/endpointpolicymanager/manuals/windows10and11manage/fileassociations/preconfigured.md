@@ -14,7 +14,7 @@ usual settings).
 :::note
 For a video overview demonstrating how to use preconfigured Endpoint Policy Manager File
 Associations Manager items, see
-[Endpoint Policy Manager File Associations Manager: Use our preconfigured advice](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/gettingstarted/preconfiguredadvice.md)
+[Endpoint Policy Manager File Associations Manager: Use our preconfigured advice](/docs/endpointpolicymanager/fileassociationsmanager/videolearningcenter/gettingstarted/preconfiguredadvice.md)
 topic for additional information.
 :::
 

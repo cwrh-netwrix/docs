@@ -7,7 +7,7 @@ sidebar_position: 90
 # How do I change the default icon for user-created shortcuts for my default browser?
 
 For a good general overview of the topic, please watch this video:
-[Set the links to icons to actually show the default browser.](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/browsericon.md)
+[Set the links to icons to actually show the default browser.](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/browsericon.md)
 
 The most common concern is that the FireFox default icon appears like this:
 

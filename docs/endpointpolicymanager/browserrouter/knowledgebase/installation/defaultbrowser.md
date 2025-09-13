@@ -68,7 +68,7 @@ You have to delete this file first…as a one time action using GPPPrefs if
 
 - Use Endpoint Policy Manager File Associations Manager to set HTTP and HTTPS to Internet Explorer.
   This is supported as long as you are NOT using Endpoint Policy Manager Browser Router any
-  longer. [Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/knowledgebase/troubleshooting/defaultbrowser.md)
+  longer. [Can I use Endpoint Policy ManagerBrowser Router and/or Endpoint Policy Manager File Associations Manager to set the default browser?](/docs/endpointpolicymanager/fileassociationsmanager/knowledgebase/troubleshooting/defaultbrowser.md)
 - Use the in-box Group Policy method for File / Protocol Associations (not recommended, since you
   have Endpoint Policy Manager File Associations Manager, and this method is not dynamic NOR can you
   use it ALONGSIDEEndpoint Policy Manager File Associations Manager, so it is NOT

@@ -48,4 +48,4 @@ continue onward. For more information on this process, please see
 
 Finally, there is a specific cosmetic issue with regards to Endpoint Policy Manager Browser Router
 removal and Default Browser. For more information on this issue and how to deal with it, please see
-[When I unlicense or remove Endpoint Policy ManagerBrowser Router from scope,Endpoint Policy Manager Browser Router Agent still shows as OS "default browser". Why is that and is there a workaround?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/installation/defaultbrowser.md).
+[When I unlicense or remove Endpoint Policy ManagerBrowser Router from scope,Endpoint Policy Manager Browser Router Agent still shows as OS "default browser". Why is that and is there a workaround?](/docs/endpointpolicymanager/browserrouter/knowledgebase/installation/defaultbrowser.md).

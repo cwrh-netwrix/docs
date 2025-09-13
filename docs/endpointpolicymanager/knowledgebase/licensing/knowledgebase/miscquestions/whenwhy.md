@@ -44,10 +44,10 @@ Here are some examples:
    others:[Can I use Endpoint Privilege Manager to LOWER / remove admin rights from Administrators from an application or process, like Internet Explorer?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/tipsforadminapproval/reduceadminrights.md)
 7. You can use Endpoint Policy Manager Scripts Manager to perform specific logon scripts for
    specific servers using Triggers:
-   [Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/triggersexamples/scripttriggers.md)
+   [Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !](/docs/endpointpolicymanager/scriptstriggers/videolearningcenter/triggersexamples/scripttriggers.md)
 8. You can use Endpoint Policy Manager Scripts Manager to perform specific scripts like mapping a
    drive, or running another process when a parent process is launched:
-   [Endpoint Policy Manager Scripts + Triggers: Map a printer or drive when a process runs and un-map it when closed.](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/triggersexamples/mapdrivetriggers.md)
+   [Endpoint Policy Manager Scripts + Triggers: Map a printer or drive when a process runs and un-map it when closed.](/docs/endpointpolicymanager/scriptstriggers/videolearningcenter/triggersexamples/mapdrivetriggers.md)
 9. You can use Endpoint Policy Manager Admin Templates Manager and remove Loopback and specify
    specific user side settings for specific machines when any user (admin or otherwise) logs on to
    the machine:

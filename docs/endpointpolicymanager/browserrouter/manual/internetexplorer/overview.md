@@ -27,7 +27,7 @@ Enterprise and Document Modes, please see
 :::note
 To learn more about Internet Explorer 11 Enterprise and Document Modes, see the following
 Microsoft websites: Enterprise Mode is at:
-[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md)
+[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md)
 and Document Modes is at:
 [https://technet.microsoft.com/en-us/library/dn321432.aspx](http://www.endpointpolicymanager.com/video/endpointpolicymanager-using-pp-browser-router-on-citrix-or-rds-servers-with-published-browser-applications.html).
 :::

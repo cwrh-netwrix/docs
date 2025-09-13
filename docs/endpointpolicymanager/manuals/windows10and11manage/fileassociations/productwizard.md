@@ -13,7 +13,7 @@ Policies for Product wizard.
 
 :::note
 For more information on the Add Policies for Product wizard, see the
-[Manage all File Associations with the PPFAM Wizard](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/gettingstarted/wizard.md) topic for
+[Manage all File Associations with the PPFAM Wizard](/docs/endpointpolicymanager/fileassociationsmanager/videolearningcenter/gettingstarted/wizard.md) topic for
 additional information..
 :::
 

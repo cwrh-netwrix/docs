@@ -9,7 +9,7 @@ sidebar_position: 110
 Below is the ID list from Chrome. If you need to, you can force-install an Extension ID via ADMX or
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Application Manager Pak using this article:
 
-[Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/forceinstall.md)
+[Endpoint Policy Manager Browser Router removes other Chrome ‘force installed' extensions. How can I work around this?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/forceinstall.md)
 
 Note that Endpoint Policy Manager does not guarantee that the version you are using is definitely in
 the chrome store. We are only allowed to publish 20 items, as such, the oldest items will be removed

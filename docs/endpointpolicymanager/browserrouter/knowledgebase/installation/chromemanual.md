@@ -22,7 +22,7 @@ for Google chrome manually from a local/network path, follow the below steps.
 Follow these steps to convert the Chrome Web Store link of any Extension to an `.CRX` File.
 
 **Step 1 –** Check the information here:
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
 Note down the Extension ID. You'll need this step every time we release updates for Software.
 
 **Step 2 –** Append the PPBR Chrome Extension ID with the following URL:

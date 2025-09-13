@@ -44,7 +44,7 @@ Endpoint Policy Manager Browser Router, will open up.
 
 :::note
 there is a special Default Browser option available, called **User Selectable**
-[Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/defaultwindows10.md).
+[Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/defaultwindows10.md).
 :::
 
 

@@ -17,7 +17,7 @@ are explicitly added to the policy named "Allow specific extensions to be instal
 
 You can use this chart to see the Endpoint Policy Manager Browser Router Extension you should allow
 to install:
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
 
 In this screenshot, the Endpoint Policy Manager Extension is the third one listed.
 

@@ -20,7 +20,7 @@ already installed and to which you want to make a policy association with later.
 :::note
 For a video overview demonstrating how to use the Endpoint Policy Manager File
 Associations Manager Helper utility, watch this video:
-[Endpoint Policy Manager File Associations Manager: Helper Application](/docs/endpointpolicymanager/knowledgebase/fileassociationsmanager/videolearningcenter/tipsandtricks/helperapplication.md).
+[Endpoint Policy Manager File Associations Manager: Helper Application](/docs/endpointpolicymanager/fileassociationsmanager/videolearningcenter/tipsandtricks/helperapplication.md).
 :::
 
 

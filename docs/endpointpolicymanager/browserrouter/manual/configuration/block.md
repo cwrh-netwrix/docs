@@ -12,7 +12,7 @@ cannot visit the website.
 
 :::note
 For an overview of using Block policies, see the following video:
-[Block web sites from opening in all browsers.](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/blockwebsites.md)
+[Block web sites from opening in all browsers.](/docs/endpointpolicymanager/browserrouter/videolearningcenter/gettingstarted/blockwebsites.md)
 :::
 
 

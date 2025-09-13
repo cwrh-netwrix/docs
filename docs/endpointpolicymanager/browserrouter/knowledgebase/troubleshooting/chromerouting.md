@@ -53,7 +53,7 @@ olderEndpoint Policy Manager Browser Router Chrome Extensions?
 A: We have the list of extensions which ARE VALID (now, it is exactly ONE extension) and which WERE
 valid (100% of the older ones are now turned off) which are on this list
 
-[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
+[What is the Chrome Extension ID for all the published versions of Endpoint Policy Manager Browser Router Client Side Extension?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/chromeextensionid.md)
 
 Q: What should I now?
 
@@ -72,7 +72,7 @@ Q: I cannot update to the latest extension, but I am using builds CSE 18.7.1779.
 
 A: We have a KB article about it here: "How can I use the onlyEndpoint Policy Manager published
 Chrome Extension with my older CSE? (CSE 18.7.1779.937 - 19.12.2283.849)"
-[How can I use the only remaining Endpoint Policy Manager published Chrome Extension with my older CSE? (CSE 18.7.1779.937 - 19.12.2283.849)](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/chromeextension.md)
+[How can I use the only remaining Endpoint Policy Manager published Chrome Extension with my older CSE? (CSE 18.7.1779.937 - 19.12.2283.849)](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/chromeextension.md)
 
 Q: I'm using a CSE before 18.7.1779.937. What is the workaround?
 

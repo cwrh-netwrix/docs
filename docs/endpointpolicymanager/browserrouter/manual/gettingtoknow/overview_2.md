@@ -11,12 +11,12 @@ We have two guides online to help you troubleshoot Endpoint Policy Manager Brows
 If you're having problems getting Endpoint Policy Manager Browser Router to work, see the following
 guide:
 
-[How to quickly troubleshoot Endpoint Policy Manager Browser Router](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/quick.md).
+[How to quickly troubleshoot Endpoint Policy Manager Browser Router](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/quick.md).
 
 If you're having problems getting Endpoint Policy Manager Browser Router to route between browsers
 as expected, see the following guide:
 
-[Troubleshooting routing between browsers.](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/betweenbrowsers.md).
+[Troubleshooting routing between browsers.](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/betweenbrowsers.md).
 
 Additionally, Endpoint Policy Manager Browser Router has extensive logging, which needs to be turned
 on. You can do this using the Endpoint Policy Manager Browser Router ADMX templates and turning on

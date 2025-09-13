@@ -35,7 +35,7 @@ policies, collections, or GPOs, or when you choose to use a "on-Group Policy met
 settings.
 
 For more in formation on this, please see the section on
-[Understanding Processing Order and Precedence](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/browserrouter/processorderprecedence.md).
+[Understanding Processing Order and Precedence](../configuration/processorderprecedence.md).
 
 To complete the Quickstart examples, we recommend creating a collection on the User side. Next,,
 create a new Browser Router policy, similar to the one shown below. In this example, we are routing

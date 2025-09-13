@@ -8,7 +8,7 @@ sidebar_position: 20
 
 :::note
 To get an overview on how to convert existing IE site lists, please see:
-[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md).
+[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md).
 :::
 
 

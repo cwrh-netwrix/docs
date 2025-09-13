@@ -14,7 +14,7 @@ special browser called **User Selectable**. Below you can see how to select the 
 
 :::note
 For an overview of the User Selectable option, see
-[Endpoint Policy Manager Browser Router User-Selected Default](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/userselecteddefault.md).
+[Endpoint Policy Manager Browser Router User-Selected Default](/docs/endpointpolicymanager/browserrouter/videolearningcenter/gettingstarted/userselecteddefault.md).
 :::
 
 

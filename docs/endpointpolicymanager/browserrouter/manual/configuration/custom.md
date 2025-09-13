@@ -13,7 +13,7 @@ route to.
 
 :::note
 For an overview of using custom policies, see the following video:
-[Browser Router with Custom Browsers](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/citrixvirtualapps/custombrowsers.md).
+[Browser Router with Custom Browsers](/docs/endpointpolicymanager/browserrouter/videolearningcenter/citrixvirtualapps/custombrowsers.md).
 :::
 
 

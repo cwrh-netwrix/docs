@@ -25,12 +25,12 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Device Management Pak
 
-  - [Device Manager](/docs/endpointpolicymanager/manuals/devicemanagementpak/devicemanager/overview.md)
+  - [Device Manager](/docs/endpointpolicymanager/devicemanager/manual/overview.md)
 
 - Apps, Browsers, & Java Security Pak
 
   - [Application Settings Manager ](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/applicationsettings/overview.md)
-  - [Browser Router](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/browserrouter/overview.md)
+  - [Browser Router](/docs/endpointpolicymanager/browserrouter/overview)
   - [Java Enterprise Rules Manager](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/javaenterpriserules/overview.md)
   - [Security Settings Manager](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/securitysettings/overview.md)
 
@@ -40,7 +40,7 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Windows 10 & 11 Management Pak
 
-  - [File Associations Manager](/docs/endpointpolicymanager/manuals/windows10and11manage/fileassociations/overview.md)
+  - [File Associations Manager](/docs/endpointpolicymanager/fileassociationsmanager/manual/overview.md)
   - [Feature Manager for Windows](/docs/endpointpolicymanager/manuals/windows10and11manage/feature/overview.md)
   - [Start Screen & Taskbar Manager](/docs/endpointpolicymanager/manuals/windows10and11manage/startscreentaskbar/overview.md)
 
@@ -56,6 +56,6 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Desktop Automation & Connectivity Pak
 
-  - [Scripts & Triggers Manager](/docs/endpointpolicymanager/manuals/desktopautomationand/scriptstriggers/overview.md)
+  - [Scripts & Triggers Manager](/docs/endpointpolicymanager/scriptstriggers/manual/overview.md)
   - [Remote Desktop Protocol Manager](/docs/endpointpolicymanager/manuals/desktopautomationand/remotedesktopprotoco/overview.md)
-  - [Endpoint Policy Manager Network Security Manager](/docs/endpointpolicymanager/manuals/desktopautomationand/networksecuritymanager.md)
+  - [Endpoint Policy Manager Network Security Manager](/docs/endpointpolicymanager/scriptstriggers/knowledgebase/tipsandtricks/wlannetwork.md)

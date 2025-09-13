@@ -9,7 +9,7 @@ sidebar_position: 10
 :::note
 To get an overview of Endpoint Policy Manager Browser Router and Internet Explorer in Edge
 Mode, please see:
-[Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/ieedgemode.md).
+[Endpoint Policy Manager Browser Router: Internet Explorer in Edge mode](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/ieedgemode.md).
 :::
 
 
@@ -46,7 +46,7 @@ see that the Endpoint Policy Manager website now appears in IE mode within the E
 
 :::note
 To get an overview on how to convert existing IE site lists, please see
-[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md).
+[Internet Explorer to Endpoint Policy Manager Browser Router Site lists](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/iesitelists.md).
 :::
 
 
@@ -88,7 +88,7 @@ the Windows 10 Edge browser functions alongside Internet Explorer 11.
 :::note
 To get an overview of Endpoint Policy Manager Browser Router's special policies for
 Microsoft Edge, please see
-[Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/edgespecial.md).
+[Endpoint Policy Manager and Edge ‘Special' policies](/docs/endpointpolicymanager/browserrouter/videolearningcenter/gettingstarted/edgespecial.md).
 :::
 
 

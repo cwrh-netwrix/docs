@@ -14,7 +14,7 @@ Chrome website.
 
 :::note
 For a video on using Endpoint Policy Manager Browser Router and ports, see
-[Endpoint Policy Manager Browser Router and Ports](/docs/endpointpolicymanager/knowledgebase/browserrouter/videolearningcenter/gettingstarted/ports.md).
+[Endpoint Policy Manager Browser Router and Ports](/docs/endpointpolicymanager/browserrouter/videolearningcenter/gettingstarted/ports.md).
 :::
 
 
@@ -28,6 +28,6 @@ route similar to the one shown below.
 :::note
 Not every version of Internet Explorer 11 is ready to receive v2 site lists. For a list of
 which versions of Internet Explorer 11 use v1 vs v2, see
-[When does Endpoint Policy Manager Browser Router write v1 or v2 Enterprise Mode site lists?](/docs/endpointpolicymanager/knowledgebase/browserrouter/knowledgebase/troubleshooting/versions.md).
+[When does Endpoint Policy Manager Browser Router write v1 or v2 Enterprise Mode site lists?](/docs/endpointpolicymanager/browserrouter/knowledgebase/troubleshooting/versions.md).
 
 :::

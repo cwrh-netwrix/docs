@@ -86,7 +86,7 @@ blog [https://www.mdmandgpanswers.com/blogs/view-blog/windows-10-and-server-eve
 
 **Step 4 –** Then, Up, Up and away. Launch the agent.. which requires admin rights. (Or, pro tip:
 Use Endpoint Policy Manager Scripts to install it automatically where the script is
-elevated.[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/scriptstriggers/videolearningcenter/withcloud/cloud.md)
+elevated.[Endpoint Policy ManagerScripts .. Deploy Software via VPN or with Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/scriptstriggers/videolearningcenter/withcloud/cloud.md)
 
 **Step 5 –** You'll need to select "Connect the agent to Azure Log Analytics (OMS)" like what's seen
 here.
