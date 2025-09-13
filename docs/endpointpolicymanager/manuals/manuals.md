@@ -57,5 +57,5 @@ The following topics provide information on using Endpoint Policy Manager:
 - Desktop Automation & Connectivity Pak
 
   - [Scripts & Triggers Manager](/docs/endpointpolicymanager/scriptstriggers/manual/overview.md)
-  - [Remote Desktop Protocol Manager](/docs/endpointpolicymanager/manuals/desktopautomationand/remotedesktopprotoco/overview.md)
+  - [Remote Desktop Protocol Manager](/docs/endpointpolicymanager/remotedesktopprotocolmanager/overview)
   - [Endpoint Policy Manager Network Security Manager](/docs/endpointpolicymanager/scriptstriggers/knowledgebase/tipsandtricks/wlannetwork.md)
