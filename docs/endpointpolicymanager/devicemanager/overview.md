@@ -17,9 +17,9 @@ Device Manager is a component of Endpoint Policy Manager (PolicyPak) that provid
 
 ## Documentation Sections
 
-- [Manual](manual/overview) - Configuration guides and policy management
-- [Videos](videolearningcenter/videolearningcenter) - Video tutorials and demonstrations
-- [Tech Notes](knowledgebase/knowledgebase) - Technical guidance and troubleshooting
+- [Manual](manual/) - Configuration guides and policy management
+- [Videos](videolearningcenter/) - Video tutorials and demonstrations
+- [Tech Notes](knowledgebase/) - Technical guidance and troubleshooting
 
 ## Quick Links
 
