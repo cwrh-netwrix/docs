@@ -211,7 +211,7 @@ In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you c
 that add or remove .rdp file connections over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/endpointpolicyrdp/videolearningcenter/videolearningcenter.md).
+video:[Video Learning Center](/docs/endpointpolicymanager/remotedesktopprotocolmanager/videos/videolearningcenter.md).
 
 ## Network Security Manager
 
