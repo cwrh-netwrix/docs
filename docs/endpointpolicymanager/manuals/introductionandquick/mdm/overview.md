@@ -31,7 +31,7 @@ Manager, and all the others) without using Group Policy as the delivery mechanis
 :::note
 For an overview of using Endpoint Policy Manager Exporter with the Endpoint Policy Manager
 components, please see the following video:
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/methods/exporterutility.md).
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/gettingstarted/misc/videos/methods/exporterutility.md).
 :::
 
 

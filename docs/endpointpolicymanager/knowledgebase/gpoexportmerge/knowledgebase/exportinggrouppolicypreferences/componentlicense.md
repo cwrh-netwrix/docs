@@ -18,7 +18,7 @@ Here are the scenarios for which you should request a PPPrefs license:
 - You want to use Endpoint Policy Manager over MDM. (This is automatically included when we issue an
   MDM license)
 - You want to deliver user-side-only Microsoft's GPPreferences items to computers, that is,
-  [Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/methods/exporterutility.md)
+  [Deploying Endpoint Policy Manager directives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/gettingstarted/misc/videos/methods/exporterutility.md)
 - You want to deliver GPPrefs items using SCCM or some other non-GP method.
 
 In those cases, or if you think you have another reason why you need it, open a support ticket at

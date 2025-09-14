@@ -7,7 +7,7 @@ sidebar_position: 70
 # Customer Log
 
 For an overview of this section, see this video:
-[Endpoint Policy Manager Cloud: Immutable Log](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/security/immutablelog.md).
+[Endpoint Policy Manager Cloud: Immutable Log](/docs/endpointpolicymanager/gettingstarted/cloud/videos/security/immutablelog.md).
 
 The customer log, also known as the immutable log, is a very powerful security feature within
 Endpoint Policy Manager Cloud.
@@ -27,7 +27,7 @@ Manager Cloud instance.
 :::note
 You can also push your immutable log to your on-prem SIEM (log management) system via an
 automated email push. To set this up, watch the following video:
-[Endpoint Policy Manager Cloud Logs and Automatically Pushing via Email](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/security/emaillogs.md).
+[Endpoint Policy Manager Cloud Logs and Automatically Pushing via Email](/docs/endpointpolicymanager/gettingstarted/cloud/videos/security/emaillogs.md).
 :::
 
 

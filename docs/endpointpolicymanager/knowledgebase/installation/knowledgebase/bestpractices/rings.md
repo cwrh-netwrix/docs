@@ -143,7 +143,7 @@ the latest CSE and/or Cloud Client to opt-in more groups.
 remaining PCs all at once (again, after you've done some pre-testing.)
 
 See the
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/groups.md) topic
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/gettingstarted/cloud/videos/upkeepanddailyuse/groups.md) topic
 for additional information and a video on this process.
 
 ## Recommendations when using Endpoint Policy Manager with your Active Directory: Rings and Rollouts

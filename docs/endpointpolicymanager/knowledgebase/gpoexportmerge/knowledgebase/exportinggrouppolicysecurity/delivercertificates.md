@@ -14,7 +14,7 @@ example, by following thse steps:
 ![663_1_q10-img-1](/images/endpointpolicymanager/cloud/security/580_1_q10-img-1.webp)
 
 **Step 2 –** Export it using PP Settings Manager to an XML. See the
-[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/grouppolicysettings.md) topic
+[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/grouppolicysettings.md) topic
 for additional information.
 
 **Step 3 –** Uplaod it to Endpoint Policy Manager Cloud. This would make the specified cert Trusted

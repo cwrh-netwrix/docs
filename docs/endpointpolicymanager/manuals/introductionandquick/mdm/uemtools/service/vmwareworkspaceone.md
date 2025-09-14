@@ -8,7 +8,7 @@ sidebar_position: 20
 
 :::note
 See
-[Endpoint Policy Managerand Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/workspaceone.md)
+[Endpoint Policy Managerand Workspace One (Airwatch) MDM: Deploy Group Policy and Endpoint Policy Manager superpowers today](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/workspaceone.md)
 for a video overview of Endpoint Policy Manager and VMware Workspace ONE MDM
 :::
 

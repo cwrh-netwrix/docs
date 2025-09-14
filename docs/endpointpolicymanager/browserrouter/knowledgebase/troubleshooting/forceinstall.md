@@ -18,7 +18,7 @@ RESULT: You only see Endpoint Policy Manager Browser Router's extension and NOT 
 user-side extensions for Chrome.. Workaround: Endpoint Policy Manager Provides ADMX settings to work
 around various items in Endpoint Policy Manager On-Prem. See this video to implement the ADMX:
 
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/misc/videos/troubleshooting/admxfiles.md)
 
 :::note
 You shouldn't need to perform these steps (any of them) if you want to dictate Chrome

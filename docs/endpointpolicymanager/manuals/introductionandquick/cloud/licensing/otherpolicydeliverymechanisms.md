@@ -14,7 +14,7 @@ your purchase.
   also receive Endpoint Policy Manager directives via GPOs as well, without needing an explicit
   Endpoint Policy Manager on-premise license. A description of this scenario can be found at the
   following link:
-  [Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/usingwithothermethods/onpremise.md).
+  [Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/gettingstarted/cloud/videos/usingwithothermethods/onpremise.md).
 - For Endpoint Policy Manager Enterprise and Endpoint Policy Manager Professional Editions, when a
   computer acquires a Endpoint Policy Manager Cloud license, the computer will not process on-prem
   or MDM directives as well, unless a corresponding license for that method is acquired as part of

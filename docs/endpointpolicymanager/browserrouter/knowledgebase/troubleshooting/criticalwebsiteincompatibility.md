@@ -26,7 +26,7 @@ from all routes.
 **Step 4 –** After steps 1, 2 and 3… if you can REPRODUCE using latest CSE... then and only then..
 send us log files (user and computer) via Sharefile (do not attach.)
 
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/fastsupport.md)
 
 **Step 5 –** AFTER you install the latest CSE, you might want to attempt to disable the in-Browser
 Extensions for the affected browser, but keep Browser Router operating. Here's how to do that (see

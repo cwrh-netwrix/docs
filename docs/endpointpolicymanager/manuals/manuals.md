@@ -36,7 +36,7 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - GPO Compliance Pak
 
-  - [Group Policy Compliance Reporter](/docs/endpointpolicymanager/manuals/gpocompliancepak/grouppolicycomplianc/overview.md)
+  - [Group Policy Compliance Reporter](/docs/endpointpolicymanager/gpcompliancereporter/manual/grouppolicycomplianc/overview.md)
 
 - Windows 10 & 11 Management Pak
 

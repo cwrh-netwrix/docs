@@ -13,13 +13,13 @@ the other editors. To get yourself set up perfectly with a small on-prem test la
 the steps in the following videos:
 
 - Endpoint Policy Manager Cloud: What You Need to Get Started:
-  [Endpoint Policy Manager Cloud: What you need to get Started](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/start.md)
+  [Endpoint Policy Manager Cloud: What you need to get Started](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/start.md)
 - How to Create a DC for Editing Purposes:
-  [How to create a DC for editing purposes](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/createdc.md).
+  [How to create a DC for editing purposes](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/createdc.md).
 - Testing and Troubleshooting by Renaming an Endpoint Computer:
-  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/renameendpoint.md)
+  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/renameendpoint.md)
 - Endpoint Policy Manager Cloud: On-Prem Test Lab: Tying it all Together:
-  [Endpoint Policy Manager Cloud: On-Prem Test Lab (tying it all together)](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/testlabbestpractices/onpremise.md)
+  [Endpoint Policy Manager Cloud: On-Prem Test Lab (tying it all together)](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/onpremise.md)
 
 By the time you have completed the videos, you will have a mini, free-to-use on-prem test lab with
 the ability to create and edit all Endpoint Policy Manager directives and test out that they are

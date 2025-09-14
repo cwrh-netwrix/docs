@@ -20,7 +20,7 @@ Default keywords are **Setup**, **Installer**, **Install**, **Upgrade**, **Updat
 
 You can extend this list by enabling the Endpoint Policy Manager ADMX setting and entering required
 keywords. If you don't know how to enable Endpoint Policy Manager ADMX settings then see this link:
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/misc/videos/troubleshooting/admxfiles.md)
 
 In this example we are going to show you how to set Ninite installer as an elevated Application
 Executable.

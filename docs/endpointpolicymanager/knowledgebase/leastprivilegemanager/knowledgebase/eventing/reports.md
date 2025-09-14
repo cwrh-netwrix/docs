@@ -102,7 +102,7 @@ In the next window, we need to specify the following parameters:
 
 **Step 9 –** Depending on targeted events, in the **Event Fields** tab you may enlist the event IDs
 to capture. See the
-[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/tipstricksandfaqs/eventcategories.md) topic for
+[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/tipstricksandfaqs/eventcategories.md) topic for
 additional information on event IDs.
 
 For example, here is the list of event IDs related to Endpoint Policy Manager Least Privilege

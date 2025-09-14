@@ -39,7 +39,7 @@ Policy Manager Preferences when the machine is domain joined.
 See
 [How to Un-License any Endpoint Policy ManagerComponent via ADMX or Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/licensing/videolearningcenter/troubleshooting/unlicense.md)
 for additional information. There is also a video you can watch on
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/misc/videos/troubleshooting/admxfiles.md)
 
 More recently, Universal licenses are delivered with Endpoint Policy Manager Preferences disabled
 (for customers which have domain joined machines), and you need to specifically enable it. In this

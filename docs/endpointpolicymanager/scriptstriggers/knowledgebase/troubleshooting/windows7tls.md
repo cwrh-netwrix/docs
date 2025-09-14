@@ -11,7 +11,7 @@ PolicyPak) and may or may not work for all functions.
 
 Pre-read the following to know what is known to NOT work in Windows 7 before continuing:
 
-[How does Endpoint Policy Manager support (and not support) Windows 11?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/gettingstarted/windows11.md)
+[How does Endpoint Policy Manager support (and not support) Windows 11?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/gettingstarted/windows11.md)
 
 Then after that, if you still wish to use Endpoint Policy Manager with Windows 7 and Endpoint Policy
 Manager Cloud, you must update Windows 7 to be TLS 1.2 complaint.

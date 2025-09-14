@@ -42,7 +42,7 @@ not just a SINGLE or a FEW machines. That being said, if you would like for us t
 logs, in these cases, we need AT LEAST TWO machines to see a PATTERN in the logs. So be prepared to
 get logs from multiple machines showing the issue so we can do some deeper investigation.
 
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/fastsupport.md)
 
 :::tip
 Remember, We need AT LEAST two machines of logs to check in this case.

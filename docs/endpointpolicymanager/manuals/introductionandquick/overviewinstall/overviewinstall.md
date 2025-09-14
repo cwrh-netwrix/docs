@@ -28,7 +28,7 @@ information.
 
 If you are unfamiliar with what Endpoint Policy Manager even does, consider watching this two minute
 overview:
-[Endpoint Policy Manager Explained: In about two minutes](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/gettingstarted/explained.md).
+[Endpoint Policy Manager Explained: In about two minutes](/docs/endpointpolicymanager/gettingstarted/grouppolicy/videos/gettingstarted/explained.md).
 
 For this trial, Endpoint Policy Manager endpoints may be:
 

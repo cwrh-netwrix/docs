@@ -18,10 +18,10 @@ First, be sure you are eligible to use this function by copying the latest Endpo
 ADMX files to your Central Store or using Endpoint Policy Manager Cloud.
 
 Directions for Central Store:
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/admxfiles.md)
 
 Directions for Endpoint Policy Manager Cloud (if they are not already pre-placed there):
-[PolicyPak Cloud: Upload and use your own ADMX files to PolicyPak Cloud](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/admxfiles.md)
+[PolicyPak Cloud: Upload and use your own ADMX files to PolicyPak Cloud](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/admxfiles.md)
 
 Then, the setting you should use if directed by support is entitled:
 

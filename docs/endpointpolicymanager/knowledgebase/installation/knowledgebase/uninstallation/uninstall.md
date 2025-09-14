@@ -40,7 +40,7 @@ to expressly declare in advance what the revert behavior should be. By default, 
 Policy Manager Application Manager nor the Group Policy Preferences will automatically revert when
 you uninstall the Client Side Extension. You would be leaving the last written data behind. For more
 information, please see
-[How do I ensure that settings will revert when the policy no longer applies (by Group Policy, File, or Endpoint Policy Manager Cloud)?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/settingsrevert.md)
+[How do I ensure that settings will revert when the policy no longer applies (by Group Policy, File, or Endpoint Policy Manager Cloud)?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/settingsrevert.md)
 
 Then, beyond that, most Endpoint Policy Manager specific settings will stop working and let you
 continue onward. For more information on this process, please see

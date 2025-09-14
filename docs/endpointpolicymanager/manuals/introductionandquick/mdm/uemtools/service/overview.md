@@ -14,7 +14,7 @@ when using Endpoint Policy Manager with any MDM system.
 
 :::note
 
-[Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/realgrouppolicy.md)a
+[Deploying Real Group Policy (and Extra Endpoint Policy Manager Settings) Overview](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/realgrouppolicy.md)a
 video overview of Endpoint Policy Manager and MDM.
 :::
 
@@ -43,7 +43,7 @@ This will ensure all the correct parts are working in concert before you attempt
 service to deliver these components.
 
 :::note
-See [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/testsample.md) a
+See [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/testsample.md) a
 video of this process.
 :::
 

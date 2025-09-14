@@ -21,7 +21,7 @@ as expected, see the following guide:
 Additionally, Endpoint Policy Manager Browser Router has extensive logging, which needs to be turned
 on. You can do this using the Endpoint Policy Manager Browser Router ADMX templates and turning on
 logging. A video of the process can be found here:
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md).
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/misc/videos/troubleshooting/admxfiles.md).
 
 Log files for Endpoint Policy Manager Browser Router are found in the two following places:
 

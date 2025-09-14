@@ -7,7 +7,7 @@ sidebar_position: 30
 # Endpoint Policy Manager and MobileIron MDM
 
 :::note
-[Endpoint Policy Manager and MobileIron MDM](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/mobileiron.md) for a video
+[Endpoint Policy Manager and MobileIron MDM](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/mobileiron.md) for a video
 overview of Endpoint Policy Manager and MobileIron.
 :::
 

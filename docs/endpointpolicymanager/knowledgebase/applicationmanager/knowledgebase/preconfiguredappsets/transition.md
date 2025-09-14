@@ -96,7 +96,7 @@ you must open each Group Policy Object one by one and manually look for FF23 App
 
 Overview of using the Endpoint Policy Manager PowerShell cmdlets to discover Endpoint Policy Manager
 data within GPOs see the
-[Endpoint Policy Manager User PowerShell to find all Endpoint Policy Manager GPOs](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/powershell.md)
+[Endpoint Policy Manager User PowerShell to find all Endpoint Policy Manager GPOs](/docs/endpointpolicymanager/gettingstarted/misc/videos/troubleshooting/powershell.md)
 topic for additional information.
 
 ![939_1_image-20231101213809-1_950x372](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_1_image-20231101213809-1_950x372.webp)
@@ -130,7 +130,7 @@ regards to your settings.
 ### Back Up 2: Backing up the Group Policy Object (or all GPOs.)
 
 For backing up the GPO or all GPOs see the
-[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md)
+[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/gettingstarted/misc/videos/upgradingmaintenance/backup.md)
 topic for additional information.
 
 ### Back up 3: Export the settings for each FF23 AppSet you already have.

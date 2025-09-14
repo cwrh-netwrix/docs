@@ -21,7 +21,7 @@ request normally handled by **Run As Administrator** requests.
 Starting in Endpoint Policy Manager CSE 3425, you can modify the Run As Administrator behavior
 depending on the goal you would like to accomplish. You can use Endpoint Policy Manager ADMX
 settings to control it. Use this reference to get familiar with the Endpoint Policy Manager ADMX
-first: [Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md)
+first: [Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/misc/videos/troubleshooting/admxfiles.md)
 
 ![862_1_image-20230228200619-1_950x319](/images/endpointpolicymanager/leastprivilege/862_1_image-20230228200619-1_950x319.webp)
 

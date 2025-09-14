@@ -15,7 +15,7 @@ settings (known as REG.POL settings), and then specify a target GPO, to create a
 
 :::note
 See the
-[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gettingstartedgrouppolicy/videolearningcenter/tipsandtricks/exportgpos.md)
+[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/gettingstarted/grouppolicy/videos/tipsandtricks/exportgpos.md)
 topic for more information.
 :::
 

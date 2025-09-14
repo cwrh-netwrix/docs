@@ -28,7 +28,7 @@ select **Edit Group**.
 
 :::note
 You can select the drop-down option to select the Event IDs. See the
-[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/tipstricksandfaqs/eventcategories.md) topic
+[List of Endpoint Policy Manager Event Categories and IDs](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/tipstricksandfaqs/eventcategories.md) topic
 for a list of Endpoint Policy Manager Event IDs.
 :::
 

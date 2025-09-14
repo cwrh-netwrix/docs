@@ -16,7 +16,7 @@ for additional information on this topic.
 
 :::note
 You need to first install the Endpoint Policy Manager ADMX files as seen in
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/troubleshooting/admxfiles.md).
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/misc/videos/troubleshooting/admxfiles.md).
 :::
 
 

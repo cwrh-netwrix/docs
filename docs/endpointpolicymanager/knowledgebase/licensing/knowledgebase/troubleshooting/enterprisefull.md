@@ -151,7 +151,7 @@ we recommend updating to the latest MMC snap-in.
 
 
 - Get the GUIDs for a license you wish to expressly unlicensed here:
-  [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/guids.md)
+  [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/guids.md)
 
 ## How can I request Enterprise Full keys (which will also have an Expiry date until the end of my term?)
 

@@ -23,7 +23,7 @@ Let's recall the three pieces that constitute Endpoint Policy Manager Applicatio
 
 :::note
 Video: For an overview video of how to backup and restore, please see this
-video:[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md).
+video:[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/gettingstarted/misc/videos/upgradingmaintenance/backup.md).
 :::
 
 
@@ -60,7 +60,7 @@ When restoring, the Endpoint Policy Manager Application Settings Manager data an
 
 :::note
 For an overview of exporting and importing settings, please see this video:
-[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/knowledgebase/gettingstarted/videolearningcenter/upgradingmaintenance/backup.md)
+[Endpoint Policy Manager Application Settings Manager: Backup, Restore, Export, Import](/docs/endpointpolicymanager/gettingstarted/misc/videos/upgradingmaintenance/backup.md)
 (at the 2 minute and 50 second mark).
 :::
 

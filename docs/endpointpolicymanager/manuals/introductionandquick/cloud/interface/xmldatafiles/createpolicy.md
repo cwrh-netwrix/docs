@@ -38,7 +38,7 @@ Endpoint Policy Manager, and Windows 10. Endpoint Policy Manager keeps these up 
 
 Video: To see how to use in-cloud ADMX settings maintained by Endpoint Policy Manager, watch this
 video:
-[Endpoint Policy ManagerCloud: Use in-cloud ADMX settings maintained by Endpoint Policy Manager for Windows, Office, Chrome and more](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/admxsettings.md).
+[Endpoint Policy ManagerCloud: Use in-cloud ADMX settings maintained by Endpoint Policy Manager for Windows, Office, Chrome and more](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/admxsettings.md).
 
 However, you may also upload your own ADMX templates for your own applications. To learn how to do
 that, see the "File Box" section later in this guide.
@@ -54,12 +54,12 @@ Next, specify the state and any other available options.
 
 Additionally, to learn how to use the in-cloud Microsoft Security Settings editors, we recommend
 this video:
-[Endpoint Policy Manager Cloud and Security Settings (More examples)](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/securitysettings.md).
+[Endpoint Policy Manager Cloud and Security Settings (More examples)](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/securitysettings.md).
 
 One sub-editor type for Microsoft Security Settings is the Restricted Groups Editor. You can learn
 how to use this editor in this video:
-[Endpoint Policy Manager Cloud: Restricted Groups Editor](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/tipsandtricks/restricted_groups_editor.md).
+[Endpoint Policy Manager Cloud: Restricted Groups Editor](/docs/endpointpolicymanager/gettingstarted/cloud/videos/tipsandtricks/restricted_groups_editor.md).
 
 To learn how to use the in-cloud Microsoft Group Policy Preferences editors, we recommend this
 video:
-[Endpoint Policy Manager Cloud + GPPrefs (More examples)](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/preferences.md).
+[Endpoint Policy Manager Cloud + GPPrefs (More examples)](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/preferences.md).

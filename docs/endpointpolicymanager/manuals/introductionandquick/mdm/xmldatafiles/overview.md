@@ -18,7 +18,7 @@ which are somewhat different than the others.
 :::note
 For a video overview of how to wrap up XML data and license files into MSI files, see the
 following link:
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/exportingtips/exporterutility.md).
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/gettingstarted/mdm/videos/exportingtips/exporterutility.md).
 :::
 
 

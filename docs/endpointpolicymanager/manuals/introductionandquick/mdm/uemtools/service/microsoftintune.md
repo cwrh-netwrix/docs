@@ -7,7 +7,7 @@ sidebar_position: 10
 # Endpoint Policy Manager and Microsoft Intune MDM
 
 :::note
-See [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/knowledgebase/gettingstartedmdm/videolearningcenter/gettingstarted/microsoftintune.md) for
+See [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/microsoftintune.md) for
 an overview video of Endpoint Policy Manager and Microsoft Intune MDM.
 :::
 

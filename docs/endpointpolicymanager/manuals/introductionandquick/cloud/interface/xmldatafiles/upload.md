@@ -7,7 +7,7 @@ sidebar_position: 60
 # Upload XML Data File
 
 Video: For an overview of this section, see the following video:
-[Endpoint Policy Manager Cloud: General Tips about On-Prem to PP Cloud Export](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/onpremiseexport.md).
+[Endpoint Policy Manager Cloud: General Tips about On-Prem to PP Cloud Export](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/onpremiseexport.md).
 
 You can use the **Upload XML Data File** action to create XML data files when you have used an
 on-prem MMC editor, have exported the policy, and are ready to use the policy in Endpoint Policy
@@ -30,11 +30,11 @@ Endpoint Policy Manager Cloud.
 
 Video: We recommend you watch the following video to understand how to export all the various
 Microsoft Group Policy settings for import into Endpoint Policy Manager Cloud:
-[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/grouppolicysettings.md).
+[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/grouppolicysettings.md).
 
 Video: We recommend you watch the following video to understand how to export Endpoint Policy
 Manager settings to Endpoint Policy Manager Cloud:
-[Endpoint Policy ManagerCloud: How to deploy Endpoint Policy Manager specific settings (using in-cloud editors and exporting from on-prem)](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/gettingstarted/endpointpolicymanagersettings.md).
+[Endpoint Policy ManagerCloud: How to deploy Endpoint Policy Manager specific settings (using in-cloud editors and exporting from on-prem)](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/endpointpolicymanagersettings.md).
 
 :::tip
 Remember, after XML data files are uploaded, they do not automatically enforce any settings on

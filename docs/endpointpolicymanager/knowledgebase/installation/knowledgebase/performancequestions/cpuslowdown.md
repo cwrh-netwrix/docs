@@ -90,7 +90,7 @@ Data Operations/sec is high at the same time.
 If you still think Endpoint Policy Manager is causing high disk usage / slowdowns we need:
 
 **Step 1 –**
-[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/fastsupport.md)
+[What must I send to Endpoint Policy Manager support in order to get the FASTEST support?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/fastsupport.md)
 
 **Step 2 –** Screenshot of the perfmon as configured above running for a full minute.
 

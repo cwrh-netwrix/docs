@@ -77,7 +77,7 @@ Full licenses with the `<disabled>` block.
 
 
 First, identify which component(s) you wish to unlicense.
-[What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/troubleshooting/guids.md)
+[What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/guids.md)
 
 For instance, if you wanted to unlicense Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Browser Router and also Endpoint Policy Manager Preferences 2.0 you would create an XML block like

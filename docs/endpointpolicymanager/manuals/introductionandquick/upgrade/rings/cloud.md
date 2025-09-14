@@ -30,7 +30,7 @@ select the latest CSE and/or Endpoint Policy Manager Cloud client to opt-in more
 the remaining PCs all at once (after completing some testing).
 
 See the
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/knowledgebase/gettingstartedcloud/videolearningcenter/upkeepanddailyuse/groups.md)
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/gettingstarted/cloud/videos/upkeepanddailyuse/groups.md)
 topic for additional information on this process.
 
 :::note

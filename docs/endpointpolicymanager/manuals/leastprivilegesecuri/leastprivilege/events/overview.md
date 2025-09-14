@@ -42,7 +42,7 @@ multiple users are doing and look through the events for interesting ideas to co
   topic for additional information.
 - You can use Azure Log Analytics to store Endpoint Policy Manager Least Privilege Manager events.
   See the
-  [Windows 10 (and Server) Event Logs to Azure Log Analytics Walkthru](/docs/endpointpolicymanager/knowledgebase/gettingstarted/knowledgebase/tipstricksandfaqs/eventlogs.md)
+  [Windows 10 (and Server) Event Logs to Azure Log Analytics Walkthru](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/tipstricksandfaqs/eventlogs.md)
   topic for additional information.
 - You can use Endpoint Policy Manager Cloud to store Endpoint Policy ManagerLeast Privilege Manager
   events and make rules from stored events. See the
