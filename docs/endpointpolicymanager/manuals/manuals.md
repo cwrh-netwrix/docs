@@ -52,7 +52,7 @@ The following topics provide information on using Endpoint Policy Manager:
 - App Delivery & Patching Pak
 
   - [Remote Work Delivery Manager](/docs/endpointpolicymanager/components/remoteworkdeliverymanager/manual/overview.md)
-  - [Software Package Manager](/docs/endpointpolicymanager/manuals/appdeliveryandpatchi/softwarepackage/overview.md)
+  - [Software Package Manager](/docs/endpointpolicymanager/components/softwarepackage/manual/overview.md)
 
 - Desktop Automation & Connectivity Pak
 

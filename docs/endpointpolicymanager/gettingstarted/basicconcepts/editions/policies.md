@@ -219,7 +219,7 @@ You can use Network Security Manager to specify which processes and applications
 what IP, web addresses and over what protocols.
 
 **Note**: For more information on this topic, please see this
-video: [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/videolearningcenter.md) > Network Security
+video: [Video Learning Center](/docs/endpointpolicymanager/components/networksecuritymanager/videos/videolearningcenter.md) > Network Security
 Manager
 
 ## Software Package Manager
@@ -232,5 +232,5 @@ which add or remove Microsoft Store application connections over the Internet, e
 non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/softwarepackage/videolearningcenter/videolearningcenter.md) > Software Package
+[Video Learning Center](/docs/endpointpolicymanager/components/softwarepackage/videos/videolearningcenter.md) > Software Package
 Manager.
