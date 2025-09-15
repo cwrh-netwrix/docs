@@ -260,7 +260,7 @@ mechanism is automatic because the client has consumed the Cloud license. In thi
 free on-premise (Group Policy Edition) license automatically when a client has consumed a license
 with Endpoint Policy Manager Cloud (and continues to check in within the check-in period). For
 information on how to do this, see this video:
-[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/methods/nondomainjoined.md).
+[Endpoint Policy ManagerStart Screen & Taskbar Manager: Manage non-domain joined machines using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/components/startscreenandtaskbar/videos/methods/nondomainjoined.md).
 
 ### Endpoint Policy Manager Professional and Endpoint Policy Manager Enterprise Edition customers:
 

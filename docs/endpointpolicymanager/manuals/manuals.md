@@ -41,8 +41,8 @@ The following topics provide information on using Endpoint Policy Manager:
 - Windows 10 & 11 Management Pak
 
   - [File Associations Manager](/docs/endpointpolicymanager/components/fileassociationsmanager/manual/overview.md)
-  - [Feature Manager for Windows](/docs/endpointpolicymanager/manuals/windows10and11manage/feature/overview.md)
-  - [Start Screen & Taskbar Manager](/docs/endpointpolicymanager/manuals/windows10and11manage/startscreentaskbar/overview.md)
+  - [Feature Manager for Windows](/docs/endpointpolicymanager/components/featuremanager/manual/overview.md)
+  - [Start Screen & Taskbar Manager](/docs/endpointpolicymanager/components/startscreenandtaskbar/manual/overview.md)
 
 - GPO Reduction and Transitions Pak
 

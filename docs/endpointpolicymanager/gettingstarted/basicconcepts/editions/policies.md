@@ -158,12 +158,12 @@ Additionally, you can use this component to pin items to the Windows 10 taskbar.
 :::note
 You may wish to watch our Quickstart videos of Endpoint Policy Manager Start Screen &
 Taskbar Manager: Start Screen & Task Bar Manager >
-[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/videolearningcenter.md).
+[Video Learning Center](/docs/endpointpolicymanager/components/startscreenandtaskbar/videos/videolearningcenter.md).
 :::
 
 
 **Note**: For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/startscreenandtaskbar/videolearningcenter/videolearningcenter.md) > Start Screen & Task
+[Video Learning Center](/docs/endpointpolicymanager/components/startscreenandtaskbar/videos/videolearningcenter.md) > Start Screen & Task
 Bar Manager
 
 ## Scripts & Triggers Manager
@@ -199,7 +199,7 @@ Cloud or your own MDM service, Endpoint Policy Manager Feature Manager for Windo
 the Windows features and options on machines over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video: [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/featuremanager/videolearningcenter/videolearningcenter.md) > Feature Manager for
+video: [Video Learning Center](/docs/endpointpolicymanager/components/featuremanager/videos/videolearningcenter.md) > Feature Manager for
 Windows .
 
 ## Remote Desktop Protocol Manager

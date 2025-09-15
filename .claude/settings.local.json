@@ -48,7 +48,8 @@
       "Bash(do echo \"Processing: $file\")",
       "Bash(echo \"Updated: $file\")",
       "Bash(done)",
-      "Bash(for:*)"
+      "Bash(for:*)",
+      "Bash(do echo \"=== $dir ===\")"
     ],
     "deny": []
   }
