@@ -160,7 +160,7 @@ The file you are looking for is PP-Firefox23.DLL which is likely in one of three
 - SYSVOL (replicated to other domain controllers)\
   `C:\Windows\SYSVOL\sysvol\fabrikam.com\Policies\PolicyPak `
 - A share. (Tip: To locate the share you could be using see the
-  [Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md))
+  [Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/shares.md)[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/shares.md))
 
 So, in summary, before leaving this section and continuing onward, again we advise that you:
 
@@ -209,7 +209,7 @@ to ON.
 
 This is different than "Predefined Targeting". To understand the difference between ILT and
 Predefined Targeting see the
-[Predefined ILTs (Internal Filters)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/itemleveltargeting.md)
+[Predefined ILTs (Internal Filters)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/designstudio/itemleveltargeting.md)
 topic for additional information.
 
 ### Optional: Testing the ILT Filters on FF23 using the Endpoint Policy Manager Item Level Targeting Validation Tool
@@ -218,7 +218,7 @@ Tip: You can also export the FF 23 settings to XMLdata File format and use part 
 verify the Item Level Targeting will evaluate to TRUE or FALSE. To do this, right-click the entry
 and select Export settings to XMLData file and save the file. Then use the Endpoint Policy Manager
 Item Level Targeting Validation tool to test how ILT will operate. See the
-[Troubleshooting ILT with the ILT Validator Tool](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/itemleveltargeting.md)
+[Troubleshooting ILT with the ILT Validator Tool](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/itemleveltargeting.md)
 topic for additional information.
 
 :::note
@@ -242,11 +242,11 @@ this. You only need the .DLL file and not the XML file.
 
 Use these instructions to add the AppSet Locally or via Central Store:
 
-[Working with Others and using the Central Store](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/centralstorework.md)
+[Working with Others and using the Central Store](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/centralstorework.md)
 
 Use these instructions to add the AppSet to a Share:
 
-[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
+[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/shares.md)
 
 ![939_11_image-20231101213809-11_950x492](/images/endpointpolicymanager/applicationsettings/preconfigured/firefox/939_11_image-20231101213809-11_950x492.webp)
 
@@ -302,7 +302,7 @@ You can also export the FF 115 settings to XMLdata File format and use part of t
 the Item Level Targeting will evaluate to TRUE or FALSE. To do this, right-click the entry and
 select Export settings to XMLData file and save the file. Then use the Endpoint Policy Manager Item
 Level Targeting Validation tool to test how ILT will operate. See the
-[Troubleshooting ILT with the ILT Validator Tool](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/itemleveltargeting.md)
+[Troubleshooting ILT with the ILT Validator Tool](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/itemleveltargeting.md)
 topic for additional information.
 
 Note that you will have to trim the ILT part of the output to eliminate the `<ILTFilters>` at the

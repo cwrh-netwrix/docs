@@ -8,4 +8,4 @@ sidebar_position: 160
 
 Yes. Here is a videos to demonstrate that.
 
-[Manage Firefox Add-ons using Group Policy](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/firefox/addons.md)
+[Manage Firefox Add-ons using Group Policy](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/firefox/addons.md)

@@ -142,7 +142,7 @@ Figure 84. Upgrading an existing Pak item with a newer DLL.
 :::note
 If you would like to see a video overview of how to manually migrate to newer DLLs and
 update GPOs, please watch this tutorial video:
-[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).
+[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/dllorphans.md).
 :::
 
 

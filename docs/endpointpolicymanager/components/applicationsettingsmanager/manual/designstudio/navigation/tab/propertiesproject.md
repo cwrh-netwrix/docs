@@ -18,7 +18,7 @@ The Project Properties tab shows overall project properties such as the followin
 Figure 53. The Project Properties tab.
 
 Video: To understand predefined Item-Level Targeting (ILT) conditions, please see this video:
-[Predefined ILTs (Internal Filters)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/itemleveltargeting.md).
+[Predefined ILTs (Internal Filters)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/designstudio/itemleveltargeting.md).
 
 For instance, you might want to ensure that your special DogFoodMaker Pro 12 app only works on
 portable Windows 10 machine with IE version 11 present.

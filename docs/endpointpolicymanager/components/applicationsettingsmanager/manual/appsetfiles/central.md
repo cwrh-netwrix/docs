@@ -23,7 +23,7 @@ Storage—automatically.
 If you are familiar with Group Policy's ADMX Central Storage, this feature is identical
 and accomplishes a similar task. For information on Microsoft's implementation of central storage,
 please read
-[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).
+[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/dllorphans.md).
 :::
 
 

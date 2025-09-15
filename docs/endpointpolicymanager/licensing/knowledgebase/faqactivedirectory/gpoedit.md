@@ -24,5 +24,5 @@ controllers.
 :::
 
 
-See[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
+See [Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/shares.md)
 for additional information on using shares with Endpoint Policy Manager Admin Templates Manager.

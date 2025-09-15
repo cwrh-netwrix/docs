@@ -23,9 +23,9 @@ users actually log on to or use
 
 - Locally to YOUR management station machine,
 - To the Endpoint Policy Manager Central Store
-  [Working with Others and using the Central Store](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/centralstorework.md)
+  [Working with Others and using the Central Store](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/centralstorework.md)
 - A share
-  [Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md).
+  [Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/shares.md).
 
 :::note
 Point 3 is needed for Endpoint Policy Manager Application Settings Manager (PPASM) only.

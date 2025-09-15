@@ -8,7 +8,7 @@ sidebar_position: 50
 
 :::note
 For a demonstration of the ACL Lockdown™ Mode feature, please see this video:
-[ACL Lockdown for Registry Based Applications](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/acllockdown.md).
+[ACL Lockdown for Registry Based Applications](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/acllockdown.md).
 :::
 
 

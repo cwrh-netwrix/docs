@@ -18,7 +18,7 @@ You don not need approval of domain or enterprise admins; you can get started ri
 
 :::note
 See
-[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
+[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/shares.md)
 how PP Application Manager Paks can be stored in a share.
 
 :::

@@ -67,7 +67,7 @@ network connectivity is not needed to run this command.
 
 :::note
 For a demonstration of this feature, please see this video:
-[The Superpowers](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/superpowers.md).
+[The Superpowers](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/superpowers.md).
 :::
 
 

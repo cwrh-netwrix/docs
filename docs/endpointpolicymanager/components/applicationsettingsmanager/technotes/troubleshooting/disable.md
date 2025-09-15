@@ -21,7 +21,7 @@ UI hiding operation.
 You can learn more about AppLock at:
 
 - [AppLock™ Modes](/docs/endpointpolicymanager/components/applicationsettingsmanager/manual/modes/applock.md)
-- [The Superpowers](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/superpowers.md)
+- [The Superpowers](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/superpowers.md)
 
 It is generally advised to turn off AppLock if you are not using this feature as it can interfere
 with security software you might have on your endpoints.

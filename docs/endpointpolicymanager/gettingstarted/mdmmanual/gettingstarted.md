@@ -9,16 +9,16 @@ sidebar_position: 10
 You might want to use Endpoint Policy Manager along with the following UEM tools:
 
 - MEMCM (formerly known as SCCM) (video:
-  [Perform Desktop Lockdown using Microsoft SCCM and Endpoint Policy Manager ](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/methods/sccmsoftwarecenter.md))
+  [Perform Desktop Lockdown using Microsoft SCCM and Endpoint Policy Manager ](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/methods/sccmsoftwarecenter.md))
 - Microsoft Intune (video:
   [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/microsoftintune.md))
 - Symantec Altiris
 - Dell KACE
 - LabTech
 - PDQ Deploy (videos:
-  [Deploy and Manage Firefox with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/methods/pdqdeployfirefox.md)
+  [Deploy and Manage Firefox with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/methods/pdqdeployfirefox.md)
   and
-  [Deploy and Manage WinZip with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/methods/pdqdeploy.md))
+  [Deploy and Manage WinZip with PDQ Deploy and Endpoint Policy Manager ](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/methods/pdqdeploy.md))
 - Specops Deploy
 - Microsoft Group Policy Software Installation
 - Manual installation (when running with admin privileges)

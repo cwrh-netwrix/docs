@@ -15,4 +15,4 @@ Here's the rule of thumb:
 Here's a video on how to do that (using Netwrix Endpoint Policy Manager (formerly PolicyPak)
 Application Manager)
 
-[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/shares.md)
+[Using Shares to Store Your Paks (Share-Based Storage)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/shares.md)

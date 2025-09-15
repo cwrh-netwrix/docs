@@ -12,4 +12,4 @@ domain controllers within your network called "PolicPak". Then copy the Endpoint
 files that currently reside in your local storage and paste them into that folder.
 
 Here is the how-to video:
-[Working with Others and using the Central Store](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/centralstorework.md)
+[Working with Others and using the Central Store](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/centralstorework.md)

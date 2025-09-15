@@ -59,14 +59,8 @@ const config = {
   scripts: [
     // Add gtag fallback to prevent errors
     {
-      innerHTML: `
-        // Initialize gtag fallback if not already present
-        window.dataLayer = window.dataLayer || [];
-        if (typeof window.gtag === 'undefined') {
-          function gtag(){window.dataLayer.push(arguments);}
-          window.gtag = gtag;
-        }
-      `,
+      src: 'data:text/javascript;base64,Ly8gSW5pdGlhbGl6ZSBndGFnIGZhbGxiYWNrIGlmIG5vdCBhbHJlYWR5IHByZXNlbnQKd2luZG93LmRhdGFMYXllciA9IHdpbmRvdy5kYXRhTGF5ZXIgfHwgW107CmlmICh0eXBlb2Ygd2luZG93Lmd0YWcgPT09ICd1bmRlZmluZWQnKSB7CiAgZnVuY3Rpb24gZ3RhZygpe3dpbmRvdy5kYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpO30KICB3aW5kb3cuZ3RhZyA9IGd0YWc7Cn0=',
+      async: true,
     },
     {
       src: 'https://widget.kapa.ai/kapa-widget.bundle.js',

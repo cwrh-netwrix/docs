@@ -16,11 +16,11 @@ Tip: To see a video of FireFox UI lockout in action, see the following video:
 
 Tip: To see a video of Thunderbird UI lockout in action, see the following video:
 
-[Endpoint Policy Manager for Thunderbird](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/otherapplications/thunderbird.md)
+[Endpoint Policy Manager for Thunderbird](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/otherapplications/thunderbird.md)
 
 Tip: To see a video of Java UI lockout in action, see the following video:
 
-[Endpoint Policy Manager for Thunderbird](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/otherapplications/thunderbird.md)
+[Endpoint Policy Manager for Thunderbird](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/otherapplications/thunderbird.md)
 
 Specifically, to perform UI lockout of FireFox, Thunderbird and Java, the GPO must be linked such
 that the computer is affected. Said another way, you cannot perform UI lockdown on FireFox,

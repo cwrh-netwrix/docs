@@ -30,4 +30,4 @@ You might want to do this for several reasons:
 
 For a video expressing how to bypass Internal ILT, see:
 
-[Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/itemleveltargetingbypass.md)
+[Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/itemleveltargetingbypass.md)

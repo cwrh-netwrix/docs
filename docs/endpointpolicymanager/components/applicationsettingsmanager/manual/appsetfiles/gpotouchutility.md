@@ -30,6 +30,6 @@ Central Storage, Share-Based Storage, Local Store, or All GPOs with the latest A
 
 :::note
 To see an overview of the Endpoint Policy Manager GPOTouch utility, please watch this
-tutorial video: [GPOTouch Utility](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/touchutility.md).
+tutorial video: [GPOTouch Utility](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/touchutility.md).
 
 :::

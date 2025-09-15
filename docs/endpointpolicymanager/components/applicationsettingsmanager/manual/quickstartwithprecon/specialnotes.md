@@ -13,7 +13,7 @@ However, UI lockout is implemented differently and, as such, comes with a caveat
 
 :::note
 To see a video of Firefox UI lockout in action, watch the following video(s):
-[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/centralstoresharing/dllorphans.md).
+[Understanding and fixing Endpoint Policy Manager DLL Orphans](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/centralstoresharing/dllorphans.md).
 :::
 
 

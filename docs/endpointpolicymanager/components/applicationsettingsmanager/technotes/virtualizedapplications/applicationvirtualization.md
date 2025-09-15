@@ -11,4 +11,4 @@ Virtualization, Spoon.Net, and Symantec Workspace Virtualization are all support
 Endpoint Policy Manager (formerly PolicyPak).
 
 To see videos on these solutions watch go to Application Manager >
-[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/videolearningcenter.md).
+[Video Learning Center](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/videolearningcenter.md).

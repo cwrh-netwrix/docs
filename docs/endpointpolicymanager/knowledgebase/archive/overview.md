@@ -26,7 +26,7 @@ of archived Knowledge Base articles and video topics.
 - [Endpoint Policy Manager and VMware Horizon Mirage](/docs/endpointpolicymanager/knowledgebase/archive/vmwarehorizonmirage.md)
 - [Lockdown Microsoft Office Suite 2013](/docs/endpointpolicymanager/knowledgebase/archive/office2013.md)
 - [Endpoint Policy ManagerPreferences with Endpoint Policy Manager Exporter](/docs/endpointpolicymanager/knowledgebase/archive/preferencesexporter.md)
-- [Endpoint Policy Manager Using Endpoint Policy Manager DesignStudio to modify the Java Paks for XP](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/designstudiojava.md)
+- [Endpoint Policy Manager Using Endpoint Policy Manager DesignStudio to modify the Java Paks for XP](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/designstudio/designstudiojava.md)
 - [Internet Explorer 10 and Internet Explorer Maintenance – the whole story](/docs/endpointpolicymanager/knowledgebase/archive/ie10.md)
 - [Nuke mode, and why users can avoid your GPprefs settings](/docs/endpointpolicymanager/knowledgebase/archive/modenuke.md)
 - [Endpoint Policy Manager: Manage Acrobat X Pro Using Group Policy](/docs/endpointpolicymanager/knowledgebase/archive/acrobatxpro.md)

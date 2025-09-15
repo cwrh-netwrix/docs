@@ -8,7 +8,7 @@ sidebar_position: 120
 
 :::note
 For an overview of this section, see this video:
-[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/importregistry.md).
+[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/designstudio/importregistry.md).
 :::
 
 
@@ -33,4 +33,4 @@ matches which .reg file (see Figure 163).
 Figure 163. The .reg importer utility interface.
 
 For a full end-to-end example on this mini-utility, please watch the video here:
-[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/importregistry.md).
+[Use the DesignStudio to import existing registry keys](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/designstudio/importregistry.md).

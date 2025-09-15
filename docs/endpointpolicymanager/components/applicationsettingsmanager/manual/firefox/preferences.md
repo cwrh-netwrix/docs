@@ -11,7 +11,7 @@ sometimes with only one click.
 
 Video: To see a video of Endpoint Policy Manager disabling various Firefox user interface (UI) pages
 see
-[Disable the following about:config, about:addons, pages, Developer Menu, and any Preferences in one click](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/firefox/disable.md).
+[Disable the following about:config, about:addons, pages, Developer Menu, and any Preferences in one click](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/firefox/disable.md).
 
 For instance, you can select "Hide about:config UI" in the About:Config tab, as shown in Figure 32.
 
@@ -55,7 +55,7 @@ box on the right can remove nearly every element in Firefox, but you need to kno
 element ID.
 
 Video: To see a video of Endpoint Policy Manager removing elements in about:prefrences, go to
-[Firefox Remove Specific Elements from about:preferences panel](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/firefox/removeelements.md).
+[Firefox Remove Specific Elements from about:preferences panel](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/firefox/removeelements.md).
 
 For instance, let's imagine you wanted to hide the element "Play DRM-controlled content" in the
 Content section, as shown in Figure 37. In this example, we did a search for DRM rather than

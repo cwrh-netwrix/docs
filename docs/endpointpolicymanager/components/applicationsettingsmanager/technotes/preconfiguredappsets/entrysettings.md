@@ -17,4 +17,4 @@ specific.
 
 See this video to bypass the ILT:
 
-[Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/itemleveltargetingbypass.md)
+[Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/itemleveltargetingbypass.md)

@@ -31,7 +31,7 @@ Policy Manager Application Settings Manager directives over the Internet, even t
 machines.
 
 **Note**: For more information on this topic, please see this video:
-[What is Endpoint Policy Application Manager (Cloud Edition)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/whatdoesitdo/cloud.md).
+[What is Endpoint Policy Application Manager (Cloud Edition)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/whatdoesitdo/cloud.md).
 
 ## Least Privilege Manager
 
@@ -84,7 +84,7 @@ Enterprise Rules Manager can deploy most Microsoft Security settings to computer
 even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/components/javaenterpriserules/videos/videolearningcenter.md) > Java
+video: [Video Learning Center](/docs/endpointpolicymanager/components/javaenterpriserules/videos/videolearningcenter.md) > Java
 Enterprise Rules Manager .
 
 ## Admin Templates Manager
@@ -101,7 +101,7 @@ Template (or third-party ADMX setting) to computers over the Internet, even to n
 machines.
 
 **Note**: For more information on this topic, please see this
-video:[Administrative Templates Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/adminstrativetemplat/overview.md).
+video: [Administrative Templates Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/adminstrativetemplat/overview.md).
 
 ## File Associations Manager
 
@@ -115,7 +115,7 @@ Manager.
 
 ## Preferences Manager
 
-Endpoint Policy Manager Preferences Manager keepsw Group Policy Preferences working and compliant,
+Endpoint Policy Manager Preferences Manager keeps Group Policy Preferences working and compliant,
 even when the computer goes offline.
 
 It enables you to deploy Group Policy Preference items without using Group Policy. For instance, by
@@ -132,7 +132,7 @@ why the license is not automatically provided, please see the following link:
 
 
 **Note**: For more information on this topic, please see this
-video:[Preferences Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/preferences/overview.md)
+video: [Preferences Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/preferences/overview.md)
 
 ## Security Settings Manager
 
@@ -175,7 +175,7 @@ In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you c
 deploy software over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/components/scriptstriggers/videolearningcenter/videolearningcenter.md) > Scripts &
+video: [Video Learning Center](/docs/endpointpolicymanager/components/scriptstriggers/videolearningcenter/videolearningcenter.md) > Scripts &
 Triggers Manager.
 
 ## Remote Work Delivery Manager
@@ -199,7 +199,7 @@ Cloud or your own MDM service, Endpoint Policy Manager Feature Manager for Windo
 the Windows features and options on machines over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/featuremanager/videolearningcenter/videolearningcenter.md) > Feature Manager for
+video: [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/featuremanager/videolearningcenter/videolearningcenter.md) > Feature Manager for
 Windows .
 
 ## Remote Desktop Protocol Manager
@@ -211,7 +211,7 @@ In conjunction with Endpoint Policy Manager Cloud or your own MDM service, you c
 that add or remove .rdp file connections over the Internet, even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/components/remotedesktopprotocolmanager/videos/videolearningcenter.md).
+video: [Video Learning Center](/docs/endpointpolicymanager/components/remotedesktopprotocolmanager/videos/videolearningcenter.md).
 
 ## Network Security Manager
 
@@ -219,7 +219,7 @@ You can use Network Security Manager to specify which processes and applications
 what IP, web addresses and over what protocols.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/videolearningcenter.md) > Network Security
+video: [Video Learning Center](/docs/endpointpolicymanager/knowledgebase/networksecuritymanager/videolearningcenter/videolearningcenter.md) > Network Security
 Manager
 
 ## Software Package Manager

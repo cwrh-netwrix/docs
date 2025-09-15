@@ -3,7 +3,7 @@
 Endpoint Policy Manager also can install URL and file-based Firefox add-ons within Firefox.
 
 Video: To see a video of Endpoint Policy Manager forcing installation of Firefox's Add-Ons, go to
-[Force Install Firefox Extensions (from URL or file).](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/firefox/extensions.md).
+[Force Install Firefox Extensions (from URL or file).](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/firefox/extensions.md).
 
 Go to the Add-Ons tab within the Firefox AppSet, as shown in Figure 28.
 

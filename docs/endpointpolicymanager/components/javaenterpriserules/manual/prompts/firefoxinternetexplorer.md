@@ -17,7 +17,7 @@ Application Settings Manager Java AppSets. Starting with Java 7 U 25 they all ha
 
 :::note
 See
-[Manage and Lock down Java Site List Exceptions](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/java/lockdown.md)
+[Manage and Lock down Java Site List Exceptions](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/java/lockdown.md)
 for additional information.
 :::
 

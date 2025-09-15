@@ -28,9 +28,9 @@ Here are some examples:
    [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmethods/reducegpos.md)
 2. You can use Endpoint Policy Manager Admin Templates Manager to specify and lockdown settings for
    browsers and other applications when an admin logs on. Quick examples:
-   [What is Endpoint Policy Application Manager (Group Policy Edition)](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/whatdoesitdo/grouppolicy.md)
+   [What is Endpoint Policy Application Manager (Group Policy Edition)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/whatdoesitdo/grouppolicy.md)
    and
-   [Manage Internet Explorer Settings With Endpoint Policy Manager Application Settings Manager](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/internetexplorer/settings.md)
+   [Manage Internet Explorer Settings With Endpoint Policy Manager Application Settings Manager](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/internetexplorer/settings.md)
 3. You can use Endpoint Policy Manager Least Privilege Manager to block items that admins shouldn't
    run. Example of blocking
    applications: [Endpoint Policy Manager Application Control with PP Least Privilege Manager](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/applicationcontrol.md)

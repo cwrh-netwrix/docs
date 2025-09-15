@@ -5,6 +5,6 @@ sidebar_position: 175
 hide_title: true
 ---
 
-import DesignStudioJava from '/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/designstudio/designstudiojava.md';
+import DesignStudioJava from '/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/designstudio/designstudiojava.md';
 
 <DesignStudioJava />

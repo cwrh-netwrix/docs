@@ -20,4 +20,4 @@ applicable to many scenarios while building AppSets.
 
 Video: You may also wish to watch our DesignStudio videos, which cover some higher level details of
 Endpoint Policy Manager: Application Manager >
-[DesignStudio How-To](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/videolearningcenter.md).
+[DesignStudio How-To](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/videolearningcenter.md).

@@ -13,7 +13,7 @@ When people ask us how often Endpoint Policy Manager is updated, they usually wa
 and/or the CSE are updated.
 
 The Paks are updated as needed. See
-[AppSets: What is the official support policy for the pre-configured AppSets?](/docs/endpointpolicymanager/knowledgebase/applicationmanager/knowledgebase/preconfiguredappsets/supportpolicy.md)
+[AppSets: What is the official support policy for the pre-configured AppSets?](/docs/endpointpolicymanager/components/applicationsettingsmanager/technotes/preconfiguredappsets/supportpolicy.md)
 
 The CSE is updated for emergency bug fixes right away. The CSE is updated for low-priority bug fixes
 about 3 to 4 times a year. We typically launch new features at the same time.

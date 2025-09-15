@@ -61,7 +61,7 @@ Remember: Most pre-configured Paks ship with Pre-Defined Item Level Targeting.
 - This means the Pak is designed to only affect a specific version of the application.
 - You can bypass Internal Item Level Targeting in the Pak.
 - Refer to the following video
-  [Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/itemleveltargetingbypass.md)
+  [Bypassing Internal Item Level Targeting Filters](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/featurestechsupport/itemleveltargetingbypass.md)
   to see how to bypass Internal Item Level Targeting.
 
 **Step 8 –** Did you use BLOCK INHERITENCE to block the Licensing GPO or block the GPO which is
