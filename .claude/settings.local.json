@@ -31,7 +31,14 @@
       "Bash(npm run clear:*)",
       "Bash(cat:*)",
       "Bash($ENV:DOCS_PRODUCT=\"endpointprotector\")",
-      "Bash(DOCS_PRODUCT=\"endpointprotector\" npm run build)"
+      "Bash(DOCS_PRODUCT=\"endpointprotector\" npm run build)",
+      "Bash(Get-Process node -ErrorAction SilentlyContinue)",
+      "Bash(Stop-Process -Force)",
+      "Bash(dir \"C:\\GITLOCAL\\docs\\docs\\endpointpolicymanager\\components\")",
+      "Bash(xcopy:*)",
+      "Bash(robocopy:*)",
+      "Bash(dir \"C:\\GITLOCAL\\docs\\docs\\endpointpolicymanager\\components\\javaenterpriserules\")",
+      "Bash(dir \"C:\\GITLOCAL\\docs\\docs\\endpointpolicymanager\\components\\javaenterpriserules\\manual\")"
     ],
     "deny": []
   }

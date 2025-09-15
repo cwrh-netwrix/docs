@@ -8,7 +8,7 @@ sidebar_position: 20
 
 :::note
 Watch this video for an overview of Java Rules Manager: See
-[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/knowledgebase/javaenterpriserules/videolearningcenter/methods/cloud.md)
+[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/components/javaenterpriserules/videos/methods/cloud.md)
 Netwrix Endpoint Policy Manager (formerly PolicyPak).
 :::
 
@@ -83,7 +83,7 @@ Here is what each column in the above figure means:
 - Enabled (True/False) — A policy entry can be enabled, which means it will go to work. If you need
   to temporarily stop a policy entry from applying, you can disable it (set it to False).
 - Item-Level Targeting (No/Yes) — We will describe this column later on in the section
-  [Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/javaenterpriserules/usage/itemleveltargeting.md).
+  [Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/components/javaenterpriserules/manual/usage/itemleveltargeting.md).
 - Comment — Any entry can have a comment option, which is used to explain why you made the decision.
 
 **Step 7 –** On the endpoint, reboot the computer or run GPupdate so the GPO with the policies that
@@ -122,4 +122,4 @@ another message will pop-up.
 This ends the Endpoint Policy Manager Java Rules Manager Quickstart, which demonstrated the power of
 Endpoint Policy Manager Java Enterprise Rules Manager in the fastest amount of time. Note that
 prompts for various Java-related items might be received during your Quickstart. To overcome this,
-please see section on [Overcoming Java Prompts](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/javaenterpriserules/prompts/overview.md).
+please see section on [Overcoming Java Prompts](/docs/endpointpolicymanager/components/javaenterpriserules/manual/prompts/overview.md).

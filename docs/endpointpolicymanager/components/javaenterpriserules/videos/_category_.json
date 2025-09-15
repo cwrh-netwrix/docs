@@ -1,10 +1,10 @@
 {
-  "label": "Remote Work Delivery Manager",
-  "position": 6,
+  "label": "Videos",
+  "position": 2,
   "collapsed": false,
   "collapsible": true,
   "link": {
     "type": "doc",
-    "id": "overview"
+    "id": "videolearningcenter"
   }
 }

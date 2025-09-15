@@ -36,7 +36,7 @@ alongside Oracle's sanctioned method for the mapping of Java versions to Java ap
 
 :::note
 See this video
-[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/knowledgebase/javaenterpriserules/videolearningcenter/methods/cloud.md) for
+[Use Endpoint Policy Manager Cloud to choose which version of Java for what website](/docs/endpointpolicymanager/components/javaenterpriserules/videos/methods/cloud.md) for
 an overview of Endpoint Policy Manager Java Rules Manager.
 :::
 
@@ -55,7 +55,7 @@ PolicyPak Java Rules Manager enables you to perform the following functions:
 - Deliver policies to the Computer side (without Group Policy Loopback mode).
 - Create exact criteria for when specific Java versions should open in a browser.
 - Export policies or collections as XML files for use with PolicyPak Exporter and PolicyPak Cloud.
-  See [Exporting Collections](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/javaenterpriserules/usage/exportcollections.md) for additional information.
+  See [Exporting Collections](/docs/endpointpolicymanager/components/javaenterpriserules/manual/usage/exportcollections.md) for additional information.
 - Set custom messages when blocking a Java applet.
 
 To use the Quickstart for PolicyPak Java Rules Manager, we recommend you have one endpoint (Windows
