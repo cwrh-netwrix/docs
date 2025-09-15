@@ -1,7 +1,7 @@
 {
   "label": "Tech Notes",
   "position": 3,
-  "collapsed": false,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

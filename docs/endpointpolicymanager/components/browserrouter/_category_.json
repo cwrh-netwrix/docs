@@ -1,7 +1,7 @@
 {
   "label": "Browser Router",
   "position": 2,
-  "collapsed": false,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

@@ -1,7 +1,7 @@
 {
   "label": "Device Manager",
   "position": 3,
-  "collapsed": false,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

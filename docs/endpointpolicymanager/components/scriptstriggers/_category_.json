@@ -1,7 +1,7 @@
 {
   "label": "Scripts and Triggers Manager",
   "position": 8,
-  "collapsed": false,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

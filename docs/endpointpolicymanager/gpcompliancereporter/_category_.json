@@ -1,7 +1,7 @@
 {
   "label": "GP Compliance Reporter",
   "position": 60,
-  "collapsed": false,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

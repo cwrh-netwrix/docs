@@ -43,7 +43,12 @@
       "Bash(dir:*)",
       "Bash(timeout 30 npm start)",
       "Bash($ENV:DOCS_PRODUCT=\"endpointpolicymanager\")",
-      "Bash(timeout:*)"
+      "Bash(timeout:*)",
+      "Bash(for file in \"gettingstarted/misc/knowledgebase/gettingstarted/prepare.md\" \"licensing/knowledgebase/troubleshooting/enterprisefull.md\" \"components/applicationsettingsmanager/technotes/troubleshooting/mmc.md\" \"licensing/installation/videolearningcenter/videolearningcenter.md\" \"licensing/installation/knowledgebase/updating/ringsupgrade.md\")",
+      "Bash(do echo \"Processing: $file\")",
+      "Bash(echo \"Updated: $file\")",
+      "Bash(done)",
+      "Bash(for:*)"
     ],
     "deny": []
   }

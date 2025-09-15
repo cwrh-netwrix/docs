@@ -1,7 +1,7 @@
 {
   "label": "Remote Desktop Protocol Manager",
   "position": 6,
-  "collapsed": false,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
