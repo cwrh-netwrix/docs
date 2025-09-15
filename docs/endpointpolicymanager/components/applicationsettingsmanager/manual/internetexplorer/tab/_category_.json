@@ -1,7 +1,7 @@
 {
-  "label": "Remote Work Delivery Manager",
-  "position": 7,
-  "collapsed": false,
+  "label": "IE AppSet Tabs",
+  "position": 30,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

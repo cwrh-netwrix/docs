@@ -1,7 +1,7 @@
 {
-  "label": "Remote Work Delivery Manager",
-  "position": 7,
-  "collapsed": false,
+  "label": "Using DesignStudio Tools",
+  "position": 130,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

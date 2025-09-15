@@ -38,7 +38,10 @@
       "Bash(xcopy:*)",
       "Bash(robocopy:*)",
       "Bash(dir \"C:\\GITLOCAL\\docs\\docs\\endpointpolicymanager\\components\\javaenterpriserules\")",
-      "Bash(dir \"C:\\GITLOCAL\\docs\\docs\\endpointpolicymanager\\components\\javaenterpriserules\\manual\")"
+      "Bash(dir \"C:\\GITLOCAL\\docs\\docs\\endpointpolicymanager\\components\\javaenterpriserules\\manual\")",
+      "Bash(dir \"C:\\GITLOCAL\\docs\\docs\\endpointpolicymanager\\components\\applicationsettingsmanager\")",
+      "Bash(dir:*)",
+      "Bash(timeout 30 npm start)"
     ],
     "deny": []
   }

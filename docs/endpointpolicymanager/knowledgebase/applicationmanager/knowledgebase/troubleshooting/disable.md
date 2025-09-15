@@ -20,7 +20,7 @@ UI hiding operation.
 
 You can learn more about AppLock at:
 
-- [AppLock™ Modes](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/applicationsettings/modes/applock.md)
+- [AppLock™ Modes](/docs/endpointpolicymanager/components/applicationsettingsmanager/manual/modes/applock.md)
 - [The Superpowers](/docs/endpointpolicymanager/knowledgebase/applicationmanager/videolearningcenter/featurestechsupport/superpowers.md)
 
 It is generally advised to turn off AppLock if you are not using this feature as it can interfere

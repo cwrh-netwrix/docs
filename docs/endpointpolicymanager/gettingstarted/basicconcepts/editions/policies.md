@@ -84,7 +84,7 @@ Enterprise Rules Manager can deploy most Microsoft Security settings to computer
 even to non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/components/javaenterpriserules/videolearningcenter/videolearningcenter.md) > Java
+video:[Video Learning Center](/docs/endpointpolicymanager/components/javaenterpriserules/videos/videolearningcenter.md) > Java
 Enterprise Rules Manager .
 
 ## Admin Templates Manager

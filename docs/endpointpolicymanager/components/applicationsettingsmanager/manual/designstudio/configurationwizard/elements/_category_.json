@@ -1,7 +1,7 @@
 {
-  "label": "Remote Work Delivery Manager",
-  "position": 7,
-  "collapsed": false,
+  "label": "Configuring Elements",
+  "position": 60,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",

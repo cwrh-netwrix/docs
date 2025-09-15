@@ -29,7 +29,7 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Apps, Browsers, & Java Security Pak
 
-  - [Application Settings Manager ](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/applicationsettings/overview.md)
+  - [Application Settings Manager ](/docs/endpointpolicymanager/components/applicationsettingsmanager/manual/overview.md)
   - [Browser Router](/docs/endpointpolicymanager/components/browserrouter/overview.md)
   - [Java Enterprise Rules Manager](/docs/endpointpolicymanager/components/javaenterpriserules/overview.md)
   - [Security Settings Manager](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/securitysettings/overview.md)

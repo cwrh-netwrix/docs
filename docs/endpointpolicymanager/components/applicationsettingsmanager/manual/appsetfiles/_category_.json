@@ -1,7 +1,7 @@
 {
-  "label": "Remote Work Delivery Manager",
-  "position": 7,
-  "collapsed": false,
+  "label": "AppSet Files",
+  "position": 40,
+  "collapsed": true,
   "collapsible": true,
   "link": {
     "type": "doc",
