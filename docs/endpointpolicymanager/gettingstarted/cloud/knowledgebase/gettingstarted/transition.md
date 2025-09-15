@@ -131,7 +131,7 @@ Getting Started with Cloud > [Knowledge Base](/docs/endpointpolicymanager/knowle
 
 Now you can craft your Company Group assignment and then adding computers to it.
 
-See the [Working with Groups](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/interface/computergroups/workingwith.md) topic for additional
+See the [Working with Groups](/docs/endpointpolicymanager/gettingstarted/cloudmanual/interface/computergroups/workingwith.md) topic for additional
 information.
 
 An example of crafting your own Company groups, linking existing XMLs, creating new policies and
@@ -168,7 +168,7 @@ Cloud acts nearly the same as on-prem GPO with the following attributes:
 - Enforced is available
 - Precedence is available
 
-See the [Working with Groups](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/interface/computergroups/workingwith.md) topic for additional
+See the [Working with Groups](/docs/endpointpolicymanager/gettingstarted/cloudmanual/interface/computergroups/workingwith.md) topic for additional
 information.
 
 ## Deploying the Endpoint Policy Manager Cloud Client and/or CSE to endpoints
@@ -248,7 +248,7 @@ machines' current state and policies.
 
 ![941_14_image-20230521113923-14_950x823](/images/endpointpolicymanager/cloud/941_14_image-20230521113923-14_950x823.webp)
 
-See the [Manually Syncing with PolicyPak Cloud](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/quickstart/verify.md#manually-syncing-with-policypak-cloud)
+See the [Manually Syncing with PolicyPak Cloud](/docs/endpointpolicymanager/gettingstarted/cloudmanual/quickstart/verify.md#manually-syncing-with-policypak-cloud)
 topic for additional information.[](https://helpcenter.netwrix.com/en-US/bundle/Endpoint Policy
 Manager_AppendixE/page/Manually_Syncing_with_Endpoint Policy Manager_Cloud.html)
 
@@ -278,7 +278,7 @@ Policy Manager Cloud Client version to ensure safety before you roll it out to e
 group.
 
 See the
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/bestpractices/rings.md) topic
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/rings.md) topic
 for additional information on the Microsoft Ring methodology, which aligns to Endpoint Policy
 Manager best practices.
 

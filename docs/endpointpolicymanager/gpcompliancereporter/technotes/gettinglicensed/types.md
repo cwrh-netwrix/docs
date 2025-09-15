@@ -19,7 +19,7 @@ If you rename a computer to have COMPUTER in the name, then that is a Trial Lice
 that this type is for testing only and is Not Recommended for production roll-out.
 
 More about Trial License is in this KB:
-[What is the fastest way to get started in an Endpoint Policy Manager trial, without running the License Request Tool?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/requestingall/trial.md)
+[What is the fastest way to get started in an Endpoint Policy Manager trial, without running the License Request Tool?](/docs/endpointpolicymanager/licensing/knowledgebase/requestingall/trial.md)
 
 The software is contained within the standard BITS download from the portal. You simply set it up as
 seen in the Endpoint Policy Manager Group Policy Compliance

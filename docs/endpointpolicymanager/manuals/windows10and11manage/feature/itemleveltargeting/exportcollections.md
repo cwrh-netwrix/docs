@@ -7,7 +7,7 @@ sidebar_position: 20
 # Exporting Collections
 
 In
-[Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/remotedesktopprotocolmanager/overview)
+[Using Item-Level Targeting with Collections and Policies](/docs/endpointpolicymanager/components/remotedesktopprotocolmanager/overview.md)
 we explain how to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager
 directives and deliver them using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM
 service, or Endpoint Policy Manager Cloud. To export a policy for later use using Endpoint Policy
@@ -42,4 +42,4 @@ function when the machine is domain-joined.
 
 For more information on how to use exported policies with Endpoint Policy Manager Cloud or Endpoint
 Policy Manager MDM see
-[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md). 
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md). 

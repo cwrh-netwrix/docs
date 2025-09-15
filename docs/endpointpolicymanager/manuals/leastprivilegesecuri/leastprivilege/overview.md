@@ -9,7 +9,7 @@ sidebar_position: 10
 About Netwrix Endpoint Policy Manager (formerly PolicyPak) Least Privilege Manager
 
 Before reading this section, please ensure you have read the
-[Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md) topics, which will help
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md) topics, which will help
 you learn to do the following:
 
 - Install the Admin MSI on your GPMC machine
@@ -19,7 +19,7 @@ you learn to do the following:
 
 Optionally, this manual demonstrates how to use on-prem Active Directory and Group Policy to deploy
 Endpoint Policy Manager Least Privilege Manager directives. If you don't want to use Group Policy,
-read the [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md) topics for additional information on how to deploy
+read the [MDM & UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/overview.md) topics for additional information on how to deploy
 your directives.
 
 Endpoint Policy Manager Least Privilege Manager enables you to do the following:
@@ -115,7 +115,7 @@ Templates Manager and our other products’ XML files and wrap them into a porta
 deployment using Microsoft Endpoint Manager (SCCM and Intune), or your own systems management
 software.
 
-The [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md) topics explain how to use the Endpoint Policy Manager
+The [MDM & UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/overview.md) topics explain how to use the Endpoint Policy Manager
 Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint
 Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud.
 

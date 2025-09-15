@@ -8,7 +8,7 @@ sidebar_position: 10
 
 :::note
 Before reading this section, please see the
-[Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md) topic  for more
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md) topic  for more
 information on the following:
 :::
 
@@ -19,7 +19,7 @@ information on the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, see the
-[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md) topic for more
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md) topic for more
 information.
 
 Endpoint Policy Manager Admin Templates Manager enables administrators to harness the existing power
@@ -50,7 +50,7 @@ Endpoint Policy Manager Admin Templates Manager enables you to perform the follo
 - Search for policies that match certain words in their titles or help text
 - Export policies or collections as XML files (available with Endpoint Policy Manager Exporter and
   Endpoint Policy Manager Cloud). See the
-  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md) topic for more
+  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md) topic for more
   information on using Endpoint Policy Manager with MDM and UEM Tools.
 
 The basic way to use Endpoint Policy Manager Admin Templates Manager is as follows:

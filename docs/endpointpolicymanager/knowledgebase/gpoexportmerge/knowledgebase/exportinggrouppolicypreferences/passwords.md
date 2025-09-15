@@ -74,4 +74,4 @@ Cloud. In domain-joined scenarios that component is automatically disabled until
 
 
 See
-[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/activedirectorygposccm/forceddisabled.md)
+[Why is Endpoint Policy Manager Preferences (original version) "forced disabled" by default?](/docs/endpointpolicymanager/licensing/knowledgebase/activedirectorygposccm/forceddisabled.md)

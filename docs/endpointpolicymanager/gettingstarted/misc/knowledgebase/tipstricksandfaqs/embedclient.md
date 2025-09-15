@@ -20,7 +20,7 @@ improvements and fixes.
 - If you are using VDI, you will have to keep the master image updated from time to time.
 - If you're using standard machines you will have to use SCCM, PDQ Deploy, or Netwrix Endpoint
   Policy Manager (formerly PolicyPak)'s own auto-updater mechanism. You can see this in action in
-  this video ([Auto-updating the CSE](/docs/endpointpolicymanager/knowledgebase/installation/videolearningcenter/methodgpoandad/autoupdate.md)) and read more about it in
+  this video ([Auto-updating the CSE](/docs/endpointpolicymanager/installation/videolearningcenter/methodgpoandad/autoupdate.md)) and read more about it in
   Appendix Book A in the Endpoint Policy Manager Manuals.
 
 ## For Endpoint Policy Manager Cloud Edition:

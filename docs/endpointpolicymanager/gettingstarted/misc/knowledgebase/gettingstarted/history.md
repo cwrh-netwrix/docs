@@ -49,11 +49,11 @@ Before 2017
 - New Component — Endpoint Policy Manager RDP Manager: Enable remote work users to have .RDP files
   to connect to your resources.
 - Browser Router - New Edge Support / IE In Edge Mode
-  [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](/docs/endpointpolicymanager/browserrouter/videolearningcenter/gettingstarted/ie.md)
+  [Manage Internet Explorer 11 and Edge Compatibility, Enterprise Modes and IE-in-Edge Mode](/docs/endpointpolicymanager/components/browserrouter/videolearningcenter/gettingstarted/ie.md)
 - Browser Router Apply Once then Drift
-  [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/defaultwindows10.md)
+  [Endpoint Policy Manager Browser Router: Set the Windows 10 Default Browser (once) then drift](/docs/endpointpolicymanager/components/browserrouter/videolearningcenter/tipsandtricks/defaultwindows10.md)
 - File Associations Manager Apply Once then Drift
-  [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/fileassociationsmanager/videolearningcenter/gettingstarted/applyonce.md)
+  [Endpoint Policy Manager File Associations Manager: Apply once (and drift)](/docs/endpointpolicymanager/components/fileassociationsmanager/videolearningcenter/gettingstarted/applyonce.md)
 - File Associations Manager Apply settings on USER side
 - Added Triggers to Endpoint Policy Manager Scripts & Triggers: Run a script at VPN launch or many
   other events

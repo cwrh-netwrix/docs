@@ -6,7 +6,7 @@ sidebar_position: 100
 
 # Exporting Policies and Collections
 
-The [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md) topics explain how to use the Endpoint Policy Manager
+The [MDM & UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/overview.md) topics explain how to use the Endpoint Policy Manager
 Exporter to wrap up any Endpoint Policy Manager directives and deliver them using Microsoft Endpoint
 Manager (SCCM and Intune), KACE, your own MDM service, or Endpoint Policy Manager Cloud. To export a
 policy for later use using Endpoint Policy Manager Exporter or Endpoint Policy Manager Cloud,

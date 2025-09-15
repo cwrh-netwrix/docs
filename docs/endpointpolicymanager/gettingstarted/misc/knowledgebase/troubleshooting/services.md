@@ -45,7 +45,7 @@ We need three services because we support both 32 & 64 bit applications (on 64-b
 The Watcher Service is also involved in the PolicyPak CSE Auto-Updater. When the Watcher Service is
 disabled, you cannot perform the automatic on-prem update of the CSE. For more information on the
 automatic update feature, see the
-[Rings with Endpoint Policy Manager and Active Directory](/docs/endpointpolicymanager/manuals/introductionandquick/upgrade/rings/activedirectory.md) topic.
+[Rings with Endpoint Policy Manager and Active Directory](/docs/endpointpolicymanager/gettingstarted/upgrade/rings/activedirectory.md) topic.
 
 The Helper Service is required, handles a variety of functions, and is used across all of PP's
 components. We need more services than just Group Policy because we do much more than Group Policy

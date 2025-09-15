@@ -8,7 +8,7 @@ sidebar_position: 20
 
 :::note
 Before reading this section, please ensure you have read
-[Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md), which will help you
 with the following:
 :::
 
@@ -19,7 +19,7 @@ with the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, read the section on
-[MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md)[MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md).
+[MDM & UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/overview.md)[MDM & UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/overview.md).
 
 Endpoint Policy Manager Feature Manager for Windows allows you to perform the following operations
 on Windows 10 or Windows Server (2016 and later):

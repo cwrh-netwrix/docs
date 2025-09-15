@@ -62,22 +62,22 @@ Endpoint Policy Manager has a few Quick start topics to provide specific guidanc
 
 Quick tart topics for delivery method of policies you plan to use:
 
-- [Group Policy Delivery Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/quickstart/grouppolicy.md)
-- [MDM / Intune Delivery Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/quickstart/mdm.md)
-- [Endpoint Policy Manager Cloud Delivery Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/quickstart/cloud.md)
+- [Group Policy Delivery Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/grouppolicy.md)
+- [MDM / Intune Delivery Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/mdm.md)
+- [Endpoint Policy Manager Cloud Delivery Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/cloud.md)
 
 A detailed Installation Guide for On-Prem scenarios that takes you from download to verified.
 
-- [Step 1: Get the download and inspect its contents](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/downloadcontents.md)
+- [Step 1: Get the download and inspect its contents](/docs/endpointpolicymanager/gettingstarted/overviewinstall/downloadcontents.md)
 
 A detailed topic is available if you're in a hurry to get started with Endpoint Policy Manager
 Cloud.
 
-- [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/overview.md)
+- [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/gettingstarted/cloudmanual/overview.md)
 
 A detailed MDM & UEM tools (like Intune) topic can be found here:
 
-- [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md)
+- [MDM & UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/overview.md)
 
 A detailed PolicyPak Least Privilege Manager Implementation Quickstart Guide that is project
 oriented to get you to the success line quickly.

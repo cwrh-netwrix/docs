@@ -22,7 +22,7 @@ installation of the MSI?
 
 **Step 4 –** Is your computer licensed? All computers must be licensed in order for Endpoint Policy
 Manager Preferences Manager to work properly (see Book 1:
-[Introduction and Basic Concepts](/docs/endpointpolicymanager/manuals/introductionandquick/basicconcepts/basicconcepts.md) for more information). Alternatively, try
+[Introduction and Basic Concepts](/docs/endpointpolicymanager/gettingstarted/basicconcepts/basicconcepts.md) for more information). Alternatively, try
 renaming the computer to "Computer1" (or a similar name) such that "computer" is in the name. When
 you do this, the Endpoint Policy Manager Preferences Manager CSE will act as if it's fully licensed.
 If Endpoint Policy Manager Preferences Manager starts to work, you have a licensing issue.

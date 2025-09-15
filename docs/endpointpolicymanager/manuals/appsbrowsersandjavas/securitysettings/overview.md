@@ -8,7 +8,7 @@ sidebar_position: 40
 
 :::note
 Before reading this section, please ensure you have read Book 2:
-[Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
 :::
 
@@ -19,7 +19,7 @@ learn to do the following:
 - Set up a common OU structure
 
 Optionally, if you don't want to use Group Policy, read the section in Appendix A:
-[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md) to deploy your
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md) to deploy your
 directives.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Security Settings Manager enables

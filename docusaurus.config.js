@@ -57,6 +57,17 @@ const config = {
     locales: ['en'],
   },
   scripts: [
+    // Add gtag fallback to prevent errors
+    {
+      innerHTML: `
+        // Initialize gtag fallback if not already present
+        window.dataLayer = window.dataLayer || [];
+        if (typeof window.gtag === 'undefined') {
+          function gtag(){window.dataLayer.push(arguments);}
+          window.gtag = gtag;
+        }
+      `,
+    },
     {
       src: 'https://widget.kapa.ai/kapa-widget.bundle.js',
       'data-website-id': 'c8052612-e9cf-49f8-b7a4-e717c6adc398',

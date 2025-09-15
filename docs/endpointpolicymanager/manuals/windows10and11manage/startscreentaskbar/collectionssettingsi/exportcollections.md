@@ -6,7 +6,7 @@ sidebar_position: 50
 
 # Exporting Collections
 
-Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md) explains how
+Appendix A: [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md) explains how
 to use the Endpoint Policy Manager Exporter to wrap up any Endpoint Policy Manager directive and
 deliver it using Microsoft Endpoint Manager (SCCM and Intune), KACE, your own MDM service, or
 Endpoint Policy Manager Cloud. For Endpoint Policy Manager Cloud, you should automatically acquire a
@@ -48,4 +48,4 @@ Note that exported collections or policies maintain any Item-Level Targeting set
 you've used items that represent Group Membership in Active Directory, then those items will only
 function when the machine is domain-joined. For more information about exporting settings and using
 Endpoint Policy Manager Exporter utility, see Appendix A:
-[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md).
+[Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md).

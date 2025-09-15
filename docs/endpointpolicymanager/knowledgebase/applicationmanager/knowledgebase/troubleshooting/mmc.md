@@ -22,7 +22,7 @@ the installation process. Although there were no explicit indications of such du
 Resolution:
 
 Perform and confirm the steps as outlined in the following KB:
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
 
 If the issue persists, proceed with the following troubleshooting steps.
 

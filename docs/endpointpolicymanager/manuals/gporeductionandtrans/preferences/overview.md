@@ -8,7 +8,7 @@ sidebar_position: 20
 
 :::note
 Before reading this section, please ensure you have read Book 2:
-[Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
 :::
 
@@ -18,7 +18,7 @@ learn to do the following:
 - Set up a computer in Trial mode or Licensed mode
 - Set up a common OU structure
 - Optionally, if you don't want to use Group Policy, read the section in Appendix A:
-  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md) on Group Policy and
+  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md) on Group Policy and
   non–Group Policy methods (MEMCM, KACE, and MDM service or Netwrix Endpoint Policy Manager
   (formerly PolicyPak) Cloud) to deploy your directives.
 
@@ -50,9 +50,9 @@ Endpoint Policy Manager Preferences Manager does the following jobs:
   management (MDM) service, you can deliver Group Policy Preference items to computers over the
   Internet (to both domain-joined and non-domain-joined machines). For more information on Endpoint
   Policy Manager Cloud, see Appendix E:
-  [Setup, Download, Install, and Verify](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/quickstart/quickstart.md) and User Guide. For more
+  [Setup, Download, Install, and Verify](/docs/endpointpolicymanager/gettingstarted/cloudmanual/quickstart/quickstart.md) and User Guide. For more
   information about using Endpoint Policy Manager with an MDM service, see Appendix A:
-  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md).
+  [Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md).
 
 :::note
 If you use the Endpoint Policy Manager Cloud service, you can deliver Group Policy

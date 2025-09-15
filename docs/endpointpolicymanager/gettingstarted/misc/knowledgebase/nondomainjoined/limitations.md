@@ -25,7 +25,7 @@ There are some items which will not work if the computer is not domain joined…
 
 1. Chrome's plug SHOULD work and activate automatically, but in might need to be activated if it
    doesn't operate as expected.
-   [Browser Router now supports Chrome on Non-Domain Joined machines](/docs/endpointpolicymanager/browserrouter/videolearningcenter/tipsandtricks/chromenondomainjoined.md).
+   [Browser Router now supports Chrome on Non-Domain Joined machines](/docs/endpointpolicymanager/components/browserrouter/videolearningcenter/tipsandtricks/chromenondomainjoined.md).
 2. Endpoint Policy Manager Application Manager will work as expected, except managing some areas of
    CHROME when non-domain joined. Chrome simply has a self-imposed limitation for non-domain joined
    machines. The list of settings which WILL and WON'T work is documented

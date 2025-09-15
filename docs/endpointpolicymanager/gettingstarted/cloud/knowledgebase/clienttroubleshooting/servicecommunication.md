@@ -58,5 +58,5 @@ Additional Considerations
 - If the connection passes, that could mean the Date and Time are wrong on the machine. First
   manually try to correct the date and time. Then run `PPCLOUD /SYNC` command and see if it
   succeeds. If that still fails to work, see the
-  [I am getting an error about "GPSVC failed at sign-in". This error occurs exactly one time. What does this mean?](/docs/endpointpolicymanager/knowledgebase/installation/knowledgebase/installandupgrade/gpsvcfailed.md) topic
+  [I am getting an error about "GPSVC failed at sign-in". This error occurs exactly one time. What does this mean?](/docs/endpointpolicymanager/installation/knowledgebase/installandupgrade/gpsvcfailed.md) topic
   for additional information on alternative time fix instructions.

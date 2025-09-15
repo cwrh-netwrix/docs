@@ -8,7 +8,7 @@ sidebar_position: 30
 
 :::note
 Before reading this section, please ensure you have read
-[Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md), which will help you
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md), which will help you
 learn to do the following:
 :::
 
@@ -20,7 +20,7 @@ learn to do the following:
 
 Optionally, if you don't want to use Group Policy, read the section in Appendix A: Advanced Concepts
 on Group Policy and non-Group Policy methods (MEMCM, KACE, and MDM service or Endpoint Policy
-Manager Cloud) ([Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/uemtools/uemtools.md)) to
+Manager Cloud) ([Using Endpoint Policy Manager with MDM and UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/uemtools/uemtools.md)) to
 deploy your directives.
 
 Netwrix Endpoint Policy Manager (formerly PolicyPak) Start Screen & Taskbar Manager enables you to

@@ -22,4 +22,4 @@ licensed.
 To that end, here is the documentation to un-license a single component, like Endpoint Policy
 Manager Preferences: If you're an on-Prem cloud or MDM customer.
 
-[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/knowledgebase/licensing/knowledgebase/activedirectorygposccm/componentscloud.md)
+[What if I want to unlicense specific components via ADMX or Endpoint Policy Manager Cloud?](/docs/endpointpolicymanager/licensing/knowledgebase/activedirectorygposccm/componentscloud.md)

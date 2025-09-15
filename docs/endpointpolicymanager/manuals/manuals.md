@@ -10,12 +10,12 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Introduction & Quick Start Manuals
 
-  - [Introduction and Basic Concepts](/docs/endpointpolicymanager/manuals/introductionandquick/basicconcepts/basicconcepts.md)
-  - [Netwrix Endpoint Policy Manager Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/quickstart/overview.md)
-  - [Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md)
-  - [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/cloud/overview.md)
-  - [MDM & UEM Tools](/docs/endpointpolicymanager/manuals/introductionandquick/mdm/overview.md)
-  - [Upgrade Guidance](/docs/endpointpolicymanager/manuals/introductionandquick/upgrade/overview.md)
+  - [Introduction and Basic Concepts](/docs/endpointpolicymanager/gettingstarted/basicconcepts/basicconcepts.md)
+  - [Netwrix Endpoint Policy Manager Quick Start](/docs/endpointpolicymanager/gettingstarted/quickstart/overview.md)
+  - [Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md)
+  - [Endpoint Policy Manager Cloud Quick Start](/docs/endpointpolicymanager/gettingstarted/cloudmanual/overview.md)
+  - [MDM & UEM Tools](/docs/endpointpolicymanager/gettingstarted/mdmmanual/overview.md)
+  - [Upgrade Guidance](/docs/endpointpolicymanager/gettingstarted/upgrade/overview.md)
 
 - Least Privilege Security Pak
 
@@ -25,22 +25,22 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - Device Management Pak
 
-  - [Device Manager](/docs/endpointpolicymanager/devicemanager/manual/overview.md)
+  - [Device Manager](/docs/endpointpolicymanager/components/devicemanager/manual/overview.md)
 
 - Apps, Browsers, & Java Security Pak
 
   - [Application Settings Manager ](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/applicationsettings/overview.md)
-  - [Browser Router](/docs/endpointpolicymanager/browserrouter/overview)
+  - [Browser Router](/docs/endpointpolicymanager/components/browserrouter/overview.md)
   - [Java Enterprise Rules Manager](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/javaenterpriserules/overview.md)
   - [Security Settings Manager](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/securitysettings/overview.md)
 
 - GPO Compliance Pak
 
-  - [Group Policy Compliance Reporter](/docs/endpointpolicymanager/gpcompliancereporter/manual/grouppolicycomplianc/overview.md)
+  - [Group Policy Compliance Reporter](/docs/endpointpolicymanager/gpcompliancereporter/manual/overview.md)
 
 - Windows 10 & 11 Management Pak
 
-  - [File Associations Manager](/docs/endpointpolicymanager/fileassociationsmanager/manual/overview.md)
+  - [File Associations Manager](/docs/endpointpolicymanager/components/fileassociationsmanager/manual/overview.md)
   - [Feature Manager for Windows](/docs/endpointpolicymanager/manuals/windows10and11manage/feature/overview.md)
   - [Start Screen & Taskbar Manager](/docs/endpointpolicymanager/manuals/windows10and11manage/startscreentaskbar/overview.md)
 
@@ -51,11 +51,11 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - App Delivery & Patching Pak
 
-  - [Remote Work Delivery Manager](/docs/endpointpolicymanager/manuals/appdeliveryandpatchi/remoteworkdelivery/overview.md)
+  - [Remote Work Delivery Manager](/docs/endpointpolicymanager/components/remoteworkdeliverymanager/manual/overview.md)
   - [Software Package Manager](/docs/endpointpolicymanager/manuals/appdeliveryandpatchi/softwarepackage/overview.md)
 
 - Desktop Automation & Connectivity Pak
 
-  - [Scripts & Triggers Manager](/docs/endpointpolicymanager/scriptstriggers/manual/overview.md)
-  - [Remote Desktop Protocol Manager](/docs/endpointpolicymanager/remotedesktopprotocolmanager/overview)
-  - [Endpoint Policy Manager Network Security Manager](/docs/endpointpolicymanager/scriptstriggers/knowledgebase/tipsandtricks/wlannetwork.md)
+  - [Scripts & Triggers Manager](/docs/endpointpolicymanager/components/scriptstriggers/manual/overview.md)
+  - [Remote Desktop Protocol Manager](/docs/endpointpolicymanager/components/remotedesktopprotocolmanager/overview.md)
+  - [Endpoint Policy Manager Network Security Manager](/docs/endpointpolicymanager/components/scriptstriggers/knowledgebase/tipsandtricks/wlannetwork.md)

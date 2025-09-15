@@ -16,7 +16,7 @@ introduce the following:
 
 :::note
 See Appendix E:
-[Installation Quick Start](/docs/endpointpolicymanager/manuals/introductionandquick/overviewinstall/overviewinstall.md) and User Guide for
+[Installation Quick Start](/docs/endpointpolicymanager/gettingstarted/overviewinstall/overviewinstall.md) and User Guide for
 additoinal information on Endpoint Policy Manager Preferences Manager in use with Endpoint Policy
 Manager Cloud
 :::

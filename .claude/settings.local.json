@@ -22,7 +22,16 @@
       "Bash(bash:*)",
       "Bash(tree:*)",
       "Bash(awk:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(xargs sed:*)",
+      "Bash(powershell:*)",
+      "Bash(npm run build:*)",
+      "Bash(set UV_THREADPOOL_SIZE=16)",
+      "Bash(npm run clear:*)",
+      "Bash(cat:*)",
+      "Bash($ENV:DOCS_PRODUCT=\"endpointprotector\")",
+      "Bash(DOCS_PRODUCT=\"endpointprotector\" npm run build)"
     ],
     "deny": []
   }
