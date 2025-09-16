@@ -79,6 +79,10 @@ function cleanSlug(filename, productName) {
 }
 
 function generateKBSidebar(productName) {
+  // DIAGNOSTIC TEST: Return empty array to test if this function causes broken KB links
+  // TODO: Remove this return statement after diagnostic test
+  return [];
+
   // Find the project root by looking for package.json
   let currentDir = __dirname;
   while (!fs.existsSync(path.join(currentDir, 'package.json')) && currentDir !== '/') {
