@@ -105,7 +105,7 @@ function generateKBSidebar(productName) {
 
         // Handle index.md files specially - they should link to parent directory
         const href = file === 'index.md'
-          ? `/docs/kb/${productName}/${folder.name}/`
+          ? `/docs/kb/${productName}/${folder.name}`
           : `/docs/kb/${productName}/${folder.name}/${encodeURIComponent(file.replace('.md', ''))}`;
 
         return {
@@ -140,7 +140,7 @@ function generateKBSidebar(productName) {
 
       // Handle index.md files specially - they should link to parent directory
       const href = file.name === 'index.md'
-        ? `/docs/kb/${productName}/`
+        ? `/docs/kb/${productName}`
         : `/docs/kb/${productName}/${encodeURIComponent(file.name.replace('.md', ''))}`;
 
       return {
