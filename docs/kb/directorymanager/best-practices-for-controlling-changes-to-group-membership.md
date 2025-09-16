@@ -78,33 +78,33 @@ These practices make use of workflows, access controls, and alerts to offer fool
 ## References:
 
 - Netwrix Directory Manager Online Help topic: Workflows  
-  /docs/directorymanager/11.1/admincenter/workflow
+  https://docs.netwrix.com/docs/directorymanager/11.1/admincenter/workflow
 
 - Netwrix Directory Manager Online Help topic: Query Designer dialog box  
-  /docs/directorymanager/11.1/portal/group/querydesigner
+  https://docs.netwrix.com/docs/directorymanager/11.1/portal/group/querydesigner
 
 - Netwrix Directory Manager Online Help topic: Group Membership Settings  
-  /docs/directorymanager/11.1/admincenter/identitystore/configure/configure.md
+  https://docs.netwrix.com/docs/directorymanager/11.1/admincenter/identitystore/configure/configure.md
 
 - Netwrix Directory Manager Online Help topic: Customize Object Properties  
-  /docs/directorymanager/11.1/groupid/admin-guidecenter/mobileservice/design
+  https://docs.netwrix.com/docs/directorymanager/11.1/groupid/admin-guidecenter/mobileservice/design
 
 ### Related Articles:
 
 - Walkthrough Search Policy - Define Scope and Filter Results  
-  /docs/kb/directorymanager/walkthrough_search_policy_-_define_scope_and_filter_results
+  https://docs.netwrix.com/docs/kb/directorymanager/walkthrough_search_policy_-_define_scope_and_filter_results
 
 - How To Enforce Users to Create Groups in a Specific OU  
-  /docs/kb/directorymanager/how_to_enforce_users_to_create_groups_in_a_specific_ou
+  https://docs.netwrix.com/docs/kb/directorymanager/how_to_enforce_users_to_create_groups_in_a_specific_ou
 
 - How To Import Members to a Group Using Self-Service Import Wizard  
-  /docs/kb/directorymanager/how_to_import_members_to_a_group_using_self-service_import_wizard
+  https://docs.netwrix.com/docs/kb/directorymanager/how_to_import_members_to_a_group_using_self-service_import_wizard
 
 - How to Trigger a workflow When a User Сreates a Group  
-  /docs/kb/directorymanager/how_to_trigger_a_workflow_when_a_user_сreates_a_group
+  https://docs.netwrix.com/docs/kb/directorymanager/how_to_trigger_a_workflow_when_a_user_сreates_a_group
 
 - How To Add Message Approvers in Group Properties in Self-Service  
-  /docs/kb/directorymanager/how_to_add_message_approvers_in_group_properties_in_groupid_portal
+  https://docs.netwrix.com/docs/kb/directorymanager/how_to_add_message_approvers_in_group_properties_in_groupid_portal
 
 - Best Practices for Preventing Accidental Data Leakage  
-  /docs/kb/directorymanager/best_practices_for_preventing_accidental_data_leakage
+  https://docs.netwrix.com/docs/kb/directorymanager/best_practices_for_preventing_accidental_data_leakage
