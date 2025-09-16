@@ -8,10 +8,7 @@ sidebar_position: 30
 
 To make a match you need to match one or more Conditions: Path, Hash or Signature.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/conditions_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/conditions_1.webp)
 
 - Path – The name of the file and/or the location. This is the least secure method so use it with
   caution. You may also provide a folder or folder recursively.
@@ -20,10 +17,7 @@ generated](/images/endpointpolicymanager/mac/scenarios/conditions_1.webp)
 
 You can see the dialogs for Path, Hash and Signature condition here:
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/conditions_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/conditions_2.webp)
 
 To acquire the Path, you may use the Finder.
 
@@ -31,10 +25,7 @@ To acquire the Path, you may use the Finder.
 
 To acquirethe application's Hash or Signature, you can use the `ppfileinfo` tool:
 
-![A computer screen with white text
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/conditions_4.webp)
+![A computer screen with white text Description automatically generated](/images/endpointpolicymanager/mac/scenarios/conditions_4.webp)
 
 Actions:
 
@@ -44,10 +35,7 @@ Actions:
 - Elevate — Gives the user elevated privileges for actions, e.g. can perform actions without admin
   rights.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/conditions_5.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/conditions_5.webp)
 
 Additional Approve settings may be:
 
@@ -64,7 +52,4 @@ Teacher2, etc.) to perform the work.
 :::
 
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/conditions_6.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/conditions_6.webp)

@@ -14,10 +14,7 @@ and Child Processes rules.
 :::
 
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_apply_to_child.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/bestpractices/when_to_use_apply_to_child.webp)
 
 We suggest leaving the checkbox on for **Apply to Child Processes** when installing software. This
 will enable a `Setup.exe` to elevate anything it unpacks and needs to continue to install. However,

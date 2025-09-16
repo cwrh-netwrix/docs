@@ -31,10 +31,7 @@ Now let's move on to local admin groups. You can easily do this by creating a GP
 **Computer Configuration** > **Preferences** > **Control Panel Settings** > **Local Users and
 Groups** and select **Local Group** .
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/using_group_policy_preferences.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/using_group_policy_preferences.webp)
 
 Next, you’ll use the **Update** action which has been selected by default along with the check box
 to **Delete all member users**.  You may also want to select **Delete all member groups** as well. 
@@ -44,10 +41,7 @@ everyone, which means you have to add back the accounts you want. Remember that 
 allocate local admin groups to standard users, so only the domain admins group and the local admin
 user account should be members. This is achieved by clicking the **Add** button and selecting them.
 
-![A screenshot of a group
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/using_group_policy_preferences_1.webp)
+![A screenshot of a group Description automatically generated](/images/endpointpolicymanager/leastprivilege/using_group_policy_preferences_1.webp)
 
 Once the policy is deployed, you will have removed all non-privileged users from the local admins
 group of all targeted desktops.

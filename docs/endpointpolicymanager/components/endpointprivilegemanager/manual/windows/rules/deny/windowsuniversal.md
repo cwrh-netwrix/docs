@@ -16,10 +16,7 @@ video.
 Endpoint Policy Manager can be used to manage Universal Windows Platform (UWP) applications,
 allowing you to block one or more applications. To do this, select **Add** > **New UWP Policy**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications.webp)
 
 There are several options for managing UWP apps:
 
@@ -29,25 +26,16 @@ There are several options for managing UWP apps:
 
 Here we have chosen the option for **All UWP apps**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_1.webp)
 
 Next, you can deny execution for all of the apps at one time, or allow and log them, as shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_2.webp)
 
 If you choose to deny the apps, you must select your desired deny action. In this example, the
 default Windows block message will pop up when a user attempts to open any UWP application.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_3.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_3.webp)
 
 Using the other options for managing apps, you can block all Microsoft Store apps, or all Enterprise
 UWP apps at one time in a similar fashion. You can also allow or block specific UWP apps as well.
@@ -55,10 +43,7 @@ You might want to create one policy that blocks all UWP apps and then supplement
 that allow specific UWP apps. You also might want to create rules that only block designated apps.
 To choose to block only designated apps, select the **Specific UWP apps** option.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_4.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_4.webp)
 
 Next, you will need to provide some information about the app, such as the Package Name and
 Publisher. You can retrieve this information by either pointing to it using the **Select an
@@ -66,10 +51,7 @@ installed app** button, or by running the Get-AppxPackage command in an elevated
 This command will list all of the installed UWP apps on a given machine. Then you can populate the
 required information to manage the Microsoft Xbox app has been entered.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_5.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_5.webp)
 
 Next, finish creating the policy by selecting the block/allow action and further targeting the
 policy.
@@ -79,7 +61,4 @@ some applications continue to work. This can be done with two stacked rules. In 
 UWP applications are denied, but then applications with "Calc" or "Store" in the name, or "Adobe" as
 the publisher are allowed to run as shown below.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_6.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_uwp_applications_6.webp)

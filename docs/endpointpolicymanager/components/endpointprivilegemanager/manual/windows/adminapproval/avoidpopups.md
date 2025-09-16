@@ -24,10 +24,7 @@ This will generally happen when two things are true:
 When an application is detected as an installer, even if a user doesn’t click on it, pop-ups may
 still come up.. Two examples of pop-ups that users might see, OneDrive and Java, are shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
 
 There are two ways to overcome these messages:
 
@@ -51,10 +48,7 @@ The first way to see which applications are causing unwanted pop-ups is via Endp
 operational logs, as seen here. To find this log, go to `Users\<username>\AppData\Local\PolicyPak`
 Least Privilege Manager, and open ppUser_operational.log.
 
-![A screenshot of a computer program
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
+![A screenshot of a computer program Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval_1.webp)
 
 :::note
 Some applications may have different ways to self-update, possibly calling more than one
@@ -69,10 +63,7 @@ You can get similar information from the Endpoint Policy Manager event logs, whi
 **Application and Services Logs** > **Endpoint Policy Manager**. An event will appear showing
 canceled dialogs, like the one shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/avoid_pop_ups_with_admin_approval.webp)
 
 There is more information on using Event Viewer with Endpoint Policy Manager at the end of this
 guide, with specific event IDs to search for.

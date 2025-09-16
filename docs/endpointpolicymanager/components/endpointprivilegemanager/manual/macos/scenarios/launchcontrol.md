@@ -26,24 +26,15 @@ In this example we are using a Signing Identifier: `org.mozilla.firefox`.
 
 Then use that as your condition:
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_2.webp)
 
 The result of the policy is that the application will be blocked on launch.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_3.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_3.webp)
 
 Other actions besides Deny Execution are Allow Execution, with some options:
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_4.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_4.webp)
 
 - No Confirmation — Application launches
 - Confirmation — Provides a pop-up asking user to confirm the actual launch
@@ -53,7 +44,4 @@ generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approv
 
 Examples of the dialog boxes may be seen here:
 
-![Screens screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_5.webp)
+![Screens screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/application_launch_approval_5.webp)

@@ -24,10 +24,7 @@ However, you can switch SecureRun on the computer side to now say “Block all u
 started by users or LOCAL SYSTEM.” You would do this on the Computer side, and specify User and
 System Processes.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_1_enhanced_securerun_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/scenario_1_enhanced_securerun_1.webp)
 
 The result is that both User and System attempts to run un-trusted executables will be prevented.
 

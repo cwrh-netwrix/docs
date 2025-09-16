@@ -14,10 +14,7 @@ For example, one can run something like this from the Run dialog (or in many oth
 cmd /c "mkdir C:\TEST & copy c:\Windows\notepad.exe C:\TEST"
 ```
 
-![A screenshot of a computer error
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/securerun/securerun_and_inline_commands.webp)
+![A screenshot of a computer error Description automatically generated](/images/endpointpolicymanager/leastprivilege/securerun/securerun_and_inline_commands.webp)
 
 Normally, users don’t do this. But it could be valid during an application installation or program
 setup. You can see an example of this used in the Microsoft

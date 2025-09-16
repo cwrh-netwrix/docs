@@ -17,18 +17,12 @@ to perform an operation like Write the HOSTS file.
 First specify the process match and signify you want to perform **ACL manage file system and
 registry**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/understanding_acl_manage_file.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/understanding_acl_manage_file.webp)
 
 Next, specify the path(s) to files or registry and change the Permission (using the dropdown or
 **Edit permissions** button.)
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/understanding_acl_manage_file_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/understanding_acl_manage_file_1.webp)
 
 As a result, when Notepadis run from the specified location it can edit the
 `c:\windows\system32\drivers\etc\hosts` file.

@@ -20,15 +20,9 @@ Refer back to the Application Launch section earlier and make a matching rule. F
 might want to make a matching rule for Firefox Browser.  You may need multiple rules if a product
 has multiple executables.
 
-![A screen shot of a computer
+![A screen shot of a computer Description automatically generated](/images/endpointpolicymanager/mac/using_macos_admin_approval.webp)
 
-Description automatically
-generated](/images/endpointpolicymanager/mac/using_macos_admin_approval.webp)
-
-![A computer screen with a screen showing a login page
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/using_macos_admin_approval_1.webp)
+![A computer screen with a screen showing a login page Description automatically generated](/images/endpointpolicymanager/mac/using_macos_admin_approval_1.webp)
 
 :::note
 The Endpoint Policy Manager Least Privilege Admin Approval tool for Windows must be used
@@ -38,7 +32,4 @@ to perform approval requests.
 
 The following options are honored in the Mac (and Windows) client:
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/using_macos_admin_approval_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/using_macos_admin_approval_2.webp)

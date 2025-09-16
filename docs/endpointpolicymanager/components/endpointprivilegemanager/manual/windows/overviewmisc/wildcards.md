@@ -24,18 +24,12 @@ certificate to be permitted to Wildcard mode.
 
 Now you can address the fields you need as Wildcards; in this example, we’ve specified L=\*.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/using_wildcards_with_endpointpolicymanager.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/using_wildcards_with_endpointpolicymanager.webp)
 
 Endpoint Policy Manager Least Privilege Manager will continue to check all the intermediary
 certificates along the way before it gets to the one you modified.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/using_wildcards_with_endpointpolicymanager_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/using_wildcards_with_endpointpolicymanager_1.webp)
 
 :::warning
 You want to try to be as restrictive as possible when using Wildcards; the more you

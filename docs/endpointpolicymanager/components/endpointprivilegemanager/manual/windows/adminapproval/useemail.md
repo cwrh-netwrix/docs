@@ -18,10 +18,7 @@ using email for Admin Approval.
 :::
 
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval.webp)
 
 The two options are:
 
@@ -38,17 +35,11 @@ Below you can see the long response code now required, instead of the short resp
 will click the **Send a request mail to my support** link, which will automatically send the
 approval request using their email application.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_1.webp)
 
 Here you can see the generated email containing the request code.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_2.webp)
 
 When the email is received, a support admin can copy the request code and paste it into the Admin
 Approval Tool. Once pasted into the tool, all of the task information about the application appears
@@ -57,7 +48,4 @@ just as it was when using the short request code process.
 You can then check the item using VirusTotal (optional) and get the response code copied to clip
 board and/or send an email back to the user.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_3.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/using_email_for_admin_approval_3.webp)

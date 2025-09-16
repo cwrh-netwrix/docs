@@ -15,10 +15,7 @@ An example can be seen here with TreeSize Free (Administrator). When you run the
 administrator, you are prompted with a UAC prompt. When you click **Yes**", the Event 6200 occurs,
 as shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps.webp)
 
 With the auditing information, you can make a Endpoint Policy Manager (formerly PolicyPak) Least
 Privilege Manager Elevate rule to overcome this when the user is transitioning from being a local

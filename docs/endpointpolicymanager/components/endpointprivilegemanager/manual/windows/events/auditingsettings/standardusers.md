@@ -14,10 +14,7 @@ scenario which requires UAC prompts, but there is no rule yet in place to overco
 Here, you can see what happens when a Standard User attempts to run **Turn Windows features on or
 off**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_for_elevated_apps_1.webp)
 
 :::note
 At this time, Endpoint Policy Manager (formerly PolicyPak) Least Privilege Managerr

@@ -17,10 +17,7 @@ user was a Local Admin or a Standard User. When **Audit untrusted applications**
 can see Event 6210 is generated, indicating that this application would have been blocked when
 SecureRun™ was enabled.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/discovery_of_untrusted_standard.webp)
 
 The audit is only triggered when one of the following is true:
 

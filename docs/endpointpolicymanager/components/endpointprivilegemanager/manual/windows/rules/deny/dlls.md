@@ -11,17 +11,11 @@ You can deny DLLs within Applications, like PowerShell’s internal DLLs, which 
 First you must turn on the option with a Global DLL policy, which may only be enabled on the
 **Computer Configuration** side.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications.webp)
 
 Then create a matching rule with **New DLL Policy**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/deny/denying_dlls_within_applications_1.webp)
 
 Then you can **Deny execution** of the DLL when it is encountered.
 

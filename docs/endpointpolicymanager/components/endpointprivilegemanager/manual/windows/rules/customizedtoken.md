@@ -10,10 +10,7 @@ On rare occasions you might need to change some of the attributes of a processâ€
 blanket Elevate. You may do this via the **Run with customized token** function when creating a
 rule.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/run_with_customized_token.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/run_with_customized_token.webp)
 
 Here you can change a variety of functions about the token including its permissions, privileges and
 security, as well as Integrity level.

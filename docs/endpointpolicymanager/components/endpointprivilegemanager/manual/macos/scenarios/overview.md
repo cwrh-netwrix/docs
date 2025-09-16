@@ -16,7 +16,4 @@ Endpoint Policy Manager for Mac supports a variety of scenarios:
 - Finder Policy — Elevate application installs and uninstalls
 - Privilege Elevation — Elevate applications which have helper applications
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/mac/scenarios/supported_scenarios_and_policy.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/mac/scenarios/supported_scenarios_and_policy.webp)

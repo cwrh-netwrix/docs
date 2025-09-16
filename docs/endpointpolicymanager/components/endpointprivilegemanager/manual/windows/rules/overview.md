@@ -8,10 +8,7 @@ sidebar_position: 10
 
 Endpoint Policy ManagerLeast Privilege Manager is located within the Netwrix Privilege Secure node.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/rules_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/rules_1.webp)
 
 :::note
 You will only see all components of Endpoint Policy Manager if you download the Endpoint
@@ -34,10 +31,7 @@ Privilege Manager policies or collections.
 Collections are groupings of policies, and policies are the rules that perform the work. You can
 create collections, and policies within collections, on the User side, the Computer side, or both.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/rules_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/rules_2.webp)
 
 Endpoint Policy ManagerLeast Privilege Manager can elevate (or block) the following:
 
@@ -62,10 +56,7 @@ Monitor application.
 Running the Process Monitor application as a Standard User, such as EastSalesUser1, is not
 permitted. The application requires local admin rights, resulting in a prompt for UAC.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/rules_3.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/rules_3.webp)
 
 To participate in the Quick Start exercises, [download](http://go.skype.com/msi-download) Skype MSI
 for Windows via their website.
@@ -77,10 +68,7 @@ You may get a warning when downloading in Edge, but it is perfectly safe.
 
 When a Standard User attempts to install Skype MSI installer, they are not allowed.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/rules_4.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/rules_4.webp)
 
 The final example is downloading a portable app. A portable app is an application that can be
 downloaded anytime by a user. Sometimes it requires no installation; other times, it must be
@@ -93,19 +81,13 @@ unpacked before you can run it. Here are a few examples of these apps:
 In this example, Notepad2 has been downloaded and unpacked to the user’s desktop in a folder called
 Notepad2.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/rules_5.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/rules_5.webp)
 
 The Standard User can now open the folder and immediately run the EXE file and use the app. Despite
 the fact that this application could be a virus or crypto-malware, the user with standard rights can
 still run it.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/rules_6.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/rules_6.webp)
 
 In the Quick Start examples with Endpoint Policy Manager Least Privilege Manager, the goals are as
 follows:
@@ -127,10 +109,7 @@ The examples we will look at are:
 - Applications that are downloaded by the user, which may be unknown or harmful (Notepad2 in this
   example).
 
-![A computer screen shot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/rules_7.webp)
+![A computer screen shot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/rules_7.webp)
 
 For these examples, keep copies of Process Monitor and NotePad2 Portable handy to serve as a
 reference from your management station. These are not installed apps; you will be attempting to run

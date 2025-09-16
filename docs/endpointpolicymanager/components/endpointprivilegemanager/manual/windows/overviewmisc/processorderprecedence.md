@@ -11,10 +11,7 @@ So lower-numbered collections attempt to process first, and higher-numbered coll
 process last. Then, within any collection, each policy is processed in numerical order from lowest
 to highest.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/processing_order_and_precedence.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/processing_order_and_precedence.webp)
 
 Within any collection, each policy is processed in numerical order from lowest to highest.
 

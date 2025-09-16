@@ -9,17 +9,11 @@ sidebar_position: 30
 The **Scope** filter section can be found in various rule types in Endpoint Policy Manager Least
 Privilege Manager. For instance, it exists in every explicit rule, like this:
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping.webp)
 
 And also in SecureRun™ rules:
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_1.webp)
 
 :::note
 The Policy Scope option for Processes is only available when used on the Computer side; on
@@ -30,10 +24,7 @@ User side.
 :::
 
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/scopefilters/understanding_process_scoping_2.webp)
 
 In this topic, we will explore various use cases when you might use the Policy Scope option (which
 again, will only be un-gray / valid on the Computer side.)

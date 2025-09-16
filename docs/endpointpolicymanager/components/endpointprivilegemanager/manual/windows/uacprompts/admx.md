@@ -12,10 +12,7 @@ Manager Helper Tools via the included ADMX files:
 - Use it to trim what the user sees in the Printer tool.
 - Use it to trim what the user sees in the Remove Programs too seen here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least.webp)
 
 ## ADMX Settings with the Printer Tool
 
@@ -30,10 +27,7 @@ By default, the Remove Programs tool (once elevated) will enable a user to remov
 installed on the computer, except for the Endpoint Policy Manager client-side extension or other
 Netwrix or Endpoint Policy Manager-signed installed applications or components.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_1.webp)
 
 However, using the Endpoint Policy Manager Least Privilege Manager ADMX settings you can hide or
 reveal which applications are available for users to uninstall. This is possible by using one the
@@ -59,24 +53,15 @@ names to include or exclude from the Endpoint Policy Manager: Programs Manager t
 are shown here. Specify a value name of "\*oracle\*" and a value of 1. This will pick up publishers
 named Oracle and Oracle Corporation.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_1.webp)
 
 Next, using the same tool, you specify a value name of "\*Java\*" as the program name and a value
 of 1. Since we also want to hide programs with 171 in the name, you’ll need to specify a value name
 of \*171\* with a value of 0 to specifically hide programs with this value in the name.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_2.webp)
 
 The result of these settings can be seen here, where only a limited number of programs are available
 for removal.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/tool/helper/using_the_endpointpolicymanager_least_2.webp)

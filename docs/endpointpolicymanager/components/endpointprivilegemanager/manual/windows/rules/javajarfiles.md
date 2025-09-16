@@ -21,7 +21,4 @@ flash drives.
 To start making rules for Java JAR files right-click in the window and select **Add** > **New Java
 (JAR) Policy**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_java_jar_files.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_java_jar_files.webp)

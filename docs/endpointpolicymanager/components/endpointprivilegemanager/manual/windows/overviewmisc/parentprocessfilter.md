@@ -17,7 +17,4 @@ In this example, an iTunes Helper application can only be installed if the iTune
 application is actually performing the action (in this case with **Signature** and **File Info**
 being checked first before the child application is launched elevated.)
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/understanding_parent_process.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/understanding_parent_process.webp)

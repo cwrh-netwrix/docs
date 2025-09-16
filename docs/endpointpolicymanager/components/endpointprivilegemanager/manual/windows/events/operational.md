@@ -53,14 +53,8 @@ The reason code that is written to Event 6310 is from a fixed list in the Endpoi
 Least Privilege Manager code generator tool and is not admin- or user-definable. When the admin
 chooses a reason code, as seen here, that is what is recorded within the event on the client.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/operational_events.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/operational_events.webp)
 
 An example of Event 613 can be seen here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/operational_events_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/operational_events_1.webp)

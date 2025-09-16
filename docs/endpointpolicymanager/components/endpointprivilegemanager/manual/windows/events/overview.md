@@ -55,7 +55,4 @@ Viewer.
 - Endpoint Policy Manager Least Privilege Manager Client
 - Endpoint Policy Manager Least Privilege Manager Client—Operational
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/discovery_auditing_and_events.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/discovery_auditing_and_events.webp)

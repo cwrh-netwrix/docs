@@ -9,18 +9,12 @@ sidebar_position: 10
 On the Computer side of the GPO, use the Endpoint Policy Manager (formerly PolicyPak) Least
 Privilege Manager node to create a new Admin Approval Policy.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key.webp)
 
 You’ll now see the Admin Approval Settings, as shown in here. Change the Admin Approval State from
 **Not Configured** to **Enabled**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_1.webp)
 
 You also can change two other settings:
 
@@ -34,17 +28,11 @@ Next, click on the **Secret Key** tab. Here is where you can create a secret key
 **Derive from Password** or **Generate Random**. Then, click **Copy**, and paste the secret key into
 Notepad.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_2.webp)
 
 Click on the **Misc** tab, which enables you to configure the two policies shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_3.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/creating_the_secret_key_3.webp)
 
 - Custom Message - Configure the pop-up the user will see when Admin Approval kicks in.
 - Display name - Configure the right-click menu item the user will which will invoke Admin Approval.

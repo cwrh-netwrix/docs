@@ -24,26 +24,17 @@ to run the Performance Monitor’s Resource Monitor. Both must be executed from 
 
 A Combo rule addresses this issue, by using Path and Command-line argument rules.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command.webp)
 
 The first step, as shown here, is to specify the Path Condition, such as
 `%SYSTEMROOT%\System32\sc.exe`.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command_1.webp)
 
 For the command-line arguments in this example, the argument **stop wsearch**, which stops the
 Windows Search Service, is specified.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command_2.webp)
 
 For **Check Mode**, there are four choices:
 
@@ -67,10 +58,7 @@ On the next screen, for **Action**, select **Run with elevated privileges**.
 The net result is that **standard users** can now stop the `wsearch` service without needing
 elevated rights.
 
-![A computer screen with a black and white text
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command_3.webp)
+![A computer screen with a black and white text Description automatically generated](/images/endpointpolicymanager/leastprivilege/bestpractices/rules/creating_and_using_command_3.webp)
 
 Another example would be to enable Standard Users to perform their own Registry merge. To do this,
 make a Combo rule, which starts with the Path Condition running `%SYSTEMROOT%\System32\reg.exe` (not

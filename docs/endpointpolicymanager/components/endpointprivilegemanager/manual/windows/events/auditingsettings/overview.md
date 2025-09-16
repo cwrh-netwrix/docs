@@ -26,17 +26,11 @@ applications require extra privileges from standard users. There are four choice
 To begin the discovery process you will add a New Global Settings Policy, which can be done on
 either user or computer side.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/auditing_settings.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/auditing_settings.webp)
 
 When you create a Global Settings Policy, you can choose to turn on the settings shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/auditing_settings_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/auditingsettings/auditing_settings_1.webp)
 
 Enabling these settings will write special events to the event logs.
 

@@ -8,10 +8,7 @@ sidebar_position: 20
 
 The secret key of Admin Approval is stored within the XML inside the GPO, as seen here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
 
 If you look closely, you will see it is not the same key that was used earlier. Indeed, it is
 re-hashed or re-encrypted before it is placed within the XML within the GPO. Even so, it is best
@@ -40,18 +37,12 @@ The **Scope** tab of the GPO, shown here, displays an example of a GPO where onl
 would be able to determine the contents of the GPO (and therefore download the key as a Computer,
 but never expose it to a User).
 
-![A screenshot of a computer screen
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_1.webp)
+![A screenshot of a computer screen Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_1.webp)
 
 This immediately prevents Standard Users from reading the Computer side of the GPO, as shown in
 here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when.webp)
 
 Again, if you choose to place computers into an Active Directory security group, you will need to
 reboot the computer so it will pick up the new computer group membership and then the GPO.
@@ -60,7 +51,4 @@ You can verify the computer got the GPO key by opening an Admin command prompt, 
 `GPresult /R`, and verifying that the GPO was applied and that the computer is in the group, as
 shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_2.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/adminapproval/securing_the_secret_key_when_2.webp)

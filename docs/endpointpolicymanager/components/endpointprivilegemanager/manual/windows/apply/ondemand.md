@@ -25,10 +25,7 @@ the time.
 For this example, re-open and edit the policy that performs automatic elevation for Process Monitor,
 and set the action to **Apply on Demand**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The result of this change (after running GPupdate) is that when the end-user tries to run Procmon,
 they will see the standard UAC prompt.
@@ -37,18 +34,12 @@ Now that you have selected Apply on Demand, when the rule applies, the applicati
 automatically honor the rule you have set up. Double-clicking the application will now yield a UAC
 prompt (if the application requires UAC), like the one shown here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules.webp)
 
 The user will now need to right-click the application and choose **Run with Endpoint Policy Manager
 On-Demand**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/rules/apply/apply_on_demand_rules_1.webp)
 
 :::note
 You can change the name of the menu item from **Run with** Endpoint Policy Manager

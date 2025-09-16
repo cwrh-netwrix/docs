@@ -18,15 +18,9 @@ Edge.
 
 Trying to install ActiveX controls as a Standard User is not allowed.
 
-![A screenshot of a computer
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items.webp)
 
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items.webp)
-
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items_1.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/elevate/elevating_activex_items_1.webp)
 
 You can use ActiveX rules and specify the CAB file you want to permit.
 

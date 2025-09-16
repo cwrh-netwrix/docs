@@ -10,7 +10,4 @@ There is only one event ID for Endpoint Policy Manager Least Privilege Manager C
 is Event 100, which describes when a User or Computer picks up new Endpoint Policy Manager Least
 Privilege Manager policies. An example of this kind of event can be seen here.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/events/client_events.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/events/client_events.webp)

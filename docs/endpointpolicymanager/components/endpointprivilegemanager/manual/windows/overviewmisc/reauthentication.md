@@ -14,10 +14,7 @@ Here, on the left you’ll see a Self Elevate rule, and on the right a standard 
 You can see both rule types have the options for **Require Justification Text** and **Force user to
 reauthenticate**.
 
-![A screenshot of a computer
-
-Description automatically
-generated](/images/endpointpolicymanager/leastprivilege/understanding_re_authentication.webp)
+![A screenshot of a computer Description automatically generated](/images/endpointpolicymanager/leastprivilege/understanding_re_authentication.webp)
 
 :::note
 See the
