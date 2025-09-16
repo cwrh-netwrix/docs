@@ -102,10 +102,16 @@ function generateKBSidebar(productName) {
       .map(file => {
         const filePath = path.join(folderPath, file);
         const fallbackName = file.replace('.md', '');
+
+        // Handle index.md files specially - they should link to parent directory
+        const href = file === 'index.md'
+          ? `/docs/kb/${productName}/${folder.name}/`
+          : `/docs/kb/${productName}/${folder.name}/${encodeURIComponent(file.replace('.md', ''))}`;
+
         return {
           type: 'link',
           label: extractTitle(filePath, fallbackName),
-          href: `/docs/kb/${productName}/${folder.name}/${encodeURIComponent(file.replace('.md', ''))}`
+          href: href
         };
       })
       .sort((a, b) => a.label.localeCompare(b.label));
@@ -131,10 +137,16 @@ function generateKBSidebar(productName) {
     .map(file => {
       const filePath = path.join(kbPath, file.name);
       const fallbackName = file.name.replace('.md', '');
+
+      // Handle index.md files specially - they should link to parent directory
+      const href = file.name === 'index.md'
+        ? `/docs/kb/${productName}/`
+        : `/docs/kb/${productName}/${encodeURIComponent(file.name.replace('.md', ''))}`;
+
       return {
         type: 'link',
         label: extractTitle(filePath, fallbackName),
-        href: `/docs/kb/${productName}/${encodeURIComponent(file.name.replace('.md', ''))}`
+        href: href
       };
     })
     .sort((a, b) => a.label.localeCompare(b.label));
