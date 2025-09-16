@@ -86,7 +86,7 @@ to the **All** group, they are always enforced.
 ## Company Groups
 
 Video: For an overview of this section, watch
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/gettingstarted/cloud/videos/upkeepanddailyuse/groups.md).
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/deliverymethods/cloud/videos/upkeepanddailyuse/groups.md).
 
 The Endpoint Policy Manager CSE and the Endpoint Policy Manager Cloud client get updated from time
 to time for bug fixes as well as for features. For instance, whenever a new component is released, a

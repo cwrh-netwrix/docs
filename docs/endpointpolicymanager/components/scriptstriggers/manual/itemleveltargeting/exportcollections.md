@@ -51,7 +51,7 @@ Figure 32.
 
 :::note
 For a video showing how to export policies and use Endpoint Policy Manager Exporter, watch
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/gettingstarted/mdm/videos/exportingtips/exporterutility.md).
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/deliverymethods/mdm/videos/exportingtips/exporterutility.md).
 :::
 
 

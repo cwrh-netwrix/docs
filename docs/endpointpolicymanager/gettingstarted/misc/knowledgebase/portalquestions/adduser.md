@@ -9,7 +9,7 @@ sidebar_position: 10
 :::note
 This article pertains to portal.endpointpolicymanager.com.  If you need to manage users in the Netwrix
 Endpoint Policy Manager (formerly PolicyPak) Cloud Portal (cloud.endpointpolicymanager.com)
-see [Endpoint Policy Manager Cloud: Adding New Admins](/docs/endpointpolicymanager/gettingstarted/cloud/videos/security/administrator.md)
+see [Endpoint Policy Manager Cloud: Adding New Admins](/docs/endpointpolicymanager/deliverymethods/cloud/videos/security/administrator.md)
 :::
 
 

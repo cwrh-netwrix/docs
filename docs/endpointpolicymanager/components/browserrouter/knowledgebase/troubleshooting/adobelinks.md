@@ -42,4 +42,4 @@ issue with Adobe and Browser Router.
 For a list of additional Endpoint Policy Manager items that may need to be excluded please see the
 KB below:
 
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/antivirus.md)

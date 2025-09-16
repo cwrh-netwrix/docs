@@ -34,7 +34,7 @@ Tips:
   [https://community.ivanti.com/docs/DOC-59389](https://community.ivanti.com/docs/DOC-59389)
 - For your AV / other software, see your own vendor's exclusions.
 - Endpoint Policy Manager AV Exclusions:
-  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
+  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/antivirus.md)
 - If you have a FEW or ONE machine showing the issue: FAQ.
 
 **Step 3 –** After that, it could still be a bug. But it would typically appear on MANY machines and

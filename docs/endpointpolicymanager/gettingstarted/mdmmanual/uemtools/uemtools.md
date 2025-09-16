@@ -36,6 +36,6 @@ any systems management utility.
 :::note
 For a series of videos to get started with Endpoint Policy Manager and any UEM tool, like
 SCCM, KACE, etc., see the following link: Getting Started with Endpoint Policy Manager (Misc) >
-[Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md).
+[Knowledge Base](/docs/endpointpolicymanager/).
 
 :::

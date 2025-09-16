@@ -65,7 +65,7 @@ The following topics can help you getting started with Endpoint Policy Manager (
 - [I see many instances of the Endpoint Policy Manager Watcher service running on my clients, is that normal?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/watcherservice.md)
 - [What CSEs are contained within Endpoint Policy Manager, what are their CSE GUIDs, and in what release did they appear?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/guids.md)
 - [How do I turn on Debug logging if asked?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/debug.md)
-- [How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/endpointpolicymanager/gettingstarted/grouppolicy/knowledgebase/troubleshooting/preferences.md)
+- [How do I turn on Item Level Targeting (ILT) logging if asked by Endpoint Policy Manager Tech Support?](/docs/endpointpolicymanager/deliverymethods/grouppolicy/knowledgebase/troubleshooting/preferences.md)
 - [How can I increase the depth of what Endpoint Policy Manager reports (minidump files).](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/minidumpfiles.md)
 - [What are the advanced CSE troubleshooting registry debugging items?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/registrydebug.md)
 - [How can I present a custom dialog (or no dialog) if Browser Router (or the CSE) stops working or crashes?](/docs/endpointpolicymanager/gettingstarted/misc/knowledgebase/troubleshooting/customdialog.md)

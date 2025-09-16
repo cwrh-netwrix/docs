@@ -109,7 +109,7 @@ do anything.
 [https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016/](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016/)
 
 **Step 2 –** Then be sure to run these steps on this video to make your first domain controller in a
-new domain: [How to create a DC for editing purposes](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/createdc.md)
+new domain: [How to create a DC for editing purposes](/docs/endpointpolicymanager/deliverymethods/cloud/videos/testlabbestpractices/createdc.md)
 
 :::note
 The domain controller name and domain name do no matter.
@@ -130,7 +130,7 @@ first tests.
 
 - If you can do without a special Antivirus or special security software on this example machine,
   that will be best. If you MUST use A/V or security software, please perform these steps:
-  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
+  [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/antivirus.md)
 
 For Endpoint Policy Manager Group Policy Edition:
 
@@ -150,7 +150,7 @@ For Endpoint Policy Manager Cloud and Endpoint Policy Manager MDM:
 
 First, know that Endpoint Policy Manager and other security software may not play nicely together
 right away. As such, please review and follow these guidelines first:
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/antivirus.md)
 
 Second, please install all of the following software on your example endpoint(s):
 
@@ -171,7 +171,7 @@ on the endpoint.
 **Step 5 –** (Recommended): Endpoint Policy Manager's engine can be controlled via ADMX settings and
 having these pre-staged and ready to go can help us workaround issues from time to time. To
 pre-install the ADMX settings please watch this video:
-[Troubleshooting with ADMX files](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/admxfiles.md)
+[Troubleshooting with ADMX files](/docs/endpointpolicymanager/deliverymethods/cloud/videos/gettingstarted/admxfiles.md)
 
 **Step 6 –** (Recommended): If you want to perform some Endpoint Policy Manager Least Privilege base
 hits: Install any software you want to see magically work with Endpoint Policy Manager Least
@@ -240,7 +240,7 @@ To run Endpoint Policy Manager Un-licensed (any version):
     :::note
     When a computer has COMPUTER in the name it pretends to be fully licensed for
     trial purposes. More details on this topic:
-    [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/gettingstarted/cloud/videos/usingwithothermethods/mdm.md)
+    [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/deliverymethods/cloud/videos/usingwithothermethods/mdm.md)
     :::
 
 
@@ -272,7 +272,7 @@ Endpoint Policy Manager MDM Licensing can be a little tricky.
 - If you rename the computer to have COMPUTER in the name, the computer will act fully licensed.
 - If we supplied a license file to you, we'd like for you to pre-test that out. Here's the video to
   demonstrate exactly how to verify the MDM license file (sent as an MSI file) will work.
-  [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/testsample.md)
+  [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/deliverymethods/mdm/videos/gettingstarted/testsample.md)
 
 ## Part 8: Final thoughts for Endpoint Policy Manager Cloud and Endpoint Policy Manager MDM
 
@@ -295,10 +295,10 @@ Endpoint Policy Manager MDM.
 
 If you do not have a “real” or “not real domain” please see and perform these steps:
 
-**Step 1 –** [How to create a DC for editing purposes](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/createdc.md)
+**Step 1 –** [How to create a DC for editing purposes](/docs/endpointpolicymanager/deliverymethods/cloud/videos/testlabbestpractices/createdc.md)
 
 **Step 2 –**
-[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/renameendpoint.md)
+[Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/deliverymethods/cloud/videos/testlabbestpractices/renameendpoint.md)
 
 ## Part 9: Converting from another least-privilege tool to Endpoint Privilege Manager
 

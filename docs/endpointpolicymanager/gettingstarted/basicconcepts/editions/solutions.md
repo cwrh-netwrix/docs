@@ -30,7 +30,7 @@ details of where Endpoint Policy Manager data is stored.
 The most popular method of using Endpoint Policy Manager is via Group Policy.
 
 **Note**: For more information on this topic, please see this
-video:[Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md) > Group Policy
+video:[Knowledge Base](/docs/endpointpolicymanager/) > Group Policy
 
 When you use the Group Policy method, you are 100% in control of your data because it is all
 contained within your Active Directory.The image below shows what Endpoint Policy Manager looks like
@@ -89,7 +89,7 @@ You can use Endpoint Policy Manager with your mobile device management (MDM) ser
 as Microsoft Endpoint Manager (SCCM and Intune), MobileIron, or VMware Workspace ONE.
 
 **Note**: For more information on this topic, please see this
-video:[Video Learning Center](/docs/endpointpolicymanager/gettingstarted/mdm/videos/videolearningcenter.md) > Started with MDM.
+video:[Video Learning Center](/docs/endpointpolicymanager/deliverymethods/mdm/videos/videolearningcenter.md) > Started with MDM.
 
 To get started, create directives using the Endpoint Policy Manager MMC, follow these steps:
 
@@ -120,7 +120,7 @@ Policy Manager directives and deliver them through the Internet.
 
 :::note
 For a video overview of Endpoint Policy Manager Cloud, see
-[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/quickstart.md).
+[Endpoint Policy Manager Cloud: QuickStart](/docs/endpointpolicymanager/deliverymethods/cloud/videos/gettingstarted/quickstart.md).
 :::
 
 
@@ -145,7 +145,7 @@ on how to do this can be found in the quick start topic:
 :::note
 For a video overview of using Endpoint Policy Manager with an MDM or RMM tool to bootstrap
 the Endpoint Policy Manager Cloud installer, see:
-[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/gettingstarted/cloud/videos/usingwithothermethods/mdm.md).
+[Endpoint Policy Manager Cloud + MDM Services: Install Cloud Client + automatically join PPC Groups and get policy.](/docs/endpointpolicymanager/deliverymethods/cloud/videos/usingwithothermethods/mdm.md).
 :::
 
 
@@ -196,4 +196,4 @@ Directory and it's active, it counts your Endpoint Policy Manager licensing. In 
 use it with Endpoint Policy Manager SaaS/Cloud.
 
 For more answers about licensing Endpoint Policy Manager with virtualized systems, see:
-[Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md) > All Things Licensing.
+[Knowledge Base](/docs/endpointpolicymanager/) > All Things Licensing.

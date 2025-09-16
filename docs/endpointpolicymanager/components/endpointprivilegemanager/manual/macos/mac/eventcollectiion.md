@@ -77,7 +77,7 @@ Notes on Collection Configuration:
 
 :::note
 See the
-[How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/gettingstarted/cloud/knowledgebase/eventcollection/childgroups.md)
+[How can I keep the same or specify different parameters for Event Collection for child groups? How does a computer behave if a member of multiple groups?](/docs/endpointpolicymanager/deliverymethods/cloud/knowledgebase/eventcollection/childgroups.md)
 topic for more information.
 :::
 

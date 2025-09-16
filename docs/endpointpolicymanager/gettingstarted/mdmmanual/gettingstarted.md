@@ -11,7 +11,7 @@ You might want to use Endpoint Policy Manager along with the following UEM tools
 - MEMCM (formerly known as SCCM) (video:
   [Perform Desktop Lockdown using Microsoft SCCM and Endpoint Policy Manager ](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/methods/sccmsoftwarecenter.md))
 - Microsoft Intune (video:
-  [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/microsoftintune.md))
+  [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/deliverymethods/mdm/videos/gettingstarted/microsoftintune.md))
 - Symantec Altiris
 - Dell KACE
 - LabTech
@@ -73,7 +73,7 @@ a UEM tool.
 To get started quickly with our sample MSI files and an MDM tool, we recommend watching the
 following video:
 
-- [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/testsample.md)
+- [Endpoint Policy Manager and MDM walk before you run](/docs/endpointpolicymanager/deliverymethods/mdm/videos/gettingstarted/testsample.md)
 
 Then, you can learn more about how to use Endpoint Policy Manager with your own MDM tool on this
-page: Getting Started with MDM > [Video Learning Center](/docs/endpointpolicymanager/gettingstarted/mdm/videos/videolearningcenter.md).
+page: Getting Started with MDM > [Video Learning Center](/docs/endpointpolicymanager/deliverymethods/mdm/videos/videolearningcenter.md).

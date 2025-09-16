@@ -129,9 +129,9 @@ MDM.
 
 The basics for how to take existing Group Policy settings (from CIS Benchmarks or any source) and
 use with Endpoint Policy Manager Cloud
-[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/grouppolicysettings.md).
+[Endpoint Policy ManagerCloud: How to deploy Microsoft Group Policy Settings using Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/deliverymethods/cloud/videos/gettingstarted/grouppolicysettings.md).
 
 The basics for how to take existing Group Policy settings (from CIS Benchmarks or any source) and
 use with Endpoint Policy Manager MDM can be found
-[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/gettingstarted/grouppolicy/videos/tipsandtricks/exportgpos.md)
-and [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/gettingstarted/mdm/videos/gettingstarted/microsoftintune.md).
+[Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/deliverymethods/grouppolicy/videos/tipsandtricks/exportgpos.md)
+and [Endpoint Policy Manager and Microsoft Intune](/docs/endpointpolicymanager/deliverymethods/mdm/videos/gettingstarted/microsoftintune.md).

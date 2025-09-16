@@ -88,7 +88,7 @@ update your CSE.
 
 - Please honor the philosophy of Rings and don't "blast out" an upgrade CSE to all of your computers
   at once so you can control a rollout or a rollback. Use
-  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/rings.md)
+  this guidance: [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/rings.md)
 
 ## How can I install UNIVERSAL licenses once I have downloaded them?
 

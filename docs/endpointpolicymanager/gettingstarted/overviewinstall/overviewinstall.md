@@ -19,7 +19,7 @@ overview of the process you need to follow:
 :::note
 This guide provides you with the most basic steps to get Endpoint Policy Manager unpacked
 and installed and ready to use. See the other topics in the parent publication, as well as the
-[Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md) > All Things Installation & Upkeep and the
+[Knowledge Base](/docs/endpointpolicymanager/) > All Things Installation & Upkeep and the
 All Things Installation & Upkeep
 [Video Learning Center](/docs/endpointpolicymanager/installation/videolearningcenter/videolearningcenter.md) topics for additional
 information.
@@ -28,7 +28,7 @@ information.
 
 If you are unfamiliar with what Endpoint Policy Manager even does, consider watching this two minute
 overview:
-[Endpoint Policy Manager Explained: In about two minutes](/docs/endpointpolicymanager/gettingstarted/grouppolicy/videos/gettingstarted/explained.md).
+[Endpoint Policy Manager Explained: In about two minutes](/docs/endpointpolicymanager/deliverymethods/grouppolicy/videos/gettingstarted/explained.md).
 
 For this trial, Endpoint Policy Manager endpoints may be:
 

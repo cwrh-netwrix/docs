@@ -189,7 +189,7 @@ The licensing modes are:
   enabled when your test computers' names have the word "computer" in them. For instance, a computer
   named "COMPUTER1" would automatically be in Trial Mode and act as if fully licensed. To see an
   example of how and why this works, see this video:
-  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/gettingstarted/cloud/videos/testlabbestpractices/renameendpoint.md)
+  [Testing and Troubleshooting By Renaming an endpoint Computer](/docs/endpointpolicymanager/deliverymethods/cloud/videos/testlabbestpractices/renameendpoint.md)
 
 We want you to use this Endpoint Policy Manager in your testing similarly to how you would use it in
 the real world. So in Trial Mode, we allow you to do the following:

@@ -72,7 +72,7 @@ an older Client Side Extension, we won't ever fix that one. We only ever fix the
 sure BEFORE YOU CONTINUE that you've tested the problem out with the LATEST Client Side Extension.
 
 **Step 2 –** Perform an exclusion to your AntiVirus/Antimalware using
-[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
+[How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/antivirus.md)
 
 **Step 3 –** Uninstall (not just disable) your AntiVirus/Antimalware. Does that clear it up?
 
@@ -118,7 +118,7 @@ Do not "image" a machine. Bring it up, totally fresh on new hardware / new VM.
 - If YES, then the problem is likely something in Group Policy; some security setting which is
   preventing Endpoint Policy Manager from performing it's function. Provide us with PPLOGS and
   GPRESULT reports from
-  [How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/gettingstarted/cloud/videos/upkeepanddailyuse/import.md). Do not miss any
+  [How to import GPOs to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/deliverymethods/cloud/videos/upkeepanddailyuse/import.md). Do not miss any
   steps
 - If NO.. then you need to BUILD UP the machine until you find the cause.
 - Remember: If this was a problem / bug affecting all customers, we would know it immediately. So

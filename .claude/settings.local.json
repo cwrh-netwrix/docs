@@ -75,7 +75,14 @@
       "Bash([ -d \"$component/videos\" ])",
       "Bash(then echo \"Component: $component\")",
       "Bash(do if [ -d \"$component/manual\" ])",
-      "Bash(else echo \"✗ $component has no manual/\")"
+      "Bash(else echo \"✗ $component has no manual/\")",
+      "Bash(do sed -i 's|/docs/endpointpolicymanager/knowledgebase/knowledgebase\\.md|/docs/endpointpolicymanager/|g' \"docs/endpointpolicymanager/$file\")",
+      "Bash(do sed -i 's|/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/|/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/|g' \"docs/endpointpolicymanager/$file\")",
+      "Bash(do sed -i 's|/docs/endpointpolicymanager/gettingstarted/cloud|/docs/endpointpolicymanager/deliverymethods/cloud|g' \"docs/endpointpolicymanager/$file\")",
+      "Bash(do sed -i 's|/docs/endpointpolicymanager/gettingstarted/grouppolicy|/docs/endpointpolicymanager/deliverymethods/grouppolicy|g' \"docs/endpointpolicymanager/$file\")",
+      "Bash(do sed -i 's|gettingstarted/cloud|deliverymethods/cloud|g; s|gettingstarted/grouppolicy|deliverymethods/grouppolicy|g; s|gettingstarted/mdm|deliverymethods/mdm|g' \"$file\")",
+      "Bash(do sed -i 's|/docs/endpointpolicymanager/gettingstarted/mdm|/docs/endpointpolicymanager/deliverymethods/mdm|g' \"docs/endpointpolicymanager/$file\")",
+      "Bash(do sed -i 's|/docs/endpointpolicymanager/gettingstarted/mdm/|/docs/endpointpolicymanager/deliverymethods/mdm/|g' \"docs/endpointpolicymanager/$file\")"
     ],
     "deny": []
   }

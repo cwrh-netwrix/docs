@@ -93,7 +93,7 @@ Video tip for adding ADMX files to your Central Store:
 [https://www.youtube.com/watch?v=Op7hAvc5a0M](https://www.youtube.com/watch?v=Op7hAvc5a0M)
 
 Video tip for adding ADMX files to your Endpoint Policy Manager
-Cloud:[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/gettingstarted/cloud/videos/gettingstarted/admxfiles.md)
+Cloud:[Endpoint Policy ManagerCloud: Upload and use your own ADMX files to Endpoint Policy Manager Cloud](/docs/endpointpolicymanager/deliverymethods/cloud/videos/gettingstarted/admxfiles.md)
 
 The policy settings you might want to use are…
 

@@ -11,7 +11,7 @@ happens. There are two ways to turn on extended logging: downloadable REG files 
 would use the downloadable REG files when you want to enable extended logging on just one machine,
 and you would use the ADMX/ADML files to enable extended logging on multiple machines. The
 downloadable REG files are found on our website at: PolicyPak GP Compliance Reporter >
-[Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md). The ADMX files are
+[Knowledge Base](/docs/endpointpolicymanager/). The ADMX files are
 in the download of Endpoint Policy Manager GPCR, as shown in Figure 77.
 
 ![tuning_and_troubleshooting_18](/images/endpointpolicymanager/troubleshooting/grouppolicycompliancereporter/tuning_and_troubleshooting_18.webp)

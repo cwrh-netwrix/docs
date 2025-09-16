@@ -12,7 +12,7 @@ Follow theses steps in order for support to troubleshoot most issues.
 concerns and issues on the latest CSE. If you haven’t verified your problem exists with the latest
 CSE (and latest MMC or with Cloud), ensure to download the latest CSE before opening a support
 ticket. See the
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/rings.md)
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/rings.md)
 topic for additional information.
 
 **Step 2 –** After the problem is reproduced on the latest CSE, open a

@@ -44,7 +44,7 @@ Steps:
 ![856_2_image-20211130230540-2_950x436](/images/endpointpolicymanager/troubleshooting/nondomain/856_2_image-20211130230540-2_950x436.webp)
 
 \*\*\*\*\* PowerShell Script to apply using Scripts Manager: Scripts & Triggers Manager >
-[Knowledge Base](/docs/endpointpolicymanager/knowledgebase/knowledgebase.md)
+[Knowledge Base](/docs/endpointpolicymanager/)
 
 ```
 #Download the latest PPBR extension from shareFile/PolicyPak Support - Inbox/ppbr_crx/ppbr_21_2_0_0.crx

@@ -47,7 +47,7 @@ Here are some helpful tips to decide which side to use:
 
 :::note
 See
-[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/gettingstarted/mdm/videos/exportingtips/exporterutility.md)
+[Deploying Endpoint Policy Managerdirectives without Group Policy (Endpoint Policy Manager Exporter Utility)](/docs/endpointpolicymanager/deliverymethods/mdm/videos/exportingtips/exporterutility.md)
 for additional information on how to export policies and use Endpoint Policy Manager Exporter
 :::
 

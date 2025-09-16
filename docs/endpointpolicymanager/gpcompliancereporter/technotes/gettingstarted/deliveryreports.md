@@ -26,7 +26,7 @@ mechanism." [https://www.endpointpolicymanager.com/products/endpointpolicymanag
 To answer question #2: Use the free Endpoint Policy Manager Cloud reporting tool. The Endpoint
 Policy Manager Cloud reporting tool can tell you "Did your Endpoint Policy Manager cloud directives
 make it there, when using Endpoint Policy Manager Cloud as the settings deliver
-mechanism." [Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/gettingstarted/cloud/videos/upkeepanddailyuse/reports.md)
+mechanism." [Endpoint Policy Manager Cloud Reporting Demo](/docs/endpointpolicymanager/deliverymethods/cloud/videos/upkeepanddailyuse/reports.md)
 
 To answer question #3: Use your MDM service to tell you if your MSI package made it
 there. [https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-MSI-App-deployments-in-Microsoft/ba-p/359125](https://techcommunity.microsoft.com/t5/Intune-Customer-Success/Support-Tip-Troubleshooting-MSI-App-deployments-in-Microsoft/ba-p/359125)
@@ -40,7 +40,7 @@ Policy Manager Cloud -or- Group Policy (or both.)
 
 As such, you might want to deliver some settings via Endpoint Policy Manager Cloud and other
 settings using Group
-Policy.[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/gettingstarted/cloud/videos/usingwithothermethods/onpremise.md)
+Policy.[Endpoint Policy ManagerCloud and Endpoint Policy Manager OnPremise – Together using PPCloud Licenses](/docs/endpointpolicymanager/deliverymethods/cloud/videos/usingwithothermethods/onpremise.md)
 
 In this scenario:
 

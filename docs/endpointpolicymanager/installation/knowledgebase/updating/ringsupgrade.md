@@ -11,7 +11,7 @@ patches. As such, Netwrix Endpoint Policy Manager (formerly PolicyPak) also stro
 do the same.
 
 Please familiarize yourself with this article before continuing:
-[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/rings.md)
+[Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/rings.md)
 
 If you wish to configure or fine-tune the CSE auto-download process, you may create a file called
 `update.config`, which must be placed within the Endpoint Policy Manager Central Storage CSE folder,

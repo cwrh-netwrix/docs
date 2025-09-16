@@ -30,7 +30,7 @@ Endpoint Policy Manager Cloud. You use your company's Endpoint Policy Manager Cl
 installs the Endpoint Policy Manager Cloud Client, consumes a Endpoint Policy Manager Cloud license,
 and then installs the latest Endpoint Policy Manager Client Side Extension (or whatever the Client
 Side Extension level you have set the GROUP membership to, as explained in this video:
-[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/gettingstarted/cloud/videos/upkeepanddailyuse/groups.md))
+[Endpoint Policy Manager Cloud Groups CSE and Cloud Client Small-Scale Testing and Updates](/docs/endpointpolicymanager/deliverymethods/cloud/videos/upkeepanddailyuse/groups.md))
 
 You cannot pre-install the Endpoint Policy Manager Cloud client, because future machines based upon
 the image will get confused and NOT consume a new license from Endpoint Policy Manager Cloud.
@@ -61,9 +61,9 @@ have it work. If you want to use Endpoint Policy Manager with VDI, you must foll
 of the knowledgebase articles directly below, or use the Endpoint Policy Manager Group Policy
 Edition and license an on-prem domain / OU.
 
-[How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/gettingstarted/cloud/knowledgebase/clienttips/azurevirutaldesktop.md)
+[How to install the Endpoint Policy Manager Cloud Client for use in an Azure Virtual Desktop image](/docs/endpointpolicymanager/deliverymethods/cloud/knowledgebase/clienttips/azurevirutaldesktop.md)
 
-[How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/gettingstarted/cloud/knowledgebase/clienttips/vdisolutions.md)
+[How to install and configure the PPC Client for a Non-Persistent VDI Image in VMware Horizon](/docs/endpointpolicymanager/deliverymethods/cloud/knowledgebase/clienttips/vdisolutions.md)
 
 While it will technically work, you are expressly forbidden by the EULA to attempt to install the
 Endpoint Policy Manager Cloud client (which will install the Endpoint Policy Manager Client Side

@@ -25,15 +25,15 @@ See the following Knowledge Base articles for all things installation and upkeep
 
 ## AntiVirus and other System Software
 
-- [I want to use Endpoint Policy Managerwith Citrix App Layering (aka Unidesk). At which layer should I implement the Endpoint Policy Manager Client Side Extension?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/citrixapplayering.md)
-- [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/antivirus.md)
-- [Why am I prompted about a Digitally Signed Driver for Endpoint Policy Manager CSE (and how do I work around it)?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/digitallysigneddriver.md)
-- [Why won't the Endpoint Policy Manager services start, with an error like (or similar to) "Verify that you have sufficient privileges to start system services."?](/docs/endpointpolicymanager/installation/knowledgebase/antivirussystemsoftware/sufficientprivileges.md)
+- [I want to use Endpoint Policy Managerwith Citrix App Layering (aka Unidesk). At which layer should I implement the Endpoint Policy Manager Client Side Extension?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/citrixapplayering.md)
+- [How must I configure my Anti-virus or system-level software to work with Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/antivirus.md)
+- [Why am I prompted about a Digitally Signed Driver for Endpoint Policy Manager CSE (and how do I work around it)?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/digitallysigneddriver.md)
+- [Why won't the Endpoint Policy Manager services start, with an error like (or similar to) "Verify that you have sufficient privileges to start system services."?](/docs/endpointpolicymanager/upgrademaintenance/antivirussystemsoftware/sufficientprivileges.md)
 
 ## Performance Related Questions
 
-- [I see many instances of the Endpoint Policy Manager Watcher (ppWatcher) service running on my clients, is that normal? And how can I check memory usage?](/docs/endpointpolicymanager/installation/knowledgebase/performancequestions/watcherservicememoryusage.md)
-- [How would I verify if Endpoint Policy Manager Client Side Extension is / is not causing high or CPU disk slowdowns?](/docs/endpointpolicymanager/installation/knowledgebase/performancequestions/cpuslowdown.md)
+- [I see many instances of the Endpoint Policy Manager Watcher (ppWatcher) service running on my clients, is that normal? And how can I check memory usage?](/docs/endpointpolicymanager/upgrademaintenance/performancequestions/watcherservicememoryusage.md)
+- [How would I verify if Endpoint Policy Manager Client Side Extension is / is not causing high or CPU disk slowdowns?](/docs/endpointpolicymanager/upgrademaintenance/performancequestions/cpuslowdown.md)
 
 ## Install and Upgrade Troubleshooting
 
@@ -53,11 +53,11 @@ See the following Knowledge Base articles for all things installation and upkeep
 
 ## Best Practices / Keeping up to Date with releases
 
-- [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/rings.md)
-- [What are the Endpoint Policy Manager Build and Version numbers?](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/versions.md)
-- [When should I upgrade or not upgrade the Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/frequency.md)
-- [How often is Endpoint Policy Manager updated? And, must I update to the latest version? Are all versions supported?](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/frequency_1.md)
-- [How to trigger an update of the Endpoint Policy ManagerClient Side Extension and Cloud Client via command line using Endpoint Policy Manager Cloud versus Group Policy (OnPrem) Edition](/docs/endpointpolicymanager/installation/knowledgebase/bestpractices/commandline.md)
+- [Using Rings to Test and Update the Endpoint Policy Manager Client-Side Extension and/or Cloud Client (And How to Stay Supported)](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/rings.md)
+- [What are the Endpoint Policy Manager Build and Version numbers?](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/versions.md)
+- [When should I upgrade or not upgrade the Endpoint Policy Manager CSE?](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/frequency.md)
+- [How often is Endpoint Policy Manager updated? And, must I update to the latest version? Are all versions supported?](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/frequency_1.md)
+- [How to trigger an update of the Endpoint Policy ManagerClient Side Extension and Cloud Client via command line using Endpoint Policy Manager Cloud versus Group Policy (OnPrem) Edition](/docs/endpointpolicymanager/upgrademaintenance/bestpractices/commandline.md)
 
 ## Updating Endpoint Policy Manager with Active Directory / GPOs
 
