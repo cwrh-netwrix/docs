@@ -25,7 +25,7 @@ Here are some examples:
    down to one. See this blog for details:
    [https://www.endpointpolicymanager.com/pp-blog/windows-update-business](https://www.endpointpolicymanager.com/pp-blog/windows-update-business).
    Then, here's the video on how to perform reduction of existing GPOs:
-   [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmethods/reducegpos.md)
+   [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/components/admintemplatesmanager/videolearningcenter/admintemplatesmethods/reducegpos.md)
 2. You can use Endpoint Policy Manager Admin Templates Manager to specify and lockdown settings for
    browsers and other applications when an admin logs on. Quick examples:
    [What is Endpoint Policy Application Manager (Group Policy Edition)](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/whatdoesitdo/grouppolicy.md)
@@ -51,6 +51,6 @@ Here are some examples:
 9. You can use Endpoint Policy Manager Admin Templates Manager and remove Loopback and specify
    specific user side settings for specific machines when any user (admin or otherwise) logs on to
    the machine:
-   [Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmanager/switchedpolicies.md)
+   [Endpoint Policy Manager Admin Templates Manager: Switched Policies (without Loopback)](/docs/endpointpolicymanager/components/admintemplatesmanager/videolearningcenter/admintemplatesmanager/switchedpolicies.md)
 
 There are other uses, but those are the ones that most customers use.

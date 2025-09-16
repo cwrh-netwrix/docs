@@ -31,7 +31,7 @@ But when the machine is domain joined and GPPreferences policies are being deliv
 Policy, the Endpoint Policy Manager Preferences component can cause an issue because of timing
 outside of our control between the Group Policy / GPPreferences engine and Endpoint Policy Manager.
 This has been a known issue for years. You can
-see[Why do I see slowdowns on my machines when Endpoint Policy Manager Preferences is licensed and computers domain joined? Can this be worked around?](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/knowledgebase/exportinggrouppolicypreferences/domainjoined.md)
+see [Why do I see slowdowns on my machines when Endpoint Policy Manager Preferences is licensed and computers domain joined? Can this be worked around?](/docs/endpointpolicymanager/components/admintemplatesmanager/knowledgebase/exportinggrouppolicypreferences/domainjoined.md)
 
 In order to minimize conflicts, we have, in the past, suggested that customers un-license Endpoint
 Policy Manager Preferences when the machine is domain joined.

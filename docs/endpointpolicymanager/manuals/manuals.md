@@ -46,7 +46,7 @@ The following topics provide information on using Endpoint Policy Manager:
 
 - GPO Reduction and Transitions Pak
 
-  - [Administrative Templates Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/adminstrativetemplat/overview.md)
+  - [Administrative Templates Manager](/docs/endpointpolicymanager/components/admintemplatesmanager/manual/overview.md)
   - [Preferences Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/preferences/overview.md)
 
 - App Delivery & Patching Pak

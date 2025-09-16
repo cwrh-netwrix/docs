@@ -101,7 +101,7 @@ Template (or third-party ADMX setting) to computers over the Internet, even to n
 machines.
 
 **Note**: For more information on this topic, please see this
-video: [Administrative Templates Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/adminstrativetemplat/overview.md).
+video: [Administrative Templates Manager](/docs/endpointpolicymanager/components/admintemplatesmanager/manual/overview.md).
 
 ## File Associations Manager
 
@@ -127,7 +127,7 @@ deploys Group Policy Preference items over the Internet, even to non-domain-join
 The license for this policy is not provided unless specifically requested by the customer
 when Endpoint Policy Manager is used with the Group Policy delivery mechanism. For more details on
 why the license is not automatically provided, please see the following link:
-[Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/knowledgebase/exportinggrouppolicypreferences/componentlicense.md).
+[Where is my Endpoint Policy Manager Preferences Component license and how do I request one?](/docs/endpointpolicymanager/components/admintemplatesmanager/knowledgebase/exportinggrouppolicypreferences/componentlicense.md).
 :::
 
 

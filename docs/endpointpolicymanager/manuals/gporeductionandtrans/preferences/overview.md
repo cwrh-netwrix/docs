@@ -62,7 +62,7 @@ Preferences directives even to non-domain-joined machines.
 
 :::note
 See
-[Which settings can be managed with the Preferences Manager component?](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/knowledgebase/exportinggrouppolicypreferences/settings.md)for additional
+[Which settings can be managed with the Preferences Manager component?](/docs/endpointpolicymanager/components/admintemplatesmanager/knowledgebase/exportinggrouppolicypreferences/settings.md) for additional
 information on Endpoint Policy Manager Preferences Manager used with SCCM, Endpoint Policy Manager
 Cloud, or an MDM service,
 :::

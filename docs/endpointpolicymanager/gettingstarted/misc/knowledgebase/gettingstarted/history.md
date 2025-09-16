@@ -20,7 +20,7 @@ Before 2017
 
 - New Component: File Associations Manager: Quickly map PDF, MAILTO:, and others to the right apps.
 - Reduce GPOs and convert them to use for MDM:
-  [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/knowledgebase/gpoexportmerge/videolearningcenter/admintemplatesmethods/reducegpos.md)
+  [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/components/admintemplatesmanager/videolearningcenter/admintemplatesmethods/reducegpos.md)
 - Least Privilege Manager: SecureRun(TM) blocks Ransomware
   [Events](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/events.md)
 - New Component: New Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 tile

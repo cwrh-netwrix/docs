@@ -49,7 +49,12 @@
       "Bash(echo \"Updated: $file\")",
       "Bash(done)",
       "Bash(for:*)",
-      "Bash(do echo \"=== $dir ===\")"
+      "Bash(do echo \"=== $dir ===\")",
+      "Bash(do echo \"Checking: $file\")",
+      "Bash(if [ -f \"docs/endpointpolicymanager/$file\" ])",
+      "Bash(then echo \"✓ EXISTS\")",
+      "Bash(else echo \"✗ MISSING\")",
+      "Bash(fi)"
     ],
     "deny": []
   }
