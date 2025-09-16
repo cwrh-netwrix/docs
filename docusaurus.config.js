@@ -56,8 +56,9 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
   scripts: [
-    // Add gtag fallback to prevent errors
+    // Add gtag fallback to prevent errors if gtag isn't present
     {
       src: 'data:text/javascript;base64,Ly8gSW5pdGlhbGl6ZSBndGFnIGZhbGxiYWNrIGlmIG5vdCBhbHJlYWR5IHByZXNlbnQKd2luZG93LmRhdGFMYXllciA9IHdpbmRvdy5kYXRhTGF5ZXIgfHwgW107CmlmICh0eXBlb2Ygd2luZG93Lmd0YWcgPT09ICd1bmRlZmluZWQnKSB7CiAgZnVuY3Rpb24gZ3RhZygpe3dpbmRvdy5kYXRhTGF5ZXIucHVzaChhcmd1bWVudHMpO30KICB3aW5kb3cuZ3RhZyA9IGd0YWc7Cn0=',
       async: true,
@@ -78,6 +79,7 @@ const config = {
       async: true,
     },
   ],
+
   presets: [
     [
       'classic',
@@ -106,7 +108,11 @@ const config = {
       pluginName,
       {
         ...config,
-        sidebarPath: require.resolve(config.sidebarPath),
+        // Safer: only require.resolve if it's a string path; otherwise pass through
+        sidebarPath:
+          config.sidebarPath && typeof config.sidebarPath === 'string'
+            ? require.resolve(config.sidebarPath)
+            : config.sidebarPath,
       },
     ]),
   ],
@@ -134,68 +140,30 @@ const config = {
         },
       },
       algolia: {
-        // Your Algolia credentials
         appId: 'KPMSCF6G6J',
-        apiKey: '1b20f30f13a874cd46f9d5c30b01d99c', // Use the search-only API key, not the admin key
+        apiKey: '1b20f30f13a874cd46f9d5c30b01d99c', // search-only API key
         indexName: 'Production Docs',
-
-        // Enable contextual search (already great that you have product/version meta tags!)
         contextualSearch: true,
-
-        // Search parameters for better results
         searchParameters: {
-          // Facet filters can be combined with contextual search
-          // These will be merged with the automatic facets from contextual search
-          facetFilters: [
-            // Add any default filters here if needed
-            // e.g., 'type:content' to exclude headers-only results
-          ],
-
-          // Attributes to snippet in search results
+          facetFilters: [],
           attributesToSnippet: ['content:20'],
-
-          // Highlight search terms in results
           highlightPreTag: '<mark>',
           highlightPostTag: '</mark>',
-
-          // Number of results per page
           hitsPerPage: 20,
-
-          // Add these for better relevance
           distinct: true,
           clickAnalytics: true,
           analytics: true,
         },
-
-        // Enable search insights for better analytics
         insights: true,
-
-        // Path for the search page (enables full-page search experience)
         searchPagePath: 'search',
-
-        // Placeholder text for the search box
         placeholder: 'Search the Netwrix docs...',
-
-        // Transform items before displaying (optional)
-        transformItems: (items) => {
-          return items.map((item) => {
-            // Add product badges or modify display as needed
-            return {
-              ...item,
-              // Example: Add custom badges based on product
-              _highlightResult: {
-                ...item._highlightResult,
-                // Customize highlighted results if needed
-              },
-            };
-          });
-        },
-
-        // Replace paths if you're using different deployments
-        // replaceSearchResultPathname: {
-        //   from: '/docs/',
-        //   to: '/',
-        // },
+        transformItems: (items) =>
+          items.map((item) => ({
+            ...item,
+            _highlightResult: {
+              ...item._highlightResult,
+            },
+          })),
       },
       navbar: {
         logo: {
@@ -205,23 +173,10 @@ const config = {
           href: '/',
         },
         items: [
-          // Generate category dropdowns from centralized product configuration
           ...generateNavbarDropdowns(),
-          {
-            href: 'https://community.netwrix.com',
-            label: 'Community',
-            position: 'right',
-          },
-          {
-            href: 'https://www.netwrix.com/support.html',
-            label: 'Support',
-            position: 'right',
-          },
-          {
-            href: 'http://github.com/netwrix',
-            label: 'GitHub',
-            position: 'right',
-          },
+          { href: 'https://community.netwrix.com', label: 'Community', position: 'right' },
+          { href: 'https://www.netwrix.com/support.html', label: 'Support', position: 'right' },
+          { href: 'http://github.com/netwrix', label: 'GitHub', position: 'right' },
         ],
       },
       prism: {
@@ -230,6 +185,7 @@ const config = {
         additionalLanguages: ['powershell', 'bash'],
       },
     }),
+
   // Add preconnect for better search performance
   headTags: [
     {
