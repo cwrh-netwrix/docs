@@ -6,7 +6,7 @@ keywords:
   - NetApp latency
   - FPolicy configuration
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: Latency with NetApp
 tags: []
 title: "Latency Issues with Netwrix Activity Monitor and NetApp"

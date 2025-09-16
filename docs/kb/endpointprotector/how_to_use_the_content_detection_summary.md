@@ -51,4 +51,4 @@ Follow the steps below to complete this process:
 
 ## Related Links
 
-- [Endpoint Protector Deployment Resources](/docs/endpointprotector/)
+- [Endpoint Protector Deployment Resources](../endpointprotector/)

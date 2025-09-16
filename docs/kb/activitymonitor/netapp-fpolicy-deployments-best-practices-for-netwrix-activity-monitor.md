@@ -13,7 +13,7 @@ keywords:
   - SVM
   - FlexCache
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: Netapp Fpolicy Deployments Best Practices for Netw
 tags: []
 title: "Netapp Fpolicy Deployments Best Practices for Netwrix Activity Monitor"

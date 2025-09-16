@@ -8,7 +8,7 @@ keywords:
   - foreign key error
   - FS_MigrateSchema
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: "Error: 'dbo.SA_FSAA_Resources.ID' Is Not the Same Data Type as Referencing Column"
 tags: []
 title: "Error: 'dbo.SA_FSAA_Resources.ID' Is Not the Same Data Type as Referencing Column"

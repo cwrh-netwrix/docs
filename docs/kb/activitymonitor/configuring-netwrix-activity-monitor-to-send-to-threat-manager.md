@@ -11,7 +11,7 @@ keywords:
   - Threat Prevention
   - send events
 products:
-  - activity-monitor
+  - activitymonitor
   - threat-manager
 sidebar_label: Configuring Netwrix Activity Monitor to Send to Th
 tags: []

@@ -10,7 +10,7 @@ tags: []
 title: ".NET Dependencies for Netwrix Threat Prevention"
 knowledge_article_id: kA0Qk0000002DxFKAU
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # .NET Dependencies for Netwrix Threat Prevention
@@ -42,7 +42,7 @@ Example:
 ## Related Articles
 
 - [Netwrix Threat Prevention](/docs/threatprevention/)
-- [.NET Dependencies for Netwrix Access Analyzer](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_access_analyzer)
-- [.NET Dependencies for Netwrix Recovery for Active Directory](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_recovery_for_active_directory)
-- [.NET Dependencies for Netwrix Threat Manager](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_threat_manager)
-- [.NET Dependencies for Netwrix Activity Monitor](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_activity_monitor)
+- [.NET Dependencies for Netwrix Access Analyzer](/docs/kb/activitymonitor/net_dependencies_for_netwrix_access_analyzer)
+- [.NET Dependencies for Netwrix Recovery for Active Directory](/docs/kb/activitymonitor/net_dependencies_for_netwrix_recovery_for_active_directory)
+- [.NET Dependencies for Netwrix Threat Manager](/docs/kb/activitymonitor/net_dependencies_for_netwrix_threat_manager)
+- [.NET Dependencies for Netwrix Activity Monitor](/docs/kb/activitymonitor/net_dependencies_for_netwrix_activity_monitor)

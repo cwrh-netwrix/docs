@@ -34,7 +34,7 @@ The service account used to upgrade or install Core Service has insufficient per
 
 ## Resolution
 
-Review the permissions granted to the service account. Refer to the following article for additional information on required permissions: /docs/auditor/10.6/auditor/configurationuration/sharepoint (SharePoint — Permissions for SharePoint Auditing · v10.6).
+Review the permissions granted to the service account. Refer to the following article for additional information on required permissions: /docs/auditor/10.8/configuration/sharepoint (SharePoint — Permissions for SharePoint Auditing · v10.6).
 
 ### Manual Installation
 
@@ -61,4 +61,4 @@ Verify that Core Service is installed globally.
 
 ## Related Articles
 
-- /docs/auditor/10.6/auditor/configurationuration/sharepoint (SharePoint — Permissions for SharePoint Auditing · v10.6)
+- /docs/auditor/10.8/configuration/sharepoint (SharePoint — Permissions for SharePoint Auditing · v10.6)

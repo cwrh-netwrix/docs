@@ -14,7 +14,7 @@ keywords:
   - FILESYSTEMACCESS
   - 1-FSAC System Scans_Log.tsv
 products:
-  - activity-monitor
+  - activitymonitor
   - access-analyzer
 sidebar_label: Netwrix Activity Monitor Report Shows Successful B
 tags: []

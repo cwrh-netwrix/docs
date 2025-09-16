@@ -10,7 +10,7 @@ tags: []
 title: "Displays Data for Resources That Are Out of Scope"
 knowledge_article_id: kA0Qk0000002tEvKAI
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # Displays Data for Resources That Are Out of Scope

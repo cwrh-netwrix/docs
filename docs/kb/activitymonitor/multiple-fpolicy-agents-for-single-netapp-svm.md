@@ -12,7 +12,7 @@ keywords:
   - FPolicy servers
   - failover
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: Multiple FPolicy Agents for Single NetApp SVM
 tags: []
 title: "Multiple FPolicy Agents for Single NetApp SVM"

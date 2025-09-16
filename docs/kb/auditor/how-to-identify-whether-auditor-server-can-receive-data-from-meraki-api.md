@@ -55,4 +55,4 @@ This is an example of a response when the product cannot access the Meraki API:
 
 ![User-added image](images/ka0Qk0000002jaX_0EMQk0000045bUT.png)
 
-In this case, check the ports required to audit the Meraki dashboard source and your internal firewall. Learn more about required ports and protocols in this article: Data Source Configuration — Network Devices — Network Devices Ports — v10.6 (/docs/auditor/10.6/auditor/configurationuration/networkdevices).
+In this case, check the ports required to audit the Meraki dashboard source and your internal firewall. Learn more about required ports and protocols in this article: Data Source Configuration — Network Devices — Network Devices Ports — v10.6 (/docs/auditor/10.8/configuration/networkdevices).

@@ -39,19 +39,19 @@ SQL Server Reporting Services (SSRS) connection issues or insufficient permissio
 
 ## Resolution
 
-1. Make sure you are using a supported SQL Server edition. Refer to the following article: /docs/auditor/10.7/auditor/requirements
+1. Make sure you are using a supported SQL Server edition. Refer to the following article: /docs/auditor/10.8/requirements/overview.md
 
-2. Check the permissions for your Audit Database account. Refer to the following article: /docs/auditor/10.7/auditor/requirements
+2. Check the permissions for your Audit Database account. Refer to the following article: /docs/auditor/10.8/requirements/overview.md
 
-3. Check the permissions for the account used to collect data in your environment. Refer to the following article: /docs/auditor/10.7/auditor/admin-guide/monitoringplans
+3. Check the permissions for the account used to collect data in your environment. Refer to the following article: /docs/auditor/10.8/admin/monitoringplans
 
    > **IMPORTANT:** The account should be a member of the local Administrators group.
 
-   If you use a `gMSA` account for data collection, refer to the following article for additional information: /docs/auditor/10.7/auditor/requirements
+   If you use a `gMSA` account for data collection, refer to the following article for additional information: /docs/auditor/10.8/requirements/overview.md
 
-4. Check your Report Services configuration. Refer to the following article: /docs/kb/auditor/deploying_the_report_server_database
+4. Check your Report Services configuration. Refer to the following article: /docs/kb/auditor/deploying-the-report-server-database
 
-5. Check the permissions for your SSRS Account. Refer to the following article: /docs/auditor/10.7/auditor/requirements
+5. Check the permissions for your SSRS Account. Refer to the following article: /docs/auditor/10.8/requirements/overview.md
 
    > **IMPORTANT:** The account should be a member of the local Administrators group.
 
@@ -63,9 +63,9 @@ SQL Server Reporting Services (SSRS) connection issues or insufficient permissio
 
 ## Related Links
 
-- Requirements for SQL Server to Store Audit Data: /docs/auditor/10.7/auditor/requirements
-- Requirements for SQL Server to Store Audit Data: Configure Audit Database Account: /docs/auditor/10.7/auditor/requirements
-- Monitoring Plans – Data Collecting Account: /docs/auditor/10.7/auditor/admin-guide/monitoringplans
-- Requirements – Use Group Managed Service Account (gMSA): /docs/auditor/10.7/auditor/requirements
-- Deploying the Report Server Database: /docs/kb/auditor/deploying_the_report_server_database
-- SQL Server Reporting Services: Configure SSRS Account: /docs/auditor/10.7/auditor/requirements
+- Requirements for SQL Server to Store Audit Data: /docs/auditor/10.8/requirements/overview.md
+- Requirements for SQL Server to Store Audit Data: Configure Audit Database Account: /docs/auditor/10.8/requirements/overview.md
+- Monitoring Plans – Data Collecting Account: /docs/auditor/10.8/admin/monitoringplans
+- Requirements – Use Group Managed Service Account (gMSA): /docs/auditor/10.8/requirements/overview.md
+- Deploying the Report Server Database: /docs/kb/auditor/deploying-the-report-server-database
+- SQL Server Reporting Services: Configure SSRS Account: /docs/auditor/10.8/requirements/overview.md

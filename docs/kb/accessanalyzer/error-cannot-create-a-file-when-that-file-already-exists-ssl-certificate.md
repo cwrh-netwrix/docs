@@ -56,8 +56,8 @@ Refer to the following steps to verify that the target port has a bound SSL cert
 
    Replace `481` with the target port.
 
-3. Bind a new certificate—refer to the following article for additional information: Secure Console Access—Create an SSL Binding · v10.7 (/docs/auditor/10.7/access/reviews/installationation).
+3. Bind a new certificate—refer to the following article for additional information: Secure Console Access—Create an SSL Binding · v10.7 (/docs/auditor/10.8/accessreviews/reviews/installation).
 
 ## Related Articles
 
-- Secure Console Access—Create an SSL Binding · v10.7 (/docs/auditor/10.7/access/reviews/installationation)
+- Secure Console Access—Create an SSL Binding · v10.7 (/docs/auditor/10.8/accessreviews/reviews/installation)

@@ -11,7 +11,7 @@ keywords:
   - console
   - '%ALLUSERSPROFILE%'
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: SFAM Log Locations
 tags: []
 title: "SFAM Log Locations"

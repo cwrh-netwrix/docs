@@ -39,9 +39,9 @@ Invalid user credentials. Update your settings if necessary or proceed with curr
 
 ## Resolutions
 
-- Review the permissions granted to the SSRS account − refer to the following article for additional information on the initial setup: /docs/auditor/10.6/auditor/requirements
+- Review the permissions granted to the SSRS account − refer to the following article for additional information on the initial setup: /docs/auditor/10.8/requirements/overview.md
 - Review the credentials specified for the SSRS account.
 
 ## Related articles
 
-- /docs/auditor/10.6/auditor/requirements
+- /docs/auditor/10.8/requirements/overview.md

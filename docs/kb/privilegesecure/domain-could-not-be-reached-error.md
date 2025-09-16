@@ -42,7 +42,7 @@ If the **Use TLS** option is disabled, the AD sync completes with no errors.
 
 ## Resolutions
 
-- Verify the LDAP/LDAPS ports are open in your environment. Refer to the following article for additional information on ports required for Netwrix Privilege Secure: /docs/privilege-secure/4.1/privilegesecure/accessmanagement/requirements
+- Verify the LDAP/LDAPS ports are open in your environment. Refer to the following article for additional information on ports required for Netwrix Privilege Secure: /docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements
 - Issue Kerberos authentication certificates to domain controllers in your environment.
 
 > **TIP:** The **Use TLS** feature is optional—it is not required to perform AD syncs. When the feature is enabled, the LDAPS protocol is used. It requires the ability to resolve both domain names and FQDNs.
@@ -51,4 +51,4 @@ If the **Use TLS** option is disabled, the AD sync completes with no errors.
 
 ## Related articles
 
-- Requirements − Ports Requirements · v4.1: /docs/privilege-secure/4.1/privilegesecure/accessmanagement/requirements
+- Requirements − Ports Requirements · v4.1: /docs/privilegesecure/4.2/privilegesecure/accessmanagement/requirements

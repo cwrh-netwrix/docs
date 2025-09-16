@@ -27,7 +27,7 @@ Follow the steps below to complete this process:
    - **Customer-Managed**: You can install the server either on-premises or in a hosted cloud environment.
    - **Provider-Managed**: An instance of Endpoint Protector can be provisioned in an isolated cloud environment. For more details about the Provider-Managed option, contact your Netwrix Account Manager.
    
-2. Review deployment manuals: For detailed information about each deployment option, refer to the following resources: [Endpoint Protector Deployment Resources](/docs/endpointprotector/).
+2. Review deployment manuals: For detailed information about each deployment option, refer to the following resources: [Endpoint Protector Deployment Resources](../endpointprotector/).
 
 3. Obtain and install a license key: To use the Endpoint Protector Server in a production environment, you must have a license key. After purchasing Endpoint Protector with the necessary module(s), your Account Manager will assign a license that can be installed within the Endpoint Protector Management Console.
 
@@ -37,4 +37,4 @@ Follow the steps below to complete this process:
 
 ## Related Links
 
-- [Endpoint Protector Deployment Resources](/docs/endpointprotector/)
+- [Endpoint Protector Deployment Resources](../endpointprotector/)

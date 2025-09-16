@@ -44,8 +44,8 @@ Here are the possible causes for the issue:
 
 Review the possible resolutions depending on you cause:
 
-- For cause 1. Make sure you configured Firewall rules. For additional information on the Firewall rules configuration, refer to the following article: /docs/auditor/10.6/auditor/requirements (Requirements – Protocols and Ports Required — v10.6).
+- For cause 1. Make sure you configured Firewall rules. For additional information on the Firewall rules configuration, refer to the following article: /docs/auditor/10.8/requirements (Requirements – Protocols and Ports Required — v10.6).
 
-- For cause 2. Make sure you assigned all required rights and permissions to the account used for data collection. For additional information on the data collecting account configuration, refer to the following article: /docs/auditor/10.6/auditor/admin-guide/monitoringplans (Monitoring Plans – Data Collecting Account — v10.6).
+- For cause 2. Make sure you assigned all required rights and permissions to the account used for data collection. For additional information on the data collecting account configuration, refer to the following article: /docs/auditor/10.8/admin/monitoringplans (Monitoring Plans – Data Collecting Account — v10.6).
 
-- For cause 3. For additional information on the data collecting account configuration, refer to the following article: /docs/kb/auditor/error_0x800706ba_−_rpc_server_is_unavailable (Error: The RPC server is unavailable).
+- For cause 3. For additional information on the data collecting account configuration, refer to the following article: /docs/kb/auditor/error-0x800706ba-rpc-server-is-unavailable (Error: The RPC server is unavailable).

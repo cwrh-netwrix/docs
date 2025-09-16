@@ -15,7 +15,7 @@ keywords:
   - data collection
   - warning
 products:
-  - activity-monitor
+  - activitymonitor
   - access-analyzer
 sidebar_label: 'Sharepoint Online Activity Scan Warning: Unknown I'
 tags: []

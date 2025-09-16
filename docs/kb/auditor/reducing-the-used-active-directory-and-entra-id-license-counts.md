@@ -72,7 +72,7 @@ Refer to the following examples to learn about how the exclusion rules work for 
 
 ### Exclude an OU via the Omit List
 
-Populate the `omitpathlist.txt` omit list with the OU you would like to omit. Use the exclusion rules provided above. For additional information on AD omit lists, refer to the following article: [Active Directory Monitoring Scope](/docs/auditor/10.7/admin/monitoringplans/activedirectory/scope).
+Populate the `omitpathlist.txt` omit list with the OU you would like to omit. Use the exclusion rules provided above. For additional information on AD omit lists, refer to the following article: [Active Directory Monitoring Scope](/docs/auditor/10.8/admin/monitoringplans/activedirectory/scope).
 
 ### Exclude Entra ID Users via the omitUPNlist.txt File
 
@@ -83,7 +83,7 @@ To exclude specific Entra ID users from the license count, populate the `omitUPN
 
 `Wildcard *` is supported and can replace any number of characters.
 
-> **IMPORTANT:** Excluding users via the `omitUPNlist.txt` file will reduce the Entra ID user count used for licensing but will also exclude these users from monitoring. For more information, please see [Microsoft Entra ID Monitoring Scope](/docs/auditor/10.7/admin/monitoringplans/microsoftentraid/scope).
+> **IMPORTANT:** Excluding users via the `omitUPNlist.txt` file will reduce the Entra ID user count used for licensing but will also exclude these users from monitoring. For more information, please see [Microsoft Entra ID Monitoring Scope](/docs/auditor/10.8/admin/monitoringplans/microsoftentraid/scope).
 
 ## Tips
 
@@ -97,5 +97,5 @@ To exclude specific Entra ID users from the license count, populate the `omitUPN
 
 - [Determining the Number of Enabled Active Directory User Accounts](/docs/kb/auditor/determining-the-number-of-enabled-active-directory-user-accounts)
 - [Determining the Number of Enabled Microsoft Entra ID Accounts](/docs/kb/auditor/determining-the-number-of-enabled-microsoft-entra-id-accounts)
-- [Active Directory Monitoring Scope](/docs/auditor/10.7/admin/monitoringplans/activedirectory/scope)
-- [Microsoft Entra ID Monitoring Scope](/docs/auditor/10.7/admin/monitoringplans/microsoftentraid/scope)
+- [Active Directory Monitoring Scope](/docs/auditor/10.8/admin/monitoringplans/activedirectory/scope)
+- [Microsoft Entra ID Monitoring Scope](/docs/auditor/10.8/admin/monitoringplans/microsoftentraid/scope)

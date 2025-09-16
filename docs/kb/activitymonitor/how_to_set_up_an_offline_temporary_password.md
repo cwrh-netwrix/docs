@@ -10,7 +10,7 @@ tags: []
 title: "How to Set Up an Offline Temporary Password"
 knowledge_article_id: kA0Qk0000002BAvKAM
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # How to Set Up an Offline Temporary Password
@@ -46,4 +46,4 @@ Within the Endpoint Protector (EPP) Management Console, administrators can gener
 
 > **NOTE:** The OTP is unique to the specified device and computer and cannot be reused for other devices or computers. The OTP must be redeemed on the same day it is generated, unless you use the Universal Offline Temporary Password feature. For multinational environments, adjust the time interval for the OTP based on the time zone difference between the EPP Server and the endpoint.
 
-For more information, review the documentation: [Offline Temporary Password](/docs/endpointprotector/5.9.4.2/admin/offlinetemporarypassword/overview).
+For more information, review the documentation: [Offline Temporary Password](../endpointprotector/5.9.4.2/admin/otpassword).

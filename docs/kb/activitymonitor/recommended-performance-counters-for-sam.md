@@ -12,7 +12,7 @@ keywords:
   - SAM Agent
   - performance monitoring
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: Recommended Performance Counters for SAM
 tags: []
 title: "Recommended Performance Counters for SAM"

@@ -49,4 +49,4 @@ The user is not included in any or one of the following groups: Domain Admins, E
 
 ## Resolution
 
-Configure the user to be used in the Audit Configuration Assistant utility. For additional information on user permissions required for Audit Configuration Assistant utility, refer to the following article: /docs/auditor/10.6/auditor/tools
+Configure the user to be used in the Audit Configuration Assistant utility. For additional information on user permissions required for Audit Configuration Assistant utility, refer to the following article: /docs/auditor/10.8/tools/overview.md

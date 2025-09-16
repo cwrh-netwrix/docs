@@ -53,18 +53,18 @@ Now when members of the security role try to create groups, they will be created
 
 ## Reference:
 - Admin Center — Security Roles — New Object Policy for Security Roles — v11.0  
-  /docs/directory-manager/11.0/groupid/admin-guidecenter/securityrole/policy
+  /docs/directorymanager/11.1/admincenter/securityrole/policy
 
 ## Related Articles:
 - Walkthrough Search Policy - Define Scope and Filter Results  
-  /docs/kb/directory-manager/walkthrough_search_policy_-_define_scope_and_filter_results
+  /docs/kb/directorymanager/walkthrough_search_policy_-_define_scope_and_filter_results
 - How To Import Members to a Group Using Self-Service Import Wizard  
-  /docs/kb/directory-manager/how_to_import_members_to_a_group_using_self-service_import_wizard
+  /docs/kb/directorymanager/how_to_import_members_to_a_group_using_self-service_import_wizard
 - How to Trigger a workflow When a User Сreates a Group  
-  /docs/kb/directory-manager/how_to_trigger_a_workflow_when_a_user_сreates_a_group
+  /docs/kb/directorymanager/how_to_trigger_a_workflow_when_a_user_сreates_a_group
 - How To Add Message Approvers in Group Properties in Self-Service  
-  /docs/kb/directory-manager/how_to_add_message_approvers_in_group_properties_in_groupid_portal
+  /docs/kb/directorymanager/how_to_add_message_approvers_in_group_properties_in_groupid_portal
 - Best Practices for Controlling Changes to Group Membership  
-  /docs/kb/directory-manager/how_to_enforce_users_to_create_groups_in_a_specific_ou
+  /docs/kb/directorymanager/how_to_enforce_users_to_create_groups_in_a_specific_ou
 - Best Practices for Preventing Accidental Data Leakage  
-  /docs/kb/directory-manager/best_practices_for_preventing_accidental_data_leakage
+  /docs/kb/directorymanager/best_practices_for_preventing_accidental_data_leakage

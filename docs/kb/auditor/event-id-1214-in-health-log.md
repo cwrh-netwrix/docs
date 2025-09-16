@@ -43,8 +43,8 @@ The following error occurred when trying to write audit data to the SQL database
    - Long-term Archive − you can establish the location by following **Settings** > **Long-Term Archive** > **Write audit data to**. The default location is ` %PROGRAMDATA%\Netwrix Auditor\Data`.
    - Short-Term Archive − you can establish the location by following **Health Status** > **Open diagnostic logs folder** under **Working folder** > parent folder of the **Logs** folder. The default location is ` %ProgramData%\Netwrix Auditor\ShortTerm`.
 
-2. Cause #2 − Verify SQL Server Reporting Services settings − refer to the following article for additional information: /docs/auditor/10.6/auditor/admin-guide/settings (Netwrix Auditor Settings − Audit Database · v10.6).
+2. Cause #2 − Verify SQL Server Reporting Services settings − refer to the following article for additional information: /docs/auditor/10.8/admin/settings (Netwrix Auditor Settings − Audit Database · v10.6).
 
 ## Related articles
 
-- Netwrix Auditor Settings − Audit Database · v10.6: /docs/auditor/10.6/auditor/admin-guide/settings
+- Netwrix Auditor Settings − Audit Database · v10.6: /docs/auditor/10.8/admin/settings

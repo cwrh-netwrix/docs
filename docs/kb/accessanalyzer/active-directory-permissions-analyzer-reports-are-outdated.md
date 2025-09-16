@@ -32,7 +32,7 @@ Example of the incorrect data:
 ## Cause
 
 ADPA Data is not cleared when running only the ADInventory (ADI): Category >> Drop Domain – Remove host domain related data from SQL server option seen under the following:  
-/docs/auditor/11.5/stealthaudit/data-collectors/adinventory-data-collector/adinventory-query-configurationuration
+/docs/auditor/10.8/stealthaudit/data-collectors/adinventory-data-collector/adinventory-query-configuration
 
 ## Resolution
 

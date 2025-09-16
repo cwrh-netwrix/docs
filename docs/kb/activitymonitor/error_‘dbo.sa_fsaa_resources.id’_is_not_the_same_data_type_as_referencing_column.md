@@ -12,7 +12,7 @@ tags: []
 title: "Error: ‘dbo.SA_FSAA_Resources.ID’ Is Not the Same Data Type as Referencing Column"
 knowledge_article_id: kA0Qk0000002RLtKAM
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # Error: ‘dbo.SA_FSAA_Resources.ID’ Is Not the Same Data Type as Referencing Column

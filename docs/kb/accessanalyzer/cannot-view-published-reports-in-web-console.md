@@ -33,16 +33,16 @@ The account used to run the `Netwrix Access Analyzer Web Server` service does no
 
 ## Resolution
 
-> **NOTE:** If the SQL authentication method is implemented in your Access Analyzer instance to connect to the database, the **Local System** account can be used to run the `Netwrix Access Analyzer Web Server` service. To verify the authentication method, review the **Storage** settings node in Access Analyzer. Refer to the following article for additional information: /docs/access-analyzer/12.0/enterpriseauditor/admin-guide/settings/storage (Administration − Storage).
+> **NOTE:** If the SQL authentication method is implemented in your Access Analyzer instance to connect to the database, the **Local System** account can be used to run the `Netwrix Access Analyzer Web Server` service. To verify the authentication method, review the **Storage** settings node in Access Analyzer. Refer to the following article for additional information: /docs/auditor/10.8/admin/settings/storage (Administration − Storage).
 
 1. In the Access Analyzer server, open **Services**.
 2. Locate the `Netwrix Access Analyzer Web Server` service, right-click it, and select **Properties**.
 3. In the **Log On** tab, specify the account with permissions to access the Access Analyzer database. Save the changes, then restart the service.
 
-> **TIP:** You can specify any account with permissions to access the Access Analyzer database. It is recommended to use either the Scheduled Task Profile account or the database service account used in Netwrix Access Information Center. Refer to the following articles for additional information: /docs/access-analyzer/12.0/enterpriseauditor/admin-guide/settings (Global Settings − Schedule) and /docs/access-analyzer/12.0/access/informationcenter/admin-guide/configurationuration (Access Information Center − Database Page).
+> **TIP:** You can specify any account with permissions to access the Access Analyzer database. It is recommended to use either the Scheduled Task Profile account or the database service account used in Netwrix Access Information Center. Refer to the following articles for additional information: /docs/auditor/10.8/admin/settings (Global Settings − Schedule) and /docs/accessanalyzer/12.0/access/informationcenter/admin-guide/configuration (Access Information Center − Database Page).
 
 ## Related Articles
 
-- /docs/access-analyzer/12.0/enterpriseauditor/admin-guide/settings/storage (Administration − Storage)
-- /docs/access-analyzer/12.0/enterpriseauditor/admin-guide/settings (Global Settings − Schedule)
-- /docs/access-analyzer/12.0/access/informationcenter/admin-guide/configurationuration (Access Information Center − Database Page)
+- /docs/auditor/10.8/admin/settings/storage (Administration − Storage)
+- /docs/auditor/10.8/admin/settings (Global Settings − Schedule)
+- /docs/accessanalyzer/12.0/access/informationcenter/admin-guide/configuration (Access Information Center − Database Page)

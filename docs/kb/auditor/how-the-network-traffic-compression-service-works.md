@@ -75,4 +75,4 @@ Seattle.acme.com=agent
 
 ## Related Articles
 
-- Network Traffic Compression ⸱ v 10.6 — /docs/auditor/10.6/auditor/admin-guide/healthstatus
+- Network Traffic Compression ⸱ v 10.6 — /docs/auditor/10.8/admin/healthstatus

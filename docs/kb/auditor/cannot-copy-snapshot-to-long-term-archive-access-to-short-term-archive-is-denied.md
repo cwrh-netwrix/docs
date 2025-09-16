@@ -42,7 +42,7 @@ Write permissions for the custom Long-Term Archive service account are misconfig
 
 ## Resolution
 
-1. Review the permissions settings for the affected Long-Term Archive service account. Refer to the following article for additional information: Installation − Configure Long-Term Archive Account ⸱ v10.5 (/docs/auditor/10.5/auditor/permissions/archiveaccount).
+1. Review the permissions settings for the affected Long-Term Archive service account. Refer to the following article for additional information: Installation − Configure Long-Term Archive Account ⸱ v10.5 (/docs/auditor/10.8/requirements/longtermarchive.md).
 
 2. Allow Full Control permissions to the affected Long-Term Archive service account for the following 2 folders:
 
@@ -53,4 +53,4 @@ Write permissions for the custom Long-Term Archive service account are misconfig
 ## Related articles
 
 - Installation − Configure Long-Term Archive Account ⸱ v10.5  
-  /docs/auditor/10.5/auditor/permissions/archiveaccount
+  /docs/auditor/10.8/requirements/longtermarchive.md

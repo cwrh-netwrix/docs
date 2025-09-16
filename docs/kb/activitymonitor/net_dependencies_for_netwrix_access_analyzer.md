@@ -6,7 +6,7 @@ keywords:
   - Netwrix Access Analyzer
   - system requirements
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: .NET Dependencies for Access Analyzer
 tags: []
 title: ".NET Dependencies for Netwrix Access Analyzer"
@@ -59,7 +59,7 @@ Example:
 ## Related Articles
 
 - Netwrix Access Analyzer
-- [.NET Dependencies for Netwrix Threat Prevention](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_threat_prevention)
-- [.NET Dependencies for Netwrix Recovery for Active Directory](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_recovery_for_active_directory)
-- [.NET Dependencies for Netwrix Threat Manager](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_threat_manager)
-- [.NET Dependencies for Netwrix Activity Monitor](/docs/kb/activitymonitor/.net_dependencies_for_netwrix_activity_monitor)
+- [.NET Dependencies for Netwrix Threat Prevention](/docs/kb/activitymonitor/net_dependencies_for_netwrix_threat_prevention)
+- [.NET Dependencies for Netwrix Recovery for Active Directory](/docs/kb/activitymonitor/net_dependencies_for_netwrix_recovery_for_active_directory)
+- [.NET Dependencies for Netwrix Threat Manager](/docs/kb/activitymonitor/net_dependencies_for_netwrix_threat_manager)
+- [.NET Dependencies for Netwrix Activity Monitor](/docs/kb/activitymonitor/net_dependencies_for_netwrix_activity_monitor)

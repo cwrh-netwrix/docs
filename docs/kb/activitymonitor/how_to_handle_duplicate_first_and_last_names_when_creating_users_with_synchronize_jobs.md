@@ -10,7 +10,7 @@ tags: []
 title: "How to Handle Duplicate First and Last Names When Creating Users with Synchronize Jobs"
 knowledge_article_id: kA0Qk0000002Z1hKAE
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # How to Handle Duplicate First and Last Names When Creating Users with Synchronize Jobs

@@ -53,4 +53,4 @@ Follow the steps below to turn off the **Recovery** mode for the database:
 
 ### Related Article:
 
-- Recovery Mode Changes in SQL Databases: /docs/kb/auditor/recovery_mode_changes_in_sql_databases
+- Recovery Mode Changes in SQL Databases: /docs/kb/auditor/recovery-mode-changes-in-sql-databases

@@ -38,4 +38,4 @@ Netwrix Auditor configures target servers for auditing by applying local audit p
 
 Open the **Group Policies** snap-in on the target Domain Controller and configure audit policies.
 
-For the full list of audit policies to be configured, refer to the following article: /docs/auditor/10.6/auditor/configurationuration/windowsserver (Windows Server Configuration — Configuration via Group Policy · v10.6)
+For the full list of audit policies to be configured, refer to the following article: /docs/auditor/10.8/configuration/windowsserver (Windows Server Configuration — Configuration via Group Policy · v10.6)

@@ -33,4 +33,4 @@ To troubleshoot issues with 2FA, try one or more of the following steps:
 
 - [Enable Two-Factor Authentication](/docs/kb/endpointprotector/enable_two-factor_authentication_for_system_admins_with_google_authenticator_app)
 - [Managing System Administrators and Administrator Groups](/docs/kb/endpointprotector/managing-system-administrators-and-administrator-groups)
-- [Two-Factor Authentication Overview – Endpoint Protector Documentation](/docs/endpointprotector/5.9.3/admin/systemconfiguration/overview)
+- [Two-Factor Authentication Overview – Endpoint Protector Documentation](../endpointprotector/5.9.4.2/admin/systemconfiguration/overview)

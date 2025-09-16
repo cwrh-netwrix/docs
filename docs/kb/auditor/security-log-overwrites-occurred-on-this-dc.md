@@ -39,11 +39,11 @@ Please increase the maximum size of the Security event log
 
 ## Resolution
 
-- To configure the Security event log size and retention settings, refer to the following article: /docs/auditor/10.6/auditor/configurationuration/fileservers/windows (Windows File Servers − Configure Event Log Size and Retention Settings ⸱ v10.6).
-- For additional information on sample deployment scenarios and corresponding hardware requirements, refer to the following article: /docs/auditor/10.6/auditor/requirements (Requirements − Sample Deployment Scenarios ⸱ v10.6).
+- To configure the Security event log size and retention settings, refer to the following article: /docs/auditor/10.8/configuration/fileservers/windows (Windows File Servers − Configure Event Log Size and Retention Settings ⸱ v10.6).
+- For additional information on sample deployment scenarios and corresponding hardware requirements, refer to the following article: /docs/auditor/10.8/requirements (Requirements − Sample Deployment Scenarios ⸱ v10.6).
 
 ## Related articles
 
-- /docs/auditor/10.6/auditor/configurationuration/fileservers/windows (Windows File Servers − Configure Event Log Size and Retention Settings ⸱ v10.6)
+- /docs/auditor/10.8/configuration/fileservers/windows (Windows File Servers − Configure Event Log Size and Retention Settings ⸱ v10.6)
 
-- /docs/auditor/10.6/auditor/requirements (Requirements − Sample Deployment Scenarios ⸱ v10.6)
+- /docs/auditor/10.8/requirements (Requirements − Sample Deployment Scenarios ⸱ v10.6)

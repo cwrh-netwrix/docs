@@ -51,6 +51,6 @@ Follow the steps below to decrease the retention period for the archive:
 
 It is up to you to decide how long you want to keep historical data. If you know that no historical data will be needed past one year, decrease the retention to `12 months`. The historical data can be imported from the Archive back to your Audit Database when needed via the **Investigations** feature.
 
-Learn more about Investigations in the following article: /docs/auditor/10.6/auditor/admin-guide/settings
+Learn more about Investigations in the following article: /docs/auditor/10.8/admin/settings
 
-Review additional recommendations for preventing Long-Term Archive overflow in the following article: /docs/kb/auditor/how_to_prevent_long-term_archive_overflow
+Review additional recommendations for preventing Long-Term Archive overflow in the following article: /docs/kb/auditor/how-to-prevent-long-term-archive-overflow

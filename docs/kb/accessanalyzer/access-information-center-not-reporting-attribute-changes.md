@@ -39,10 +39,10 @@ Ensure that differential scans for AD Inventory are enabled and running. This wi
 
   ![Collect only updates since the last scan](images/servlet_image_bd5be116677a.png)
 
-- For further information on customizing the `AD > 1-AD_Scan` job, please visit: /docs/auditor/11.6/enterpriseauditor/solutions/activedirectoryinventory
+- For further information on customizing the `AD > 1-AD_Scan` job, please visit: /docs/auditor/10.8/configuration/activedirectory
 
 > Note: This article refers to the Access Information Center within Netwrix Access Analyzer product functionality.
 
 ## Related Article
 
-- /docs/auditor/11.6/enterpriseauditor/solutions/activedirectoryinventory
+- /docs/auditor/10.8/configuration/activedirectory

@@ -77,4 +77,4 @@ This article provides step-by-step instructions for migrating schedules and sync
 
 ## Related Links
 
-- [How to Upgrade Directory Manager](/docs/directory-manager/latest/)
+- [How to Upgrade Directory Manager](/docs/directorymanager/11.1/)

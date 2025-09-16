@@ -15,7 +15,7 @@ keywords:
   - Netwrix Activity Monitor
   - remove management
 products:
-  - activity-monitor
+  - activitymonitor
   - threat-prevention
 sidebar_label: How To Remove NTP Management of NAM Agents
 tags: []

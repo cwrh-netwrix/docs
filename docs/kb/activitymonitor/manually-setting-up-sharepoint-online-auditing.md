@@ -15,7 +15,7 @@ keywords:
   - SPAA
   - SPAC
 products:
-  - activity-monitor
+  - activitymonitor
   - access-analyzer
 sidebar_label: Manually Setting Up SharePoint Online Auditing
 tags: []

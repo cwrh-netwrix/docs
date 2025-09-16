@@ -10,7 +10,7 @@ tags: []
 title: "Increase Communication Security Option"
 knowledge_article_id: kA0Qk0000002B4KKAU
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # Increase Communication Security Option

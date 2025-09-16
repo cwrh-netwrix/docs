@@ -1,51 +1,18 @@
 ---
-title: "Knowledge Base"
-description: Browse our knowledge base articles by category"
+title: "1Secure Knowledge Base"
+description: "1Secure knowledge base articles and troubleshooting guides"
+slug: kb/1secure
 ---
 
-# Knowledge Base
+# 1Secure Knowledge Base
 
-Welcome to the knowledge base. Browse articles by category below.
+Welcome to the 1Secure knowledge base. Browse our collection of troubleshooting guides, configuration instructions, and best practices.
 
-## Categories
-
-### [Installation & Setup](./installation/)
-Articles about installing, uninstalling, and setting up the product
-
-### [Configuration](./configuration/)
-Articles about configuring various product features
-
-### [Group Management](./group-management/)
-Managing groups, smart groups, and dynasties
-
-### [User Management](./user-management/)
-Managing users and user profiles
-
-### [Reports & Analytics](./reporting/)
-Generate reports and export data
-
-### [Troubleshooting](./troubleshooting/)
-Resolve common issues and errors
-
-### [Integration](./integration/)
-Integrate with external services and APIs
-
-### [Administration](./administration/)
-System administration and maintenance
-
-### [Best Practices](./best-practices/)
-Recommended practices and how-to guides
-
-## Quick Links
-
-- [Installation & Setup](./installation/)
-- [Troubleshooting Guide](./troubleshooting/)
-- [Best Practices](./best-practices/)
-- [Integration Guide](./integration/)
+Use the search function above to find specific articles or browse through all 1Secure KB articles in this section.
 
 ## Need Help?
 
-If you can't find what you're looking for, please:
+If you can't find what you're looking for:
 1. Use the search function above
-2. Check the main documentation
-3. Contact [support](https://www.netwrix.com/support.html)
+2. Check the main 1Secure documentation
+3. Contact [Netwrix support](https://www.netwrix.com/support.html)

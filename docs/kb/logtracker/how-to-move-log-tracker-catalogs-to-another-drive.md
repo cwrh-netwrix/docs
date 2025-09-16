@@ -14,7 +14,7 @@ keywords:
   - net-start
   - catalogs.delete
 products:
-  - log-tracker
+  - logtracker
 sidebar_label: How to Move Log Tracker Catalogs to Another Drive?
 tags: []
 title: "How to Move Log Tracker Catalogs to Another Drive?"

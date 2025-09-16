@@ -1,42 +1,18 @@
 ---
-title: "Troubleshooting Articles"
-description: Browse Activity Monitor knowledge base articles by category"
+title: "Activity Monitor Knowledge Base"
+description: "Activity Monitor knowledge base articles and troubleshooting guides"
+slug: kb/activitymonitor
 ---
 
 # Activity Monitor Knowledge Base
 
-Welcome to the Activity Monitor knowledge base. Find solutions, troubleshooting guides, and configuration instructions organized by category.
+Welcome to the Activity Monitor knowledge base. Browse our collection of troubleshooting guides, configuration instructions, and best practices.
 
-## Categories
-
-### [Agents & Services](./agents/)
-Configure and troubleshoot Activity Monitor agents, including NAM agents, Active Directory agents, and service account management.
-
-### [Installation & Configuration](./installation/)
-Setup guides, dependencies, system requirements, and initial configuration instructions.
-
-### [Platform Monitoring](./monitoring/)
-Platform-specific monitoring guides for NetApp, Dell Isilon PowerScale, and other storage systems.
-
-### [Troubleshooting](./troubleshooting/)
-Solutions for common errors, connectivity issues, and data collection problems.
-
-### [Hotfixes & Updates](./hotfixes/)
-Latest hotfixes and updates for Activity Monitor version 6.0 and later.
-
-### [Integrations](./integrations/)
-Integrate Activity Monitor with other Netwrix products and third-party systems.
-
-## Quick Links
-
-- [NAM Agent Configuration](./agents/nam-linux-agent-how-to-handle-locked-auditd-config)
-- [SharePoint Online Setup](./installation/manually-setting-up-sharepoint-online-auditing)
-- [NetApp Best Practices](./monitoring/netapp-fpolicy-deployments-best-practices-for-netwrix-activity-monitor)
-- [Threat Manager Integration](./integrations/configuring-netwrix-activity-monitor-to-send-to-threat-manager)
+Use the search function above to find specific articles or browse through all Activity Monitor KB articles in this section.
 
 ## Need Help?
 
 If you can't find what you're looking for:
 1. Use the search function above
 2. Check the main Activity Monitor documentation
-3. Contact [Netwrix support](https://www.netwrix.com/support.html)slug: kb/activitymonitor
+3. Contact [Netwrix support](https://www.netwrix.com/support.html)

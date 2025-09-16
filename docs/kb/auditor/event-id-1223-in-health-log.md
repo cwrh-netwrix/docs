@@ -37,7 +37,7 @@ Email delivery to recipient %recepient% failed.
 
 ## Resolutions
 
-- Cause #1 − Verify the SMTP settings in Netwrix Auditor. Refer to the following article for additional information: /docs/auditor/10.6/auditor/admin-guide/settings (Netwrix Auditor Settings − Notifications · v10.6).
+- Cause #1 − Verify the SMTP settings in Netwrix Auditor. Refer to the following article for additional information: /docs/auditor/10.8/admin/settings (Netwrix Auditor Settings − Notifications · v10.6).
 
 - Cause #2 − Verify the `recepient` details in the affected SharePoint monitoring plan.
 
@@ -46,4 +46,4 @@ Email delivery to recipient %recepient% failed.
 
 ## Related articles
 
-- /docs/auditor/10.6/auditor/admin-guide/settings (Netwrix Auditor Settings − Notifications · v10.6)
+- /docs/auditor/10.8/admin/settings (Netwrix Auditor Settings − Notifications · v10.6)

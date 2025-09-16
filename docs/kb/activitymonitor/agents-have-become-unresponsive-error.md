@@ -12,7 +12,7 @@ keywords:
   - event outputs
   - unresponsive agents
 products:
-  - activity-monitor
+  - activitymonitor
   - threat-manager
 sidebar_label: Agents Have Become Unresponsive Error
 tags: []

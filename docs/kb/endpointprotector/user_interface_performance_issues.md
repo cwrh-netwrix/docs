@@ -55,4 +55,4 @@ The Endpoint Protector Console/User Interface is experiencing issues and other p
 
 ## Related Links
 
-- [Endpoint Protector Deployment Resources](/docs/endpointprotector/)
+- [Endpoint Protector Deployment Resources](../endpointprotector/)

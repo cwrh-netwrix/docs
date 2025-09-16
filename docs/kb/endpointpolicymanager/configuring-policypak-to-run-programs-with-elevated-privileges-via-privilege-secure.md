@@ -15,7 +15,7 @@ keywords:
   - executable policy
   - launch policy
 products:
-  - endpoint-policy-manager
+  - endpointpolicymanager
 sidebar_label: Configuring PolicyPak to Run Programs with Elevate
 tags: []
 title: >-

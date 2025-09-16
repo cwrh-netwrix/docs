@@ -14,7 +14,7 @@ keywords:
   - Query Max Results
   - Start Date
 products:
-  - log-tracker
+  - logtracker
 sidebar_label: Create Report for Specific Time Window
 tags: []
 title: "Create Report for Specific Time Window"

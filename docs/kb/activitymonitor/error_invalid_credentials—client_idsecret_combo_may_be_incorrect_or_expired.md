@@ -12,7 +12,7 @@ tags: []
 title: "Error: Invalid Credentials—Client ID/Secret Combo May Be Incorrect or Expired"
 knowledge_article_id: kA0Qk00000027rpKAA
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # Error: Invalid Credentials—Client ID/Secret Combo May Be Incorrect or Expired

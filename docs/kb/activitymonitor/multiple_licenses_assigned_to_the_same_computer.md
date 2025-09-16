@@ -10,7 +10,7 @@ tags: []
 title: "Multiple Licenses Assigned to the Same Computer"
 knowledge_article_id: kA0Qk0000002B2fKAE
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # Multiple Licenses Assigned to the Same Computer

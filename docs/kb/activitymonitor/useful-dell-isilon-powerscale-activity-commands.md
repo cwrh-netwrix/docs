@@ -14,7 +14,7 @@ keywords:
   - Netwrix Activity Monitor
   - audit logs
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: Useful Dell Isilon / PowerScale Activity commands
 tags: []
 title: "Useful Dell Isilon / PowerScale Activity commands"

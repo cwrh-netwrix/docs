@@ -15,7 +15,7 @@ keywords:
   - certificate error
   - TCP session
 products:
-  - activity-monitor
+  - activitymonitor
 sidebar_label: "NetApp 7-mode activity monitoring_is not working w"
 tags: []
 title: "NetApp 7-mode activity monitoring_is not working w on Windows 2019 machine"

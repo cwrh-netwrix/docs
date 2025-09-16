@@ -30,8 +30,8 @@ Your Netwrix Auditor license has recently expired − a new license has since be
 
 Netwrix Auditor stops monitoring corresponding data sources after the license expiration. Once a new license is applied, Auditor will collect all the data present in event logs as of the moment of the license application. This behavior is expected − the event logs are set up to be overwritten to prevent the extra space consumption. Any events that were overwritten will not have activity records generated for them.
 
-Depending on the size of your environment and the amount of Activity Records generated per day, you might need to increase the event log size. Refer to the following article for additional information: /docs/auditor/10.6/auditor/configurationuration/windowsserver (Adjusting Event Log Size and Retention Settings ⸱ v10.6).
+Depending on the size of your environment and the amount of Activity Records generated per day, you might need to increase the event log size. Refer to the following article for additional information: /docs/auditor/10.8/configuration/windowsserver (Adjusting Event Log Size and Retention Settings ⸱ v10.6).
 
 ## Related articles
 
-- /docs/auditor/10.6/auditor/configurationuration/windowsserver (Adjusting Event Log Size and Retention Settings ⸱ v10.6)
+- /docs/auditor/10.8/configuration/windowsserver (Adjusting Event Log Size and Retention Settings ⸱ v10.6)

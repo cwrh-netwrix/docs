@@ -44,11 +44,11 @@ Refer to the following video for step-by-step instructions on upgrading to the l
 
 - Video: https://www.youtube.com/embed/M_IfPaf_7ig
 
-For the text version of the guide, refer to the following documentation article: /docs/auditor/10.7/auditor/installation
+For the text version of the guide, refer to the following documentation article: /docs/auditor/10.8/install
 
 ### Netwrix Auditor v.9.95 and earlier
 
-> **NOTE:** For additional information on upgrade increments, refer to the following article: /docs/kb/auditor/upgrade_increments_for_netwrix_auditor
+> **NOTE:** For additional information on upgrade increments, refer to the following article: /docs/kb/auditor/upgrade-increments-for-netwrix-auditor
 
 The following steps represent a scenario for upgrading from v.9.95 to v.9.96. The upgrade progress for Netwrix Auditor version 8.0 up to 9.96 will be similar. If you are upgrading from an earlier version, view the additional steps under **Post Upgrade** > **Legacy Steps** further in this article.
 
@@ -73,5 +73,5 @@ Upon completion, Netwrix Auditor will launch. To confirm integrity, run the foll
 
 ## Related articles
 
-- Upgrade to the Latest Version ⸱ 10.7 — /docs/auditor/10.7/auditor/installation
-- Upgrade Increments for Netwrix Auditor — /docs/kb/auditor/upgrade_increments_for_netwrix_auditor
+- Upgrade to the Latest Version ⸱ 10.7 — /docs/auditor/10.8/install
+- Upgrade Increments for Netwrix Auditor — /docs/kb/auditor/upgrade-increments-for-netwrix-auditor

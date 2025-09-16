@@ -12,7 +12,7 @@ tags: []
 title: "Disabling Optional Connected Experiences in Office 365 Apps"
 knowledge_article_id: kA0Qk0000002WyHKAU
 products:
-  - endpoint-policy-manager
+  - endpointpolicymanager
 ---
 
 # Disabling Optional Connected Experiences in Office 365 Apps

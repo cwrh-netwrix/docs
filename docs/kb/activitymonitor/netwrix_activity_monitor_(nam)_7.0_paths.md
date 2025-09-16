@@ -12,7 +12,7 @@ tags: []
 title: "Netwrix Activity Monitor (NAM) 7.0 Paths"
 knowledge_article_id: kA04u00000111AOCAY
 products:
-  - activity-monitor
+  - activitymonitor
 ---
 
 # Netwrix Activity Monitor (NAM) 7.0 Paths

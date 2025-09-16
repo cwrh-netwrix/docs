@@ -84,7 +84,7 @@ CsvExportTool.exe -details combine -filters "testreportcsv" -csv "c:\testfolder\
 ## Related articles
 
 - Administration — Simple Mode ⸱ v10.6  
-  /docs/auditor/10.6/auditor/admin-guide/search
+  /docs/auditor/10.8/admin/search
 
 - Administration — Advanced Mode ⸱ v10.6  
-  /docs/auditor/10.6/auditor/admin-guide/search
+  /docs/auditor/10.8/admin/search

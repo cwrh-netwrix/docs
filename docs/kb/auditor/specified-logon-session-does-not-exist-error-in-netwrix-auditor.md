@@ -41,8 +41,8 @@ The **Leverage Integration API** switch is turned off subsequently.
 
 ## Resolution
 
-Assign a new SSL certificate to Integration API. Refer to the following article for additional information on commands: /docs/auditor/10.6/auditor/api (Integration API − Security ⸱ v10.6).
+Assign a new SSL certificate to Integration API. Refer to the following article for additional information on commands: /docs/auditor/10.8/api (Integration API − Security ⸱ v10.6).
 
 ### Related articles
 
-- Integration API − Security ⸱ v10.6: /docs/auditor/10.6/auditor/api
+- Integration API − Security ⸱ v10.6: /docs/auditor/10.8/api

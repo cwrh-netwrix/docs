@@ -29,4 +29,4 @@ This article explains how to resolve the issue where Full Disk Access is not ena
 6. Save your changes in Kandji.
 7. Verify on the target device that Full Disk Access is now granted to Endpoint Protector.
 
-> **NOTE:** Deployment guides for other mobile device management (MDM) solutions are applicable to this deployment. For detailed instructions, refer to the [JAMF Deployment Guide](/docs/endpointprotector/5.9.4.2/install/agent/jamf/overview).
+> **NOTE:** Deployment guides for other mobile device management (MDM) solutions are applicable to this deployment. For detailed instructions, refer to the [JAMF Deployment Guide](../endpointprotector/5.9.4.2/install/jamf/overview).
