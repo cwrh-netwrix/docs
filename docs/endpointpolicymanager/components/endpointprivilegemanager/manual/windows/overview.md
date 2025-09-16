@@ -1,6 +1,6 @@
 ---
 title: "Endpoint Privilege Manager (Windows)"
-description: "Least Privilege Manager (Windows)"
+description: "Endpoint Privilege Manager (Windows)"
 sidebar_position: 10
 ---
 

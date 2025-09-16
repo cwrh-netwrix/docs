@@ -1,10 +1,10 @@
 ---
 title: "Endpoint Privilege Manager (MacOS using EPM Cloud)"
-description: "Endpoint Policy Manager Cloud for MacOS Client"
+description: "Endpoint Privilege Manager (MacOS using EPM Cloud)"
 sidebar_position: 30
 ---
 
-# Endpoint Policy Manager Cloud for MacOS Client
+# Endpoint Privilege Manager (MacOS using EPM Cloud)
 
 Getting Started & Installation
 
