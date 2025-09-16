@@ -64,7 +64,7 @@ export const PRODUCTS = [
         version: '12.0',
         label: '12.0',
         isLatest: true,
-        sidebarFile: './sidebars/sidebar.js',
+        sidebarFile: './sidebars/accessanalyzer/12.0.js',
       },
       {
         version: '11.6',
@@ -700,6 +700,20 @@ export function getDefaultProduct() {
 }
 
 /**
+ * Check if a product has KB content
+ */
+export function hasKBContent(productId) {
+  const kbProducts = [
+    '1secure', 'accessanalyzer', 'accessinformationcenter', 'activitymonitor',
+    'auditor', 'changetracker', 'dataclassification', 'directorymanager',
+    'endpointpolicymanager', 'endpointprotector', 'passwordpolicyenforcer',
+    'passwordreset', 'privilegesecure', 'privilegesecurediscovery',
+    'threatmanager', 'threatprevention'
+  ];
+  return kbProducts.includes(productId);
+}
+
+/**
  * Generate all Docusaurus plugin configurations
  */
 export function generateDocusaurusPlugins() {
@@ -707,7 +721,30 @@ export function generateDocusaurusPlugins() {
   
   // Filter products if DOCS_PRODUCT environment variable is set
   const targetProduct = process.env.DOCS_PRODUCT;
-  const productsToProcess = targetProduct 
+
+  // Special case: if DOCS_PRODUCT=kb, build only KB plugin
+  if (targetProduct === 'kb') {
+    // Add KB plugin for centralized Knowledge Base content
+    plugins.push([
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'kb',
+        path: 'docs/kb',
+        routeBasePath: 'docs/kb',
+        sidebarPath: false, // KB uses individual sidebars in product plugins
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md', '**/docs-staging/**'],
+        versions: {
+          current: {
+            label: 'Knowledge Base',
+          },
+        },
+      },
+    ]);
+    return plugins;
+  }
+
+  const productsToProcess = targetProduct
     ? PRODUCTS.filter(product => product.id === targetProduct)
     : PRODUCTS;
 
@@ -717,24 +754,47 @@ export function generateDocusaurusPlugins() {
       const routeBasePath = generateRouteBasePath(product.path, version.version);
       const docPath = generateDocPath(product.path, version.version);
 
-      plugins.push([
-        '@docusaurus/plugin-content-docs',
-        {
-          id: pluginId,
-          path: docPath,
-          routeBasePath: routeBasePath,
-          sidebarPath: version.sidebarFile,
-          editUrl: 'https://github.com/netwrix/docs/tree/main/',
-          exclude: ['**/CLAUDE.md'],
-          versions: {
-            current: {
-              label: version.label,
-            },
+      // Build plugin configuration
+      const pluginConfig = {
+        id: pluginId,
+        path: docPath,
+        routeBasePath: routeBasePath,
+        sidebarPath: version.sidebarFile,
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md', '**/docs-staging/**'],
+        versions: {
+          current: {
+            label: version.label,
           },
         },
+      };
+
+      plugins.push([
+        '@docusaurus/plugin-content-docs',
+        pluginConfig,
       ]);
     });
   });
+
+  // Add KB plugin for centralized Knowledge Base content (only if not building KB exclusively)
+  if (targetProduct !== 'kb') {
+    plugins.push([
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'kb',
+        path: 'docs/kb',
+        routeBasePath: 'docs/kb',
+        sidebarPath: false, // KB uses individual sidebars in product plugins
+        editUrl: 'https://github.com/netwrix/docs/tree/main/',
+        exclude: ['**/CLAUDE.md', '**/docs-staging/**'],
+        versions: {
+          current: {
+            label: 'Knowledge Base',
+          },
+        },
+      },
+    ]);
+  }
 
   return plugins;
 }
