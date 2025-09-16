@@ -49,5 +49,5 @@ By following these steps, you can successfully perform a backup and restore for 
 
 ## Related Links
 
-- [System Backup V2](../endpointprotector/5.9.4.2/admin/systemmaintenance/backup)
+- [System Backup V2](/docs/endpointprotector/5.9.4.2/admin/systemmaintenance/backup)
 - [Create a System Backup V2](/docs/kb/endpointprotector/create_a_system_backup_v2)

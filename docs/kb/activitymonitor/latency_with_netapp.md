@@ -30,7 +30,7 @@ The latency is linked to a performance bottleneck caused by the **FPolicy** conf
 
 ## Resolution
 
-1. Verify that the **Persistent Store** is properly configured by referring to [Configuring Persistent Store for ONTAP 9.15.1](/docs/activitymonitor/8.0/netappcmode/configurefpolicy).
+1. Verify that the **Persistent Store** is properly configured by referring to [Configuring Persistent Store for ONTAP 9.15.1](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy).
 2. Increase the **FPolicy Send-Buffer** size to the recommended value of `8388608` using the command:
 
    ```plaintext
@@ -46,4 +46,4 @@ The latency is linked to a performance bottleneck caused by the **FPolicy** conf
 
 ## Related Link
 
-- [Configuring Persistent Store for ONTAP 9.15.1](/docs/activitymonitor/8.0/netappcmode/configurefpolicy)
+- [Configuring Persistent Store for ONTAP 9.15.1](/docs/activitymonitor/8.0/requirements/activityagent/nas-device-configuration/ontap-cluster-aac/configurefpolicy)
