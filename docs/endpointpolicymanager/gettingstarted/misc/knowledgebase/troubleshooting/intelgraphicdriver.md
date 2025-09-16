@@ -23,7 +23,7 @@ not show a UAC prompt, which is needed for the update to install.
 Resolution 1
 
 See the Scenario 2 section of the
-[How can I change the behavior of "Run as Admin" with Endpoint Privilege Manager and how has it changed from previous versions?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/tipspplpm/runasadmin.md)
+[How can I change the behavior of "Run as Admin" with Endpoint Privilege Manager and how has it changed from previous versions?](/docs/endpointpolicymanager/components/endpointprivilegemanager/knowledgebase/tipspplpm/runasadmin.md)
 topic for additional information on how to disable the Explicit Elevate option.
 
 Resolution 2

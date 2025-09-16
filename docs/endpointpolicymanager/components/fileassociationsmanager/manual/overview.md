@@ -33,7 +33,7 @@ learn to do the following:
 Optionally, if you don't want to use Group Policy, read the section on Advanced Concepts on Group
 Policy and non–Group Policy methods (MEMCM, KACE, and MDM service or Netwrix Endpoint Policy Manager
 (formerly PolicyPak) Cloud), located in the
-[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/manuals/leastprivilegesecuri/pplpmimplementationguide.md)
+[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/components/endpointprivilegemanager/technotes/implementationguide.md)
 to deploy your directives.
 
 Endpoint Policy Manager File Associations Manager enables you to perform the following operations in

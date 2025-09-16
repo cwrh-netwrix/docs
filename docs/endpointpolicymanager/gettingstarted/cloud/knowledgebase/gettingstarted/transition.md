@@ -119,7 +119,7 @@ edit Endpoint Policy Manager Least Privilege Manager items.
 ![941_7_image-20230521113923-7_950x1063](/images/endpointpolicymanager/cloud/941_7_image-20230521113923-7_950x1063.webp)
 
 See the
-[Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/methods/cloudrules.md) topic
+[Use Endpoint Policy Manager Cloud to deploy PP Least Privilege Manager rules](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/methods/cloudrules.md) topic
 for additional information.
 
 You are advised to maintain a Windows based MMC editing station for testing because not every

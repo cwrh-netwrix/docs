@@ -22,7 +22,7 @@ Before 2017
 - Reduce GPOs and convert them to use for MDM:
   [Reduce GPOs (and/or export them for use with Endpoint Policy Manager Cloud or with MDM)](/docs/endpointpolicymanager/components/admintemplatesmanager/videolearningcenter/admintemplatesmethods/reducegpos.md)
 - Least Privilege Manager: SecureRun(TM) blocks Ransomware
-  [Events](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/events.md)
+  [Events](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/eventing/events.md)
 - New Component: New Endpoint Policy Manager Start Screen & Taskbar Manager: Manage Windows 10 tile
   layouts perfectly.
 
@@ -32,7 +32,7 @@ Before 2017
   PowerShell
 - Least Privilege Manager Helper Tools: Enable Standard users to update Network Card and Printer
   settings, plus uninstall applications
-  [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/helperstoolsandtips/uacprompts.md)
+  [Overcome Network Card, Printer, and Remove Programs UAC prompts](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/helperstoolsandtips/uacprompts.md)
 
 2019
 
@@ -40,7 +40,7 @@ Before 2017
   Processes
 - IE Sitelist to Browser Router import
 - Least Privilege Manager Block PowerShell Malware
-  attacks:[Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/powershellblock.md)
+  attacks:[Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/bestpractices/powershellblock.md)
 - New Component — Endpoint Policy Manager Feature Manager for Windows. Quickly add / remove features
   from Windows 10 & Windows Server.
 
@@ -58,11 +58,11 @@ Before 2017
 - Added Triggers to Endpoint Policy Manager Scripts & Triggers: Run a script at VPN launch or many
   other events
 - Added Email method for PPLPM Admin Approval
-  [Using Email / Long Codes](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/adminapproval/longcodes.md)
+  [Using Email / Long Codes](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/adminapproval/longcodes.md)
 - New Component — Remote Work Delivery Manager: Deliver software to Windows 10 via SMB share, Amazon
   S3 or other cloud services
 - Least Privlege Manager: Automatically block unsigned Applications
-  [Least Privilege Manager: Block All Unsigned with SecureRun](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/howtoandtechsupport/preventunsigned.md)
+  [Least Privilege Manager: Block All Unsigned with SecureRun](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/howtoandtechsupport/preventunsigned.md)
 - Compliance Reporter now 10x faster
 
 2021

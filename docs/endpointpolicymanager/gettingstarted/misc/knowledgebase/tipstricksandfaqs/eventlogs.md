@@ -13,9 +13,9 @@ event logs, and maybe you already know about on-prem Event Forwarding.
 :::note
 If you want to learn more about on-prem Event Forwarding, you can see my Walkthrough of
 that here
-[Using Windows Event Forwarding to search for interesting events](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/eventing/windowseventforwarding.md)
+[Using Windows Event Forwarding to search for interesting events](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/eventing/windowseventforwarding.md)
 and
-[How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/eventing/windowseventforwarding.md).
+[How to forward interesting events for Least Privilege Manager (or anything else) to a centralized location using Windows Event Forwarding.](/docs/endpointpolicymanager/components/endpointprivilegemanager/knowledgebase/eventing/windowseventforwarding.md).
 :::
 
 

@@ -140,8 +140,8 @@ reduce the amount of noise.
 Because Network Security Manager uses the same basic UI as Endpoint Policy Manager Least Privilege
 Manager, you can learn more about Simple rules here:
 
-- [Elevating Executables](/docs/endpointpolicymanager/manuals/leastprivilegesecuri/leastprivilege/rules/executables.md)
-- [Creating and Using Executable Combo Rules](/docs/endpointpolicymanager/manuals/leastprivilegesecuri/leastprivilege/overviewmisc/bestpractices/executablecombo.md)
+- [Elevating Executables](/docs/endpointpolicymanager/components/endpointprivilegemanager/manual/windows/rules/executables.md)
+- [Creating and Using Executable Combo Rules](/docs/endpointpolicymanager/components/endpointprivilegemanager/manual/windows/overviewmisc/bestpractices/executablecombo.md)
 
 You can learn more about the following additional Endpoint Policy Manager Network Security manager
 topics via our How-To videos:

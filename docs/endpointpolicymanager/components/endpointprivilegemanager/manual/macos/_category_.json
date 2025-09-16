@@ -1,0 +1,10 @@
+{
+  "label": "Endpoint Policy Manager Cloud for MacOS Client",
+  "position": 30,
+  "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
+}

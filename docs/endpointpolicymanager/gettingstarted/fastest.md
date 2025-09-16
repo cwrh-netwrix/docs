@@ -82,7 +82,7 @@ A detailed MDM & UEM tools (like Intune) topic can be found here:
 A detailed PolicyPak Least Privilege Manager Implementation Quickstart Guide that is project
 oriented to get you to the success line quickly.
 
-[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/manuals/leastprivilegesecuri/pplpmimplementationguide.md)
+[Endpoint Privilege Manager Implementation QuickStart Guide](/docs/endpointpolicymanager/components/endpointprivilegemanager/technotes/implementationguide.md)
 
 ## Refer to Documentation in the Netwrix Technical Knowledge Center
 

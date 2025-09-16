@@ -45,7 +45,7 @@ Manager Least Privilege Manager can deploy directives over the Internet, even to
 machines.
 
 For more information on this topic, please see this video:
-[Video Learning Center](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/videolearningcenter.md) > Privilege Manager.
+[Video Learning Center](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/videolearningcenter.md) > Privilege Manager.
 
 :::note
 Note that Endpoint Policy Manager Least Privilege Manager has two versions: Standard and
@@ -132,7 +132,7 @@ why the license is not automatically provided, please see the following link:
 
 
 **Note**: For more information on this topic, please see this
-video: [Preferences Manager](/docs/endpointpolicymanager/manuals/gporeductionandtrans/preferences/overview.md)
+video: [Preferences Manager](/docs/endpointpolicymanager/components/preferencesmanager/manual/overview.md)
 
 ## Security Settings Manager
 
@@ -145,7 +145,7 @@ Security Manager can deploy most Microsoft Security settings to computers over t
 non-domain-joined machines.
 
 **Note**: For more information on this topic, please see this video:
-[Security Settings Manager](/docs/endpointpolicymanager/manuals/appsbrowsersandjavas/securitysettings/overview.md).
+[Security Settings Manager](/docs/endpointpolicymanager/components/securitysettingsmanager/manual/overview.md).
 
 ## Start Screen & Taskbar Manager
 

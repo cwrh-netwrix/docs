@@ -33,15 +33,15 @@ Here are some examples:
    [Manage Internet Explorer Settings With Endpoint Policy Manager Application Settings Manager](/docs/endpointpolicymanager/components/applicationsettingsmanager/videos/internetexplorer/settings.md)
 3. You can use Endpoint Policy Manager Least Privilege Manager to block items that admins shouldn't
    run. Example of blocking
-   applications: [Endpoint Policy Manager Application Control with PP Least Privilege Manager](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/basicsandgettingstarted/applicationcontrol.md)
+   applications: [Endpoint Policy Manager Application Control with PP Least Privilege Manager](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/basicsandgettingstarted/applicationcontrol.md)
 4. You can use Endpoint Policy Manager Least Privilege Manager to reduce service account rights:
-   [Reduce or specify Service Account Rights](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/serviceaccountrights.md)
+   [Reduce or specify Service Account Rights](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/bestpractices/serviceaccountrights.md)
 5. You can use Endpoint Policy Manager Least Privilege Manager to block PowerShell except for where
    absolutely needed:
-   [Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/videolearningcenter/bestpractices/powershellblock.md)
+   [Block PowerShell in General, Open up for specific items](/docs/endpointpolicymanager/components/endpointprivilegemanager/videolearningcenter/bestpractices/powershellblock.md)
 6. You can use Endpoint Policy Manager Least Privilege Manager to reduce the admin rights on
    specific processes or applications, like IE and
-   others:[Can I use Endpoint Privilege Manager to LOWER / remove admin rights from Administrators from an application or process, like Internet Explorer?](/docs/endpointpolicymanager/knowledgebase/leastprivilegemanager/knowledgebase/tipsforadminapproval/reduceadminrights.md)
+   others:[Can I use Endpoint Privilege Manager to LOWER / remove admin rights from Administrators from an application or process, like Internet Explorer?](/docs/endpointpolicymanager/components/endpointprivilegemanager/knowledgebase/tipsforadminapproval/reduceadminrights.md)
 7. You can use Endpoint Policy Manager Scripts Manager to perform specific logon scripts for
    specific servers using Triggers:
    [Endpoint Policy Manager Scripts and Triggers: Get to understand login script trigger with GP and MDM systems !](/docs/endpointpolicymanager/components/scriptstriggers/videolearningcenter/triggersexamples/scripttriggers.md)
