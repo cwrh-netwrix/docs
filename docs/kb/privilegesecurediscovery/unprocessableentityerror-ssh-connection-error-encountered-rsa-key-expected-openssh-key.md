@@ -41,13 +41,13 @@ Example of error when running registration via Postman:
 ## Causes
 
 ### Cause 1
-This error can occur if SSH access is being limited to specific accounts. Example is having account specified in `/etc/ssh/sshd_config` file using options parameters like `AllowUsers` or `AllowGroups`. Go to [Resolution 1]().
+This error can occur if SSH access is being limited to specific accounts. Example is having account specified in `/etc/ssh/sshd_config` file using options parameters like `AllowUsers` or `AllowGroups`. Go to Resolution 1.
 
 ### Cause 2
-This registration error can happen when a system was already registered in Netwrix Privilege Secure Discovery and a user was removed from the system (even if the user is manually added back in). Go to [Resolution 2]().
+This registration error can happen when a system was already registered in Netwrix Privilege Secure Discovery and a user was removed from the system (even if the user is manually added back in). Go to Resolution 2.
 
 ### Cause 3
-The use of Ubuntu 22.04+ and RSA SSH keys which are not allowed. Go to [Resolution 3]().
+The use of Ubuntu 22.04+ and RSA SSH keys which are not allowed. Go to Resolution 3.
 
 ## Resolutions
 
