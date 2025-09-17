@@ -29,12 +29,12 @@ This article outlines best practices for securing Netwrix Auditor, including lim
 
 ## Instructions
 
-- [Limiting Access to the Netwrix Auditor Host](#limitaccess)
-- [Maintaining Roles in Netwrix Auditor](#maintainroles)
-- [Monitoring Netwrix Auditor Services](#monitorservices)
-- [Enabling Native Microsoft Security Tools](#MSsectools)
-- [Auditing Related Systems via Netwrix Auditor](#auditrelsys)
-- [Making Regular Offline Backups of the Long-Term Archive](#offlinebackups)
+- [Limiting Access to the Netwrix Auditor Host]()
+- [Maintaining Roles in Netwrix Auditor]()
+- [Monitoring Netwrix Auditor Services]()
+- [Enabling Native Microsoft Security Tools]()
+- [Auditing Related Systems via Netwrix Auditor]()
+- [Making Regular Offline Backups of the Long-Term Archive]()
 
 ### Limiting Access to the Netwrix Auditor Host
 

@@ -26,7 +26,7 @@ knowledge_article_id: kA04u0000000HRHCA2
 
 ## Summary
 
-This article outlines the process of adding Microsoft Entra ID (formerly Azure AD) to Netwrix Privilege Secure as an Authentication Connector via SAML. The article is split into two sections, [Steps for Microsoft Entra ID](#steps-for-microsoft-entra-id) and [Steps for Netwrix Privilege Secure](#steps-for-netwrix-privilege-secure). The Microsoft Entra ID section must be completed first.
+This article outlines the process of adding Microsoft Entra ID (formerly Azure AD) to Netwrix Privilege Secure as an Authentication Connector via SAML. The article is split into two sections, [Steps for Microsoft Entra ID]() and [Steps for Netwrix Privilege Secure](). The Microsoft Entra ID section must be completed first.
 
 ## Instructions
 
@@ -70,11 +70,11 @@ This article outlines the process of adding Microsoft Entra ID (formerly Azure A
 
 8. In the left sidebar, click on **Users and Groups**. Add a Microsoft Entra ID user to this page (**Add user/group** button near the top).
 
-   This user should be accessible to whoever will complete the [Steps for Netwrix Privilege Secure](#steps-for-netwrix-privilege-secure), as they need to be able to log in to this user to complete the Authentication Connector Configuration Wizard for SAML in Netwrix Privilege Secure.
+   This user should be accessible to whoever will complete the [Steps for Netwrix Privilege Secure](), as they need to be able to log in to this user to complete the Authentication Connector Configuration Wizard for SAML in Netwrix Privilege Secure.
 
 9. Sign-out of Microsoft Entra ID.
 
-10. At this point, you should have the following pieces of information for use in the [Steps for Netwrix Privilege Secure](#steps-for-netwrix-privilege-secure):
+10. At this point, you should have the following pieces of information for use in the [Steps for Netwrix Privilege Secure]():
 
    - **Certificate (Base64)**
    - **Login URL**
@@ -90,7 +90,7 @@ This article outlines the process of adding Microsoft Entra ID (formerly Azure A
    ![User-added image](images/ka0Qk0000003IQD_0EM4u000004bUkn.png)
 
 3. Click on **Configuration Wizard**.
-4. On the **Configure Client** page of that wizard, use the **Login URL** in the **Signin URI** field (the **Login URL** was obtained in the [Steps for Microsoft Entra ID](#steps-for-microsoft-entra-id)). All fields should now be filled in.
+4. On the **Configure Client** page of that wizard, use the **Login URL** in the **Signin URI** field (the **Login URL** was obtained in the [Steps for Microsoft Entra ID]()). All fields should now be filled in.
 
    ![User-added image](images/ka0Qk0000003IQD_0EM4u000004bUks.png)
 
@@ -99,8 +99,8 @@ This article outlines the process of adding Microsoft Entra ID (formerly Azure A
    On the page that loads (Microsoft Entra ID sign-in page), **DO NOT SIGN-IN**. Instead, once you've verified that the sign-in page loaded properly, click the back button in the browser to return to Netwrix Privilege Secure (the connection test was successful if Microsoft Entra ID didn't display an error).
 
 6. Click **Next** to advance in the Authentication Connector Configuration Wizard. You’ll now be on the wizard's **Test Login** page.
-7. Open the certificate obtained during the [Steps for Microsoft Entra ID](#steps-for-microsoft-entra-id). Copy the text between `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----` into the **Certificate** field in the Authentication Connector Configuration Wizard.
-8. Click **Login**, and log in as the Microsoft Entra ID user associated with the Enterprise Application from Step 8 in the [Steps for Microsoft Entra ID](#steps-for-microsoft-entra-id). Upon successful sign-in, you’ll be redirected back to the wizard in Netwrix Privilege Secure.
+7. Open the certificate obtained during the [Steps for Microsoft Entra ID](). Copy the text between `-----BEGIN CERTIFICATE-----` and `-----END CERTIFICATE-----` into the **Certificate** field in the Authentication Connector Configuration Wizard.
+8. Click **Login**, and log in as the Microsoft Entra ID user associated with the Enterprise Application from Step 8 in the [Steps for Microsoft Entra ID](). Upon successful sign-in, you’ll be redirected back to the wizard in Netwrix Privilege Secure.
 
    If the sign-in was successful, the Provider User Name/Id will display. This is passed to the UserTokenController so that the user information can be extracted. Click **Next**.
 

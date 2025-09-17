@@ -51,14 +51,14 @@ This article explains how to uninstall Netwrix Directory Manager (formerly Group
 1. Click **Uninstall Directory Manager** on the installer to remove the application files from your computer.  
 2. Remove the following components to completely uninstall Directory Manager:
 
-- [Directory Manager installation directory](#remove-the-directory-manager-installation-directory)
-- [Other relevant directories](#remove-other-relevant-directories)
-- [Directory Manager DLLs](#remove-directory-manager-dlls)
-- [Registry keys](#remove-registry-keys)
-- [Services files](#remove-directory-manager-services-files)
-- [Self-Service and Password Center portal files](#remove-portal-files)
-- [Directory Manager application pool](#remove-the-directory-manager-application-pool)
-- [Directory Manager certificates](#remove-directory-manager-certificates)
+- [Directory Manager installation directory]()
+- [Other relevant directories]()
+- [Directory Manager DLLs]()
+- [Registry keys]()
+- [Services files]()
+- [Self-Service and Password Center portal files]()
+- [Directory Manager application pool]()
+- [Directory Manager certificates]()
 
 ### Remove the Directory Manager Installation Directory
 
