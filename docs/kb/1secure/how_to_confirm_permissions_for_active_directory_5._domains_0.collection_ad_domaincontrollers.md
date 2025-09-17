@@ -23,10 +23,10 @@ How can you verify if the account used in Netwrix Enterprise Auditor (NEA) for t
 
 The AD_DomainControllers job for the NEA Active Directory module uses the following permissions for a least privilege model:
 
-- [Read access to CN=Servers, %SITEDN% and its children](#testcnsiteandchild)
-- [Read access to %PARTITIONDNS% and its children](#testpartandchild)
-- [Read access to %SCHEMADN%](#testschem)
-- [Read access to %SITESDN% and its children](#testsiteandchild)
+- Read access to CN=Servers, %SITEDN% and its children
+- Read access to %PARTITIONDNS% and its children
+- Read access to %SCHEMADN%
+- Read access to %SITESDN% and its children
 
 ### General Steps to Start with `ldp.exe`
 

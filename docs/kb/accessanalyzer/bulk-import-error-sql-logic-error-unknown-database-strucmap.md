@@ -38,7 +38,7 @@ This error message is the result of a discrepancy or corruption in the database'
 
 ## Resolutions
 
-Please try both of the following resolutions. Start with resetting the hosts, and if the error persists, try [repairing the database](#repair). For both approaches, run the **Bulk Import Maintenance**, targeting the host(s) having the problem.
+Please try both of the following resolutions. Start with resetting the hosts, and if the error persists, try repairing the database. For both approaches, run the **Bulk Import Maintenance**, targeting the host(s) having the problem.
 
 ### Reset the Host(s)
 

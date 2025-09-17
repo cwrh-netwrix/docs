@@ -38,20 +38,20 @@ This article will help you to understand Netwrix Privilege Secure for Discovery 
 
 > **NOTE:** Implementations can vary for organizational specifics
 
-- [Netwrix Privilege Secure for Discovery Main Accounts](#ma)
-- [Service Accounts](#sa)
-- [Local Administrator, RID500, Account](#RID500)
-- [AD Cleanup](#adc)
-- [Groups for Access](#groups)
-- [GPO Changes](#gpo)
-- [Firewall Requirements](#firewall)
-- [VPN Access](#vpn)
-- [DMZ Access](#dmz)
-- [Multiple Domains](#Domains)
-- [DR Instance](#DR)
-- [Test Environments](#env)
-- [Load Balancing](#bal)
-- [JITA vs Deny](#jita)
+- Netwrix Privilege Secure for Discovery Main Accounts
+- Service Accounts
+- Local Administrator, RID500, Account
+- AD Cleanup
+- Groups for Access
+- GPO Changes
+- Firewall Requirements
+- VPN Access
+- DMZ Access
+- Multiple Domains
+- DR Instance
+- Test Environments
+- Load Balancing
+- JITA vs Deny
 
 <a id="ma"></a>
 ## Netwrix Privilege Secure for Discovery Main Accounts
