@@ -718,32 +718,9 @@ export function hasKBContent(productId) {
  */
 export function generateDocusaurusPlugins() {
   const plugins = [];
-  
+
   // Filter products if DOCS_PRODUCT environment variable is set
   const targetProduct = process.env.DOCS_PRODUCT;
-
-  // Special case: if DOCS_PRODUCT=kb, build only KB plugin
-  if (targetProduct === 'kb') {
-    // Add KB plugin for centralized Knowledge Base content
-    plugins.push([
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'kb',
-        path: 'docs/kb',
-        routeBasePath: 'docs/kb',
-        sidebarPath: false, // KB uses individual sidebars in product plugins
-        editUrl: 'https://github.com/netwrix/docs/tree/main/',
-        exclude: ['**/CLAUDE.md', '**/docs-staging/**'],
-        versions: {
-          current: {
-            label: 'Knowledge Base',
-          },
-        },
-      },
-    ]);
-    return plugins;
-  }
-
   const productsToProcess = targetProduct
     ? PRODUCTS.filter(product => product.id === targetProduct)
     : PRODUCTS;
