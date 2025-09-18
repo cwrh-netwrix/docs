@@ -15,6 +15,7 @@ The following learning paths provide Partner certification for Presales Engineer
     * [Netwrix Endpoint Protector Presales Engineer](./endpoint-protector.md)
 * Directory Management Solution
     * [Netwrix Auditor Presales Engineer](./auditor.md)
+    * [Netwrix Directory Manager Presales Engineer](directory-manager.md)
 * Endpoint Management Solution
     * [Netwrix Change Tracker Presales Engineer](./change-tracker.md)
     * [Netwrix Endpoint Policy Manager Presales Engineer](./endpoint-policy-manager.md)
