@@ -110,3 +110,79 @@ Request.
 **Tracked, Blocking** generates a Compliant Change Log (CL-11672) if there is an approved Change
 Request. If a user attempts to save a change to a **Tracked, Blocking** object without an approved
 Change Request, an error is generated and the change is not saved.
+
+### Filtering Change Logs
+
+Sometimes, you may want to create Change Logs only when specific conditions are met. For example, you may want to create an Opportunity Change Log only when an admin updates specific fields on a Closed Won Opportunity. Or you may not want Change Logs for User-Defined CPQ Discount Schedules.
+
+#### Using a Report as a Filter
+Report filters are the simplest to implement. Use any Report Type to create a report of Ids; if a tracked record satisfies the report’s filter criteria, then a Change Log will be created for that record update.
+
+**Report Requirements**
+- The “Show Me” filter must return all records being filtered.
+
+- The standard date filter must be the Created Date of the record type being filtered.
+
+- The first column of the report must be the Id of the record.
+
+
+**Example: Do not create Change Logs for changes in “User-Defined” CPQ Discount Schedules** <br></br>
+This report returns only the Discount Schedule Ids of records that do not have the “User Defined” checkbox checked.
+
+![Data Tracking Report Filter](/images/platgovsalesforce/change_management/data_tracking_report_filter.webp)
+
+
+#### Using an Apex Class as a Filter
+You may have filtering logic that is too complex to implement in a Report. Strongpoint provides a way to create a custom Apex Class for complex logic.
+
+**Requirements**
+The class must be global and must implement the FLODocs.IChangeLogFilter interface. To implement the interface, you must have one global method: <pre> ```apex Set<Id> getFilteredIds(Datetime start, Datetime end) ``` </pre> <br></br> The start and end times should be used by your filtering logic to return a Set of record Ids that have been modified during that time interval.
+
+**Example: Do not create Change Logs for changes in “User-Defined” CPQ Discount Schedules** <br></br>
+Here’s an example that does the same job as the Report filter above.
+
+```apex
+global without sharing class DiscountScheduleFilter implements FLODocs.IChangeLogFilter {
+    global Set<Id> getFilteredIds(Datetime lastModifiedStart, Datetime lastModifiedEnd) {
+        Map<Id,SBQQ__DiscountSchedule__c> schedules =
+                new Map<Id,SBQQ__DiscountSchedule__c>([SELECT Id
+                                                      FROM SBQQ__DiscountSchedule__c
+                                                      WHERE SBQQ__UserDefined__c = false
+                                                      AND LastModifiedDate &gt; :lastModifiedStart
+                                                      AND LastModifiedDate &lt; :lastModifiedEnd]);
+    return schedules.keySet();
+  }
+}
+```
+
+#### Applying a Filter to a Tracked Object
+After the Strongpoint scanner runs, a Strongpoint Customization will be created for the Report or Apex Class.  Navigate to that filter’s Customization record and, on the Controls tab, update the “Filtered Data Records” field with the data record Customization for the tracked object.
+
+You can see a list of all the filters applied to a tracked object. Navigate to the data record Customization for the tracked object and inspect the “Change Log Filters” in the Related Lists tab.
+
+**Example: Applying the DiscountScheduleFilter Apex class to the CPQ Discount Schedule object**
+
+
+**Example: Viewing all the filters being applied to the CPQ Discount Schedule object**
+
+
+#### Reviewing Data-Record Change Logs
+The Change Log has some features specific to data-record changes:
+
+![Data Tracking Change Log](/images/platgovsalesforce/change_management/data_tracking_change_log.webp)
+
+1. Data record Customization for the tracked object
+
+2. Always blank, because it’s not metadata.
+
+3. Always “Data Change Tracking”. Can be used for creating filtered Change Log Reports and List Views.
+
+4. Data record name, API Name of the tracked object, and operation that was done.
+
+5. Data record’s Salesforce Id. Use this to URL-hack directly to the updated record.
+
+6. Data record name.
+
+7. The tracked object’s API name.
+
+8. List of filters whose criteria matched this record. (Only populated when an object has filters applied.)
