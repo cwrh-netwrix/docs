@@ -51,7 +51,7 @@ safeguard critical business data.
 
 ### Stay Protected
 
-For detailed information about our support policies and recommended upgrade paths, visit our [Supportability](supportability/) section, which includes both [Client Statement](supportability/client-supportability) and [Server Statement](supportability/server-supportability) guidance.
+For detailed information about our support policies and recommended upgrade paths, visit our **Supportability** section, which includes both [Client Statement](supportability/client-supportability.md) and [Server Statement](supportability/server-supportability.md) guidance.
 
 ## Getting Started
 
