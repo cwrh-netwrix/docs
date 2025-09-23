@@ -33,6 +33,18 @@ Auditor supports monitoring the following AD FS operating system versions:
 See the [AD FS](/docs/auditor/10.8/configuration/activedirectoryfederatedservices/overview.md) topic for additional
 information.
 
+## Azure Files
+
+Auditor supports monitoring Azure Files with the following requirements:
+
+- Azure Storage Account with File Shares (SMB protocol)
+- identity sources:
+  - Active Directory Domain Services (AD DS)
+  - Microsoft Entra Kerberos
+
+See the [Azure Files](/docs/auditor/10.8/configuration/azurefiles/overview.md) topic for additional
+information.
+
 ## Exchange
 
 Auditor supports monitoring the following Exchange Server versions:
