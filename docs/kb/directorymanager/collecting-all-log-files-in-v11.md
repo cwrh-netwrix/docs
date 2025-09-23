@@ -25,7 +25,7 @@ knowledge_article_id: kA0Qk0000002CbNKAU
 
 ## Applies To
 
-Netwrix Directory Manager 11
+Directory Manager 11
 
 ## Overview
 
