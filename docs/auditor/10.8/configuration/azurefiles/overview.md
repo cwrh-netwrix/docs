@@ -6,7 +6,7 @@ sidebar_position: 1
 
 # Azure Files Configuration Overview
 
-Configure Azure Files monitoring with Netwrix Auditor by setting up Azure AD application registration, permissions, and diagnostic settings.
+Configure Azure Files monitoring with Netwrix Auditor by setting up Azure AD application registration, permissions, and diagnostic settings
 
 ## Prerequisites
 
@@ -28,16 +28,16 @@ Configure Azure Files monitoring with Netwrix Auditor by setting up Azure AD app
 
 ## Azure Application Registration
 
-You must register an application so Netwrix Auditor can authenticate to Azure and read audit logs.
+You must register an application so Netwrix Auditor can authenticate to Azure and read audit logs
 
 ### Step 1: Create the App Registration
 
-1. In the Azure Portal, go to **Microsoft Entra ID > Manage > App registrations > + New registration**.
+1. In the Azure Portal, go to **Microsoft Entra ID > Manage > App registrations > + New registration**
 2. Enter:
    - **Name**: `NetwrixAuditor-AzureFiles`
    - **Supported account types** (see below)
    - Leave **Redirect URI** blank
-3. Click **Register**.
+3. Click **Register**
 
 **Understanding Account Types:**
 
@@ -46,15 +46,15 @@ You must register an application so Netwrix Auditor can authenticate to Azure an
   *Recommended for Netwrix Auditor*
 
 - **Accounts in any organizational directory (Multitenant)**
-  "All users with a work or school account from Microsoft can use your application or API (Office 365)."
+  "All users with a work or school account from Microsoft can use your application or API (Office 365)"
 
 - **Accounts in any organizational directory and personal Microsoft accounts (Multitenant + MSA)**
-  "All users with work, school, or personal accounts (Xbox, Skype, Outlook.com)."
+  "All users with work, school, or personal accounts (Xbox, Skype, Outlook.com)"
 
 - **Personal Microsoft accounts only**
-  "Only consumer Microsoft accounts can use the app."
+  "Only consumer Microsoft accounts can use the app"
 
-**Note:** Switching audiences later may cause errors.
+**Note:** Switching audiences later may cause errors
 
 
 ### Step 2: Gather App Details
@@ -65,13 +65,13 @@ After registration, go to the **Overview** page of your new app and copy:
 
 ### Step 3: Create a Client Secret
 
-1. In the same app, go to **Manage > Certificates & secrets > Client secrets**.
-2. Click **+ New client secret**.
-3. Enter a description (e.g., `NetwrixSecret`) and select expiration.
-4. Click **Add**.
-5. Copy the **secret value** immediately — it won't be shown again.
+1. In the same app, go to **Manage > Certificates & secrets > Client secrets**
+2. Click **+ New client secret**
+3. Enter a description (e.g., `NetwrixSecret`) and select expiration
+4. Click **Add**
+5. Copy the **secret value** immediately — it won't be shown again
 
-Netwrix Auditor uses the **App ID** + **Client Secret** for authentication.
+Netwrix Auditor uses the **App ID** + **Client Secret** for authentication
 
 **At the end of this step, you must have:**
 - Application (Client) ID
@@ -93,40 +93,40 @@ Netwrix Auditor uses the **App ID** + **Client Secret** for authentication.
 ### Step 1: Add Permissions
 
 1. In your app in EntraID, go to **Manage > API permissions > + Add a permission**.
-2. Select **Microsoft Graph > Application permissions**.
+2. Select **Microsoft Graph > Application permissions**
 3. Add:
    - **User.Read (default)**
    - **User.Read.All**
 
 - *User.Read* – "Sign in and read user profile." *(default)*
-- *User.Read.All* – "Read all users' full profiles."
+- *User.Read.All* – "Read all users' full profiles"
 
 ---
 
 ### Step 2: Grant Admin Consent
 
-Click **Grant admin consent for <TenantName>**.
+Click **Grant admin consent for TenantName**
 
 **Why this is required:**
-- By default, applications cannot query Microsoft Graph for directory-wide information.
-- Admin consent allows the app to use **User.Read.All**.
-- This lets Netwrix Auditor query Azure AD and resolve **user SIDs → user accounts → display names**.
-- Without admin consent, audit logs will only show unresolved SIDs instead of usernames, making reports incomplete and less useful.
+- By default, applications cannot query Microsoft Graph for directory-wide information
+- Admin consent allows the app to use **User.Read.All**
+- This lets Netwrix Auditor query Azure AD and resolve **user SIDs → user accounts → display names**
+- Without admin consent, audit logs will only show unresolved SIDs instead of usernames, making reports incomplete and less useful
 
-**At the end of this step, your app has Microsoft Graph API permissions.**
+**At the end of this step, your app has Microsoft Graph API permissions**
 
 ---
 
 ## Additional Configuration: Identity-Based Access for Azure Files
 
-Before assigning IAM roles or diagnostic settings, ensure that **identity-based access** is configured for your **Data Storage Account** (the account that hosts Azure File Shares).
+Before assigning IAM roles or diagnostic settings, ensure that **identity-based access** is configured for your **Data Storage Account** (the account that hosts Azure File Shares)
 
 ### Configure in the Azure Portal
 
-1. Go to your **Storage Account** (with the file shares).
-2. Under **Data storage**, select **File shares**.
-3. Open **File share settings** and check **Identity-based access**.
-4. Ensure it is set to **Configured**.
+1. Go to your **Storage Account** (with the file shares)
+2. Under **Data storage**, select **File shares**
+3. Open **File share settings** and check **Identity-based access**
+4. Ensure it is set to **Configured**
 5. Choose one of the following supported options:
    - Active Directory Domain Services (AD DS)
    - Microsoft Entra Kerberos (for hybrid identities)
@@ -160,46 +160,46 @@ You must assign Azure IAM roles so that Netwrix Auditor can:
 
 ### Step 1: Assign Reader Role on Resource Group
 
-1. In the Azure Portal, go to your **Resource Group**.
-2. Open **Access control (IAM)**.
-3. Click **+ Add > Add role assignment**.
-4. Select role: **Reader**.
-   - "View everything, but not make any changes."
-5. Click **Next**.
-6. Under **Members**, click **+ Select members**.
-7. In the search window, find and select the **App you registered earlier**.
-8. Click **Select → Review + assign**.
+1. In the Azure Portal, go to your **Resource Group**
+2. Open **Access control (IAM)**
+3. Click **+ Add > Add role assignment**
+4. Select role: **Reader**
+   - "View everything, but not make any changes"
+5. Click **Next**
+6. Under **Members**, click **+ Select members**
+7. In the search window, find and select the **App you registered earlier**
+8. Click **Select → Review + assign**
 
 ---
 
 ### Step 2: Assign Storage File Data Privileged Reader on Data Storage Account
 
-1. In the Azure Portal, go to your **Data Storage Account**.
-2. Navigate to **Access control (IAM) > + Add role assignment**.
-3. Select role: **Storage File Data Privileged Reader**.
-   - "Allows read access to file shares and directory/file metadata, including NTFS ACLs."
-4. Click **Next**.
-5. Under **Members**, click **+ Select members**.
-6. Search for and select the **App you registered earlier**.
-7. Click **Select → Review + assign**.
+1. In the Azure Portal, go to your **Data Storage Account**
+2. Navigate to **Access control (IAM) > + Add role assignment**
+3. Select role: **Storage File Data Privileged Reader**
+   - "Allows read access to file shares and directory/file metadata, including NTFS ACLs"
+4. Click **Next**
+5. Under **Members**, click **+ Select members**
+6. Search for and select the **App you registered earlier**
+7. Click **Select → Review + assign**
 
 ---
 
 ### Step 3: Assign Storage Blob Data Reader on Log Storage Account
 
-1. In the Azure Portal, go to your **Log Storage Account**.
-2. Navigate to **Access control (IAM) > + Add role assignment**.
-3. Select role: **Storage Blob Data Reader**.
-   - "Allows read access to Azure Storage blob containers and data."
-4. Click **Next**.
-5. Under **Members**, click **+ Select members**.
-6. Search for and select the **App you registered earlier**.
-7. Click **Select → Review + assign**.
+1. In the Azure Portal, go to your **Log Storage Account**
+2. Navigate to **Access control (IAM) > + Add role assignment**
+3. Select role: **Storage Blob Data Reader**
+   - "Allows read access to Azure Storage blob containers and data"
+4. Click **Next**
+5. Under **Members**, click **+ Select members**
+6. Search for and select the **App you registered earlier**
+7. Click **Select → Review + assign**
 
 
 ### Notes & Best Practices
 
-- Data and log storage accounts can be in different resource groups.
+- Data and log storage accounts can be in different resource groups
 - Supported identity sources: AD DS, Microsoft Entra Kerberos
 - Not supported: Microsoft Entra Domain Services
 - Supported protocol: SMB
@@ -216,33 +216,33 @@ You must configure **Diagnostic Settings** to send file activity logs to your **
 
 ### Step 1: Open Diagnostic Settings
 
-1. In the Azure Portal, go to your **Data Storage Account**.
-2. Navigate to **Monitoring > Diagnostic settings**.
-3. On the **"Select any of the resources to view diagnostic settings"** screen, choose **File**.
-   - Netwrix Auditor only supports **File** diagnostic settings.
-4. Click **+ Add diagnostic setting**.
+1. In the Azure Portal, go to your **Data Storage Account**
+2. Navigate to **Monitoring > Diagnostic settings**
+3. On the **"Select any of the resources to view diagnostic settings"** screen, choose **File**
+   - Netwrix Auditor only supports **File** diagnostic settings
+4. Click **+ Add diagnostic setting**
 
 ### Step 2: Configure General Settings
 
-1. Enter a name (e.g., `NetwrixAuditorLogs`).
-2. Under **Category groups**, select **Audit**.
-   - Only the **Audit** category group is supported by Netwrix Auditor.
+1. Enter a name (e.g., `NetwrixAuditorLogs`)
+2. Under **Category groups**, select **Audit**
+   - Only the **Audit** category group is supported by Netwrix Auditor
 
 ### Step 3: Configure Destination
 
-1. Under **Destination details**, check **Archive to a storage account**.
-   - This is the **only supported option** for Netwrix Auditor.
+1. Under **Destination details**, check **Archive to a storage account**
+   - This is the **only supported option** for Netwrix Auditor
 2. Select your **Log Storage Account**.
-3. Confirm the correct **subscription** and **storage account**.
+3. Confirm the correct **subscription** and **storage account**
 
-**Note:** Azure requires **two separate storage accounts**:
+**Note:** Azure requires **two separate storage accounts:**
 - One for file shares (data)
 - One for audit logs
 
 ### Step 4: Save the Configuration
 
 Click **Save**.
-Azure Files audit logs will now be archived into your **Log Storage Account**.
+Azure Files audit logs will now be archived into your **Log Storage Account**
 
 **At the end of this step, you should have:**
 - A Diagnostic Setting under the File resource type
