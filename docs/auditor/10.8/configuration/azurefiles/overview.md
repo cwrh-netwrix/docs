@@ -42,7 +42,7 @@ You must register an application so Netwrix Auditor can authenticate to Azure an
 **Understanding Account Types:**
 
 - **Accounts in this organizational directory only (Single tenant)**
-  "All user and guest accounts in your directory can use your application or API. Use this option if your target audience is internal to your organization."
+  "All user and guest accounts in your directory can use your application or API. Use this option if your target audience is internal to your organization"
   *Recommended for Netwrix Auditor*
 
 - **Accounts in any organizational directory (Multitenant)**
@@ -80,9 +80,8 @@ Netwrix Auditor uses the **App ID** + **Client Secret** for authentication
 
 ## Configure API Permissions
 
-### Required Permissions
 
-**Microsoft Graph API:**
+**Microsoft Graph API permissions:**
 
 | Permission | Purpose |
 |------------|---------|
@@ -101,7 +100,6 @@ Netwrix Auditor uses the **App ID** + **Client Secret** for authentication
 - *User.Read* – "Sign in and read user profile." *(default)*
 - *User.Read.All* – "Read all users' full profiles"
 
----
 
 ### Step 2: Grant Admin Consent
 
@@ -115,7 +113,6 @@ Click **Grant admin consent for TenantName**
 
 **At the end of this step, your app has Microsoft Graph API permissions**
 
----
 
 ## Additional Configuration: Identity-Based Access for Azure Files
 
@@ -143,7 +140,7 @@ Netwrix Auditor relies on identity-based access to correctly map file operations
 
 ## Assign IAM Roles to the App
 
-**Storage Account Roles:**
+**IAM Roles:**
 
 | Role | Scope | Purpose |
 |------|--------|---------|
@@ -156,7 +153,7 @@ You must assign Azure IAM roles so that Netwrix Auditor can:
 - Read metadata from your data storage account
 - Access audit logs from your log storage account
 
-**These IAM roles are mandatory.**
+**These IAM roles are mandatory**
 
 ### Step 1: Assign Reader Role on Resource Group
 
@@ -170,7 +167,6 @@ You must assign Azure IAM roles so that Netwrix Auditor can:
 7. In the search window, find and select the **App you registered earlier**
 8. Click **Select → Review + assign**
 
----
 
 ### Step 2: Assign Storage File Data Privileged Reader on Data Storage Account
 
@@ -183,7 +179,6 @@ You must assign Azure IAM roles so that Netwrix Auditor can:
 6. Search for and select the **App you registered earlier**
 7. Click **Select → Review + assign**
 
----
 
 ### Step 3: Assign Storage Blob Data Reader on Log Storage Account
 
@@ -204,15 +199,15 @@ You must assign Azure IAM roles so that Netwrix Auditor can:
 - Not supported: Microsoft Entra Domain Services
 - Supported protocol: SMB
 
-**At the end of this step, your app should have:**
+**At the end of this step, your app should have assigned roles:**
 - Reader (Resource Group)
 - Storage File Data Privileged Reader (Data Storage Account)
 - Storage Blob Data Reader (Log Storage Account)
 
 ## Diagnostic Settings
 
-Azure Files does not generate audit events by default.
-You must configure **Diagnostic Settings** to send file activity logs to your **Log Storage Account**.
+Azure Files does not generate audit events by default
+You must configure **Diagnostic Settings** to send file activity logs to your **Log Storage Account**
 
 ### Step 1: Open Diagnostic Settings
 
@@ -232,7 +227,7 @@ You must configure **Diagnostic Settings** to send file activity logs to your **
 
 1. Under **Destination details**, check **Archive to a storage account**
    - This is the **only supported option** for Netwrix Auditor
-2. Select your **Log Storage Account**.
+2. Select your **Log Storage Account**
 3. Confirm the correct **subscription** and **storage account**
 
 **Note:** Azure requires **two separate storage accounts:**
