@@ -1,7 +1,7 @@
 ---
 title: "Azure Files Ports and Network Configuration"
 description: "Network ports and connectivity requirements for Azure Files monitoring"
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Azure Files Ports and Network Configuration

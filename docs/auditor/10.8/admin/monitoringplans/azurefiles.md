@@ -4,7 +4,7 @@ description: "Create and configure Azure Files monitoring plans in Netwrix Audit
 sidebar_position: 85
 ---
 
-# Azure Files Monitoring Plan
+# Azure Files
 
 Create monitoring plans for Azure Files to track file and folder changes across your Azure storage accounts.
 

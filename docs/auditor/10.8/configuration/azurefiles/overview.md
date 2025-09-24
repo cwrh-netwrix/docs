@@ -6,7 +6,19 @@ sidebar_position: 1
 
 # Azure Files Configuration Overview
 
-Configure Azure Files monitoring with Netwrix Auditor by setting up Azure AD application registration, permissions, and diagnostic settings
+Netwrix Auditor for Azure Files enables organizations to monitor, audit, and report on activity in **Azure Files shares**.
+It provides visibility into who accessed, modified, moved, or deleted files, and whether access attempts were successful or failed.
+
+#### Key capabilities
+- Collects audit logs from Azure Files via diagnostic settings and stores them in the Netwrix Auditor database
+- Tracks file and folder operations (add, modify, delete, move, read) including both successful and failed attempts
+- Resolves user identities to show who performed each action
+- Provides prebuilt reports and search to help identify unauthorized access or suspicious activity
+- Supports **Active Directory Domain Services (AD DS)** and **Microsoft Entra Kerberos** for identity-based access auditing
+
+Netwrix Auditor for Azure Files helps ensure **security, compliance, and accountability** in cloud file storage by giving IT teams clear insight into user activity.
+
+Configure Azure Files monitoring with Netwrix Auditor by setting up EntraID application registration, permissions, and diagnostic settings
 
 ## Prerequisites
 
@@ -19,12 +31,12 @@ Configure Azure Files monitoring with Netwrix Auditor by setting up Azure AD app
 
  - One for audit logs — Create a storage account [Create a storage account (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?utm_source=chatgpt.com&tabs=azure-portal)
 
-## Configuration Steps Overview
+## Configuration Scope Overview
 
-1. **[Azure Application Registration](#azure-application-registration)** - Create Azure AD application
-2. **[Configure API Permissions](#configure-api-permissions)** - Assign required permissions for created application in EntraID
-3. **[Assign IAM Roles to the App](#assign-iam-roles-to-the-app)**- Assigning roles to Resource Group, Data Storage Account and Log Storage Account
-3. **[Diagnostic Settings](#diagnostic-settings)** - Configure audit logging
+ **[Azure Application Registration](#azure-application-registration)** - Create Azure AD application
+ **[Configure API Permissions](#configure-api-permissions)** - Assign required permissions for created application in EntraID
+ **[Assign IAM Roles to the App](#assign-iam-roles-to-the-app)**- Assigning roles to Resource Group, Data Storage Account and Log Storage Account
+ **[Diagnostic Settings](#diagnostic-settings)** - Configure audit logging
 
 ## Azure Application Registration
 
@@ -83,11 +95,6 @@ Netwrix Auditor uses the **App ID** + **Client Secret** for authentication
 
 **Microsoft Graph API permissions:**
 
-| Permission | Purpose |
-|------------|---------|
-| `User.Read` | Basic user information |
-| `User.Read.All` | Read all users' profiles |
-
 
 ### Step 1: Add Permissions
 
@@ -141,12 +148,6 @@ Netwrix Auditor relies on identity-based access to correctly map file operations
 ## Assign IAM Roles to the App
 
 **IAM Roles:**
-
-| Role | Scope | Purpose |
-|------|--------|---------|
-| `Reader` | Resource Group | List storage accounts |
-| `Storage File Data Privileged Reader` | Storage Account | Read file share data |
-| `Storage Blob Data Reader` | Storage Account | Access audit logs |
 
 You must assign Azure IAM roles so that Netwrix Auditor can:
 - Discover file shares in your resource group
@@ -263,4 +264,4 @@ After completing the Azure Files configuration:
 2. **Create Monitoring Plan**: Configure Azure Files monitoring in Netwrix Auditor
 3. **Validate Data Collection**: Confirm audit events are being collected
 
-For detailed instructions on creating the monitoring plan, see the [Azure Files Monitoring Plan](/docs/auditor/10.8/admin/monitoringplans/azurefiles.md) documentation.
+For detailed instructions on creating the monitoring plan, see the [Azure Files Monitoring Plan](/docs/auditor/10.8/admin/monitoringplans/azurefiles.md) documentation
