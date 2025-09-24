@@ -33,7 +33,7 @@
 /static/files/activitymonitor/ @netwrix/activitymonitor-docs
 /static/images/activitymonitor/ @netwrix/activitymonitor-docs
 
-# Auditor team
+# Auditor team --test
 /docs/auditor/ @netwrix/auditor-docs
 /sidebars/auditor/ @netwrix/auditor-docs
 /static/files/auditor/ @netwrix/auditor-docs
