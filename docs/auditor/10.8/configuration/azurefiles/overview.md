@@ -33,14 +33,14 @@ Configure Azure Files monitoring with Netwrix Auditor by setting up EntraID appl
 
 ## Configuration Scope Overview
 
- **[Azure Application Registration](#azure-application-registration)** - Create Azure AD application
- **[Configure API Permissions](#configure-api-permissions)** - Assign required permissions for created application in EntraID
- **[Assign IAM Roles to the App](#assign-iam-roles-to-the-app)**- Assigning roles to Resource Group, Data Storage Account and Log Storage Account
- **[Diagnostic Settings](#diagnostic-settings)** - Configure audit logging
+- **[Azure Application Registration](#azure-application-registration)** - Create Azure AD application
+- **[Configure API Permissions](#configure-api-permissions)** - Assign required permissions for created application in EntraID
+- **[Assign IAM Roles to the App](#assign-iam-roles-to-the-app)**- Assigning roles to Resource Group, Data Storage Account and Log Storage Account
+- **[Diagnostic Settings](#diagnostic-settings)** - Configure audit logging
 
 ## Azure Application Registration
 
-You must register an application so Netwrix Auditor can authenticate to Azure and read audit logs
+You should register an application so Netwrix Auditor can authenticate to Azure and read audit logs
 
 ### Step 1: Create the App Registration
 
@@ -118,7 +118,7 @@ Click **Grant admin consent for TenantName**
 - This lets Netwrix Auditor query Azure AD and resolve **user SIDs → user accounts → display names**
 - Without admin consent, audit logs will only show unresolved SIDs instead of usernames, making reports incomplete and less useful
 
-**At the end of this step, your app has Microsoft Graph API permissions**
+**At the end of this step, your app has granted Microsoft Graph API permissions**
 
 
 ## Additional Configuration: Identity-Based Access for Azure Files
@@ -143,13 +143,13 @@ Netwrix Auditor relies on identity-based access to correctly map file operations
 - Audit logs may not contain accurate user information
 - Activity may be shown as system or anonymous accounts
 
-**At the end of this step, your Data Storage Account must have identity-based access configured with either AD DS or Microsoft Entra Kerberos.**
+**At the end of this step, your Data Storage Account mustshould have identity-based access configured with either AD DS or Microsoft Entra Kerberos.**
 
 ## Assign IAM Roles to the App
 
 **IAM Roles:**
 
-You must assign Azure IAM roles so that Netwrix Auditor can:
+You mshould assign Azure IAM roles so that Netwrix Auditor can:
 - Discover file shares in your resource group
 - Read metadata from your data storage account
 - Access audit logs from your log storage account

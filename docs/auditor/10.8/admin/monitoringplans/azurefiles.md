@@ -10,9 +10,10 @@ Create monitoring plans for Azure Files to track file and folder changes across 
 
 ## Prerequisites
 
+- **[Azure Application registered](/docs/auditor/10.8/configuration/azurefiles/overview.md#azure-application-registration)** with required **[permissions](/docs/auditor/10.8/configuration/azurefiles/overview.md#configure-api-permissions)**
+- **[Diagnostic Settings configured](/docs/auditor/10.8/configuration/azurefiles/overview.md#diagnostic-settings)** for storage accounts
 - **[Azure Files Configuration](/docs/auditor/10.8/configuration/azurefiles/overview.md)** completed
-- **[Azure Application registered](/docs/auditor/10.8/configuration/azurefiles/overview.md#azure-application-registration)** with required [permissions](/docs/auditor/10.8/configuration/azurefiles/overview.md#configure-api-permissions)
-- [Diagnostic Settings configured](/docs/auditor/10.8/configuration/azurefiles/overview.md#diagnostic-settings) for storage accounts
+
 
 ## Create Monitoring Plan
 
@@ -21,10 +22,10 @@ Create monitoring plans for Azure Files to track file and folder changes across 
 1. In the **Netwrix Auditor**, go to **Home > Monitoring Plans > + Add Plan**.
 2. Select **Azure Files**.
 3. Configure:
-   - [Audit database (SQL)](/docs/auditor/10_8/admin/settings/auditdatabase)
-   - [Notifications (SMTP or Exchange Online)](/docs/auditor/10_8/admin/settings/notifications)
-   - Plan name and description
-   - Select **Add item now**
+ - [Audit database (SQL)](/docs/auditor/10_8/admin/settings/auditdatabase)
+ - [Notifications (SMTP or Exchange Online)](/docs/auditor/10_8/admin/settings/notifications)
+ - Plan name and description
+ - Select **Add item now**
 
 
 ### Step 2: Add Azure Files Data Source
@@ -32,7 +33,7 @@ Create monitoring plans for Azure Files to track file and folder changes across 
 1. Click **Add Data Source**
 2. Select **Azure Files**
 3. Select Item for Monitoring:
-- Option A – Storage Account → Enter **Storage Account Name,        Subscription ID, Tenant Name, Application ID, Application Secret**
+- Option A – Storage Account → Enter **Storage Account Name, Subscription ID, Tenant Name, Application ID, Application Secret**
 - Option B – Subscription → Enter **Subscription Name, Subscription ID, Tenant Name, Application ID, Application Secret**
 
 **Tip:** If you have multiple storage accounts, use the subscription option for easier management.
@@ -51,8 +52,14 @@ Configure storage account settings (requires separate accounts):
 2. Enable **Monitor this data source and collect activity data**.
 
 3. Select actions:
+
    - **Changes (Success/Fail)** → Track file creation, modification, deletion, and failed attempts.
+     - **Successful** - Use this option to track changes to your data. It helps to find out who made changes to your files, including their creation and deletion.
+     - **Failed** - Use this option to detect suspicious activity on Azure Files. It helps to identify potential intruders who tried to modify or delete files, etc., but failed to do it.
+
    - **Read Access (Success/Fail)** → Track file reads and unauthorized read attempts.
+     - **Successful** - Show successful attempts to read files.
+     - **Failed** - Use this option to track suspicious activity. Helps find out who was trying to access your private data without proper justification.Enabling this option on public shares will result in a high number of events generated on Azure Files and the amount of data written to the Long-Term Archive.
 
 **Note:** Enabling read access auditing on public shares may generate high event volume.
 **Tip:** Only enable read auditing where compliance requires it (e.g., HR, Finance).
@@ -60,9 +67,9 @@ Configure storage account settings (requires separate accounts):
 4. Add exclusions → e.g., service accounts that produce excessive logs.
 
 - **Monitored object types** - Select from:
-  - Files
-  - Folders
-  - Shares
+ - Files
+ - Folders
+ - Shares
 - **Monitored actions** - Configure which file operations to track
 
 ### Step 5: Test Connection
