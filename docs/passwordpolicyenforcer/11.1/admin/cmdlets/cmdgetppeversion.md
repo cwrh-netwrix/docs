@@ -24,4 +24,4 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 
 PS C:\> Get-PPEVersion
 
-**Version: 11.0.0.74**
+**Version: 11.1.0.74**

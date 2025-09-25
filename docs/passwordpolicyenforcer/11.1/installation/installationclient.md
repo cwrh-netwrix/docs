@@ -7,9 +7,9 @@ sidebar_position: 30
 # Install Password Policy Enforcer Client
 
 This procedure is used to install the client on your current workstation. See the
-[Install with Group Policy Management](/docs/passwordpolicyenforcer/11.0/installation/installationgpm.md) top for details on installing the client
+[Install with Group Policy Management](/docs/passwordpolicyenforcer/11.1/installation/installationgpm.md) top for details on installing the client
 across your network. You can also install/uninstall the products using command line
-[Silent Installation](/docs/passwordpolicyenforcer/11.0/admin/command_line_interface.md#silent-installation).
+[Silent Installation](/docs/passwordpolicyenforcer/11.1/admin/command_line_interface.md#silent-installation).
 
 **Step 1 –** Navigate to the folder where you extracted the installers downloaded from Netwrix.
 
@@ -17,22 +17,22 @@ across your network. You can also install/uninstall the products using command l
 **Netwrix_PPE_Client**version**x86.msi** (32 bit OS) installation package. The installer is
 launched.
 
-![Client Setup](/images/passwordpolicyenforcer/11.0/install/clientsetup1.webp)
+![Client Setup](/images/passwordpolicyenforcer/11.1/install/clientsetup1.webp)
 
 **Step 3 –** Click **Next**.
 
-![Client Setup](/images/passwordpolicyenforcer/11.0/install/clientsetup2.webp)
+![Client Setup](/images/passwordpolicyenforcer/11.1/install/clientsetup2.webp)
 
 **Step 4 –** Review the End-User License Agreement. Click **I accept the terms in the License
 Agreement**.
 
 **Step 5 –** Click **Next**.
 
-![Client Setup](/images/passwordpolicyenforcer/11.0/install/clientsetup3.webp)
+![Client Setup](/images/passwordpolicyenforcer/11.1/install/clientsetup3.webp)
 
 **Step 6 –** Click **Install**.
 
-![Client Setup](/images/passwordpolicyenforcer/11.0/install/clientsetup4.webp)
+![Client Setup](/images/passwordpolicyenforcer/11.1/install/clientsetup4.webp)
 
 **Step 7 –** Click **Finish** when installation is complete.
 
@@ -86,15 +86,15 @@ You need to create the GPO if you chose the Express Setup option.
 **Step 4 –** Click **Domain Profile** in the left pane then double-click **Windows Firewall: Define
 inbound port exceptions** in the right pane.
 
-![the_password_policy_client_3](/images/passwordpolicyenforcer/11.0/install/the_password_policy_client_3.webp)
+![the_password_policy_client_3](/images/passwordpolicyenforcer/11.1/install/the_password_policy_client_3.webp)
 
 **Step 5 –** Select the **Enabled** option, and then click **Show...**.
 
-![the_password_policy_client_4](/images/passwordpolicyenforcer/11.0/install/the_password_policy_client_4.webp)
+![the_password_policy_client_4](/images/passwordpolicyenforcer/11.1/install/the_password_policy_client_4.webp)
 
 **Step 6 –** Select the **Enabled** option, and then click **Show...**.
 
-![the_password_policy_client_5](/images/passwordpolicyenforcer/11.0/install/the_password_policy_client_5.webp)
+![the_password_policy_client_5](/images/passwordpolicyenforcer/11.1/install/the_password_policy_client_5.webp)
 
 **Step 7 –** Click **OK** until you return to the Group Policy Management Editor.
 

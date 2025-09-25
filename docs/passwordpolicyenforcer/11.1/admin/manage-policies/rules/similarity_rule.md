@@ -10,7 +10,7 @@ The Similarity rule rejects passwords that are similar to a user's current passw
 similarity may indicate that a user is serializing their passwords. For example, "password1",
 "password2", "password3". Password serialization allows an attacker to guess the new password.
 
-![Similarity Rule](/images/passwordpolicyenforcer/11.0/administration/similarity.webp)
+![Similarity Rule](/images/passwordpolicyenforcer/11.1/administration/similarity.webp)
 
 Select the **Similarity** check box to enable the Similarity rule.
 

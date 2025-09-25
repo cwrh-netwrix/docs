@@ -12,7 +12,7 @@ against a compromised hash list at any time.
 
 :::note
 Create the **Compromised Passwords Base** file prior to enabling the Compromised Password
-Check. See the [HIBP Updater](/docs/passwordpolicyenforcer/11.0/installation/hibpupdater.md) topic for instructions.
+Check. See the [HIBP Updater](/docs/passwordpolicyenforcer/11.1/installation/hibpupdater.md) topic for instructions.
 :::
 
 
@@ -29,10 +29,10 @@ set to **None**.
 
 Click the **Compromised Password Check** toggle to enable/disable the feature.
 
-![Compromised Password Check](/images/passwordpolicyenforcer/11.0/administration/compromisedpasswords.webp)
+![Compromised Password Check](/images/passwordpolicyenforcer/11.1/administration/compromisedpasswords.webp)
 
 - **Compromised Passwords Base** specify the database to use when checking for compromised
-  passwords. Netwrix recommends using the [HIBP Updater](/docs/passwordpolicyenforcer/11.0/installation/hibpupdater.md) to create this database.
+  passwords. Netwrix recommends using the [HIBP Updater](/docs/passwordpolicyenforcer/11.1/installation/hibpupdater.md) to create this database.
   Click **Browse** to navigate to the folder. Default is **C:\HIBP\DB**
 - **Domain Controller (FQDN)** specify the fully qualified domain controller name where you want to
   run the password check. Click **Browse** and select from the list.
@@ -47,7 +47,7 @@ Click the **Compromised Password Check** toggle to enable/disable the feature.
 - **Set up email** click to set up the email message for users. Enter the **From** address and edit
   the subject and body template as needed. Click **Apply** to save changes.
 
-    ![Email user notification of compromised password](/images/passwordpolicyenforcer/11.0/administration/emailusernotification.webp)
+    ![Email user notification of compromised password](/images/passwordpolicyenforcer/11.1/administration/emailusernotification.webp)
 
 Click **Save** to save your settings before running the check or setting up a schedule.
 
@@ -65,7 +65,7 @@ Here is an example of the compromised passwords list:
 
 Click **Schedule** to set up a schedule to run the Compromised Password Check.
 
-![Schedule the Compromised Password Policy Check](/images/passwordpolicyenforcer/11.0/administration/compromisedpasswordsschedule.webp)
+![Schedule the Compromised Password Policy Check](/images/passwordpolicyenforcer/11.1/administration/compromisedpasswordsschedule.webp)
 
 Select the **Frequency**:
 

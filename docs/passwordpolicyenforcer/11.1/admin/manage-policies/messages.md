@@ -17,7 +17,7 @@ Password Policy Client messages.
   to see if their passwords meet the requirements of the policy set by the organization. Here is an
   example of a live policy message.
 
-    ![Messages](/images/passwordpolicyenforcer/11.0/administration/mesages2.webp)
+    ![Messages](/images/passwordpolicyenforcer/11.1/administration/mesages2.webp)
 
     :::note
     Start each custom message with two spaces, a hypen, and a space before your message so
@@ -41,7 +41,7 @@ Double click the **PPE Configuration** desktop shortcut.
 
 **Step 3 –** Open the **Messages** tab.
 
-![Set up messages](/images/passwordpolicyenforcer/11.0/administration/messages.webp)
+![Set up messages](/images/passwordpolicyenforcer/11.1/administration/messages.webp)
 
 **Step 4 –** Select the message language from the drop-down list. You can set messages for multiple
 languages. You do not have to create a Password Policy Enforcer policy for each language. To set
@@ -54,7 +54,7 @@ Reason, and Generic rejection messages for any of the components you want to use
 
 **Step 6 –** Insert the macros into your message. Click **Macro** and pick one to insert it.
 
-![Use macros for your message](/images/passwordpolicyenforcer/11.0/administration/messagesmacros.webp)
+![Use macros for your message](/images/passwordpolicyenforcer/11.1/administration/messagesmacros.webp)
 
 **Step 7 –** Click **Save** and review your changes in the Preview area. Click **Save** f you edit
 the message.

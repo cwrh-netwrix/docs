@@ -8,7 +8,7 @@ sidebar_position: 20
 
 Netwrix Password Policy Enforcer can enforce up to 256 different password policies. You can assign
 policies to users directly, or indirectly through Active Directory security groups and containers
-(Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/usersgroups.md) topic for
+(Organizational Units). See the [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/usersgroups.md) topic for
 additional information.
 
 Open the Configuration Console:
@@ -17,14 +17,14 @@ Click **Start** > **Netwrix Password Policy Enforcer** > **PPE Configuration**
 or
 Double click the **PPE Configuration** desktop shortcut.
 
-![Configuration Console Dashboard](/images/passwordpolicyenforcer/11.0/evaluation/ppedashboard.webp)
+![Configuration Console Dashboard](/images/passwordpolicyenforcer/11.1/evaluation/ppedashboard.webp)
 
 The Configuration Console dashboard shows **No password policies have been set up** when you are
 getting started with Password Policy Enforcer. Once you **Add a policy**, the dashboard shows the
 defined policies and tool links. In this example, the Default Password Policy and CIS Password
 Policy Guide have been added.
 
-![Dashboard with Policies](/images/passwordpolicyenforcer/11.0/administration/ppedashboardpolicies.webp)
+![Dashboard with Policies](/images/passwordpolicyenforcer/11.1/administration/ppedashboardpolicies.webp)
 
 The policy management links are all on the Password Policies tile:
 
@@ -97,31 +97,31 @@ most popular regulatory frameworks.
 Once you add a policy, it needs to be set up or reviewed if you used a template. Click on the policy
 name to edit the policy. For each policy:
 
-- Set up [Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/rules.md).
-- [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/usersgroups.md).
-- Enable the use of an optional [Passphrase](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/passphrases.md).
-- Set up [Policy Properties](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/policy_properties.md).
-- Set up [Messages](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/messages.md) for your users.
+- Set up [Rules](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/rules.md).
+- [Assign Policies to Users & Groups](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/usersgroups.md).
+- Enable the use of an optional [Passphrase](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/passphrases.md).
+- Set up [Policy Properties](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/policy_properties.md).
+- Set up [Messages](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/messages.md) for your users.
 
 ## Test Policy
 
 Launches the Test policy tool in a separate window. You can test **By user** and by **Password bulk
-test**. See the [Test Policy](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md) topic for additional information.
+test**. See the [Test Policy](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/testpolicy.md) topic for additional information.
 
 ## Set Priorities
 
 Set priorities determines which policy to enforce if users have more than one policy. Click **Apply
 priorities** to save the new order.
 
-![Set priorities](/images/passwordpolicyenforcer/11.0/administration/policypriority.webp)
+![Set priorities](/images/passwordpolicyenforcer/11.1/administration/policypriority.webp)
 
 ### Policy Selection Flowchart
 
 This flowchart shows how Password Policy Enforcer determines a policy for each user. Use the
-[Test Policy](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is
+[Test Policy](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/testpolicy.md) tool to quickly determine which policy Password Policy Enforcer is
 enforced for a particular user.
 
-![managing_policies](/images/passwordpolicyenforcer/11.0/administration/managing_policies.webp)
+![managing_policies](/images/passwordpolicyenforcer/11.1/administration/managing_policies.webp)
 
 ## Export
 

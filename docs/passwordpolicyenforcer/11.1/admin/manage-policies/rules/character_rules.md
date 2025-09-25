@@ -10,13 +10,13 @@ Password Policy Enforcer has seven Character rules that reject passwords if they
 contain certain characters. These rules can increase password strength or ensure password
 compatibility with other systems.
 
-![Character (Granular) Rule](/images/passwordpolicyenforcer/11.0/administration/chargranular.webp)
+![Character (Granular) Rule](/images/passwordpolicyenforcer/11.1/administration/chargranular.webp)
 
 All the Character rules work identically, but each has their own default character set. A character
 set is the collection of characters that each rule searches for when checking a password. You can
 use the Character rules with their default character sets, or define your own. By default, the
 Password Policy Enforcer selects the Password Policy Enforcer character on the
-[Set Priorities](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/manage_policies.md#set-priorities) page.
+[Set Priorities](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/manage_policies.md#set-priorities) page.
 
 :::note
 Only Password Policy Enforcer 11 and higher will contain the Windows character set.
@@ -43,14 +43,14 @@ Click the + sign by the character set.
 
 Select **In position**.
 
-![Restricting Characters](/images/passwordpolicyenforcer/11.0/administration/chargranularrestrict.webp)
+![Restricting Characters](/images/passwordpolicyenforcer/11.1/administration/chargranularrestrict.webp)
 
 If you want to restrict this rule to certain character positions, choose the starting position from
 the first entry box and the ending position from the second entry box. For example, you may want to
 enforce a rule that requires a numeric character in the second character position to maintain
 compatibility with some other system.
 
-![Require a number in position 2](/images/passwordpolicyenforcer/11.0/administration/chargranularrestrict2.webp)
+![Require a number in position 2](/images/passwordpolicyenforcer/11.1/administration/chargranularrestrict2.webp)
 
 Click the + sign by the character set.
 
@@ -75,7 +75,7 @@ You can customize character sets with the Characters option for a selected set.
 
 **Step 2 –** Enter a **Name**. This example uses **vowels**.
 
-![Set up custom character set](/images/passwordpolicyenforcer/11.0/administration/chargranularvowel.webp)
+![Set up custom character set](/images/passwordpolicyenforcer/11.1/administration/chargranularvowel.webp)
 
 **Step 3 –** Enter the **Characters**. This example uses **AaEeIiOoUu**.
 
@@ -95,8 +95,8 @@ This is done by using two of the Character rules:
 
 Set **Characters (Complexity)** to require 1 Numeric character.
 
-![Require a numeric value](/images/passwordpolicyenforcer/11.0/administration/chargranularrestrict3.webp)
+![Require a numeric value](/images/passwordpolicyenforcer/11.1/administration/chargranularrestrict3.webp)
 
 Set **Characters (Granular)** to not contain numeric values in the first two positions.
 
-![Don't allow numeric values in first two positions](/images/passwordpolicyenforcer/11.0/administration/chargranularrestrict4.webp)
+![Don't allow numeric values in first two positions](/images/passwordpolicyenforcer/11.1/administration/chargranularrestrict4.webp)

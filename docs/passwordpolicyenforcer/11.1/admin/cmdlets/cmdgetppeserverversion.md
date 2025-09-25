@@ -33,4 +33,4 @@ This cmdlet supports the common parameters: **Verbose**, **Debug**, **ErrorActio
 
 PS C:\> Get-PPEServerVersion -DC NT-DC03.NWXTECH.COM
 
-**Version: 11.0.0.74**
+**Version: 11.1.0.74**

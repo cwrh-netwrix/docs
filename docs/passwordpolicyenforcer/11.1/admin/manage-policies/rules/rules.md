@@ -21,7 +21,7 @@ Double click the **PPE Configuration** desktop shortcut.
 The **Rules** tab opens by default. A check mark beside a rule indicates that the rule is enabled
 (being enforced). Click a rule to set the rule's properties.
 
-![Enabled rules are checked](/images/passwordpolicyenforcer/11.0/administration/enabledrules.webp)
+![Enabled rules are checked](/images/passwordpolicyenforcer/11.1/administration/enabledrules.webp)
 
 Review the sections on **Detecting Character Substitution** and **Tolerance** prior to setting up
 the rules for your policy.
@@ -31,18 +31,18 @@ logging** on the **Test Policy** window to see which rules you have tested.
 
 Rules:
 
-- [Age (Max) Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/maximum_age_rule.md)
-- [Age (Min) Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/minimum_age_rule.md)
-- [Characters (Complexity) Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/complexity_rule.md)
-- [Character (Granular) Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/character_rules.md)
-- [Compromised Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/compromised_rule.md)
-- [Dictionary Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/dictionary_rule.md)
-- [History Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/history_rule.md)
-- [Length Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/length_rule.md)
-- [Patterns Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/patterns.md)
-- [Repetition Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/repetition.md)
-- [Similarity Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/similarity_rule.md)
-- [Unique Characters Rule](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/unique_characters.md)
+- [Age (Max) Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/maximum_age_rule.md)
+- [Age (Min) Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/minimum_age_rule.md)
+- [Characters (Complexity) Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/complexity_rule.md)
+- [Character (Granular) Rules](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/character_rules.md)
+- [Compromised Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/compromised_rule.md)
+- [Dictionary Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/dictionary_rule.md)
+- [History Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/history_rule.md)
+- [Length Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/length_rule.md)
+- [Patterns Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/patterns.md)
+- [Repetition Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/repetition.md)
+- [Similarity Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/similarity_rule.md)
+- [Unique Characters Rule](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/unique_characters.md)
 
 ## Detecting Character Substitution
 

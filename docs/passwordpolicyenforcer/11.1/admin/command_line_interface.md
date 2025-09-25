@@ -9,7 +9,7 @@ sidebar_position: 70
 ## Silent Installation
 
 Replace _version_ with the complete version and build number of the **msi** file. For example,
-11.0.0.74.
+11.1.0.74.
 
 Install only PPE Server: msiexec /i Netwrix_PPE_Server**version**x64.msi ADDLOCAL=FeatureServerPPE
 /q

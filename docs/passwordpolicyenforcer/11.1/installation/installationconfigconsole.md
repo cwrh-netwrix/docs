@@ -19,9 +19,9 @@ The Configuration Console is a feature package included in the server installati
 - Configuration Console – manages policy configuration. Install where ever needed.
 - Mailer Service – sends email reminders. Install on any server.
 
-Follow the procedure in [Install Password Policy Enforcer on a Server](/docs/passwordpolicyenforcer/11.0/installation/installationserver.md),
+Follow the procedure in [Install Password Policy Enforcer on a Server](/docs/passwordpolicyenforcer/11.1/installation/installationserver.md),
 selecting the **Configuration Console** feature. You can select the other features if appropriate
 for the server.
 
 You can also install/uninstall the products using command line
-[Silent Installation](/docs/passwordpolicyenforcer/11.0/admin/command_line_interface.md#silent-installation).
+[Silent Installation](/docs/passwordpolicyenforcer/11.1/admin/command_line_interface.md#silent-installation).

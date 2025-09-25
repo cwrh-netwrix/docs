@@ -10,7 +10,7 @@ The Maximum Age rule forces users to change their passwords regularly. This decr
 of an attacker discovering a password before it changes. This rule can only be enforced by domain
 policies.
 
-![Maximum Age rule](/images/passwordpolicyenforcer/11.0/administration/agemax.webp)
+![Maximum Age rule](/images/passwordpolicyenforcer/11.1/administration/agemax.webp)
 
 Select the **Age (Max)** checkbox to enable the Maximum Age rule.
 
@@ -113,5 +113,5 @@ The email's subject and body can contain various macros. Use these macros to per
 
 ### Set up SMTP
 
-Opens the Notification settings. See the [Configuration Console](/docs/passwordpolicyenforcer/11.0/admin/configconsole.md) topic for
+Opens the Notification settings. See the [Configuration Console](/docs/passwordpolicyenforcer/11.1/admin/configconsole.md) topic for
 additional details.

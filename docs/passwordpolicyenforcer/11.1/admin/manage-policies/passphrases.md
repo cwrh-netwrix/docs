@@ -24,7 +24,7 @@ Double click the **PPE Configuration** desktop shortcut.
 
 **Step 3 –** Open the **Passphrase** tab.
 
-![Enable Passphrases](/images/passwordpolicyenforcer/11.0/administration/passphrase.webp)
+![Enable Passphrases](/images/passwordpolicyenforcer/11.1/administration/passphrase.webp)
 
 **Step 4 –** Select the number of characters the password must contain before the selected rules are
 disabled.

@@ -13,10 +13,10 @@ password policy for local user accounts.
 If your domain contains some read-only domain controllers, then installation of Password Policy
 Enforcer on these servers is only necessary if you are using the following features:
 
-- [Rules](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/rules/rules.md)
-- [Password Policy Client](/docs/passwordpolicyenforcer/11.0/admin/password-policy-client/password_policy_client.md)
+- [Rules](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/rules/rules.md)
+- [Password Policy Client](/docs/passwordpolicyenforcer/11.1/admin/password-policy-client/password_policy_client.md)
 - [Netwrix Password Reset](https://helpcenter.netwrix.com/category/passwordreset)
-- [Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.0/web-overview/web_overview.md)
+- [Password Policy Enforcer Web](/docs/passwordpolicyenforcer/11.1/web-overview/web_overview.md)
 
 The Server installation package includes multiple features selected during installation:
 
@@ -29,9 +29,9 @@ The Server installation package includes multiple features selected during insta
 
 **Step 2 –** Extract the installers from the compressed file. If you are going to use Group Policy
 Manager to install Netwrix Password Policy Enforcer, copy the **msi** files to a distribution
-folder. See the [Install with Group Policy Management](/docs/passwordpolicyenforcer/11.0/installation/installationgpm.md) topic for additional
+folder. See the [Install with Group Policy Management](/docs/passwordpolicyenforcer/11.1/installation/installationgpm.md) topic for additional
 details. You can also install/uninstall the products using command line
-[Silent Installation](/docs/passwordpolicyenforcer/11.0/admin/command_line_interface.md#silent-installation).
+[Silent Installation](/docs/passwordpolicyenforcer/11.1/admin/command_line_interface.md#silent-installation).
 
 :::note
 Continue with these steps to install one or more features on your current server or domain
@@ -42,18 +42,18 @@ controller. You must repeat these steps for each server where the features are i
 **Step 3 –** Click on the **Netwrix_PPE_Server**version**x64.msi** installation package. The
 installer is launched.
 
-![Server Setup](/images/passwordpolicyenforcer/11.0/install/serversetup1.webp)
+![Server Setup](/images/passwordpolicyenforcer/11.1/install/serversetup1.webp)
 
 **Step 4 –** Click **Next**.
 
-![Server Setup](/images/passwordpolicyenforcer/11.0/install/serversetup2.webp)
+![Server Setup](/images/passwordpolicyenforcer/11.1/install/serversetup2.webp)
 
 **Step 5 –** Review the End-User License Agreement. Click **I accept the terms in the License
 Agreement**.
 
 **Step 6 –** Click **Next**.
 
-![Server Setup](/images/passwordpolicyenforcer/11.0/install/serversetup3.webp)
+![Server Setup](/images/passwordpolicyenforcer/11.1/install/serversetup3.webp)
 
 **Step 7 –** Select the features to install. The required storage is shown for each selection.
 
@@ -69,12 +69,12 @@ Agreement**.
 
 **Step 9 –** Click **Next**.
 
-![Server Setup](/images/passwordpolicyenforcer/11.0/install/serversetup4.webp)
+![Server Setup](/images/passwordpolicyenforcer/11.1/install/serversetup4.webp)
 
 **Step 10 –** Review your selections. Click **Back** to make any changes. When ready, click
 **Install**.
 
-![Server Setup](/images/passwordpolicyenforcer/11.0/install/serversetup5.webp)
+![Server Setup](/images/passwordpolicyenforcer/11.1/install/serversetup5.webp)
 
 **Step 11 –** Click **Finish** when installation is complete. You are prompted to restart your
 system for the changes to take effect.

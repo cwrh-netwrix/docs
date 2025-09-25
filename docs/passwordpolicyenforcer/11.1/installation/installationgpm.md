@@ -11,7 +11,7 @@ installation is recommended when you need to install Password Policy Enforcer on
 This section shows you how to install Password Policy Enforcer on domain controllers to enforce
 domain policies, but you can also use Group Policy to target member servers and workstations if you
 need to enforce local policies. See the
-[Domain and Local Policies](/docs/passwordpolicyenforcer/11.0/installation/domain_and_local_policies.md) topic for additional
+[Domain and Local Policies](/docs/passwordpolicyenforcer/11.1/installation/domain_and_local_policies.md) topic for additional
 information.
 
 ## Create a Distribution Point
@@ -41,11 +41,11 @@ write access to authorized personnel only.
 **Step 3 –** Right-click the **Domain Controllers OU** in the left pane, and then click **Create a
 GPO in this domain, and Link it here...**
 
-![GPM installation](/images/passwordpolicyenforcer/11.0/install/gpm1.webp)
+![GPM installation](/images/passwordpolicyenforcer/11.1/install/gpm1.webp)
 
 **Step 4 –** Enter **Password Policy Enforcer** in the provided field, and then press **Enter**.
 
-![GPM Install](/images/passwordpolicyenforcer/11.0/install/gpm2.webp)
+![GPM Install](/images/passwordpolicyenforcer/11.1/install/gpm2.webp)
 
 ## Edit the Group Policy Object
 
@@ -67,7 +67,7 @@ For example: \\file server\distribution point share\Netwrix*PPE\_\_version*.msi
 
 **Step 5 –** Click **Open**.
 
-![installing_ppe_2](/images/passwordpolicyenforcer/11.0/install/installing_ppe_2.webp)
+![installing_ppe_2](/images/passwordpolicyenforcer/11.1/install/installing_ppe_2.webp)
 
 **Step 6 –** Select **Assigned** as the deployment method.
 

@@ -17,7 +17,7 @@ them. Select the first (blank) item in the drop-down list if you do not want a d
 
 Open the Programs and Features list in Control Panel on the computer you are changing the password
 from, and check if the Password Policy Client is in the list of installed programs. If it is not,
-then install the Password Policy Client. See the [Password Policy Client](/docs/passwordpolicyenforcer/11.0/admin/password-policy-client/password_policy_client.md)
+then install the Password Policy Client. See the [Password Policy Client](/docs/passwordpolicyenforcer/11.1/admin/password-policy-client/password_policy_client.md)
 topic for additional information.
 
 If Password Policy Enforcer is enforcing a domain policy, then search the Windows Application Event
@@ -38,7 +38,7 @@ password policy is assigned to the user.
 Make sure that the Password Policy Server is enabled.
 
 Make sure that the Password Policy Client is enabled. See
-[Password Policy Client](/docs/passwordpolicyenforcer/11.0/admin/password-policy-client/password_policy_client.md) topic for additional information.
+[Password Policy Client](/docs/passwordpolicyenforcer/11.1/admin/password-policy-client/password_policy_client.md) topic for additional information.
 
 #### Accepting passwords that do not comply with the policy
 
@@ -52,7 +52,7 @@ local policies, search the Application Event Log on the local computer.
 Use the Test Policies page to test a password that Password Policy Enforcer is accepting. Examine
 the test results and event log to determine why Password Policy Enforcer accepted the password. If
 the Test Policies page rejects the password, you must configure the policy. See the
-[Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md#policy-testing-vs-password-changes) topic for
+[Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/testpolicy.md#policy-testing-vs-password-changes) topic for
 additional information.
 
 If the **Enforce policy when password is reset** check box is not selected in the PPS Properties
@@ -66,7 +66,7 @@ Password screen.
 Use the Test Policies page to test a password that Password Policy Enforcer is rejecting. Examine
 the test results and event log to determine why Password Policy Enforcer rejected the password. If
 the Test Policies page rejects the password, you must configure the policy. See the
-[Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md#policy-testing-vs-password-changes) topic for
+[Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/testpolicy.md#policy-testing-vs-password-changes) topic for
 additional information.
 
 Set **User must change password at next logon** for the user and repeat the password change test. If
@@ -77,5 +77,5 @@ at next logon before every password change test to bypass the rule.
 
 #### Passwords that are accepted in the Test Policies page are rejected during a password change
 
-See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.0/admin/manage-policies/testpolicy.md#policy-testing-vs-password-changes)
+See the [Policy Testing vs. Password Changes](/docs/passwordpolicyenforcer/11.1/admin/manage-policies/testpolicy.md#policy-testing-vs-password-changes)
 topic for additional information.

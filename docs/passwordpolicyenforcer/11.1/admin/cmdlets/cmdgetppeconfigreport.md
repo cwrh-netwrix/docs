@@ -36,4 +36,4 @@ PS C:\> Get-PPEConfigReport -Folder C:\PPE
 
 The report is created: "C:\PPE\report.html".
 
-![Creates the PPE Configuration report](/images/passwordpolicyenforcer/11.0/administration/cmdletgetppeconfigreport.webp)
+![Creates the PPE Configuration report](/images/passwordpolicyenforcer/11.1/administration/cmdletgetppeconfigreport.webp)
