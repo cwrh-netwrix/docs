@@ -1,5 +1,5 @@
 ---
-title: "Azure Files Monitoring Plan"
+title: "Azure Files"
 description: "Create and configure Azure Files monitoring plans in Netwrix Auditor v10.8"
 sidebar_position: 85
 ---
