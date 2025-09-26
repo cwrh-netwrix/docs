@@ -6,19 +6,6 @@ sidebar_position: 1
 
 # Azure Files Configuration Overview
 
-Netwrix Auditor for Azure Files enables organizations to monitor, audit, and report on activity in **Azure Files shares**.
-It provides visibility into who accessed, modified, moved, or deleted files, and whether access attempts were successful or failed.
-
-#### Key capabilities
-- Collects audit logs from Azure Files via diagnostic settings and stores them in the Netwrix Auditor database
-- Tracks file and folder operations (add, modify, delete, move, read) including both successful and failed attempts
-- Resolves user identities to show who performed each action
-- Provides prebuilt reports and search to help identify unauthorized access or suspicious activity
-- Supports **Active Directory Domain Services (AD DS)** and **Microsoft Entra Kerberos** for identity-based access auditing
-
-Netwrix Auditor for Azure Files helps ensure **security, compliance, and accountability** in cloud file storage by giving IT teams clear insight into user activity.
-
-Configure Azure Files monitoring with Netwrix Auditor by setting up EntraID application registration, permissions, and diagnostic settings
 
 ## Prerequisites
 
@@ -27,9 +14,20 @@ Configure Azure Files monitoring with Netwrix Auditor by setting up EntraID appl
 - **Admin** permissions in Microsoft Entra ID and Azure Storage
 - **Two separate storage accounts:**
 
- - One for file shares (data) — Create a storage account [Create a storage account (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?utm_source=chatgpt.com&tabs=azure-portal)
+   - One for file shares (data) — Create a storage account [Create a storage account (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?utm_source=chatgpt.com&tabs=azure-portal)
 
- - One for audit logs — Create a storage account [Create a storage account (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?utm_source=chatgpt.com&tabs=azure-portal)
+   - One for audit logs — Create a storage account [Create a storage account (Microsoft Learn)](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-create?utm_source=chatgpt.com&tabs=azure-portal)
+
+- [Azure Files identity-based access](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-active-directory-overview) is configured for data storage account in Azure Files
+
+  Supported options:
+   - Active Directory Domain Services (AD DS)
+   - Microsoft Entra Kerberos (for hybrid identities)
+   - Microsoft Entra Domain Services (Entra DS) — not supported
+
+  **Netwrix Auditor** relies on **identity-based access** to correctly map file operations to real user accounts. Without it:
+   - Audit logs may not contain accurate user information
+   - Activity may be shown as system or anonymous accounts
 
 ## Configuration Scope Overview
 
@@ -51,20 +49,11 @@ You should register an application so Netwrix Auditor can authenticate to Azure 
    - Leave **Redirect URI** blank
 3. Click **Register**
 
-**Understanding Account Types:**
+**Account Types references:**
 
-- **Accounts in this organizational directory only (Single tenant)**
-  "All user and guest accounts in your directory can use your application or API. Use this option if your target audience is internal to your organization"
-  *Recommended for Netwrix Auditor*
+- **[Supported account types – Microsoft identity platform](https://learn.microsoft.com/en-us/entra/identity-platform/v2-supported-account-types)**
 
-- **Accounts in any organizational directory (Multitenant)**
-  "All users with a work or school account from Microsoft can use your application or API (Office 365)"
-
-- **Accounts in any organizational directory and personal Microsoft accounts (Multitenant + MSA)**
-  "All users with work, school, or personal accounts (Xbox, Skype, Outlook.com)"
-
-- **Personal Microsoft accounts only**
-  "Only consumer Microsoft accounts can use the app"
+- **[Identity and account types for single- and multitenant apps](https://learn.microsoft.com/en-us/security/zero-trust/develop/identity-supported-account-types)**
 
 **Note:** Switching audiences later may cause errors
 
@@ -120,30 +109,6 @@ Click **Grant admin consent for TenantName**
 
 **At the end of this step, your app has granted Microsoft Graph API permissions**
 
-
-## Additional Configuration: Identity-Based Access for Azure Files
-
-Before assigning IAM roles or diagnostic settings, ensure that **identity-based access** is configured for your **Data Storage Account** (the account that hosts Azure File Shares)
-
-### Configure in the Azure Portal
-
-1. Go to your **Storage Account** (with the file shares)
-2. Under **Data storage**, select **File shares**
-3. Open **File share settings** and check **Identity-based access**
-4. Ensure it is set to **Configured**
-5. Choose one of the following supported options:
-   - Active Directory Domain Services (AD DS)
-   - Microsoft Entra Kerberos (for hybrid identities)
-   - Microsoft Entra Domain Services (Entra DS) — not supported
-
-Reference: [Azure Files identity-based access](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-active-directory-overview)
-
-**Why this matters:**
-Netwrix Auditor relies on identity-based access to correctly map file operations to real user accounts. Without it:
-- Audit logs may not contain accurate user information
-- Activity may be shown as system or anonymous accounts
-
-**At the end of this step, your Data Storage Account mustshould have identity-based access configured with either AD DS or Microsoft Entra Kerberos.**
 
 ## Assign IAM Roles to the App
 
@@ -251,7 +216,6 @@ Azure Files audit logs will now be archived into your **Log Storage Account**
 
 - [Azure Application registered](#azure-application-registration) with App ID + Secret
 - [API permissions](#configure-api-permissions) (User.Read, User.Read.All) granted
-- [Identity-based access configured](#additional-configuration-identity-based-access-for-azure-files) for Data Storage Account (AD DS or Entra Kerberos)
 - [IAM roles assigned](#assign-iam-roles-to-the-app) (Reader, Storage File Data Privileged Reader, Storage Blob Data Reader)
 - [Diagnostic Settings configured](#diagnostic-settings) to log to a Log Storage Account
 
