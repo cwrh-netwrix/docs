@@ -46,7 +46,7 @@ You should register an application so Netwrix Auditor can authenticate to Azure 
 
 1. In the Azure Portal, go to **Microsoft Entra ID > Manage > App registrations > + New registration**
 2. Enter:
-   - **Name**: `NetwrixAuditor-AzureFiles`
+   - **Name**: Name: `NetwrixAuditor-AzureFiles` (this is an example — you can use any descriptive name for the app)
    - **Supported account types** (see below)
    - Leave **Redirect URI** blank
 3. Click **Register**
