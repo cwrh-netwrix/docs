@@ -1,7 +1,7 @@
 ---
 title: "Monitored Object Types, Actions, and Attributes"
 description: "Examine the list of actions that have been audited and reported by Azure Files data collector in the Netwrix Auditor 10.8"
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 Examine the list of actions that have been audited and reported by Azure Files data collector in the Netwrix Auditor 10.8

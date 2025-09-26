@@ -87,6 +87,12 @@ Netwrix Auditor uses the **App ID** + **Client Secret** for authentication
 
 ### Step 1: Add Permissions
 
+| Permission | Purpose |
+|------------|---------|
+| `User.Read` | Basic user information. Sign in and read user profile. *(default)* |
+| `User.Read.All` | Read all users' profiles. Required to resolve SIDs into usernames in reports |
+
+
 1. In your app in EntraID, go to **Manage > API permissions > + Add a permission**.
 2. Select **Microsoft Graph > Application permissions**
 3. Add:
@@ -111,6 +117,13 @@ Click **Grant admin consent for TenantName**
 
 
 ## Assign IAM Roles to the App
+
+| Role | Scope | Purpose |
+|------|--------|---------|
+| `Reader` | Resource Group | List storage accounts |
+| `Storage File Data Privileged Reader` | Storage Account | Read file shares data |
+| `Storage Blob Data Reader` | Log Storage Account | Access audit logs |
+
 
 **IAM Roles:**
 
