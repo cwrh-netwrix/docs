@@ -28,25 +28,15 @@ Create monitoring plans for Azure Files to track file and folder changes across 
  - Select **Add item now**
 
 
-### Step 2: Add Azure Files Data Source
+### Step 2: Add Item for Monitoring
 
-1. Click **Add Data Source**
-2. Select **Azure Files**
-3. Select Item for Monitoring:
 - Option A – Storage Account → Enter **Storage Account Name, Subscription ID, Tenant Name, Application ID, Application Secret**
 - Option B – Subscription → Enter **Subscription Name, Subscription ID, Tenant Name, Application ID, Application Secret**
 
 **Tip:** If you have multiple storage accounts, use the subscription option for easier management
 
 
-### Step 3: Configure Storage Accounts
-
-Configure storage account settings (requires separate accounts):
-- **File Share Storage Account** - Contains the file shares to monitor
-- **Audit Log Storage Account** - Stores diagnostic logs (must be separate account)
-- **Resource Group** - Resource group containing the storage accounts
-
-### Step 4: Configure Monitoring Scope and Actions
+### Step 3: Configure Monitoring Scope and Actions
 
 1. In the **Netwrix Auditor**, double-click your **Azure Files plan**
 2. Enable **Monitor this data source and collect activity data**
@@ -62,6 +52,7 @@ Configure storage account settings (requires separate accounts):
      - **Failed** - Use this option to track suspicious activity. Helps find out who was trying to access your private data without proper justification.Enabling this option on public shares will result in a high number of events generated on Azure Files and the amount of data written to the Long-Term Archive
 
 **Note:** Enabling read access auditing on public shares may generate high event volume
+
 **Tip:** Only enable read auditing where compliance requires it (e.g., HR, Finance)
 
 4. Add exclusions → e.g., service accounts that produce excessive logs
