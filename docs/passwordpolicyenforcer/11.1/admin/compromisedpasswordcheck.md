@@ -39,6 +39,8 @@ Click the **Compromised Password Check** toggle to enable/disable the feature.
 - **Log events in Windows Application Event Viewer** select this option if you want to log events.
 - **Force users to change password** select this option to force users to change compromised
   passwords.
+- **Report password reuse by another account** select this option to include reused passwords in the report.
+  - **Force users to change password at next logon** select this option to force users who reused passwords to change them at the next login.
 - **Recipient of the full report on the found compromised passwords** specify the email address of
   the administrator who should receive the full report.
 - **From** specify the email sender.
@@ -48,6 +50,8 @@ Click the **Compromised Password Check** toggle to enable/disable the feature.
   the subject and body template as needed. Click **Apply** to save changes.
 
     ![Email user notification of compromised password](/images/passwordpolicyenforcer/11.1/administration/emailusernotification.webp)
+
+The administrator always receives a report on compromised passwords and can additionally view reused passwords by selecting the corresponding checkbox. In this case, compromised and reused passwords are displayed together in a single report. Users without passwords are now included in the report and are always displayed.
 
 Click **Save** to save your settings before running the check or setting up a schedule.
 
