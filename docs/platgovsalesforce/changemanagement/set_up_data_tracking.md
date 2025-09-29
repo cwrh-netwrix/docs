@@ -161,10 +161,7 @@ After the Strongpoint scanner runs, a Strongpoint Customization will be created 
 You can see a list of all the filters applied to a tracked object. Navigate to the data record Customization for the tracked object and inspect the “Change Log Filters” in the Related Lists tab.
 
 **Example: Applying the DiscountScheduleFilter Apex class to the CPQ Discount Schedule object**
-
-
-**Example: Viewing all the filters being applied to the CPQ Discount Schedule object**
-
+![Data Tracking Filter](/images/platgovsalesforce/change_management/data_tracking_filter1.webp)
 
 #### Reviewing Data-Record Change Logs
 The Change Log has some features specific to data-record changes:
