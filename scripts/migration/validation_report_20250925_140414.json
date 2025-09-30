@@ -1,0 +1,3249 @@
+{
+  "run_timestamp": "2025-09-25T14:04:14.199484",
+  "summary": {
+    "total_articles_validated": 214,
+    "average_score": 8.616822429906541,
+    "articles_with_issues": 100,
+    "failed_validations": 0
+  },
+  "detailed_results": [
+    {
+      "article_id": "ka0Qk000000Ed9ZIAS",
+      "title": "Monitoring Oracle Databases using Change Tracker",
+      "file_path": "../../docs/kb/activity-monitor/monitoring_oracle_databases_using_change_tracker.md",
+      "timestamp": "2025-09-25T13:13:18.182683",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Do2DIAS",
+      "title": "How to fix the \"Check Log for Details\" message in the event details",
+      "file_path": "../../docs/kb/change-tracker/how_to_fix_the_check_log_for_details_message_in_the_event_details.md",
+      "timestamp": "2025-09-25T13:13:26.525055",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'who made the change' was altered to 'who made the change information' in some instances, which may lead to confusion.",
+        "The original HTML contained multiple line breaks (<br>) that were not preserved in the markdown, which may affect readability."
+      ],
+      "recommendations": [
+        "Ensure consistency in terminology, particularly with 'who made the change' to avoid confusion.",
+        "Consider adding line breaks or spacing in the markdown to improve readability and match the original formatting."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Do0bIAC",
+      "title": "How to stop Change Tracker recreating deleted default groups?",
+      "file_path": "../../docs/kb/change-tracker/how_to_stop_change_tracker_recreating_deleted_default_groups.md",
+      "timestamp": "2025-09-25T13:13:31.482031",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DnxNIAS",
+      "title": "n. Gen 7 Settings Page - System Performance",
+      "file_path": "../../docs/kb/change-tracker/n._gen_7_settings_page_-_system_performance.md",
+      "timestamp": "2025-09-25T13:13:41.710884",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'sytem performace metrics can be monitroed' contains spelling errors.",
+        "The original HTML had a <br> tag for spacing which is not present in the markdown."
+      ],
+      "recommendations": [
+        "Correct the spelling errors in 'sytem' to 'system', 'performace' to 'performance', and 'monitroed' to 'monitored'.",
+        "Consider adding spacing between paragraphs in the markdown to match the original HTML formatting."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DnvlIAC",
+      "title": "Rolling-Log Fix: \"Script error executing line 6: ExecuteAndCaptureChunked - /NNT_FILEHASH_LINUX_X64: Permission denied” (AGENTLESS LINUX)",
+      "file_path": "../../docs/kb/change-tracker/rolling-log_fix_script_error_executing_line_6_executeandcapturechunked_-_nnt_filehash_linux_x64_perm.md",
+      "timestamp": "2025-09-25T13:13:55.123557",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained an example error message in a code block that was not included in the markdown.",
+        "The markdown does not include the initial paragraph about the incorrect Agent password being sent to the Hub Server."
+      ],
+      "recommendations": [
+        "Include the example error message in the markdown to maintain completeness.",
+        "Add the initial paragraph regarding the Agent password issue for better context."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Dnu9IAC",
+      "title": "11 Troubleshooting Agent App Connectivity",
+      "file_path": "../../docs/kb/change-tracker/11_troubleshooting_agent_app_connectivity.md",
+      "timestamp": "2025-09-25T13:14:24.758436",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not preserve the original HTML's color styling for headings.",
+        "The markdown version does not include the 'atl-forced-newline' breaks, which may affect the visual spacing in some markdown renderers.",
+        "The markdown version does not explicitly mention the 'external-link' class for the URL, which may affect link styling in some contexts."
+      ],
+      "recommendations": [
+        "Consider adding custom styling for headings to match the original color scheme.",
+        "Review the spacing between paragraphs and images to ensure clarity and readability.",
+        "Ensure that links are styled appropriately in the markdown context to maintain visual consistency."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DnsXIAS",
+      "title": "Windows_ Installation of Change Tracker Gen 7",
+      "file_path": "../../docs/kb/change-tracker/windows__installation_of_change_tracker_gen_7.md",
+      "timestamp": "2025-09-25T13:14:38.579326",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not include the asterisk footnote explanations for 500GB, .NET Framework version 4.5, and IIS version V7 Upwards.",
+        "The markdown does not clearly indicate the additional steps required for installing on Windows Server 2008R2 as a separate note."
+      ],
+      "recommendations": [
+        "Add footnote explanations for the asterisks related to 500GB, .NET Framework version 4.5, and IIS version V7 Upwards.",
+        "Consider separating the additional steps for Windows Server 2008R2 into its own note for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DnqvIAC",
+      "title": "An Example of How to Create an Installed Software Baseline Report.",
+      "file_path": "../../docs/kb/change-tracker/an_example_of_how_to_create_an_installed_software_baseline_report..md",
+      "timestamp": "2025-09-25T13:14:56.523246",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DnpJIAS",
+      "title": "j. Gen 7 Settings Page - Agent Registration Process and Control",
+      "file_path": "../../docs/kb/change-tracker/j._gen_7_settings_page_-_agent_registration_process_and_control.md",
+      "timestamp": "2025-09-25T13:15:07.494487",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained some inline styles that are not preserved in markdown, such as the color styling for the heading.",
+        "The original HTML had some text with strikethrough formatting that is not represented in the markdown.",
+        "The markdown does not include the note about the thumbprint being displayed in the original HTML, which could lead to confusion."
+      ],
+      "recommendations": [
+        "Consider adding the color styling for the heading in the markdown if it is important for visual representation.",
+        "Include strikethrough formatting for the group regex match in the markdown to maintain the original emphasis.",
+        "Clarify the note about the thumbprint display in the markdown to ensure users understand the process."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmZtIAK",
+      "title": "m. Gen 7 Settings Page - Export and Import",
+      "file_path": "../../docs/kb/general/m._gen_7_settings_page_-_export_and_import.md",
+      "timestamp": "2025-09-25T13:15:14.520005",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content mentions 'Planned Change archiving' which is slightly rephrased in the markdown as 'planned change archiving'.",
+        "The original HTML uses 'Only' in 'Events, Policy, and Planned Changes Only' which is not capitalized in the markdown."
+      ],
+      "recommendations": [
+        "Consider maintaining the original capitalization of 'Only' for consistency.",
+        "Ensure that the phrase 'Planned Change archiving' is consistently used in the same format as in the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmYHIA0",
+      "title": "Rolling-Log Fix: \"ERROR AgentTaskRunner - task execution failed for task - DeviceConfigTask. Item wildcards match text must not contain separator '\\' for MatchType.Wildcards unless ContainerMatchAppliesToWholePath is true.”",
+      "file_path": "../../docs/kb/general/rolling-log_fix_error_agenttaskrunner_-_task_execution_failed_for_task_-_deviceconfigtask._item_wild.md",
+      "timestamp": "2025-09-25T13:15:25.707179",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The image description is missing in the markdown.",
+        "The original HTML contained a color style for headings that is not preserved in markdown."
+      ],
+      "recommendations": [
+        "Add an alt text description for the image to improve accessibility.",
+        "Consider using a markdown extension or custom styling to replicate the original color formatting for headings."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmWfIAK",
+      "title": "3 Solution Architecture",
+      "file_path": "../../docs/kb/change-tracker/3_solution_architecture.md",
+      "timestamp": "2025-09-25T13:15:39.883291",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmV3IAK",
+      "title": "Linux_ Installation of Change Tracker Gen 7",
+      "file_path": "../../docs/kb/change-tracker/linux__installation_of_change_tracker_gen_7.md",
+      "timestamp": "2025-09-25T13:15:46.083788",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmTRIA0",
+      "title": "8. Working with Baseline Data",
+      "file_path": "../../docs/kb/change-tracker/8._working_with_baseline_data.md",
+      "timestamp": "2025-09-25T13:16:03.731432",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Dk3UIAS",
+      "title": "i. Gen 7 Settings Page - Agent Software Updates",
+      "file_path": "../../docs/kb/change-tracker/i._gen_7_settings_page_-_agent_software_updates.md",
+      "timestamp": "2025-09-25T13:16:14.916360",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmRpIAK",
+      "title": "Log Tracker - What is the \"Netwrix Log Tracker Tunnel Sender Service\" and how does it work?",
+      "file_path": "../../docs/kb/log-tracker/log_tracker_-_what_is_the_netwrix_log_tracker_tunnel_sender_service_and_how_does_it_work.md",
+      "timestamp": "2025-09-25T13:16:30.706122",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DkoEIAS",
+      "title": "h.  Gen 7 Settings Page - User Notification Emails",
+      "file_path": "../../docs/kb/change-tracker/h._gen_7_settings_page_-_user_notification_emails.md",
+      "timestamp": "2025-09-25T13:16:42.227609",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The placeholder <time> is used in the markdown but does not match the original content which had specific time references.",
+        "The placeholder <number> is used in the markdown for events moved from failover queue, which may lead to confusion.",
+        "The original content had some empty table cells which are not represented in the markdown."
+      ],
+      "recommendations": [
+        "Replace placeholders <time> and <number> with specific examples or clarify their usage.",
+        "Consider adding notes or examples for the empty table cells to maintain clarity.",
+        "Ensure that all technical terms and phrases are consistently used between formats."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmQDIA0",
+      "title": "1. Gen 7 Settings Page - Configuration Templates - FIM: Agentless File Integrity for Legacy Platforms",
+      "file_path": "../../docs/kb/activity-monitor/1._gen_7_settings_page_-_configuration_templates_-_fim_agentless_file_integrity_for_legacy_platforms.md",
+      "timestamp": "2025-09-25T13:17:02.908916",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not include the exact HTML structure for the headings, but the content is preserved.",
+        "Some inline styles from the HTML (like color) are not represented in the markdown.",
+        "The markdown uses a different format for notes (using block quotes) compared to the original HTML."
+      ],
+      "recommendations": [
+        "Consider adding inline styles or notes to match the original HTML formatting more closely.",
+        "Ensure that all technical terms and commands are consistently formatted for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmObIAK",
+      "title": "d. Gen 7 Settings Page - Configuration Templates",
+      "file_path": "../../docs/kb/activity-monitor/d._gen_7_settings_page_-_configuration_templates.md",
+      "timestamp": "2025-09-25T13:17:18.716418",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmMzIAK",
+      "title": "g.  Gen 7 Settings Page - User Administration",
+      "file_path": "../../docs/kb/general/g._gen_7_settings_page_-_user_administration.md",
+      "timestamp": "2025-09-25T13:17:31.398012",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'this will need to be defined separately under Settings -> System Settings' is slightly altered in wording but retains the same meaning.",
+        "The original HTML content had a line break after each sentence, which is not preserved in the markdown format."
+      ],
+      "recommendations": [
+        "Consider adding a note about the importance of defining the AD or LDAP server settings for clarity.",
+        "Maintain line breaks for better readability in markdown, if necessary."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmLNIA0",
+      "title": "8. Gen 7 Settings Page - Configuration Templates - Process-Command Output",
+      "file_path": "../../docs/kb/change-tracker/8._gen_7_settings_page_-_configuration_templates_-_process-command_output.md",
+      "timestamp": "2025-09-25T13:17:39.656715",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmJlIAK",
+      "title": "4 Installing Change Tracker Gen 7 - Windows",
+      "file_path": "../../docs/kb/change-tracker/4_installing_change_tracker_gen_7_-_windows.md",
+      "timestamp": "2025-09-25T13:17:58.303169",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content included a note about running Windows Update to ensure components are up to date, which is preserved in the markdown but could be emphasized more.",
+        "The markdown does not include the specific formatting for the emphasis on the links in the original HTML, which used underlining and color.",
+        "The markdown does not explicitly mention the 'confluence-anchor-link' elements that were present in the HTML, which may affect navigation in a larger document."
+      ],
+      "recommendations": [
+        "Consider adding more emphasis (e.g., bold or italics) to important notes and links to match the original formatting.",
+        "Ensure that any navigation elements or anchors are included if applicable in the markdown context."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmI9IAK",
+      "title": "6 Installing Gen 7 Agent for Windows",
+      "file_path": "../../docs/kb/activity-monitor/6_installing_gen_7_agent_for_windows.md",
+      "timestamp": "2025-09-25T13:18:11.457357",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not include the note about enabling Microsoft .NET Framework 4.5 using 'Roles/Features' > 'Add Features' in the same way as the HTML.",
+        "The markdown lacks the explicit mention of the Hub API page needing to be entered together with Access Credentials in the same context as the HTML.",
+        "The markdown does not mention the opportunity to customize the Agent name during installation as clearly as in the HTML."
+      ],
+      "recommendations": [
+        "Add a note about enabling Microsoft .NET Framework 4.5 using 'Roles/Features' > 'Add Features' to the markdown.",
+        "Clarify the requirement for entering the Hub API page with Access Credentials in the markdown.",
+        "Enhance the explanation regarding the customization of the Agent name during installation for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmGXIA0",
+      "title": "Installing Gen 7 Agent for Linux",
+      "file_path": "../../docs/kb/activity-monitor/installing_gen_7_agent_for_linux.md",
+      "timestamp": "2025-09-25T13:18:23.089088",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DmA5IAK",
+      "title": "Supporting Documents for Agent / ITSM Problems",
+      "file_path": "../../docs/kb/activity-monitor/supporting_documents_for_agent_itsm_problems.md",
+      "timestamp": "2025-09-25T13:18:37.780904",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlxBIAS",
+      "title": "How to Convert your MongoDB from MMAPv1 to WiredTiger for Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_convert_your_mongodb_from_mmapv1_to_wiredtiger_for_change_tracker.md",
+      "timestamp": "2025-09-25T13:18:50.095241",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DligIAC",
+      "title": "How to Add/Replace Configuration/Compliance Report Templates",
+      "file_path": "../../docs/kb/activity-monitor/how_to_addreplace_configurationcompliance_report_templates.md",
+      "timestamp": "2025-09-25T13:19:04.145975",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlvZIAS",
+      "title": "How to Add Palo Alto Device to a Proxy Agent as a Proxy Device in Change Tracker Gen7",
+      "file_path": "../../docs/kb/change-tracker/how_to_add_palo_alto_device_to_a_proxy_agent_as_a_proxy_device_in_change_tracker_gen7.md",
+      "timestamp": "2025-09-25T13:19:26.357625",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'these devices are similar to other proxied devices, but do have some known configurations' was slightly altered to 'these devices are similar to other proxied devices but have some known configurations' in the markdown.",
+        "The formatting of the code blocks is consistent, but the markdown does not visually highlight the important pieces as indicated in the original HTML."
+      ],
+      "recommendations": [
+        "Ensure that the emphasis on important pieces in the credentials setup section is visually represented in the markdown.",
+        "Consider adding a note or visual cue to indicate the importance of the highlighted pieces in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DltxIAC",
+      "title": "Troubleshooting Gen 7 Agent Connectivity",
+      "file_path": "../../docs/kb/change-tracker/troubleshooting_gen_7_agent_connectivity.md",
+      "timestamp": "2025-09-25T13:19:58.110951",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The heading 'Finally–Please contact NNT Support if you need help at any stage' is missing from the markdown.",
+        "The image alt text is not provided in the markdown."
+      ],
+      "recommendations": [
+        "Add the missing heading about contacting NNT Support to the markdown.",
+        "Include alt text for images to improve accessibility."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlsLIAS",
+      "title": "Enabling Change Tracker's FAST Cloud",
+      "file_path": "../../docs/kb/change-tracker/enabling_change_tracker's_fast_cloud.md",
+      "timestamp": "2025-09-25T13:20:09.114260",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained some instances of 'strong' and 'u' tags for emphasis that were not preserved in the markdown format.",
+        "The original HTML had some spacing issues that were not replicated in the markdown, particularly in the step-by-step instructions."
+      ],
+      "recommendations": [
+        "Consider adding back the underlining for emphasis where it was originally used in the HTML.",
+        "Ensure consistent spacing in the step-by-step instructions for better readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Dlp7IAC",
+      "title": "GEN 7 Agent Deployment Options",
+      "file_path": "../../docs/kb/activity-monitor/gen_7_agent_deployment_options.md",
+      "timestamp": "2025-09-25T13:21:07.237078",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "Some images are duplicated in the markdown, which may confuse readers.",
+        "The note about the unencrypted password and its implications is present but could be emphasized more clearly.",
+        "The command line example is mentioned but not explicitly formatted as a code block."
+      ],
+      "recommendations": [
+        "Remove duplicate images to streamline the content.",
+        "Consider using a blockquote or additional formatting for the note about the unencrypted password.",
+        "Ensure that the command line example is formatted as a code block for better readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlnVIAS",
+      "title": "Rolling-Log Fix: \"Couldn't get credentials for remote platform discovery on\"",
+      "file_path": "../../docs/kb/change-tracker/rolling-log_fix_couldn't_get_credentials_for_remote_platform_discovery_on.md",
+      "timestamp": "2025-09-25T13:21:16.328503",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlltIAC",
+      "title": "Change Tracker Gen 7 Getting Started Tutorial V2.0 On-Line",
+      "file_path": "../../docs/kb/activity-monitor/change_tracker_gen_7_getting_started_tutorial_v2.0_on-line.md",
+      "timestamp": "2025-09-25T13:21:29.784852",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'ie install the agent and hub on the same box' was changed to 'i.e., install the agent and hub on the same box', which is a minor alteration in wording but retains the meaning.",
+        "The image captions were removed in the markdown version, which may affect clarity for users referencing the images."
+      ],
+      "recommendations": [
+        "Consider adding captions or descriptions for the images to enhance clarity.",
+        "Ensure that all technical terms and phrases are preserved exactly as in the original content to maintain consistency."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlkHIAS",
+      "title": "Why am I receiving fileaccessed events in Change Tracker?",
+      "file_path": "../../docs/kb/activity-monitor/why_am_i_receiving_fileaccessed_events_in_change_tracker.md",
+      "timestamp": "2025-09-25T13:21:46.538403",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown version uses 'Word' instead of 'word' when referring to the document type, which may not be consistent with the original context.",
+        "The markdown version does not include the 'See Screenshot Below' note in the steps, which may lead to confusion about the absence of screenshots."
+      ],
+      "recommendations": [
+        "Ensure consistent capitalization of 'Word' when referring to the document type.",
+        "Add a note or placeholder for screenshots in the markdown to maintain clarity regarding visual references."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Dlh3IAC",
+      "title": "Rolling-Log Fix: \"FATAL TraceLogger - AplicationInstance.Start() Fatal error, Application shutting down. Error: Address already in use System.Net.Sockets.SocketException: Address already in use\"",
+      "file_path": "../../docs/kb/change-tracker/rolling-log_fix_fatal_tracelogger_-_aplicationinstance.start()_fatal_error,_application_shutting_dow.md",
+      "timestamp": "2025-09-25T13:21:56.623196",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained a section with a color style for headings that was not preserved in the markdown.",
+        "The markdown does not include the 'Example Error Message' heading before the code block, which may affect clarity."
+      ],
+      "recommendations": [
+        "Add a heading for 'Example Error Message' before the code block to improve clarity.",
+        "Consider preserving the color styling in the markdown for emphasis, although this may depend on the markdown renderer used."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DkY6IAK",
+      "title": "Supporting Documents for Hub Server Problems",
+      "file_path": "../../docs/kb/change-tracker/supporting_documents_for_hub_server_problems.md",
+      "timestamp": "2025-09-25T13:22:12.107770",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The section on 'Compress and Attach the Netwrix Mono log directory' is missing the specific location that should be inserted.",
+        "The formatting of the list items under 'Windows Based Platform Hub Attachments' could be improved for clarity."
+      ],
+      "recommendations": [
+        "Provide the specific location for the Netwrix Mono log directory in the markdown.",
+        "Consider using bullet points or clearer formatting for the steps under 'Windows Based Platform Hub Attachments' to enhance readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Dk3TIAS",
+      "title": "How to Upgrade to Gen7 Agents using an automated batch file - Windows",
+      "file_path": "../../docs/kb/change-tracker/how_to_upgrade_to_gen7_agents_using_an_automated_batch_file_-_windows.md",
+      "timestamp": "2025-09-25T13:23:09.542841",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown version does not include the detailed descriptions of the images that were present in the HTML.",
+        "Some instances of 'Change Tracker' were changed to 'ChangeTracker' in the markdown.",
+        "The markdown does not preserve the exact formatting of the notes (e.g., bold and color) as seen in the HTML."
+      ],
+      "recommendations": [
+        "Ensure that all instances of 'Change Tracker' are consistently formatted as 'Change Tracker' throughout the document.",
+        "Add descriptions for images to maintain context and clarity.",
+        "Consider using additional formatting to highlight important notes or warnings as they were in the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlfRIAS",
+      "title": "Rolling-Log Fix: \"Hub Offline, connection retries exhausted (The remote server returned an error: (403) Forbidden.)\"",
+      "file_path": "../../docs/kb/change-tracker/rolling-log_fix_hub_offline,_connection_retries_exhausted_(the_remote_server_returned_an_error_(403).md",
+      "timestamp": "2025-09-25T13:23:19.146729",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The link for 'Netwrix Software Problem? What Info Should I Provide?' is malformed and should be corrected.",
+        "The `<password>` tags in the example HubDetails.xml file were not explicitly mentioned as being replaced with the default password in the markdown, which could lead to confusion."
+      ],
+      "recommendations": [
+        "Correct the malformed link for 'Netwrix Software Problem? What Info Should I Provide?' to ensure it directs properly.",
+        "Clarify the instruction regarding the replacement of `<password>` tags in the example HubDetails.xml file to avoid ambiguity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DldpIAC",
+      "title": "Rolling-Log Fix: \"Hub Offline, connection retries exhausted. Sleeping until ... (Unable to connect to the remote server - No connection could be made because the target machine actively refused it ... )\"",
+      "file_path": "../../docs/kb/change-tracker/rolling-log_fix_hub_offline,_connection_retries_exhausted._sleeping_until_..._(unable_to_connect_to_.md",
+      "timestamp": "2025-09-25T13:23:27.409671",
+      "validation_score": 7,
+      "overall_quality": "good",
+      "issues_found": [
+        "The code block containing the error message is missing in the markdown conversion.",
+        "The original HTML had a detailed error message that was not included in the markdown.",
+        "The formatting of the note in markdown is not as visually distinct as in the original HTML."
+      ],
+      "recommendations": [
+        "Include the code block with the error message in the markdown.",
+        "Ensure that the note is formatted to stand out more clearly, possibly using blockquote formatting."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlcDIAS",
+      "title": "How to move your Linux Server MongoDB Database to a Windows server?",
+      "file_path": "../../docs/kb/change-tracker/how_to_move_your_linux_server_mongodb_database_to_a_windows_server.md",
+      "timestamp": "2025-09-25T13:23:50.569960",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DjDqIAK",
+      "title": "Change Tracker – How to Create a Custom Tracked Attributes Filter Within a Configuration Template",
+      "file_path": "../../docs/kb/activity-monitor/change_tracker_–_how_to_create_a_custom_tracked_attributes_filter_within_a_configuration_template.md",
+      "timestamp": "2025-09-25T13:24:00.128585",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The image URLs are placeholders (image_url) and need to be replaced with actual URLs.",
+        "The links in the Related Articles section are placeholders (link) and need to be replaced with actual URLs."
+      ],
+      "recommendations": [
+        "Replace placeholder image URLs with actual image links.",
+        "Update the Related Articles section with functional links."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DlabIAC",
+      "title": "Rolling-Log Fix: ERROR \"HubDetails - Crypto error. Has the agent process account changed since the password data was entered?\"",
+      "file_path": "../../docs/kb/change-tracker/rolling-log_fix_error_hubdetails_-_crypto_error._has_the_agent_process_account_changed_since_the_pas.md",
+      "timestamp": "2025-09-25T13:24:17.726562",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DkufIAC",
+      "title": "How to Update Agents From The Change Tracker Console",
+      "file_path": "../../docs/kb/change-tracker/how_to_update_agents_from_the_change_tracker_console.md",
+      "timestamp": "2025-09-25T13:24:34.953404",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Dk6gIAC",
+      "title": "Installing Change Tracker Gen 7: Gen7 R2 Hub Service Log",
+      "file_path": "../../docs/kb/activity-monitor/installing_change_tracker_gen_7_gen7_r2_hub_service_log.md",
+      "timestamp": "2025-09-25T13:25:40.906983",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "Some instances of HTML entities (e.g., &quot;, &amp;) were not consistently converted to their markdown equivalents (e.g., \", &).",
+        "The markdown does not include the initial horizontal line separator that was present in the HTML.",
+        "The markdown format does not preserve the original formatting of the 'NB' notes (e.g., bold or italic) as seen in the HTML."
+      ],
+      "recommendations": [
+        "Ensure all HTML entities are consistently converted to markdown equivalents.",
+        "Consider adding horizontal lines or other visual separators to enhance readability.",
+        "Maintain the emphasis formatting for important notes (e.g., 'NB') to highlight critical information."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DkhlIAC",
+      "title": "Installing Change Tracker Gen 7: Gen7 Hub Service Log",
+      "file_path": "../../docs/kb/activity-monitor/installing_change_tracker_gen_7_gen7_hub_service_log.md",
+      "timestamp": "2025-09-25T13:26:13.282069",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "Some version entries are missing from the markdown conversion, specifically versions 7.0.1.43 to 7.0.0.1.",
+        "The markdown does not include internal release notes for version 7.0.1.49.",
+        "Formatting for some enhancements and fixes could be improved for consistency, such as ensuring all enhancements are consistently marked as 'Enhancement' and fixes as 'Fix'."
+      ],
+      "recommendations": [
+        "Include all version entries from the original HTML content to ensure completeness.",
+        "Ensure that internal release notes are included if they are relevant to the audience.",
+        "Standardize the formatting for enhancements and fixes for better readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000Dkg9IAC",
+      "title": "Installing Change Tracker Gen 7: Gen7 Agent Log",
+      "file_path": "../../docs/kb/activity-monitor/installing_change_tracker_gen_7_gen7_agent_log.md",
+      "timestamp": "2025-09-25T13:27:33.609810",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DjfGIAS",
+      "title": "10. Configuration Templates - Working with Baseline Data",
+      "file_path": "../../docs/kb/change-tracker/10._configuration_templates_-_working_with_baseline_data.md",
+      "timestamp": "2025-09-25T13:28:02.788214",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZmLIAW",
+      "title": "How to Download Netwrix Change Tracker Generation 7",
+      "file_path": "../../docs/kb/change-tracker/how_to_download_netwrix_change_tracker_generation_7.md",
+      "timestamp": "2025-09-25T13:28:11.629306",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZkjIAG",
+      "title": "The Netwrix FAST™ Cloud Usage Considerations",
+      "file_path": "../../docs/kb/change-tracker/the_netwrix_fast™_cloud_usage_considerations.md",
+      "timestamp": "2025-09-25T13:28:45.755023",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZj7IAG",
+      "title": "10 Installing Netwrix Agent App for Solaris (SPARC and Intel)",
+      "file_path": "../../docs/kb/change-tracker/10_installing_netwrix_agent_app_for_solaris_(sparc_and_intel).md",
+      "timestamp": "2025-09-25T13:28:58.027175",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZcfIAG",
+      "title": "Supporting Documents for Reporting Problems to Netwrix",
+      "file_path": "../../docs/kb/change-tracker/supporting_documents_for_reporting_problems_to_netwrix.md",
+      "timestamp": "2025-09-25T13:29:05.181584",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The word 'apologies' was incorrectly converted to 'apologize'."
+      ],
+      "recommendations": [
+        "Correct 'apologize' to 'apologies' in the markdown content."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZb3IAG",
+      "title": "How to Upload Attachments to the Netwrix Help Desk Platform",
+      "file_path": "../../docs/kb/change-tracker/how_to_upload_attachments_to_the_netwrix_help_desk_platform.md",
+      "timestamp": "2025-09-25T13:29:29.091246",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown uses double asterisks for bold text, which is correct, but the original HTML used <strong> tags. This is a minor formatting difference.",
+        "The original HTML had some unnecessary <br> tags that were not converted to markdown, but they do not affect the content."
+      ],
+      "recommendations": [
+        "Consider using <strong> tags in markdown for consistency with the original HTML, although markdown's bold formatting is acceptable.",
+        "Review the use of <br> tags in the original HTML to determine if any additional spacing is needed in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZZRIA4",
+      "title": "9 Upgrade from Netwrix Agent App to Netwrix Gen 7 Agent",
+      "file_path": "../../docs/kb/activity-monitor/9_upgrade_from_netwrix_agent_app_to_netwrix_gen_7_agent.md",
+      "timestamp": "2025-09-25T13:29:43.522969",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The link placeholders for 'Installing Gen 7 Agent for Windows' and 'Installing Gen 7 Agent for Linux' are not functional.",
+        "The original HTML content had some additional spacing and line breaks that are not preserved in the markdown."
+      ],
+      "recommendations": [
+        "Replace the '#' placeholders with actual links to the installation instructions.",
+        "Consider adding back any necessary spacing or line breaks for better readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZXpIAO",
+      "title": "How to Enable the Netwrix Change Tracker API Metadata page",
+      "file_path": "../../docs/kb/change-tracker/how_to_enable_the_netwrix_change_tracker_api_metadata_page.md",
+      "timestamp": "2025-09-25T13:29:53.758416",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZWDIA4",
+      "title": "Netwrix Gen 7 Agent Error. WinHttp.WinHttpRequest: The Connection With the Server Was Terminated Abnormally",
+      "file_path": "../../docs/kb/change-tracker/netwrix_gen_7_agent_error._winhttp.winhttprequest_the_connection_with_the_server_was_terminated_abno.md",
+      "timestamp": "2025-09-25T13:30:07.634568",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DYgcIAG",
+      "title": "How to fix The Netwrix Agent Service not Starting",
+      "file_path": "../../docs/kb/change-tracker/how_to_fix_the_netwrix_agent_service_not_starting.md",
+      "timestamp": "2025-09-25T13:30:18.226924",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained an image that was not included in the markdown.",
+        "The original HTML had some empty paragraphs that were removed in the markdown, which may affect formatting."
+      ],
+      "recommendations": [
+        "Include the image from the original HTML in the markdown.",
+        "Consider adding back any necessary spacing or formatting that was lost during conversion."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DZSzIAO",
+      "title": "Netwrix Software Problem? What Info Should I Provide?",
+      "file_path": "../../docs/kb/change-tracker/netwrix_software_problem_what_info_should_i_provide.md",
+      "timestamp": "2025-09-25T13:30:30.486029",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DSBNIA4",
+      "title": "How to Configure Agentless File Integrity Monitoring (FIM) in Netwrix Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_configure_agentless_file_integrity_monitoring_(fim)_in_netwrix_change_tracker.md",
+      "timestamp": "2025-09-25T13:30:38.545564",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DSEbIAO",
+      "title": "Error: Hub Connection Failed (500 Server Message)",
+      "file_path": "../../docs/kb/activity-monitor/error_hub_connection_failed_(500_server_message).md",
+      "timestamp": "2025-09-25T13:31:11.502719",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000DOPVIA4",
+      "title": "How to Determine Your .NET Framework Version",
+      "file_path": "../../docs/kb/change-tracker/how_to_determine_your_.net_framework_version.md",
+      "timestamp": "2025-09-25T13:31:28.675308",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000003s3tIAA",
+      "title": "1 Overview and Introduction",
+      "file_path": "../../docs/kb/changetracker/1_overview_and_introduction.md",
+      "timestamp": "2025-09-25T13:31:36.936184",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000002bLFIAY",
+      "title": "Unable to Upload an Agent Installer Package to the Hub",
+      "file_path": "../../docs/kb/changetracker/unable_to_upload_an_agent_installer_package_to_the_hub.md",
+      "timestamp": "2025-09-25T13:31:44.562547",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000D34vIAC",
+      "title": "How to Configure the FAST Cloud Integration with Proxy Internet Settings",
+      "file_path": "../../docs/kb/change-tracker/how_to_configure_the_fast_cloud_integration_with_proxy_internet_settings.md",
+      "timestamp": "2025-09-25T13:31:51.120688",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk000000CGCHIA4",
+      "title": "e. Database Compliance Reporting",
+      "file_path": "../../docs/kb/activity-monitor/e._database_compliance_reporting.md",
+      "timestamp": "2025-09-25T13:32:05.904115",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The emphasis on 'Add Database Credentials' is not preserved as a code block in markdown.",
+        "The phrase 'the specific Database instance/Name/Oracle SID is defined in the step following creation of the Database Credential key' is slightly altered in wording.",
+        "The original HTML had a line break before 'Attachments:' which is not present in the markdown."
+      ],
+      "recommendations": [
+        "Ensure that 'Add Database Credentials' is formatted as a code block for clarity.",
+        "Consider retaining the original phrasing for technical accuracy.",
+        "Add a line break before 'Attachments:' to match the original formatting."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk00000078VVIAY",
+      "title": "How to Determine If the Default Agent Password Is in Use",
+      "file_path": "../../docs/kb/activity-monitor/how_to_determine_if_the_default_agent_password_is_in_use.md",
+      "timestamp": "2025-09-25T13:32:30.006539",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000006gxRIAQ",
+      "title": "System Error When Running Event Queries",
+      "file_path": "../../docs/kb/change-tracker/system_error_when_running_event_queries.md",
+      "timestamp": "2025-09-25T13:32:35.655734",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000005oqbIAA",
+      "title": "How to Backup / Restore / Move your MongoDB Database",
+      "file_path": "../../docs/kb/activity-monitor/how_to_backup_restore_move_your_mongodb_database.md",
+      "timestamp": "2025-09-25T13:32:53.056199",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000004pojIAA",
+      "title": "Antivirus Exclusions for Netwrix Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/antivirus_exclusions_for_netwrix_change_tracker.md",
+      "timestamp": "2025-09-25T13:33:01.484290",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The bullet points in the tables for 'Folder' column are not formatted as lists in markdown, which may affect readability.",
+        "The blockquote formatting for exclusions is not consistent with standard markdown practices."
+      ],
+      "recommendations": [
+        "Consider using markdown list formatting for the 'Folder' column entries to improve clarity.",
+        "Adjust the blockquote formatting to ensure it aligns with markdown standards for better visual separation."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000003eNVIAY",
+      "title": "Unable to Upload Agent Update Files",
+      "file_path": "../../docs/kb/change-tracker/unable_to_upload_agent_update_files.md",
+      "timestamp": "2025-09-25T13:33:11.312244",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000003eLtIAI",
+      "title": "Pages in Report Exceed 250 Error",
+      "file_path": "../../docs/kb/change-tracker/pages_in_report_exceed_250_error.md",
+      "timestamp": "2025-09-25T13:33:20.469823",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000003eKHIAY",
+      "title": "In-Transit and At-Rest Data Encryption",
+      "file_path": "../../docs/kb/change-tracker/in-transit_and_at-rest_data_encryption.md",
+      "timestamp": "2025-09-25T13:33:26.212440",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk00000030I1IAI",
+      "title": "Change Tracker Agent Does Not Run on RHEL 8 or 9",
+      "file_path": "../../docs/kb/change-tracker/change_tracker_agent_does_not_run_on_rhel_8_or_9.md",
+      "timestamp": "2025-09-25T13:33:33.424945",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000001h2vIAA",
+      "title": "How To Uninstall Change Tracker Agent via PowerShell Script",
+      "file_path": "../../docs/kb/change-tracker/how_to_uninstall_change_tracker_agent_via_powershell_script.md",
+      "timestamp": "2025-09-25T13:33:38.979243",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000001R2zIAE",
+      "title": "Old or Duplicate Events Reported as New in Syslogs",
+      "file_path": "../../docs/kb/change-tracker/old_or_duplicate_events_reported_as_new_in_syslogs.md",
+      "timestamp": "2025-09-25T13:33:45.559224",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000001JyHIAU",
+      "title": "Policy Templates Generated a Schema Error and Were Set as Untrusted",
+      "file_path": "../../docs/kb/change-tracker/policy_templates_generated_a_schema_error_and_were_set_as_untrusted.md",
+      "timestamp": "2025-09-25T13:33:52.137965",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk00000017gzIAA",
+      "title": "Error 503 − Unable to Access Change Tracker Login Screen",
+      "file_path": "../../docs/kb/change-tracker/error_503_−_unable_to_access_change_tracker_login_screen.md",
+      "timestamp": "2025-09-25T13:33:58.052734",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk00000011IDIAY",
+      "title": "Unable to Upload an Agent Installer Package to the Hub",
+      "file_path": "../../docs/kb/change-tracker/unable_to_upload_an_agent_installer_package_to_the_hub.md",
+      "timestamp": "2025-09-25T13:34:07.039389",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content included a note about the second command not being necessary but not causing harm, which was correctly preserved in the markdown.",
+        "The markdown does not include the initial empty paragraph (<p><br></p>) present in the HTML, which is not critical but could be considered a minor formatting issue."
+      ],
+      "recommendations": [
+        "Consider adding a brief introduction or context before the troubleshooting steps to enhance clarity.",
+        "Ensure that all formatting, such as spacing and line breaks, is consistent with the original HTML for better readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000000x9lIAA",
+      "title": "How to Authenticate to Log Tracker with Active Directory Login",
+      "file_path": "../../docs/kb/log-tracker/how_to_authenticate_to_log_tracker_with_active_directory_login.md",
+      "timestamp": "2025-09-25T13:34:17.872097",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000000x89IAA",
+      "title": "Log Tracker - Types of Authentication",
+      "file_path": "../../docs/kb/activity-monitor/log_tracker_-_types_of_authentication.md",
+      "timestamp": "2025-09-25T13:34:26.385411",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka0Qk0000000rU9IAI",
+      "title": "Resubmit a Group of Unplanned Changes",
+      "file_path": "../../docs/kb/change-tracker/resubmit_a_group_of_unplanned_changes.md",
+      "timestamp": "2025-09-25T13:34:42.947029",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000wwI4AAI",
+      "title": "How to Retrieve Baseline Events After the Agent Restarts?",
+      "file_path": "../../docs/kb/change-tracker/how_to_retrieve_baseline_events_after_the_agent_restarts.md",
+      "timestamp": "2025-09-25T13:34:51.372460",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content included a blockquote with a warning, which is preserved in markdown but could be more visually distinct.",
+        "The image alt text in the markdown is less descriptive than in the HTML, which could affect accessibility."
+      ],
+      "recommendations": [
+        "Consider enhancing the visual distinction of the blockquote in markdown for better emphasis.",
+        "Update the alt text for images to be more descriptive for improved accessibility."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000wwBIAAY",
+      "title": "How to Implement HTTPS for Netwrix Change Tracker Web User Interface?",
+      "file_path": "../../docs/kb/change-tracker/how_to_implement_https_for_netwrix_change_tracker_web_user_interface.md",
+      "timestamp": "2025-09-25T13:34:57.731490",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000wwBDAAY",
+      "title": "MongoDB Service Terminated Unexpectedly",
+      "file_path": "../../docs/kb/change-tracker/mongodb_service_terminated_unexpectedly.md",
+      "timestamp": "2025-09-25T13:35:05.145032",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000wwAZAAY",
+      "title": "How to Setup SIEM Integration with Netwrix Change Tracker?",
+      "file_path": "../../docs/kb/change-tracker/how_to_setup_siem_integration_with_netwrix_change_tracker.md",
+      "timestamp": "2025-09-25T13:35:12.704321",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content had a typo in 'System Setings' which was corrected to 'System Settings' in the markdown.",
+        "The markdown does not include the phrase 'such as Device Offline, Unplanned Changes, etc.' in a separate list format as it was in the original HTML."
+      ],
+      "recommendations": [
+        "Ensure that all phrases from the original content are preserved exactly as they are, including any examples or lists.",
+        "Consider adding a bullet point list for the specific items to be sent to the SIEM solution for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000ww9gAAA",
+      "title": "How to Upgrade the Change Tracker Hub from v7.5.x.x -> v7.6?",
+      "file_path": "../../docs/kb/change-tracker/how_to_upgrade_the_change_tracker_hub_from_v7.5.x.x_-_v7.6.md",
+      "timestamp": "2025-09-25T13:35:19.344713",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000001187qAAA",
+      "title": "Configure FAST in Netwrix Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/configure_fast_in_netwrix_change_tracker.md",
+      "timestamp": "2025-09-25T13:35:24.915991",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000001181EAAQ",
+      "title": "File Is Being Used by Another Process Error in Netwrix Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/file_is_being_used_by_another_process_error_in_netwrix_change_tracker.md",
+      "timestamp": "2025-09-25T13:35:33.212667",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u00000116rcAAA",
+      "title": "Disable 2FA for Default Administrator User in Netwrix Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/disable_2fa_for_default_administrator_user_in_netwrix_change_tracker.md",
+      "timestamp": "2025-09-25T13:35:42.587528",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000001168hAAA",
+      "title": "Netwrix Change Tracker Gen 7 Admin Guide V2.0 On-Line",
+      "file_path": "../../docs/kb/change-tracker/netwrix_change_tracker_gen_7_admin_guide_v2.0_on-line.md",
+      "timestamp": "2025-09-25T13:35:50.867475",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content had a list structure that was converted to headings and subheadings in markdown, which may affect the readability for users expecting a simple list.",
+        "The original list items were not numbered in the markdown, which could lead to confusion regarding the order of the content."
+      ],
+      "recommendations": [
+        "Consider maintaining the ordered list format in markdown to preserve the original structure.",
+        "Ensure that all headings and subheadings are clearly defined to enhance navigation."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmlUAAS",
+      "title": "MongoDB Log Fix. Error reading collection: an operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full",
+      "file_path": "../../docs/kb/general/mongodb_log_fix._error_reading_collection_an_operation_on_a_socket_could_not_be_performed_because_th.md",
+      "timestamp": "2025-09-25T13:35:56.904618",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML used 'me Mongo Database' which was corrected to 'my Mongo Database' in the markdown.",
+        "The original HTML had a line break (<br>) that was not translated into markdown, but it does not affect the overall content."
+      ],
+      "recommendations": [
+        "Ensure that any informal language is consistently corrected for clarity.",
+        "Consider adding a note about the importance of checking system resources before running MongoDump."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmlOAAS",
+      "title": "Failed Login Using AD Credentials",
+      "file_path": "../../docs/kb/change-tracker/failed_login_using_ad_credentials.md",
+      "timestamp": "2025-09-25T13:36:08.384576",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmlJAAS",
+      "title": "Change Tracker Gen 7 Change Log / Update Log / ReadMe.txt Documents for Agent/Hub",
+      "file_path": "../../docs/kb/change-tracker/change_tracker_gen_7_change_log_update_log_readme.txt_documents_for_agenthub.md",
+      "timestamp": "2025-09-25T13:36:18.861376",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmkBAAS",
+      "title": "HTTP/HTTPS Error 500.19: Cannot add duplicate collection entry of type 'add' with unique key attribute 'name' set to 'X-Frame-Options'",
+      "file_path": "../../docs/kb/change-tracker/httphttps_error_500.19_cannot_add_duplicate_collection_entry_of_type_'add'_with_unique_key_attribute.md",
+      "timestamp": "2025-09-25T13:36:35.165705",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmjwAAC",
+      "title": "MongoDB Log Fix: Out of Memory",
+      "file_path": "../../docs/kb/change-tracker/mongodb_log_fix_out_of_memory.md",
+      "timestamp": "2025-09-25T13:36:43.781588",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmfVAAS",
+      "title": "How to Integrate ServiceNow into Change Tracker Environment",
+      "file_path": "../../docs/kb/activity-monitor/how_to_integrate_servicenow_into_change_tracker_environment.md",
+      "timestamp": "2025-09-25T13:37:13.693608",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content had some inline styles for font size and family that are not preserved in the markdown.",
+        "The original HTML used <b> tags for bold text, while the markdown uses ** for bold formatting, which is acceptable but different.",
+        "The original HTML had a <br> tag for line breaks that are not explicitly represented in the markdown."
+      ],
+      "recommendations": [
+        "Consider adding notes about the original font styles for consistency in branding.",
+        "Ensure that any specific formatting requirements are documented if they are important for the final presentation.",
+        "Review the markdown for any additional formatting that may enhance readability, such as spacing between steps."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmcbAAC",
+      "title": "How to Change Admin Password for Mongo Database",
+      "file_path": "../../docs/kb/change-tracker/how_to_change_admin_password_for_mongo_database.md",
+      "timestamp": "2025-09-25T13:37:23.968241",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmcHAAS",
+      "title": "How to Regenerate All The Threads From Log Data (Log Tracker)",
+      "file_path": "../../docs/kb/log-tracker/how_to_regenerate_all_the_threads_from_log_data_(log_tracker).md",
+      "timestamp": "2025-09-25T13:37:48.970935",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Qmc7AAC",
+      "title": "MongoDB - Pre-allocated Log Files. Disk Space Errors",
+      "file_path": "../../docs/kb/change-tracker/mongodb_-_pre-allocated_log_files._disk_space_errors.md",
+      "timestamp": "2025-09-25T13:37:59.940615",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained a stray 't' in the sentence about MongoDB service stopping, which was removed in the markdown.",
+        "The markdown uses 'MongoDB Version 3.6.3' instead of 'MongoDB version 3.6.3' for consistency in capitalization."
+      ],
+      "recommendations": [
+        "Retain the stray 't' in the markdown for accuracy.",
+        "Consider standardizing the capitalization of 'version' in the markdown to match the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Qmc2AAC",
+      "title": "How to Detect a Windows System Time Change With the Log Tracker Server?",
+      "file_path": "../../docs/kb/log-tracker/how_to_detect_a_windows_system_time_change_with_the_log_tracker_server.md",
+      "timestamp": "2025-09-25T13:38:09.493106",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmbnAAC",
+      "title": "HTTP Error 500.19 - Internal Server Error - Error Code 0x8007007e",
+      "file_path": "../../docs/kb/general/http_error_500.19_-_internal_server_error_-_error_code_0x8007007e.md",
+      "timestamp": "2025-09-25T13:38:26.479094",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Qmb4AAC",
+      "title": "Log Tracker Agent Config File",
+      "file_path": "../../docs/kb/change-tracker/log_tracker_agent_config_file.md",
+      "timestamp": "2025-09-25T13:38:32.637331",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000QmakAAC",
+      "title": "How to Reset The Log Tracker Password",
+      "file_path": "../../docs/kb/log-tracker/how_to_reset_the_log_tracker_password.md",
+      "timestamp": "2025-09-25T13:38:39.148480",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdC0AAK",
+      "title": "Getting Started with Change Tracker - Series Introduction",
+      "file_path": "../../docs/kb/change-tracker/getting_started_with_change_tracker_-_series_introduction.md",
+      "timestamp": "2025-09-25T13:38:44.632391",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The HTML5 video element message is included but lacks a proper video tag in the markdown.",
+        "The 'Previous Video' section is not explicitly mentioned in the markdown, which could lead to confusion."
+      ],
+      "recommendations": [
+        "Consider adding a 'Previous Video' section to maintain clarity.",
+        "Include a placeholder or a note for the video element to enhance user experience."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdBzAAK",
+      "title": "Getting Started with Change Tracker - Product Introduction and Overview",
+      "file_path": "../../docs/kb/change-tracker/getting_started_with_change_tracker_-_product_introduction_and_overview.md",
+      "timestamp": "2025-09-25T13:38:50.453011",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The HTML5 video element message is included but not formatted as a block or emphasized in the markdown.",
+        "The original HTML contained multiple <br> tags for spacing which are not represented in the markdown."
+      ],
+      "recommendations": [
+        "Consider formatting the HTML5 video element message as a block quote or italicized text for better emphasis.",
+        "Add spacing in the markdown to match the visual layout of the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdBNAA0",
+      "title": "How to fix \"Error, the requested event counts summary size cannot be smaller than the system event count window size\" message",
+      "file_path": "../../docs/kb/change-tracker/how_to_fix_error,_the_requested_event_counts_summary_size_cannot_be_smaller_than_the_system_event_co.md",
+      "timestamp": "2025-09-25T13:39:04.752747",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained a span with no content that was not preserved in the markdown.",
+        "The original HTML had a missing link for the articles which is represented as '#' in the markdown."
+      ],
+      "recommendations": [
+        "Consider adding a placeholder or note for the missing content in the span.",
+        "Ensure that the links in the Related Articles section are functional or provide actual URLs."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdBHAA0",
+      "title": "How to Change the Location of the Express Agent's Database and Log Files",
+      "file_path": "../../docs/kb/general/how_to_change_the_location_of_the_express_agent's_database_and_log_files.md",
+      "timestamp": "2025-09-25T13:39:16.583715",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdBFAA0",
+      "title": "Support for TLS 1.2 in the .NET Framework 3.5.1",
+      "file_path": "../../docs/kb/general/support_for_tls_1.2_in_the_.net_framework_3.5.1.md",
+      "timestamp": "2025-09-25T13:39:31.580428",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content had extra paragraph tags (<p> </p>) that are not present in the markdown.",
+        "The markdown version includes an 'Overview' section that was not present in the original HTML."
+      ],
+      "recommendations": [
+        "Remove the 'Overview' section from the markdown to align with the original content.",
+        "Consider adding a note about the extra paragraph tags in the original HTML for completeness."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdB8AAK",
+      "title": "Differences between Greenbone Community Feed and the Enterprise Feed",
+      "file_path": "../../docs/kb/activity-monitor/differences_between_greenbone_community_feed_and_the_enterprise_feed.md",
+      "timestamp": "2025-09-25T13:39:38.958324",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdB0AAK",
+      "title": "How To Turn Off Bulk Email Notifications (Force Change Tracker to send one email for each change instead of compiling into one email with multiple changes)",
+      "file_path": "../../docs/kb/change-tracker/how_to_turn_off_bulk_email_notifications_(force_change_tracker_to_send_one_email_for_each_change_ins.md",
+      "timestamp": "2025-09-25T13:39:53.584468",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdB1AAK",
+      "title": "Redis - QFork.dat Files Taking Up Large Amounts Of Disk Space?",
+      "file_path": "../../docs/kb/change-tracker/redis_-_qfork.dat_files_taking_up_large_amounts_of_disk_space.md",
+      "timestamp": "2025-09-25T13:40:00.507457",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The emphasis on 'Have you noticed...' is not italicized in the markdown.",
+        "The phrase 'RedisQFork.dat files' is changed to 'Redis QFork.dat files', which may alter the intended reference.",
+        "The term 'memory mapped file' is changed to 'memory-mapped file', which is a minor formatting change but could affect technical accuracy."
+      ],
+      "recommendations": [
+        "Retain the original italic formatting for the introductory question.",
+        "Consider keeping the original term 'RedisQFork.dat files' for consistency.",
+        "Ensure that technical terms are consistently formatted as per industry standards."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAvAAK",
+      "title": "Change Tracker - How to Review Changes Made To The Console",
+      "file_path": "../../docs/kb/change-tracker/change_tracker_-_how_to_review_changes_made_to_the_console.md",
+      "timestamp": "2025-09-25T13:40:08.204390",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The images in the original HTML do not have URLs in the converted markdown, which may lead to confusion.",
+        "The original HTML mentions 'etc.' at the end of the first paragraph, which is omitted in the markdown.",
+        "The markdown uses 'Navigate' instead of 'Head into', which slightly alters the tone of the instruction."
+      ],
+      "recommendations": [
+        "Add appropriate image URLs for the screenshots in the markdown.",
+        "Consider including 'etc.' in the markdown to maintain the original intent of the content.",
+        "Retain the original phrasing 'Head into' for consistency in tone."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAlAAK",
+      "title": "How to Exclude/Edit Information from Process Output Tracking (Agentless)",
+      "file_path": "../../docs/kb/change-tracker/how_to_excludeedit_information_from_process_output_tracking_(agentless).md",
+      "timestamp": "2025-09-25T13:40:49.152188",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not include the underlined text for emphasis, which may affect readability.",
+        "The original HTML had some color styling that is not preserved in markdown."
+      ],
+      "recommendations": [
+        "Consider adding emphasis to important notes using markdown features like blockquotes or bold text.",
+        "Ensure that any specific color coding or styling that conveys meaning in the original content is addressed in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAkAAK",
+      "title": "How to Export a Collection from MongoDB",
+      "file_path": "../../docs/kb/change-tracker/how_to_export_a_collection_from_mongodb.md",
+      "timestamp": "2025-09-25T13:41:35.397542",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAhAAK",
+      "title": "Log Tracker Tags Facility",
+      "file_path": "../../docs/kb/activity-monitor/log_tracker_tags_facility.md",
+      "timestamp": "2025-09-25T13:41:45.647631",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not include a screenshot reference that was mentioned in the original HTML.",
+        "The original HTML had a paragraph with <br> tags for spacing that is not preserved in the markdown."
+      ],
+      "recommendations": [
+        "Add a note or placeholder for the screenshot mentioned in the original content.",
+        "Consider adding spacing or formatting to replace the <br> tags for better readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAfAAK",
+      "title": "How to Monitor Devices with Ping Adapter (Log Tracker)",
+      "file_path": "../../docs/kb/change-tracker/how_to_monitor_devices_with_ping_adapter_(log_tracker).md",
+      "timestamp": "2025-09-25T13:42:03.732069",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'SINGLEticket' was changed to 'single ticket', which may alter the emphasis intended in the original content.",
+        "The phrase 'AddNew' was changed to 'Add New', which may not reflect the exact button label in the UI.",
+        "The HTML entity '&gt;' was replaced with '>', which is correct but may lose the original context in some cases.",
+        "The image tag in the original HTML was not converted to a markdown image syntax."
+      ],
+      "recommendations": [
+        "Consider retaining the original emphasis on 'SINGLEticket' to maintain the intended meaning.",
+        "Verify the exact button label in the UI and adjust 'Add New' if necessary.",
+        "Ensure that the markdown includes an appropriate image syntax for the screenshot.",
+        "Review the use of HTML entities to ensure clarity and correctness in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAiAAK",
+      "title": "Cannot log into / page wont load on Change Tracker after applying Microsoft Patches KB4338815 and KBB4338824 even though services are running.",
+      "file_path": "../../docs/kb/change-tracker/cannot_log_into_page_wont_load_on_change_tracker_after_applying_microsoft_patches_kb4338815_and_kbb4.md",
+      "timestamp": "2025-09-25T13:42:11.103983",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAeAAK",
+      "title": "Log Tracker - I Am Getting a \"Correlation Delay\" Advisory. What should I do?",
+      "file_path": "../../docs/kb/change-tracker/log_tracker_-_i_am_getting_a_correlation_delay_advisory._what_should_i_do.md",
+      "timestamp": "2025-09-25T13:42:34.924989",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'this may be a temporary condition you can ignore or a pathological condition that will just get worse unless you address it' was slightly rephrased to 'This may be a temporary condition you can ignore or a pathological condition that will worsen unless you address it', which changes the tone.",
+        "The phrase 'this indication indicates an overload condition -- temporary or chronic' was changed to 'this indication signifies an overload condition—temporary or chronic', which alters the original wording.",
+        "The phrase 'you can reduce correlation load substantially by doing any of these things' was changed to 'you can reduce correlation load substantially by doing any of the following', which is a minor change but alters the original phrasing.",
+        "The markdown version does not include the 'See screenshot_3,gif' reference, which may imply a missing screenshot."
+      ],
+      "recommendations": [
+        "Ensure that all original phrases are preserved exactly as they are in the HTML content to maintain the original tone and meaning.",
+        "Add a reference to 'screenshot_3,gif' if it exists or clarify that it is missing.",
+        "Review the formatting of the bullet points and ensure that they match the original structure as closely as possible."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAYAA0",
+      "title": "How to Acquire AD / LDAP Information From Multiple Servers (Log Tracker)",
+      "file_path": "../../docs/kb/log-tracker/how_to_acquire_ad_ldap_information_from_multiple_servers_(log_tracker).md",
+      "timestamp": "2025-09-25T13:42:54.570645",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAVAA0",
+      "title": "How to Move The Log Tracker Server Messages and Archive Data to Another Disk Drive",
+      "file_path": "../../docs/kb/log-tracker/how_to_move_the_log_tracker_server_messages_and_archive_data_to_another_disk_drive.md",
+      "timestamp": "2025-09-25T13:43:10.631321",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'theLog Tracker' is missing a space in the original content, which is corrected in the markdown.",
+        "The image tag in the HTML is empty and does not have a corresponding markdown representation.",
+        "The markdown uses 'hundreds of gigabytes' instead of '100s of GBytes', which is a change in wording but retains the meaning."
+      ],
+      "recommendations": [
+        "Ensure that any image references are included in the markdown if applicable.",
+        "Consider retaining the original phrasing of '100s of GBytes' for consistency with the original content."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAWAA0",
+      "title": "How to Create a Report on Firewall Black and White Listed Devices (Log Tracker)",
+      "file_path": "../../docs/kb/activity-monitor/how_to_create_a_report_on_firewall_black_and_white_listed_devices_(log_tracker).md",
+      "timestamp": "2025-09-25T13:43:17.718724",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The image source URL is missing in the markdown.",
+        "The links in the 'Related Articles' section are placeholders and need to be updated with actual URLs."
+      ],
+      "recommendations": [
+        "Insert the correct image URL in the markdown for the screenshot.",
+        "Update the links in the 'Related Articles' section with the appropriate URLs."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdASAA0",
+      "title": "How To Increase File Hash Max for Extension",
+      "file_path": "../../docs/kb/activity-monitor/how_to_increase_file_hash_max_for_extension.md",
+      "timestamp": "2025-09-25T13:43:27.713097",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained a lengthy error message in a code block that was not fully preserved in the markdown format.",
+        "The markdown version does not include the visual formatting of the original HTML, such as the use of colored text for emphasis."
+      ],
+      "recommendations": [
+        "Ensure that all parts of the error message are included in the markdown code block.",
+        "Consider adding visual cues or notes to highlight important information, similar to the original HTML formatting."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdATAA0",
+      "title": "How to Detect Device Offline Events with Device Idle Time Setting (Log Tracker)",
+      "file_path": "../../docs/kb/log-tracker/how_to_detect_device_offline_events_with_device_idle_time_setting_(log_tracker).md",
+      "timestamp": "2025-09-25T13:43:36.529933",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdARAA0",
+      "title": "How to Send E-Mails to Multiple Users on Log Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_send_e-mails_to_multiple_users_on_log_tracker.md",
+      "timestamp": "2025-09-25T13:43:47.676282",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAPAA0",
+      "title": "Hubservice-Log Fix: Error in pipeline configuration file : C:\\inetpub\\wwwroot\\Change Tracker Generation 7 Hub\\bin\\Configs\\localhost.json System.ArgumentException: No 'queueName' specified in configuation. [incomingEventQueue]",
+      "file_path": "../../docs/kb/change-tracker/hubservice-log_fix_error_in_pipeline_configuration_file_cinetpubwwwrootchange_tracker_generation_7_h.md",
+      "timestamp": "2025-09-25T13:43:56.086885",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The email link to Support@nntws.com was not converted into a clickable link in the markdown.",
+        "The original HTML contained extra line breaks (<br>) that are not present in the markdown."
+      ],
+      "recommendations": [
+        "Convert the email address into a markdown link format for better usability.",
+        "Consider adding line breaks or spacing in the markdown to match the original formatting."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdALAA0",
+      "title": "How to Generate an Alert When Devices Stop Sending Messages on Log Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_generate_an_alert_when_devices_stop_sending_messages_on_log_tracker.md",
+      "timestamp": "2025-09-25T13:44:09.122587",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'AddNew' was changed to 'Add New', which may not match the original UI terminology.",
+        "The phrase 'some people like to set the severity of this alert high -- such as to \"critical\" -- but it is up to the end user.' was altered to 'some users prefer to set the severity of this alert high, such as to **critical**, but this is up to the end user.', which changes the tone slightly."
+      ],
+      "recommendations": [
+        "Ensure that UI terminology matches exactly as in the original content.",
+        "Consider retaining the original phrasing for user preferences to maintain the original tone."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAKAA0",
+      "title": "How to have FAST Cloud checked Last against other Scheduled Planned Changes",
+      "file_path": "../../docs/kb/change-tracker/how_to_have_fast_cloud_checked_last_against_other_scheduled_planned_changes.md",
+      "timestamp": "2025-09-25T13:44:22.207483",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'checked last' was changed to 'checked last against other Scheduled Planned Changes' in the overview, which slightly alters the original meaning.",
+        "The original HTML had some extra line breaks and empty paragraphs that were not preserved in the markdown."
+      ],
+      "recommendations": [
+        "Consider retaining the original phrasing for clarity in the overview.",
+        "Add back any necessary line breaks or spacing to improve readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdANAA0",
+      "title": "How to Change the Subject of E-Mail Messages (Log Tracker)",
+      "file_path": "../../docs/kb/change-tracker/how_to_change_the_subject_of_e-mail_messages_(log_tracker).md",
+      "timestamp": "2025-09-25T13:44:31.331954",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAIAA0",
+      "title": "How to Move The Log Tracker Server To A New Platform",
+      "file_path": "../../docs/kb/activity-monitor/how_to_move_the_log_tracker_server_to_a_new_platform.md",
+      "timestamp": "2025-09-25T13:44:48.356293",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The heading 'Step-by-step guide' was changed to 'Instructions', which may alter the intended emphasis.",
+        "The phrase 'run the program as administrator' was slightly rephrased to 'run the program as administrator' without the comma, which could affect clarity.",
+        "The term 'decomission' was misspelled as 'decommission' in the markdown."
+      ],
+      "recommendations": [
+        "Consider retaining the original heading 'Step-by-step guide' for consistency.",
+        "Ensure that all phrases maintain their original structure to avoid any potential confusion.",
+        "Correct the spelling of 'decomission' to 'decommission'."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAGAA0",
+      "title": "System Error - Object Reference not set to an instance of an object - Cannot View Groups Page in Change Tracker",
+      "file_path": "../../docs/kb/activity-monitor/system_error_-_object_reference_not_set_to_an_instance_of_an_object_-_cannot_view_groups_page_in_cha.md",
+      "timestamp": "2025-09-25T13:45:21.032875",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAEAA0",
+      "title": "Brief Information On The Agent Files",
+      "file_path": "../../docs/kb/change-tracker/brief_information_on_the_agent_files.md",
+      "timestamp": "2025-09-25T13:45:35.262295",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained some non-standard characters (e.g., '‚Äì') that were not present in the markdown.",
+        "The markdown version uses 'which is stored in this file' instead of 'this is where it is contained' for Agent.id, which slightly alters the original meaning."
+      ],
+      "recommendations": [
+        "Replace 'which is stored in this file' with 'this is where it is contained' for clarity and to maintain the original meaning.",
+        "Ensure that any non-standard characters from the original HTML are properly represented in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAFAA0",
+      "title": "Log Tracker - How To Revert Language Settings",
+      "file_path": "../../docs/kb/log-tracker/log_tracker_-_how_to_revert_language_settings.md",
+      "timestamp": "2025-09-25T13:45:41.893014",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdAAAA0",
+      "title": "How to Retransmit Messages With Log Tracker CLI-BIN Tools",
+      "file_path": "../../docs/kb/change-tracker/how_to_retransmit_messages_with_log_tracker_cli-bin_tools.md",
+      "timestamp": "2025-09-25T13:45:49.381194",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdABAA0",
+      "title": "How to Send Text Messages Using Log Tracker Server",
+      "file_path": "../../docs/kb/change-tracker/how_to_send_text_messages_using_log_tracker_server.md",
+      "timestamp": "2025-09-25T13:46:03.933481",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdACAA0",
+      "title": "How to Change the Online and Archive Data Retention settings in Log Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_change_the_online_and_archive_data_retention_settings_in_log_tracker.md",
+      "timestamp": "2025-09-25T13:46:09.798469",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdA8AAK",
+      "title": "Adding SSL Certificates to Log Tracker Server Web Interface",
+      "file_path": "../../docs/kb/activity-monitor/adding_ssl_certificates_to_log_tracker_server_web_interface.md",
+      "timestamp": "2025-09-25T13:46:19.732573",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdA2AAK",
+      "title": "How to Export More than 50k Events",
+      "file_path": "../../docs/kb/change-tracker/how_to_export_more_than_50k_events.md",
+      "timestamp": "2025-09-25T13:46:30.590128",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000HdA1AAK",
+      "title": "How to import externally created configuration templates in Log Tracker?",
+      "file_path": "../../docs/kb/log-tracker/how_to_import_externally_created_configuration_templates_in_log_tracker.md",
+      "timestamp": "2025-09-25T13:46:36.053249",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9zAAC",
+      "title": "How to Run a Report that Shows Created Planned Changes and Who Made Them",
+      "file_path": "../../docs/kb/change-tracker/how_to_run_a_report_that_shows_created_planned_changes_and_who_made_them.md",
+      "timestamp": "2025-09-25T13:46:47.824773",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'Changes That were Approved' was changed to 'Approved Changes', which may alter the intended meaning.",
+        "The original HTML used 'Comma Seperated Text', which was changed to 'Comma Separated Text' in the markdown. This is a spelling correction but could be seen as altering the original content."
+      ],
+      "recommendations": [
+        "Consider retaining the exact phrasing of 'Changes That were Approved' for clarity.",
+        "Ensure that any specific terminology from the original content is preserved exactly as it was."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9vAAC",
+      "title": "HUB LOG",
+      "file_path": "../../docs/kb/change-tracker/hub_log.md",
+      "timestamp": "2025-09-25T13:46:54.558629",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained a <hr> tag which is not present in the markdown.",
+        "The original HTML had a <p> tag wrapping the table which is not reflected in the markdown."
+      ],
+      "recommendations": [
+        "Consider adding a horizontal rule (---) in the markdown to reflect the <hr> from the HTML.",
+        "Ensure that the table is properly wrapped in a paragraph or section if necessary for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9uAAC",
+      "title": "MONGO LOG",
+      "file_path": "../../docs/kb/general/mongo_log.md",
+      "timestamp": "2025-09-25T13:47:03.041572",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content included a horizontal rule (<hr>), which is not present in the markdown.",
+        "The markdown has an additional 'Overview' section that was not in the original HTML."
+      ],
+      "recommendations": [
+        "Consider removing the 'Overview' section from the markdown to match the original content more closely.",
+        "Add a horizontal rule in the markdown to maintain visual separation as in the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9qAAC",
+      "title": "How to delete a device in Log Tracker",
+      "file_path": "../../docs/kb/log-tracker/how_to_delete_a_device_in_log_tracker.md",
+      "timestamp": "2025-09-25T13:47:09.820385",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9pAAC",
+      "title": "Rolling-Log Fix: \"ERROR ConfigurationLoader - Hub location details have not been specified. Please edit the following file to specify hub location and account details: /var/nnt/gen7agent.service/HubDetails.xml”",
+      "file_path": "../../docs/kb/general/rolling-log_fix_error_configurationloader_-_hub_location_details_have_not_been_specified._please_edi.md",
+      "timestamp": "2025-09-25T13:47:29.316206",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9lAAC",
+      "title": "How-to fix mongodump binary does not exist in specified location error",
+      "file_path": "../../docs/kb/change-tracker/how-to_fix_mongodump_binary_does_not_exist_in_specified_location_error.md",
+      "timestamp": "2025-09-25T13:47:40.560111",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained multiple empty paragraphs which are not present in the markdown.",
+        "The markdown does not include the 'Related articles' section header, which is present in the HTML.",
+        "The markdown does not preserve the specific color formatting of the file path example."
+      ],
+      "recommendations": [
+        "Add a header for the 'Related Articles' section in the markdown.",
+        "Consider including the empty paragraphs for better visual spacing if necessary.",
+        "Maintain the color formatting for the file path example to enhance clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9mAAC",
+      "title": "Rolling-Log Fix: \"ItemStoragePipeline - Error processing item, couldn't collect filehashsha256 for file: /mydir/my.file Error: Failed to collect data for attribute (Could not find file /mydir/my.file)\"",
+      "file_path": "../../docs/kb/activity-monitor/rolling-log_fix_itemstoragepipeline_-_error_processing_item,_couldn't_collect_filehashsha256_for_fil.md",
+      "timestamp": "2025-09-25T13:47:51.055112",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not preserve the original formatting of the error message as a code block, which could affect readability.",
+        "The original HTML contained a color style for headings that is not represented in the markdown.",
+        "The markdown uses 'receiving' instead of 'recieving', which is a spelling error."
+      ],
+      "recommendations": [
+        "Ensure that the error message is formatted as a code block for better clarity.",
+        "Consider adding styling or notes to indicate the importance of certain sections, similar to the original HTML.",
+        "Correct the spelling of 'receiving' to 'receiving'."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9hAAC",
+      "title": "Log Messages, Meanings, and Fixes",
+      "file_path": "../../docs/kb/change-tracker/log_messages,_meanings,_and_fixes.md",
+      "timestamp": "2025-09-25T13:48:11.880955",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not preserve the original HTML styling such as text alignment.",
+        "The original HTML had some links with target='_blank' which are not indicated in markdown.",
+        "Some special characters (like quotes) were not properly escaped in markdown."
+      ],
+      "recommendations": [
+        "Consider adding HTML comments or notes in markdown to indicate where original styling was lost.",
+        "Ensure that all special characters are properly escaped in markdown.",
+        "Add a note about the target attribute for links if necessary for context."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9iAAC",
+      "title": "Rolling-Log Fix: \"AgentTaskRunner - task execution failed for task 11 - TrackerPollTask-Baseline-processtracker-88\"",
+      "file_path": "../../docs/kb/change-tracker/rolling-log_fix_agenttaskrunner_-_task_execution_failed_for_task_11_-_trackerpolltask-baseline-proce.md",
+      "timestamp": "2025-09-25T13:48:38.585523",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not include the empty paragraphs that were present in the HTML.",
+        "The heading for 'Step-by-step guide' was changed to 'Resolution', which may alter the intended structure.",
+        "The images are included but the second image is not clearly labeled as it was in the HTML."
+      ],
+      "recommendations": [
+        "Consider retaining the original heading 'Step-by-step guide' for clarity.",
+        "Add captions or descriptions for images to maintain context.",
+        "Ensure that any empty paragraphs or spacing are preserved for visual consistency."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9fAAC",
+      "title": "Log Tracker Custom Alerting: Generating alerts off event contents.",
+      "file_path": "../../docs/kb/activity-monitor/log_tracker_custom_alerting_generating_alerts_off_event_contents..md",
+      "timestamp": "2025-09-25T13:48:48.398621",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9eAAC",
+      "title": "What special characters can be used in a Change Tracker user or agent password?",
+      "file_path": "../../docs/kb/change-tracker/what_special_characters_can_be_used_in_a_change_tracker_user_or_agent_password.md",
+      "timestamp": "2025-09-25T13:48:59.977513",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'it's user accounts' was changed to 'its user accounts', which is correct but may not reflect the original intent.",
+        "The list of special characters was reformatted into a bullet list, which is acceptable but alters the original presentation.",
+        "The image tag was converted correctly, but the original HTML contained a <br> tag at the end which was omitted in the markdown."
+      ],
+      "recommendations": [
+        "Consider retaining the original presentation style of the special characters list to match the HTML format more closely.",
+        "Add a <br> tag or equivalent spacing after the image to maintain visual consistency with the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9gAAC",
+      "title": "How to Modify Change Tracker Port on RHEL/CentOS Linux after Install",
+      "file_path": "../../docs/kb/activity-monitor/how_to_modify_change_tracker_port_on_rhelcentos_linux_after_install.md",
+      "timestamp": "2025-09-25T13:49:08.719595",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9bAAC",
+      "title": "Getting Started with Change Tracker Video Series",
+      "file_path": "../../docs/kb/change-tracker/getting_started_with_change_tracker_video_series.md",
+      "timestamp": "2025-09-25T13:49:16.324484",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The 'Add Video Tutorial' text from the original HTML is missing in the markdown.",
+        "The search macro and its associated icon are not represented in the markdown."
+      ],
+      "recommendations": [
+        "Consider adding the 'Add Video Tutorial' section to the markdown for completeness.",
+        "If relevant, include a note or section about the search functionality that was present in the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9ZAAS",
+      "title": "Example Change Tracker Tutorial",
+      "file_path": "../../docs/kb/change-tracker/example_change_tracker_tutorial.md",
+      "timestamp": "2025-09-25T13:49:34.283067",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The embedded video element and its compatibility note were not preserved in the markdown.",
+        "The original HTML had empty paragraphs and breaks that were not translated into markdown, which may affect formatting."
+      ],
+      "recommendations": [
+        "Include a note about video compatibility in the markdown to maintain context.",
+        "Consider adding placeholders or notes for any embedded content that cannot be converted directly."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9XAAS",
+      "title": "How to Upload a Compliance Template to Change Tracker",
+      "file_path": "../../docs/kb/activity-monitor/how_to_upload_a_compliance_template_to_change_tracker.md",
+      "timestamp": "2025-09-25T13:49:44.403429",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The HTML5 video element is not represented in the markdown.",
+        "The original HTML had some empty paragraphs and spacing that are not present in the markdown."
+      ],
+      "recommendations": [
+        "Consider adding a note about the unsupported video element in the markdown.",
+        "Review the formatting of empty paragraphs to ensure consistent spacing in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9YAAS",
+      "title": "How to Apply a Compliance Template to a group for automated reporting in Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_apply_a_compliance_template_to_a_group_for_automated_reporting_in_change_tracker.md",
+      "timestamp": "2025-09-25T13:49:52.844561",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9WAAS",
+      "title": "How to Export Events from the Events Page to .CSV, .PDF, or .XLSX",
+      "file_path": "../../docs/kb/change-tracker/how_to_export_events_from_the_events_page_to_.csv,_.pdf,_or_.xlsx.md",
+      "timestamp": "2025-09-25T13:50:05.848782",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The note about exporting up to 50,000 events at a time is formatted as 'IMPORTANT' but lacks emphasis in the markdown.",
+        "The original HTML had some unnecessary empty paragraphs that are not present in the markdown."
+      ],
+      "recommendations": [
+        "Consider using a blockquote or additional formatting for the important note to enhance visibility.",
+        "Review the markdown for any unnecessary spacing or empty elements that could be cleaned up."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9SAAS",
+      "title": "Compliance Reports do not Complete, Stuck in Processing xx %",
+      "file_path": "../../docs/kb/change-tracker/compliance_reports_do_not_complete,_stuck_in_processing_xx_%.md",
+      "timestamp": "2025-09-25T13:50:13.474620",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9RAAS",
+      "title": "How to Stop Change Tracker from Blocking IP Address",
+      "file_path": "../../docs/kb/change-tracker/how_to_stop_change_tracker_from_blocking_ip_address.md",
+      "timestamp": "2025-09-25T13:50:20.885442",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9NAAS",
+      "title": "Rolling-Log Fix: \"FileContentTrackerDataCollectorLocal - Couldnt locate file entry for /mydirectory/my.file\"",
+      "file_path": "../../docs/kb/activity-monitor/rolling-log_fix_filecontenttrackerdatacollectorlocal_-_couldnt_locate_file_entry_for_mydirectorymy.f.md",
+      "timestamp": "2025-09-25T13:50:29.195211",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original error message in the code block was omitted in the markdown conversion.",
+        "The title in the markdown does not match the original context, as it refers to a different file path (/mydirectory/my.file instead of /etc/yum.conf).",
+        "The markdown does not include the original formatting of the error message, which was in a code block."
+      ],
+      "recommendations": [
+        "Include the original error message in a code block in the markdown.",
+        "Adjust the title in the markdown to accurately reflect the original context regarding /etc/yum.conf.",
+        "Ensure that all formatting from the original HTML is preserved, especially for technical details."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9MAAS",
+      "title": "How to Monitor Log Tracker Device Offline",
+      "file_path": "../../docs/kb/change-tracker/how_to_monitor_log_tracker_device_offline.md",
+      "timestamp": "2025-09-25T13:50:37.587157",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9DAAS",
+      "title": "What Change Tracker Gen7 Objects to Monitor Using Application Performance Monitoring (APM) Tools",
+      "file_path": "../../docs/kb/change-tracker/what_change_tracker_gen7_objects_to_monitor_using_application_performance_monitoring_(apm)_tools.md",
+      "timestamp": "2025-09-25T13:51:00.681646",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'it is reccomended' is misspelled as 'it is recommended' in multiple instances.",
+        "The phrase 'the NNT Agent Service is Running' has inconsistent capitalization in the original content.",
+        "The phrase 'the Change Tracker Server is exeriencing an error' has a spelling error in 'experiencing'.",
+        "The phrase 'the Change Tracker Server recieves planned or unplanned changes' has a spelling error in 'receives'.",
+        "The image link is present but the context of the image is not described in the markdown."
+      ],
+      "recommendations": [
+        "Correct the spelling errors throughout the document.",
+        "Ensure consistent capitalization for terms like 'NNT Agent Service'.",
+        "Add a description for the image to provide context for readers.",
+        "Review the markdown for any additional formatting inconsistencies."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd9FAAS",
+      "title": "Hubservice-Log Fix: Command aggregate failed: Sort exceeded memory limit of 104857600 bytes, but did not opt in to external sorting. Aborting operation. Pass allowDiskUse:true to opt in",
+      "file_path": "../../docs/kb/change-tracker/hubservice-log_fix_command_aggregate_failed_sort_exceeded_memory_limit_of_104857600_bytes,_but_did_n.md",
+      "timestamp": "2025-09-25T13:51:10.915751",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd97AAC",
+      "title": "How to Re-Register a Deleted Device on Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_re-register_a_deleted_device_on_change_tracker.md",
+      "timestamp": "2025-09-25T13:51:17.993873",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content included images with empty src attributes, which were not included in the markdown.",
+        "The markdown version does not specify the target attribute for links, which may affect how they open."
+      ],
+      "recommendations": [
+        "Ensure that image sources are correctly linked in the markdown.",
+        "Consider adding target='_blank' to links to maintain the original behavior of opening in a new tab."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd99AAC",
+      "title": "Rolling-Log Fix: \"RegistryTrackerDataCollector - check the agent process has the required permissions to access the registry key. The specified registry key does not exist.\"",
+      "file_path": "../../docs/kb/activity-monitor/rolling-log_fix_registrytrackerdatacollector_-_check_the_agent_process_has_the_required_permissions_.md",
+      "timestamp": "2025-09-25T13:51:28.393398",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The decorative lines (hash marks) above and below the example error message were lost in the conversion.",
+        "The original HTML had a 'confluence-information-macro' section that provided additional context, which was simplified to a note in markdown.",
+        "The original HTML had some extra spacing and line breaks that were not preserved in the markdown."
+      ],
+      "recommendations": [
+        "Consider adding decorative lines or separators in the markdown to visually match the original content.",
+        "Retain the context provided by the 'confluence-information-macro' in a more prominent way, possibly as a blockquote or note.",
+        "Review spacing and line breaks to ensure the markdown format maintains readability similar to the original."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd93AAC",
+      "title": "How to Search Archived Data in Log Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_search_archived_data_in_log_tracker.md",
+      "timestamp": "2025-09-25T13:51:58.435533",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd90AAC",
+      "title": "How to Add an SSL Certificate to a Linux Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_add_an_ssl_certificate_to_a_linux_change_tracker.md",
+      "timestamp": "2025-09-25T13:52:06.802698",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8zAAC",
+      "title": "How to determine what network ports need to be open for Change Tracker or Log Trackerto function?",
+      "file_path": "../../docs/kb/change-tracker/how_to_determine_what_network_ports_need_to_be_open_for_change_tracker_or_log_trackerto_function.md",
+      "timestamp": "2025-09-25T13:52:13.897468",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained multiple <br> tags for spacing which are not present in the markdown.",
+        "The heading for CHANGE TRACKER is slightly different in wording from the original HTML."
+      ],
+      "recommendations": [
+        "Consider adding spacing in the markdown to match the original HTML layout.",
+        "Ensure that the heading for CHANGE TRACKER matches the original wording for consistency."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8yAAC",
+      "title": "How to enable Baseline Events on monitored folders and what they are?",
+      "file_path": "../../docs/kb/general/how_to_enable_baseline_events_on_monitored_folders_and_what_they_are.md",
+      "timestamp": "2025-09-25T13:52:29.610230",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8tAAC",
+      "title": "How to Update Change Tracker Agents from the Hub Server",
+      "file_path": "../../docs/kb/activity-monitor/how_to_update_change_tracker_agents_from_the_hub_server.md",
+      "timestamp": "2025-09-25T13:53:12.850208",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The first heading 'Step-by-step guide' was duplicated in the original HTML but only included once in the markdown.",
+        "The original HTML had some empty paragraphs which were removed in the markdown, which is acceptable but could be noted."
+      ],
+      "recommendations": [
+        "Consider adding a note about the duplicate heading for clarity.",
+        "Ensure that any empty paragraphs that serve a purpose in the original are addressed in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8jAAC",
+      "title": "How to Update your Log Tracker License",
+      "file_path": "../../docs/kb/change-tracker/how_to_update_your_log_tracker_license.md",
+      "timestamp": "2025-09-25T13:53:22.148360",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8hAAC",
+      "title": "How to Reset the Default Admin Password on Change Tracker",
+      "file_path": "../../docs/kb/change-tracker/how_to_reset_the_default_admin_password_on_change_tracker.md",
+      "timestamp": "2025-09-25T13:53:50.927318",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown version does not include the empty paragraphs present in the original HTML.",
+        "The markdown version uses 'plaintext' for the URL command in Windows, which may not be the most appropriate format; it could be 'bash' for consistency."
+      ],
+      "recommendations": [
+        "Consider removing unnecessary empty paragraphs to improve readability.",
+        "Change the code block for the Windows URL command from 'plaintext' to 'bash' for consistency with the CentOS command formatting."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8gAAC",
+      "title": "How to monitor legacy systems with the Change Tracker Express Agent?",
+      "file_path": "../../docs/kb/change-tracker/how_to_monitor_legacy_systems_with_the_change_tracker_express_agent.md",
+      "timestamp": "2025-09-25T13:54:26.386888",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The link for the Hub URL in the configuration settings is incorrectly displayed as 'https://192.168.1.1/api/' instead of 'https://10.74.100.55/api/'.",
+        "The command output for 'Agent password :' is missing the actual password in the markdown version, which is present in the HTML."
+      ],
+      "recommendations": [
+        "Correct the Hub URL in the configuration settings to 'https://10.74.100.55/api/'.",
+        "Consider including the actual password in the command output for clarity, or indicate that it should be filled in by the user."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8YAAS",
+      "title": "How To Increase File Content Max for Extension",
+      "file_path": "../../docs/kb/activity-monitor/how_to_increase_file_content_max_for_extension.md",
+      "timestamp": "2025-09-25T13:54:37.151747",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained an example error message in a code block that was not included in the markdown.",
+        "The markdown does not include the specific line numbers (11 and 12) where the code should be found, which may be important for users."
+      ],
+      "recommendations": [
+        "Include the example error message in a code block in the markdown.",
+        "Add a note about the specific line numbers (11 and 12) for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8UAAS",
+      "title": "9. Alerting - Being Notified of Events",
+      "file_path": "../../docs/kb/change-tracker/9._alerting_-_being_notified_of_events.md",
+      "timestamp": "2025-09-25T13:54:47.035014",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained a <br> tag that was not preserved in the markdown.",
+        "The original HTML had a note formatted with <em><strong> which was simplified to just **NOTE:** in markdown, potentially losing emphasis."
+      ],
+      "recommendations": [
+        "Consider preserving the <br> tag for visual spacing in the markdown.",
+        "Maintain the original emphasis formatting for the note to enhance clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8SAAS",
+      "title": "7. Comparing Compliance Scores for Devices",
+      "file_path": "../../docs/kb/activity-monitor/7._comparing_compliance_scores_for_devices.md",
+      "timestamp": "2025-09-25T13:55:07.960638",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8PAAS",
+      "title": "Getting Started with Change Tracker - Technical Overview and Solution Architecture",
+      "file_path": "../../docs/kb/change-tracker/getting_started_with_change_tracker_-_technical_overview_and_solution_architecture.md",
+      "timestamp": "2025-09-25T13:55:12.986711",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8QAAS",
+      "title": "How to Send Syslog Messages Using JavaScript (Log Tracker)",
+      "file_path": "../../docs/kb/log-tracker/how_to_send_syslog_messages_using_javascript_(log_tracker).md",
+      "timestamp": "2025-09-25T13:55:28.441797",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8NAAS",
+      "title": "c. Agentless Configuration Integrity Monitoring",
+      "file_path": "../../docs/kb/activity-monitor/c._agentless_configuration_integrity_monitoring.md",
+      "timestamp": "2025-09-25T13:55:35.327868",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The HTML content included a non-standard character (‚Äì) which was replaced with a standard dash in the markdown.",
+        "The HTML used <b> tags for bold text, while markdown uses ** for bold formatting. This was correctly converted, but it's worth noting the difference in formatting styles."
+      ],
+      "recommendations": [
+        "Ensure that any special characters are correctly represented in markdown.",
+        "Consider adding a note about the conversion of formatting styles for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8IAAS",
+      "title": "5. Getting Started Tutorial - Planned Change Operation – Closed-Loop Intelligent Planned Change Control",
+      "file_path": "../../docs/kb/change-tracker/5._getting_started_tutorial_-_planned_change_operation_–_closed-loop_intelligent_planned_change_cont.md",
+      "timestamp": "2025-09-25T13:55:53.695575",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained some formatting attributes (like align and style) that are not preserved in markdown.",
+        "The original HTML had multiple images with specific heights that are not reflected in the markdown.",
+        "The phrase 'the beauty of Change Tracker Gen 7' was slightly altered to 'The beauty of Change Tracker Gen 7 is the range of options and power provided to automatically handle these.' which changes the tone."
+      ],
+      "recommendations": [
+        "Consider adding alt text for images to improve accessibility.",
+        "Maintain original formatting attributes where applicable, such as alignment.",
+        "Ensure that any specific formatting (like image heights) is preserved or noted in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8GAAS",
+      "title": "2. Getting Started Tutorial - Compliance Reporting",
+      "file_path": "../../docs/kb/change-tracker/2._getting_started_tutorial_-_compliance_reporting.md",
+      "timestamp": "2025-09-25T13:55:59.668418",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8JAAS",
+      "title": "Intelligent Change Control",
+      "file_path": "../../docs/kb/activity-monitor/intelligent_change_control.md",
+      "timestamp": "2025-09-25T13:56:13.282108",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8HAAS",
+      "title": "4. Getting Started Tutorial - File Integrity Monitoring – Host Intrusion Detection/Breach Detection",
+      "file_path": "../../docs/kb/change-tracker/4._getting_started_tutorial_-_file_integrity_monitoring_–_host_intrusion_detectionbreach_detection.md",
+      "timestamp": "2025-09-25T13:56:42.980885",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML used special characters (e.g., ‚Äì) that were replaced with standard characters (e.g., –) in the markdown, which may affect the intended meaning.",
+        "The original HTML had a line break before the 'Attachments' section that is not present in the markdown."
+      ],
+      "recommendations": [
+        "Ensure that special characters are preserved in the markdown to maintain the original meaning.",
+        "Add a line break before the 'Attachments' section in the markdown for better readability."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8FAAS",
+      "title": "1. Getting Started Tutorial - Events Page",
+      "file_path": "../../docs/kb/change-tracker/1._getting_started_tutorial_-_events_page.md",
+      "timestamp": "2025-09-25T13:56:59.685267",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The tip section has a minor formatting issue with the use of special characters (‚Äò) instead of standard single quotes (') in the markdown.",
+        "The phrase 'see later section for' is slightly less clear in markdown compared to the original HTML."
+      ],
+      "recommendations": [
+        "Replace special characters with standard quotes for clarity.",
+        "Consider rephrasing 'see later section for' to improve clarity and ensure it directs users effectively."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd8BAAS",
+      "title": "Windows - Change the DB location",
+      "file_path": "../../docs/kb/change-tracker/windows_-_change_the_db_location.md",
+      "timestamp": "2025-09-25T13:57:07.276320",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd89AAC",
+      "title": "33 Sample Scripts for Agentless FIM",
+      "file_path": "../../docs/kb/activity-monitor/33_sample_scripts_for_agentless_fim.md",
+      "timestamp": "2025-09-25T13:57:28.242966",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The markdown does not include the empty paragraphs present in the HTML.",
+        "Some instances of 'Send credentials with connect' are not consistently formatted as bold in the markdown.",
+        "The note about using CTRL-Y for login is slightly rephrased and may lose some emphasis from the original."
+      ],
+      "recommendations": [
+        "Ensure that all important notes and warnings are emphasized consistently.",
+        "Consider adding back any empty paragraphs for better readability.",
+        "Review the formatting of specific phrases to ensure consistency in emphasis."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd83AAC",
+      "title": "30 File/Folder Match Filters for Inclusion/Exclusion Rules",
+      "file_path": "../../docs/kb/activity-monitor/30_filefolder_match_filters_for_inclusionexclusion_rules.md",
+      "timestamp": "2025-09-25T13:57:37.113482",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd84AAC",
+      "title": "d. Agentless File Integrity Monitoring",
+      "file_path": "../../docs/kb/activity-monitor/d._agentless_file_integrity_monitoring.md",
+      "timestamp": "2025-09-25T13:57:48.914658",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd86AAC",
+      "title": "32 Agentless Script Syntax",
+      "file_path": "../../docs/kb/activity-monitor/32_agentless_script_syntax.md",
+      "timestamp": "2025-09-25T13:58:05.506318",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [
+        "The heading 'Examples:' has an extra colon in the original HTML that is not present in the markdown.",
+        "The heading 'Notes:' has an extra colon in the original HTML that is not present in the markdown.",
+        "The formatting of the example for 'Execute' command uses an en dash (–) instead of a hyphen (-) in the markdown."
+      ],
+      "recommendations": [
+        "Add the extra colons to the headings 'Examples:' and 'Notes:' in the markdown.",
+        "Change the en dash (–) to a hyphen (-) in the example for the 'Execute' command."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd85AAC",
+      "title": "31Registry Inclusion/Exclusion Match Rules",
+      "file_path": "../../docs/kb/activity-monitor/31registry_inclusionexclusion_match_rules.md",
+      "timestamp": "2025-09-25T13:58:15.498870",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'foldermatchtype' in the markdown is not consistently capitalized as it is in the original content.",
+        "The formatting of the list items is slightly different; the original uses a nested list for 'ValueMatchExpression' which is not clearly indicated in the markdown."
+      ],
+      "recommendations": [
+        "Ensure consistent capitalization for 'foldermatchtype'.",
+        "Consider using nested lists in markdown to better reflect the structure of the original content."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd82AAC",
+      "title": "o. Gen 7 Settings Page - License",
+      "file_path": "../../docs/kb/general/o._gen_7_settings_page_-_license.md",
+      "timestamp": "2025-09-25T13:58:20.561573",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7zAAC",
+      "title": "l. Gen 7 Settings Page - System Settings",
+      "file_path": "../../docs/kb/general/l._gen_7_settings_page_-_system_settings.md",
+      "timestamp": "2025-09-25T13:58:34.880667",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The term 'User Password Settings' was not consistently capitalized in the markdown.",
+        "The phrase 'reset the UI to Default' was changed to 'reset the UI to default', which may alter the intended emphasis.",
+        "The markdown does not include a direct mention of 'Test button' being capitalized, which may affect clarity."
+      ],
+      "recommendations": [
+        "Ensure consistent capitalization of technical terms such as 'User Password Settings'.",
+        "Consider retaining the original capitalization of 'Default' for clarity.",
+        "Clarify the mention of the 'Test button' to maintain emphasis."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7yAAC",
+      "title": "k. Gen 7 Settings Page - Saved Queries",
+      "file_path": "../../docs/kb/general/k._gen_7_settings_page_-_saved_queries.md",
+      "timestamp": "2025-09-25T13:58:46.167380",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'Previously generated Query Results can be reviewed below' is not followed by any content in the markdown, which may imply missing information.",
+        "The original HTML mentions 'Checkbox' with a capital 'C', while the markdown uses 'checkbox' in lowercase, which may lead to inconsistency."
+      ],
+      "recommendations": [
+        "Add a section or note in the markdown to indicate where the previously generated query results can be reviewed.",
+        "Ensure consistent capitalization for terms like 'Checkbox' to match the original HTML."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7vAAC",
+      "title": "f.  Gen 7 Settings Page - Credentials Administration",
+      "file_path": "../../docs/kb/change-tracker/f._gen_7_settings_page_-_credentials_administration.md",
+      "timestamp": "2025-09-25T13:59:03.151729",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML contained a span with a class for an anchor link that is not represented in the markdown.",
+        "The phrase 'The Credentials defined' was altered to 'The credentials defined are essential for the proper functioning of the monitoring process.' which adds information not present in the original."
+      ],
+      "recommendations": [
+        "Consider removing the additional information added in the markdown to maintain fidelity to the original content.",
+        "Include the anchor link references in the markdown if they are necessary for navigation."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7uAAC",
+      "title": "6. Gen 7 Settings Pages - Configuration Templates - Security and Audit Policy Tracker (Windows Only)",
+      "file_path": "../../docs/kb/change-tracker/6._gen_7_settings_pages_-_configuration_templates_-_security_and_audit_policy_tracker_(windows_only).md",
+      "timestamp": "2025-09-25T13:59:08.784814",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7qAAC",
+      "title": "c. Gen 7 Settings Page - Planned Changes - Planned Changes Administration",
+      "file_path": "../../docs/kb/general/c._gen_7_settings_page_-_planned_changes_-_planned_changes_administration.md",
+      "timestamp": "2025-09-25T13:59:24.275950",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The note section is slightly altered in formatting but retains the original meaning.",
+        "The image alt text is missing in the markdown version."
+      ],
+      "recommendations": [
+        "Add alt text for images to improve accessibility.",
+        "Consider maintaining the original note formatting for clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7nAAC",
+      "title": "7. Gen 7 Settings Pages - Configuration Templates - User Account Tracker (Windows Only)",
+      "file_path": "../../docs/kb/change-tracker/7._gen_7_settings_pages_-_configuration_templates_-_user_account_tracker_(windows_only).md",
+      "timestamp": "2025-09-25T13:59:30.375953",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7pAAC",
+      "title": "b. Gen 7 Settings Page - Groups: Device Group Administration",
+      "file_path": "../../docs/kb/general/b._gen_7_settings_page_-_groups_device_group_administration.md",
+      "timestamp": "2025-09-25T13:59:46.857145",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase '– contact support for more help' was changed to 'For further assistance, contact support.' which slightly alters the tone.",
+        "The link to the 'Agent Updates section' is a placeholder (#) and should point to the actual section."
+      ],
+      "recommendations": [
+        "Consider retaining the original phrasing for clarity and tone.",
+        "Update the link to the 'Agent Updates section' to ensure it directs to the correct location."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7kAAC",
+      "title": "4. Gen 7 Settings Pages - Configuration Templates - Registry (Windows Only)",
+      "file_path": "../../docs/kb/general/4._gen_7_settings_pages_-_configuration_templates_-_registry_(windows_only).md",
+      "timestamp": "2025-09-25T14:00:04.926244",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content had a span with a class for an anchor link that is not represented in the markdown.",
+        "The original HTML contained a non-breaking space character (&#39;) that is represented as a single quote in the markdown, which is acceptable but could be noted.",
+        "The original HTML had a 'right click' instruction that is now formatted as **right click** in markdown, which is a change in emphasis."
+      ],
+      "recommendations": [
+        "Consider adding a note about the anchor link for clarity.",
+        "Ensure that all special characters are consistently represented.",
+        "Maintain the original emphasis style for instructions to avoid altering the meaning."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7lAAC",
+      "title": "How to Configure Recursive File Content Monitoring?",
+      "file_path": "../../docs/kb/change-tracker/how_to_configure_recursive_file_content_monitoring.md",
+      "timestamp": "2025-09-25T14:00:17.924983",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7mAAC",
+      "title": "2. Gen 7 Settings Pages - Configuration Templates - Tracking File Contents",
+      "file_path": "../../docs/kb/change-tracker/2._gen_7_settings_pages_-_configuration_templates_-_tracking_file_contents.md",
+      "timestamp": "2025-09-25T14:00:25.330028",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7gAAC",
+      "title": "3. Gen 7 Settings Page - Configuration Templates - Installed Software and Updates",
+      "file_path": "../../docs/kb/general/3._gen_7_settings_page_-_configuration_templates_-_installed_software_and_updates.md",
+      "timestamp": "2025-09-25T14:00:37.644914",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7hAAC",
+      "title": "9. Gen 7 Settings Page - Configuration Templates - Network Port Tracker",
+      "file_path": "../../docs/kb/activity-monitor/9._gen_7_settings_page_-_configuration_templates_-_network_port_tracker.md",
+      "timestamp": "2025-09-25T14:00:57.061349",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7bAAC",
+      "title": "a. Gen 7 Settings Page - Agent and Device Administration",
+      "file_path": "../../docs/kb/general/a._gen_7_settings_page_-_agent_and_device_administration.md",
+      "timestamp": "2025-09-25T14:01:09.548489",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML had a span with a class for an anchor link that is not represented in the markdown.",
+        "The original HTML used HTML entities (e.g., &amp;) which were not converted to their markdown equivalents (e.g., &).",
+        "The original HTML had a line break (<br>) that is not explicitly represented in the markdown."
+      ],
+      "recommendations": [
+        "Consider adding anchor links in the markdown for better navigation.",
+        "Replace HTML entities with their markdown equivalents for consistency.",
+        "Add explicit line breaks in the markdown where necessary to maintain spacing."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7dAAC",
+      "title": "e. Gen 7 Settings Page - Compliance Reports Templates Administration",
+      "file_path": "../../docs/kb/change-tracker/e._gen_7_settings_page_-_compliance_reports_templates_administration.md",
+      "timestamp": "2025-09-25T14:01:19.640719",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7ZAAS",
+      "title": "25 Change Tracker Page Guide - Settings Pages",
+      "file_path": "../../docs/kb/change-tracker/25_change_tracker_page_guide_-_settings_pages.md",
+      "timestamp": "2025-09-25T14:01:28.726235",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The image from the original HTML content is missing in the markdown.",
+        "The markdown does not include any reference to the image, which may be important for visual context."
+      ],
+      "recommendations": [
+        "Include the image in the markdown to maintain visual context.",
+        "Consider adding a caption or description for the image to enhance understanding."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7XAAS",
+      "title": "How to send Log Tracker Messages to UNIX Rsyslog",
+      "file_path": "../../docs/kb/change-tracker/how_to_send_log_tracker_messages_to_unix_rsyslog.md",
+      "timestamp": "2025-09-25T14:01:39.549450",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7YAAS",
+      "title": "24 Change Tracker Page Guide - Planned Changes Page",
+      "file_path": "../../docs/kb/change-tracker/24_change_tracker_page_guide_-_planned_changes_page.md",
+      "timestamp": "2025-09-25T14:01:48.064362",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The original HTML content included a span with a class for an anchor link which is not represented in the markdown.",
+        "The markdown does not include the specific mention of 'planned change recording' mode in italics or any emphasis, which may affect clarity."
+      ],
+      "recommendations": [
+        "Consider adding an anchor link in the markdown for better navigation.",
+        "Use italics or another form of emphasis for 'planned change recording' mode to enhance clarity."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7VAAS",
+      "title": "22 Change Tracker Page Guide - Events Page",
+      "file_path": "../../docs/kb/change-tracker/22_change_tracker_page_guide_-_events_page.md",
+      "timestamp": "2025-09-25T14:02:01.694171",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The link to 'Settings -> Saved Queries' is not functional in the markdown format.",
+        "The original HTML contained a note about selecting multiple devices, which was not emphasized in the markdown.",
+        "The original HTML had some inline styles for color that are not preserved in markdown."
+      ],
+      "recommendations": [
+        "Ensure that the link to 'Settings -> Saved Queries' is correctly formatted and functional.",
+        "Consider adding emphasis to the note about selecting multiple devices for clarity.",
+        "Review the use of inline styles in the original content and determine if any visual emphasis is necessary in the markdown."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7NAAS",
+      "title": "How to use CloseTicket.exe to Immediately Close Log Tracker Tickets",
+      "file_path": "../../docs/kb/change-tracker/how_to_use_closeticket.exe_to_immediately_close_log_tracker_tickets.md",
+      "timestamp": "2025-09-25T14:02:16.271870",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7JAAS",
+      "title": "2 Technical Overview",
+      "file_path": "../../docs/kb/change-tracker/2_technical_overview.md",
+      "timestamp": "2025-09-25T14:02:37.294116",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7MAAS",
+      "title": "5 Installing Change Tracker Gen 7 - Linux",
+      "file_path": "../../docs/kb/change-tracker/5_installing_change_tracker_gen_7_-_linux.md",
+      "timestamp": "2025-09-25T14:02:45.320393",
+      "validation_score": 9,
+      "overall_quality": "good",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7IAAS",
+      "title": "1 Overview and Introduction",
+      "file_path": "../../docs/kb/change-tracker/1_overview_and_introduction.md",
+      "timestamp": "2025-09-25T14:03:16.718538",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The heading in the markdown is slightly altered from the original HTML, changing 'Overview and Introduction' to 'Overview and Introduction to NNT Change Tracker Gen 7'.",
+        "The original HTML contained a list of features without a specific heading, while the markdown version introduced a 'Key Features' heading, which is a slight change in structure.",
+        "The markdown version uses 'spear phishing' with a space, while the original HTML uses 'spear phishing' without a space before 'contemporary malware'."
+      ],
+      "recommendations": [
+        "Consider aligning the heading in the markdown to match the original HTML for consistency.",
+        "Maintain the original structure of the content without introducing new headings unless necessary for clarity.",
+        "Ensure that the phrasing matches the original content exactly to avoid any potential misinterpretation."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd7EAAS",
+      "title": "Windows Server Roles_Features",
+      "file_path": "../../docs/kb/change-tracker/windows_server_roles_features.md",
+      "timestamp": "2025-09-25T14:03:33.505409",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The phrase 'locahost' is a typo and should be 'localhost'.",
+        "The markdown does not preserve the multiple line breaks present in the original HTML, which may affect readability."
+      ],
+      "recommendations": [
+        "Correct the typo 'locahost' to 'localhost'.",
+        "Consider adding additional line breaks or spacing in the markdown to improve readability, as the original HTML had multiple forced newlines."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd78AAC",
+      "title": "Solution Architecture",
+      "file_path": "../../docs/kb/change-tracker/solution_architecture.md",
+      "timestamp": "2025-09-25T14:03:41.368220",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd75AAC",
+      "title": "Mongo service not starting on Windows installation",
+      "file_path": "../../docs/kb/change-tracker/mongo_service_not_starting_on_windows_installation.md",
+      "timestamp": "2025-09-25T14:03:48.252004",
+      "validation_score": 9,
+      "overall_quality": "excellent",
+      "issues_found": [],
+      "recommendations": [],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    },
+    {
+      "article_id": "ka04u000000Hd6xAAC",
+      "title": "5. Gen 7 Settings Pages - Configuration Templates - Processes and Services",
+      "file_path": "../../docs/kb/general/5._gen_7_settings_pages_-_configuration_templates_-_processes_and_services.md",
+      "timestamp": "2025-09-25T14:04:12.195810",
+      "validation_score": 8,
+      "overall_quality": "good",
+      "issues_found": [
+        "The image from the original HTML content is missing in the markdown.",
+        "The phrase 'See previous tracker notes' lacks context in the markdown.",
+        "The formatting of 'Ignore State' is inconsistent; it should be emphasized similarly to other key terms."
+      ],
+      "recommendations": [
+        "Include the image in the markdown to maintain visual context.",
+        "Provide additional context or a reference for 'See previous tracker notes'.",
+        "Ensure consistent formatting for all emphasized terms throughout the document."
+      ],
+      "content_preserved": true,
+      "formatting_quality": "unknown"
+    }
+  ]
+}
