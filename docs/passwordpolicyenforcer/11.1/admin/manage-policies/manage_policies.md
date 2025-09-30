@@ -125,8 +125,8 @@ enforced for a particular user.
 
 ## Export
 
-Exports your policy configuration to **C:\Program Files\Password Policy
-Enforcer\Report\report.html**
+Exports your policy configuration to **C:\Program Files\Netwrix\Password 
+Policy Enforcer\Report\report.html**
 
 ## Make Copy
 

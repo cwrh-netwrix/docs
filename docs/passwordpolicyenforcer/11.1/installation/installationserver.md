@@ -39,7 +39,7 @@ controller. You must repeat these steps for each server where the features are i
 :::
 
 
-**Step 3 –** Click on the **Netwrix_PPE_Server**version**x64.msi** installation package. The
+**Step 3 –** Click on the **Netwrix_PPE_Server_version_x64.msi** installation package. The
 installer is launched.
 
 ![Server Setup](/images/passwordpolicyenforcer/11.1/install/serversetup1.webp)

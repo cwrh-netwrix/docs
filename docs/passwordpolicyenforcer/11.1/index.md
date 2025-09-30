@@ -37,6 +37,7 @@ Here are the requirements for both the full and evaluation Password Policy Enfor
 - 2016
 - 2019
 - 2022
+- 2025
 
 - Windows Workstation Versions (64 bit only)
 
@@ -52,6 +53,7 @@ Here are the requirements for both the full and evaluation Password Policy Enfor
 - 2016
 - 2019
 - 2022
+- 2025
 
 - Windows Workstation Versions (64 and 32 bit)
 
@@ -67,13 +69,14 @@ Here are the requirements for both the full and evaluation Password Policy Enfor
 - 2016
 - 2019
 - 2022
+- 2025
 
 - Windows Workstation Versions (64 and 32 bit)
 
 - 10
 - 11
 
-- .net framework 4.7.2 or higher
+- .NET 8.0.15 or higher
 
 ## Password Policy Enforcer Web
 

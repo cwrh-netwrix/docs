@@ -12,7 +12,7 @@ policies and help users set compliant passwords.
 
 Download Password Policy Enforcer Web:
 
-[Password_Policy_Enforcer_WEB_7.11.zip](https://www.netwrix.com/download/commercial/Password_Policy_Enforcer_WEB_7.11.zip)
+[PasswordPolicyEnforcer-Web-10.2.0.1.msi](https://releases.netwrix.com/products/passwordpolicyenforcer/10.2/passwordpolicyenforcer-web-10.2.0.1.msi)
 
 ![introduction_4](/images/passwordpolicyenforcer/11.1/web/introduction_4.webp)
 
