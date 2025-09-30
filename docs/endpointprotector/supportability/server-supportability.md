@@ -1,6 +1,6 @@
 ---
 title: "Server Statement"
-description: "Netwrix Endpoint Protector Server-Side Support Policy"  
+description: "Netwrix Endpoint Protector Server-Side Support Policy"
 sidebar_position: 20
 ---
 
@@ -18,11 +18,11 @@ Here is the current state of all versions of Endpoint Protector Server.
 
 | **Discontinued Support** | **Limited Support** | **N-1 Track (Active Support)** | **N Track (Active Support)** |
 | --- | --- | --- | --- |
-| All versions prior to 5.9.4.1 | 5.9.4.2 (5942)<br/><br/>In Limited Support from Sep 29, 2025 to Jan 27, 2026. (120 days)<br/><br/>No new feature development or critical fixes.<br/><br/>Support is limited to configuration guidance for 5942. | There is no N-1 track at this time. | 2509.0.1.0 (25.9)<br/><br/>Released Sep 29, 2025.<br/>Full Active Support. [Link to release notes](https://community.netwrix.com/t/major-version-announcement-endpoint-protector-server-version-2509/114025) |
+| All versions prior to 5.9.4.1 | 5.9.4.2 (5942)<br/><br/>In Limited Support from Oct 14, 2025 to Feb 11, 2026. (120 days)<br/><br/>No new feature development or critical fixes.<br/><br/>Support is limited to configuration guidance for 5942. | There is no N-1 track at this time. | 2509.0.1.0 (25.9)<br/><br/>Released Oct 14, 2025.<br/>Full Active Support. [Link to release notes](https://community.netwrix.com/t/major-version-announcement-endpoint-protector-server-version-2509/114025) |
 
 # Support Definitions Used In This Document
 
-## This section builds on the official Netwrix support tier definitions: Active, Limited, and Discontinued Support  
+## This section builds on the official Netwrix support tier definitions: Active, Limited, and Discontinued Support
 
 While those terms apply across all Netwrix products, the definitions below explain how they apply specifically to Endpoint Protector Server—with detailed guidance on patching, version status, and compatibility requirements.
 
@@ -118,7 +118,7 @@ F&F patches are cumulative. Installing the latest F&F patch ensures your system 
 
 ### Critical Security Patches (CSPs)
 
-Critical Security Patches (CSPs) are released between F&F updates to address urgent security vulnerabilities.  
+Critical Security Patches (CSPs) are released between F&F updates to address urgent security vulnerabilities.
 <br/>Each CSP is:
 
 - Specific to the latest F&F release (e.g., **October Security Patch** requires the **October F&F Patch**)
@@ -145,13 +145,13 @@ You skip the August Fixes & Features Patch, which included:
 - Several resolved bugs
 - The August Security Patch (already bundled in)
 
-Later, in September, a critical CSP is released.  
+Later, in September, a critical CSP is released.
 <br/>**Result**: You cannot apply the September CSP unless you've first installed the August F&F Patch. Security patches are always tied to their corresponding F&F baseline.
 
 ### Scenario 2 – You skip several CSPs, then apply the next F&F patch
 
-You miss three monthly security patches tied to the August Fixes & Features release.  
-<br/>In October, a new Fixes & Features patch is released.  
+You miss three monthly security patches tied to the August Fixes & Features release.
+<br/>In October, a new Fixes & Features patch is released.
 <br/>**Result:** When you apply the October F&F patch, you automatically receive all prior August- and September-era security fixes as part of that cumulative F&F update. You're now fully caught up on both security and functionality.
 
 ## Key Takeaways
@@ -308,5 +308,5 @@ In some future date, should a new major N release ships, then and only then does
 
 # Final Thoughts
 
-Staying current with both server and agent versions ensures optimal performance, full feature compatibility, and robust security. Netwrix is committed to supporting your transition to newer versions and helping you ensure your Endpoint Protector environment stays secure, up-to-date, and fully supported.  
+Staying current with both server and agent versions ensures optimal performance, full feature compatibility, and robust security. Netwrix is committed to supporting your transition to newer versions and helping you ensure your Endpoint Protector environment stays secure, up-to-date, and fully supported.
 <br/>If you have questions about updates or need assistance with your upgrade process, please contact the Netwrix support team.
