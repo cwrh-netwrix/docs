@@ -21,8 +21,8 @@ This article explains how to enforce group naming conventions and input validati
 
 Enforcing naming standards is especially important when users have access to Active Directory via the User portal. The process involves two main steps:
 
-- Create a display type
-- Associate the display type with the desired field
+- [Create a display type](#create-display-type)
+- [Associate the display type with the desired field](#associate-display-type)
 
 ## Instructions
 

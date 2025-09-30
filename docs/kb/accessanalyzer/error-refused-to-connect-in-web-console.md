@@ -83,8 +83,8 @@ Unbind the port from the application. Refer to the following steps:
     netsh http show sslcert
     ```
 
-    If the output does not include the affected port, refer to the following article to learn more about the SSL binding: https://docs.netwrix.com/docs/auditor/10_8
+    If the output does not include the affected port, refer to the following article to learn more about the SSL binding: /docs/auditor/11.6/enterpriseauditor/installation/application/reports
 
 ## Related Articles
 
-- https://docs.netwrix.com/docs/auditor/10_8 (Reports via the Web Console — Securing the Web Console · v11.6)
+- /docs/auditor/11.6/enterpriseauditor/installation/application/reports (Reports via the Web Console — Securing the Web Console · v11.6)

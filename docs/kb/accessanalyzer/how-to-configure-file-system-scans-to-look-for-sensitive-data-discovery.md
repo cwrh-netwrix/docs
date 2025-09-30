@@ -40,23 +40,23 @@ Once the prerequisites are in place, SDD scans are found in the NEA Job tree und
 - **1-SEEK System Scans** – scans files for the sensitive data.
 - **2-SEEK Bulk Import** – uploads the results to the database.
 
-A guide to configure the **SEEK System Scans** job can be found here: https://docs.netwrix.com/docs/auditor/10_8
+A guide to configure the **SEEK System Scans** job can be found here: /docs/auditor/11.6/enterpriseauditor/solutions/filesystem/collection
 
 ## Additional Information
 
-An overview of the SDD Add-On can be found here: https://docs.netwrix.com/docs/auditor/10_8/admin/settings/sensitivedatadiscovery
+An overview of the SDD Add-On can be found here: /docs/auditor/11.6/enterpriseauditor/sensitivedatadiscovery
 
 You can modify what classifies as Sensitive Data by configuring criteria in the **Global Sensitive Data Settings**. Please refer to the following configuration guides in our Help Center:
 
-- https://docs.netwrix.com/docs/auditor/10_8
-- https://docs.netwrix.com/docs/auditor/10_8/admin/settings/sensitivedatadiscovery
+- /docs/auditor/11.6/enterpriseauditor/admin-guide/settings/sensitivedata
+- /docs/auditor/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor
 
 > IMPORTANT: If running SDD scans, it will be necessary to increase the minimum amount of RAM. Each thread requires a minimum of 2 additional GB of RAM per host. For example, if the job is configured to scan 8 hosts at a time, then an extra 16 GB of RAM are required (8x2=16).
 
 ## Related Articles
 
-- Sensitive Data Discovery Add-On Installation: https://docs.netwrix.com/docs/auditor/10_8/admin/settings/sensitivedatadiscovery
-- 1-SEEK System Scans Job: https://docs.netwrix.com/docs/auditor/10_8
-- Sensitive Data Discovery Add-On: https://docs.netwrix.com/docs/auditor/10_8/admin/settings/sensitivedatadiscovery
-- Sensitive Data: https://docs.netwrix.com/docs/auditor/10_8
-- Sensitive Data Criteria Editor: https://docs.netwrix.com/docs/auditor/10_8/admin/settings/sensitivedatadiscovery
+- Sensitive Data Discovery Add-On Installation: /docs/auditor/11.6/enterpriseauditor/installation/sensitivedatadiscovery
+- 1-SEEK System Scans Job: /docs/auditor/11.6/enterpriseauditor/solutions/filesystem/collection
+- Sensitive Data Discovery Add-On: /docs/auditor/11.6/enterpriseauditor/sensitivedatadiscovery
+- Sensitive Data: /docs/auditor/11.6/enterpriseauditor/admin-guide/settings/sensitivedata
+- Sensitive Data Criteria Editor: /docs/auditor/11.6/enterpriseauditor/sensitivedatadiscovery/criteriaeditor

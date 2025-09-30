@@ -40,8 +40,8 @@ The "Remote procedure call failed" error can have a number of root causes such a
 
 Depending on the error cause, follow the resolution steps below:
 
-1. Make sure you have all required ports opened. For additional information on configuring ports for Netwrix Auditor, refer to the following article: https://docs.netwrix.com/docs/auditor/10_8 — Protocols and Ports Required — v10.6).
-2. Review your Antivirus exclusions. For additional information on required exclusions for your antivirus, refer to the following article: /docs/kb/auditor/antivirus-exclusions-for-netwrix-auditor (Antivirus Exclusions for Netwrix Auditor).
+1. Make sure you have all required ports opened. For additional information on configuring ports for Netwrix Auditor, refer to the following article: /docs/auditor/10.6/auditor/requirements (Requirements — Protocols and Ports Required — v10.6).
+2. Review your Antivirus exclusions. For additional information on required exclusions for your antivirus, refer to the following article: /docs/kb/auditor/antivirus_exclusions_for_netwrix_auditor (Antivirus Exclusions for Netwrix Auditor).
 3. If the issue occurs during Logon Activity data collection, try to follow the steps in these articles:
-   - /docs/kb/auditor/system-cannot-find-the-path-specified-in-logon-activity-monitoring-plan (System Cannot Find the Path Specified in Logon Activity Monitoring Plan)
-   - /docs/kb/auditor/error-size-of-collected-data-files-exceeded-limit-in-logon-activity-monitoring-plan (Size of Collected Data Files Exceeded Limit in Logon Activity Monitoring Plan)
+   - /docs/kb/auditor/system_cannot_find_the_path_specified_in_logon_activity_monitoring_plan (System Cannot Find the Path Specified in Logon Activity Monitoring Plan)
+   - /docs/kb/auditor/error_size_of_collected_data_files_exceeded_limit_in_logon_activity_monitoring_plan (Size of Collected Data Files Exceeded Limit in Logon Activity Monitoring Plan)

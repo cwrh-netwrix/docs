@@ -1,18 +1,38 @@
 ---
-title: "Password Policy Enforcer Knowledge Base"
-description: "Password Policy Enforcer knowledge base articles and troubleshooting guides"
-slug: passwordpolicyenforcer
+title: "Troubleshooting Articles"
+description: Password Policy Enforcer knowledge base articles"
 ---
 
 # Password Policy Enforcer Knowledge Base
 
-Welcome to the Password Policy Enforcer knowledge base. Browse our collection of troubleshooting guides, configuration instructions, and best practices.
+Find installation guides, configuration instructions, and troubleshooting tips for Password Policy Enforcer.
 
-Use the search function above to find specific articles or browse through all Password Policy Enforcer KB articles in this section.
+## Categories
+
+### [Installation & Upgrade](./installation/)
+Installation guides, upgrade procedures, and deployment checklists.
+
+### [Configuration](./configuration/)
+Setup management console, configure communication protocols, and enable SSL security.
+
+### [Password Policies](./policies/)
+Create and manage password policies, tolerance rules, and password history settings.
+
+### [Troubleshooting](./troubleshooting/)
+Resolve common errors, warnings, and HIBP database update issues.
+
+### [MFA Integrations](./integrations/)
+Integrate with multi-factor authentication solutions like Cisco Duo and CyberArk Identity.
+
+## Quick Links
+
+- [How to Install Password Policy Enforcer](./installation/how-to-install-password-policy-enforcer)
+- [PPE Management Console](./configuration/ppe-management-console)
+- [PPE Tolerance Rules](./policies/ppe-tolerance-rules)
+- [Set Up with Cisco Duo](./integrations/set-up-netwrix-password-policy-enforcer-to-work-with-cisco-duo-authentication)
 
 ## Need Help?
 
 If you can't find what you're looking for:
-1. Use the search function above
-2. Check the main Password Policy Enforcer documentation
-3. Contact [Netwrix support](https://www.netwrix.com/support.html)
+1. Check the main Password Policy Enforcer documentation
+2. Contact [Netwrix support](https://www.netwrix.com/support.html)slug: kb/passwordpolicyenforcer

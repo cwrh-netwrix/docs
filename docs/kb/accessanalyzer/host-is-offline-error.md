@@ -38,8 +38,8 @@ The **Skip Hosts that do not respond to PING** option is enabled in the affected
 
 ## Resolution
 
-Disable the **Skip Hosts that do not respond to PING** option in the affected job. Refer to the following article for additional information: https://docs.netwrix.com/docs/auditor/10_8 (Job Properties − Performance Tab · v11.6).
+Disable the **Skip Hosts that do not respond to PING** option in the affected job. Refer to the following article for additional information: /docs/auditor/11.6/enterpriseauditor/admin-guide/jobs/job/properties (Job Properties − Performance Tab · v11.6).
 
 ## Related articles
 
-- https://docs.netwrix.com/docs/auditor/10_8 (Job Properties − Performance Tab · v11.6)
+- /docs/auditor/11.6/enterpriseauditor/admin-guide/jobs/job/properties (Job Properties − Performance Tab · v11.6)

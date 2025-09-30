@@ -7,13 +7,13 @@ keywords:
   - custom attributes
 sidebar_label: Custom Attribute Warning
 tags: []
-title: "Error: The Custom Attribute {'{'}x{'}'} Was Requested, but Not Set in Domain 1 for the {'{'}y{'}'} Object Class"
+title: "Error: The Custom Attribute {x} Was Requested, but Not Set in Domain 1 for the {y} Object Class"
 knowledge_article_id: kA0Qk000000306jKAA
 products:
   - auditor
 ---
 
-# Error: The Custom Attribute {'{'}x{'}'} Was Requested, but Not Set in Domain 1 for the {'{'}y{'}'} Object Class
+# Error: The Custom Attribute {x} Was Requested, but Not Set in Domain 1 for the {y} Object Class
 
 ## Related Queries
 
@@ -67,8 +67,8 @@ This warning is informational and not indicative of a failure. It does **not** i
 
 > **IMPORTANT:** Some reports depend on specific attributes (e.g., delegation, DS heuristics). Removing attributes could impact the completeness of those reports.
 
-- You can lower the logging level of the job from the default WARNING to ERROR in the [Job Properties](https://docs.netwrix.com/docs/accessanalyzer/12_0/admin/jobs/job/properties/general) window.
+- You can lower the logging level of the job from the default WARNING to ERROR in the [Job Properties](/docs/accessanalyzer/12.0/admin/jobs/job/properties/general) window.
 
 ## Related Link
 
-- [Job Properties](https://docs.netwrix.com/docs/accessanalyzer/12_0/admin/jobs/job/properties/general)
+- [Job Properties](/docs/accessanalyzer/12.0/admin/jobs/job/properties/general)

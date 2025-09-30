@@ -14,7 +14,7 @@ keywords:
   - FSAA Proxy
   - NetApp
 products:
-  - activitymonitor
+  - activity-monitor
   - access-analyzer
   - access_info_center
 visibility: public

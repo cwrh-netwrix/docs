@@ -142,7 +142,7 @@ NOTE: For your convenience, the scopes are listed as comma-delimited. Google spl
 1. Log in to Netwrix Cloud Permission Analyzer.
 2. Read the **Get Started** section. Click **Continue**.
 3. In the Google Drive connection settings, provide the Google Drive administrator account under which you logged in to the **Google Cloud Platform** web console.
-4. Click **Import JSON file with Google service account settings** and select the file you downloaded on step 4.
+4. Click **Import JSON file with Google service account settings** and select the file you downloaded on [step 4](#Key).
 5. IMPORTANT! **Configure scope** – add your shared and/or personal Google Drives to the list. You can use a wildcard (`*`) if you want to crawl all drives in your Google Drive.
 
 NOTE: By default, Netwrix Cloud Permission Analyzer collects Google Drive data once a day. If you modify your Google Drive configuration and save your changes, the product initiates data collection automatically.

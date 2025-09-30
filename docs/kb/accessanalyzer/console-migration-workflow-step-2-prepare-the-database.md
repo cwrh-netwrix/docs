@@ -26,9 +26,9 @@ knowledge_article_id: kA0Qk0000002OpRKAU
 
 > **NOTE:** Return to the main workflow page via this link: [Console Migration Workflow](/docs/kb/accessanalyzer/console-migration-workflow.md).
 >
-> Return to the previous section via this link: [Console Migration Workflow: Step 1—Staging the Backup](/docs/kb/accessanalyzer/console-migration-workflow-step-1-staging-the-backup.md).
+> Return to the previous section via this link: [Console Migration Workflow: Step 1—Staging the Backup](/docs/kb/accessanalyzer/console-migration-workflow-step-1-staging-the-backup).
 >
-> Proceed to the next section via this link: [Console Migration Workflow: Step 3—Rebuild the Console](/docs/kb/accessanalyzer/console-migration-workflow-step-3-rebuild-the-console.md).
+> Proceed to the next section via this link: [Console Migration Workflow: Step 3—Rebuild the Console](/docs/kb/accessanalyzer/console-migration-workflow-step-3-rebuild-the-console).
 
 ## Overview
 
@@ -71,5 +71,5 @@ Where SA_Node = @OHost;
 ## Related Links
 
 - [Console Migration Workflow](/docs/kb/accessanalyzer/console-migration-workflow.md)
-- [Console Migration Workflow: Step 1—Staging the Backup](/docs/kb/accessanalyzer/console-migration-workflow-step-1-staging-the-backup.md)
-- [Console Migration Workflow: Step 3—Rebuild the Console](/docs/kb/accessanalyzer/console-migration-workflow-step-3-rebuild-the-console.md)
+- [Console Migration Workflow: Step 1—Staging the Backup](/docs/kb/accessanalyzer/console-migration-workflow-step-1-staging-the-backup)
+- [Console Migration Workflow: Step 3—Rebuild the Console](/docs/kb/accessanalyzer/console-migration-workflow-step-3-rebuild-the-console)

@@ -63,5 +63,5 @@ settings:
 4. The PowerShell window should quickly execute the script and close.
 5. Log in to the SbPAM console. (If SbPAM was already open, be sure to refresh the console.)
 6. In SbPAM, navigate to **Activities**, select an **Activity**, and click the green plus sign in either the **Pre-Session** or **Post-Session**. Note that the **Send Message to Slack** activity step is now available.
-7. Provide the URL from step 6 of Preparing Your Slack App when configuring the action step.
+7. Provide the URL from [step 6 of Preparing Your Slack App](#URL2) when configuring the action step.
 ![image.png](images/ka0Qk0000001ELt_0EMQk000001ovYn.png)

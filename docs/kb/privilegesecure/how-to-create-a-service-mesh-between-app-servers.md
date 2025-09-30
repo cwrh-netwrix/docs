@@ -32,7 +32,7 @@ This article outlines the steps to configure a service mesh in Netwrix Privilege
 
 > **IMPORTANT:** Multi-factor authentication should be disabled for the Netwrix Privilege Secure Administrator account, if used. While this will be indicated by an error message when running `sbpam-proxy.exe`, the error will not indicate the missing 2FA or the need to disable it prior to running.
 
-For additional information on used protocols and ports, see Installation — System Architecture · v4.2: https://docs.netwrix.com/docs/privilegesecure/4_2
+For additional information on used protocols and ports, see Installation — System Architecture · v4.2: /docs/privilegesecure/4.2/accessmanagement/install/overview#system_architecture
 
 ## Instructions
 
@@ -136,5 +136,5 @@ For detailed steps on moving the recording locations, see How to Change the Path
 
 - Configure and Upgrade Netwrix Privilege Secure in High Availability Mode and Using Remote Services Configurations: /docs/kb/privilegesecure/configuring-and-upgrading-in-high-availability-mode-and-using-remote-services-configurations
 - How to Configure Encryption Keys in Multiple Netwrix Privilege Secure Server Environments: /docs/kb/privilegesecure/how-to-configure-encryption-keys-in-multiple-nps-server-environments
-- Installation — System Architecture · v4.2: https://docs.netwrix.com/docs/privilegesecure/4_2
+- Installation — System Architecture · v4.2: /docs/privilegesecure/4.2/accessmanagement/install/overview#system_architecture
 - How to Change the Path Where Session Recordings Are Stored: /docs/kb/privilegesecure/how-to-change-the-path-where-session-recordings-are-stored

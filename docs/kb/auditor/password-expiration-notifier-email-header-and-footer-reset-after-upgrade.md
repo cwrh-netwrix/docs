@@ -26,7 +26,7 @@ knowledge_article_id: kA04u000001116CCAQ
 
 ## Symptoms
 
-- The Netwrix Password Reset (PEN) email header and footer were reset after the recent upgrade. They were previously disabled as per the following article: /docs/kb/auditor/hide-and-disable-header-and-footer-in-password-expiration-notifier-emails (Hide and Disable Header and Footer in Password Expiration Notifier Emails).
+- The Netwrix Password Reset (PEN) email header and footer were reset after the recent upgrade. They were previously disabled as per the following article: /docs/kb/auditor/hide_and_disable_header_and_footer_in_password_expiration_notifier_emails (Hide and Disable Header and Footer in Password Expiration Notifier Emails).
 - The **HideEmailAdditionalInfo** key in `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Netwrix Auditor\Password Expiration Notifier` is still present.
 
 ## Resolution
@@ -42,4 +42,4 @@ knowledge_article_id: kA04u000001116CCAQ
 
 ## Related articles
 
-- Hide and Disable Header and Footer in Password Expiration Notifier Emails: /docs/kb/auditor/hide-and-disable-header-and-footer-in-password-expiration-notifier-emails
+- Hide and Disable Header and Footer in Password Expiration Notifier Emails: /docs/kb/auditor/hide_and_disable_header_and_footer_in_password_expiration_notifier_emails

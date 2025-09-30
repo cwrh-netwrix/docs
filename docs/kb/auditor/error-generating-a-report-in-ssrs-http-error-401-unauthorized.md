@@ -64,7 +64,7 @@ HTTP Error 401 - Unauthorized. Provide another credentials or change security se
 
   ![](images/ka0Qk00000031Iv_0EM4u000008LafI.png)
 
-- Review your SSRS account permissions. For additional information, refer to: SQL Server Reporting Services: Configure SSRS Account · v10.6 — https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
+- Review your SSRS account permissions. For additional information, refer to: SQL Server Reporting Services: Configure SSRS Account · v10.6 — /docs/auditor/10.6/auditor/requirements
 
 - Remove the SSRS account from the Protected Users security group. Learn more about Protected Users: Protected Users Security Group ⸱ Microsoft — https://learn.microsoft.com/en-us/windows-server/security/credentials-protection-and-management/protected-users-security-group
 
@@ -120,4 +120,4 @@ HTTP Error 401 - Unauthorized. Provide another credentials or change security se
 
 ## Related articles
 
-- Netwrix Auditor Settings − Investigations · v10.6 — https://docs.netwrix.com/docs/auditor/10_8
+- Netwrix Auditor Settings − Investigations · v10.6 — /docs/auditor/10.6/auditor/admin-guide/settings

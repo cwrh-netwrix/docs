@@ -6,7 +6,7 @@ keywords:
   - additional owners
   - CSV file
 products:
-  - activitymonitor
+  - activity-monitor
 sidebar_label: Bulk Create Groups
 tags: []
 title: "Bulk Create Groups With Multiple Additional Owners From a CSV File"

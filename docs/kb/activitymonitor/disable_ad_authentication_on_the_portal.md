@@ -6,7 +6,7 @@ keywords:
   - authentication
   - Single Sign-On
 products:
-  - activitymonitor
+  - activity-monitor
 sidebar_label: Disable AD Authentication
 tags: []
 title: "How to Disable AD Authentication on the Portal"

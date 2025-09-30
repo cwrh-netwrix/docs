@@ -24,9 +24,9 @@ knowledge_article_id: kA0Qk0000002Or3KAE
 
 > **NOTE:** Return to the main workflow page via this link: [Console Migration Workflow](/docs/kb/accessanalyzer/console-migration-workflow.md).
 >
-> Return to the previous section via this link: [Console Migration Workflow: Step 2—Prepare the Database](/docs/kb/accessanalyzer/console-migration-workflow-step-2-prepare-the-database.md).
+> Return to the previous section via this link: [Console Migration Workflow: Step 2—Prepare the Database](/docs/kb/accessanalyzer/console-migration-workflow-step-2-prepare-the-database).
 >
-> Proceed to the next section via this link: [Console Migration Workflow: Step 4—Validating the Migration](/docs/kb/accessanalyzer/console-migration-workflow-step-4-validate-the-migration.md)
+> Proceed to the next section via this link: [Console Migration Workflow: Step 4—Validating the Migration](/docs/kb/accessanalyzer/console-migration-workflow-step-4-validate-the-migration)
 
 ## Overview
 
@@ -37,7 +37,7 @@ This article lists the steps for rebuilding the Netwrix Access Analyzer console 
 Follow the steps below to rebuild the Access Analyzer Console on the new server. Before installation, ensure that the `NAA_Migration` folder with the `StealthAUDIT.lic` license file is stored locally on the new Access Analyzer Console so it can be referenced during the installation process.
 
 1. Confirm that the prerequisites have been met on the Access Analyzer Console Server.
-   - Netwrix Help Center | Netwrix Access Analyzer 12.0 System Requirements: https://docs.netwrix.com/docs/accessanalyzer/12_0
+   - Netwrix Help Center | Netwrix Access Analyzer 12.0 System Requirements: /docs/access-analyzer/12.0/enterpriseauditor/requirements
 2. Install the Access Analyzer application, as well as the Access Information Center (AIC) application if the server will host both.
 
    > IMPORTANT: Do **NOT** start the Access Analyzer or AIC applications at this time.
@@ -118,7 +118,7 @@ Register-ScheduledTask -Xml (get-content $_.FullName | out-string) -TaskName $ta
 
    ![Configuration Wizard image](images/ka0Qk000000FDY1_0EMQk00000CFxaL.png)
 
-   1. See the following for more information on the Netwrix Access Analyzer Configuration Wizard: Access Analyzer Initial Configuration — https://docs.netwrix.com/docs/accessanalyzer/12_0
+   1. See the following for more information on the Netwrix Access Analyzer Configuration Wizard: Access Analyzer Initial Configuration — /docs/access-analyzer/12.0/enterpriseauditor/installation/application
 
 7. After completing the Configuration Wizard, the Access Analyzer Application should open automatically.
 
@@ -132,19 +132,19 @@ Register-ScheduledTask -Xml (get-content $_.FullName | out-string) -TaskName $ta
 
 If using any of the below, please recreate the certificate for the new NAA Console Server:
 
-- Netwrix Access Analyzer for SharePoint Online: https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Netwrix Access Analyzer for Exchange Online: https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Secured Published Reports Site (HTTPS): https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Secured AIC Site (HTTPS): https://docs.netwrix.com/docs/accessanalyzer/12_0
+- Netwrix Access Analyzer for SharePoint Online: /docs/access-analyzer/12.0/configuration/sharepointonline
+- Netwrix Access Analyzer for Exchange Online: /docs/access-analyzer/12.0/configuration/exchangeonline
+- Secured Published Reports Site (HTTPS): /docs/access-analyzer/12.0/enterpriseauditor/installation/application/reports
+- Secured AIC Site (HTTPS): /docs/access-analyzer/12.0/access/informationcenter/installationation
 
 ## Related Links
 
-- Console Migration Workflow: /docs/kb/accessanalyzer/console-migration-workflow
-- Console Migration Workflow: Step 2—Prepare the Database: /docs/kb/accessanalyzer/console-migration-workflow-step-2-prepare-the-database
-- Console Migration Workflow: Step 4—Validating the Migration: /docs/kb/accessanalyzer/console-migration-workflow-step-4-validate-the-migration
-- Netwrix Help Center | Netwrix Access Analyzer 12.0 System Requirements: https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Access Analyzer Initial Configuration: https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Netwrix Access Analyzer for SharePoint Online: https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Netwrix Access Analyzer for Exchange Online: https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Secured Published Reports Site (HTTPS): https://docs.netwrix.com/docs/accessanalyzer/12_0
-- Secured AIC Site (HTTPS): https://docs.netwrix.com/docs/accessanalyzer/12_0
+- Console Migration Workflow: /docs/kb/access-analyzer/console_migration_workflow
+- Console Migration Workflow: Step 2—Prepare the Database: /docs/kb/access-analyzer/console_migration_workflow_step_2—prepare_the_database
+- Console Migration Workflow: Step 4—Validating the Migration: /docs/kb/access-analyzer/console_migration_workflow_step_4—validate_the_migration
+- Netwrix Help Center | Netwrix Access Analyzer 12.0 System Requirements: /docs/access-analyzer/12.0/enterpriseauditor/requirements
+- Access Analyzer Initial Configuration: /docs/access-analyzer/12.0/enterpriseauditor/installation/application
+- Netwrix Access Analyzer for SharePoint Online: /docs/access-analyzer/12.0/configuration/sharepointonline
+- Netwrix Access Analyzer for Exchange Online: /docs/access-analyzer/12.0/configuration/exchangeonline
+- Secured Published Reports Site (HTTPS): /docs/access-analyzer/12.0/enterpriseauditor/installation/application/reports
+- Secured AIC Site (HTTPS): /docs/access-analyzer/12.0/access/informationcenter/installationation

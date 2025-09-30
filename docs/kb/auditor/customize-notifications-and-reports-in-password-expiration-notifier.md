@@ -39,12 +39,12 @@ How to customize Netwrix Auditor Netwrix Password Reset notifications and report
 
 > **IMPORTANT:** Netwrix Password Reset uses UTF-8 encoding. Your email client should be set up to either automatically or explicitly detect UTF-8 encoding to correctly translate characters.
 
-- Locate templates
-- Insert an image to the user notification email template
-- Insert a hyperlink to the user notification email template
-- Change the font size of the user notification email template
-- Include an attribute in the email template
-- Edit email header and footer
+- [Locate templates](#locateTemplates)
+- [Insert an image to the user notification email template](#addImage)
+- [Insert a hyperlink to the user notification email template](#addHyperlink)
+- [Change the font size of the user notification email template](#changeFontSize)
+- [Include an attribute in the email template](#addAttribute)
+- [Edit email header and footer](#editHeader)
 
 ### Locate templates
 

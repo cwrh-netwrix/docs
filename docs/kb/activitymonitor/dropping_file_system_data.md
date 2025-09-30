@@ -10,7 +10,7 @@ tags: []
 title: "How to Drop File System Data from Netwrix Access Analyzer"
 knowledge_article_id: kA0Qk0000001qvpKAA
 products:
-  - activitymonitor
+  - activity-monitor
 ---
 
 # How to Drop File System Data from Netwrix Access Analyzer
@@ -21,7 +21,7 @@ A file server has been decommissioned, and/or its data is no longer needed in th
 
 ## Instructions
 
-> **IMPORTANT:** Applying this query will permanently delete collected data. Before running the job, ensure all configurations are correct. To prevent rescanning the same hosts, remove the host from the host list first, as described in [How to Remove Servers from Host Lists](/docs/kb/accessanalyzer/how-to-remove-servers-from-host-lists.md).
+> **IMPORTANT:** Applying this query will permanently delete collected data. Before running the job, ensure all configurations are correct. To prevent rescanning the same hosts, remove the host from the host list first, as described in [How to Remove Servers from Host Lists](/docs/kb/accessanalyzer/how-to-remove-servers-from-host-lists).
 
 1. Create a new job in Access Analyzer by selecting **Job > Create a New Job** from the top taskbar. You can also right-click **any job folder in the job tree** and select **Create New Job**.
    > **NOTE:** It is recommended to add the job to a **Sandbox folder**, if available.
@@ -75,9 +75,9 @@ A file server has been decommissioned, and/or its data is no longer needed in th
 19. Navigate to the **`%SAInstallDir%FSAA`** folder on the Access Analyzer console and remove the folder for the dropped host.
     > **NOTE:** If using an applet or proxy for file system scanning, the host folder should also be removed from the same location on the applet/proxy server.
 
-> **IMPORTANT:** If this job returns a time-out error, refer to the following article to resolve it: [!REMOVED-...Host Name in AIC and/or FSAA Host Table](/docs/kb/accessanalyzer/error-removed-host-name-in-aic-andor-fsaa-host-table.md).
+> **IMPORTANT:** If this job returns a time-out error, refer to the following article to resolve it: [!REMOVED-...Host Name in AIC and/or FSAA Host Table](/docs/kb/accessanalyzer/error-removed-host-name-in-aic-andor-fsaa-host-table).
 
 ## Related Links
 
-- [How to Remove Servers from Host Lists](/docs/kb/accessanalyzer/how-to-remove-servers-from-host-lists.md)
-- [!REMOVED-...Host Name in AIC and/or FSAA Host Table](/docs/kb/accessanalyzer/error-removed-host-name-in-aic-andor-fsaa-host-table.md)
+- [How to Remove Servers from Host Lists](/docs/kb/accessanalyzer/how-to-remove-servers-from-host-lists)
+- [!REMOVED-...Host Name in AIC and/or FSAA Host Table](/docs/kb/accessanalyzer/error-removed-host-name-in-aic-andor-fsaa-host-table)

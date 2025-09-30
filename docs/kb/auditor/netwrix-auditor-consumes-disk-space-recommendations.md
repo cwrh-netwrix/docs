@@ -42,8 +42,8 @@ The following recommendations will allow you to reduce disk space consumption:
 
    Follow these Knowledge Base articles for additional information:
 
-   - [How to Move Long-Term Archive to a New Location](/docs/kb/auditor/how-to-move-long-term-archive-to-a-new-location.md)
-   - [How to Prevent Overflow on the Drive Where the Long-Term Archive is Located?](/docs/kb/auditor/how-to-prevent-long-term-archive-overflow.md)
+   - [How to Move Long-Term Archive to a New Location](/docs/kb/auditor/how-to-move-long-term-archive-to-a-new-location)
+   - [How to Prevent Overflow on the Drive Where the Long-Term Archive is Located?](/docs/kb/auditor/how-to-prevent-long-term-archive-overflow)
 
 3. Migrate Working Folder to a new location.
 
@@ -75,5 +75,5 @@ The following recommendations will allow you to reduce disk space consumption:
 
 - [Error: Netwrix Auditor for File Servers Audit Service Terminated Unexpectedly](/docs/kb/auditor/error-netwrix-auditor-for-file-servers-audit-service-terminated-unexpectedly.md)
 - [Antivirus Exclusions for Netwrix Auditor](/docs/kb/auditor/antivirus-exclusions-for-netwrix-auditor.md)
-- [How to Add Additional Space to Long-Term Archive?](/docs/kb/auditor/how-to-add-additional-space-to-long-term-archive.md)
+- [How to Add Additional Space to Long-Term Archive?](/docs/kb/auditor/how-to-add-additional-space-to-long-term-archive)
 - [Netwrix Auditor System Health Log Contains EventID 2002](https://helpcenter.netwrix.com/bundle/z-kb-articles-salesforce/page/kA04u000000wnpOCAQ.html)

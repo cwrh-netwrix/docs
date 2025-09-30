@@ -40,12 +40,12 @@ The error appears when the **Remote Registry Service** was disabled on the targe
 
 To resolve the error, do the following:
 
-1. Enable the **Remote Registry Service** referencing the following article: https://docs.netwrix.com/docs/auditor/10_8 — Windows File Servers — Enable Remote Registry Service — v10.6).
+1. Enable the **Remote Registry Service** referencing the following article: /docs/auditor/10.6/auditor/configurationuration/fileservers/windows (Configuration — Windows File Servers — Enable Remote Registry Service — v10.6).
 2. Reboot Netwrix Auditor Server.
 
 After that, the **Netwrix Auditor Application Deployment Service** appears on the target file server. Depending on the amount of audited data, further data collection may take a while.
 
 ### Related Articles
 
-- /docs/kb/auditor/how-to-investigate-compression-services-errors — How to Investigate Compression Services Errors.
-- https://docs.netwrix.com/docs/auditor/10_8 Configuration — Windows File Servers — Enable Remote Registry Service — v10.6.
+- /docs/kb/auditor/how_to_investigate_compression_services_errors — How to Investigate Compression Services Errors.
+- /docs/auditor/10.6/auditor/configurationuration/fileservers/windows — Configuration — Windows File Servers — Enable Remote Registry Service — v10.6.

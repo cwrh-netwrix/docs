@@ -44,7 +44,7 @@ Config Source:
 
 ## Cause
 
-The installed ASP.NET version is not high enough or is not installed. See the EPE REST Site Requirements for the minimum required versions: https://docs.netwrix.com/docs/threatprevention/7_5
+The installed ASP.NET version is not high enough or is not installed. See the EPE REST Site Requirements for the minimum required versions: /docs/threat-prevention/7.4/threatprevention/requirements
 
 ## Resolution
 
@@ -57,4 +57,4 @@ iisreset restart
 
 ## Related Link
 
-- EPE REST Site Requirements: https://docs.netwrix.com/docs/threatprevention/7_5
+- EPE REST Site Requirements: /docs/threat-prevention/7.4/threatprevention/requirements

@@ -39,19 +39,19 @@ SQL Server Reporting Services (SSRS) connection issues or insufficient permissio
 
 ## Resolution
 
-1. Make sure you are using a supported SQL Server edition. Refer to the following article: https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
+1. Make sure you are using a supported SQL Server edition. Refer to the following article: /docs/auditor/10.7/auditor/requirements
 
-2. Check the permissions for your Audit Database account. Refer to the following article: https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
+2. Check the permissions for your Audit Database account. Refer to the following article: /docs/auditor/10.7/auditor/requirements
 
-3. Check the permissions for the account used to collect data in your environment. Refer to the following article: https://docs.netwrix.com/docs/auditor/10_8
+3. Check the permissions for the account used to collect data in your environment. Refer to the following article: /docs/auditor/10.7/auditor/admin-guide/monitoringplans
 
    > **IMPORTANT:** The account should be a member of the local Administrators group.
 
-   If you use a `gMSA` account for data collection, refer to the following article for additional information: https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
+   If you use a `gMSA` account for data collection, refer to the following article for additional information: /docs/auditor/10.7/auditor/requirements
 
-4. Check your Report Services configuration. Refer to the following article: /docs/kb/auditor/deploying-the-report-server-database
+4. Check your Report Services configuration. Refer to the following article: /docs/kb/auditor/deploying_the_report_server_database
 
-5. Check the permissions for your SSRS Account. Refer to the following article: https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
+5. Check the permissions for your SSRS Account. Refer to the following article: /docs/auditor/10.7/auditor/requirements
 
    > **IMPORTANT:** The account should be a member of the local Administrators group.
 
@@ -63,9 +63,9 @@ SQL Server Reporting Services (SSRS) connection issues or insufficient permissio
 
 ## Related Links
 
-- Requirements for SQL Server to Store Audit Data: https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
-- Requirements for SQL Server to Store Audit Data: Configure Audit Database Account: https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
-- Monitoring Plans – Data Collecting Account: https://docs.netwrix.com/docs/auditor/10_8
-- Requirements – Use Group Managed Service Account (gMSA): https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
-- Deploying the Report Server Database: /docs/kb/auditor/deploying-the-report-server-database
-- SQL Server Reporting Services: Configure SSRS Account: https://docs.netwrix.com/docs/auditor/10_8/requirements/overview
+- Requirements for SQL Server to Store Audit Data: /docs/auditor/10.7/auditor/requirements
+- Requirements for SQL Server to Store Audit Data: Configure Audit Database Account: /docs/auditor/10.7/auditor/requirements
+- Monitoring Plans – Data Collecting Account: /docs/auditor/10.7/auditor/admin-guide/monitoringplans
+- Requirements – Use Group Managed Service Account (gMSA): /docs/auditor/10.7/auditor/requirements
+- Deploying the Report Server Database: /docs/kb/auditor/deploying_the_report_server_database
+- SQL Server Reporting Services: Configure SSRS Account: /docs/auditor/10.7/auditor/requirements

@@ -14,7 +14,7 @@ keywords:
   - '-e 2'
   - audit
 products:
-  - activitymonitor
+  - activity-monitor
 sidebar_label: NAM Linux Agent - How to handle locked auditd conf
 tags: []
 title: "NAM Linux Agent - How to handle locked auditd config"

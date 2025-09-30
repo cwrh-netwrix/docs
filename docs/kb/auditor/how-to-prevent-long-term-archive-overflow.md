@@ -34,9 +34,9 @@ You can deal with this issue in one of the following ways:
 1. Modify Long-Term Archive retention period. For that:
    - In Netwrix Auditor, navigate to **Settings**.
    - Select the **Long-Term Archive** page and modify the archive retention settings – provide the value in months.
-2. Move the archive to another drive. Learn more in the following article: /docs/kb/auditor/how-to-move-long-term-archive-to-a-new-location (How to Move Long-Term Archive to a New Location).
-3. Exclude Data from the Auditing Scope. For additional information, refer to the following article: /docs/kb/auditor/how-to-exclude-users-and-objects-from-monitoring-scope-in-netwrix-auditor-ui (How to Exclude Users and Objects from Monitoring Scope in Netwrix Auditor UI).
+2. Move the archive to another drive. Learn more in the following article: /docs/kb/auditor/how_to_move_long-term_archive_to_a_new_location (How to Move Long-Term Archive to a New Location).
+3. Exclude Data from the Auditing Scope. For additional information, refer to the following article: /docs/kb/auditor/how_to_exclude_users_and_objects_from_monitoring_scope_in_netwrix_auditor_ui (How to Exclude Users and Objects from Monitoring Scope in Netwrix Auditor UI).
 
-You can also fine tune your monitoring scope via omit lists — this allows you to proactively decrease the DB loads as changes for omitted items are not recorded. For additional information on available omit lists, review the corresponding article applicable to your target system. For example, for Active Directory omit lists, refer to the following article: https://docs.netwrix.com/docs/auditor/10_8 Plans — Active Directory Plans — Active Directory Monitoring Scope).
+You can also fine tune your monitoring scope via omit lists — this allows you to proactively decrease the DB loads as changes for omitted items are not recorded. For additional information on available omit lists, review the corresponding article applicable to your target system. For example, for Active Directory omit lists, refer to the following article: /docs/auditor/10.6/auditor/admin-guide/monitoringplans/activedirectory (Monitoring Plans — Active Directory Plans — Active Directory Monitoring Scope).
 
 > **NOTE:** If you are using a virtual machine, either add another drive or expand your current drive.

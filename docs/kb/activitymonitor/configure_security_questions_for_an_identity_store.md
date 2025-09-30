@@ -10,7 +10,7 @@ tags: []
 title: "Configure Security Questions for an Identity Store"
 knowledge_article_id: kA0Qk0000002LpxKAE
 products:
-  - activitymonitor
+  - activity-monitor
 ---
 
 # Configure Security Questions for an Identity Store

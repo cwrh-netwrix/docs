@@ -34,7 +34,7 @@ The size of your Working Folder may grow significantly (up to 1 TB) depending on
 >
 > - Long-Term Archive, a repository of collected audit data stored in proprietary Netwrix format (activity records). Audit data is kept in the Long-Term Archive for 10 years as per default settings. The default Long-Term Archive location is ` %ProgramData%\Netwrix Auditor\Data`. For more information on setting Long-Term Archive up, refer to the following article: Netwrix Auditor Settings – Long-Term Archive · v10.6.
 >
->   If you would like to move Long-Term Archive to another location, refer to the following article: [How to Move Long-Term Archive to a New location](/docs/kb/auditor/how-to-move-long-term-archive-to-a-new-location.md).
+>   If you would like to move Long-Term Archive to another location, refer to the following article: [How to Move Long-Term Archive to a New location](/docs/kb/auditor/how-to-move-long-term-archive-to-a-new-location).
 >
 > - Working Folder, a repository for Netwrix Auditor to store operational information (configuration files for product components, log files, and other data). To ensure the audit trail continuity, Netwrix Auditor also caches some audit data locally in the Working Folder prior to placing it to the Long-Term Archive or any audit database. Audit data is kept in the Working Folder for a shorter period of up to several weeks. The default Working Folder location is ` %ProgramData%\Netwrix Auditor\`.
 
@@ -94,7 +94,7 @@ If migration was completed with any errors, refer to the following steps:
 ## Related articles and links
 
 - Netwrix Auditor Settings – Long-Term Archive · v10.6
-- [How to Move Long-Term Archive to a New location](/docs/kb/auditor/how-to-move-long-term-archive-to-a-new-location.md)
+- [How to Move Long-Term Archive to a New location](/docs/kb/auditor/how-to-move-long-term-archive-to-a-new-location)
 - Netwrix Auditor Operations and Health − Health Status Dashboard · v10.6
 - [How to Check the Netwrix Auditor Health Status](/docs/kb/auditor/how-to-check-the-netwrix-auditor-health-status.md)
 - [Open a Ticket · Netwrix 🧭](https://www.netwrix.com/tickets.html#/open-a-ticket)

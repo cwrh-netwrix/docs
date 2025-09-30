@@ -51,4 +51,4 @@ Follow the steps below to complete this process:
 
 ## Related Links
 
-- [Endpoint Protector Deployment Resources](https://docs.netwrix.com/docs/endpointprotector/5_9_4_2)
+- [Endpoint Protector Deployment Resources](/docs/endpointprotector/)

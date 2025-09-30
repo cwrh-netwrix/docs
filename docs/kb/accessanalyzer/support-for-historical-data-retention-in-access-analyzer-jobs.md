@@ -68,7 +68,7 @@ Depending on the needs, the historical data retention option can be set up in Ne
 
 - File System Solution
 
-  > **IMPORTANT:** To adjust the retention period for the File System Activity (FSAC) historical data, use the **Activity Settings** page of the 1-FSAC System Scan Job. Refer to the following article for additional information: https://docs.netwrix.com/docs/auditor/10_8
+  > **IMPORTANT:** To adjust the retention period for the File System Activity (FSAC) historical data, use the **Activity Settings** page of the 1-FSAC System Scan Job. Refer to the following article for additional information: /docs/auditor/11.6/enterpriseauditor/solutions/filesystem/collection
 
   - **4.Content Job Group**
 
@@ -80,13 +80,13 @@ Depending on the needs, the historical data retention option can be set up in Ne
 
 - SharePoint Solution
 
-  To adjust the retention period for the SharePoint Activity historical data, use the **Activity Date Scope** page of the SPAC System Scan. Refer to the following article for additional information: https://docs.netwrix.com/docs/auditor/10_8
+  To adjust the retention period for the SharePoint Activity historical data, use the **Activity Date Scope** page of the SPAC System Scan. Refer to the following article for additional information: /docs/auditor/11.6/enterpriseauditor/admin-guide/datacollector/spaa
 
 - Databases Solutions
 
   To adjust the retention period for the Database Activity historical data, use the **Options** page of the corresponding ActivityScan Job. This option is currently available only in SQL and AzureSQL instances. Refer to the following articles for additional information:
-  - https://docs.netwrix.com/docs/auditor/10_8
-  - https://docs.netwrix.com/docs/auditor/10_8
+  - /docs/auditor/11.6/enterpriseauditor/solutions/databases/sql/collection
+  - /docs/auditor/11.6/enterpriseauditor/solutions/databases/azuresql/collection
 
 ## Solutions not yet supported
 
@@ -106,7 +106,7 @@ The following solutions do not yet support any historical data retention:
 
 ## Related articles
 
-- https://docs.netwrix.com/docs/auditor/10_8 0.Collection Job Group − 1-FSAC System Scans Job · v11.6
-- https://docs.netwrix.com/docs/auditor/10_8 — SharePointAccess Data Collector − Activity Date Scope · v11.6
-- https://docs.netwrix.com/docs/auditor/10_8 0.Collection > SQL Job Group − 3-SQL_ActivityScan Job · v11.6
-- https://docs.netwrix.com/docs/auditor/10_8 0.Collection > Azure SQL Job Group − 3-AzureSQL_ActivityScan Job · v11.6
+- /docs/auditor/11.6/enterpriseauditor/solutions/filesystem/collection — 0.Collection Job Group − 1-FSAC System Scans Job · v11.6
+- /docs/auditor/11.6/enterpriseauditor/admin-guide/datacollector/spaa — SharePointAccess Data Collector − Activity Date Scope · v11.6
+- /docs/auditor/11.6/enterpriseauditor/solutions/databases/sql/collection — 0.Collection > SQL Job Group − 3-SQL_ActivityScan Job · v11.6
+- /docs/auditor/11.6/enterpriseauditor/solutions/databases/azuresql/collection — 0.Collection > Azure SQL Job Group − 3-AzureSQL_ActivityScan Job · v11.6

@@ -65,9 +65,9 @@ Netwrix Auditor is unable to collect data on group membership of users who made 
   ```
 
   Refer to the following article for additional information on syntax: SharePoint − SharePoint Monitoring Scope · v10.6
-  https://docs.netwrix.com/docs/auditor/10_8).
+  (/docs/auditor/10.6/auditor/admin-guide/monitoringplans/sharepoint).
 
 ## Related articles
 
 - Monitoring Plans − SharePoint · v10.6
-  https://docs.netwrix.com/docs/auditor/10_8)
+  (/docs/auditor/10.6/auditor/admin-guide/monitoringplans/sharepoint)

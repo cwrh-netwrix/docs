@@ -12,7 +12,7 @@ tags: []
 title: "Disabling Optional Connected Experiences in Office 365 Apps"
 knowledge_article_id: kA0Qk0000002WyHKAU
 products:
-  - endpointpolicymanager
+  - endpoint-policy-manager
 ---
 
 # Disabling Optional Connected Experiences in Office 365 Apps
@@ -56,9 +56,9 @@ New-ItemProperty -LiteralPath 'HKCU:\Software\Policies\Microsoft\office\16.0\com
 
 ### Using Endpoint Policy Manager
 
-If you are using **Netwrix Endpoint Policy Manager**, you can deploy the above PowerShell script as a policy using the **Scripts & Triggers** component. Refer to [How to create a shortcut under the Public Desktop using Endpoint Policy Scripts Manager](https://docs.netwrix.com/docs/endpointpolicymanager/) to see an example of how to run PowerShell scripts via Scripts & Triggers Manager.
+If you are using **Netwrix Endpoint Policy Manager**, you can deploy the above PowerShell script as a policy using the **Scripts & Triggers** component. Refer to [How to create a shortcut under the Public Desktop using Endpoint Policy Scripts Manager](/docs/endpointpolicymanager/) to see an example of how to run PowerShell scripts via Scripts & Triggers Manager.
 
 ## Related Links
 
-- [How to create a shortcut under the Public Desktop using Endpoint Policy Scripts Manager](https://docs.netwrix.com/docs/endpointpolicymanager/)
+- [How to create a shortcut under the Public Desktop using Endpoint Policy Scripts Manager](/docs/endpointpolicymanager/)
 - [Policy Setting for Optional Connected Experiences ⸱ Microsoft 🡥](https://learn.microsoft.com/en-us/microsoft-365-apps/privacy/manage-privacy-controls#policy-setting-for-optional-connected-experiences)

@@ -56,8 +56,8 @@ Refer to the following steps to verify that the target port has a bound SSL cert
 
    Replace `481` with the target port.
 
-3. Bind a new certificate—refer to the following article for additional information: Secure Console Access—Create an SSL Binding · v10.7 https://docs.netwrix.com/docs/auditor/10_8).
+3. Bind a new certificate—refer to the following article for additional information: Secure Console Access—Create an SSL Binding · v10.7 (/docs/auditor/10.7/access/reviews/installationation).
 
 ## Related Articles
 
-- Secure Console Access—Create an SSL Binding · v10.7 https://docs.netwrix.com/docs/auditor/10_8)
+- Secure Console Access—Create an SSL Binding · v10.7 (/docs/auditor/10.7/access/reviews/installationation)
