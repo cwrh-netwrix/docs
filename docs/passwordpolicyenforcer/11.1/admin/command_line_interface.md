@@ -11,22 +11,22 @@ sidebar_position: 70
 Replace _version_ with the complete version and build number of the **msi** file. For example,
 11.1.0.74.
 
-Install only PPE Server: msiexec /i Netwrix_PPE_Server**version**x64.msi ADDLOCAL=FeatureServerPPE
+Install only PPE Server: msiexec /i Netwrix_PPE_Server_**version**_x64.msi ADDLOCAL=FeatureServerPPE
 /q
 
-Install only Console: msiexec /i Netwrix_PPE_Server**version**x64.msi ADDLOCAL=FeatureConsole /q
+Install only Console: msiexec /i Netwrix_PPE_Server_**version**_x64.msi ADDLOCAL=FeatureConsole /q
 
-Install only Mailer Server: msiexec /i Netwrix_PPE_Server**version**x64.msi
+Install only Mailer Server: msiexec /i Netwrix_PPE_Server_**version**_x64.msi
 ADDLOCAL=FeaturePPEMailerServer /q
 
 Install all 3 components:
 
-msiexec /i Netwrix_PPE_Server**version**x64.msi
+msiexec /i Netwrix_PPE_Server_**version**_x64.msi
 ADDLOCAL=FeaturePPEMailerServer,FeatureConsole,FeatureServerPPE /q
 
-By default Console only installed: msiexec /i Netwrix_PPE_Server**version**x64.msi /q
+By default Console only installed: msiexec /i Netwrix_PPE_Server_**version**_x64.msi /q
 
-Uninstall all: msiexec /uninstall Netwrix_PPE_Server**version**x64.msi /q
+Uninstall all: msiexec /uninstall Netwrix_PPE_Server_**version**_x64.msi /q
 
 Uninstall only particular feature: msiexec /i _path_to_your_msi_file.msi_ REMOVE=_FeatureName_ /qn
 

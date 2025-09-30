@@ -26,9 +26,8 @@ HKLM\SOFTWARE\Policies\ANIXIS\Password Policy Client\ registry key.
 **Step 1 –** Connect to any Domain Controller where you have Password Policy Enforcer installed and
 have the group policy management console available.
 
-**Step 2 –** Go to Password Policy Enforcer install directory (C:\Program Files or C:\Program Files
-(x86)\Password Policy Enforcer) and copy the **PPEClt.adml** and **PPEClt.admx** files (highlighted
-in yellow):
+**Step 2 –** Go to Password Policy Enforcer install directory (C:\Program Files\Netwrix\Password 
+Policy Enforcer) and copy the **PPEClt.adml** and **PPEClt.admx** files (highlighted in yellow):
 
 ![ppc_configuration](/images/passwordpolicyenforcer/11.1/administration/ppc_configuration.webp)
 

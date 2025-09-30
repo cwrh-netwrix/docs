@@ -15,7 +15,7 @@ To establish the connection:
 the **Run as Administrator** option.
 
 **Step 2 –** Import the PPE cmdlets module:
-**Import-Module "C:\Program Files\Password Policy Enforcer\PS\PPEConf.PowerShell.dll"**
+**Import-Module "C:\Program Files\Netwrix\Password Policy Enforcer\PS\PPEConf.PowerShell.dll"**
 
 **Step 3 –** Connect to your domain:
 **Connect-PPE -d "_domain_"** where _domain_ is the full name of your domain controller.

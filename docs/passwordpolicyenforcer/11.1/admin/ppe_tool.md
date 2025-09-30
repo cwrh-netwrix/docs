@@ -22,7 +22,7 @@ options in the PPE Tool.
 ## Using the PPE Tool
 
 The PPE Tool installs with the default installation of Password Policy Enforcer under the
-`C:\Program Files (x86)\Password Policy Enforcer\ppetool` folder. Once installed, the PPE Tool
+`C:\Program Files\Netwrix\Password Policy Enforcer\ppetool` folder. Once installed, the PPE Tool
 allows users to perform a number of operations related to Password Policy Enforcer functionality
 which are described in the table below.
 
@@ -58,7 +58,7 @@ Operations PPE Tool options are as follows:
 | /e   | export [out file name] | <ul><li>Exports config data (default) from the Password Policy Enforcer instance to the file.</li><li>This operations is enabled by default.</li><li>This operation can not be used with /c (Config [in file name]) or i/ (Import) operations, but can be combined with /h (Human [out file name]).</li></ul>                                                                                                                                                                                                                                  |
 | /i   | import                 | <ul><li>Imports the config file.</li><li>Imports existing configuration using the input configuration file defined by the /d (Domain [in controller]) . If the /c (Config [in file name]) operation is omitted, the PPE Tool will display an error message and exit the application.</li><li>When i/ (Import) is used with the /h (Human [out file name]) or /r (Report [out file name]) operations, the latter will be ignored.</li><li>/d (Domain [in controller]) and /m (Minimal) operations my affect the result of the import.</li></ul> |
 | /h   | human [out file name]  | <ul><li>Converts the config file to a human-readable format and produces a human-readable report based on the current Password Policy Enforcer instance configuration or the configuration provided by the /d (Domain [in controller]).</li><li>If no custom file name is provided, the default file name will be `config_human_readable.xml`.</li></ul>                                                                                                                                                                                       |
-| /r   | report [out file name] | <ul><li>Converts the config file to HTML and produces an HTML report file based on the current Password Policy Enforcer instance configuration or the configuration provided by the /d (Domain [in controller]).</li><li>Generates the HTML report into `C:\Program Files (x86)\Password Policy Enforcer\Report` alongside the .css file.</li><li>The default files name is `report.html`.</li></ul>                                                                                                                                           |
+| /r   | report [out file name] | <ul><li>Converts the config file to HTML and produces an HTML report file based on the current Password Policy Enforcer instance configuration or the configuration provided by the /d (Domain [in controller]).</li><li>Generates the HTML report into `C:\Program Files\Netwrix\Password Policy Enforcer\Report` alongside the .css file.</li><li>The default files name is `report.html`.</li></ul>                                                                                                                                           |
 
 
 ### PPE Usage Samples
@@ -176,7 +176,7 @@ The `<tag>` tag can also contain the child `<FLAGS>` tag. This tag can have an o
 ### Customize HTML Report
 
 The PPE Tool comes with a pre-defined template.css file in the configuration folder, found here:
-`C:\Program Files (x86)\Password Policy Enforcer\config`. The template.css defines the visual design
+`C:\Program Files\Netwrix\Password Policy Enforcer\ppetool\config`. The template.css defines the visual design
 (formatting, colors, fonts etc.) of HTML report. See the
 [XSLT - Transformation](https://www.w3schools.com/xml/xsl_transformation.asp) article for additional
 information of transforming .xml to .xhtml.
