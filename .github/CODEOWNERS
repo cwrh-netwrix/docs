@@ -152,3 +152,6 @@
 /sidebars/threatprevention/ @netwrix/threatprevention-docs
 /static/files/threatprevention/ @netwrix/threatprevention-docs
 /static/images/threatprevention/ @netwrix/threatprevention-docs
+
+# Knowledge base team
+/docs/kb/ @netwrix/kb-docs

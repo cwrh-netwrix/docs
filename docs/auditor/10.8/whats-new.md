@@ -55,7 +55,7 @@ Expanded user monitoring with additional Active Directory attributes:
 ### Storage Platform Updates
 - **Nutanix Files 5.0**: Full support for the latest Nutanix Files version
 - **Dell Isilon OneFS 9.8 and 9.9**: Enhanced compatibility with newer OneFS versions
-- **Dell Unity up to 5.4**: Extended support for Dell Unity storage systems
+- **Dell Unity up to 5.5**: Extended support for Dell Unity storage systems
 - **Isilon/PowerScale 9.10**: Support for the latest PowerScale platform
 - **Qumulo Core 7.4.1**: Updated support for Qumulo distributed file systems
 

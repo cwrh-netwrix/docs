@@ -1,4 +1,10 @@
 {
   "label": "Azure Files",
-  "position": 15
+  "position": 15,
+   "collapsed": true,
+  "collapsible": true,
+  "link": {
+    "type": "doc",
+    "id": "overview"
+  }
 }
