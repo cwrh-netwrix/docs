@@ -24,7 +24,7 @@ The <Company /> Customer Portal offers the following:
     * Directly access to online documentation
 * My Training – Click Start Now to access to your personalized training dashboard in <Company /> University.
     * You will already be enrolled in learning paths for the products you own.
-    * We recommend taking the 0001 Welcome to <Company /> University and 0002 <Company /> Technical Knowledge Center courses first to Understand how to use these two resources.
+    * We recommend taking the 0001 <Company /> Customer Resources course first to understand how to use the available resources.
 * My Tickets – Opens the <Company /> Support Portal for creating and tracking a ticket.
 * My Profile
     * Change your password
