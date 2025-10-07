@@ -42,7 +42,7 @@ To successfully access the download packages, ensure you are logged in with your
 
 ### For Versions 9.5 and Newer
 
-- Upgrading to Netwrix Auditor v10.6 requires .NET 4.8 on the Auditor server and on any servers included in a Windows Server or User Activity Monitoring Plan that have the Compression Service enabled.
+- Upgrading to Netwrix Auditor v10.6 and newer require the [.NET 4.8 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net48) on the Auditor server and on any servers included in a User Activity or Windows Server Monitoring Plan that have network traffic compression (Compression Service) enabled.
 
 > **IMPORTANT:** Plan your upgrade carefully. .NET 4.8 requires Windows Server 2016 or later and may require a server reboot after installation.
 
