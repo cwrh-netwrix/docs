@@ -46,11 +46,11 @@ To successfully access the download packages, ensure you are logged in with your
 
 > **IMPORTANT:** Plan your upgrade carefully. .NET 4.8 requires Windows Server 2016 or later and may require a server reboot after installation.
 
-- Starting from the version 9.9 Netwrix implemented the new license format. To reissue the license:
+- Starting from Netwrix Auditor version 9.9, a new license format was implemented. To reissue the license:
   - If you upgrade incrementally, just follow steps given in the **Upgrade Paths** table below, and your license will upgrade automatically.
-  - If you leave your Netwrix Auditor as is and start a new server with the latest version, contact your Account Manager and request the newly formatted license.
-- Do not pause the upgrade chain in the middle for a long time as this may leave your system in a vulnerable state. The latest product version includes all functionality from the previous versions, adds new features and includes important security updates.
-- After each incremental update, you must wait for the DBs to be upgraded. In large/busy environments, this may take up to 24 hours. Check the **Health Log** to see if database was upgraded successfully. Event IDs **4410** and **4405** indicate that upgrade was done successfully, any other 44XX Event IDs indicate that there was an error.
+  - If you leave your Netwrix Auditor as is and deploy a new server with the latest version, please contact your Account Manager and request the newly formatted license.
+- Do not suspend or postpone the upgrade sequence for an extended period. The latest release of Netwrix Auditor consolidates all previous functionality and delivers essential patches and security updates to maintain system integrity.
+- After each incremental update, you must wait for the DBs to be upgraded. In large/busy environments, this may take up to 24 hours. Check the **Health Log** to see if database was upgraded successfully. Event IDs **4410** and **4405** indicate that upgrade was done successfully, any other **44XX** Event IDs indicate that there was an error.
 - If you have the capability to capture a snapshot of the server, we recommend doing so. Before we begin, launch a PowerShell session as Administrator and execute the following command:
 
 ```powershell
