@@ -71,6 +71,7 @@ This will stop all Netwrix Services and prevent complications during the upgrade
 | 9.96 / 10.0    | 10.5           | [Download](https://www.netwrix.com/my_products.html) |
 | 10 / 10.5      | 10.6           | [Download](https://www.netwrix.com/my_products.html) |
 | 10.5 / 10.6    | 10.7           | [Download](https://www.netwrix.com/my_products.html) |
+| 10.6 / 10.7    | 10.8           | [Download](https://www.netwrix.com/my_products.html) |
 
 ### Related articles
 
