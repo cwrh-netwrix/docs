@@ -2,22 +2,11 @@
 
 ## About PingCastle
 
-**"For CISO, by CISO"**
+PingCastle is an Active Directory security assessment tool that helps organizations discover security issues and understand their risk posture. With over 175 risks detections, PingCastle identifies vulnerabilities across all areas of your Active Directory environment.
 
-PingCastle was born based on a finding: security based only on
-technology does not work. That\'s why the company focuses on process and
-people rather than just technology. PingCastle does not sell products !
+PingCastle delivers comprehensive discovery of Active Directory security issues and provides detailed guidance to help you remediate them. While we identify the problems and provide remediation steps, the actual remediation is performed by your team, giving you full control over your security improvements.
 
-The company does not provide solutions to protect your infrastructure.
-Instead, it provides tools to discover what you have to protect,
-evaluate its security level and provide insights on if the budget you
-have provided has been successfully used.
-
-PingCastle\'s objective is not to reach a perfect security but to
-impulse changes using the management. And with low effort, I think
-you\'ll get support to change the situation !
-
-**Vincent LE TOUX**
+The tool provides risk scoring and detailed information about each risk to support informed decision-making. Security scores are calculated across four key categories to help management understand the current security posture. PingCastle's objective is to drive meaningful security improvements through actionable insights.
 
 ## License
 
