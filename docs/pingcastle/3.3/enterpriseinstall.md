@@ -2,139 +2,235 @@
 
 ## Description
 
-PingCastle Enterprise is a tool designed to improve and follow the
-Active Directory overall security level. This software has been
-developed to be compatible with most of the possible existing
-configurations. The goal (when the tool was created) was not to aim for
-perfection, but to provide reliable data to present the situation to the
-management, thus improving over time.
-
-# Requirements
-
-**System Specifications**
-
-The Operating systems supported are:
-
-- For PingCastle scanning functions:
-
-  - All operating systems starting from Windows 2000 or subsequent
-
-- For PingCastle Enterprise:
-
-  - All operating systems starting from Windows 10 22H2 / Windows 2012
-    (with extended security updates) or subsequent, where the asp.net
-    8.0 is supported
-
-  - On demand, it is possible to include any operating systems,
-    including Linux, if it is supported by asp.net core 8.0
-
-See the [Windows Lifecycle Fact Sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet)
-for details regarding each Windows release lifecycle.
-
-See the .NET 8.0 Supported Operating System documentation [here](https://learn.microsoft.com/en-us/dotnet/core/install/windows#supported-versions).
-
-## Database
-
-PingCastle Enterprise is using a database to store its data.
-
-The current supported databases are:
-
-- Any supported editions of SQL Server (including SQL Server Express)
-
-1.  Any database supported by \"Entity Framework Core 2\" (SQLite,
-    MySQL, \...) may be supported on demand. Please contact us for more
-    information.
-
-## External System Dependencies
-
-PingCastle Basic and PingCastle Professional require \"dotnet framework
-2.0\" or subsequent versions.
-
-PingCastle Enterprise is using the \"asp.net core 8.0 framework\" still
-relying on \"dotnet standard 2.0\".
-
-1.  It is recommended to not expose web application but to use reverse
-    proxy like IIS, Apache2 or Nginx.
-
-## Third party authentication system
-
-PingCastle Basic and PingCastle Professional relies on the Windows
-account to perform scans and do not use third party authentication
-system.
-
-PingCastle Enterprise supports authentication with third party systems
-on demand. OpenID is supported and provides authentication with services
-like Azure AD, Okta, \...
-
-## License
-
-PingCastle Enterprise is licensed based on the number of domains managed
-and has licenses available up to unlimited. The number of domains
-include subdomains of a forest.
-
-2.  The number of Domain Controllers are not used for licensing, only
-    domains.
-
-Enterprise licenses are bundled in packs of 10 domains, up to 60, with
-an unlimited license thereafter.
-
-**Example**
-
-If you have consto.com with two subdomains called uk.consto.com and
-us.consto.com, then you would require the 10-domain licensing pack.
-
-# Architecture
-
-PingCastle is using a distributed architecture.
-
-The PingCastle Basic / Pro can be considered as a stand alone agent. The
-program executes an assessment of the Active Directory and produces a
-report. This report is in two forms: a xml file and a html file. These
-two files provide two representations of the same data. By default the
-.xml file is being filtered to remove potential private data such as
-account name from this collected data. This filter can be deactivated by
-running the program with the flag \--level Full.
-
-Then the data contained in the xml file is pushed into PingCastle
-Enterprise directly via the API, or indirectly via an indirect import
-such as email. In this case the data may be encrypted to ensure the
-confidentiality of the data.
-
-![](/images/pingcastle/enterpriseinstall/image3.webp)
-
-Then the PingCastle Enterprise provide the services around the data and
-store it in the database.
-
-# Quick Installation
-
-PingCastle Enterprise supports a setup where the requirements and
-manipulations have been minimized. This scenario is recommended for
-tests but not in production because all IIS and SQL Server upgrade
-mechanisms are not supported.
+PingCastle Enterprise is a tool designed to monitor and improve Active Directory security. It provides actionable security insights and tracks improvements over time, delivering reliable data that can be presented to management for informed decision-making.
 
 ## Requirements
 
-It requires:
+**System Specifications**
 
-- IIS being installed (it is a Windows component)
+The supported operating systems are:
 
-- An SQL database such as SQL Express being installed
+- For PingCastle scanning functions:
+  - All supported Microsoft Windows operating systems
+- For PingCastle Enterprise:
+  - All supported Microsoft Windows operating systems that support ASP.NET Core 8.0
 
-- The asp.net core 8.0 \"Hosting Bundle\" available at:
+For more information on supported Windows versions, see the [Windows Lifecycle Fact Sheet](https://support.microsoft.com/en-us/help/13853/windows-lifecycle-fact-sheet). For .NET 8.0 compatibility, see the [.NET supported operating systems](https://learn.microsoft.com/en-us/dotnet/core/install/windows#supported-versions) documentation.
 
+:::note
+
+It is possible to run PingCastle Enterprise in hosted environments and on Linux as long as the system supports ASP.NET Core 8.0. However, support for these setups is best-effort and upgrade paths may not be documented.
+
+:::
+
+### Database
+
+PingCastle Enterprise requires a database to store its data.
+
+**Supported databases:**
+- Any edition of SQL Server (SQL Server Express is recommended for quick installations)
+
+:::note
+
+Other databases supported by Entity Framework Core (such as PostgreSQL) may work, but SQL Server and PostgreSQL are the only databases that have been thoroughly tested.
+
+:::
+
+### External System Dependencies
+
+**PingCastle.exe** requires .NET Framework 4.7.2 or later to run.
+
+**PingCastle Enterprise** requires ASP.NET Core 8.0.
+
+:::warning
+
+Do not expose the PingCastle Enterprise web application directly to the internet. Always use a reverse proxy such as IIS, Apache, or Nginx to handle external connections.
+
+:::
+
+### Authentication
+
+**PingCastle Basic:**
+- Runs as a standalone executable (PingCastle.exe)
+- Uses the current Windows user account credentials for Active Directory scans
+- No separate authentication system required
+
+**PingCastle Enterprise:**
+- Supports multiple authentication methods including:
+  - OIDC (OpenID Connect)
+  - SAML2
+  - Windows Authentication
+
+These options allow integration with Azure AD, Okta, and other identity providers.
+
+### License
+
+PingCastle Enterprise is licensed based on the number of Active Directory domains managed, including subdomains within a forest.
+
+:::note
+
+Licensing is based on the number of domains only. The number of Domain Controllers is not a factor in licensing.
+
+:::
+
+**License Tiers:**
+- Available in packs of 10 domains
+- License packs available up to 60 domains
+- Unlimited domain license available for larger environments
+
+**Example:**
+
+If you have contoso.com with two subdomains (uk.contoso.com and us.contoso.com), you would require a 10-domain license pack to cover all three domains.
+
+
+## Architecture
+
+PingCastle uses a distributed architecture with two main components:
+* The Scanner
+* The Application Server
+
+### Architecture Overview
+
+PingCastle Enterprise operates as a centralized web server that receives scan data from distributed PingCastle.exe agents deployed across one or more Active Directory forests. The agents communicate with domain controllers using standard Active Directory protocols (LDAP/ADWS/SMB) and upload results to the Enterprise web server via HTTPS API calls.
+
+```mermaid
+graph TB
+    subgraph "Users"
+        U1[Security Team]
+        U2[IT Management]
+        U3[Auditors]
+    end
+
+    subgraph "Access Layer"
+        RP[Load Balancer/IIS/WAP]
+    end
+
+    subgraph "PingCastle Enterprise Server"
+        WEB[Web Application]
+        SCH[Task Scheduler]
+        PC1[PingCastle.exe]
+    end
+
+    subgraph "Database Layer"
+        DB[(SQL Server<br/>PostgreSQL)]
+    end
+
+    subgraph "Forest A - contoso.com"
+        subgraph "Member Server"
+            MS1[PingCastle.exe]
+            TS1[Task Scheduler]
+        end
+        DC1[Domain Controllers]
+
+    end
+
+    subgraph "Forest B - fabrikam.com"
+        subgraph "Member Server"
+            MS2[PingCastle.exe]
+            TS2[Task Scheduler]
+        end
+        DC2[Domain Controllers]
+    end
+
+    %% User Access
+    U1 --> RP
+    U2 --> RP
+    U3 --> RP
+    RP --> WEB
+
+    %% Enterprise Server Components
+    WEB --> DB
+    WEB --> |Via scheduler functionality| SCH
+    SCH --> PC1
+
+    %% Scanner Deployment - Method 1: Remote Scan from Enterprise Server
+    PC1 -.->|LDAP/SMB<br/>Remote Scan<br/>--server *.domain| DC1
+    PC1 -.->|LDAP/SMB<br/>Remote Scan<br/>--server *.domain| DC2
+    PC1 -->|HTTPS API Upload| WEB
+    %% Scanner Deployment - Method 2: Local Scan with API Upload
+    TS1 --> MS1
+    MS1 -->|LDAP/ADWS/SMB<br/>Local Scan| DC1
+    MS1 -->|HTTPS API Upload| WEB
+
+    TS2 --> MS2
+    MS2 -->|LDAP/SMB<br/>Local Scan| DC2
+    MS2 -->|HTTPS API Upload| WEB
 ```
-  https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+
+### Component Details
+
+#### PingCastle.exe (The Scanner)
+
+PingCastle.exe operates as a standalone agent that performs Active Directory assessments and generates reports in two formats:
+- **XML file**: Contains structured data for import into PingCastle Enterprise
+- **HTML file**: Provides a human-readable report
+
+**Data Privacy:**
+- By default, the XML file is filtered to remove potentially sensitive data such as account names
+- To include all collected data, run the scanner with the `--level Full` flag
+
+**Deployment Options:**
+1. **Centralized scanning**: Run from PingCastle Enterprise server using `--server *.domain.local` to scan remote forests
+2. **Distributed scanning**: Deploy PingCastle.exe on member servers in each domain/forest and upload results via API
+
+**Required Permissions:**
+- Minimum: Read access to all users, computers, groups and their attributes, all Group Policies (including security filtered ones), and all password policy objects
+- Recommended: Domain Admin for comprehensive data collection
+
+#### Data Transfer to PingCastle Enterprise
+
+The XML data can be transferred to PingCastle Enterprise through two methods:
+
+1. **Direct API upload**: Data is pushed directly via the PingCastle Enterprise API using `--api-endpoint` and `--api-key` parameters
+2. **Manual import**: XML files can be manually uploaded through the web interface, or sent via email with optional encryption
+
+**Example scan with API upload:**
+```shell
+PingCastle.exe --healthcheck --server contoso.com --level Full --api-endpoint https://pingcastle.company.com --api-key <your-api-key>
 ```
 
-![A screenshot of a computer Description automatically generated](/images/pingcastle/enterpriseinstall/image4.webp)
+#### PingCastle Enterprise (The Application Server)
 
-1.  IIS should be installed before the ASP.NET 8.0 Hosting Bundle. If
-    not, then the Hosting Bundle installation may be required to be
-    repaired.
+PingCastle Enterprise receives the assessment data and provides centralized services including:
+- Data storage in the configured database (SQL Server or PostgreSQL)
+- Centralized reporting and analytics dashboard
+- Historical tracking and trend analysis
+- Multi-tenant entity management
+- Scheduled scanning capabilities (when running as LocalSystem or via remote agent deployment)
+- User authentication (Windows Auth, OIDC, SAML2)
+- API for automated report uploads
+
+**Typical Deployment:**
+- Single Windows Server with IIS, ASP.NET Core 8.0 Hosting Bundle, and SQL Server Express
+- Accessible to security teams, IT management, and auditors
+
+
+## Quick Installation
+
+PingCastle Enterprise supports a quick installation setup where the requirements and configuration steps have been minimized. This installation method is suitable for customers wishing to deploy PingCastle Enterprise on a Windows Server. Please note that upgrades require a manual process as automated IIS and SQL Server upgrade mechanisms are not currently supported.
+
+### Requirements
+
+PingCastle Enterprise has the following requirements:
+
+- Windows Server IIS Role with Windows Authentication option added
+- A SQL Server, this can be any flavour of SQL Server (Express to Enterprise). PostgreSQL is also supported.
+- The ASP.NET Core Runtime 8.0 "Hosting Bundle" available at: [https://dotnet.microsoft.com/en-us/download/dotnet/8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+
+:::note
+
+IIS should be installed before the ASP.NET 8.0 Hosting Bundle. If not, then the Hosting Bundle installation may be required to be repaired.
+
+:::
+
+You can see the Hosting Bundle option outlined below.
+![Requirements - ASP.NET Hosting Bundle Option](/images/pingcastle/enterpriseinstall/image4.webp)
+
+
 
 ![A screenshot of a computer Description automatically generated](/images/pingcastle/enterpriseinstall/image5.webp)
 
-## Procedure
+### Installation Steps
 
 The MSI file guides the installation of the software:
 
@@ -173,7 +269,7 @@ to the database to IIS (application pool)
 2.  When the software is removed, the setup DOES NOT remove the
     database.
 
-# Various options
+## Various options
 
 **Custom login message**
 
@@ -193,7 +289,7 @@ expected html is using the [bootstrap](https://getbootstrap.com/) css
 styles. Also due to the CSP protection, you cannot inject custom CSS or
 JAVASCRIPT.
 
-# Post Installation - Scheduler
+## Post Installation - Scheduler
 
 **Quick installation**
 
@@ -226,7 +322,7 @@ database hosted in another server), you have to promote this user as
 local admin. This is a Windows restriction of the permission model and
 the access to the task scheduler cannot be delegated.
 
-## Custom installation
+### Custom installation
 
 :::note
 PingCastle is using behing the hood a folder named "PingCastle" in
@@ -240,7 +336,7 @@ need to delegate the permission to start and run tasks. You can perform
 the following actions as admin in powershell:
 
 ```powershell
-# connect to the task scheduler service
+## connect to the task scheduler service
 
 $scheduleObject = New-Object -ComObject schedule.service
 
@@ -254,7 +350,7 @@ $PingCastleFolder.GetTasks(1) | Foreach-Object {
 
 $sddl = $_.GetSecurityDescriptor(1+2+4+8)
 
-# add full control to the task
+## add full control to the task
 
 $sddl += "(A;S-1-XXX-XXX-XXX;FA;;;SY)"
 
@@ -266,7 +362,7 @@ $_.SetSecurityDescriptor($sddl, 0)
 4.  ;S-1-XXX-XXX-XXX need to be replaced by the SID of the account
     running the PingCastle web application.
 
-## Task edition
+### Task edition
 
 Tasks can be modified outside of the PingCastle application. To be
 listed here, the application checks that this is a weekly schedule on
@@ -278,7 +374,7 @@ scheduled task can also be modified (default is system)
 However if the task is edited within the web application, customization
 will be overwritten.
 
-# Custom installation
+## Custom installation
 
 PingCastle Enterprise can be installed like a classic asp.net core
 application.
@@ -286,7 +382,7 @@ application.
 That means copy all the files in a directory, configure the proxy (IIS,
 apache, Nginx), prepare a database and configure the application.
 
-## Hosting
+### Hosting
 
 The application does work on any infrastructure supported by the asp.net
 core 8.0 middleware.
@@ -327,7 +423,7 @@ start automatically.
 
 ![](/images/pingcastle/enterpriseinstall/image17.webp)
 
-## Database
+### Database
 
 Configuring the backup of the database is under the responsibility of
 the customer.
@@ -392,7 +488,7 @@ sudo -u postgres createdb -O pingcastle pingcastle
     characters in account, which puts the _\[Default\]_ container at
     different position that the start of the list of entities
 
-## Using a Database Hosted on Anther Server
+### Using a Database Hosted on Anther Server
 
 **Configure SQL Server with a local DB account**
 
@@ -491,7 +587,7 @@ Go to Identity and select the custom user account:
 
 Restart IIS.
 
-## Configuration of PingCastle Enterprise
+### Configuration of PingCastle Enterprise
 
 The settings are located in the appsettings.json located at the root of
 the application folder.
@@ -531,7 +627,7 @@ Here are some connection string examples:
 "Server=localhost;username=pingcastle;password=pingcastle;database=pingcastle"
 ```
 
-## Authentication when accessing PingCastle Enterprise
+### Authentication when accessing PingCastle Enterprise
 
 PingCastle supports:
 
@@ -898,7 +994,7 @@ The host and port is the address of the smtp server.
 The email functionality is used to send password reset request and send
 notification such as weekly reports.
 
-## Azure hosting
+### Azure hosting
 
 PingCastle Enterprise is known to work with Azure. But the Ping Castle
 company does not provide support for installation using Azure Hosting.
@@ -971,7 +1067,7 @@ application can read the user token, allowing to configure AAD that way:
 
 ![Une image contenant texte, logiciel, nombre, Police Description générée automatiquement](/images/pingcastle/enterpriseinstall/image78.webp)
 
-# Initial startup
+## Initial startup
 
 At the first run of the application, the database is created. If there
 is an error with the database (missing right, invalid connection string)
@@ -984,7 +1080,7 @@ shown to create the first user. This user is given the \"Admin\" role.
 
 ![](/images/pingcastle/enterpriseinstall/image79.webp)
 
-# Initial configuration
+## Initial configuration
 
 For more details please see the user documentation.
 
@@ -1034,7 +1130,7 @@ command:
 pingcastle.exe --upload-all-reports --api-endpoint https://endpoint.com --api-key abdsnhvdsklLksf
 ```
 
-# PingCastle "agent" deployment
+## PingCastle "agent" deployment
 
 To avoid any hole in security architecture, it was chosen to not run
 PingCastle scans from the web application. That means that the local
@@ -1080,7 +1176,7 @@ PingCastle --healthcheck (optional --server <other domain>) --level Full --api-e
 The typical pitfalls are enabling TLS1.2 for the server but not
 installing the TLS1.2 client package on the server running the audit.
 
-# Synchronization feature
+## Synchronization feature
 
 PingCastle Enterprise supports a synchronization mode to implement a
 security zone model (used within the Defense). Ony domains are
@@ -1108,7 +1204,7 @@ The data synchronized between High trust and low trust instances are:
 The following data is not synchronized: exceptions, action plans,
 maturity changes, etc.
 
-## Configuration
+### Configuration
 
 You need to configure server side an API key with the synchronization
 right.
@@ -1139,7 +1235,7 @@ more recent, no information will be lost.
 
 ![Une image contenant texte, capture d'écran, Police, ligne Description générée automatiquement](/images/pingcastle/enterpriseinstall/image83.webp)
 
-## Synchronization patterns
+### Synchronization patterns
 
 Ping Castle Enterprise will try to receive from the higher instance the
 license at startup. If it cannot be retrieved, it will use the local
@@ -1169,7 +1265,7 @@ Interoperability page.
 
 ![Une image contenant texte, capture d'écran, Police, conception Description générée automatiquement](/images/pingcastle/enterpriseinstall/image85.webp)
 
-## Synchronization patterns at import time
+### Synchronization patterns at import time
 
 To ensure that the license is enforced, before importing a new report in
 the lower instance, this instance will contact the higher instance to
@@ -1183,7 +1279,7 @@ the report is sync at the higher instance. If there is any network issue
 at this moment, the error will be ignored (but report in the logs if
 they are enabled).
 
-## Connection tests
+### Connection tests
 
 To ensure the connection is well configured, you can Sync a domain using
 the button described above.
@@ -1198,7 +1294,7 @@ found.
 
 ![](/images/pingcastle/enterpriseinstall/image87.webp)
 
-# Troubleshooting
+## Troubleshooting
 
 We recommend starting the application manually to view any problem such
 as:
@@ -1253,7 +1349,7 @@ Example:
 Here are a couple of well-known errors, their description and their
 solution
 
-## Incorrect version of the asp.net core middleware
+### Incorrect version of the asp.net core middleware
 
 Here are the messages displayed when running under a service:
 
@@ -1282,7 +1378,7 @@ forget to install the IIS middleware is you are installing on IIS.
 The last error was related to the missing KB KB2533623
 :::
 
-## Missing web.config
+### Missing web.config
 
 If the web.config is missing or if it does not load the .net module,
 like in this example,
@@ -1297,7 +1393,7 @@ will be displayed as a 404 error.
 The solution is to copy the web.config from our download website and to
 replace the existing one.
 
-## Error at the application startup
+### Error at the application startup
 
 When the application is unable to start, the following message are
 shown:
@@ -1314,7 +1410,7 @@ command line:
 In this case, the license was invalid and need to be replaced in the
 file appsettings.json.
 
-## Accurate permissions on the database
+### Accurate permissions on the database
 
 When the database doesn\'t contain the table needed, the application
 tries to create them. If the permissions are not granted, a message will
@@ -1364,7 +1460,7 @@ add `;User ID=sa;Password=pass123`
 
 ![](/images/pingcastle/enterpriseinstall/image108.webp)
 
-## Enable Debug Logging
+### Enable Debug Logging
 
 Follow the steps to enable debug logging.
 
@@ -1406,7 +1502,7 @@ stdoutLogFile=".\logs\stdout" hostingModel="InProcess" />
     Check C:\\PingCastleEnterprise\\logs\\ to ensure logs are being
     written.
 
-# Emergency procedures
+## Emergency procedures
 
 If there are no more administrator available (password forgotten or
 having left the company), PingCastle can be set in the Initialization
