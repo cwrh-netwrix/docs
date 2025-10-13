@@ -41,93 +41,54 @@ The following sections describe how to use PingCastle.
 
 **Active Directory Account**
 
-The PingCastle program needs an Active Directory account to connect to
-the AD to audit. No requirements is needed for this account. It can be
-an account without any privileges or even an account from a trusted
-domain. This account doesn't require to be part of the local
-administrators group.
+Any domain account can run PingCastle, but a privileged account is recommended to ensure an accurate report. The account can be from a trusted domain and does not need local administrator rights.
 
-**Server Side**
+**Required Permissions for Complete Scans:**
 
-There is no requirement on the server side.
+- Read access to all fine-grained password policies (PSOs)
+- Read access to all group policies, including security-filtered GPOs
+- Read access to all user, group, and computer attributes (LAPS expiration times required, but not passwords)
+- Ability to read trust information
 
-However it is strongly recommended (but not mandatory) for performance
-reasons to install on the server side a component named "Active
-Directory Web service" aka ADWS. It is installed by default on any
-domain where at least one domain controller has the OS Windows 2008 R2
-or later. Having this component installed can divide the time required
-to compute the report by a factor of 10.
+**Privileged Mode Requirements:**
 
-ADWS can be installed manually on [Windows 2003 and Windows 2008](http://www.microsoft.com/fr-fr/download/details.aspx?id=2852) [require .NET Framework 3.5SP1](https://www.microsoft.com/en-us/download/details.aspx?id=25150).
-The hot fix that may be needed for these OS is located [here](http://hotfixv4.microsoft.com/.NET%20Framework%203.5%20-%20Windows%202000,%20Windows%20Server%202003,%20Windows%20XP,%20Windows%20Vista,%20Windows%20Server%202008%20%28MSI%29/sp1/DevDiv758402/30729.4174/free/392858_intl_x64_zip.exe).
+When using `--privileged` mode, the account needs Remote Registry access to Certificate Authority servers to check CA Enrollment ACLs.
 
-**Client side**
+**Where to Run PingCastle**
 
-1.  PingCastle requires .Net 4, available on all modern OS. However it
-    can be compiled to run manually on .Net2. It fulfill then the
-    following requiement:
+Run PingCastle from a workstation for manual scans or from a server for scheduled scans. Do not install on a domain controller.
 
-The program is supported on every Operating System supported by
-Microsoft without the installation of any component nor any local
-privilege.\
-From Windows Vista to Windows 10 and Windows 2008 to Windows 2016 in
-both 32 and 64 bits.\
-In addition, the program is known to be working on Windows 2000 with the
-.net framework 2, Windows XP and Windows 2003.
+**Client Requirements**
 
-The analysis tool (PingCastle.exe) requires DotNet 3.0 (or next
-versions) which is available by default since Windows Vista. It can be
-run under DotNet 2.0 but with fewer functionalities.
+- .NET Framework 4.7.2 or later
 
-Starting from PingCastle 2.7, PingCastle.exe can be run without the
-.config file next to the program. But in this case, the program will be
-run under the .Net framework where it has been compiled (and not the
-other .Net framework). Windows does show a popup to suggest the
-installation of the missing framework.
+:::tip ADWS for Performance
+For optimal performance, ensure Active Directory Web Services (ADWS) is installed on your domain controllers. ADWS is included by default on Windows Server 2008 R2 and later and can improve scan performance by up to 10x.
+:::
 
-![](/images/pingcastle/basicuser/image3.webp)
+## Architecture
 
-## How it works
+PingCastle is a standalone program (not requiring installation) which produces reports for security analysis.
 
-PingCastle is a standalone program (not requiring installation) which
-produces reports for human or machine.
-
-![](/images/pingcastle/basicuser/image4.webp)
-
-PingCastle reads its own machine readable reports to build analysis or
-dashboard.
+```mermaid
+graph TB
+    User[Security Analyst] --> PC[PingCastle.exe]
+    PC -->|LDAP/LDAPS/ADWS/RPC| DC[Domain Controllers]
+    PC -->|SMB| FS[File Servers]
+    PC -->|Remote Registry/HTTP/HTTPS| ADCS[ADCS Servers]
+    PC -->|HTTPS/TCP| WSUS[WSUS Servers]
+    PC -->|HTTPS/TCP| SCCM[SCCM Servers]
+    PC -.->|SMB/RPC/WMI<br/>Scanner Mode| Computers[Domain Computers]
+    PC --> XML[XML Report]
+    PC --> HTML[HTML Report]
+```
 
 **Installation**
 
-PingCastle Basic Edition is provided in a zip file. You need a program
-such as 7zip or the native unzip program to decompress the file.
+1. Extract the PingCastle zip file
+2. Double-click PingCastle.exe to run in interactive mode
 
-![A screenshot of a computer Description automatically
-generated](/images/pingcastle/basicuser/image5.webp)
-
-For the most operating systems, PingCastle does not need any more
-actions.
-
-For Windows 2000, the dotnet framework 2.0, which is the last supported
-version, need to be installed.
-
-The two files required to run scans are PingCastle.exe and
-PingCastle.exe.config
-
-## Run the program
-
-1.  The best way is just to double click on PingCastle.exe
-
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/quickstart.webp](/images/pingcastle/basicuser/image6.webp)
-
-This run the program in a mode called the "interactive mode.
-
-The program can be run using a command line. A command line can be run
-by searching for "cmd" or "command line" in the start menu.
-
-Then a drag and drop of the file "PingCastle.exe" automatically
-populates the command line with the binary. The same can be done with
-other files ending with ".exe"
+Alternatively, see [Quick Start](#quick-start) for command line usage.
 
 ## Command Line Switches
 
@@ -332,36 +293,43 @@ PingCastle.exe --export <type> --server <domain>
 PingCastle.exe --tenantid <tenant-id> --clientid <client-id> --thumbprint <thumbprint> --private-key key.pem
 ```
 
-### Getting Help
-
-To display all available command-line options:
-```bash
-PingCastle.exe --help
-```
-
 ## Generating log file for support requests
 
-**PingCastle can collect logs with the \--log switch**
+PingCastle can generate detailed verbose logs using the `--log` switch. Logging is useful when troubleshooting issues or when submitting support requests, as it captures detailed information about the scan process, connection attempts, and any errors encountered.
 
-However when a command line argument is submitted, the interactive mode
-is disabled and the module has to be launched manually. To avoid that,
-the "interactive mode" can be activated manually using the command:
+**Enabling logging:**
 
-`PingCastle.exe --log --interactive`
+```bash
+PingCastle.exe --log --healthcheck --server mydomain.com
+```
+
+When command-line arguments are provided, interactive mode is automatically disabled. To use both logging and interactive mode together, explicitly enable interactive mode:
+
+```bash
+PingCastle.exe --log --interactive
+```
+
+Log files are saved in the same directory as PingCastle.exe. For real-time log viewing in the console, use the `--log-console` switch in addition to `--log`.
 
 ## Performing an Active Directory health check
 
-The report can be generated in the interactive mode by choosing
-"healthcheck" or just by pressing Enter. Indeed it is the default
-analysis mode.
+A health check performs a comprehensive security assessment of your Active Directory domain, evaluating over 175 risk indicators across privileged accounts, trust relationships, stale objects, and security anomalies. The assessment generates both an HTML report for human review and an XML report for import into PingCastle Enterprise or consolidation with other domain reports.
+
+**Using interactive mode:**
+
+The health check can be generated in interactive mode by choosing "healthcheck" or by pressing Enter, as it is the default analysis mode.
 
 ![](/images/pingcastle/basicuser/image8.webp)
 
-It can be run using the command:
+**Using command line:**
 
+```bash
+PingCastle.exe --healthcheck --server mydomain.com
 ```
-PingCastle --healthcheck --server mydomain.com
-```
+
+:::note
+Health check scans can take anywhere from a minute to an hour or more depending on the size of the environment. For required permissions and system requirements, see the [Requirements](#requirements) section.
+:::
 
 **Active Directory risk level analysis**
 
