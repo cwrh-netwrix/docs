@@ -129,21 +129,215 @@ Then a drag and drop of the file "PingCastle.exe" automatically
 populates the command line with the binary. The same can be done with
 other files ending with ".exe"
 
-## Getting help
+## Command Line Switches
 
-PingCastle can display its help on a command line.
+PingCastle is a command-line driven tool with extensive options for Active Directory security assessments. While the tool offers an interactive mode, most production deployments use command-line switches for automation and integration with enterprise systems.
 
-![https://www.pingcastle.com/wp/wp-content/uploads/2018/09/cmd-pingcastle-help.webp](/images/pingcastle/basicuser/image7.webp)
+### Quick Start
 
-Indeed PingCastle has a lot of switches which can be displayed using the
-command line:
-
+**Basic healthcheck:**
+```bash
+PingCastle.exe --healthcheck --server mydomain.com
 ```
+
+**Healthcheck with full details:**
+```bash
+PingCastle.exe --healthcheck --server mydomain.com --level Full
+```
+
+**Direct upload to PingCastle Enterprise:**
+```bash
+PingCastle.exe --healthcheck --server mydomain.com --level Full --api-endpoint https://pingcastle.company.com --api-key <your-api-key>
+```
+
+### General Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--help` | Display help message | `PingCastle.exe --help` |
+| `--interactive` | Force interactive mode | `PingCastle.exe --interactive` |
+| `--log` | Generate a log file | `PingCastle.exe --log --healthcheck` |
+| `--log-console` | Add log output to the console | `PingCastle.exe --log-console` |
+| `--log-samba <option>` | Enable Samba login (example: 10) | `PingCastle.exe --log-samba 10` |
+
+### Active Directory Connection Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--server <server>` | Specify server to connect to. Use `*` or `*.forest` for all domains | `--server contoso.com` or `--server *` |
+| `--port <port>` | Port to use for ADWS or LDAP (default: 9389 or 389) | `--port 389` |
+| `--user <user>` | Username for authentication (default: integrated authentication) | `--user administrator` |
+| `--password <pass>` | Password (default: secure prompt) | `--password <password>` |
+| `--protocol <proto>` | Protocol selection: ADWSThenLDAP (default), ADWSOnly, LDAPOnly, LDAPThenADWS | `--protocol LDAPOnly` |
+| `--pagesize <size>` | LDAP page size (default: 500) | `--pagesize 1000` |
+| `--quota <num>` | LDAP items per second to process (default: unlimited) | `--quota 100` |
+
+### Health Check Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--healthcheck` | Perform Active Directory health check assessment | `PingCastle.exe --healthcheck --server mydomain.com` |
+| `--carto` | Perform quick cartography of surrounding domains | `PingCastle.exe --carto` |
+| `--explore-trust` | After healthcheck, scan all trusted domains (excludes forest domains and forest trusts) | `--healthcheck --explore-trust` |
+| `--explore-forest-trust` | After healthcheck on root domain, scan all forest trusts | `--healthcheck --explore-forest-trust` |
+| `--explore-exception <domains>` | Comma-separated domains to exclude from automatic exploration | `--explore-exception test.local,dev.local` |
+| `--privileged` | Include checks requiring high-level AD access | `--healthcheck --privileged` |
+| `--datefile` | Insert date into report filename | `--healthcheck --datefile` |
+| `--encrypt` | Encrypt XML report using RSA key from config. Omit when reloading encrypted reports to decrypt | `--healthcheck --encrypt` |
+| `--level <level>` | Data detail level: Full, Normal, Light | `--healthcheck --level Full` |
+| `--no-enum-limit` | Remove max 100 users limitation in HTML report | `--healthcheck --no-enum-limit` |
+| `--reachable` | Add reachable domains to discovered domains list | `--healthcheck --reachable` |
+| `--skip-null-session` | Do not test for null session | `--healthcheck --skip-null-session` |
+| `--skip-dc-rpc` | Do not test for RPC on domain controllers | `--healthcheck --skip-dc-rpc` |
+| `--max-depth` | Maximum number of relations to explore (default: 30) | `--max-depth 50` |
+| `--max-nodes` | Maximum number of nodes to include (default: 1000) | `--max-nodes 2000` |
+| `--node <node>` | Create report based on an object (e.g., "cn=name" or "name") | `--node "cn=admin"` |
+| `--nodes <file>` | Create reports based on nodes listed in file | `--nodes computers.txt` |
+
+### Email & WebDAV Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--sendXmlTo <emails>` | Send XML reports to mailbox (comma-separated) | `--sendXmlTo admin@company.com` |
+| `--sendHtmlTo <emails>` | Send HTML reports to mailbox (comma-separated) | `--sendHtmlTo admin@company.com` |
+| `--sendAllTo <emails>` | Send both HTML and XML reports to mailbox | `--sendAllTo admin@company.com` |
+| `--notifyMail <emails>` | Email notification when mail is received | `--notifyMail admin@company.com` |
+| `--smtplogin <user>` | SMTP credentials username | `--smtplogin mailuser` |
+| `--smtppass <pass>` | SMTP credentials password | `--smtppass <password>` |
+| `--smtptls` | Enable TLS/SSL in SMTP (ports other than 465 and 587) | `--smtptls` |
+| `--webdirectory <dir>` | Upload XML report to WebDAV server | `--webdirectory https://webdav.server.com/reports` |
+| `--webuser <user>` | WebDAV username | `--webuser webdavuser` |
+| `--webpassword <password>` | WebDAV password | `--webpassword <password>` |
+
+### Consolidation & Reporting Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--hc-conso` | Consolidate multiple healthcheck XML reports | `PingCastle.exe --hc-conso` |
+| `--center-on <domain>` | Center simplified graph on specified domain (default: domain with most links) | `--hc-conso --center-on contoso.com` |
+| `--xmls <path>` | Specify path containing XML reports (default: current directory) | `--xmls C:\Reports` |
+| `--filter-date <date>` | Filter reports generated after specified date | `--filter-date 2024-01-01` |
+| `--regen-report <xml>` | Regenerate HTML report from XML report | `--regen-report ad_hc_domain.xml` |
+| `--reload-report <xml>` | Regenerate XML report from XML report (healthcheck switches can be reused) | `--reload-report ad_hc_domain.xml` |
+| `--rules` | Generate HTML containing all rules used by PingCastle | `PingCastle.exe --rules` |
+| `--export-rules` | Export all rules in a single XML file | `PingCastle.exe --export-rules` |
+| `--no-csp-header` | Disable Content Security Policy header (enables styles & JS on webservers, less secure) | `--regen-report report.xml --no-csp-header` |
+
+### Encryption Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--generate-key` | Generate and display new RSA key for encryption | `PingCastle.exe --generate-key` |
+| `--encrypt` | Encrypt XML report using RSA key from pingcastle.exe.config | `--healthcheck --encrypt` |
+
+### API & Upload Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--api-endpoint <>` | Upload report via API call | `--api-endpoint https://pingcastle.company.com` |
+| `--api-key <key>` | API key for authentication | `--api-key <your-api-key>` |
+| `--upload-all-reports` | Use API to upload all reports in current directory | `PingCastle.exe --upload-all-reports --api-endpoint <url> --api-key <key>` |
+
+:::note
+When using `--upload-all-reports`, set `--level Full` to send all available information.
+:::
+
+### Scanner Options
+
+The `--scanner <type>` switch performs scans on domain computers. Scanners can target all computers or specific subsets using scanner mode options.
+
+**Usage:**
+```bash
+PingCastle.exe --scanner <type> --server <domain>
+```
+
+#### Available Scanner Types
+
+| Scanner Type | Description | Example |
+|--------------|-------------|---------|
+| `aclcheck` | Check authorization related to users or groups (default: everyone, authenticated users, domain users) | `--scanner aclcheck --server contoso.com` |
+| `antivirus` | Check for computers without known antivirus installed | `--scanner antivirus --server contoso.com` |
+| `computerversion` | Get computer version to determine if obsolete operating systems are present | `--scanner computerversion --server contoso.com` |
+| `foreignusers` | Use trusts to enumerate users in denied domains (bastion, remote domains) | `--scanner foreignusers --server contoso.com` |
+| `laps_bitlocker` | Check if LAPS and/or BitLocker is enabled for all domain computers | `--scanner laps_bitlocker --server contoso.com` |
+| `localadmin` | Enumerate local administrators on computers | `--scanner localadmin --server contoso.com` |
+| `nullsession` | Check if null sessions are enabled and provide examples | `--scanner nullsession --server contoso.com` |
+| `nullsession-trust` | Dump domain trusts via null session if possible | `--scanner nullsession-trust --server contoso.com` |
+| `oxidbindings` | List all IPs via Oxid Resolver (DCOM). No authentication. Finds admin networks | `--scanner oxidbindings --server contoso.com` |
+| `remote` | Check if remote desktop solution is installed | `--scanner remote --server contoso.com` |
+| `share` | List all shares and determine if accessible by anyone | `--scanner share --server contoso.com` |
+| `smb` | Determine SMB version available and if SMB signing is active | `--scanner smb --server contoso.com` |
+| `smb3querynetwork` | List all IPs and interface speed using SMB3 (authentication required). Finds admin networks | `--scanner smb3querynetwork --server contoso.com` |
+| `spooler` | Check if spooler service is remotely active (exploitable with unconstrained delegation) | `--scanner spooler --server contoso.com` |
+| `startup` | Get last startup date to determine if latest patches applied | `--scanner startup --server contoso.com` |
+| `zerologon` | Test for ZeroLogon vulnerability (must be inside domain, trusts cannot be used) | `--scanner zerologon --server contoso.com` |
+
+#### Scanner Mode Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--scmode-all` | Scan all computers (default) | `--scanner share --scmode-all` |
+| `--scmode-single` | Scan single computer | `--scanner share --scmode-single` |
+| `--scmode-workstation` | Scan workstations only | `--scanner antivirus --scmode-workstation` |
+| `--scmode-server` | Scan servers only | `--scanner smb --scmode-server` |
+| `--scmode-dc` | Scan domain controllers only | `--scanner startup --scmode-dc` |
+| `--scmode-file <file>` | Use computers from specified file | `--scanner share --scmode-file computers.txt` |
+| `--nslimit <number>` | Limit number of users to enumerate (default: unlimited) | `--nslimit 50` |
+| `--foreigndomain <sid>` | Foreign domain targeted using FQDN or SID | `--foreigndomain S-1-5-21-4005144719-3948538632-2546531719` |
+| `--services <names>` | For antivirus scan, include these services as antivirus (comma-separated) | `--services DefenderService,CustomAV` |
+
+### Export Options
+
+The `--export <type>` switch exports domain objects in real-time or bulk.
+
+**Usage:**
+```bash
+PingCastle.exe --export <type> --server <domain>
+```
+
+| Export Type | Description | Example |
+|-------------|-------------|---------|
+| `changes` | Export all modifications occurring in the domain in real-time | `--export changes --server contoso.com` |
+| `computers` | Export all computers | `--export computers --server contoso.com` |
+| `entraguest` | Export all Entra ID users from an Entra ID guest account | `--export entraguest` |
+| `users` | Export all users | `--export users --server contoso.com` |
+
+### Entra ID Options
+
+| Switch | Description | Example |
+|--------|-------------|---------|
+| `--tenantid <id>` | Specify tenant ID (required for certificate authentication) | `--tenantid <tenant-id>` |
+| `--use-prt` | Use Primary Refresh Token (PRT) to log on | `--use-prt` |
+
+#### Certificate Authentication
+
+**With Private Key:**
+
+| Switch | Description |
+|--------|-------------|
+| `--clientid <id>` | Client ID associated with certificate |
+| `--thumbprint <thumbprint>` | Certificate thumbprint |
+| `--private-key <file>` | Key file to use (PKCS8) |
+
+**With P12 File:**
+
+| Switch | Description |
+|--------|-------------|
+| `--clientid <id>` | Client ID associated with certificate |
+| `--p12-file <file>` | P12 file to use |
+| `--p12-pass <password>` | P12 file password |
+
+**Example:**
+```bash
+PingCastle.exe --tenantid <tenant-id> --clientid <client-id> --thumbprint <thumbprint> --private-key key.pem
+```
+
+### Getting Help
+
+To display all available command-line options:
+```bash
 PingCastle.exe --help
 ```
-
-Do not forget also to check the website https://www.pingcastle.com or on
-twitter \@mysmartlogon
 
 ## Generating log file for support requests
 
@@ -153,9 +347,7 @@ However when a command line argument is submitted, the interactive mode
 is disabled and the module has to be launched manually. To avoid that,
 the "interactive mode" can be activated manually using the command:
 
-```
-PingCastle.exe --log --interactive
-```
+`PingCastle.exe --log --interactive`
 
 ## Performing an Active Directory health check
 
