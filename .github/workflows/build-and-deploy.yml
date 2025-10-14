@@ -18,7 +18,7 @@ on:
 
 jobs:
   determine-environment:
-    runs-on: ubuntu-latest
+    runs-on: gh-runner-large
     outputs:
       environment: ${{ steps.set-env.outputs.environment }}
     steps:
@@ -34,7 +34,7 @@ jobs:
           fi
 
   build:
-      runs-on: ubuntu-latest
+      runs-on: gh-runner-large
       needs: determine-environment
       environment: ${{ needs.determine-environment.outputs.environment }}
       permissions:
@@ -105,7 +105,7 @@ jobs:
             path: build/
           
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: gh-runner-large
     needs: [build, determine-environment]
     environment: ${{ needs.determine-environment.outputs.environment }}
     steps:
