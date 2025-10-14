@@ -95,7 +95,7 @@ jobs:
   
             npm run ci
           env:
-            NODE_OPTIONS: "--max-old-space-size=8192"
+            NODE_OPTIONS: "--max-old-space-size=16384"
             NODE_ENV: ${{ needs.determine-environment.outputs.environment }}
   
         - name: Upload artifact for deployment
