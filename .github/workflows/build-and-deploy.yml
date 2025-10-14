@@ -93,7 +93,7 @@ jobs:
               echo "No build cache found, performing full build..."
             fi
   
-            npm run build
+            npm run ci
           env:
             NODE_OPTIONS: "--max-old-space-size=8192"
             NODE_ENV: ${{ needs.determine-environment.outputs.environment }}
