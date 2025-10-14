@@ -24,14 +24,14 @@ product architecture and components interactions are shown in the figure below.
   processing of audit data from the various data sources (audited systems). Data from the sources
   not yet supported out of the box is collected using RESTful Integration API.
 - Netwrix Auditor Client — a component that provides a friendly interface to authorized personnel
-  who can use this console UI to manage the product settings, examine alerts, reports and search
+  who can use this console UI to manage product settings, examine alerts, reports and search
   results. Other users can obtain audit data by email or with 3rd party tools — for example, reports
   can be provided to the management team via the intranet portal. The Client may be installed on
   other hosts using the same installer as the server.
 - Data sources — entities that represent the types of audited systems supported by Netwrix Auditor
   (for example, Active Directory, Exchange Online, NetApp storage system, and so on), or the areas
   you are interested in (Group Policy, User Activity, and others).
-- Long-Term Archive — a file-based repository storage keeps the audit data collected from all your
+- Long-Term Archive — a file-based storage repository that keeps the audit data collected from all your
   data sources or imported using Integration API in a compressed format for a long period of time.
   Default retention period is **120 months**.
 - Audit databases — these are Microsoft SQL Server databases used as operational storage. This type
@@ -52,7 +52,7 @@ Netwrix knowledge base article for additional information on how to secure Netwr
 The general workflow stages are as follows:
 
 - Authorized administrators prepare IT infrastructure and data sources they are going to audit, as
-  recommended in Netwrix Auditor documentation and industry best practices; they use Netwrix Auditor
+  recommended in Netwrix Auditor documentation and industry best practices; they use the Netwrix Auditor
   Client (management UI) to set up automated data processing.
 - Netwrix Auditor collects audit data from the specified data source (application, server, storage
   system, and so on).
