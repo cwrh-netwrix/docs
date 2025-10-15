@@ -14,7 +14,7 @@ Follow the step to register for a Customer Portal account.
 
     ![Netwrix Website](@site/static/images/customer-portal/website.png)
 
- 2. On the top banner of our website, hover over **Customers** and select **Customer Portal**.
+ 2. In the upper-right corner, click the user icon. This opens the Sign In page in another tab.
 
     ![Sign Up Page](@site/static/images/customer-portal/sign-up.png)
 
@@ -27,7 +27,7 @@ Follow the step to register for a Customer Portal account.
     * Direct Phone – Enter your corporate phone number
 
  4. Check the **I'm not a robot** box.
- 5. Read the [Netwrix Privacy Policy](https://www.netwrix.com/privacy.html) and then accept it by checking the box.
+ 5. Read the [Netwrix Privacy Policy](https://www.netwrix.com/en/legal/privacy-policy) and then accept it by checking the box.
  6. Click **Sign Up**.
 
     ![Thank You for Signing Up Message](@site/static/images/customer-portal/thank-you.png)
@@ -45,11 +45,11 @@ Follow the step to register for a Customer Portal account.
 
    ![Customer Portal Home Page](@site/static/images/customer-portal/home.png)
 
- 9. Log into the <Company /> Customer Portal with the password provided in the activation email. You will be redirected to the portal's Home page. You can return to the main <Company /> website by clicking the logo in the upper left corner.
+ 9. Your account will be activated and you will be redirected to the Ready to use page. Click the **Netwrix products link** to open the portal's Home page. You can return to the main <Company /> website by clicking the logo in the upper left corner.
 
-10. To change your password, go to My Profile and click Change Password.
+10. The activation email included a temporary password. To change your password, go to My Profile and click **Change Password**.
 
-From the <Company /> website, you can access the Customer Portal through the Customers > Customer Portal link or through the drop-down menu from the user icon.
+From the <Company /> website, you can access the Customer Portal through the drop-down menu from the user icon.
 
 ## Troubleshooting Issues in the <Company /> Customer Portal
 
