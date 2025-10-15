@@ -180,8 +180,8 @@ const config = {
       navbar: {
         logo: {
           alt: 'Netwrix Logo',
-          src: 'branding/logo-red.svg',
-          srcDark: 'branding/logo-white.svg',
+          src: 'branding/logo-dark.svg',
+          srcDark: 'branding/logo-light.svg',
           href: '/',
         },
         items: [
