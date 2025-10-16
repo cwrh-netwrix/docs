@@ -61,14 +61,14 @@ Because the check is case-sensitive, the system fails to find the existing times
    WHERE isr.IdentityStoreId = <IdentityStoreId>;
    ```
 
-   If you see `woodmenlife.org` (lowercase "w"), this confirms the mismatch.
+   If you see the domain in all lowercase letters (e.g., `domain.org`), this confirms the mismatch.
 
-   If the domain already matches the correct casing (`Woodmenlife.org`), no change is needed.
+   If the domain already matches the correct title case (e.g., `Domain.org`), no change is needed.
 
 3. Backup the table (precaution):
 
    ```sql
-   SELECT * 
+   SELECT *
    INTO dbo.IdentityStoreReplication_Backup_<yyyymmdd>
    FROM SVC.IdentityStoreReplication
    WHERE IdentityStoreId = <IdentityStoreId>;
@@ -83,7 +83,7 @@ Because the check is case-sensitive, the system fails to find the existing times
      AND Domain = 'domain.org';
    ```
 
-5. Re-run the verification query from Step 2. The domain should now be stored as `Woodmenlife.org`.
+5. Re-run the verification query from Step 2. The domain should now be stored in the proper case (e.g., `Domain.org`).
 
 6. On the next replication cycle, confirm in the logs:
 
