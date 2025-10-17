@@ -16,15 +16,15 @@ export default function Root({ children }) {
       }
     };
 
-    // Initial update
-    updateFavicon();
+    // Initial update - temp. removed favicon changing on darkmode
+    //updateFavicon();
 
     // Watch for theme changes
-    const observer = new MutationObserver(updateFavicon);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ['data-theme']
-    });
+    // const observer = new MutationObserver(updateFavicon);
+    // observer.observe(document.documentElement, {
+    //   attributes: true,
+    //   attributeFilter: ['data-theme']
+    // });
 
     return () => observer.disconnect();
   }, []);
