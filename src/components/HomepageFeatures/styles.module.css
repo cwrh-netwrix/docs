@@ -171,13 +171,13 @@
 }
 
 .latestBadge {
-  background: #41F2CC;
-  color: #000000 !important;
+  background: var(--ifm-color-success);
+  box-shadow: 0 2px 8px rgba(22, 163, 74, 0.3);
 }
 
 .latestBadge:hover {
-  background: #34C263;
-  color: #000000 !important;
+  background: var(--ifm-color-success-dark);
+  color: white !important;
 }
 
 [data-theme='dark'] .versionBadge {
@@ -191,13 +191,13 @@
 }
 
 [data-theme='dark'] .latestBadge {
-  background: #27914A;
-  color: #D9FACB !important;
+  background: var(--ifm-color-success-darker);
+  color: var(--ifm-color-success-lightest);
 }
 
 [data-theme='dark'] .latestBadge:hover {
-  background: #41F2CC;
-  color: #000000 !important;
+  background: var(--ifm-color-success);
+  color: white !important;
 }
 
 /* Dark mode color improvements */

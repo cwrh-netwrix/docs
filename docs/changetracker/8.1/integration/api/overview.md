@@ -10,15 +10,15 @@ Netwrix Change Tracker provides a comprehensive REST API that allows customers t
 
 ## Authentication
 
-All API endpoints require authentication. You'll need to include appropriate authentication credentials with your requests. The specific authentication method is detailed in each API documentation page.
+All API endpoints require authentication. See [Authentication](/docs/changetracker/8.1/integration/api/authentication.md) for an example script.
 
-## Available APIs
+## Available Endpoints
 
 The following API endpoints are available in Netwrix Change Tracker:
 
 - [Agents](/docs/changetracker/8.1/integration/api/agents.md) – Pull data on agent statuses, configurations, and group memberships using the agentsRanked endpoint. This API allows you to retrieve detailed information about all agents in your environment, including their group memberships and applied tracking templates.
 
-- [Register Agents](/docs/changetracker/8.1/integration/api/register-agents.md) – Register new agents with the system using the agents/register endpoint. This API allows you to register both direct agents installed on devices and proxied devices accessed through another agent.
+- [Register Agents](/docs/changetracker/8.1/integration/api/register-agents.md) – Normally used by agents to register with the Hub, but this API allows you to register proxied devices to be accessed through a proxy agent.
 
 - [Credentials](/docs/changetracker/8.1/integration/api/credentials.md) – Manage authentication credentials used by ChangeTracker to connect to various systems and services. This API provides endpoints for creating, retrieving, updating, and deleting credentials for different credential types including Shell, Database, FTP, Cloud, ESX, ITSM, and Splunk.
 
