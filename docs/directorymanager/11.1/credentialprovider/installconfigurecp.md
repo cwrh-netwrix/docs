@@ -5,12 +5,6 @@ sidebar_position: 1
 ---
 
 # Netwrix Directory Manager Credential Provider - Technical Documentation
-
-**Document Version**: 1.0
-**Product Version**: 3.1.0.0
-**Last Updated**: October 15, 2025
-**Author**: Farhan (farhan.hussain@netwrix.com)
-
 ---
 
 ## Table of Contents
