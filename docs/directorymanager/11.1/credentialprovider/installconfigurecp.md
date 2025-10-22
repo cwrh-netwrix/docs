@@ -1,4 +1,10 @@
-# Netwrix GroupID Credential Provider - Technical Documentation
+---
+title: "Netwrix Directory Manager Credential Provider Installation and Configuration"
+description: "Installation and Configuration Guide for Netwrix Directory Manager Credential Provider"
+sidebar_position: 1
+---
+
+# Netwrix Directory Manager Credential Provider - Technical Documentation
 
 **Document Version**: 1.0
 **Product Version**: 3.1.0.0
@@ -24,22 +30,23 @@
 
 ## Introduction
 
-The Netwrix GroupID Credential Provider is a Windows Credential Provider that extends the Windows login screen to provide self-service password reset and account unlock functionality. This allows users to reset their passwords or unlock their accounts directly from the Windows login screen without administrator assistance.
+The Netwrix Directory Manager Credential Provider, formerly known as Netwrix GroupID Credential Provider, is a Windows Credential Provider that extends the Windows login screen to provide self-service password reset and account unlock functionality. This enables users to reset their passwords or unlock their accounts directly from the Windows login screen without administrator assistance.
 
 ### What This Documentation Covers
 
-- **Step-by-step installation and configuration** for first-time users
-- **Detailed configuration reference** for all available settings
-- **Common scenarios** with example configurations
-- **Troubleshooting guide** for resolving common issues
-- **Security considerations** and best practices
+- Step-by-step installation and configuration for first-time users
+- Detailed configuration reference for all available settings
+- Common scenarios with example configurations
+- Troubleshooting guide for resolving common issues
+- Security considerations and best practices
 
 ### Prerequisites
 
-- Windows 10 or Windows 11 (64-bit)
-- Administrator access to the target machine
-- Visual C++ 2022 Redistributable (x64) - included in installer
-- Network access to your password reset portal (HTTPS recommended)
+- **Windows 10 or Windows 11** (64-bit)
+- **Administrator access** to the target machine
+- **Visual C++ 2022 Redistributable** (x64) - included in installer
+- **Network access** to your password reset portal (HTTPS recommended)
+- **Minimum 500 MB** free disk space for installation
 
 ---
 
@@ -82,11 +89,11 @@ This section provides a complete step-by-step walkthrough for installing and con
 
 **Essential steps to get up and running:**
 
-1. ✅ Install the MSI package (PasswordCenterClientSetup64.msi)
-2. ✅ Configure password reset URLs in CPSettings.xml
-3. ✅ Restart the machine
-4. ✅ Verify the credential provider appears on login screen
-5. ✅ Test password reset functionality
+1. [ ] Install the MSI package (PasswordCenterClientSetup64.msi)
+2. [ ] Configure password reset URLs in CPSettings.xml
+3. [ ] Restart the machine
+4. [ ] Verify the credential provider appears on login screen
+5. [ ] Test password reset functionality
 
 **Time Required**: Approximately 15-20 minutes
 
@@ -190,7 +197,7 @@ Open `CPSettings.xml` in a text editor (as administrator) and modify these value
 
 **Important**: After modifying `CPSettings.xml`, restart the computer or lock/unlock the session twice for changes to take effect.
 
-For complete configuration options, see [Step 2: Configuration](#step-2-configuration) below.
+For complete configuration options, see [Configure Required Settings](#configure-required-settings) below.
 
 ---
 
@@ -1141,14 +1148,14 @@ After saving the configuration and restarting (or locking the screen):
 
 ### What's Next?
 
-✅ **Basic Setup Complete!** You now have a working credential provider.
+**Basic Setup Complete!** You now have a working credential provider.
 
 **Optional Next Steps**:
-- [Configure filtering](#credential-provider-filtering) to control which other login options appear
-- [Customize the appearance](#ui-customization) with logos and custom text
-- [Configure proxy settings](#network--proxy-settings) if behind a corporate proxy
-- [Deploy via GPO](#deployment-via-group-policy-gpo) for enterprise environments
-- [Enable logging](#logging-and-debugging) for troubleshooting
+- [Configure filtering](#filtering-configuration) to control which other login options appear
+- [Customize the appearance](#ui-customization-1) with logos and custom text
+- [Configure proxy settings](#network--proxy-settings-1) if behind a corporate proxy
+- [Deploy via GPO](#step-1a-enterprise-deployment-via-group-policy-software-installation) for enterprise environments
+- [Enable logging](#logging-and-debugging-1) for troubleshooting
 
 ---
 
@@ -2431,7 +2438,7 @@ Only as a temporary workaround for testing:
 4. Reinstall credential provider
 5. Boot in Safe Mode to access system if locked out
 
-**⚠️ Important**: If locked out of system, see [Recovery Mode](#recovery-mode-locked-out) below.
+**⚠️ Important**: If locked out of system, see [Emergency Removal](#rollback-scenario-3-emergency-removal-system-locked-out) below.
 
 ---
 
