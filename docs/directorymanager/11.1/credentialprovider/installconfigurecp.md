@@ -70,13 +70,13 @@ Understanding these terms will help you configure the credential provider effect
 ### Common CLSIDs Referenced in Filters
 
 These are Windows built-in credential provider CLSIDs that you may want to filter (show/hide):
-
+---
 - `{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}` - Password Credential Provider (standard Windows password login)
 - `{2135F72A-90B5-4ED3-A7F1-8BB705AC276A}` - Picture Password Provider
 - `{8AF662BF-65A0-4D0A-A540-A338A999D36F}` - Fingerprint Provider
 - `{BEC09223-B018-416D-A0AC-523971B639F5}` - Windows Hello Face Provider
 - `{D6886603-9D2F-4EB2-B667-1971041FA96B}` - PIN Provider
-
+---
 **Why these CLSIDs matter**: The FilterLogon and FilterUnlock settings use these CLSIDs to control which credential providers appear alongside the Netwrix provider. This helps simplify the login experience for users.
 
 ---
@@ -1473,7 +1473,7 @@ DisableAutoFilter = true (Filtering Disabled):
 
 **Format**:
 ```xml
-<FilterLogon value="{CLSID1};{CLSID2};{CLSID3}" />
+<FilterLogon value="CLSID1;CLSID2;CLSID3" />
 ```
 
 **Common CLSIDs to Filter**:
@@ -3129,9 +3129,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Imanami\GroupID\Version 10.0\PasswordCenter
 | ImageFile | logo.bmp | Logo filename |
 | IconImage | favicon.ico | Icon filename |
 | DisableAutoFilter | false | Enable/disable filtering |
-| FilterLogon | {CLSID};{CLSID} | Logon filter list |
-| FilterUnlock | {CLSID};{CLSID} | Unlock filter list |
-| AllowedCP | {CLSID};{CLSID} | Allowed providers |
+| FilterLogon | CLSID;CLSID | Logon filter list |
+| FilterUnlock | CLSID;CLSID | Unlock filter list |
+| AllowedCP | CLSID;CLSID | Allowed providers |
 | ProxyServer | proxy.company.com | Proxy server |
 | ProxyPort | 8080 | Proxy port |
 | ProxyType | http | Proxy type |
