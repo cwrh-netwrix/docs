@@ -24,9 +24,9 @@ knowledge_article_id: kA0Qk0000002Or3KAE
 
 > **NOTE:** Return to the main workflow page via this link: [Console Migration Workflow](/docs/kb/accessanalyzer/console-migration-workflow.md).
 >
-> Return to the previous section via this link: [Console Migration Workflow: Step 2—Prepare the Database](/docs/kb/accessanalyzer/console-migration-workflow.md)
+> Return to the previous section via this link: [Console Migration Workflow: Step 2—Prepare the Database](/docs\kb\accessanalyzer\console-migration-workflow-step-2-prepare-the-database.md)
 >
-> Proceed to the next section via this link: [Console Migration Workflow: Step 4—Validate the Migration](/docs/kb/accessanalyzer/console-migration-workflow.md).
+> Proceed to the next section via this link: [Console Migration Workflow: Step 4—Validate the Migration](/docs\kb\accessanalyzer\console-migration-workflow-step-4-validate-the-migration.md).
 ## Overview
 
 This article lists the steps for rebuilding the Netwrix Access Analyzer console during the Access Analyzer Migration.
@@ -36,7 +36,7 @@ This article lists the steps for rebuilding the Netwrix Access Analyzer console 
 Follow the steps below to rebuild the Access Analyzer Console on the new server. Before installation, ensure that the `NAA_Migration` folder with the `StealthAUDIT.lic` license file is stored locally on the new Access Analyzer Console so it can be referenced during the installation process.
 
 1. Confirm that the prerequisites have been met on the Access Analyzer Console Server.
-   - [Netwrix Access Analyzer 12.0 System Requirements] (https://docs.netwrix.com/docs/accessanalyzer/12_0)
+   - [Netwrix Access Analyzer 12.0 System Requirements](https://docs.netwrix.com/docs/accessanalyzer/12_0)
 2. Install the Access Analyzer application, as well as the Access Information Center (AIC) application if the server will host both.
 
    > IMPORTANT: Do **NOT** start the Access Analyzer or AIC applications at this time.
@@ -138,9 +138,9 @@ If using any of the below, please recreate the certificate for the new NAA Conso
 ## Related Links
 
 - [Console Migration Workflow](/docs/kb/accessanalyzer/console-migration-workflow.md)
-- [Console Migration Workflow: Step 2—Prepare the Database](/docs/kb/accessanalyzer/console-migration-workflow.md)
-- [Console Migration Workflow: Step 4—Validate the Migration](/docs/kb/accessanalyzer/console-migration-workflow.md)
-- [Netwrix Access Analyzer 12.0 System Requirements] (https://docs.netwrix.com/docs/accessanalyzer/12_0)
+- [Console Migration Workflow: Step 2—Prepare the Database](/docs\kb\accessanalyzer\console-migration-workflow-step-2-prepare-the-database.md)
+- [Console Migration Workflow: Step 4—Validate the Migration](/docs\kb\accessanalyzer\console-migration-workflow-step-4-validate-the-migration.md)
+- [Netwrix Access Analyzer 12.0 System Requirements](https://docs.netwrix.com/docs/accessanalyzer/12_0)
 - [Access Analyzer Initial Configuration](https://docs.netwrix.com/docs/accessanalyzer/12_0)
 - [Netwrix Access Analyzer for SharePoint Online](https://docs.netwrix.com/docs/accessanalyzer/12_0/requirements/sharepoint/sharepoint/sharepointonline/activity)
 - [Netwrix Access Analyzer for Exchange Online](https://docs.netwrix.com/docs/accessanalyzer/12_0/requirements/exchange/exchangeonline/access)
