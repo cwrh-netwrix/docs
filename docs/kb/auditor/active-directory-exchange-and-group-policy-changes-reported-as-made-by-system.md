@@ -25,7 +25,7 @@ knowledge_article_id: kA00g000000H9SmCAK
 This article contains references to the most popular Active Directory, Exchange, and Group Policy changes which may be reported as made by **System** by Netwrix Auditor:
 
 - [Alert Reported Change Made by System](/docs/kb/auditor/alert-reported-change-made-by-system.md).
-- [System Changed Object Path after Account Name Chan](/docs/kb/auditor/system-changed-object-path-after-account-name-change.md).
+- [System Changed Object Path after Account Name Change](/docs/kb/auditor/system-changed-object-path-after-account-name-change.md).
 - [System Changed Client Operating System](/docs/kb/auditor/system-changed-client-operating-system.md).
 - [System Changed Directory Objects for Foreign Security Principals](/docs/kb/auditor/system-changed-directory-objects-for-foreign-security-principals.md).
 - [Workstation Field Reported as Unknown](/docs/kb/auditor/workstation-field-reported-as-unknown.md)
