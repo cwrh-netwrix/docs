@@ -117,7 +117,7 @@ Register-ScheduledTask -Xml (get-content $_.FullName | out-string) -TaskName $ta
 
    ![Configuration Wizard image](images/ka0Qk000000FDY1_0EMQk00000CFxaL.png)
 
-   1. See the following for more information on the Netwrix Access Analyzer Configuration Wizard: Access Analyzer Initial Configuration — https://docs.netwrix.com/docs/accessanalyzer/12_0
+   1. See the following for more information on the Netwrix Access Analyzer Configuration Wizard: [Access Analyzer Initial Configuration](https://docs.netwrix.com/docs/accessanalyzer/12_0)
 
 7. After completing the Configuration Wizard, the Access Analyzer Application should open automatically.
 
