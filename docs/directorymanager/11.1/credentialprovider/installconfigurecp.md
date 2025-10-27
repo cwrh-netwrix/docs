@@ -17,7 +17,7 @@ sidebar_position: 1
 6. [Common Deployment Scenarios](#common-deployment-scenarios)
 7. [Troubleshooting & FAQ](#troubleshooting--faq)
 8. [Security Best Practices](#security-best-practices)
-9. [Rollback Instructions](#rollback-instructions)
+9. [Rollback Instructions](#rollback-instructions) (includes upgrade procedure)
 10. [Support](#support)
 
 ---
@@ -29,6 +29,7 @@ The Netwrix Directory Manager Credential Provider, formerly known as Netwrix Gro
 ### What This Documentation Covers
 
 - Step-by-step installation and configuration for first-time users
+- Upgrade procedure (uninstall old version, install new version)
 - Detailed configuration reference for all available settings
 - Common scenarios with example configurations
 - Troubleshooting guide for resolving common issues
@@ -41,6 +42,16 @@ The Netwrix Directory Manager Credential Provider, formerly known as Netwrix Gro
 - **Visual C++ 2022 Redistributable** (x64) - included in installer
 - **Network access** to your password reset portal (HTTPS recommended)
 - **Minimum 500 MB** free disk space for installation
+
+### Upgrade Policy
+
+**Important:** This product does NOT support in-place upgrades. To upgrade to a newer version:
+1. Uninstall the current version (see [Rollback Instructions](#rollback-instructions))
+2. Restart the computer
+3. Install the new version following the [First-Time Setup Guide](#first-time-setup-guide)
+4. Apply your configuration settings
+
+Your configuration settings in CPSettings.xml or Group Policy will be preserved during uninstall and can be reused with the new version.
 
 ---
 
@@ -157,7 +168,7 @@ Open `CPSettings.xml` in a text editor (as administrator) and modify these value
 
 1. **Forgot Password Link Text**:
    ```xml
-   <ForgetPasswordText value="Forgot Password?" />
+   <ForgotPasswordText value="Forgot Password?" />
    ```
    Customize the text that appears on the Windows logon screen for the password reset option.
 
@@ -384,8 +395,9 @@ If you selected "Advanced" in step 3.4, configure additional options:
    - Multiple transforms can be added if needed (processed in order from top to bottom)
 
 3. **Upgrades Tab**:
-   - Configure if this package replaces a previous version
-   - Add previous versions if upgrading from older credential provider
+   - **Note:** This tab is for MSI supersedence configuration only, NOT for in-place upgrades
+   - Configure only if this MSI package should replace/uninstall a different product
+   - Leave empty for standard deployments (the product does not support version upgrades)
 
 4. **Security Tab**:
    - Verify "Authenticated Users" has "Read" permission
@@ -748,15 +760,16 @@ If your app depends on other applications (e.g., Visual C++ Redistributable):
 
 **Step 6: Supersedence**
 
-If this version replaces a previous credential provider version:
+**Note:** Supersedence is for replacing different products, NOT for upgrading versions of this product.
 
-1. **Add Supersedence**:
-   - Click: **+ Add**
-   - Select previous version of credential provider
-   - Supersedence type: **Uninstall** or **Update**
+For version upgrades of this credential provider:
+- You must first uninstall the old version
+- Then deploy the new version as a fresh installation
+- See [Upgrade Policy](#upgrade-policy) for details
 
-2. **Or Skip** for first-time deployment:
-   - Click: **Next**
+For first-time deployment:
+1. **Skip this step**:
+   - Click: **Next** without adding supersedence
 
 **Step 7: Assignments**
 
@@ -2369,7 +2382,43 @@ Only as a temporary workaround for testing:
 
 ---
 
-#### Q10: Do I need to restart after changing configuration?
+#### Q10: How do I upgrade to a newer version?
+
+**Answer**: This product does NOT support in-place upgrades. You must uninstall the old version first.
+
+**Upgrade Procedure**:
+
+1. **Backup Current Configuration**:
+   - Export registry settings (if using GPO)
+   - Copy CPSettings.xml to a safe location
+   - Document current configuration
+
+2. **Uninstall Current Version**:
+   - Control Panel → Programs and Features
+   - Select "Netwrix GroupID Credential Provider"
+   - Click "Uninstall"
+   - Restart the computer
+
+3. **Install New Version**:
+   - Follow the [First-Time Setup Guide](#first-time-setup-guide)
+   - Install the new MSI package
+   - Restart the computer
+
+4. **Restore Configuration**:
+   - Copy your backed-up CPSettings.xml to the installation directory
+   - Or reapply GPO settings
+   - Restart or lock/unlock to verify
+
+**For Enterprise Deployments**:
+- Update the MSI package in your GPO/SCCM deployment
+- Configure the GPO to uninstall old version before installing new version
+- Test with a pilot group before rolling out organization-wide
+
+See [Upgrade Policy](#upgrade-policy) for details.
+
+---
+
+#### Q11: Do I need to restart after changing configuration?
 
 **Answer**: It depends on what you changed and how:
 
