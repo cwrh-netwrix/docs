@@ -34,5 +34,6 @@ The following learning paths provide Partner certification for Presales Engineer
     * [Netwrix Password Secure Presales Engineer](./password-secure.md)
     * [Netwrix Privileged Secure Presales Engineer](./privilege-secure.md)
 * Additional Products
+    * [Netwrix 1Seccure Core Presales Engineer](./1secure-core.md)
     * [Netwrix Platform Governance for NetSuite Presales Engineer](./platform-governance-for-netsuite.md)
     * [Netwrix Platform Governance for Salesforce Presales Engineer](./platform-governance-for-salesforce.md)
