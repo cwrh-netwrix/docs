@@ -111,7 +111,7 @@ This method is suitable for single computers or small deployments where centrali
 #### Installation Steps
 
 1. **Download the Installer**
-   - Obtain `PasswordCenterClientSetup64.msi` (also referred to as `NetwrixdirectorymanagerCredentialprovider.msi` in legacy documentation) from your Netwrix Product Library or link shared by your Account Manager
+   - Obtain `Netwrix Directory Manager Credential Provider` from your Netwrix Product Library or link shared by your Account Manager
    - Verify the file is digitally signed by Netwrix
 
 2. **Run the Installer**
@@ -255,7 +255,7 @@ If you need to customize the MSI installation (such as pre-configuring the SOURC
 
 **Prerequisites**:
 - Orca MSI editor tool (included in Windows SDK)
-- MSI package (PasswordCenterClientSetup64.msi or NetwrixdirectorymanagerCredentialprovider.msi)
+- MSI package (PasswordCenterClientSetup64.msi)
 
 **Steps to Create MST Transform File**:
 
@@ -271,7 +271,7 @@ If you need to customize the MSI installation (such as pre-configuring the SOURC
    - Launch Orca application
    - Click **File** → **Open**
    - Browse to the Credential Provider folder
-   - Select and open `NetwrixdirectorymanagerCredentialprovider.msi` (or `PasswordCenterClientSetup64.msi`)
+   - Select and open `PasswordCenterClientSetup64.msi` 
 
    ![Credential Provider in Orca](/images/directorymanager/11.1/portal/user/manage/cp_loaded.webp)
 
@@ -318,7 +318,7 @@ If you need to customize the MSI installation (such as pre-configuring the SOURC
 **Files Required in Network Share After This Step**:
 ```
 \\fileserver\software\CredentialProvider\
-├── PasswordCenterClientSetup64.msi  (or NetwrixdirectorymanagerCredentialprovider.msi)
+├── PasswordCenterClientSetup64.msi
 ├── CustomConfig.mst                  (your generated transform file)
 └── Config\
     └── CPSettings.xml                (configuration file)
