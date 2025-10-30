@@ -16,7 +16,7 @@ This learning path grants <Company /> certification as a Sales Professional for 
 * <NEPM />
 * <NEP />
 
-It contains the following course:
+It contains the following courses:
 
 * 1982 Introduction to <Company /> Endpoint Management Solution
 * Introduction to the <Company /> Solution for Endpoint Management

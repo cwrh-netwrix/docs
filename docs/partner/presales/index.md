@@ -3,7 +3,7 @@ title: Presales Engineer Certification Learning Paths
 sidebar_position: 1330
 tags: [certification, partners, presales]
 keywords: [training, course, certification, partners, presales]
-description: "Learn about the Netwrix Presales Engineer ceritifcation options"
+description: "Learn about the Netwrix Presales Engineer certification options"
 ---
 
 The following learning paths provide Partner certification for Presales Engineers:
@@ -30,10 +30,10 @@ The following learning paths provide Partner certification for Presales Engineer
     * [Netwrix Recovery for Active Directory Presales Engineer](./recovery-for-ad.md)
     * [Netwrix Threat Prevention Presales Engineer](./threat-prevention.md)
     * [Netwrix Threat Manager Presales Engineer](./threat-manager.md)
-    * [Netwrix Identity Threat Detection & Response Solution Presales Enagineer](identity-threat-detection-and-response.md)
+    * [Netwrix Identity Threat Detection & Response Solution Presales Engineer](identity-threat-detection-and-response.md)
 * Privilege Access Management Solution
     * [Netwrix Endpoint Policy Manager Presales Engineer](./endpoint-policy-manager.md)
     * [Netwrix Password Secure Presales Engineer](./password-secure.md)
     * [Netwrix Privileged Secure Presales Engineer](./privilege-secure.md)
 * Additional Product
-    * [Netwrix 1Seccure Core Presales Engineer](./1secure-core.md)
+    * [Netwrix 1Secure Core Presales Engineer](./1secure-core.md)
