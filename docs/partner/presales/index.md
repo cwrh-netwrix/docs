@@ -22,6 +22,8 @@ The following learning paths provide Partner certification for Presales Engineer
     * [Netwrix Endpoint Protector Presales Engineer](./endpoint-protector.md)
 * Identity Management Solution
     * [Netwrix Identity Manager Presales Engineer](./identity-manager.md)
+    * [Netwrix Platform Governance for NetSuite Presales Engineer](./platform-governance-for-netsuite.md)
+    * [Netwrix Platform Governance for Salesforce Presales Engineer](./platform-governance-for-salesforce.md)
 * Identity Threat Detection & Response Solution
     * [Netwrix Access Analyzer Presales Engineer](./access-analyzer.md)
     * [Netwrix PingCastle Presales Engineer](./pingcastle.md)
@@ -33,7 +35,5 @@ The following learning paths provide Partner certification for Presales Engineer
     * [Netwrix Endpoint Policy Manager Presales Engineer](./endpoint-policy-manager.md)
     * [Netwrix Password Secure Presales Engineer](./password-secure.md)
     * [Netwrix Privileged Secure Presales Engineer](./privilege-secure.md)
-* Additional Products
+* Additional Product
     * [Netwrix 1Seccure Core Presales Engineer](./1secure-core.md)
-    * [Netwrix Platform Governance for NetSuite Presales Engineer](./platform-governance-for-netsuite.md)
-    * [Netwrix Platform Governance for Salesforce Presales Engineer](./platform-governance-for-salesforce.md)
